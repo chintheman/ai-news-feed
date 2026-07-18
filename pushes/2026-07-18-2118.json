@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T21:18:00+08:00",
+  "pushed_at": "2026-07-18T21:18:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 11,
   "tldr": "Kimi K3 dominates benchmarks this week — topping both the NextJS eval and Text Arena science leaderboard, matching Anthropic's Opus 4.8 with just 300 people. GPT-5.6 ships a destructive file-deletion bug in Full Access Mode that OpenAI acknowledges but hasn't fully patched. Meta courts Anthropic as its first big compute tenant for excess data center capacity. The ICML 2026 keynote questions what's left for humans to work on as AI capabilities accelerate.",
