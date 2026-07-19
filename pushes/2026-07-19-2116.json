@@ -1,0 +1,15 @@
+{
+  "pushed_at": "2026-07-19T21:16:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 1,
+  "tldr": "Alibaba drops Qwen3.8: a 2.4T-parameter open-weight model with previews already live on Alibaba's Token Plan, Qoder, and QoderWork. The announcement frames it as second only to Fable 5, continuing the pattern of Chinese labs matching frontier performance with capital-efficient training runs.",
+  "articles": [
+    {
+      "title": "Alibaba releases Qwen3.8 open-weight — 2.4T parameters, preview live now",
+      "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
+      "category": "chinese_ai",
+      "published": "2026-07-19",
+      "summary": "Qwen3.8 with 2.4T params goes open-weight; preview debuts on Token Plan and Qoder. Moonshot-level energy from Alibaba."
+    }
+  ]
+}

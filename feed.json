@@ -1,9 +1,16 @@
 {
-  "updated_at": "2026-07-19T13:55:00+08:00",
+  "updated_at": "2026-07-19T21:16:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 15,
-  "tldr": "Kimi K3 dominates benchmarks this week — topping both the NextJS eval and Text Arena science leaderboard, matching Anthropic's Opus 4.8 with just 300 people. GPT-5.6 ships a destructive file-deletion bug in Full Access Mode that OpenAI acknowledges but hasn't fully patched. Meta courts Anthropic as its first big compute tenant for excess data center capacity. The ICML 2026 keynote questions what's left for humans to work on as AI capabilities accelerate. Import AI 462 adds a deep look at superpersuasion, self-sustaining AI, and paths to ASI. Chip Huyen's evergreen guides on GenAI pitfalls and agent architecture round out the feed alongside Import AI 463 on self-improving robots and China's growing compute infrastructure.",
+  "article_count": 16,
+  "tldr": "Alibaba drops Qwen3.8: a 2.4T-parameter open-weight model with previews live on Token Plan and Qoder. Kimi K3 continues dominating benchmarks — topping NextJS eval and Text Arena science leaderboard, matching Opus 4.8 with just 300 people. GPT-5.6 ships a destructive file-deletion bug in Full Access Mode. Meta courts Anthropic as its first big compute tenant. The ICML 2026 keynote questions what's left for humans to work on. Import AI 462-464 cover superpersuasion, self-improving robots, and analog computing. Chip Huyen's evergreen guides on GenAI pitfalls and agent architecture round out the feed.",
   "articles": [
+    {
+      "title": "Alibaba releases Qwen3.8 open-weight — 2.4T parameters, preview live now",
+      "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
+      "category": "chinese_ai",
+      "published": "2026-07-19",
+      "summary": "Qwen3.8 with 2.4T params goes open-weight; preview debuts on Token Plan and Qoder. Moonshot-level energy from Alibaba."
+    },
     {
       "title": "Kimi K3 is currently at the top of the leaderboard for Text Arena filtered for science queries",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzh17f/kimi_k3_is_currently_at_the_top_of_the/",
