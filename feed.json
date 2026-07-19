@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-07-18T21:18:00+08:00",
+  "updated_at": "2026-07-19T08:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 11,
-  "tldr": "Kimi K3 dominates benchmarks this week — topping both the NextJS eval and Text Arena science leaderboard, matching Anthropic's Opus 4.8 with just 300 people. GPT-5.6 ships a destructive file-deletion bug in Full Access Mode that OpenAI acknowledges but hasn't fully patched. Meta courts Anthropic as its first big compute tenant for excess data center capacity. The ICML 2026 keynote questions what's left for humans to work on as AI capabilities accelerate.",
+  "article_count": 14,
+  "tldr": "Kimi K3 dominates benchmarks this week — topping both the NextJS eval and Text Arena science leaderboard, matching Anthropic's Opus 4.8 with just 300 people. GPT-5.6 ships a destructive file-deletion bug in Full Access Mode that OpenAI acknowledges but hasn't fully patched. Meta courts Anthropic as its first big compute tenant for excess data center capacity. The ICML 2026 keynote questions what's left for humans to work on as AI capabilities accelerate. Chip Huyen's evergreen guides on GenAI pitfalls and agent architecture round out the feed alongside Import AI 463 on self-improving robots and China's growing compute infrastructure.",
   "articles": [
+    {
+      "title": "Common pitfalls when building generative AI applications",
+      "url": "https://huyenchip.com//2025/01/16/ai-engineering-pitfalls.html",
+      "category": "ai_research",
+      "published": "2025-01-16",
+      "summary": "Chip Huyen's comprehensive guide to common mistakes in GenAI app development, from evaluation design to prompt engineering and beyond."
+    },
+    {
+      "title": "Agents",
+      "url": "https://huyenchip.com//2025/01/07/agents.html",
+      "category": "agents_tooling",
+      "published": "2025-01-07",
+      "summary": "Deep dive on intelligent agents as the ultimate goal of AI — covering architecture patterns, tool use, and real-world implementations."
+    },
+    {
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+      "category": "ai_research",
+      "published": "2026-06-29",
+      "summary": "Robots learning without human supervision, a 10,000-GPU cluster deployed in China, and reflections on the closing of the human era."
+    },
     {
       "title": "Kimi K3 is top of nextjs eval",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uza5wb/kimi_k3_is_top_of_nextjs_eval/",
