@@ -1,29 +1,15 @@
 {
-  "updated_at": "2026-07-19T08:15:00+08:00",
+  "updated_at": "2026-07-19T13:55:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 14,
-  "tldr": "Kimi K3 dominates benchmarks this week — topping both the NextJS eval and Text Arena science leaderboard, matching Anthropic's Opus 4.8 with just 300 people. GPT-5.6 ships a destructive file-deletion bug in Full Access Mode that OpenAI acknowledges but hasn't fully patched. Meta courts Anthropic as its first big compute tenant for excess data center capacity. The ICML 2026 keynote questions what's left for humans to work on as AI capabilities accelerate. Chip Huyen's evergreen guides on GenAI pitfalls and agent architecture round out the feed alongside Import AI 463 on self-improving robots and China's growing compute infrastructure.",
+  "article_count": 15,
+  "tldr": "Kimi K3 dominates benchmarks this week — topping both the NextJS eval and Text Arena science leaderboard, matching Anthropic's Opus 4.8 with just 300 people. GPT-5.6 ships a destructive file-deletion bug in Full Access Mode that OpenAI acknowledges but hasn't fully patched. Meta courts Anthropic as its first big compute tenant for excess data center capacity. The ICML 2026 keynote questions what's left for humans to work on as AI capabilities accelerate. Import AI 462 adds a deep look at superpersuasion, self-sustaining AI, and paths to ASI. Chip Huyen's evergreen guides on GenAI pitfalls and agent architecture round out the feed alongside Import AI 463 on self-improving robots and China's growing compute infrastructure.",
   "articles": [
     {
-      "title": "Common pitfalls when building generative AI applications",
-      "url": "https://huyenchip.com//2025/01/16/ai-engineering-pitfalls.html",
-      "category": "ai_research",
-      "published": "2025-01-16",
-      "summary": "Chip Huyen's comprehensive guide to common mistakes in GenAI app development, from evaluation design to prompt engineering and beyond."
-    },
-    {
-      "title": "Agents",
-      "url": "https://huyenchip.com//2025/01/07/agents.html",
-      "category": "agents_tooling",
-      "published": "2025-01-07",
-      "summary": "Deep dive on intelligent agents as the ultimate goal of AI — covering architecture patterns, tool use, and real-world implementations."
-    },
-    {
-      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-      "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-      "category": "ai_research",
-      "published": "2026-06-29",
-      "summary": "Robots learning without human supervision, a 10,000-GPU cluster deployed in China, and reflections on the closing of the human era."
+      "title": "Kimi K3 is currently at the top of the leaderboard for Text Arena filtered for science queries",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzh17f/kimi_k3_is_currently_at_the_top_of_the/",
+      "category": "ai_models",
+      "published": "2026-07-18",
+      "summary": "Kimi K3 leads the Text Arena science leaderboard, reinforcing its reasoning chops across domains."
     },
     {
       "title": "Kimi K3 is top of nextjs eval",
@@ -31,13 +17,6 @@
       "category": "ai_models",
       "published": "2026-07-17",
       "summary": "Moonshot AI's Kimi K3 tops the NextJS evaluation benchmark, signaling strong code generation capability."
-    },
-    {
-      "title": "Kimi K3 is currently at the top of the leaderboard for Text Arena filtered for science queries",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzh17f/kimi_k3_is_currently_at_the_top_of_the/",
-      "category": "ai_models",
-      "published": "2026-07-18",
-      "summary": "Kimi K3 leads the Text Arena science leaderboard, reinforcing its reasoning chops across domains."
     },
     {
       "title": "Just like Deepseek, China's Kimi K3 is forcing Western AI labs to question their compute advantage",
@@ -96,11 +75,39 @@
       "summary": "Community discussion on top local vision-language models with detailed hardware and inference setups."
     },
     {
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+      "category": "ai_research",
+      "published": "2026-06-29",
+      "summary": "Robots learning without human supervision, a 10,000-GPU cluster deployed in China, and reflections on the closing of the human era."
+    },
+    {
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+      "category": "ai_research",
+      "published": "2026-06-22",
+      "summary": "Explores AI-powered superpersuasion risks, self-sustaining AI systems that bootstrap their own improvement, and debated paths to ASI."
+    },
+    {
       "title": "Why AI hasn't replaced software engineers, and won't",
       "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
       "category": "industry",
       "published": "2026-06-11",
       "summary": "Argues coding agents are complementing tools, not replacements — framing AI as normal technology."
+    },
+    {
+      "title": "Common pitfalls when building generative AI applications",
+      "url": "https://huyenchip.com//2025/01/16/ai-engineering-pitfalls.html",
+      "category": "ai_research",
+      "published": "2025-01-16",
+      "summary": "Chip Huyen's comprehensive guide to common mistakes in GenAI app development, from evaluation design to prompt engineering and beyond."
+    },
+    {
+      "title": "Agents",
+      "url": "https://huyenchip.com//2025/01/07/agents.html",
+      "category": "agents_tooling",
+      "published": "2025-01-07",
+      "summary": "Deep dive on intelligent agents as the ultimate goal of AI — covering architecture patterns, tool use, and real-world implementations."
     }
   ]
 }
