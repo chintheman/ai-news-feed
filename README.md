@@ -21,13 +21,23 @@ Aggregated AI and agentic news from the Hermes Agent AI Reporter.
     {
       "title": "Article headline",
       "url": "https://...",
-      "category": "ai_models | agents_tooling | hermes_nous | anthropic | deepseek | chinese_ai | platforms_integration",
+      "category": "ai_models | agents_tooling | hermes_nous | anthropic | deepseek | chinese_ai | platforms_integration | ai_research | industry | moonshot_ai | policy | zo_computer",
       "published": "2026-07-18",
       "summary": "1-2 line summary of what this is about"
     }
   ]
 }
 ```
+
+### Link quality
+
+`url` must point at the specific post/article, never at an account's profile
+page (e.g. `https://x.com/AnthropicAI/status/1234567890`, not
+`https://x.com/AnthropicAI`). A profile-only link forces the reader to go
+hunt for the actual source, which defeats the point of the feed. Run
+`python3 scripts/validate_feed.py` before publishing a new `feed.json` or
+`pushes/*.json` — it flags profile-only social links, non-numeric status IDs,
+undocumented categories, and duplicate URLs.
 
 ## Raw Data Source
 
