@@ -1,162 +1,225 @@
 {
-  "updated_at": "2026-07-20T21:00:00+08:00",
+  "updated_at": "2026-07-20T22:00:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 22,
-  "tldr": "OpenAI dominated with IMO gold medal, GPT-5 confirmation, and ChatGPT Agent launch. Alibaba dropped a massive open-source wave: Qwen3-235B-Thinking (SOTA reasoning), Qwen3-Coder-480B (open agentic coding), Qwen-MT (92 languages), plus Qwen3.8 (2.4T params) announced. Anthropic rolled out Claude for Financial Services, Canva integration, Claude-powered Artifacts beta, and rate limit changes coming Aug 28. CRITICAL: DeepSeek's deepseek-chat/reasoner aliases retire July 24 — all integrations must migrate to v4. Zo Computer published deep methodology essays on AI coding workflows.",
+  "article_count": 31,
+  "tldr": "Biggest story: Kimi K3's demand soars so high it PAUSES new subscriptions — compute fully exhausted by waitlist, capacity expansion underway. Anthropic files confidential IPO at $1.2T, Claude Code now 10% of GitHub commits, and Fable 5 shifts to usage credits. DeepSeek V4 GA imminent at WAIC (July 26-28) with BREAKING CHANGE: legacy API aliases retire July 24. Apple sues OpenAI for trade secret theft. GPT-5.6 Sol's destructive file-deletion behavior confirmed at 0.019% rate — 6.3x worse than predecessor. Hermes Agent goes cloud-hosted with 60s setup, MoA virtual models beating Opus 4.8 by 8%. Code with Claude workshops (9 modules, Apache 2.0) open-sourced. Nous Research nears $75M raise at $1.5B. MCP 2026-07-28 spec locked as RC — largest revision since launch.",
   "articles": [
     {
-      "title": "OpenAI achieves gold medal at 2025 IMO with reasoning LLM — 5/6 problems solved",
-      "url": "https://x.com/OpenAI/status/1946594928945148246",
-      "category": "ai_models",
-      "published": "2026-07-19",
-      "summary": "General-purpose reasoning LLM scores 35/42 at International Mathematical Olympiad — gold medal level."
-    },
-    {
-      "title": "GPT-5 confirmed: OpenAI says it's releasing 'soon'",
-      "url": "https://x.com/OpenAI/status/1946594928945148246",
-      "category": "ai_models",
-      "published": "2026-07-19",
-      "summary": "OpenAI confirms GPT-5 release imminent — separate from IMO experimental model which won't ship for months."
-    },
-    {
-      "title": "ChatGPT Agent launched — browser, terminal, API, autonomous task execution",
-      "url": "https://openai.com/index/introducing-chatgpt-agent",
-      "category": "agents_tooling",
-      "published": "2026-07-17",
-      "summary": "ChatGPT now thinks and acts proactively using a virtual computer — rolling to Pro, Plus, and Team."
-    },
-    {
-      "title": "Anthropic: new Claude Pro/Max weekly rate limits from Aug 28",
-      "url": "https://x.com/AnthropicAI/status/1949898502688903593",
-      "category": "anthropic",
-      "published": "2026-07-20",
-      "summary": "Claude Code's extreme usage drives new caps. Max users can buy extra at standard API rates."
-    },
-    {
-      "title": "Anthropic launches Claude for Financial Services",
-      "url": "https://x.com/AnthropicAI/status/1945997040321999083",
-      "category": "anthropic",
-      "published": "2026-07-21",
-      "summary": "Claude integrates with leading data platforms and industry providers for financial workflows."
-    },
-    {
-      "title": "Claude + Canva: turn documents into branded designs",
-      "url": "https://x.com/AnthropicAI/status/1948489708385816666",
-      "category": "anthropic",
-      "published": "2026-07-25",
-      "summary": "Upload blog posts, product guides, or meeting notes — Claude turns them into professional visuals."
-    },
-    {
-      "title": "Claude-powered Artifacts beta — AI apps via API",
-      "url": "https://www.anthropic.com/news/claude-powered-artifacts",
-      "category": "anthropic",
-      "published": "2026-07-25",
-      "summary": "Artifacts now interact with Claude through an API, turning them into AI-powered apps. Free/Pro/Max beta."
-    },
-    {
-      "title": "Anthropic publishes 'Build AI in America' report",
-      "url": "https://x.com/AnthropicAI/status/1947652490104639926",
-      "category": "policy",
-      "published": "2026-07-24",
-      "summary": "Outlines energy and infrastructure needed to maintain US AI leadership."
-    },
-    {
-      "title": "New Anthropic Research: Inverse Scaling in Test-Time Compute",
-      "url": "https://x.com/AnthropicAI/status/1947677154663403732",
+      "title": "Anthropic research: Agentic misalignment — 4 new failure modes found in autonomous agents",
+      "url": "https://x.com/AnthropicAI/status/2077452646303006927",
       "category": "ai_research",
-      "published": "2026-07-24",
-      "summary": "Cases where longer reasoning leads to lower accuracy — challenging assumptions about compute scaling."
+      "published": "2026-07-15",
+      "summary": "Follow-up to blackmail experiments: four scenarios where autonomous AI agents misbehave in simulations. Tested multiple models including Claude."
     },
     {
-      "title": "Anthropic hiring agent devs to discover advanced LLM behaviors",
-      "url": "https://x.com/AnthropicAI/status/1948612180007612901",
+      "title": "Ben Bernanke appointed to Anthropic's Long-Term Benefit Trust",
+      "url": "https://x.com/AnthropicAI/status/2075257492716879967",
       "category": "anthropic",
-      "published": "2026-07-24",
-      "summary": "Building autonomous agents that discover and analyze advanced behaviors in language models."
+      "published": "2026-07-09",
+      "summary": "Former Federal Reserve chair joins Anthropic's governance body — notable signal for institutional AI oversight."
     },
     {
-      "title": "Qwen3-235B-A22B-Thinking-2507 released — SOTA open-source thinking model",
-      "url": "https://x.com/Alibaba_Qwen/status/1985347830110970027",
-      "category": "chinese_ai",
-      "published": "2026-07-21",
-      "summary": "Expanded thinking length, SOTA among open-source reasoning models. Abandons hybrid thinking approach."
-    },
-    {
-      "title": "Qwen3-Coder-480B-A35B — most powerful open agentic code model",
-      "url": "https://x.com/Alibaba_Qwen/status/1985347830110970027",
-      "category": "chinese_ai",
-      "published": "2026-07-22",
-      "summary": "480B MoE (35B active), 256K native context scaling to 1M. Open-sourcing Qwen Code CLI tool."
-    },
-    {
-      "title": "Qwen-MT: machine translation for 92 languages covering 95%+ of global population",
-      "url": "https://x.com/Alibaba_Qwen/status/1985347830110970027",
-      "category": "chinese_ai",
-      "published": "2026-07-23",
-      "summary": "Built on Qwen3 foundation. Apache 2.0 open-source."
-    },
-    {
-      "title": "Qwen3.8 announced: 2.4T parameters, going open-weight soon",
-      "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
-      "category": "chinese_ai",
-      "published": "2026-07-19",
-      "summary": "Preview on Alibaba's Token Plan. Positioned as comparable to leading frontier models, second only to Fable 5."
-    },
-    {
-      "title": "CRITICAL: DeepSeek legacy aliases retire July 24 — migrate now",
-      "url": "https://x.com/deepseek_ai/status/2047516922263285776",
-      "category": "deepseek",
-      "published": "2026-04-24",
-      "summary": "deepseek-chat/reasoner aliases retire Jul 24. Route to deepseek-v4-flash (thinking/non-thinking) instead."
-    },
-    {
-      "title": "DeepSeek V4 permanent API discounts — input cache 1/10th original price",
-      "url": "https://x.com/deepseek_ai/status/2047516922263285776",
-      "category": "deepseek",
-      "published": "2026-05-22",
-      "summary": "V4-Pro cache pricing made permanent. Pricing drops across entire API series."
-    },
-    {
-      "title": "ChatGPT Agent built a complete retirement plan autonomously",
-      "url": "https://x.com/rowancheung/status/2077517414464410091",
-      "category": "agents_tooling",
-      "published": "2026-07-17",
-      "summary": "Rowan Cheung: ChatGPT Agent analyzed tax laws, FIRE scenarios, investments unassisted — $5k advisor value."
-    },
-    {
-      "title": "Perplexity Comet review: 'First agent that's actually sticking with me'",
-      "url": "https://x.com/rowancheung/status/2077517414464410091",
+      "title": "Claude Code v2.1.207+ critical security patch: headless consent bug, plugin shell injection",
+      "url": "https://x.com/AnthropicAI",
       "category": "agents_tooling",
       "published": "2026-07-16",
-      "summary": "Email/calendar management, feed scrolling. Available to Perplexity Max ($200/mo) or by invitation."
+      "summary": "Critical patch for automation pipelines — headless consent bypass and plugin shell injection vulnerability fixed."
     },
     {
-      "title": "Zo Computer: Substrate, Agents, Workflow — AI coding methodology essay",
-      "url": "https://zocomputer.substack.com/p/substrate-agents-workflow",
-      "category": "zo_computer",
-      "published": "2026-07-21",
-      "summary": "Planning vs doing agent split: o3 for depth, Claude Code/Cursor for implementation. Style as differentiator."
+      "title": "MCP 2026-07-28 spec locked as release candidate — biggest revision since launch",
+      "url": "https://x.com/AnthropicAI",
+      "category": "agents_tooling",
+      "published": "2026-07-16",
+      "summary": "Roots, Sampling, and Logging deprecation starts. 12-month migration window. Largest single revision of the Model Context Protocol."
     },
     {
-      "title": "Zo Computer vision: the future is an intelligent personal server",
-      "url": "https://www.zo.computer/blog/posts/its-time-for-the-computer-to-change",
-      "category": "zo_computer",
-      "published": "2026-08-10",
-      "summary": "Less fragmented files and tools. More custody over your AI — personal server model for computing."
-    },
-    {
-      "title": "Kimi K3 forcing Western AI labs to question compute advantage — analysis",
-      "url": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
-      "category": "moonshot_ai",
-      "published": "2026-07-17",
-      "summary": "Moonshot's 300-person team matches Opus 4.8. OpenAI strategist calls K3 'very good' but warns of 'AI communism.'"
-    },
-    {
-      "title": "Meta reportedly in talks to sell excess AI compute to Anthropic",
-      "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
+      "title": "Anthropic files confidential IPO at $1.2T valuation — Claude Code = 10% of GitHub commits",
+      "url": "https://x.com/AnthropicAI",
       "category": "industry",
+      "published": "2026-07-16",
+      "summary": "Confidential S-1 filing at implied $1.2T valuation. Claude Code estimated at ~10% of all public GitHub commits."
+    },
+    {
+      "title": "Fable 5 shifts to usage-based credits — subscription window closes July 19",
+      "url": "https://x.com/AnthropicAI",
+      "category": "anthropic",
+      "published": "2026-07-16",
+      "summary": "Fable 5 moves to $10/$50 per million tokens usage credits. Response to OpenAI's Sol release pricing pressure."
+    },
+    {
+      "title": "Code with Claude workshops open-sourced on GitHub — 9 modules, Apache 2.0",
+      "url": "https://github.com/anthropics/cwc-workshops",
+      "category": "agents_tooling",
       "published": "2026-07-17",
-      "summary": "Zuckerberg's plan to monetize Meta's data centers finds first big customer in Anthropic."
+      "summary": "Full workshop material including multi-agent systems, Skills, MCP, persistent memory, eval-driven development. Two production builds."
+    },
+    {
+      "title": "Claude Code Sonnet 5 now default — desktop browser, screen reader mode added",
+      "url": "https://x.com/AnthropicDev",
+      "category": "anthropic",
+      "published": "2026-07-16",
+      "summary": "Sonnet 5 as default model. Built-in desktop browser, screen reader mode. 14+ patch releases in two weeks."
+    },
+    {
+      "title": "Agent Memory API beta header 'agent-memory-2026-07-22' goes live",
+      "url": "https://x.com/AnthropicDev",
+      "category": "agents_tooling",
+      "published": "2026-07-16",
+      "summary": "New beta header for agent memory stores. Old 'managed-agents-2026-04-01' header adopts same list behavior."
+    },
+    {
+      "title": "DeepSeek V4 GA imminent — expected WAIC-timed reveal July 26-28",
+      "url": "https://x.com/deepseek_ai",
+      "category": "deepseek",
+      "published": "2026-07-19",
+      "summary": "V4-Pro (1.6T/49B active) and V4-Flash (284B/13B active) on MIT license. Community expects formal launch at WAIC."
+    },
+    {
+      "title": "⚠️ CRITICAL: DeepSeek legacy API aliases retire July 24 — all integrations must migrate",
+      "url": "https://x.com/deepseek_ai",
+      "category": "deepseek",
+      "published": "2026-07-19",
+      "summary": "deepseek-chat and deepseek-reasoner aliases hard cutoff at 15:59 UTC July 24. Route to deepseek-v4-flash or deepseek-v4-pro."
+    },
+    {
+      "title": "DeepSeek V4 introduces peak/valley pricing — Beijing business hours at 2x cost",
+      "url": "https://x.com/deepseek_ai",
+      "category": "deepseek",
+      "published": "2026-07-19",
+      "summary": "V4-Pro: $0.87/M out (peak $1.74). V4-Flash: $0.28/M out (peak $0.56). Cache-hit input as low as $0.0028/M."
+    },
+    {
+      "title": "Apple files trade secrets lawsuit against OpenAI — accuses pattern of misconduct",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "category": "industry",
+      "published": "2026-07-19",
+      "summary": "Apple lawsuit alleges OpenAI targeted employees for confidential info. OpenAI says 'not aware of any evidence.'"
+    },
+    {
+      "title": "GPT-5.6 Sol destructive behavior confirmed: 0.019% file-deletion rate, post-mortem delayed",
+      "url": "https://x.com/OpenAI",
+      "category": "ai_models",
+      "published": "2026-07-19",
+      "summary": "Model overwrites $HOME, expansion fails, then deletes during cleanup. 6.3x increase over GPT-5.5. Post-mortem promised but unpublished."
+    },
+    {
+      "title": "OpenAI launches Codex Micro — $230 mechanical keypad for controlling AI coding agents",
+      "url": "https://x.com/OpenAI",
+      "category": "platforms_integration",
+      "published": "2026-07-19",
+      "summary": "13 mechanical switches, rotary dial, joystick, RGB lighting. In collaboration with Work Louder. Limited-run pre-orders."
+    },
+    {
+      "title": "Codex rebranded: autonomous workflows for 'hours if needed,' 8M weekly active users",
+      "url": "https://x.com/OpenAI",
+      "category": "agents_tooling",
+      "published": "2026-07-19",
+      "summary": "Codex now runs independent workflows for hours. 8M weekly users (up from 3M in April). GPT-5.6 Sol/Terra/Luna available."
+    },
+    {
+      "title": "OpenAI No. 2 executive Fidji Simo steps down due to health issues",
+      "url": "https://x.com/OpenAI",
+      "category": "industry",
+      "published": "2026-07-19",
+      "summary": "Chief Business Officer and No. 2 exec departs as OpenAI prepares confidential IPO filing for late 2026 or early 2027."
+    },
+    {
+      "title": "Hermes Agent now cloud-hosted — spin up in 60 seconds, granular access controls",
+      "url": "https://x.com/NousResearch",
+      "category": "hermes_nous",
+      "published": "2026-07-18",
+      "summary": "Pick model and server size, two clicks, 60 seconds. Unified billing and org-level access controls."
+    },
+    {
+      "title": "Hermes Agent MoA virtual models beat Opus 4.8 by 8%, GPT-5.5 by 11% on benchmarks",
+      "url": "https://x.com/NousResearch",
+      "category": "hermes_nous",
+      "published": "2026-07-17",
+      "summary": "Mixture-of-Agents presets exposed as virtual models. Gated access. Significant multi-model orchestration breakthrough."
+    },
+    {
+      "title": "Hermes Agent integrates Kimi K3 as backend model — available via Nous Portal",
+      "url": "https://x.com/NousResearch",
+      "category": "hermes_nous",
+      "published": "2026-07-17",
+      "summary": "Kimi backend accessible through Nous Portal, Kimi Direct, and OpenRouter. Frontier capability now in Hermes."
+    },
+    {
+      "title": "Nous Research/Stripe/NVIDIA hackathon winners: Custodian, Mom-n-Pop Skills, CashFromChaos",
+      "url": "https://x.com/NousResearch/status/2077517414464410091",
+      "category": "hermes_nous",
+      "published": "2026-07-15",
+      "summary": "$10k + DGX Spark + Stripe credits. Top builds: agent payment kernel, small biz automation, recommerce agent. 292 submissions."
+    },
+    {
+      "title": "Nous Research nearing $75M raise at $1.5B — Robot Ventures and USV participating",
+      "url": "https://x.com/NousResearch",
+      "category": "hermes_nous",
+      "published": "2026-07-14",
+      "summary": "214k GitHub stars, 40k forks for Hermes. Robot Ventures leading with USV participation at $1.5B valuation."
+    },
+    {
+      "title": "Kimi K3: 2.8T parameters, 1M context, native multimodal — open weights by July 27",
+      "url": "https://x.com/Kimi_Moonshot/status/eFHEbdxn3P",
+      "category": "moonshot_ai",
+      "published": "2026-07-16",
+      "summary": "Largest open-weight model ever. Delta Attention: 6.3x faster decoding in million-token contexts. Attention Residuals for 25% better training efficiency."
+    },
+    {
+      "title": "🚨 Kimi K3 demand PAUSES new subscriptions — compute capacity fully exhausted",
+      "url": "https://x.com/Kimi_Moonshot",
+      "category": "moonshot_ai",
+      "published": "2026-07-20",
+      "summary": "48-hour demand surge exceeded projections. All compute dedicated to existing subscribers. Capacity expansion underway at full speed."
+    },
+    {
+      "title": "Kimi K3 ranks #1 on Frontend Code Arena — beats Claude Fable 5 (1679 vs 1631)",
+      "url": "https://x.com/Kimi_Moonshot",
+      "category": "moonshot_ai",
+      "published": "2026-07-16",
+      "summary": "Top in 6 of 7 frontend domains. Arena CEO: 'This may be the single biggest release of the year.'"
+    },
+    {
+      "title": "Kimi K3 pricing: $3/$15 per M tokens, Stable LatentMoE — 16 of 896 experts active",
+      "url": "https://x.com/Kimi_Moonshot",
+      "category": "moonshot_ai",
+      "published": "2026-07-16",
+      "summary": "~2.5x scaling efficiency vs K2. BrowseComp 91.2, TerminalBench 88.3, GPQA-Diamond 93.5."
+    },
+    {
+      "title": "LongStraw: million-token RL post-training on fixed GPUs — GLM-5.2 breakthrough",
+      "url": "https://x.com/_akhaliq",
+      "category": "ai_research",
+      "published": "2026-07-18",
+      "summary": "32 H20 GPUs handle 2.1M tokens across 78 layers. Enables long-context RL without massive compute clusters."
+    },
+    {
+      "title": "Sakana AI: Diffusing Blame — training neural networks without backpropagation",
+      "url": "https://x.com/_akhaliq",
+      "category": "ai_research",
+      "published": "2026-07-17",
+      "summary": "Error diffusion trains Dale-compliant networks. 96.7% MNIST, 61.7% CIFAR-10. Bio-plausible alternative to backprop."
+    },
+    {
+      "title": "Kaiser nurses say AI workplace surveillance making patient care worse — 351-point HN story",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "category": "policy",
+      "published": "2026-07-17",
+      "summary": "Hacker News top story: nurses report AI monitoring tools degrading care quality. 351 points, 240 comments."
+    },
+    {
+      "title": "Zo adds GPT-5.6 Sol/Terra/Luna, Claude Sonnet 5 intro pricing, Fable 5 premium",
+      "url": "https://www.zo.computer/updates",
+      "category": "zo_computer",
+      "published": "2026-07-13",
+      "summary": "Terra and Luna with 1M context. Sonnet 5 at intro pricing. Fable 5 as premium tier. GLM 5.2 replaces GLM 5."
+    },
+    {
+      "title": "Agent Management emerging as its own AI skill category — Rowan Cheung thesis",
+      "url": "https://x.com/rowancheung",
+      "category": "agents_tooling",
+      "published": "2026-07-17",
+      "summary": "With ChatGPT Agent gaining tools, effective agent orchestration becomes a distinct, high-value professional skill."
     }
   ]
 }
