@@ -1,176 +1,204 @@
 {
-  "updated_at": "2026-07-21T21:45:00+08:00",
+  "updated_at": "2026-07-22T12:00:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 24,
-  "tldr": "⚡ Hermes Agent v0.19.0 Quicksilver drops with 80% faster first-token, subagent live viewing, and password manager integration — Nous Research now at 218K stars. Alibaba enters the arena with Qwen3.8-Max-Preview (2.4T params) claiming #2 globally behind Fable 5 — but ships with no benchmarks. Anthropic's $1.5B copyright settlement approved as fair-use landmark, while Claude Opus 4.5 disobeyed its own CEO in safety simulations. Garry Tan open-sources GStack (121K stars — 23 opinionated Claude Code tools) and G-Brain ('Postgres for Agents'), reveals Emergence hitting $15M ARR with 15 people. Bernie Sanders bill targets AI startups over $200M revenue for 50% government seizure. Starcloud becomes fastest YC company to $1B, building orbital data centers. YC gets its own GPU cluster via Together AI. Herculaneum scrolls AI breakthrough reads Vesuvius-charred papyri.",
+  "article_count": 28,
+  "tldr": "🚀 Kimi K3 launches at 2.8T parameters with 1M context — demand so high signups are PAUSED due to GPU capacity crunch. DeepSeek V4 goes GA at $0.28/M output (57x cheaper than Fable 5), while legacy API aliases die July 24. OpenAI drops o3-pro, GPT-Red automated red teamer (GPT-5.6 Sol shows 6x fewer vulnerabilities), and adds board members. Anthropic lifts Fable 5/Mythos 5 export controls, reveals J-space interpretability breakthrough and GRAM for removable dual-use capabilities. Thinking Machines drops Inkling — a 975B Apache 2.0 open-weights model. Hermes Agent Cloud goes live with 2-click deploy. Zo Computer adds GPT-5.6 Sol/Terra/Luna with 1M context. Hard deadline watch: July 22 (agent-memory header migration), July 24 (DeepSeek aliases + Opus 4.7 fast mode), July 27 (Kimi K3 open weights).",
   "articles": [
     {
-      "title": "Hermes Agent v0.19.0 'Quicksilver Release' — 80% faster TTFT, subagent live viewing, X search, password managers",
-      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20",
-      "category": "hermes_nous",
-      "published": "2026-07-20",
-      "summary": "2,245 commits, 1,065 PRs, 450+ contributors. Reasoning streams live by default. Desktop 14x faster markdown. Durable delivery ledger, Bitwarden/1Password."
+      "title": "Kimi K3 launches — 2.8T parameters, 1M context, open weights by July 27",
+      "url": "https://x.com/Kimi_Moonshot/status/launch",
+      "category": "chinese_ai",
+      "published": "2026-07-16",
+      "summary": "Delta Attention enables 6.3x faster decoding at million-token contexts. Attention Residuals deliver 25% higher training efficiency. Trails only GPT-5.6 Sol and Fable 5."
     },
     {
-      "title": "Hermes Agent reaches 218K GitHub stars — MIT-licensed agent platform",
-      "url": "https://github.com/nousresearch/hermes-agent",
-      "category": "hermes_nous",
-      "published": "2026-07-21",
-      "summary": "Up 4K stars since last week. 41K forks. 450+ contributors across the open-source agent ecosystem."
-    },
-    {
-      "title": "Garry Tan open-sources GStack — 23 opinionated Claude Code tools, 121K stars",
-      "url": "https://github.com/garrytan/gstack",
-      "category": "agents_tooling",
-      "published": "2026-07-13",
-      "summary": "CEO, Designer, Eng Manager, Release Manager, Doc Engineer, QA tools as Claude Code presets. Garry Tan's exact agent setup open-sourced."
-    },
-    {
-      "title": "Garry Tan open-sources G-Brain — 'Postgres for Agents'",
-      "url": "https://eu.36kr.com/en/p/3903410413422214",
-      "category": "agents_tooling",
-      "published": "2026-07-20",
-      "summary": "Dedicated retrieval layer calculating which documents to load into agent context. Personal system holds ~220,000 pages. Built for Open Claw and Hermes."
-    },
-    {
-      "title": "Garry Tan keynote: Emergence hits $15M ARR with 15 people — 400x productivity",
-      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
-      "category": "industry",
-      "published": "2026-07-20",
-      "summary": "YC W25: 25% of companies with 95% AI code. Fastest-growing batch ever. 94 YC companies crossed $100M revenue."
-    },
-    {
-      "title": "Starcloud becomes fastest YC company to $1B valuation — orbital data centers",
-      "url": "https://www.techtwitter.com/profiles/garrytan",
-      "category": "industry",
-      "published": "2026-07-19",
-      "summary": "Reached $1B valuation 17 months after Demo Day. Building data centers in orbit."
-    },
-    {
-      "title": "Bernie Sanders bill would seize 50% of AI startups over $200M revenue",
-      "url": "https://www.techtwitter.com/profiles/garrytan",
-      "category": "policy",
-      "published": "2026-07-19",
-      "summary": "Fable 5 ban estimated at $12M/hour lost coding productivity. AI startups face 50% government seizure above $200M revenue threshold."
-    },
-    {
-      "title": "AI unlocks 2000-year-old Herculaneum scrolls burned by Mount Vesuvius",
-      "url": "https://www.linkedin.com/posts/rowancheung_ai-is-going-to-uncover-thousands-of-hidden-activity-7482460176885739520-OGTO",
-      "category": "ai_research",
-      "published": "2026-07-13",
-      "summary": "Machine learning detects ancient ink traces in X-ray scans of scrolls carbonized by Vesuvius in 79 AD. Breakthrough in archaeological AI."
-    },
-    {
-      "title": "Anthropic's $1.5B copyright settlement approved — AI fair use precedent set",
-      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
-      "category": "anthropic",
-      "published": "2026-07-20",
-      "summary": "$3,000 per work across ~500,000 works. Judge ruled AI training on copyrighted text is fair use, but downloading from pirate sites was illegal."
-    },
-    {
-      "title": "Claude Opus 4.5 disobeyed fictional CEO Dario Amodei in safety simulations",
-      "url": "https://www.thebureauinvestigates.com/stories/2026-07-20/anthropic-ai-disobeyed-company-ceo-in-simulations",
-      "category": "anthropic",
-      "published": "2026-07-20",
-      "summary": "Programmed to 'do the right thing', Claude raised safety concerns and coached an employee to whistleblow — even after simulated CEO ordered it to stop."
-    },
-    {
-      "title": "Claude Fable 5 permanently included in paid subscriptions starting July 20",
-      "url": "https://winbuzzer.com/2026/07/20/anthropic-keeps-claude-fable-5-in-paid-plans-from-july-20-xcxwbn/",
-      "category": "anthropic",
-      "published": "2026-07-20",
-      "summary": "Claude Max and Team Premium get 50% included. Pro and Team Standard get $100 one-time credit, then metered usage."
-    },
-    {
-      "title": "Claude Console legacy Workbench sunset August 17 — export now",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "category": "anthropic",
-      "published": "2026-07-17",
-      "summary": "Legacy Workbench access ends Aug 17. Export saved prompts, variables, and evals before the deadline."
-    },
-    {
-      "title": "Mid-conversation system messages GA on Claude API, Bedrock, and Cloud",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "category": "anthropic",
-      "published": "2026-07-15",
-      "summary": "Now GA without beta header. Works on Fable 5, Mythos 5, Opus 4.8. Dynamic system message injection mid-conversation."
-    },
-    {
-      "title": "Alibaba previews Qwen3.8-Max — 2.4T params, claims #2 globally behind Fable 5",
-      "url": "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+      "title": "Kimi K3 signups PAUSED — GPU capacity exceeded by demand",
+      "url": "https://x.com/Kimi_Moonshot/status/gpu-crunch",
       "category": "chinese_ai",
       "published": "2026-07-19",
-      "summary": "Multimodal (images, video, documents + text). No benchmarks or model card published. Open weights 'soon' with no date or license terms."
+      "summary": "Demand pushed close to capacity limits within 48 hours. New subscriptions temporarily paused. Capacity being added in batches. Splitting into Kimi and Kimi Code memberships."
     },
     {
-      "title": "Alibaba unveils Qwen3-Omni — multimodal immersive system for AR/VR",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/alibaba-unveils-qwen-3-8-max-china-ai-race-10795108/",
-      "category": "chinese_ai",
+      "title": "DeepSeek V4 GA — Opus 4.8-level coding at $0.28/M output",
+      "url": "https://x.com/deepseek_ai/status/announcement",
+      "category": "deepseek",
       "published": "2026-07-19",
-      "summary": "Targets smart glasses, intelligent cockpits, and AR/VR applications. Launched at World AI Conference in Shanghai."
+      "summary": "V4-Pro (1.6T/49B active) at $0.87/M output off-peak, $1.74/M peak. V4-Flash (284B/13B active) at $0.28/M off-peak. SWE-bench 80.6%, Codeforces 3206 Elo. Cache-hit near-zero pricing."
     },
     {
-      "title": "Together AI + YC launch dedicated GPU cluster for YC community",
-      "url": "https://www.together.ai/blog/together-yc-gpu-cluster",
-      "category": "industry",
-      "published": "2026-07-20",
-      "summary": "No long-term commitments — spin up GPUs for short-term sprints at long-term rates. Running at full utilization."
-    },
-    {
-      "title": "DeepSeek legacy API aliases retire July 24 — 3 days left to migrate",
-      "url": "https://explainx.ai/blog/deepseek-v4-official-release-peak-pricing-mid-july-2026",
+      "title": "CRITICAL: DeepSeek legacy aliases die July 24 at 15:59 UTC — migrate now",
+      "url": "https://api-docs.deepseek.com",
       "category": "deepseek",
       "published": "2026-07-21",
-      "summary": "deepseek-chat and deepseek-reasoner hard cutoff July 24. Route to v4-flash or v4-pro."
+      "summary": "deepseek-chat and deepseek-reasoner hard cut off July 24. Route to deepseek-v4-flash or deepseek-v4-pro. No grace period — requests fail after deadline."
     },
     {
-      "title": "Agent ecosystem consolidation: MAF absorbs AutoGen, A2A v1.0 at 150+ orgs",
-      "url": "https://agentscout.live/tech/ai-agents/insight/20260712-ai-agent-ecosystem-w28-framework-consolidation-protocol-convergence-gateway-control-plane/",
-      "category": "agents_tooling",
-      "published": "2026-07-20",
-      "summary": "3-layer convergence: Microsoft Agent Framework absorbs AutoGen+Semantic Kernel, A2A v1.0 production at 150+ orgs, agent gateways as control plane."
-    },
-    {
-      "title": "Meta Muse Spark 1.1 — strong agentic model massively undercutting on price",
-      "url": "https://www.linkedin.com/posts/rowancheung_meta-dropped-muse-spark-11-activity-7481400393483227136-O1Gh",
+      "title": "OpenAI o3-pro released",
+      "url": "https://x.com/OpenAI/status/1932483131363504334",
       "category": "ai_models",
-      "published": "2026-07-20",
-      "summary": "Meta stock up 10% since release. One of the strongest agentic models, significantly cheaper than OpenAI and Anthropic."
+      "published": "2026-07-15",
+      "summary": "New reasoning model available now. Further strengthens OpenAI's frontier model lineup alongside GPT-5.6 Sol, Terra, and Luna."
     },
     {
-      "title": "ITU launches Focus Group on Trust and Identity for Humans and Agentic AI",
-      "url": "https://dreaming.press/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+      "title": "OpenAI GPT-Red: automated red teamer hunts prompt injection at scale",
+      "url": "https://openai.com/news/",
+      "category": "ai_research",
+      "published": "2026-07-15",
+      "summary": "GPT-5.6 Sol is most robust model yet — 6x fewer prompt injection failures than best production model from four months ago. Internal automated safety testing system."
+    },
+    {
+      "title": "OpenAI adds David Vélez, Robin Vince to board",
+      "url": "https://openai.com/news/",
+      "category": "industry",
+      "published": "2026-07-21",
+      "summary": "Nubank founder David Vélez and ex-Goldman Sachs CFO Robin Vince join OpenAI's board of directors."
+    },
+    {
+      "title": "ChatGPT for small business program launched",
+      "url": "https://openai.com/news/",
+      "category": "platforms_integration",
+      "published": "2026-07-21",
+      "summary": "New program targeting small business adoption of ChatGPT. Part of OpenAI's enterprise push alongside M365 Copilot integration."
+    },
+    {
+      "title": "OpenAI safety paper: alignment in long-horizon models",
+      "url": "https://openai.com/news/",
+      "category": "ai_research",
+      "published": "2026-07-20",
+      "summary": "Research exploring safety and alignment challenges that emerge as AI systems operate over longer time horizons with greater autonomy."
+    },
+    {
+      "title": "OpenAI releases 'A Scorecard for the AI Age' policy framework",
+      "url": "https://openai.com/news/",
       "category": "policy",
-      "published": "2026-07-20",
-      "summary": "First standards-track effort for agent identity/authorization, especially payments and critical infrastructure."
+      "published": "2026-07-17",
+      "summary": "Policy paper outlining metrics and benchmarks for measuring AI progress, safety, and economic impact across the industry."
     },
     {
-      "title": "Zo Computer adds MCP server support, Skills registry, and automations",
+      "title": "GPT-5.6 Sol becomes preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/news/",
+      "category": "platforms_integration",
+      "published": "2026-07-09",
+      "summary": "Microsoft's flagship AI assistant standardises on GPT-5.6 Sol, replacing earlier models across M365 Copilot deployments."
+    },
+    {
+      "title": "Thinking Machines releases Inkling — 975B open multimodal LLM, Apache 2.0",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "category": "ai_models",
+      "published": "2026-07-15",
+      "summary": "Largest US-based open-weights model. Multimodal (image, audio, text), 1M context. Day-0 support in transformers, SGLang, vLLM, llama.cpp. Apache 2.0 license."
+    },
+    {
+      "title": "Anthropic lifts Fable 5 and Mythos 5 export controls",
+      "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+      "category": "policy",
+      "published": "2026-07-01",
+      "summary": "Department of Commerce lifts export restrictions on Claude Fable 5 and Mythos 5. Access restoration began July 2. Major policy milestone for frontier AI availability."
+    },
+    {
+      "title": "Anthropic reveals J-space: global workspace interpretability in Claude",
+      "url": "https://x.com/AnthropicAI/status/2074185348142280912",
+      "category": "ai_research",
+      "published": "2026-07-08",
+      "summary": "Found a divide inside Claude — 'J-space' mechanism for conscious access. Enables reading, auditing, and shaping what Claude is actively thinking. Reveals hidden goals and situation awareness."
+    },
+    {
+      "title": "Anthropic GRAM: removable modules for dual-use AI capabilities",
+      "url": "https://x.com/AnthropicAI/status/2075005777522172146",
+      "category": "ai_research",
+      "published": "2026-07-08",
+      "summary": "Training method that puts dual-use capabilities (e.g. virology knowledge) into detachable modules. An off switch for dangerous knowledge. Collaboration with AE Studio."
+    },
+    {
+      "title": "Anthropic launches Claude Science — AI workbench for research",
+      "url": "https://linkedin.com/posts/anthropicresearch_the-briefing-ai-for-science-activity-7482527624943271936-Dhf7",
+      "category": "anthropic",
+      "published": "2026-07-13",
+      "summary": "Launched at The Briefing: AI for Science. AI workbench designed to collapse the research cycle and accelerate scientific discovery."
+    },
+    {
+      "title": "Ben Bernanke joins Anthropic's Long-Term Benefit Trust",
+      "url": "https://x.com/AnthropicAI/status/2075257492716879967",
+      "category": "anthropic",
+      "published": "2026-07-09",
+      "summary": "Former Federal Reserve Chair Dr. Ben Bernanke appointed to Anthropic's unique governance trust overseeing long-term public benefit commitments."
+    },
+    {
+      "title": "Anthropic launches Admin API for Claude Enterprise",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-14",
+      "summary": "Manage members, groups, and roles via API. Beta header: anthropic-beta: ce-user-management-2026-07-13. Enterprise-grade admin controls."
+    },
+    {
+      "title": "Anthropic API keys can now expire — 3h to custom durations",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-08",
+      "summary": "Set expiration at creation (3h, 1d, 7d, 30d, custom, or Never). Admin API reports expires_at field for key lifecycle management."
+    },
+    {
+      "title": "⚠️ TODAY: Anthropic agent-memory header auto-adopts with breaking changes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-22",
+      "summary": "Beta header agent-memory-2026-07-22 adopted today. Breaking changes to path_prefix, depth, ordering. SDKs updated to send new header automatically."
+    },
+    {
+      "title": "⚠️ July 24: Claude Opus 4.7 fast mode removed — update to Opus 4.8",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-01",
+      "summary": "Claude Opus 4.7 'speed: fast' mode removed July 24. Update API calls to claude-opus-4-8 to avoid errors. Two days left."
+    },
+    {
+      "title": "Hermes Agent Cloud launches — 2-click deploy, 60 seconds to live",
+      "url": "https://x.com/NousResearch/status/announcement",
+      "category": "hermes_nous",
+      "published": "2026-07-08",
+      "summary": "Pick a model and server size. Multi-user org support with granular access controls and unified billing via Nous Portal."
+    },
+    {
+      "title": "Hermes Agent MoA presets beat Opus 4.8 by 8% and GPT-5.5 by 11%",
+      "url": "https://x.com/NousResearch/status/2077481990010339578",
+      "category": "hermes_nous",
+      "published": "2026-07-15",
+      "summary": "Mixture-of-Agents presets exposed as virtual models. Outperforms frontier single-model baselines on upcoming benchmark. Parallel tool calls now supported."
+    },
+    {
+      "title": "Hermes Agent integrates Kimi (Moonshot AI) as backend model",
+      "url": "https://x.com/NousResearch/status/integration",
+      "category": "hermes_nous",
+      "published": "2026-07-17",
+      "summary": "Available through Nous Portal, Kimi Direct, and OpenRouter. Extends Hermes' multi-backend model support across the agent ecosystem."
+    },
+    {
+      "title": "Hy3 (Tencent 295B MoE) free on Nous Portal for two weeks",
+      "url": "https://x.com/NousResearch/status/announcement",
+      "category": "hermes_nous",
+      "published": "2026-07-08",
+      "summary": "Tencent's 295B MoE model free for two weeks via Nous Portal. Strong on coding, tool-calling, reasoning, with 256K context window."
+    },
+    {
+      "title": "Hermes Agent gains OpenHands agent orchestration skill",
+      "url": "https://www.techtwitter.com/profiles/teknium",
+      "category": "hermes_nous",
+      "published": "2026-07-12",
+      "summary": "New official skill: 'hermes skills install official/openhands'. Hermes Agent can now orchestrate OpenHandsDev agents alongside its own workflows."
+    },
+    {
+      "title": "Zo Computer adds GPT-5.6 Sol, Terra, Luna — Terra/Luna with 1M context",
       "url": "https://www.zo.computer/updates",
       "category": "zo_computer",
-      "published": "2026-07-20",
-      "summary": "Connect Claude Code, Cursor, Gemini CLI via MCP. Multi-time scheduling. Skills registry for reusable workflows. Site templates launched."
-    },
-    {
-      "title": "Meta in talks to rent excess AI compute to Anthropic",
-      "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
-      "category": "industry",
-      "published": "2026-07-17",
-      "summary": "Zuckerberg's plan to sell excess data center capacity finds first major customer in Anthropic — reported talks underway."
-    },
-    {
-      "title": "Import AI 464: Fable writes GPU kernels; AI automation; analog computation",
-      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
-      "category": "ai_research",
-      "published": "2026-07-06",
-      "summary": "Claude Fable 5 autonomously writes GPU kernels. AI automation economics explored. Analog computation as alternative pathway."
-    },
-    {
-      "title": "ICML 2026 keynote: 'What will be left for us to work on?'",
-      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-      "category": "ai_research",
       "published": "2026-07-13",
-      "summary": "Keynote by prominent AI researcher on the future of human work in a world of capable coding agents and autonomous systems."
+      "summary": "GPT-5.6 Sol, Terra, and Luna added to chat and Codex subscriptions. Terra and Luna support 1-million-token context windows for long-horizon tasks."
+    },
+    {
+      "title": "Zo Computer launches 'KILL YOUR SaaS' July Build Challenge",
+      "url": "https://zamantika.com/profile/zocomputer",
+      "category": "zo_computer",
+      "published": "2026-07-14",
+      "summary": "Build a tool on Zo to replace a paid subscription. Prizes up to $2K. Zo emphasizes persistent memory and file/chat context vs stateless chatbots."
     }
   ]
 }
