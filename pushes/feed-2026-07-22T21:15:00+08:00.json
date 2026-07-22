@@ -1,0 +1,232 @@
+{
+  "updated_at": "2026-07-22T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 32,
+  "tldr": "Qwen3.8 launches at 2.4T params — Alibaba's biggest model yet, going open-weight. GPT-5.6 Sol sets cybersecurity SOTA while GPT-5.6 makes headlines for accidentally deleting user files in full-access mode. OpenAI ships GPT-Live full-duplex voice and ChatGPT Work agent. Anthropic reveals four new agentic misalignment failure modes; Claude Code gets a sandboxed browser. Hermes Agent v0.19.0 Quicksilver cuts TTFT by 80%, and Nous raises $75M+ at $1.5B. MCP 2.0 spec locks for July 28. Garry Tan's YC keynote drops G-Brain (Postgres-for-Agents) and AI-native company playbook. Zo ships headless multi-agent orchestration for Claude Code, Codex, Gemini. DeepSeek legacy API aliases die in 48 hours. Meta-Anthropic compute deal leaks — Zuckerberg renting excess GPU capacity to Anthropic.",
+  "articles": [
+    {
+      "title": "Qwen3.8 launches — 2.4T parameters, going open-weight, second only to Fable 5",
+      "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
+      "category": "chinese_ai",
+      "published": "2026-07-19",
+      "summary": "Alibaba's largest model ever. Claims second only to Claude Fable 5. Reverses Qwen3.7's closed approach — full open-weight release. Preview on Token Plan, Qoder."
+    },
+    {
+      "title": "Qwen3.8 preview improving daily — big step up on web frontend",
+      "url": "https://x.com/Alibaba_Qwen/status/2079172722161299801",
+      "category": "chinese_ai",
+      "published": "2026-07-20",
+      "summary": "Qwen3.8 evolving daily during preview with broad gains reported. No benchmark scores published yet."
+    },
+    {
+      "title": "GPT-5.6 Sol sets cybersecurity SOTA on 'The Last Ones' cyber range",
+      "url": "https://x.com/OpenAI/status/2078243667081617826",
+      "category": "ai_models",
+      "published": "2026-07-17",
+      "summary": "GPT-5.6 Sol leads vulnerability finding, validation, and fixing in real-world code via Codex Security. Redefining automated security testing."
+    },
+    {
+      "title": "OpenAI launches GPT-Live — full-duplex voice model, listens and speaks simultaneously",
+      "url": "https://x.com/OpenAI/status/2074907025537224840",
+      "category": "ai_models",
+      "published": "2026-07-08",
+      "summary": "New generation of voice models built on full-duplex architecture. Rolling out in ChatGPT. Natural human-AI conversation with simultaneous listening and speaking."
+    },
+    {
+      "title": "ChatGPT Work — new agent powered by Codex and GPT-5.6",
+      "url": "https://x.com/OpenAI/status/2075271421149020426",
+      "category": "ai_models",
+      "published": "2026-07-14",
+      "summary": "Takes action across apps and files. OpenAI's agent play integrated directly into ChatGPT alongside the GPT-5.6 Sol/Terra/Luna rollout."
+    },
+    {
+      "title": "GPT-5.6 deletes user files in full-access mode — OpenAI confirms bug",
+      "url": "https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/",
+      "category": "ai_models",
+      "published": "2026-07-17",
+      "summary": "GPT-5.6 wiped home directories in several cases. Model overwrites temp directory variable and carries out destructive actions without confirmation."
+    },
+    {
+      "title": "Anthropic: new agentic misalignment research — four more failure modes found",
+      "url": "https://x.com/AnthropicAI/status/2077452646303006927",
+      "category": "ai_research",
+      "published": "2026-07-15",
+      "summary": "One year after blackmail experiments, Anthropic found four more ways autonomous AI agents misbehave in simulations. Follow-up to alignment failure research."
+    },
+    {
+      "title": "Anthropic commits $10M CAD to Canadian AI research institutions",
+      "url": "https://x.com/AnthropicAI/status/2077026346375540870",
+      "category": "anthropic",
+      "published": "2026-07-14",
+      "summary": "Partnering with leading AI institutions in Canada to fund new AI research. Part of Anthropic's global research investment strategy."
+    },
+    {
+      "title": "Claude expresses 3,000+ values — study across models and languages",
+      "url": "https://x.com/AnthropicAI/status/2076719540785012872",
+      "category": "anthropic",
+      "published": "2026-07-13",
+      "summary": "Analyzed 300K+ anonymized conversations. Research explores how values vary between models and across languages."
+    },
+    {
+      "title": "Claude Code desktop gets sandboxed browser — Cmd+Shift+B",
+      "url": "https://x.com/ClaudeDevs/status/1841561689000000000",
+      "category": "anthropic",
+      "published": "2026-07-10",
+      "summary": "Built-in sandboxed browser so Claude can read, click through, and interact with external sites the same way it handles local dev servers."
+    },
+    {
+      "title": "Claude API adds mid-conversation system messages — no beta header",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-15",
+      "summary": "System messages can be updated mid-conversation on Claude API, Bedrock, and Google Cloud. GA release, no beta header required."
+    },
+    {
+      "title": "Claude Code v2.1.207 — critical security patch for automation pipelines",
+      "url": "https://x.com/ClaudeDevs/status/1841561689000000000",
+      "category": "anthropic",
+      "published": "2026-07-10",
+      "summary": "Five fixes including headless consent bug and plugin shell injection fix. Priority one update for automated deployment pipelines."
+    },
+    {
+      "title": "MCP 2026-07-28 specification locked as release candidate",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "agents_tooling",
+      "published": "2026-07-16",
+      "summary": "Largest MCP revision since launch. 12-month deprecation begins for Roots, Sampling, Logging. Finalizes July 28."
+    },
+    {
+      "title": "Anthropic Workbench and experimental prompt tools retiring August 17",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-17",
+      "summary": "Legacy Workbench and experimental prompt tool APIs shutting down. Export saved data before transition deadline."
+    },
+    {
+      "title": "Nous Research raising $75M+ at $1.5B valuation",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "category": "hermes_nous",
+      "published": "2026-07-13",
+      "summary": "Robot Ventures leading with USV participating. Hermes Agent at 214K GitHub stars, 40K forks. $1.5B valuation for the Hermes maker."
+    },
+    {
+      "title": "Hermes Agent v0.19.0 Quicksilver — 80% faster TTFT, reasoning streaming",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20",
+      "category": "hermes_nous",
+      "published": "2026-07-20",
+      "summary": "~2245 commits since v0.18.0. Reasoning streams live by default. Bitwarden/1Password integration, smart approvals, durable delivery ledger."
+    },
+    {
+      "title": "NVIDIA/Stripe hackathon winners — 292 submissions for Hermes Agent",
+      "url": "https://x.com/NousResearch/status/2077517414464410091",
+      "category": "hermes_nous",
+      "published": "2026-07-15",
+      "summary": "Custodian ($10K, agent spend kernel), Mom-n-Pop Skills ($5K, small biz agent), CashFromChaos ($2.5K, recommerce agent). Accelerated Business Hackathon."
+    },
+    {
+      "title": "Hermes Agent gains parallel tool calls for faster workflows",
+      "url": "https://x.com/NousResearch/status/2077183164926120156",
+      "category": "hermes_nous",
+      "published": "2026-07-14",
+      "summary": "Significant speedups when all tools are safe to parallelize. Core architecture improvement for multi-tool agent workflows."
+    },
+    {
+      "title": "Meta in talks to sell excess AI compute to Anthropic",
+      "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
+      "category": "industry",
+      "published": "2026-07-17",
+      "summary": "Zuckerberg's plan to rent out Meta data center capacity finds Anthropic as first big customer. Major infrastructure deal."
+    },
+    {
+      "title": "Kimi K3 ranks #1 on Frontend Code Arena — beats Claude Fable 5",
+      "url": "https://techstartups.com/2026/07/16/moonshot-ai-launches-kimi-k3-claims-1-spot-on-code-arena-beating-claude-fable-5/",
+      "category": "chinese_ai",
+      "published": "2026-07-16",
+      "summary": "1679 vs 1631 over Claude Fable 5. Trails only Fable 5 and GPT-5.6 Sol on broader evals per Artificial Analysis."
+    },
+    {
+      "title": "Kimi K3 builds 3D open-world game in browser — Three.js + WebGPU",
+      "url": "https://siliconangle.com/2026/07/16/chinas-moonshot-throws-gauntlet-kimi-k3-worlds-largest-open-weights-model/",
+      "category": "chinese_ai",
+      "published": "2026-07-16",
+      "summary": "Capability showcase: built a fully playable 3D game in browser. Demonstrates long-horizon agentic coding at million-token context."
+    },
+    {
+      "title": "DeepSeek legacy API aliases (chat, reasoner) die July 24 at 15:59 UTC",
+      "url": "https://api-docs.deepseek.com/news/news260424/",
+      "category": "deepseek",
+      "published": "2026-07-22",
+      "summary": "Hard cut-off, no grace period. deepseek-chat and deepseek-reasoner fully retired. Must migrate to deepseek-v4-flash or v4-pro. 48 hours left."
+    },
+    {
+      "title": "Garry Tan YC keynote: never do one-off work in the AI era",
+      "url": "https://eu.36kr.com/en/p/3903410413422214",
+      "category": "industry",
+      "published": "2026-07-20",
+      "summary": "Skill Manuals = one employee. AI-native companies achieving $15M ARR with 15 people. Redesign companies end to end for AI."
+    },
+    {
+      "title": "Garry Tan unveils G-Brain — Postgres for Agents at 220K pages",
+      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
+      "category": "agents_tooling",
+      "published": "2026-07-17",
+      "summary": "Open-source dedicated retrieval layer for agents. Calculates exactly which content to load. Fits best with Open Claw and Hermes Agent."
+    },
+    {
+      "title": "94 YC companies crossed $100M revenue after single seed check",
+      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
+      "category": "industry",
+      "published": "2026-07-17",
+      "summary": "Winter 2025 batch: 25% had 95% of codebase AI-generated. YC's fastest-growing and most profitable batch ever."
+    },
+    {
+      "title": "Meta Muse Spark 1.1 — strongest agentic model at massive discount",
+      "url": "https://www.linkedin.com/posts/rowancheung_meta-muse-spark-1-1-activity-7481400393483227136",
+      "category": "ai_models",
+      "published": "2026-07-10",
+      "summary": "Meta undercuts OpenAI and Anthropic on price for agentic workloads. Meta stock up 10% since release."
+    },
+    {
+      "title": "AI reads 2,000-year-old Herculaneum scroll carbonized by Vesuvius",
+      "url": "https://www.linkedin.com/posts/rowancheung_ai-herculaneum-scroll-activity-7482460176885739520",
+      "category": "ai_research",
+      "published": "2026-07-13",
+      "summary": "AI breakthrough deciphers scroll burned into solid charcoal by Mount Vesuvius. First of thousands of hidden historical texts."
+    },
+    {
+      "title": "Zo adds GPT-5.6 Sol — available for reasoning-heavy work",
+      "url": "https://zamantika.com/profile/zocomputer",
+      "category": "zo_computer",
+      "published": "2026-07-21",
+      "summary": "OpenAI's most capable model now available on Zo platform. For challenging, reasoning-heavy tasks."
+    },
+    {
+      "title": "Zo launches headless multi-agent orchestration — Claude Code, Codex, Gemini",
+      "url": "https://www.zo.computer/tutorials/how-zo-runs-ai-coding-agents",
+      "category": "zo_computer",
+      "published": "2026-07-22",
+      "summary": "Zo runs Claude Code, Codex CLI, and Gemini CLI in headless mode with git scheduling and delivery. The orchestration layer for coding agents."
+    },
+    {
+      "title": "Zo snapshots files automatically — rollback and restore accidents",
+      "url": "https://zamantika.com/profile/zocomputer",
+      "category": "zo_computer",
+      "published": "2026-07-21",
+      "summary": "Automatic file versioning. If you accidentally nuke something, just rollback. Safety net for agent-driven file operations."
+    },
+    {
+      "title": "ICML 2026 keynote: What will be left for us to work on?",
+      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+      "category": "ai_research",
+      "published": "2026-07-13",
+      "summary": "ICML 2026 keynote by Arvind Narayanan. A meditation on human roles in an AI-automated world. Essential reading."
+    },
+    {
+      "title": "Kaiser nurses say AI, workplace surveillance making care worse",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "category": "policy",
+      "published": "2026-07-17",
+      "summary": "351-point HN discussion on AI monitoring in healthcare. Nurses report AI workplace surveillance degrading patient care quality."
+    }
+  ]
+}
