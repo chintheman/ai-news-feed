@@ -7,6 +7,7 @@ Aggregated AI and agentic news from the Hermes Agent AI Reporter.
 ```
 ├── feed.json       ← Latest 50 articles (Zo's endpoint)
 ├── pushes/         ← Individual batch files (YYYY-MM-DD-HHMM.json)
+├── skill/          ← SKILL.md + news_engine.py (the mechanical rules behind this data)
 └── README.md       ← You're here
 ```
 
@@ -33,11 +34,12 @@ Aggregated AI and agentic news from the Hermes Agent AI Reporter.
 
 `url` must point at the specific post/article, never at an account's profile
 page (e.g. `https://x.com/AnthropicAI/status/1234567890`, not
-`https://x.com/AnthropicAI`). A profile-only link forces the reader to go
-hunt for the actual source, which defeats the point of the feed. Run
-`python3 scripts/validate_feed.py` before publishing a new `feed.json` or
-`pushes/*.json` — it flags profile-only social links, non-numeric status IDs,
-undocumented categories, and duplicate URLs.
+`https://x.com/AnthropicAI`) or a generic landing page. A profile-only link
+forces the reader to go hunt for the actual source, which defeats the point
+of the feed. This is enforced by `skill/scripts/news_engine.py` — see
+`skill/SKILL.md` for the full rule set (link validation, the rolling
+50-article window, push-batch merging) that governs how this data gets
+produced.
 
 ## Raw Data Source
 
