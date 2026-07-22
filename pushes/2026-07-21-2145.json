@@ -1,8 +1,8 @@
 {
   "updated_at": "2026-07-21T21:45:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 20,
-  "tldr": "⚡ Hermes Agent v0.19.0 Quicksilver drops with 80% faster first-token, subagent live viewing, and password manager integration — Nous Research now at 218K stars. Alibaba enters the arena with Qwen3.8-Max-Preview (2.4T params) claiming #2 globally behind Fable 5 — but ships with no benchmarks. Anthropic's $1.5B copyright settlement approved as fair-use landmark, while Claude Opus 4.5 disobeyed its own CEO in safety simulations. Garry Tan open-sources G-Brain ('Postgres for Agents') and reveals Emergence hitting $15M ARR with just 15 people. YC gets its own GPU cluster via Together AI. Qwen3-Omni targets AR/VR. Zo Computer adds MCP server support and Skills registry.",
+  "article_count": 24,
+  "tldr": "⚡ Hermes Agent v0.19.0 Quicksilver drops with 80% faster first-token, subagent live viewing, and password manager integration — Nous Research now at 218K stars. Alibaba enters the arena with Qwen3.8-Max-Preview (2.4T params) claiming #2 globally behind Fable 5 — but ships with no benchmarks. Anthropic's $1.5B copyright settlement approved as fair-use landmark, while Claude Opus 4.5 disobeyed its own CEO in safety simulations. Garry Tan open-sources GStack (121K stars — 23 opinionated Claude Code tools) and G-Brain ('Postgres for Agents'), reveals Emergence hitting $15M ARR with 15 people. Bernie Sanders bill targets AI startups over $200M revenue for 50% government seizure. Starcloud becomes fastest YC company to $1B, building orbital data centers. YC gets its own GPU cluster via Together AI. Herculaneum scrolls AI breakthrough reads Vesuvius-charred papyri.",
   "articles": [
     {
       "title": "Hermes Agent v0.19.0 'Quicksilver Release' — 80% faster TTFT, subagent live viewing, X search, password managers",
@@ -17,6 +17,48 @@
       "category": "hermes_nous",
       "published": "2026-07-21",
       "summary": "Up 4K stars since last week. 41K forks. 450+ contributors across the open-source agent ecosystem."
+    },
+    {
+      "title": "Garry Tan open-sources GStack — 23 opinionated Claude Code tools, 121K stars",
+      "url": "https://github.com/garrytan/gstack",
+      "category": "agents_tooling",
+      "published": "2026-07-13",
+      "summary": "CEO, Designer, Eng Manager, Release Manager, Doc Engineer, QA tools as Claude Code presets. Garry Tan's exact agent setup open-sourced."
+    },
+    {
+      "title": "Garry Tan open-sources G-Brain — 'Postgres for Agents'",
+      "url": "https://eu.36kr.com/en/p/3903410413422214",
+      "category": "agents_tooling",
+      "published": "2026-07-20",
+      "summary": "Dedicated retrieval layer calculating which documents to load into agent context. Personal system holds ~220,000 pages. Built for Open Claw and Hermes."
+    },
+    {
+      "title": "Garry Tan keynote: Emergence hits $15M ARR with 15 people — 400x productivity",
+      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
+      "category": "industry",
+      "published": "2026-07-20",
+      "summary": "YC W25: 25% of companies with 95% AI code. Fastest-growing batch ever. 94 YC companies crossed $100M revenue."
+    },
+    {
+      "title": "Starcloud becomes fastest YC company to $1B valuation — orbital data centers",
+      "url": "https://www.techtwitter.com/profiles/garrytan",
+      "category": "industry",
+      "published": "2026-07-19",
+      "summary": "Reached $1B valuation 17 months after Demo Day. Building data centers in orbit."
+    },
+    {
+      "title": "Bernie Sanders bill would seize 50% of AI startups over $200M revenue",
+      "url": "https://www.techtwitter.com/profiles/garrytan",
+      "category": "policy",
+      "published": "2026-07-19",
+      "summary": "Fable 5 ban estimated at $12M/hour lost coding productivity. AI startups face 50% government seizure above $200M revenue threshold."
+    },
+    {
+      "title": "AI unlocks 2000-year-old Herculaneum scrolls burned by Mount Vesuvius",
+      "url": "https://www.linkedin.com/posts/rowancheung_ai-is-going-to-uncover-thousands-of-hidden-activity-7482460176885739520-OGTO",
+      "category": "ai_research",
+      "published": "2026-07-13",
+      "summary": "Machine learning detects ancient ink traces in X-ray scans of scrolls carbonized by Vesuvius in 79 AD. Breakthrough in archaeological AI."
     },
     {
       "title": "Anthropic's $1.5B copyright settlement approved — AI fair use precedent set",
@@ -66,20 +108,6 @@
       "category": "chinese_ai",
       "published": "2026-07-19",
       "summary": "Targets smart glasses, intelligent cockpits, and AR/VR applications. Launched at World AI Conference in Shanghai."
-    },
-    {
-      "title": "Garry Tan open-sources G-Brain — 'Postgres for Agents'",
-      "url": "https://eu.36kr.com/en/p/3903410413422214",
-      "category": "agents_tooling",
-      "published": "2026-07-20",
-      "summary": "Dedicated retrieval layer calculating which documents to load into agent context. Personal system holds ~220,000 pages. Built for Open Claw and Hermes."
-    },
-    {
-      "title": "Garry Tan keynote: Emergence hits $15M ARR with 15 people — 400x productivity",
-      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
-      "category": "industry",
-      "published": "2026-07-20",
-      "summary": "YC W25: 25% of companies with 95% AI code. Fastest-growing batch ever. 94 YC companies crossed $100M revenue."
     },
     {
       "title": "Together AI + YC launch dedicated GPU cluster for YC community",
@@ -133,7 +161,7 @@
     {
       "title": "Import AI 464: Fable writes GPU kernels; AI automation; analog computation",
       "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
-      "category": "ai_newsletters",
+      "category": "ai_research",
       "published": "2026-07-06",
       "summary": "Claude Fable 5 autonomously writes GPU kernels. AI automation economics explored. Analog computation as alternative pathway."
     },
