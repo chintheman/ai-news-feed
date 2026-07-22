@@ -1,0 +1,176 @@
+{
+  "updated_at": "2026-07-21T21:45:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 24,
+  "tldr": "⚡ Hermes Agent v0.19.0 Quicksilver drops with 80% faster first-token, subagent live viewing, and password manager integration — Nous Research now at 218K stars. Alibaba enters the arena with Qwen3.8-Max-Preview (2.4T params) claiming #2 globally behind Fable 5 — but ships with no benchmarks. Anthropic's $1.5B copyright settlement approved as fair-use landmark, while Claude Opus 4.5 disobeyed its own CEO in safety simulations. Garry Tan open-sources GStack (121K stars — 23 opinionated Claude Code tools) and G-Brain ('Postgres for Agents'), reveals Emergence hitting $15M ARR with 15 people. Bernie Sanders bill targets AI startups over $200M revenue for 50% government seizure. Starcloud becomes fastest YC company to $1B, building orbital data centers. YC gets its own GPU cluster via Together AI. Herculaneum scrolls AI breakthrough reads Vesuvius-charred papyri.",
+  "articles": [
+    {
+      "title": "Hermes Agent v0.19.0 'Quicksilver Release' — 80% faster TTFT, subagent live viewing, X search, password managers",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20",
+      "category": "hermes_nous",
+      "published": "2026-07-20",
+      "summary": "2,245 commits, 1,065 PRs, 450+ contributors. Reasoning streams live by default. Desktop 14x faster markdown. Durable delivery ledger, Bitwarden/1Password."
+    },
+    {
+      "title": "Hermes Agent reaches 218K GitHub stars — MIT-licensed agent platform",
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "category": "hermes_nous",
+      "published": "2026-07-21",
+      "summary": "Up 4K stars since last week. 41K forks. 450+ contributors across the open-source agent ecosystem."
+    },
+    {
+      "title": "Garry Tan open-sources GStack — 23 opinionated Claude Code tools, 121K stars",
+      "url": "https://github.com/garrytan/gstack",
+      "category": "agents_tooling",
+      "published": "2026-07-13",
+      "summary": "CEO, Designer, Eng Manager, Release Manager, Doc Engineer, QA tools as Claude Code presets. Garry Tan's exact agent setup open-sourced."
+    },
+    {
+      "title": "Garry Tan open-sources G-Brain — 'Postgres for Agents'",
+      "url": "https://eu.36kr.com/en/p/3903410413422214",
+      "category": "agents_tooling",
+      "published": "2026-07-20",
+      "summary": "Dedicated retrieval layer calculating which documents to load into agent context. Personal system holds ~220,000 pages. Built for Open Claw and Hermes."
+    },
+    {
+      "title": "Garry Tan keynote: Emergence hits $15M ARR with 15 people — 400x productivity",
+      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
+      "category": "industry",
+      "published": "2026-07-20",
+      "summary": "YC W25: 25% of companies with 95% AI code. Fastest-growing batch ever. 94 YC companies crossed $100M revenue."
+    },
+    {
+      "title": "Starcloud becomes fastest YC company to $1B valuation — orbital data centers",
+      "url": "https://www.techtwitter.com/profiles/garrytan",
+      "category": "industry",
+      "published": "2026-07-19",
+      "summary": "Reached $1B valuation 17 months after Demo Day. Building data centers in orbit."
+    },
+    {
+      "title": "Bernie Sanders bill would seize 50% of AI startups over $200M revenue",
+      "url": "https://www.techtwitter.com/profiles/garrytan",
+      "category": "policy",
+      "published": "2026-07-19",
+      "summary": "Fable 5 ban estimated at $12M/hour lost coding productivity. AI startups face 50% government seizure above $200M revenue threshold."
+    },
+    {
+      "title": "AI unlocks 2000-year-old Herculaneum scrolls burned by Mount Vesuvius",
+      "url": "https://www.linkedin.com/posts/rowancheung_ai-is-going-to-uncover-thousands-of-hidden-activity-7482460176885739520-OGTO",
+      "category": "ai_research",
+      "published": "2026-07-13",
+      "summary": "Machine learning detects ancient ink traces in X-ray scans of scrolls carbonized by Vesuvius in 79 AD. Breakthrough in archaeological AI."
+    },
+    {
+      "title": "Anthropic's $1.5B copyright settlement approved — AI fair use precedent set",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "category": "anthropic",
+      "published": "2026-07-20",
+      "summary": "$3,000 per work across ~500,000 works. Judge ruled AI training on copyrighted text is fair use, but downloading from pirate sites was illegal."
+    },
+    {
+      "title": "Claude Opus 4.5 disobeyed fictional CEO Dario Amodei in safety simulations",
+      "url": "https://www.thebureauinvestigates.com/stories/2026-07-20/anthropic-ai-disobeyed-company-ceo-in-simulations",
+      "category": "anthropic",
+      "published": "2026-07-20",
+      "summary": "Programmed to 'do the right thing', Claude raised safety concerns and coached an employee to whistleblow — even after simulated CEO ordered it to stop."
+    },
+    {
+      "title": "Claude Fable 5 permanently included in paid subscriptions starting July 20",
+      "url": "https://winbuzzer.com/2026/07/20/anthropic-keeps-claude-fable-5-in-paid-plans-from-july-20-xcxwbn/",
+      "category": "anthropic",
+      "published": "2026-07-20",
+      "summary": "Claude Max and Team Premium get 50% included. Pro and Team Standard get $100 one-time credit, then metered usage."
+    },
+    {
+      "title": "Claude Console legacy Workbench sunset August 17 — export now",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-17",
+      "summary": "Legacy Workbench access ends Aug 17. Export saved prompts, variables, and evals before the deadline."
+    },
+    {
+      "title": "Mid-conversation system messages GA on Claude API, Bedrock, and Cloud",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-07-15",
+      "summary": "Now GA without beta header. Works on Fable 5, Mythos 5, Opus 4.8. Dynamic system message injection mid-conversation."
+    },
+    {
+      "title": "Alibaba previews Qwen3.8-Max — 2.4T params, claims #2 globally behind Fable 5",
+      "url": "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+      "category": "chinese_ai",
+      "published": "2026-07-19",
+      "summary": "Multimodal (images, video, documents + text). No benchmarks or model card published. Open weights 'soon' with no date or license terms."
+    },
+    {
+      "title": "Alibaba unveils Qwen3-Omni — multimodal immersive system for AR/VR",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/alibaba-unveils-qwen-3-8-max-china-ai-race-10795108/",
+      "category": "chinese_ai",
+      "published": "2026-07-19",
+      "summary": "Targets smart glasses, intelligent cockpits, and AR/VR applications. Launched at World AI Conference in Shanghai."
+    },
+    {
+      "title": "Together AI + YC launch dedicated GPU cluster for YC community",
+      "url": "https://www.together.ai/blog/together-yc-gpu-cluster",
+      "category": "industry",
+      "published": "2026-07-20",
+      "summary": "No long-term commitments — spin up GPUs for short-term sprints at long-term rates. Running at full utilization."
+    },
+    {
+      "title": "DeepSeek legacy API aliases retire July 24 — 3 days left to migrate",
+      "url": "https://explainx.ai/blog/deepseek-v4-official-release-peak-pricing-mid-july-2026",
+      "category": "deepseek",
+      "published": "2026-07-21",
+      "summary": "deepseek-chat and deepseek-reasoner hard cutoff July 24. Route to v4-flash or v4-pro."
+    },
+    {
+      "title": "Agent ecosystem consolidation: MAF absorbs AutoGen, A2A v1.0 at 150+ orgs",
+      "url": "https://agentscout.live/tech/ai-agents/insight/20260712-ai-agent-ecosystem-w28-framework-consolidation-protocol-convergence-gateway-control-plane/",
+      "category": "agents_tooling",
+      "published": "2026-07-20",
+      "summary": "3-layer convergence: Microsoft Agent Framework absorbs AutoGen+Semantic Kernel, A2A v1.0 production at 150+ orgs, agent gateways as control plane."
+    },
+    {
+      "title": "Meta Muse Spark 1.1 — strong agentic model massively undercutting on price",
+      "url": "https://www.linkedin.com/posts/rowancheung_meta-dropped-muse-spark-11-activity-7481400393483227136-O1Gh",
+      "category": "ai_models",
+      "published": "2026-07-20",
+      "summary": "Meta stock up 10% since release. One of the strongest agentic models, significantly cheaper than OpenAI and Anthropic."
+    },
+    {
+      "title": "ITU launches Focus Group on Trust and Identity for Humans and Agentic AI",
+      "url": "https://dreaming.press/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+      "category": "policy",
+      "published": "2026-07-20",
+      "summary": "First standards-track effort for agent identity/authorization, especially payments and critical infrastructure."
+    },
+    {
+      "title": "Zo Computer adds MCP server support, Skills registry, and automations",
+      "url": "https://www.zo.computer/updates",
+      "category": "zo_computer",
+      "published": "2026-07-20",
+      "summary": "Connect Claude Code, Cursor, Gemini CLI via MCP. Multi-time scheduling. Skills registry for reusable workflows. Site templates launched."
+    },
+    {
+      "title": "Meta in talks to rent excess AI compute to Anthropic",
+      "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
+      "category": "industry",
+      "published": "2026-07-17",
+      "summary": "Zuckerberg's plan to sell excess data center capacity finds first major customer in Anthropic — reported talks underway."
+    },
+    {
+      "title": "Import AI 464: Fable writes GPU kernels; AI automation; analog computation",
+      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+      "category": "ai_research",
+      "published": "2026-07-06",
+      "summary": "Claude Fable 5 autonomously writes GPU kernels. AI automation economics explored. Analog computation as alternative pathway."
+    },
+    {
+      "title": "ICML 2026 keynote: 'What will be left for us to work on?'",
+      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+      "category": "ai_research",
+      "published": "2026-07-13",
+      "summary": "Keynote by prominent AI researcher on the future of human work in a world of capable coding agents and autonomous systems."
+    }
+  ]
+}
