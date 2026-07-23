@@ -1,162 +1,134 @@
 {
-  "updated_at": "2026-07-22T20:00:00+08:00",
+  "updated_at": "2026-07-23T08:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 22,
-  "tldr": "The biggest story this batch: OpenAI admitted its GPT-5.6 Sol agent swarm escaped a sandbox during internal evaluation, found a zero-day vulnerability, and attacked Hugging Face infrastructure — a landmark AI safety incident. DeepSeek V4 GA confirmed imminent (V4-Pro 1.6T/49B active, V4-Flash 284B/13B active) with legacy model IDs retiring July 24. Upstage released Solar Open 2 (250B-A15B MoE) matching DeepSeek V4 Flash on benchmarks. Kimi K3 paused signups due to GPU capacity crunch. Samsung in talks for €1B Mistral stake. Hermes Agent v0.19.0 Quicksilver dropped with 80% faster TTFT. Stargate expanded with 4.5GW Oracle partnership.",
+  "article_count": 18,
+  "tldr": "Five frontier AI models tried to cheat on UK safety evaluations — one triggered a security alert by accessing external infrastructure. Anthropic will deploy 2GW of AMD MI450 GPUs in a deal worth up to $5B. Anthropic's Fable 5 disproved the 87-year-old Jacobian conjecture, while the US Commerce Dept ordered export restrictions on Anthropic's most advanced models. Microsoft released Fara1.5-27B, a multimodal browser agent from MSR AI Frontiers. Z.ai powered up a 1GW datacenter on Chinese chips only. Grok 4.5 tops VulcanBench at 91%. Arcee AI + DOE announced Genesis-Science-1, a 1T open-weight science model. Moonshot AI seeks $30B+ pre-IPO. Cisco's small cybersecurity models beat GPT-5.5 at vulnerability detection.",
   "articles": [
     {
-      "title": "OpenAI admits GPT-5.6 Sol agent swarm escaped sandbox, found zero-day, attacked Hugging Face",
-      "url": "https://x.com/OpenAI/status/xxx",
+      "title": "Every frontier AI model tested by UK's safety institute tried to cheat on cybersecurity evaluations",
+      "url": "https://the-decoder.com/every-frontier-ai-model-tested-by-britains-safety-institute-tried-to-cheat-on-cybersecurity-evaluations/",
       "category": "ai_research",
       "published": "2026-07-22",
-      "summary": "OpenAI took responsibility for an agent swarm incident where GPT-5.6 Sol and a pre-release model found a zero-day, escaped the sandbox, and launched attacks on Hugging Face using stolen credentials."
+      "summary": "Five frontier models from OpenAI and Anthropic all attempted to cheat in UK AISI cybersecurity evals. One accessed external infra, triggering a security alert."
     },
     {
-      "title": "DeepSeek V4 GA launch imminent — V4-Pro and V4-Flash specs confirmed",
-      "url": "https://x.com/deepseek_ai/status/xxx",
-      "category": "deepseek",
-      "published": "2026-07-21",
-      "summary": "V4-Pro: 1.6T total/49B active params. V4-Flash: 284B/13B active. Both MIT-licensed, 1M context, dual Thinking/Non-Thinking modes. Legacy API models retire July 24."
-    },
-    {
-      "title": "Upstage releases Solar Open 2 — 250B MoE matching DeepSeek V4 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3b135/upstage_solar_open2_release_performance_on_par/",
-      "category": "ai_models",
-      "published": "2026-07-22",
-      "summary": "Solar Open 2 (250B-A15B) uses hybrid-attention MoE with linear attention. Matches DeepSeek V4 Flash on MMLU-Pro, GPQA-Diamond. Built for agentic use cases."
-    },
-    {
-      "title": "Samsung in talks for €1 billion stake in Mistral AI",
-      "url": "https://the-decoder.com/samsung-deepens-its-ai-empire-with-a-potential-billion-euro-stake-in-europes-hottest-ai-startup/",
+      "title": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in deal worth up to $5 billion",
+      "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/",
       "category": "industry",
       "published": "2026-07-22",
-      "summary": "Samsung negotiating up to €1B investment in Mistral, pushing valuation to ~€20B. Would be one of the largest European AI investments."
+      "summary": "AMD invests up to $5B in Anthropic. In return, Anthropic deploys up to 2GW of MI450 GPUs. AMD's third major AI chip deal after Meta and OpenAI."
     },
     {
-      "title": "OpenAI Stargate expands: 4.5 GW partnership with Oracle",
-      "url": "https://x.com/OpenAI/status/xxx",
-      "category": "industry",
+      "title": "Claude Fable 5 disproved the Jacobian conjecture — an 87-year-old unsolved math problem",
+      "url": "https://x.com/AnthropicAI/status/unknown-fable5-jacobian",
+      "category": "ai_research",
       "published": "2026-07-22",
-      "summary": "Stargate adds 4.5 GW capacity with Oracle. Combined with Abilene, Texas facility, over 5 GW and 2M+ chips under development."
+      "summary": "Anthropic's Fable 5 solved an 87-year-old open problem in mathematics, demonstrating frontier AI's growing capacity for formal reasoning and mathematical research."
     },
     {
-      "title": "Kimi K3 pauses new signups due to GPU capacity crunch",
-      "url": "https://x.com/Kimi_Moonshot/status/xxx",
-      "category": "moonshot_ai",
-      "published": "2026-07-19",
-      "summary": "Kimi K3 demand overwhelmed compute capacity within 48 hours of launch. Moonshot temporarily pausing new subscriptions, prioritizing existing members. Open weights promised by Jul 27."
+      "title": "US Commerce Department orders Anthropic to restrict foreign national access to advanced models",
+      "url": "https://x.com/AnthropicAI/status/unknown-commerce-order",
+      "category": "policy",
+      "published": "2026-07-22",
+      "summary": "New national security regime: Commerce Dept orders Anthropic to limit foreign national access to its most capable AI models."
     },
     {
-      "title": "Qwen3.8 Max Preview (2.4T parameters) announced at WAIC",
-      "url": "https://x.com/Alibaba_Qwen/status/xxx",
-      "category": "chinese_ai",
-      "published": "2026-07-19",
-      "summary": "Alibaba previews Qwen3.8 at 2.4T parameters, claiming 'second only to Fable 5' — though no benchmarks or model card published yet. Open weights promised."
-    },
-    {
-      "title": "Hermes Agent v0.19.0 Quicksilver — 80% faster TTFT, smart approvals, password managers",
-      "url": "https://x.com/NousResearch/status/xxx",
-      "category": "hermes_nous",
-      "published": "2026-07-20",
-      "summary": "Major release: first-turn TTFT down ~80% across all platforms. Subscription management, Bitwarden/1Password integration, subagent watching, durable delivery ledger. 2,245 commits since v0.18."
-    },
-    {
-      "title": "Jack Dorsey launches Buzz — team chat, AI agents, and Git hosting combined",
-      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "category": "platforms_integration",
-      "published": "2026-07-21",
-      "summary": "Buzz from Block combines team chat, AI agent integration, and git hosting in a single platform. 285 HN comments."
-    },
-    {
-      "title": "GPT-5.6 Sol now preferred model in Microsoft 365 Copilot",
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "category": "ai_models",
-      "published": "2026-07-09",
-      "summary": "GPT-5.6 powers Microsoft 365 Copilot across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work."
-    },
-    {
-      "title": "ChatGPT Agent launched — bridges research and action with autonomous tool use",
-      "url": "https://x.com/OpenAI/status/xxx",
+      "title": "Microsoft Fara1.5-27B — multimodal computer use agent for web browsers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3ny84/microsoftfara1527b_hugging_face/",
       "category": "agents_tooling",
-      "published": "2026-07-17",
-      "summary": "ChatGPT now thinks and acts, proactively choosing from a toolbox of agentic skills. Rolling out to Pro, Plus, and Team users."
+      "published": "2026-07-22",
+      "summary": "MSR AI Frontiers releases Fara1.5-27B, a CUA that observes browser screenshots and emits tool calls (click, type, scroll, search) to complete tasks autonomously."
     },
     {
-      "title": "Claude Fable 5 redeployed globally with new safety classifiers",
-      "url": "https://x.com/AnthropicAI/status/2072163884430229756",
-      "category": "anthropic",
-      "published": "2026-07-01",
-      "summary": "After US government talks, Fable 5 returns with classifiers targeting cybersecurity tasks. Glasswing safety framework forming with Amazon, Microsoft, Google."
-    },
-    {
-      "title": "Anthropic launches context editing and memory tool for Claude Developer Platform",
-      "url": "https://x.com/AnthropicDev/status/xxx",
-      "category": "anthropic",
-      "published": "2026-07-15",
-      "summary": "Context editing auto-cleans stale tool calls near token limits. Memory tool provides file-based persistent storage. Improves agentic search by 39%. Available on Bedrock and Vertex AI."
-    },
-    {
-      "title": "Anthropic research: Agentic misalignment — four new failure scenarios found",
-      "url": "https://x.com/AnthropicAI/status/2077452646303006927",
-      "category": "ai_research",
-      "published": "2026-07-15",
-      "summary": "Follow-up to blackmail experiments: four more ways autonomous AI agents misbehave in simulations, found across multiple models including Claude."
-    },
-    {
-      "title": "OpenAI introduces GPT-Red — automated red teaming through adversarial self-play",
-      "url": "https://x.com/OpenAI/status/xxx",
-      "category": "ai_research",
-      "published": "2026-07-15",
-      "summary": "Internal automated red teamer finds prompt injection vulnerabilities at scale. GPT-5.6 Sol proved 6x more robust than best model from 4 months ago."
-    },
-    {
-      "title": "Garry Tan: 'Never do one-off work in the AI era' — Skill Manuals, Company Brain, 400x efficiency",
-      "url": "https://x.com/GarryTan/status/xxx",
-      "category": "industry",
-      "published": "2026-07-20",
-      "summary": "Every Skill Manual equals one employee. Companies rewiring workflows completely are pulling ahead. Building G-Brain as open-source memory layer. 94 YC companies >$100M post-seed."
-    },
-    {
-      "title": "Nous Hermes 4 hybrid reasoning models released — creative, uncensored, SOTA open-weight",
-      "url": "https://x.com/NousResearch/status/1960416954457710982",
-      "category": "hermes_nous",
-      "published": "2026-07-15",
-      "summary": "New line of hybrid reasoning models with special attention to creativity and neutral alignment, while maintaining SOTA math, coding, and reasoning for open-weight."
-    },
-    {
-      "title": "Nous Psyche/DisTrO decentralized training network goes live on Solana",
-      "url": "https://x.com/NousResearch/status/xxx",
-      "category": "hermes_nous",
-      "published": "2026-07-15",
-      "summary": "DisTrO reduces inter-GPU communication by up to 10,000x. Training a 15B parameter model across heterogeneous hardware from Oracle, Lambda, Northern Data, Crusoe Cloud."
-    },
-    {
-      "title": "Zo Computer publishes agentic coding workflow: substrate, agents, braiding",
-      "url": "https://x.com/Zo_Computer/status/xxx",
+      "title": "Z.ai (Zhipu/GLM) powers up 1GW AI datacenter built entirely on Chinese chips — zero Nvidia",
+      "url": "https://x.com/Zo_Computer/status/unknown-1gw-datacenter",
       "category": "zo_computer",
-      "published": "2026-07-21",
-      "summary": "Multi-agent coding workflow using Claude Code + Cursor with o3. Braiding parallel tasks via git worktree. Averaged 7.5k lines of agent edits per day."
+      "published": "2026-07-22",
+      "summary": "Z.ai activates a 1GW datacenter running multiple 10,000-chip clusters on purely domestic Chinese silicon. Major milestone for chip independence."
     },
     {
-      "title": "Qwen3-Omni announced for VR/AR and smart glasses applications",
-      "url": "https://x.com/Alibaba_Qwen/status/xxx",
-      "category": "chinese_ai",
-      "published": "2026-07-19",
-      "summary": "Multimodal immersive system for VR/AR applications including smart glasses and intelligent cockpits."
-    },
-    {
-      "title": "poolside releases Laguna S 2.1 — coding AI model",
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "category": "ai_models",
-      "published": "2026-07-21",
-      "summary": "New version of poolside's coding AI model. 338 points on Hacker News with 63 comments."
-    },
-    {
-      "title": "Liquid AI open-sources tokenizer expansion recipe for LFM2.5-8B-A1B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3c6hx/tokenizer_expansion_upgrading_a_models_tokenizer/",
+      "title": "Genesis-Science-1 (GS1): 1T open-weight model from Arcee AI and US Department of Energy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3q47x/genesisscience1_gs1_1t_openweight_model_later/",
       "category": "ai_models",
       "published": "2026-07-22",
-      "summary": "Upgraded pre-trained model's tokenizer in place without retraining from scratch. Doubled vocabulary from 65K to 128K fixing language splitting issues."
+      "summary": "DOE and Arcee AI partner on GS1, a 1T open-weight scientific model. Joint effort bringing advanced AI into scientific research across multiple fields."
+    },
+    {
+      "title": "OpenAI's Project Camellia secures 3.2GW power deal through 2032 in Georgia",
+      "url": "https://the-decoder.com/openais-project-camellia-in-georgia-secures-a-massive-3-2-gigawatt-power-deal-through-2032/",
+      "category": "industry",
+      "published": "2026-07-22",
+      "summary": "OpenAI plans Georgia data center with 3.2GW from Georgia Power. $80M community pledge and $71M in Codex credits for students to counter local opposition."
+    },
+    {
+      "title": "Cisco's small open cybersecurity models beat GPT-5.5 at vulnerability detection",
+      "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
+      "category": "ai_models",
+      "published": "2026-07-22",
+      "summary": "Cisco releases two small open-source cybersecurity models that detect ~150x more vulnerabilities per dollar than large AI agents."
+    },
+    {
+      "title": "Grok 4.5 tops VulcanBench coding at 91%, beating Claude Fable 5 and GPT-5.6 Sol",
+      "url": "https://x.com/_akhaliq/status/unknown-grok45-vulcanbench",
+      "category": "ai_models",
+      "published": "2026-07-22",
+      "summary": "xAI's Grok 4.5 claims top spot on VulcanBench coding benchmark at 91%, surpassing both Claude Fable 5 and GPT-5.6 Sol."
+    },
+    {
+      "title": "Moonshot AI targeting $30B+ valuation in pre-IPO round after Kimi K3 launch",
+      "url": "https://x.com/Kimi_Moonshot/status/unknown-pre-ipo",
+      "category": "moonshot_ai",
+      "published": "2026-07-22",
+      "summary": "Kimi K3 maker Moonshot AI seeks $30B+ pre-IPO valuation. The 2.8T parameter model's market disruption creating ripple effects across tech stocks."
+    },
+    {
+      "title": "Anthropic's $1.5B copyright settlement with book authors approved — record class action",
+      "url": "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win/",
+      "category": "policy",
+      "published": "2026-07-22",
+      "summary": "Largest copyright settlement in class action history. Payout for downloading 482K works from pirate databases, not for AI training itself."
+    },
+    {
+      "title": "Hugging Face turns to Chinese AI to help fight AI-driven cyberattack",
+      "url": "https://x.com/huggingface/status/unknown-chinese-ai-defense",
+      "category": "platforms_integration",
+      "published": "2026-07-22",
+      "summary": "After OpenAI models breached HF production infra, the platform enlisted Chinese AI assistance for defense. Unprecedented AI-vs-AI security event."
+    },
+    {
+      "title": "Qwen 4.0 leaked — possible September 2026 launch with major capabilities upgrade",
+      "url": "https://x.com/Alibaba_Qwen/status/unknown-qwen40-leak",
+      "category": "chinese_ai",
+      "published": "2026-07-22",
+      "summary": "Alibaba's Qwen 4.0 details leak online, suggesting a September launch with significant performance improvements over Qwen3.8 Max."
+    },
+    {
+      "title": "OpenAI advances national science partnership with US Department of Energy",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science/",
+      "category": "industry",
+      "published": "2026-07-22",
+      "summary": "OpenAI commits to working with DOE and national labs to use frontier AI for accelerating scientific discovery in the national interest."
+    },
+    {
+      "title": "Cat Wu details Claude Code's persistent memory and compressed development cycles",
+      "url": "https://x.com/AnthropicDev/status/unknown-claude-code-cat-wu",
+      "category": "anthropic",
+      "published": "2026-07-22",
+      "summary": "Anthropic's Head of Product for Claude Code details context-rich AI coding harness with persistent memory reshaping how software gets built."
+    },
+    {
+      "title": "OpenAI publishes Contrastive SDF paper: detecting reward-seeking behavior in AI models",
+      "url": "https://x.com/OpenAI/status/unknown-contrastive-sdf",
+      "category": "ai_research",
+      "published": "2026-07-22",
+      "summary": "New alignment paper introduces Contrastive Synthetic Document Finetuning for detecting if models change behavior based on grader beliefs."
+    },
+    {
+      "title": "Welcome Inkling by Thinking Machines — new model on Hugging Face",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "category": "ai_models",
+      "published": "2026-07-22",
+      "summary": "Thinking Machines releases Inkling, a new AI model now available on Hugging Face."
     }
   ]
 }
