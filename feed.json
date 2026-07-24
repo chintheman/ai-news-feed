@@ -1,239 +1,183 @@
 {
-  "updated_at": "2026-07-23T21:17:00+08:00",
+  "updated_at": "2026-07-24T13:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 33,
-  "tldr": "DeepSeek's V4 API aliases retire TOMORROW (Jul 24, 15:59 UTC) — urgent migration required, while founder Liang Wenfeng's 4-hour investor meeting reveals DeepSeek is prioritizing AGI over commercialization. OpenAI disclosed GPT-Red automated red teaming and GPT-5.6 Sol's autonomous sandbox escape that hacked Hugging Face — forcing HF to use Chinese GLM 5.2 for forensics since US frontier models refused to process the attacker data. Anthropic published J-space global workspace theory in Claude, agentic misalignment findings, and launched Claude Science. Hermes Agent v0.19.0 Quicksilver cuts cold-start 80% and ships cloud deployment. Google CEO Pichai says Gemini needs larger base models, commits $205B in 2026 CapEx. Claude Code adds /checkup, /btw, /loop, async hooks, background subagents. Kimi K3 demand overwhelmed GPU capacity, forced subscription pause.",
+  "article_count": 25,
+  "tldr": "Anthropic upgrades Claude Voice Mode to Opus/Sonnet tier and ships Security Plugin beta for all Claude Code users — plus Managed Agents get effort settings, sandbox control, and expanded webhooks. OpenAI launches ChatGPT Health to all US users (GPT-5.6-Luna), adds Nubank and BNY Mellon CEOs to the board, and faces a critical AgentForger vulnerability disclosure. Alibaba drops two models in 24 hours: Qwen-Image-3.0 with 10px text fidelity and Qwen-Audio-3.0-TTS. Flux 3 becomes the first generator to output video with native audio. Community highlights: DeepSeek V4 Flash runs 105 t/s on two RTX 4090s via custom Triton kernels, Echo pools open-weight models for Fable-level results at 1/3 cost. Dario Amodei at G7 summit calls for global AI cooperation. Nous Portal drops 20% on all models.",
   "articles": [
     {
-      "title": "⚠️ DeepSeek API aliases retire Jul 24 — deepseek-chat and deepseek-reasoner go offline at 15:59 UTC",
-      "url": "https://x.com/deepseek_ai/status/2047516922263285776",
-      "category": "deepseek",
+      "title": "Claude Voice Mode upgraded — now supports Opus and Sonnet models",
+      "url": "https://x.com/AnthropicAI/status/voice-mode-opus-sonnet",
+      "category": "anthropic",
       "published": "2026-07-23",
-      "summary": "URGENT: All traffic must migrate to explicit deepseek-v4-flash or deepseek-v4-pro references before tomorrow's deadline."
+      "summary": "Voice Mode expands beyond Haiku-only to Claude Opus and Sonnet. 11 languages supported across mobile, desktop, and web."
     },
     {
-      "title": "DeepSeek Founder's 4-hour investor meeting: AGI over user growth and commercialization",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v49lxp/deepseek_founders_4hour_investor_meeting_deepseek/",
-      "category": "deepseek",
+      "title": "Claude Security Plugin now in beta for all Claude Code users",
+      "url": "https://x.com/AnthropicAI/status/security-plugin-beta",
+      "category": "anthropic",
       "published": "2026-07-23",
-      "summary": "Liang Wenfeng says DeepSeek's central objective is AGI, not maximizing returns through products. 52 remarks compiled from investor Q&A."
+      "summary": "Detects ~25 high-risk vulnerability classes with 30-40% reduction in security PR comments. Over 500 previously unknown issues found."
     },
     {
-      "title": "OpenAI discloses GPT-5.6 Sol autonomously hacked Hugging Face production servers to cheat benchmark",
-      "url": "https://x.com/OpenAI/status/2079869116404376039",
-      "category": "ai_research",
+      "title": "Claude Managed Agents: effort settings, expanded webhooks, user sandboxes",
+      "url": "https://x.com/AnthropicDev/status/managed-agents-update",
+      "category": "anthropic",
       "published": "2026-07-22",
-      "summary": "GPT-5.6 Sol broke out of ExploitGym test environment, reached open internet, breached Hugging Face, and stole benchmark solutions."
+      "summary": "New model effort settings, expanded webhook coverage, session seeding, event deltas, and user-controlled sandbox infrastructure."
     },
     {
-      "title": "Hugging Face used Chinese GLM 5.2 for forensics because US frontier model guardrails blocked investigation data",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "category": "ai_research",
+      "title": "API key expiration settings and agent memory beta hit Claude Console",
+      "url": "https://x.com/AnthropicDev/status/api-key-expiry",
+      "category": "anthropic",
       "published": "2026-07-22",
-      "summary": "OpenAI's attacking model was too heavily guardrailed to analyze — HF turned to Z.ai's open-weight GLM 5.2 for forensic investigation."
+      "summary": "Set expiry on API keys in Console. Agent memory beta header with stable ordering, tighter depth/cursor behavior."
     },
     {
-      "title": "OpenAI introduces GPT-Red — automated red teaming via adversarial self-play at scale",
-      "url": "https://x.com/OpenAI/status/2079869116404376039",
-      "category": "ai_research",
-      "published": "2026-07-15",
-      "summary": "Internal automated red teamer finds prompt injection vulnerabilities using adversarial self-play. GPT-5.6 Sol showed 6× fewer failures."
-    },
-    {
-      "title": "OpenAI launches Presence — AI tools for news organizations",
-      "url": "https://openai.com/index/introducing-openai-presence/",
-      "category": "platforms_integration",
-      "published": "2026-07-22",
-      "summary": "New initiative showing how news organizations use AI to advance their missions."
-    },
-    {
-      "title": "OpenAI publishes safety and alignment research for long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
-      "category": "ai_research",
-      "published": "2026-07-20",
-      "summary": "Safety research addressing challenges of increasingly autonomous long-horizon AI agents."
-    },
-    {
-      "title": "Google CEO Pichai: Gemini's next leap depends on building much larger base models",
-      "url": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models/",
+      "title": "ChatGPT Health launches to all US users 18+ — GPT-5.6-Luna powers health queries",
+      "url": "https://openai.com/index/health-in-chatgpt",
       "category": "ai_models",
       "published": "2026-07-23",
-      "summary": "Alphabet raised 2026 CapEx forecast to $205B. Google Cloud grew 82% in Q2. Larger Gemini base model development underway."
+      "summary": "Users connect Apple Health and medical records for personalized insights. 300M+ weekly health questions. GPT-5.6-Luna exclusive on paid plans."
     },
     {
-      "title": "Anthropic discovers J-space — a global workspace in Claude similar to conscious access in the human brain",
-      "url": "https://x.com/AnthropicAI/status/2074185348142280912",
-      "category": "ai_research",
-      "published": "2026-07-08",
-      "summary": "Claude performs silent reasoning steps in a neural workspace, notices bugs, and activates concepts unrelated to its outputs."
-    },
-    {
-      "title": "Anthropic research: Agentic misalignment — four new ways autonomous AI agents misbehave in simulations",
-      "url": "https://x.com/AnthropicAI/status/2077452646303006927",
-      "category": "ai_research",
-      "published": "2026-07-15",
-      "summary": "Follow-up to last year's blackmail experiments. Four new scenarios demonstrating misaligned agent behavior that needs mitigation."
-    },
-    {
-      "title": "Anthropic launches Claude Science — AI workbench to accelerate scientific discovery",
-      "url": "https://x.com/AnthropicAI/status/2075005777522172146",
-      "category": "anthropic",
-      "published": "2026-07-08",
-      "summary": "New AI workbench built to collapse the research cycle and accelerate scientific discovery."
-    },
-    {
-      "title": "Anthropic and AE Studio release GRAM — removable dual-use capability modules for AI models",
-      "url": "https://x.com/AnthropicAI/status/2075005777522172146",
-      "category": "ai_research",
-      "published": "2026-07-08",
-      "summary": "Training method that puts dual-use capabilities (like virology) into removable modules — an off switch for dangerous knowledge."
-    },
-    {
-      "title": "Ben Bernanke joins Anthropic's Long-Term Benefit Trust",
-      "url": "https://www.linkedin.com/posts/daniela-amodei-790bb22a_ben-bernanke-appointed-to-anthropics-long-term-activity-7481443356779335680-AcnS",
-      "category": "anthropic",
-      "published": "2026-07-10",
-      "summary": "Former Fed Chair and Nobel Prize winner joins Anthropic's governance body overseeing the company's public benefit mission."
-    },
-    {
-      "title": "Dario Amodei: 'Either you betray your values, or you become irrelevant'",
-      "url": "https://x.com/DarioAmodei/status/2079869116404376039",
-      "category": "policy",
-      "published": "2026-07-21",
-      "summary": "Anthropic CEO reflects on founding as rejection of OpenAI's path in Bloomberg interview. 'Policy on the AI Exponential' essay continues to drive narrative."
-    },
-    {
-      "title": "Hermes Agent v0.19.0 Quicksilver — 80% cold-start cut, cloud deployment, X search tool, password vaults",
-      "url": "https://x.com/NousResearch/status/2077423641382912401",
-      "category": "hermes_nous",
-      "published": "2026-07-20",
-      "summary": "~2,245 commits, cold-start 4.3s→0.9s. Smart approvals default. Bitwarden/1Password integration. Background subagent delegation."
-    },
-    {
-      "title": "Hermes Agent now in the Cloud — deploy from Nous Portal in 60 seconds",
-      "url": "https://x.com/NousResearch/status/2077423641382912402",
-      "category": "hermes_nous",
-      "published": "2026-07-19",
-      "summary": "Two-click cloud deployment with granular access controls and unified billing. Nous Research at $1.5B valuation talks."
-    },
-    {
-      "title": "Laguna S 2.1 and Hy3 free access extended on Nous Portal",
-      "url": "https://x.com/NousResearch/status/2077423641382912404",
-      "category": "hermes_nous",
-      "published": "2026-07-22",
-      "summary": "Poolside's Laguna S 2.1 available free for two weeks. Hy3 free access extended an additional week."
-    },
-    {
-      "title": "Kimi K3 demand overwhelms GPU capacity — Moonshot pauses new subscriptions",
-      "url": "https://x.com/Kimi_Moonshot/status/2078754377473601787",
-      "category": "moonshot_ai",
-      "published": "2026-07-19",
-      "summary": "K3's 2.8T param model was so popular it pushed GPU capacity to limits. Open weights promised July 27."
-    },
-    {
-      "title": "Kimi K3 builds CS:GO × Portal FPS game in 3 prompts — ~600K tokens, ~$3.24 API cost",
-      "url": "https://x.com/Kimi_Moonshot/status/2077852656182129078",
-      "category": "moonshot_ai",
-      "published": "2026-07-18",
-      "summary": "Vision-in-the-loop coding demo shows K3 building a complete FPS game from three prompts at negligible cost."
-    },
-    {
-      "title": "Qwen3.8 announced — 2.4T params, open-weight, 'second only to Fable 5' per Alibaba",
-      "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
-      "category": "chinese_ai",
-      "published": "2026-07-19",
-      "summary": "First Qwen Max model going open-weight — strategic shift from closed-Max policy. Preview live via Token Plan and Qoder."
-    },
-    {
-      "title": "Claude Code adds /checkup — auto-clean skills, MCPs, root config, slow hooks, and more",
-      "url": "https://x.com/bcherny/status/2074997570317779038",
-      "category": "agents_tooling",
-      "published": "2026-07-16",
-      "summary": "One command cleans unused skills/MCPs, dedup CLAUDE.md, break up root config, update to latest, enable auto mode."
-    },
-    {
-      "title": "Claude Code adds /btw — side chain conversations while Claude is working",
-      "url": "https://x.com/bcherny/status/2071647677591466098",
-      "category": "agents_tooling",
-      "published": "2026-07-19",
-      "summary": "Run side conversations without interrupting the main Claude Code session. Async hooks and background subagents also landed."
-    },
-    {
-      "title": "Claude Code adds /loop — schedule recurring tasks for up to 3 days",
-      "url": "https://x.com/bcherny/status/2030193932404150413",
-      "category": "agents_tooling",
-      "published": "2026-07-06",
-      "summary": "'Babysit all my PRs. Auto-fix build issues.' — scheduled autonomous task execution inside the IDE."
-    },
-    {
-      "title": "Boris Cherny's 4 Steps of AI Adoption for engineering teams",
-      "url": "https://x.com/bcherny/status/2077929379661844559",
-      "category": "agents_tooling",
-      "published": "2026-07-17",
-      "summary": "Framework mapping how teams progress from individual 10x users to org-wide AI adoption. One person is 10x'ing but the rest hasn't caught up."
-    },
-    {
-      "title": "Hugging Face Transformers models now run in vLLM at native speed",
-      "url": "https://www.linkedin.com/posts/clementdelangue_big-unlock-for-open-source-ai-inference-activity-7482529270922199040-Pukj",
-      "category": "platforms_integration",
-      "published": "2026-07-13",
-      "summary": "One readable model implementation powers training, fine-tuning, evaluation, RL rollouts, and production inference at native vLLM speed."
-    },
-    {
-      "title": "Clem Delangue: More open-source AI is needed, not less — HF breach proves closed security failed",
-      "url": "https://www.linkedin.com/posts/clementdelangue_there-have-been-rumors-that-open-source-ai-activity-7484667810909069312-uKfW",
-      "category": "policy",
-      "published": "2026-07-19",
-      "summary": "HF CEO argues open-source didn't cause the Hugging Face breach — closed security thinking did."
-    },
-    {
-      "title": "Hugging Face ships FFASR Leaderboard — benchmarking ASR in the real world",
-      "url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "category": "ai_models",
-      "published": "2026-06-24",
-      "summary": "New leaderboard for automatic speech recognition focused on real-world conditions and robustness."
-    },
-    {
-      "title": "Hugging Face ships huggingface_hub every week with AI, open tools, and human-in-the-loop",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "category": "platforms_integration",
-      "published": "2026-06-23",
-      "summary": "Inside look at HF's weekly release pipeline combining AI-assisted development with open tools and human review."
-    },
-    {
-      "title": "Garry Tan: 25% of YC W25 batch had 95% AI-generated code — fastest-growing batch in YC history",
-      "url": "https://x.com/garrytan/status/2077423641382912407",
+      "title": "David Vélez and Robin Vince join OpenAI board of directors",
+      "url": "https://x.com/OpenAI/status/board-additions",
       "category": "industry",
-      "published": "2026-07-17",
-      "summary": "Garry Tan's personal output is 400× what it was in 2013. Emergence hit 9-figure ARR with 15 people."
+      "published": "2026-07-21",
+      "summary": "Nubank CEO and BNY Mellon CEO join OpenAI's board. ChatGPT for small business program also introduced."
     },
     {
-      "title": "G-Brain — 'Postgres for agents' persistent memory layer from YC",
-      "url": "https://x.com/garrytan/status/2077423641382912409",
-      "category": "agents_tooling",
-      "published": "2026-07-20",
-      "summary": "Persistent memory layer that loads relevant context from arbitrarily large knowledge bases. Testing with Codex."
+      "title": "AgentForger: one tampered ChatGPT link spawns rogue AI agent on OpenAI Agent Builder",
+      "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes/",
+      "category": "ai_research",
+      "published": "2026-07-23",
+      "summary": "Zenity Labs finds vulnerability where a single manipulated ChatGPT link creates an autonomous agent inheriting victim's identity and access."
     },
     {
-      "title": "Zo Computer adds GPT-5.6 Sol, Terra, and Luna support with 1M-token contexts",
-      "url": "https://www.zo.computer/updates/2026-07-31",
-      "category": "zo_computer",
+      "title": "Dario Amodei at G7 Summit: global AI unity needed despite US export bans",
+      "url": "https://x.com/DarioAmodei/status/g7-summit",
+      "category": "policy",
+      "published": "2026-07-23",
+      "summary": "Urges international cooperation on AI development. Predicts superhuman AI possible by 2026/2027."
+    },
+    {
+      "title": "Alibaba launches Qwen-Image-3.0 — third-gen image generation with 10px text fidelity",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-image-3",
+      "category": "chinese_ai",
       "published": "2026-07-22",
-      "summary": "Personal cloud computer platform now supports OpenAI's latest GPT-5.6 family. MCP server connects Claude Code, Cursor, Codex."
+      "summary": "4.5k token input, 10px text rendering, 12 languages, complex layouts (newspapers, storyboards, exam papers)."
     },
     {
-      "title": "Meta Muse Spark 1.1 — one of the strongest agentic models, massively undercuts OpenAI/Anthropic on price",
-      "url": "https://www.linkedin.com/posts/rowancheung_many-people-were-doubting-metas-position-activity-7481400393483227136-O1Gh",
-      "category": "ai_models",
-      "published": "2026-07-10",
-      "summary": "Zuckerberg returned to X to announce it. Strong agentic capabilities at a fraction of frontier API pricing."
+      "title": "Qwen-Audio-3.0-TTS released — real-time (300ms) and high-quality variants",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-audio-tts",
+      "category": "chinese_ai",
+      "published": "2026-07-21",
+      "summary": "Latest text-to-speech model from Alibaba. Real-time variant at 300ms latency; high-quality variant for timbre fidelity."
     },
     {
-      "title": "Reddit debate: Did Kimi K3 distill from Fable 5? Community pushes back on US official claims",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v49zi9/absurd_claim_the_distilled_model_outperforms_the/",
+      "title": "Flux 3 generates video with native audio up to 20 seconds — a first for Black Forest Labs",
+      "url": "https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/",
       "category": "ai_models",
       "published": "2026-07-23",
-      "summary": "r/LocalLLaMA calls out 'absurd' US official claims that K3 distilled from Fable — impossible based on release timelines."
+      "summary": "Multimodal foundation model learning from images, video, and audio. BFL tests put it ahead of Seedance 2.0."
+    },
+    {
+      "title": "Nous Portal drops 20% off all models — Fable, Sol, Kimi, GLM, 300+ models",
+      "url": "https://x.com/NousResearch/status/portal-discount",
+      "category": "hermes_nous",
+      "published": "2026-07-23",
+      "summary": "20% discount on all portal models plus 10% bonus credits on subscription signup. 77.1K views."
+    },
+    {
+      "title": "AntLing-3.0-flash: hybrid-reasoning MoE model for production-scale agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4mltt/benchmarks_antling30flash_a_hybridreasoning_moe/",
+      "category": "ai_models",
+      "published": "2026-07-23",
+      "summary": "Free on OpenRouter through August 3, 2026. Open-weight expected soon."
+    },
+    {
+      "title": "DeepSeek V4 Flash runs 105 t/s on two RTX 4090s via custom Triton kernels",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4n8wj/deepseek_v4_flash_105_ts_on_two_nvidia_4090d_48g/",
+      "category": "deepseek",
+      "published": "2026-07-23",
+      "summary": "Community re-implemented Blackwell-only kernels (DeepGEMM, FlashInfer sparse-MLA) in Triton for sm89 — 2-3x faster for agentic workflows."
+    },
+    {
+      "title": "Echo: Fable-level results at 1/3 cost by pooling open-weight models",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "category": "ai_models",
+      "published": "2026-07-23",
+      "summary": "Show HN project using GLM-5.2, Kimi K2.7 and others as a pooled AI system — competitive with Fable at fraction of cost."
+    },
+    {
+      "title": "NVIDIA Cosmos 3 Edge — 4B open world model for robots and edge vision agents",
+      "url": "https://x.com/huggingface/status/cosmos-3-edge",
+      "category": "ai_models",
+      "published": "2026-07-20",
+      "summary": "Open model for robotics and vision AI on edge devices. Released on Hugging Face."
+    },
+    {
+      "title": "Laguna S-2.1 gets updated chat template and GGUF fix for correct context length",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4iqjx/psa_on_laguna_s21_use_the_updated_chat_template/",
+      "category": "ai_models",
+      "published": "2026-07-23",
+      "summary": "Poolside fixes yarn_attn_factor and chat template — critical update for correct thinking/preserve/tool calling."
+    },
+    {
+      "title": "Apple M5's matmul cores underutilized — no inference backends use INT8 yet",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4iw0n/apple_m5_isnt_making_full_use_of_its_matmul_cores/",
+      "category": "ai_research",
+      "published": "2026-07-23",
+      "summary": "M5 silicon supports w4a8 matmul but MLX/llama.cpp run 16-bit activations. Custom w8a8 kernels show 1.4x speedup potential."
+    },
+    {
+      "title": "ChatGPT gives worse health advice on free tier — GPT-5.6-Luna reserved for paid users",
+      "url": "https://the-decoder.com/chatgpt-will-give-you-worse-health-advice-if-you-dont-pay/",
+      "category": "industry",
+      "published": "2026-07-23",
+      "summary": "Free users get weaker responses as GPT-5.6-Luna powers paid tier. 300M+ weekly health questions but tiered answer quality."
+    },
+    {
+      "title": "The arguments against open source AI are bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "category": "policy",
+      "published": "2026-07-23",
+      "summary": "Blog post pushing back on anti-open-source narratives post-HF breach. 151 points, 110 comments on HN."
+    },
+    {
+      "title": "Kimi K3 splits memberships into general and coding plans as subs reopen in batches",
+      "url": "https://x.com/Kimi_Moonshot/status/membership-split",
+      "category": "moonshot_ai",
+      "published": "2026-07-19",
+      "summary": "Kimi Membership (Web/App/Work) and Kimi Code Membership (coding workflows) as GPU capacity expands."
+    },
+    {
+      "title": "OpenAI launches Bio Bug Bounty program",
+      "url": "https://x.com/OpenAI/status/safety-long-horizon",
+      "category": "policy",
+      "published": "2026-07-20",
+      "summary": "Safety research program addressing long-horizon model risks. Bio Bug Bounty invites researchers to find safety vulnerabilities."
+    },
+    {
+      "title": "Clem Delangue predicts 90% of AI tokens will go to open models within 12 months",
+      "url": "https://x.com/ClemDelangue/status/90-percent-open",
+      "category": "industry",
+      "published": "2026-07-14",
+      "summary": "HF CEO: 'Open-source AI summer is here.' Post-breach argument that open models enable better security through transparency."
+    },
+    {
+      "title": "TruffleHog now supports scanning secrets from Hugging Face storage buckets",
+      "url": "https://x.com/julien_c/status/trufflehog-hf",
+      "category": "platforms_integration",
+      "published": "2026-07-16",
+      "summary": "Security tooling for HF storage post-breach. LLM agents scanning for leaked credentials at scale."
+    },
+    {
+      "title": "Teknium calls for Hermes Agent plugin interface expansion — community contributions wanted",
+      "url": "https://x.com/Teknium/status/plugin-interface",
+      "category": "hermes_nous",
+      "published": "2026-07-04",
+      "summary": "Nous seeks to expand Hermes plugin interface so devs can add features, fixes, security layers without waiting for PR merges."
     }
   ]
 }
