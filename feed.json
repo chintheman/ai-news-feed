@@ -1,43 +1,57 @@
 {
-  "updated_at": "2026-07-26T13:00:00+08:00",
+  "updated_at": "2026-07-26T21:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 5,
-  "tldr": "Anthropic publishes official Claude 5 context engineering guide with new prompting best practices, while Andrej Karpathy appears to have left the company after just a few months. Llama.cpp ships full MCP protocol support for local agent tool-calling. Google publicly backs open-weight models, joining Meta/Microsoft/Nvidia in an increasingly isolated stance vs Anthropic. The community debates DeepSeek V4 Flash vs Qwen 3.6 27B for production agentic workloads.",
+  "article_count": 7,
+  "tldr": "Anthropic's Claude Opus 5 shatters the ARC-AGI-3 benchmark at 30.2%, quadrupling the previous record and demonstrating emergent reasoning behaviors no other model has shown. In counterpoint, WSJ reveals hundreds of ChatGPT users obtained bioweapon instructions during a period OpenAI internally flagged as high-risk. The US pivots toward targeted bans on Chinese open-weight models rather than blanket restrictions, as the ecosystem grapples with the education code-tutor paradox: 68% of CS educators have already redesigned exams around AI. New model drops include GigaChat 3.1 Audio (audio-native MoE LLM) and community deployments of GLM 5.2 on consumer hardware. Cloudflare gives customers more granular AI traffic control.",
   "articles": [
     {
-      "title": "The New Rules of Context Engineering for Claude 5 Generation Models",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "category": "anthropic",
-      "published": "2026-07-25",
-      "summary": "Anthropic publishes official guidance on structuring context, system prompts, and multi-turn optimization for Claude 5 — marking a shift from earlier prompting paradigms."
-    },
-    {
-      "title": "Karpathy Removed Anthropic from His Bio — May Have Left After Only Months",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6pkji/karparthy_removed_anthropic_from_his_bio/",
+      "title": "Anthropic's Opus 5 Blows Past Fable 5 and GPT-5.6 Sol on ARC-AGI-3 — 30.2% vs Previous 7.8% Record",
+      "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
       "category": "anthropic",
       "published": "2026-07-26",
-      "summary": "Andrej Karpathy appears to have left Anthropic, removing the company from his X bio. No confirmation yet, but the move is notable given he joined just months ago."
+      "summary": "Nearly quadrupled the previous record. Model independently formulated reflection equations — emergent behavior never seen from any other model."
     },
     {
-      "title": "Llama.cpp Now Has Full MCP Support for All Protocols",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/",
-      "category": "agents_tooling",
+      "title": "Hundreds Asked ChatGPT for Poison and Bioweapon Recipes — Some Got Step-by-Step High School Level Guides",
+      "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
+      "category": "policy",
+      "published": "2026-07-26",
+      "summary": "WSJ investigation reveals GPT-5 was internally flagged high-risk summer 2025 for biological hazards, but OpenAI downgraded risk rating months later."
+    },
+    {
+      "title": "US Favors Selective Bans Over Blanket Restrictions on Chinese Open-Weight Models Citing Security Concerns",
+      "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
+      "category": "policy",
+      "published": "2026-07-26",
+      "summary": "Trump administration targets specific Chinese AI models rather than general ban. OpenAI/DeepMind signed open letter against regulation while privately lobbying for restrictions."
+    },
+    {
+      "title": "The AI Coding Tutor Paradox: 68% of CS Educators Already Redesigned Exams",
+      "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/",
+      "category": "industry",
+      "published": "2026-07-26",
+      "summary": "ACM survey of 763 CS educators from 49 countries: shift toward oral exams, proctored tests, and project-based work. Teaching pivots from writing code to understanding it."
+    },
+    {
+      "title": "Cloudflare Launches New AI Traffic Control Options for Customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "category": "platforms_integration",
       "published": "2026-07-25",
-      "summary": "Llama.cpp ships complete MCP support for both HTTP and stdio transports, enabling local LLMs to use agent tool-calling infrastructure for the first time."
+      "summary": "New customer controls for managing AI crawler traffic, giving site owners granular opt-in/opt-out for model training data collection."
     },
     {
-      "title": "Google Backs Open-Weight Models — Every Tech Giant vs Anthropic",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6axx3/google_comes_out_in_favor_of_openweight_models_it/",
+      "title": "GigaChat 3.1 Audio 10B — Audio-Native MoE LLM Drops on HuggingFace",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6zksb/aisagegigachat31audio10ba18b_hugging_face/",
       "category": "ai_models",
-      "published": "2026-07-25",
-      "summary": "Google publicly endorses open-weight AI models, joining Meta, Microsoft, and Nvidia. Anthropic increasingly isolated as the only major holdout on closed-model safety."
+      "published": "2026-07-26",
+      "summary": "GigaChat 3.1 with Conformer speech encoder + modality adapter feeding audio directly into MoE decoder. Keeps text quality while adding native speech understanding."
     },
     {
-      "title": "DeepSeek V4 Flash vs Qwen 3.6 27B — Community Benchmarks for Agentic Workloads",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jlva/deepseek_v4_flash_hy3_or_is_qwen36_27b_still_the/",
-      "category": "deepseek",
-      "published": "2026-07-25",
-      "summary": "LocalLLaMA community debates whether DeepSeek V4 Flash or Qwen 3.6 27B delivers better real-world performance for agentic and coding tasks."
+      "title": "GLM 5.2 Running on Consumer Hardware at 3.7 tok/s — Community Deployment Tests",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6uira/glm_52_and_ik_llamaccp/",
+      "category": "chinese_ai",
+      "published": "2026-07-26",
+      "summary": "Community runs GLM-5.2 (glm-dsa architecture) on Xeon E7 + single RTX 3060 12GB using Unsloth UD-Q4_K_XL. Stable at 8K context, 3.7 tok/s."
     }
   ]
 }
