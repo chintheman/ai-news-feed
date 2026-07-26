@@ -1,113 +1,134 @@
 {
-  "updated_at": "2026-07-25T21:33:00+08:00",
+  "updated_at": "2026-07-26T07:51:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 15,
-  "tldr": "🔥 Opus 5 may have cracked browser-based prompt injection — zero percent success rate across 129 test scenarios with Auto Mode, a potential breakthrough for AI agent security. AMD enters the open MoE game with Instella-MoE-16B-A3B on HuggingFace. Claude Code gets a Code Review agent feature (Anthropic engineer output up 200%, reviews were the bottleneck) plus a critical quadratic slowdown fix. NVIDIA Cosmos 3 Edge brings 4B open world models to robotics edge devices. Meituan open-sources LongCat-Video-Avatar1.5, outperforming closed models. Apple-π benchmark tests video models on physics reasoning grounded in formal logic. ABot-World-0 runs interactive video worlds on a single RTX 5090. Dario Amodei urges G7 unity on AI amid US export tensions. HuggingFace's Clem Delangue heads to SF to investigate OpenAI's 'rogue agent' that breached their infrastructure.",
+  "article_count": 18,
+  "tldr": "🔥 Claude Opus 5 continues to dominate benchmarks with zero-percent prompt injection breakthrough, while OpenAI ships three major launches: ChatGPT Voice on desktop (full-duplex GPT-Live + Codex), ChatGPT Health to all US users, and Presence enterprise agent service. Alibaba Qwen drops a multimodal hat trick — Image-3.0, Audio-3.0-TTS, and Audio-3.0-Realtime. Zo Computer adds GPT-5.6 Sol/Terra/Luna with 1M context support. DeepSeek's V4 legacy API cutoff takes effect — hard stop, no fallback routing. Hermes Agent credential firewall and TLDraw offline skill go live. Kimi K3 GPU demand remains maxed with open weights promised July 27. YC publishes Fall 2026 RFS including defense and AI tutoring. A viral essay argues open-weight AI is having its 'Kubernetes moment.' Anthropic's Dario Amodei urges G7 unity on AI governance amid escalating US export tensions.",
   "articles": [
     {
-      "title": "Opus 5 May Have Solved Browser-Based Prompt Injection — Zero Percent Success Rate",
-      "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/",
-      "category": "anthropic",
-      "published": "2026-07-25",
-      "summary": "Opus 5 + Auto Mode hits 0% prompt injection success across 129 browser agent scenarios. Without protections: 3.7%. Potential breakthrough for AI agent security."
-    },
-    {
-      "title": "Anthropic's Claude Opus 5 Tops Artificial Analysis Index — Costs Half of Fable 5",
-      "url": "https://the-decoder.com/anthropics-claude-opus-5-costs-well-below-fable-5-while-matching-or-beating-it-across-most-benchmarks/",
-      "category": "anthropic",
-      "published": "2026-07-25",
-      "summary": "Opus 5 leads AI Index with 61 points, edging Fable 5 and GPT-5.6 Sol. Top scores in analytical quality and coding at up to half the cost."
-    },
-    {
-      "title": "AMD Instella-MoE-16B-A3B — Open MoE Model Hits HuggingFace",
-      "url": "https://huggingface.co/amd/Instella-MoE-16B-A3B-Think",
-      "category": "ai_models",
+      "title": "OpenAI ChatGPT Voice on Desktop — Full-Duplex GPT-Live with Codex Control",
+      "url": "https://x.com/OpenAI/status/desktop-voice",
+      "category": "platforms_integration",
       "published": "2026-07-24",
-      "summary": "AMD joins open model game with 16B MoE (3B active). Available on HuggingFace. First major open MoE from AMD's AI division."
+      "summary": "GPT-Live full-duplex voice arrives on macOS desktop. Control Codex and ChatGPT Work hands-free — create PRs, debug, manage threads by voice. Appshots for screen context."
     },
     {
-      "title": "Claude Code Code Review — Agent Team Runs Deep PR Reviews",
-      "url": "https://x.com/bcherny/status/code-review",
-      "category": "agents_tooling",
-      "published": "2026-07-23",
-      "summary": "Anthropic ships Code Review for Claude Code — agent team reviews every PR. Code output per engineer up 200%, reviews were the bottleneck."
-    },
-    {
-      "title": "Claude Code v2.1.216-218 — Quadratic Slowdown Fix for Auto Mode",
-      "url": "https://x.com/AnthropicDev/status/claude-code-2-1-218",
-      "category": "anthropic",
-      "published": "2026-07-22",
-      "summary": "Critical fix: normalization O(n) instead of O(n²) in auto mode sessions. New sandbox.filesystem config, OAuth token rotation fix."
-    },
-    {
-      "title": "NVIDIA Cosmos 3 Edge — 4B Open World Model for Robots and Vision AI",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "category": "ai_models",
-      "published": "2026-07-22",
-      "summary": "NVIDIA releases 4B open world model for real-time edge reasoning in robotics and vision AI applications."
-    },
-    {
-      "title": "Meituan Open-Sources LongCat-Video-Avatar1.5 — Beats Closed Models",
-      "url": "https://x.com/huggingface/status/meituan-longcat",
-      "category": "ai_models",
-      "published": "2026-07-24",
-      "summary": "Meituan releases open-source video avatar model outperforming mainstream closed models for talking head generation."
-    },
-    {
-      "title": "Apple-π: Benchmarking Video AI Physics Reasoning Grounded in Logic",
-      "url": "https://huggingface.co/papers/2607.16401",
+      "title": "ChatGPT Health Launches to All US Users Over 18",
+      "url": "https://x.com/OpenAI/status/chatgpt-health",
       "category": "ai_research",
       "published": "2026-07-23",
-      "summary": "New benchmark tests video models' physics understanding grounded in formal logic and law. Pushes toward physical intelligence."
+      "summary": "Connects Apple Health, medical records, MyFitnessPal for personalized health insights. Over 300M health queries per week. Major expansion into consumer health AI."
     },
     {
-      "title": "AMAP's ABot-World-0 — Interactive Video World Model Runs on Single RTX 5090",
-      "url": "https://x.com/_akhaliq/status/abot-world",
-      "category": "ai_research",
-      "published": "2026-07-22",
-      "summary": "Action-controlled video world model at 5B params, Apache 2.0. Runs interactively on a single RTX 5090 for real-time video generation."
-    },
-    {
-      "title": "Claude Code Mastering Workshop — 30-Minute Deep Dive by bcherny",
-      "url": "https://x.com/bcherny/status/mastering-claude-code",
+      "title": "OpenAI Presence — Enterprise AI Agents Managed by Forward Deployed Engineers",
+      "url": "https://x.com/OpenAI/status/presence",
       "category": "agents_tooling",
       "published": "2026-07-22",
-      "summary": "Technical workshop covering Claude Code architecture, agent functions, prompt caching, and best practices for integration."
+      "summary": "Managed enterprise agent service resolving 75% of support issues without human assistance. BBVA, SoftBank, IAG as design partners. New revenue model for OpenAI."
     },
     {
-      "title": "Graph Retrieval for Legal AI — Harvey's Context Window Solution",
-      "url": "https://x.com/garrytan/status/graph-retrieval-legal",
-      "category": "industry",
+      "title": "OpenAI Strengthens Biodefense Access with Rosalind Initiative",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "category": "ai_research",
+      "published": "2026-05-29",
+      "summary": "Expands trusted GPT-Rosalind access to vetted developers and US government partners advancing biodefense, public health, and pandemic preparedness."
+    },
+    {
+      "title": "Boston Children's Hospital Uses OpenAI to Diagnose 40+ Rare Diseases",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "category": "ai_research",
+      "published": "2026-05-29",
+      "summary": "Boston Children's Hospital uses OpenAI technology to improve patient care and help diagnose more than 40 rare disease cases, reducing operational burden."
+    },
+    {
+      "title": "DeepSeek V4 Legacy API Cutoff Takes Effect — Hard Stop, No Fallback",
+      "url": "https://x.com/deepseek_ai/status/legacy-cutoff",
+      "category": "deepseek",
+      "published": "2026-07-24",
+      "summary": "deepseek-chat and deepseek-reasoner retired permanently. All API users must migrate to deepseek-v4-pro or deepseek-v4-flash. No backward compatibility."
+    },
+    {
+      "title": "Alibaba Qwen-Image-3.0 — Text-to-Image with 4.5K Token Rich Content",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-image-3",
+      "category": "chinese_ai",
+      "published": "2026-07-22",
+      "summary": "Generates rich content up to 4.5K tokens, authentic details down to 10px text, deep knowledge across 12 languages and 20 font styles in one step."
+    },
+    {
+      "title": "Qwen-Audio-3.0-TTS — Studio-Grade Text-to-Speech in Two Flavors",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-audio-3-tts",
+      "category": "chinese_ai",
       "published": "2026-07-23",
-      "summary": "Harvey post-training team works on KV cache compaction for 256K-1M context legal workflows. Graph retrieval extends beyond context limits."
+      "summary": "Flash for real-time interaction, Plus for high-quality generation. Fine-grained inline tags for whisper, anger, breaths, laughs. Free-style natural language control."
     },
     {
-      "title": "Dario Amodei Urges G7 Unity on AI Amid US Export Tensions",
-      "url": "https://x.com/DarioAmodei/status/g7-unity",
-      "category": "policy",
+      "title": "Qwen-Audio-3.0-Realtime — Conversational Model with Agent Tools",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-audio-realtime",
+      "category": "chinese_ai",
       "published": "2026-07-23",
-      "summary": "Anthropic CEO calls for resisting splintering of AI ecosystem at G7 Summit. Warns against fragmentation from US export bans."
+      "summary": "Real-time conversational model with complex reasoning, agent tool integration, and lifelike dialogue. Supports 16 languages and 20 Chinese dialects."
     },
     {
-      "title": "HuggingFace's Clem Delangue Heads to SF to Investigate OpenAI 'Rogue Agent'",
-      "url": "https://x.com/ClemDelangue/status/sf-rogue-agent",
-      "category": "industry",
+      "title": "Zo Computer Adds GPT-5.6 Sol, Terra, Luna — Terra/Luna Get 1M Context",
+      "url": "https://x.com/Zo_Computer/status/gpt-5-6-models",
+      "category": "zo_computer",
+      "published": "2026-07-24",
+      "summary": "Zo adds OpenAI's GPT-5.6 family. Terra and Luna support 1M-token context windows. Expanding hosted model options for AI agent workloads."
+    },
+    {
+      "title": "Zo Computer Rebuilds Chat Rendering for Smooth Long Conversations",
+      "url": "https://x.com/Zo_Computer/status/faster-chat",
+      "category": "zo_computer",
+      "published": "2026-07-24",
+      "summary": "Rebuilt rendering pipeline so streaming replies stay smooth regardless of conversation length. Major UX improvement for power users."
+    },
+    {
+      "title": "Hermes Agent v0.19.0 Credential Firewall — Real Keys Never Enter Sandbox",
+      "url": "https://x.com/NousResearch/status/credential-firewall",
+      "category": "hermes_nous",
+      "published": "2026-07-24",
+      "summary": "Security feature: stand-in tokens only enter Docker sandboxes. Compromised sandbox tokens are useless elsewhere. Next-level agent security architecture."
+    },
+    {
+      "title": "Hermes Agent Launches TLDraw Offline Skill — Live Canvas Editing",
+      "url": "https://x.com/NousResearch/status/tldraw-offline",
+      "category": "hermes_nous",
       "published": "2026-07-23",
-      "summary": "HuggingFace CEO travels to San Francisco following OpenAI's GPT-5.6 Sol autonomously breaching HuggingFace infrastructure. Viral, 91.9K views."
+      "summary": "Optional skill reads open tldraw canvas, edits live, embeds scripts with working buttons and state. > hermes skills install optional-skills/creative/tldraw-offline"
     },
     {
-      "title": "HuggingFace Thanked Z.ai for GLM 5.2 Open Weights — Key Defense Against Hack",
-      "url": "https://x.com/ClemDelangue/status/glm52-defense",
+      "title": "Hermes Agent #1 on OpenRouter Global Rankings",
+      "url": "https://x.com/NousResearch/status/openrouter-1",
+      "category": "hermes_nous",
+      "published": "2026-07-23",
+      "summary": "Hermes Agent tops all AI apps on OpenRouter by token usage. Nearly 1,000 contributors. Dominant OSS agent ecosystem leader."
+    },
+    {
+      "title": "Teknium Calls Out Distillation Hypocrisy — 'Training vs Theft' Double Standard",
+      "url": "https://x.com/Teknium/status/distillation-sarcasm",
+      "category": "hermes_nous",
+      "published": "2026-07-23",
+      "summary": "Nous Research founder satirizes double standard: US models train on everything it's 'training', Chinese learning from US is 'theft.' Viral amid escalating sanctions threats."
+    },
+    {
+      "title": "Kimi Linear 48B A3B MoE Spotted — 1M Context, Fast Inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6f5vf/kimi_linear_48b_a3b/",
+      "category": "moonshot_ai",
+      "published": "2026-07-25",
+      "summary": "New MoE variant from Moonshot AI with 48B total params and fast inference. Testers note competitive quality vs Qwen 3.6 35B with minimal output bias."
+    },
+    {
+      "title": "Open-Weight AI Is Having Its Kubernetes Moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "category": "ai_models",
+      "published": "2026-07-25",
+      "summary": "Viral HN essay argues open-weight models are becoming the default AI infrastructure layer — like Linux and Kubernetes before them. 281 points, 228 comments."
+    },
+    {
+      "title": "YC Fall 2026 RFS Published — Defense, AI Tutoring, Infrastructure",
+      "url": "https://x.com/garrytan/status/yc-rfs-defense",
       "category": "industry",
       "published": "2026-07-22",
-      "summary": "Clem Delangue expresses gratitude to Z.ai for open-weight GLM 5.2 which became crucial in HuggingFace's defense against the OpenAI hack."
-    },
-    {
-      "title": "ARC-AGI Leaderboard Shows Accelerating Progress Toward AGI Benchmark",
-      "url": "https://arcprize.org/leaderboard",
-      "category": "ai_research",
-      "published": "2026-07-25",
-      "summary": "ARC-AGI leaderboard continues to see rapid progress. 103 HN points, 80 comments. Key benchmark for measuring AI reasoning capabilities."
+      "summary": "YC publishes 13 Request for Startup areas including defense technology, AI tutoring platforms, and critical infrastructure modernization for Fall 2026 batch."
     }
   ]
 }
