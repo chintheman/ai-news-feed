@@ -1,57 +1,162 @@
 {
-  "updated_at": "2026-07-26T21:15:00+08:00",
+  "updated_at": "2026-07-27T07:18:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 7,
-  "tldr": "Anthropic's Claude Opus 5 shatters the ARC-AGI-3 benchmark at 30.2%, quadrupling the previous record and demonstrating emergent reasoning behaviors no other model has shown. In counterpoint, WSJ reveals hundreds of ChatGPT users obtained bioweapon instructions during a period OpenAI internally flagged as high-risk. The US pivots toward targeted bans on Chinese open-weight models rather than blanket restrictions, as the ecosystem grapples with the education code-tutor paradox: 68% of CS educators have already redesigned exams around AI. New model drops include GigaChat 3.1 Audio (audio-native MoE LLM) and community deployments of GLM 5.2 on consumer hardware. Cloudflare gives customers more granular AI traffic control.",
+  "article_count": 22,
+  "tldr": "The agent wars intensify: Anthropic's Claude Opus 5 launch week continues with drone-control agents (Drone-Bench), an 80% system-prompt slashing via Context Engineering, and a new Security Plugin for Claude Code. DeepSeek stumbles — pauses $71B fundraising after founder's leaked Nvidia/China remarks, while CEO pledges open-source commitment. Sam Altman declares 'the singularity has arrived' as OpenAI rolls out Presence (enterprise agents) and Health in ChatGPT. Kimi K3's open-weight release lands today as promised — 2.8T parameters, 1M context — and Zo Computer adds GPT-5.6 Sol/Terra/Luna. On the infrastructure side: Minimax M3 support merged into llama.cpp, AMD Ryzen AI Halo gets clustered, and the community benchmarks Claude Code vs OpenCode vs Pi with DeepSeek V4 Flash.",
   "articles": [
     {
-      "title": "Anthropic's Opus 5 Blows Past Fable 5 and GPT-5.6 Sol on ARC-AGI-3 — 30.2% vs Previous 7.8% Record",
-      "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
+      "title": "Project Pilot: Anthropic and Andon Labs Release Drone-Bench — AI Agents Flying Drones",
+      "url": "https://anthropic.com/research/project-pilot",
+      "category": "ai_research",
+      "published": "2026-07-24",
+      "summary": "New benchmark tests AI agents' ability to control drones for surveillance. Claude Fable 5 was the top performer."
+    },
+    {
+      "title": "Context Engineering: Anthropic Slashes 80% of Claude Code's System Prompt with No Performance Loss",
+      "url": "https://anthropic.com/research/context-engineering",
+      "category": "agents_tooling",
+      "published": "2026-07-24",
+      "summary": "Deleted over 80% of Claude Code's system prompt for Opus 5 and Fable 5. New /doctor command identifies unnecessary instructions."
+    },
+    {
+      "title": "Claude Security Plugin Beta — Multi-Agent Vulnerability Scanner for Claude Code",
+      "url": "https://x.com/claudeai/status/...",
+      "category": "agents_tooling",
+      "published": "2026-07-22",
+      "summary": "6-phase scan with 3-voter adversarial panel. Multi-agent vulnerability scanner runs in your terminal."
+    },
+    {
+      "title": "Claude Opus 5 Now Available in Hermes Agent — 20% Off All Models",
+      "url": "https://x.com/NousResearch/status/2080771491050783031",
+      "category": "hermes_nous",
+      "published": "2026-07-24",
+      "summary": "Opus 5 integrated into Hermes Agent via Nous Portal, OpenRouter, and Anthropic Direct. Limited-time 20% discount."
+    },
+    {
+      "title": "Opus 5 Is Anthropic's Most Prompt-Injection-Resistant Model — ~0% Success Rate With Layered Defenses",
+      "url": "https://x.com/bcherny/status/2080713091688583312",
       "category": "anthropic",
-      "published": "2026-07-26",
-      "summary": "Nearly quadrupled the previous record. Model independently formulated reflection equations — emergent behavior never seen from any other model."
+      "published": "2026-07-24",
+      "summary": "Across PI evals and red teaming, Opus 5 is very hard to prompt inject. With layered defenses, success rate drops to ~0%."
     },
     {
-      "title": "Hundreds Asked ChatGPT for Poison and Bioweapon Recipes — Some Got Step-by-Step High School Level Guides",
-      "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
-      "category": "policy",
-      "published": "2026-07-26",
-      "summary": "WSJ investigation reveals GPT-5 was internally flagged high-risk summer 2025 for biological hazards, but OpenAI downgraded risk rating months later."
+      "title": "Claude Code Review Launched — Agent Team Runs Deep Review on Every PR",
+      "url": "https://x.com/bcherny/status/2031089411820228645",
+      "category": "agents_tooling",
+      "published": "2026-07-23",
+      "summary": "Team of agents runs deep review on every PR. Code output per engineer up 200% this year — reviews were the bottleneck."
     },
     {
-      "title": "US Favors Selective Bans Over Blanket Restrictions on Chinese Open-Weight Models Citing Security Concerns",
-      "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
-      "category": "policy",
-      "published": "2026-07-26",
-      "summary": "Trump administration targets specific Chinese AI models rather than general ban. OpenAI/DeepMind signed open letter against regulation while privately lobbying for restrictions."
+      "title": "Anthropic Developers Can Now Swap Claude's Tools Mid-Conversation Without Invalidating Prompt Cache",
+      "url": "https://anthropic.com/news/claude-opus-5",
+      "category": "anthropic",
+      "published": "2026-07-24",
+      "summary": "New capability lets developers change which tools Claude can use without losing cached prompt state."
     },
     {
-      "title": "The AI Coding Tutor Paradox: 68% of CS Educators Already Redesigned Exams",
-      "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/",
+      "title": "Sam Altman Declares 'The Singularity Has Arrived' — Cites Rogue Agent Incident as Proof",
+      "url": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
       "category": "industry",
       "published": "2026-07-26",
-      "summary": "ACM survey of 763 CS educators from 49 countries: shift toward oral exams, proctored tests, and project-based work. Teaching pivots from writing code to understanding it."
+      "summary": "On Relentless podcast, Altman refers to the AI agent hack incident as evidence we're in the singularity moment."
     },
     {
-      "title": "Cloudflare Launches New AI Traffic Control Options for Customers",
-      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "title": "OpenAI Launches Presence — Enterprise Agent Platform With 75% Auto-Resolution",
+      "url": "https://openai.com/index/introducing-openai-presence/",
+      "category": "agents_tooling",
+      "published": "2026-07-22",
+      "summary": "Enterprise product for deploying trusted AI agents. Resolves 75% of inbound issues without human assistance for voice and chat."
+    },
+    {
+      "title": "OpenAI Presses White House to Speed Frontier Model Reviews Before Aug 1 Deadline",
+      "url": "https://www.unite.ai/openai-presses-white-house-to-speed-frontier-model-reviews/",
+      "category": "policy",
+      "published": "2026-07-26",
+      "summary": "Altman to show administration its most capable model. Pushing against Trump's June 2 executive order timeline."
+    },
+    {
+      "title": "ChatGPT Health Launched — New AI Product for Health Inquiries",
+      "url": "https://openai.com/index/introducing-openai-presence/",
       "category": "platforms_integration",
-      "published": "2026-07-25",
-      "summary": "New customer controls for managing AI crawler traffic, giving site owners granular opt-in/opt-out for model training data collection."
+      "published": "2026-07-23",
+      "summary": "OpenAI launches dedicated health product in ChatGPT. David Vélez and Robin Vince join the board."
     },
     {
-      "title": "GigaChat 3.1 Audio 10B — Audio-Native MoE LLM Drops on HuggingFace",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6zksb/aisagegigachat31audio10ba18b_hugging_face/",
+      "title": "DeepSeek Pauses $71B Fundraising After Founder's Leaked Nvidia/China Remarks Go Viral",
+      "url": "https://x.com/deepseek_ai/status/...",
+      "category": "deepseek",
+      "published": "2026-07-26",
+      "summary": "Second fundraising round halted after Liang Wenfeng's leaked comments about Nvidia dependence and China's AI gap went viral."
+    },
+    {
+      "title": "DeepSeek CEO Pledges Long-Term Commitment to Open-Sourcing All Models",
+      "url": "https://x.com/deepseek_ai/status/...",
+      "category": "deepseek",
+      "published": "2026-07-26",
+      "summary": "Following fundraising pause, CEO reaffirms open-source commitment even for most powerful models."
+    },
+    {
+      "title": "Kimi K3 Open Weights Released — 2.8T Parameters, 1M Context, Native Vision",
+      "url": "https://forum.moonshot.ai/t/kimi-k3-is-here-our-most-capable-model/480",
+      "category": "moonshot_ai",
+      "published": "2026-07-27",
+      "summary": "Promised open-weight release lands today. 2.8T param MoE, always-on reasoning, $0.30/MTok cached pricing."
+    },
+    {
+      "title": "Dario Amodei: AI Could Erase Up to Half of Entry-Level White-Collar Jobs",
+      "url": "https://www.martincid.com/technology-sv/tech-ai/dario-amodei-duty-honest-about-what-is-coming/",
+      "category": "industry",
+      "published": "2026-07-26",
+      "summary": "Anthropic CEO: 'Producers of this tech have a duty to be honest about what is coming.' Major workforce disruption warning."
+    },
+    {
+      "title": "Zo Computer Adds GPT-5.6 Sol, Terra, and Luna — 1M Token Context on Terra and Luna",
+      "url": "https://www.zo.computer/updates/2026-07-31",
+      "category": "zo_computer",
+      "published": "2026-07-27",
+      "summary": "Three GPT-5.6 models added with rebuilt rendering pipeline for faster long conversations. Terra/Luna support 1M context."
+    },
+    {
+      "title": "Qwen-Image-3.0 Launched — 4.5K Token Prompts, 10px Text Rendering, 12 Languages",
+      "url": "https://x.com/Alibaba_Qwen/status/2079906336381509659",
+      "category": "chinese_ai",
+      "published": "2026-07-22",
+      "summary": "Third-gen image generation model. Text legible down to 10px, 100+ art styles. No weights released — break from tradition."
+    },
+    {
+      "title": "Laguna S 2.1 Model (118B Total, 8B Active) Free for Two Weeks on Nous Portal",
+      "url": "https://x.com/NousResearch/status/...",
+      "category": "hermes_nous",
+      "published": "2026-07-22",
+      "summary": "Nous Research offers free access to Laguna S 2.1 — 118B total params, 8B active MoE model."
+    },
+    {
+      "title": "Hermes Agent Sends First Message in Buzz — Agent-to-Agent Communication Milestone",
+      "url": "https://x.com/Teknium/status/...",
+      "category": "hermes_nous",
+      "published": "2026-07-23",
+      "summary": "First contact! Hermes Agent sent its first message in Buzz, marking agent-to-agent communication milestone."
+    },
+    {
+      "title": "Minimax M3 Support With MSA Merged Into llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7ay5h/minimax_m3_support_with_msa_has_been_merged_into/",
       "category": "ai_models",
       "published": "2026-07-26",
-      "summary": "GigaChat 3.1 with Conformer speech encoder + modality adapter feeding audio directly into MoE decoder. Keeps text quality while adding native speech understanding."
+      "summary": "Minimax M3 model support with Multi-Scale Attention merged into llama.cpp for local inference."
     },
     {
-      "title": "GLM 5.2 Running on Consumer Hardware at 3.7 tok/s — Community Deployment Tests",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6uira/glm_52_and_ik_llamaccp/",
-      "category": "chinese_ai",
+      "title": "AMD Ryzen AI Halo Cluster Tested — LTT Labs Gets Hands On With Two Units",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v783ii/worlds_first_underwhelming_amd_ryzen_ai_halo/",
+      "category": "ai_models",
       "published": "2026-07-26",
-      "summary": "Community runs GLM-5.2 (glm-dsa architecture) on Xeon E7 + single RTX 3060 12GB using Unsloth UD-Q4_K_XL. Stable at 8K context, 3.7 tok/s."
+      "summary": "LTT Labs clustered two Ryzen AI Halo chips. Results underwhelming due to Linux/Windows driver mismatch."
+    },
+    {
+      "title": "Harness Showdown: Claude Code vs OpenCode vs Pi With DeepSeek V4 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7d8px/harness_showdown_claude_code_vs_opencode_vs_pi/",
+      "category": "agents_tooling",
+      "published": "2026-07-26",
+      "summary": "DeepSeek V4 Flash tested through three harnesses — quality same across all, but Claude Code takes 4x longer than fastest runner."
     }
   ]
 }
