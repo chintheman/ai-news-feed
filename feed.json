@@ -1,92 +1,85 @@
 {
-  "updated_at": "2026-07-29T13:25:00+08:00",
+  "updated_at": "2026-07-29T21:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 12,
-  "tldr": "Afternoon batch — OpenAI publishes field reports on AI agents in scientific computing and workforce expansion; Amazon quietly scales back Nova models to redirect resources to a new Frontier Model Research group. Allen AI launches OlmoEarth for planetary-scale geospatial inference, NVIDIA brings generative simulation to surgical robotics, and Liquid AI releases LFM2.5-Encoders for fast long-context CPU inference. Fly.io raises $25M for purpose-built agent compute infrastructure, YC fills the Chase Center with 6,000 AI founders, and ETH Zurich/EPFL open-source Apertus 1.5 under Apache 2.0. Geopolitical tension: Taiwan detains an Nvidia employee in an expanding China chip smuggling probe.",
+  "article_count": 11,
+  "tldr": "Evening batch — OpenAI ships GPT-Live-Transcribe and GPT-Transcribe for real-time/async transcription spanning 22 languages, while ChatGPT Health goes nationwide to all US users integrating Apple Health and MyFitnessPal. Claude Voice Mode expands to Opus/Sonnet/Haiku with multilingual and tool support. Dario Amodei clarifies Anthropic stance on open weights, rejecting bans but calling for safety testing and export controls. Microsoft launches MAI-Cyber-1-Flash security model scoring 96% on CyberGym, while quietly pulling Mage-Flow weights from HuggingFace. Google tests Gemini Distillation as a Service for model compression, Moonshot AI's Kimi K3 spurs community benchmarking as the largest open model at 2.8T params, and the Secure AI Development Act moves through Congress establishing mandatory frontier model testing.",
   "articles": [
     {
-      "title": "Scientific Computing in the Age of Agentic AI — OpenAI Field Report",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "category": "ai_research",
-      "published": "2026-07-28",
-      "summary": "Scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics."
-    },
-    {
-      "title": "How AI Is Expanding What People Do at Work — OpenAI Research",
-      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "category": "ai_research",
-      "published": "2026-07-27",
-      "summary": "ChatGPT users taking on tasks across roles and reshaping job boundaries. AI expands work scope rather than replacing workers."
-    },
-    {
-      "title": "OlmoEarth Platform: Geospatial Inference at Planetary Scale",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "category": "ai_research",
-      "published": "2026-07-28",
-      "summary": "Allen AI launches open platform for planetary-scale geospatial inference. Open model weights and infrastructure pipeline."
-    },
-    {
-      "title": "LFM2.5-Encoders: Fast Long-Context Inference on CPU",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "category": "ai_models",
-      "published": "2026-07-28",
-      "summary": "Liquid AI releases encoder models optimized for fast long-context inference on CPU hardware. No GPU required."
-    },
-    {
-      "title": "NVIDIA Cosmos-H-Dreams: Real-Time Generative Simulation for Surgical Robotics",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "category": "ai_research",
-      "published": "2026-07-27",
-      "summary": "NVIDIA brings real-time generative simulation to surgical robotics training. Cosmos-H-Dreams runs on-device simulation."
-    },
-    {
-      "title": "LearnVector — Andrew Ng's AI Company Building One-to-One Learning Experiences",
-      "url": "https://learnvector.ai/",
+      "title": "OpenAI Launches GPT-Live-Transcribe and GPT-Transcribe API Models",
+      "url": "https://community.openai.com/t/gpt-live-transcribe-and-gpt-transcribe-two-new-transcription-models-in-the-api/1388318",
       "category": "platforms_integration",
       "published": "2026-07-29",
-      "summary": "Andrew Ng launches LearnVector for personalized AI-powered one-to-one learning. HN frontpage with 105 points."
+      "summary": "Two new transcription models: GPT-Live-Transcribe for low-latency streaming (19.7% WER across 22 languages) and GPT-Transcribe for async batch workloads."
     },
     {
-      "title": "Import AI 466: The Bitter Lesson for Robotics, Week-Long AI Programming, OpenAI's Accidental Hacker",
-      "url": "https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for",
-      "category": "ai_research",
-      "published": "2026-07-27",
-      "summary": "Jack Clark on the bitter lesson for robotics, AIs completing week-long programming tasks, and OpenAI's AI that hacked Hugging Face."
+      "title": "ChatGPT Health Rolls Out to All US Users",
+      "url": "https://openai.com/index/health-in-chatgpt/",
+      "category": "platforms_integration",
+      "published": "2026-07-23",
+      "summary": "ChatGPT Health available to all users 18+ in the US, integrating Apple Health and MyFitnessPal data with GPT-5.6-Luna leading on HealthBench."
     },
     {
-      "title": "Amazon Scales Back Nova AI Models, Bets on New Frontier Research Team",
-      "url": "https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/",
-      "category": "industry",
-      "published": "2026-07-28",
-      "summary": "Nova Premier, Omni, Reel, Canvas moved to maintenance mode. Amazon pivots to Frontier Model Research group for next-gen development."
+      "title": "Claude Voice Mode Expands to Opus/Sonnet with Multilingual and Tool Support",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "category": "anthropic",
+      "published": "2026-07-23",
+      "summary": "Voice mode now runs on Claude Opus, Sonnet, and Haiku with Gmail/Slack/Canva/Notion integrations across 10 languages on all plans."
     },
     {
-      "title": "Taiwan Detains Nvidia Employee in Widening China Chip Smuggling Probe",
-      "url": "https://the-decoder.com/taiwan-detains-nvidia-employee-in-widening-china-chip-smuggling-probe/",
+      "title": "Dario Amodei Rejects Open-Weight Ban, Calls for Global Safety Testing",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
       "category": "policy",
-      "published": "2026-07-28",
-      "summary": "Prosecutors detain Nvidia employee over alleged illegal export of Super Micro AI servers to China via shell companies."
+      "published": "2026-07-27",
+      "summary": "Anthropic CEO states company never advocated for open-weight ban, instead calls for chip export controls, distillation crackdown, and mandatory safety testing."
     },
     {
-      "title": "Fly.io Raises $25M Series D for Purpose-Built Agent Compute Infrastructure",
-      "url": "https://www.globenewswire.com/news-release/2026/07/24/3332949/0/en/Fly-io-Doubles-Down-on-Computers-for-Agents-with-25M-to-Deliver-the-Next-Generation-of-AI-Infrastructure.html",
-      "category": "industry",
-      "published": "2026-07-24",
-      "summary": "Dell Technologies Capital + Intel Capital co-lead. Durable disks, secure connectivity for AI agents. Scott Johnston (ex-Docker CEO) takes helm."
-    },
-    {
-      "title": "YC Startup School 2026 Fills Chase Center — 6,000 AI Founders Hear Altman, Huang",
-      "url": "https://startupfortune.com/y-combinator-fills-an-nba-arena-with-ai-founders-as-sam-altman-and-jensen-huang-tell-6000-applicants-the-window-is-now/",
-      "category": "industry",
-      "published": "2026-07-25",
-      "summary": "Altman says models ahead of products being built. $25K+ compute credits from OpenAI, Anthropic, Cursor, xAI. Biggest batch in YC history."
-    },
-    {
-      "title": "Apertus 1.5 — Fully Open Swiss AI Model Released Under Apache 2.0",
-      "url": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure",
+      "title": "Microsoft Launches MAI-Cyber-1-Flash Security Model",
+      "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
       "category": "ai_models",
-      "published": "2026-07-24",
-      "summary": "ETH Zurich + EPFL release fully open training data, code, development process. Trained on Alps supercomputer. Sovereign AI infrastructure."
+      "published": "2026-07-27",
+      "summary": "Compact security model scoring 96% on CyberGym via MDASH multi-agent system. Routes tough cases to GPT-5.4 for 50% cost reduction."
+    },
+    {
+      "title": "Microsoft Quietly Pulls Mage-Flow Models from HuggingFace",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9swx1/microsoft_did_it_again_404_for_their_mageflow/",
+      "category": "industry",
+      "published": "2026-07-29",
+      "summary": "Microsoft removes Mage-Flow model weights from HuggingFace — community mirrors persist via GGUF, MLX, and FP8 variants from third parties."
+    },
+    {
+      "title": "Gemini Distillation Service — Google Offers Model Compression as a Service",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v911as/gemini_distillation_service/",
+      "category": "platforms_integration",
+      "published": "2026-07-28",
+      "summary": "Google begins offering distillation as a service, enabling developers to compress Gemini models for custom deployment."
+    },
+    {
+      "title": "Hubble: Open-Source Notetaking App for You and Your Agents",
+      "url": "https://www.hubble.md/",
+      "category": "agents_tooling",
+      "published": "2026-07-29",
+      "summary": "Open-source notetaking app designed for both human and AI agent collaboration. 123 points on Hacker News."
+    },
+    {
+      "title": "Community Benchmarks Kimi K3 — Largest Open Model at 2.8T Parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9kmis/anyone_tried_the_q1_kimi_k3_yet_555gb/",
+      "category": "moonshot_ai",
+      "published": "2026-07-29",
+      "summary": "r/LocalLLaMA community tests Moonshot AI's Kimi K3 (2.8T params, 104B active, 1M context, MXFP4) — first open 3T-class model going through real-world benchmarks."
+    },
+    {
+      "title": "Secure AI Development Act: Incident Reporting and Risk Board",
+      "url": "https://www.warner.senate.gov/wp-content/uploads/2026/07/BAG26E21.pdf",
+      "category": "policy",
+      "published": "2026-07-29",
+      "summary": "Senate bill establishes AI Risk Board, mandatory frontier model testing, public safety incident database, and CVE-style vulnerability reporting."
+    },
+    {
+      "title": "Garry Tan: Build AI-Native Companies, 400x Productivity Multiplier Possible",
+      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
+      "category": "agents_tooling",
+      "published": "2026-07-17",
+      "summary": "YC CEO advocates 'company brain' institutional memory layer and skill files as AI employees — 25% of W25 batch had 95% AI-generated code."
     }
   ]
 }
