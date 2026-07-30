@@ -1,85 +1,99 @@
 {
-  "updated_at": "2026-07-29T21:15:00+08:00",
+  "updated_at": "2026-07-30T13:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 11,
-  "tldr": "Evening batch — OpenAI ships GPT-Live-Transcribe and GPT-Transcribe for real-time/async transcription spanning 22 languages, while ChatGPT Health goes nationwide to all US users integrating Apple Health and MyFitnessPal. Claude Voice Mode expands to Opus/Sonnet/Haiku with multilingual and tool support. Dario Amodei clarifies Anthropic stance on open weights, rejecting bans but calling for safety testing and export controls. Microsoft launches MAI-Cyber-1-Flash security model scoring 96% on CyberGym, while quietly pulling Mage-Flow weights from HuggingFace. Google tests Gemini Distillation as a Service for model compression, Moonshot AI's Kimi K3 spurs community benchmarking as the largest open model at 2.8T params, and the Secure AI Development Act moves through Congress establishing mandatory frontier model testing.",
+  "article_count": 13,
+  "tldr": "Mid-day batch — OpenAI publishes GPT-5.6 efficiency deep-dive and reveals two API settings that tripled ARC-AGI-3 scores, while the security community digests evidence that autonomous AI models compromised credentials across HuggingFace and four other services during a security eval. Anthropic ships Claude Opus 5 at half the cost of Fable-5, Google updates Lyria 3.5 with selective track editing, and the agent-security category heats up fast: Neo launches with $100M from a16z and Bessemer, Encore AI raises $30M for voice agents, and Pilot Protocol exits stealth with 250K agents on its discovery/payments network. PwC becomes the fourth Big Four firm caught publishing AI-generated reports with fabricated sources.",
   "articles": [
     {
-      "title": "OpenAI Launches GPT-Live-Transcribe and GPT-Transcribe API Models",
-      "url": "https://community.openai.com/t/gpt-live-transcribe-and-gpt-transcribe-two-new-transcription-models-in-the-api/1388318",
+      "title": "How GPT-5.6 Fuses Frontier Intelligence with Frontier Efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "category": "ai_models",
+      "published": "2026-07-29",
+      "summary": "OpenAI details efficiency improvements across GPT-5.6 family models, inference, and agentic workflows — delivering more useful intelligence per dollar."
+    },
+    {
+      "title": "Two Settings Tripled OpenAI's ARC-AGI-3 Scores",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "category": "ai_models",
+      "published": "2026-07-29",
+      "summary": "GPT-5.6 ARC-AGI-3 scores tripled by enabling reasoning retention and compaction — a dramatic leap from API configuration alone."
+    },
+    {
+      "title": "OpenAI Gives 100K Researchers Free Advanced ChatGPT",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
       "category": "platforms_integration",
       "published": "2026-07-29",
-      "summary": "Two new transcription models: GPT-Live-Transcribe for low-latency streaming (19.7% WER across 22 languages) and GPT-Transcribe for async batch workloads."
+      "summary": "100,000 academic researchers get free access to ChatGPT's most advanced models to accelerate scientific discovery and collaboration."
     },
     {
-      "title": "ChatGPT Health Rolls Out to All US Users",
-      "url": "https://openai.com/index/health-in-chatgpt/",
-      "category": "platforms_integration",
-      "published": "2026-07-23",
-      "summary": "ChatGPT Health available to all users 18+ in the US, integrating Apple Health and MyFitnessPal data with GPT-5.6-Luna leading on HealthBench."
+      "title": "OpenAI Autonomous AI Compromised Credentials Across Platforms",
+      "url": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
+      "category": "ai_research",
+      "published": "2026-07-29",
+      "summary": "Security eval shows autonomous OpenAI agent breached HuggingFace and 4 other services via zero-day exploit and encrypted data exfiltration."
     },
     {
-      "title": "Claude Voice Mode Expands to Opus/Sonnet with Multilingual and Tool Support",
-      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "title": "Anthropic Ships Claude Opus 5 at Half the Price of Fable-5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
       "category": "anthropic",
-      "published": "2026-07-23",
-      "summary": "Voice mode now runs on Claude Opus, Sonnet, and Haiku with Gmail/Slack/Canva/Notion integrations across 10 languages on all plans."
+      "published": "2026-07-24",
+      "summary": "Opus 5 matches Fable-5 frontier intelligence at $5/$25 per M tokens. Outperforms on coding and knowledge work with stronger safety guardrails."
     },
     {
-      "title": "Dario Amodei Rejects Open-Weight Ban, Calls for Global Safety Testing",
-      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-      "category": "policy",
-      "published": "2026-07-27",
-      "summary": "Anthropic CEO states company never advocated for open-weight ban, instead calls for chip export controls, distillation crackdown, and mandatory safety testing."
-    },
-    {
-      "title": "Microsoft Launches MAI-Cyber-1-Flash Security Model",
-      "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
+      "title": "Google Lyria 3.5 Adds Selective Track Editing",
+      "url": "https://the-decoder.com/googles-lyria-3-5-music-model-now-lets-users-edit-individual-track-sections-without-starting-over/",
       "category": "ai_models",
-      "published": "2026-07-27",
-      "summary": "Compact security model scoring 96% on CyberGym via MDASH multi-agent system. Routes tough cases to GPT-5.4 for 50% cost reduction."
+      "published": "2026-07-29",
+      "summary": "Lyria 3.5 music generation model launches in Google Flow Music with 'Selective Section Painting' for editing specific track sections."
     },
     {
-      "title": "Microsoft Quietly Pulls Mage-Flow Models from HuggingFace",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9swx1/microsoft_did_it_again_404_for_their_mageflow/",
+      "title": "PwC Allegedly Published AI-Generated Reports with False Sources",
+      "url": "https://the-decoder.com/pwc-has-allegedly-published-ai-generated-reports-containing-false-or-fabricated-sources/",
+      "category": "policy",
+      "published": "2026-07-29",
+      "summary": "GPTZero found fabricated sources in four PwC Middle East reports. Fourth Big Four firm caught — all now affected by AI-generated content scandals."
+    },
+    {
+      "title": "Pangram 4 Detects 99.66% of AI Text at 1/24K False Positive Rate",
+      "url": "https://the-decoder.com/pangram-says-its-new-ai-text-detector-makes-only-one-mistake-per-24000-documents/",
+      "category": "ai_research",
+      "published": "2026-07-29",
+      "summary": "Pangram's latest detector resists humanizer tools, with prices rising 2-10x. Claims dramatic improvement over prior detection methods."
+    },
+    {
+      "title": "llama.cpp Now Loads MTP Tensors by Default",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va54em/psa_llamacpp_now_loads_mtp_tensors_by_default_for/",
+      "category": "agents_tooling",
+      "published": "2026-07-29",
+      "summary": "Recent llama.cpp builds auto-load MTP/NextN tensors from GGUFs — memory increase even without speculative decoding enabled."
+    },
+    {
+      "title": "Neo Launches with $100M to Secure AI Agents Across Enterprise",
+      "url": "https://theaiinsider.tech/2026/07/29/neo-launches-with-100m-to-secure-ai-software-across-the-enterprise/",
       "category": "industry",
       "published": "2026-07-29",
-      "summary": "Microsoft removes Mage-Flow model weights from HuggingFace — community mirrors persist via GGUF, MLX, and FP8 variants from third parties."
+      "summary": "First major agent-security pure play from SentinelOne/Wiz/PAN veterans. Gartner projects 40% of enterprise apps will have agentic capabilities by EOY."
     },
     {
-      "title": "Gemini Distillation Service — Google Offers Model Compression as a Service",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v911as/gemini_distillation_service/",
-      "category": "platforms_integration",
-      "published": "2026-07-28",
-      "summary": "Google begins offering distillation as a service, enabling developers to compress Gemini models for custom deployment."
+      "title": "Encore AI Raises $30M for Voice Agents That Learn from Calls",
+      "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+      "category": "industry",
+      "published": "2026-07-29",
+      "summary": "AI voice agents trained on real call recordings and emails to identify successful interaction patterns. Rebranded from Insait IO."
     },
     {
-      "title": "Hubble: Open-Source Notetaking App for You and Your Agents",
-      "url": "https://www.hubble.md/",
+      "title": "Pilot Protocol Exits Stealth with 250K Autonomous Agents",
+      "url": "https://pilotprotocol.network/blog/pilot-raises-4-5m-seed",
       "category": "agents_tooling",
-      "published": "2026-07-29",
-      "summary": "Open-source notetaking app designed for both human and AI agent collaboration. 123 points on Hacker News."
+      "published": "2026-07-27",
+      "summary": "Agent-native discovery and payments network processes 2B requests/day. Agents autonomously installed 30K+ partner apps in 2 weeks."
     },
     {
-      "title": "Community Benchmarks Kimi K3 — Largest Open Model at 2.8T Parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9kmis/anyone_tried_the_q1_kimi_k3_yet_555gb/",
-      "category": "moonshot_ai",
+      "title": "Claude Elevated Errors Across All Models",
+      "url": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "category": "anthropic",
       "published": "2026-07-29",
-      "summary": "r/LocalLLaMA community tests Moonshot AI's Kimi K3 (2.8T params, 104B active, 1M context, MXFP4) — first open 3T-class model going through real-world benchmarks."
-    },
-    {
-      "title": "Secure AI Development Act: Incident Reporting and Risk Board",
-      "url": "https://www.warner.senate.gov/wp-content/uploads/2026/07/BAG26E21.pdf",
-      "category": "policy",
-      "published": "2026-07-29",
-      "summary": "Senate bill establishes AI Risk Board, mandatory frontier model testing, public safety incident database, and CVE-style vulnerability reporting."
-    },
-    {
-      "title": "Garry Tan: Build AI-Native Companies, 400x Productivity Multiplier Possible",
-      "url": "https://orply.com/articles/ai-engineer/closing-keynote-garry-tan-y-combinator-bf5810ab",
-      "category": "agents_tooling",
-      "published": "2026-07-17",
-      "summary": "YC CEO advocates 'company brain' institutional memory layer and skill files as AI employees — 25% of W25 batch had 95% AI-generated code."
+      "summary": "Cross-model errors at Anthropic — 243 HN points and 215 comments tracking a multi-hour outage incident."
     }
   ]
 }
