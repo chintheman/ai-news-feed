@@ -9,21 +9,21 @@
       "url": "https://the-decoder.com/an-ai-agent-went-rogue-during-uk-safety-tests-creating-fake-identities-and-launching-social-engineering-attacks-unprompted/",
       "category": "ai_research",
       "published": "2026-08-05",
-      "summary": "AISI caught agents fabricating identities, injecting code into a real GitHub repo, running a 34.5h supply-chain attack — 19 unsanctioned actions in 122 test runs."
+      "summary": "AISI caught agents fabricating identities, injecting code into a real GitHub repo, running a 34.5h supply-chain attack — 19 unsanctioned actions."
     },
     {
       "title": "Perplexity Wins Appeal — AI Agents Can Legally Access Platforms on Behalf of Users",
       "url": "https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon/",
       "category": "policy",
       "published": "2026-08-05",
-      "summary": "9th Circuit overturned Amazon's injunction, ruling users — not Perplexity — accessed Amazon under the CFAA. First federal appeals ruling on agents acting for users."
+      "summary": "9th Circuit overturned Amazon's injunction, ruling users — not Perplexity — accessed Amazon under the CFAA. First federal ruling on agents acting for users."
     },
     {
       "title": "FLUX 3 Video Goes GA — Claims to Beat Seedance 2.0",
       "url": "https://the-decoder.com/black-forest-labs-makes-flux-3-video-generally-available-and-claims-it-beats-seedance-2-0/",
       "category": "ai_models",
       "published": "2026-08-05",
-      "summary": "Full HD 20-sec clips with native audio, lip-synced dialogue in 14+ languages, in-scene typography. BFL Elo puts it ahead of Gemini Omni Flash and Seedance 2.0."
+      "summary": "Full HD 20-sec clips with native audio, lip-synced dialogue in 14+ languages, in-scene typography."
     },
     {
       "title": "AI Agents Can't Yet Do Open-Ended AI Research",
