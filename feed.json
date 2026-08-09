@@ -1,50 +1,85 @@
 {
-  "updated_at": "2026-08-09T13:16:00+08:00",
+  "updated_at": "2026-08-09T21:19:02+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 6,
-  "tldr": "Midday batch, Aug 9: the open-weight community keeps squeezing frontier models — Unsloth trims Kimi K3 to 478GB (IQ2-XXS) by stripping multi-language layers, DS4 Flash hand-writes a Metal kernel for Kimi K2 when none existed, and a Qwen-vs-Gemma tokenization test offers a concrete peek at Qwen's coding edge. Xiaomi open-sources its embodied-AI foundation model Xiaomi-Robotics-1, and agent-infra funding rolls on with Naïve's $28.5M to let AI agents run companies. Research-community grumbling: 73 NeurIPS workshops, zero on causality.",
+  "article_count": 11,
+  "tldr": "Evening batch, Aug 9: the agent-safety reckoning hits its first brake — OpenAI pauses Astra development over offensive-cyber risk while Google dismantles DeepMind as Hassabis exits. On the science side, DiffusionGemma proves text diffusion can be retrofitted at <10% of training cost (256 parallel tokens), and WeatherNext's Nature paper buys an extra day of cyclone warning. Tencent teases WorldClaw for 3D world generation, an AMD/llama.cpp patch lifts Qwen 27B context to 149K, AI slop floods Britain's employment courts, LG open-weights K-EXAONE 2.0 (750B), and agent-infra funding rolls on with Acrab's $130M.",
   "articles": [
     {
-      "title": "Xiaomi Open-Sources Embodied-AI Foundation Model Xiaomi-Robotics-1",
-      "url": "https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/",
-      "category": "chinese_ai",
-      "published": "2026-08-05",
-      "summary": "Xiaomi open-sources embodied-AI foundation model Xiaomi-Robotics-1 — 100K+ hrs UMI pretraining, cross-embodiment post-training, full deployment code and benchmarks."
+      "title": "OpenAI Pauses Astra Work Over Offensive-Cyber Risk",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
+      "category": "policy",
+      "published": "2026-08-07",
+      "summary": "OpenAI halts Astra work over fears it could autonomously weaponize software vulnerabilities — the first voluntary frontier slowdown on cyber risk."
     },
     {
-      "title": "Naïve Raises $28.5M to Let AI Agents Run Companies",
-      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+      "title": "Google Dismantles DeepMind as Hassabis Heads for the Exit",
+      "url": "https://the-decoder.com/google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit/",
+      "category": "industry",
+      "published": "2026-08-08",
+      "summary": "Demis Hassabis steps aside to an Alphabet chairman role, Jeff Dean leaves to found a company, and DeepMind folds into Google proper."
+    },
+    {
+      "title": "DiffusionGemma: Retrofit a Model, Don't Train From Scratch",
+      "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/",
+      "category": "ai_research",
+      "published": "2026-08-09",
+      "summary": "DeepMind converted Gemma 4 into a text-diffusion model using <10% of the original training budget — 256 parallel tokens at ~1,500 tok/s."
+    },
+    {
+      "title": "DeepMind's WeatherNext Predicts Cyclones a Full Day Earlier",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "category": "ai_research",
+      "published": "2026-08-06",
+      "summary": "Nature-published WeatherNext gives an extra day of cyclone lead time; models open-sourced including a single-TPU mini variant."
+    },
+    {
+      "title": "Tencent Announces WorldClaw for 3D World Generation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjnqmh/tencent_announce_worldclaw/",
+      "category": "chinese_ai",
+      "published": "2026-08-09",
+      "summary": "Tencent's Hunyuan3D-WorldClaw promises interactive 3D world generation; the community hopes for open weights so it can run locally."
+    },
+    {
+      "title": "AMD llama.cpp Patch: Qwen 27B Context 64K → 149K",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjmay5/amd_llamacpp_reducing_mtp_buffer_overhead_gave_me/",
+      "category": "ai_models",
+      "published": "2026-08-09",
+      "summary": "Reducing MTP buffer overhead in llama.cpp lifts Qwen 27B available context from 64K to 149K tokens on ROCm — a pure memory-accounting win."
+    },
+    {
+      "title": "LG Open-Weights K-EXAONE 2.0: 750B-Parameter Korean Model",
+      "url": "https://arxiv.org/abs/2608.04505v1",
+      "category": "ai_models",
+      "published": "2026-08-05",
+      "summary": "LG's Apache-2.0 K-EXAONE 2.0 (750B, 37B active), built under a Korean government program, posts ~30% coding gains and strong long-context retrieval."
+    },
+    {
+      "title": "AI Slop Is Flooding Britain's Employment Courts",
+      "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/",
+      "category": "policy",
+      "published": "2026-08-09",
+      "summary": "Employment claims rose 39%, many written with ChatGPT or Grok; backlog jumped 55% to 64,000 cases with AI filings citing fabricated laws."
+    },
+    {
+      "title": "Nvidia Pours $3B Into Power as Amazon Builds a 7.65GW Gas Plant",
+      "url": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/",
+      "category": "industry",
+      "published": "2026-08-09",
+      "summary": "Nvidia invests up to $3B in Lancium (4GW in Texas) while Amazon builds a 7.65GW gas plant emitting 33M tons of CO2/year — AI power at utility scale."
+    },
+    {
+      "title": "Acrab Raises $130M for Agentic AI Compute Platform",
+      "url": "https://www.prnewswire.com/news-releases/acrab-raises-us130-million-series-b-advancing-agentic-ai-compute-platform-commercialization-302844535.html",
       "category": "industry",
       "published": "2026-08-06",
-      "summary": "Naïve raises $28.5M (Nexus VP) for infrastructure letting AI agents run companies — sandboxes, model routing, memory; 30K+ dev customers."
+      "summary": "Singapore's Acrab banks $130M Series B (Vertex) for its agentic compute platform, after $350M+ cumulative funding and the GELIX 1 Agent Box."
     },
     {
-      "title": "Kimi K3 (Unsloth) IQ2-XXS Shrinks 711GB → 478GB by Dropping Multi-Language Layers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjanps/kimi_k3_unsloth_iq2xxs_from_711gb_down_to_478gb/",
-      "category": "moonshot_ai",
-      "published": "2026-08-08",
-      "summary": "Unsloth's Kimi K3 IQ2-XXS quant slashes 711GB to 478GB by removing multi-language layers — English intelligence reportedly intact."
-    },
-    {
-      "title": "Qwen vs Gemma Tokenization: A Concrete Look at Why Qwen Excels at Coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjb15v/no_wonder_qwen_and_gemma_are_so_different/",
-      "category": "chinese_ai",
-      "published": "2026-08-09",
-      "summary": "Qwen 35B tokenizes the same 330-line code to 1,609 tokens vs Gemma 26B's 4,258 — a concrete explanation for Qwen's coding edge."
-    },
-    {
-      "title": "DS4 Flash Writes Custom Metal Kernel for Kimi K2 IQ1_0 in ~50 Minutes",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vje00y/ds4_flash_0731_udiq2_m_wrote_a_custom_metal/",
-      "category": "deepseek",
-      "published": "2026-08-09",
-      "summary": "r/LocalLLaMA: DS4 Flash (0731, IQ2_M) wrote a custom Metal kernel for Kimi K2 IQ1_0 in ~50 minutes after finding no existing kernel on GitHub."
-    },
-    {
-      "title": "73 NeurIPS Workshops, Not a Single One on Causality",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj8lag/73_neurips_workshops_and_not_a_single_one_on/",
-      "category": "ai_research",
-      "published": "2026-08-08",
-      "summary": "r/MachineLearning debates whether LLM/agent hype has crowded causal inference out of top conferences — zero causality workshops at NeurIPS 2026."
+      "title": "GPT-Live in ChatGPT Voice Gains Files and Projects",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes.html",
+      "category": "platforms_integration",
+      "published": "2026-08-07",
+      "summary": "OpenAI's voice mode now supports file uploads and project context, letting users analyze documents and reference ongoing work in voice conversations."
     }
   ]
 }
