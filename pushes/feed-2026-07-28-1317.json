@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-07-28T13:17:34+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 18,
+  "tldr": "This batch is all about the open-weight explosion and agent infrastructure maturation. Moonshot AI dropped Kimi K3's weight — 2.8T parameters, the largest open model ever — under a revenue-tiered license, landing as the US-China open-weight debate escalates. Macaron-V1 (748B MoE) and Tencent Hy3 (295B Apache 2.0) followed, making this the biggest week ever for open-weight releases. On the agent side, Pilot Protocol launched the 'internet for agents' (250K agents, $4.5M seed), Zo Computer emerged as multi-agent orchestration layer for Claude Code/Codex/Gemini, and Prime Intellect hit unicorn status ($130M Series A, $100M ARR) building enterprise agent platforms. Anthropic rolled out formal Claude certifications (36K+ certified, Accenture committing 50K), while OpenAI launched Health in ChatGPT across Apple Health/Epic/Oracle — their biggest feature expansion into regulated domains. The policy divide hardened: Nvidia/Microsoft/Meta formed an open-weight coalition against regulation, while the HuggingFace breach forensics revealed even defenders got blocked by safety guardrails and had to use GLM 5.2 to investigate their own infrastructure.",
+  "articles": [
+    {
+      "title": "Kimi K3 Open Weights Released — Largest Open-Weight Model Ever at 2.8T Parameters",
+      "url": "https://techstartups.com/2026/07/27/moonshot-ai-releases-kimi-k3-open-weights-largest-free-ai-model-ever-at-2-8-trillion-parameters/",
+      "category": "moonshot_ai",
+      "published": "2026-07-27",
+      "summary": "1.4TB download (MXFP4). Revenue-tiered license — free sub-$10M revenue. Largest open-weight model. Technical report published."
+    },
+    {
+      "title": "Kimi K3 Launches — 2.8T MoE, 896 Experts, 1M Context, Third on Intelligence Index",
+      "url": "https://www.moonshot.ai/",
+      "category": "moonshot_ai",
+      "published": "2026-07-16",
+      "summary": "104B active params, 896 experts (16 active/token). MoonViT-V2 native vision. Third global behind Fable 5 and Sol. First on Code Arena WebDev."
+    },
+    {
+      "title": "Macaron-V1 Released — New 748B MoE Open-Weight Model Post-Trained on GLM-5.2",
+      "url": "https://macaron.im/mindlab/research/introducing-macaron-v1",
+      "category": "ai_models",
+      "published": "2026-07-21",
+      "summary": "Venti (748B MoE flagship) + Tall (50B variant). Open weights. Matches/outperforms frontier baselines on most tracks. First model built on GLM-5.2."
+    },
+    {
+      "title": "Tencent Hy3 Open-Sourced — 295B MoE Under Apache 2.0 License",
+      "url": "https://github.com/tencent-hunyuan/hy3",
+      "category": "chinese_ai",
+      "published": "2026-07-02",
+      "summary": "21B active params. Open-source reasoning and agent model. Outperforms models 2-5x its size. Apache 2.0 — most permissive major Chinese model yet."
+    },
+    {
+      "title": "Meta Muse Spark 1.1 Launches — Aggressively Priced Multimodal Agent Model",
+      "url": "https://www.linkedin.com/posts/rowancheung_many-people-were-doubting-metas-position-activity-7481400393483227136-O1Gh",
+      "category": "ai_models",
+      "published": "2026-07-09",
+      "summary": "Closed-weight, 1M context, $1.25/M input $4.25/M output. Tops JobBench (54.7) but trails coding. Zuck's first X post in 3 years. Meta Model API in preview."
+    },
+    {
+      "title": "OpenAI Launches Health in ChatGPT — Apple Health, Epic, Oracle Integration",
+      "url": "https://openai.com/index/health-in-chatgpt/",
+      "category": "ai_models",
+      "published": "2026-07-23",
+      "summary": "Rolling to all US users 18+ across all plans. GPT-5.6 Luna outperforms GPT-5.5 on HealthBench. OpenAI's biggest regulated domain expansion."
+    },
+    {
+      "title": "Anthropic Launches Four Role-Based Claude Certifications — Accenture Commits 50K",
+      "url": "https://claude.com/blog/four-role-based-claude-certifications",
+      "category": "anthropic",
+      "published": "2026-07-23",
+      "summary": "Associate/Developer/Architect tiers. 36K+ consultants certified across 1,300+ orgs. Accenture commits 50K certifications. Enterprise adoption scaling."
+    },
+    {
+      "title": "Mastra Factory Launches — Issue-to-Production Autonomous Coding Agent System",
+      "url": "https://mastra.ai/blog/announcing-mastra-factory",
+      "category": "agents_tooling",
+      "published": "2026-07-27",
+      "summary": "Connects GitHub/Linear/Slack. Specialized agents triage, write code, release, monitor. From Mastra (founded by Gatsby creator)."
+    },
+    {
+      "title": "Pilot Protocol Launches 'Internet for Agents' — $4.5M Seed, 250K Agents, 2B Reqs/Day",
+      "url": "https://nz.finance.yahoo.com/news/pilot-protocol-launches-4-5m-130500999.html",
+      "category": "agents_tooling",
+      "published": "2026-07-27",
+      "summary": "Agent App Store with 30K+ autonomous installs in 2 weeks. Agent-to-agent payments rolling out. Version One Ventures-backed."
+    },
+    {
+      "title": "Zo Computer Positions as Multi-Agent Orchestration Layer — Runs Claude Code, Codex CLI, Gemini CLI Headlessly",
+      "url": "https://www.zo.computer/tutorials/how-zo-runs-ai-coding-agents",
+      "category": "zo_computer",
+      "published": "2026-07-27",
+      "summary": "Git orchestration, scheduling, MCP tool bridging. Zouroboros swarm orchestrator with 6-signal adaptive routing. Emerging orchestration layer."
+    },
+    {
+      "title": "Prime Intellect Raises $130M Series A at $1B — Enterprise Agent Platform Hits $100M ARR",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "category": "industry",
+      "published": "2026-07-08",
+      "summary": "Radical Ventures-led with Nvidia, Intel, Dell. Enterprise agent-building platform. $100M ARR with Ramp and Zapier customers. Under 2 years to unicorn."
+    },
+    {
+      "title": "Tech Giants Form Open-Weight Coalition — Nvidia/Microsoft/Meta Urge Against Regulation",
+      "url": "https://www.cnbc.com/2026/07/27/anthropic-ceo-dario-amodei-isnt-advocating-open-weight-model-ban.html",
+      "category": "policy",
+      "published": "2026-07-24",
+      "summary": "Letter urges policymakers to avoid 'premature restrictions.' OpenAI signed. Anthropic notably did not. Diverging policy positions as China open models proliferate."
+    },
+    {
+      "title": "HF Breach Forensics Blocked by Safety Guardrails — Had to Use GLM 5.2 to Investigate Own Infrastructure",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "category": "ai_research",
+      "published": "2026-07-16",
+      "summary": "Commercial frontier APIs blocked analysis of real attack payloads. HF used self-hosted GLM 5.2 to reconstruct 17K-event timeline. Irony: safety filters hindered defenders."
+    },
+    {
+      "title": "DeepSeek-V4 Old Endpoints Retired — July 24 Migration Deadline Passed",
+      "url": "https://api-docs.deepseek.com/news/news260424/",
+      "category": "deepseek",
+      "published": "2026-04-24",
+      "summary": "V4-Preview (MIT), V4-Pro (1.6T/49B active), V4-Flash (284B/13B active). 1M context. Hybrid CSA/HCA attention. Old chat/reasoner IDs deprecated."
+    },
+    {
+      "title": "Microsoft Agent Framework Harness Reaches GA — CodeAct Sandboxing with Hyperlight Micro-VMs",
+      "url": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce/",
+      "category": "agents_tooling",
+      "published": "2026-07-22",
+      "summary": "Production runtime: loop, planning, memory, approvals, telemetry. Agent Skills 1.0 (.NET/Python). Declarative Workflows 1.0. Hyperlight micro-VM sandbox."
+    },
+    {
+      "title": "Neo Launches $100M Agentic Software Security Platform — a16z and Bessemer Backed",
+      "url": "https://www.globenewswire.com/news-release/2026/07/20/3329638/0/en/Neo-Launches-with-100M-to-Secure-AI-Software-Across-the-Enterprise.html",
+      "category": "industry",
+      "published": "2026-07-20",
+      "summary": "SentinelOne/Wiz/Palo Alto veterans building agent inventory, risk intel, policy control. New security category: agentic software governance."
+    },
+    {
+      "title": "Nous Research Hits 221K GitHub Stars — $1.5B Valuation Funding Talks at Robot Ventures",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "category": "hermes_nous",
+      "published": "2026-07-13",
+      "summary": "Robot Ventures-led $75M+ round with USV. Fastest-growing open-source agent framework. Built-in skill learning loop with MCP support."
+    },
+    {
+      "title": "Etched Raises $300M Series C at $10.3B — Inference Silicon with Working Silicon and $1B+ Orders",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "category": "industry",
+      "published": "2026-07-23",
+      "summary": "Sequoia/a16z/SK Hynix/Jane Street backers. Low-voltage prefill + cluster-scale memory. 10MW Milpitas facility. Architecture-agnostic (transformer/MoE/SSM)."
+    }
+  ]
+}

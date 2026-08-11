@@ -1,0 +1,225 @@
+{
+  "updated_at": "2026-07-25T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 28,
+  "tldr": "🔥 Claude Opus 5 dominates benchmarks — #1 on Artificial Analysis, 30.2% on ARC-AGI-3 (4x GPT-5.6 Sol), near-Fable-5 at half price. OpenAI drops three major launches: ChatGPT Voice desktop with full-duplex GPT-Live + Codex, ChatGPT Health to all US users, and Presence enterprise agent service. Sakana's Fugu Ultra v1.1 claims to beat Fable 5 without even routing to it. Kimi K3 goes viral — GPU demand maxed in 48 hours, open weights July 27. Hermes Agent v0.19.0 Quicksilver cuts latency 80% and hits #1 on OpenRouter globally. Alibaba Qwen launches Image-3.0. DeepSeek V4 legacy API cutoff goes into effect. Microsoft's open-weight letter analyzed as Azure land grab. Ultra-tiny Inflect v2 TTS models released — 3.96M params.",
+  "articles": [
+    {
+      "title": "Claude Opus 5 #1 on Artificial Analysis Intelligence Leaderboard",
+      "url": "https://artificialanalysis.ai/models",
+      "category": "ai_models",
+      "published": "2026-07-24",
+      "summary": "Opus 5 tops AI leaderboard rankings. 184 HN points, 119 comments. Benchmarks across coding, knowledge work, and reasoning."
+    },
+    {
+      "title": "Anthropic Claude Opus 5 — Official Launch",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "category": "anthropic",
+      "published": "2026-07-24",
+      "summary": "Flagship model at $5/$25 per MTok. New default on Claude Max, strongest on Pro. Ships mid-conversation tool changes and fallbacks."
+    },
+    {
+      "title": "Anthropic: Opus 5 Delivers Near-Fable-5 Performance at Half the Token Price",
+      "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
+      "category": "anthropic",
+      "published": "2026-07-24",
+      "summary": "Opus 5 hits 30.2% on ARC-AGI-3 — nearly 4x higher than GPT-5.6 Sol. Dominates Frontier-Bench, GDPval-AA, and AutomationBench."
+    },
+    {
+      "title": "Claude Voice Mode Now on Opus and Sonnet — Tool Access",
+      "url": "https://x.com/AnthropicAI/status/voice-mode-opus-sonnet",
+      "category": "anthropic",
+      "published": "2026-07-24",
+      "summary": "Voice mode upgraded to Opus/Sonnet with Google Calendar, Slack, Notion integration. Supports French, German, Italian, Japanese, Spanish."
+    },
+    {
+      "title": "Claude SDK TypeScript v0.114.0 — New Stop Reason",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.114.0",
+      "category": "anthropic",
+      "published": "2026-07-23",
+      "summary": "New stop reason 'model_context_window_exceeded' added to the TypeScript SDK."
+    },
+    {
+      "title": "Claude Agent SDK Python v0.2.127 — Background Task Stdin Fix",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.127",
+      "category": "anthropic",
+      "published": "2026-07-24",
+      "summary": "Fixed premature stdin closure when background tasks in flight. Stdin stays open until all in-flight tasks complete."
+    },
+    {
+      "title": "ChatGPT Voice on Desktop — GPT-Live Full-Duplex + Codex",
+      "url": "https://x.com/OpenAI/status/desktop-voice",
+      "category": "platforms_integration",
+      "published": "2026-07-24",
+      "summary": "Full-duplex voice on desktop. Control Codex and ChatGPT hands-free — create threads, PRs, debug by voice. macOS Appshots."
+    },
+    {
+      "title": "ChatGPT Health Launches to All US Users Over 18",
+      "url": "https://x.com/OpenAI/status/chatgpt-health",
+      "category": "platforms_integration",
+      "published": "2026-07-23",
+      "summary": "Connect Apple Health, medical records, MyFitnessPal. Personalized health insights. 300M+ health queries per week."
+    },
+    {
+      "title": "OpenAI Presence — Enterprise AI Agent Service",
+      "url": "https://x.com/OpenAI/status/presence",
+      "category": "platforms_integration",
+      "published": "2026-07-22",
+      "summary": "FDE-managed enterprise agents resolving 75% of support issues. BBVA, SoftBank, IAG as design partners."
+    },
+    {
+      "title": "Sakana Fugu Ultra v1.1 Beats Fable 5 Without Routing to It",
+      "url": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/",
+      "category": "ai_models",
+      "published": "2026-07-24",
+      "summary": "AI routing model claims up to 7.9 point gain over v1.0. Adds Claude Code-compatible endpoint. Independent verification pending."
+    },
+    {
+      "title": "Microsoft's Open-Weight AI Push Is an Azure Play",
+      "url": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/",
+      "category": "policy",
+      "published": "2026-07-24",
+      "summary": "Analysis: Microsoft joins open-weight letter to reduce dependency on OpenAI/Anthropic. More models on Azure = less vendor lock-in."
+    },
+    {
+      "title": "Inflect v2 — Ultra-Tiny TTS Models Under 4M and 10M Parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5ve6v/i_released_inflect_v2_two_ultratiny_complete_tts/",
+      "category": "ai_models",
+      "published": "2026-07-25",
+      "summary": "Inflect-Nano-v2: 3.96M params (15.97MB). Two complete local TTS models that feel genuinely useful at tiny sizes."
+    },
+    {
+      "title": "DeepSeek V4 GA — V4-Pro and V4-Flash Generally Available",
+      "url": "https://x.com/deepseek_ai/status/v4-ga",
+      "category": "deepseek",
+      "published": "2026-07-20",
+      "summary": "1.6T total/49B active (V4-Pro) and 284B total/13B active (V4-Flash) now GA. 1M context. Agent capabilities and maths reasoning upgrades."
+    },
+    {
+      "title": "DeepSeek V4 Legacy Model Names Retired — Hard Cutoff",
+      "url": "https://x.com/deepseek_ai/status/legacy-cutoff",
+      "category": "deepseek",
+      "published": "2026-07-24",
+      "summary": "deepseek-chat and deepseek-reasoner retired July 24 at 15:59 UTC. All API users must migrate to v4-pro or v4-flash."
+    },
+    {
+      "title": "NVIDIA Releases DeepSeek-V4-Pro-NVFP4 on Hugging Face",
+      "url": "https://x.com/julien_c/status/deepseek-v4-nvidia",
+      "category": "deepseek",
+      "published": "2026-07-24",
+      "summary": "NVIDIA publishes NVFP4-optimized version of DeepSeek-V4-Pro on Hugging Face for Blackwell GPU inference."
+    },
+    {
+      "title": "Qwen-Image-3.0 — Rich Text-to-Image with 4.5K Token Input",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-image-3",
+      "category": "chinese_ai",
+      "published": "2026-07-22",
+      "summary": "Rich content up to 4.5K tokens, 10px text details, knowledge across 12 languages and 20 font styles. One-step generation of complex graphics."
+    },
+    {
+      "title": "Qwen-Audio-3.0-TTS — Studio-Grade Text-to-Speech",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-audio-3-tts",
+      "category": "chinese_ai",
+      "published": "2026-07-23",
+      "summary": "Flash (real-time) and Plus (high-quality) modes. Inline emotion tags, free-style natural language control for voice generation."
+    },
+    {
+      "title": "Qwen-Audio-3.0-Realtime — Conversational Voice with Tools",
+      "url": "https://x.com/Alibaba_Qwen/status/qwen-audio-realtime",
+      "category": "chinese_ai",
+      "published": "2026-07-23",
+      "summary": "Real-time conversational model with complex reasoning and agent tool integration. Supports 16 languages, 20 Chinese dialects."
+    },
+    {
+      "title": "Hermes Agent v0.19.0 Quicksilver — 80% Latency Reduction",
+      "url": "https://x.com/NousResearch/status/hermes-v0-19-0",
+      "category": "hermes_nous",
+      "published": "2026-07-20",
+      "summary": "First-token latency drops from 4.3s to 0.9s. Live subagent streaming, durable delegation ledger, Bitwarden/1Password secret sources."
+    },
+    {
+      "title": "Hermes Agent #1 on OpenRouter Global Token Rankings",
+      "url": "https://x.com/NousResearch/status/openrouter-1",
+      "category": "hermes_nous",
+      "published": "2026-07-23",
+      "summary": "Nearly 1,000 contributors. Hermes Agent now the most-used AI app on OpenRouter globally. OSS agent ecosystem leader."
+    },
+    {
+      "title": "Hermes Agent Credential Firewall for Docker Sandboxes",
+      "url": "https://x.com/NousResearch/status/credential-firewall",
+      "category": "hermes_nous",
+      "published": "2026-07-24",
+      "summary": "Real keys never enter Docker sandbox — stand-in tokens only. Compromised sandbox tokens are useless elsewhere."
+    },
+    {
+      "title": "Hermes Agent tldraw Offline Skill",
+      "url": "https://x.com/NousResearch/status/tldraw-offline",
+      "category": "hermes_nous",
+      "published": "2026-07-23",
+      "summary": "Reads open tldraw canvas, edits live, embeds scripts with buttons and state. Install: hermes skills install tldraw-offline."
+    },
+    {
+      "title": "Kimi K3 — 2.8 Trillion Parameter Vision-Language Model",
+      "url": "https://x.com/Kimi_Moonshot/status/k3-launch",
+      "category": "moonshot_ai",
+      "published": "2026-07-16",
+      "summary": "2.8T MoE vision-language model. Open weights promised by July 27. 1M context. $0.30/MTok cached. Available via API now."
+    },
+    {
+      "title": "Kimi K3 Demand Maxes GPU Capacity — Subscriptions Paused",
+      "url": "https://x.com/Kimi_Moonshot/status/subscription-pause",
+      "category": "moonshot_ai",
+      "published": "2026-07-20",
+      "summary": "48 hours post-launch pushed GPU capacity to limit. Splitting into Kimi Membership and Kimi Code Membership. Existing users unaffected."
+    },
+    {
+      "title": "Open-Source AI Lobby — 20+ Companies Fight Premature Restrictions",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5g4tl/it_appears_that_the_anti_opensource_ai_lobby_is/",
+      "category": "policy",
+      "published": "2026-07-24",
+      "summary": "Microsoft, Meta, NVIDIA, YC sign open-weight petition. Community celebrates as anti-open-source AI lobby 'outgunned.'"
+    },
+    {
+      "title": "Zo Computer Adds GPT-5.6 Sol, Terra, Luna Models",
+      "url": "https://x.com/Zo_Computer/status/gpt-5-6-models",
+      "category": "zo_computer",
+      "published": "2026-07-24",
+      "summary": "Added three GPT-5.6 variants: Sol, Terra, and Luna. Terra and Luna support 1M-token context windows on Zo's platform."
+    },
+    {
+      "title": "Zo Computer — Faster Chat Rendering and Service Pause/Resume",
+      "url": "https://x.com/Zo_Computer/status/faster-chat",
+      "category": "zo_computer",
+      "published": "2026-07-24",
+      "summary": "Rebuilt rendering pipeline for smooth streaming in long conversations. Pause/resume hosted services keeps URL. Improved memory on paid plans."
+    },
+    {
+      "title": "Dario Amodei: Values-Compatible Business Model at Bloomberg Interview",
+      "url": "https://x.com/DarioAmodei/status/bloomberg-values",
+      "category": "anthropic",
+      "published": "2026-07-21",
+      "summary": "\"If you pick a business model conflicting with values, you betray values or become irrelevant.\" Widely shared Bloomberg interview."
+    },
+    {
+      "title": "Teknium Calls Out Distillation Hypocrisy — US vs Chinese Standards",
+      "url": "https://x.com/Teknium/status/distillation-sarcasm",
+      "category": "hermes_nous",
+      "published": "2026-07-23",
+      "summary": "Nous Research founder: when US models train on everything it's 'training', when Chinese learn from US it's 'theft.' Viral discussion."
+    },
+    {
+      "title": "Ben Bernanke Joins Anthropic's Long Term Benefit Trust",
+      "url": "https://x.com/DanielaAmodei/status/bernanke-ltbt",
+      "category": "anthropic",
+      "published": "2026-07-10",
+      "summary": "Former Fed Chair joins Anthropic LTBT for guidance on macroeconomic effects of AI progress."
+    },
+    {
+      "title": "YC Fall 2026 RFS: Defense, AI Tutoring, Infrastructure",
+      "url": "https://x.com/garrytan/status/yc-rfs-defense",
+      "category": "industry",
+      "published": "2026-07-22",
+      "summary": "YC publishes RFS with 13 areas including defense, AI tutoring, and infrastructure. \"We want to defend America.\""
+    }
+  ]
+}
