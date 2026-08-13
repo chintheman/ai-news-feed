@@ -1,64 +1,106 @@
 {
-  "updated_at": "2026-08-13T13:20:00+08:00",
+  "updated_at": "2026-08-13T21:18:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 8,
-  "tldr": "Midday batch, Aug 13: Lovable raises $400M at a $13.3B valuation as agentic app-building consolidates into enterprise, and The Information reports Nvidia is building a 1T-parameter Nemotron 4 open model — a direct swing at Kimi K3 and DeepSeek. KnownAgents flags mass vulnerability scans spoofing AI bot user-agents. Hermes ships a HAR-derived API client skill and portable/shareable profiles, while a single RTX PRO 6000 runs DeepSeek V4 Flash 284B + DSpark with ~15-17% faster generation and Liquid AI's 3.1B vision model runs on an iPhone 17.",
+  "article_count": 14,
+  "tldr": "Evening batch, Aug 13: DeepSeek officially ships V4-Pro and introduces peak/off-peak API pricing with off-peak 50% cheaper from Aug 16, while Anthropic's research Claude pushes a Riemann hypothesis-related lower bound from 41.6% to 67.2%. Hermes Agent ships a script-driven Browser Use mode cutting tokens 48-66% and Pixel Office on VSCode; Claude Cowork lands in the Chrome extension, Qwen3.8-27B's countdown is live, Kimi K3 hits Databricks, and Ramp data suggests corporate willingness to pay for frontier AI has hit a ceiling.",
   "articles": [
     {
-      "title": "Lovable Raises $400M at $13.3B — AI App-Building Goes Mega",
-      "url": "https://lovable.dev/blog/series-c",
-      "category": "industry",
-      "published": "2026-08-12",
-      "summary": "Stockholm's vibe-coding leader doubles valuation from $6.6B to $13.3B. Menlo Ventures + EQT lead; Tencent, Balderton join. 60M projects, ~900M monthly visits, ~2/3 of Fortune 500."
+      "title": "DeepSeek Adds Peak/Off-Peak API Pricing — 50% Off Overnight",
+      "url": "https://x.com/deepseek_ai/status/2087864589895798968",
+      "category": "deepseek",
+      "published": "2026-08-13",
+      "summary": "New V4-lineup pricing with peak/off-peak rates; off-peak is 50% cheaper for flexible workload scheduling. Effective 16:00 UTC, Aug 16."
     },
     {
-      "title": "Nvidia Is Building a 1-Trillion-Parameter Nemotron 4",
-      "url": "https://www.reuters.com/business/nvidia-is-developing-nemotron-4-open-source-models-information-reports-2026-08-11",
-      "category": "industry",
+      "title": "Research Claude Pushes Riemann Hypothesis Bound to 67.2%",
+      "url": "https://x.com/AnthropicAI/status/2086867246073401655",
+      "category": "ai_research",
+      "published": "2026-08-10",
+      "summary": "An unreleased research Claude raised the proven fraction of Riemann zeta zeros on the critical line from 41.6% to 67.2% — a notable math capability milestone."
+    },
+    {
+      "title": "Hermes Replaces 12 Browser Tools With One Script-Driven Mode",
+      "url": "https://x.com/NousResearch/status/2086881660658663469",
+      "category": "hermes_nous",
+      "published": "2026-08-10",
+      "summary": "Browser Use mode (browser_use CLI 3.0) swaps a dozen tool schemas for a single script the agent writes, cutting token use 48-66% with no accuracy drop."
+    },
+    {
+      "title": "Hermes Pixel Office Goes Live on VSCode",
+      "url": "https://x.com/Teknium/status/2086975696786829471",
+      "category": "hermes_nous",
       "published": "2026-08-11",
-      "summary": "Per The Information, Nvidia's next open-weight flagship targets 1T+ params — 2x Nemotron 3 Ultra — could land late fall. A direct swing at Kimi K3 and DeepSeek V4 Pro."
+      "summary": "New VSCode extension + Hermes Agent plugin visualize all your running Hermes agents live, right in the editor."
     },
     {
-      "title": "Attackers Spoof AI Bots to Run Mass Vulnerability Scans",
-      "url": "https://knownagents.com/insights",
+      "title": "Qwen3.8-27B Countdown Is Live — Release Imminent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn6lri/qwenqwen3827b_official_countdown_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-08-13",
+      "summary": "Official Hugging Face countdown page is up and the Qwen team is going live — an open-weight drop promising stronger agentic coding than Qwen3.6-27B."
+    },
+    {
+      "title": "Qwen3.8-Max Jumps to #4 on Legal Research Bench",
+      "url": "https://x.com/Alibaba_Qwen/status/2087382811921854827",
+      "category": "chinese_ai",
+      "published": "2026-08-12",
+      "summary": "Qwen3.8-Max climbs from #22 to #4 on Legal Research Bench; Qwen-Image-3.0 also debuts on OpenArt."
+    },
+    {
+      "title": "Kimi K3 Goes Live on Databricks",
+      "url": "https://x.com/Kimi_Moonshot/status/2087091895822631178",
+      "category": "moonshot_ai",
+      "published": "2026-08-11",
+      "summary": "Moonshot's flagship Kimi K3 is now available on Databricks, expanding enterprise distribution."
+    },
+    {
+      "title": "GBrain v0.45.6 Adds 17 Skills, Now Works With Codex and Claude Code",
+      "url": "https://x.com/garrytan/status/2087594114372259890",
       "category": "agents_tooling",
       "published": "2026-08-12",
-      "summary": "KnownAgents: someone is impersonating ClaudeBot/Googlebot user-agents to probe sites for the credential/config paths AI coding tools use. Check your logs."
+      "summary": "Garry Tan's open-source personal AGI gains 17 new brain skills and integrates with Codex and Claude Code."
     },
     {
-      "title": "Hermes Ships HAR-Derived API Client Skill",
-      "url": "https://x.com/Teknium/status/2087686461822996905",
-      "category": "hermes_nous",
-      "published": "2026-08-12",
-      "summary": "New official Hermes skill turns a site's network traffic (HAR) into a persistent static API for agents and scripts to reuse forever."
+      "title": "MatrAIx — Simulating the World With 8.3B Persona Agents",
+      "url": "https://huggingface.co/papers/2608.04205",
+      "category": "ai_research",
+      "published": "2026-08-10",
+      "summary": "New paper pushes agent-based world simulation to 8.3 billion persona agents — a new scale for large-scale agent simulation."
     },
     {
-      "title": "Hermes Profiles Now Portable and Shareable",
-      "url": "https://x.com/NousResearch/status/2087592096769147377",
-      "category": "hermes_nous",
-      "published": "2026-08-12",
-      "summary": "/export saves a full profile as one credential-stripped file (skills, memory, persona, crons, plugins, themes); /import restores it — full agent setups now transferable."
-    },
-    {
-      "title": "DeepSeek V4 Flash 284B + DSpark on a Single RTX PRO 6000",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmt1y3/i_ran_deepseek_v4_flash_284b_dspark_on_one_rtx/",
-      "category": "deepseek",
-      "published": "2026-08-12",
-      "summary": "Benchmark: DSpark gives ~15-17% faster generation on coding workloads; q8_0 KV cache extends 256K→768K context with basically no decode penalty; drafter faster in RAM than VRAM."
-    },
-    {
-      "title": "LFM2.5-VL-3B: Liquid AI's 3.1B Vision Model Runs on an iPhone 17",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmp9gj/lfm25vl3b_recognizes_steve_from_minecraft_running/",
-      "category": "ai_models",
-      "published": "2026-08-12",
-      "summary": "Liquid AI's ~2GB vision model fits comfortably on a phone — real-world object recognition on-device at 3B scale, no cloud round-trip."
-    },
-    {
-      "title": "Garry Tan Flags ibab Team's Deep AI-Alignment Work",
-      "url": "https://x.com/garrytan/status/2087154547580088470",
+      "title": "SWE-Bench ProMax Benchmarks Agents on Multilingual Code Refactoring",
+      "url": "https://huggingface.co/papers/2608.09802",
       "category": "ai_research",
       "published": "2026-08-11",
-      "summary": "YC's Garry Tan calls new work by @ibab and team on deep alignment of AI with user context 'massively important' — models tuned to you and your context."
+      "summary": "New benchmark tests coding agents on large-scale multilingual code refactoring — a harder bar than single-language SWE tasks."
+    },
+    {
+      "title": "Hugging Face CTO: 'Open Source AI Summer' in Full Swing",
+      "url": "https://x.com/julien_c/status/2087573876331221351",
+      "category": "industry",
+      "published": "2026-08-12",
+      "summary": "julien_c highlights a hot streak of open-weight releases across modalities from DeepSeek, Meta, NVIDIA, Mistral and more."
+    },
+    {
+      "title": "Fable 5's Slow Adoption — Corporate AI Spend Hits a Ceiling",
+      "url": "https://the-decoder.com/fable-5s-slow-adoption-suggests-corporate-willingness-to-pay-for-frontier-ai-has-hit-a-ceiling/",
+      "category": "anthropic",
+      "published": "2026-08-13",
+      "summary": "Fable 5 accounts for just 6% of Anthropic tokens sold, per Ramp data — corporate willingness to pay for frontier AI may have hit a ceiling."
+    },
+    {
+      "title": "Researchers' Recursive Self-Improvement Milestones Are Already Falling",
+      "url": "https://the-decoder.com/top-ai-lab-researchers-warned-about-automated-ai-research-and-several-of-their-predicted-milestones-have-already-fallen/",
+      "category": "ai_research",
+      "published": "2026-08-13",
+      "summary": "IAPS' Severin Field interviewed 25 researchers about automated AI research; several milestones they predicted are already hit."
+    },
+    {
+      "title": "Claude Cowork Lands in Chrome — Skills & Plugins Hit the Browser",
+      "url": "https://the-decoder.com/anthropic-brings-claude-cowork-to-its-chrome-extension-adding-skills-and-plugins-to-the-browser/",
+      "category": "anthropic",
+      "published": "2026-08-13",
+      "summary": "Claude Cowork now runs directly in the side panel of Anthropic's Chrome extension, adding skills and plugins to the browser."
     }
   ]
 }
