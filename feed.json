@@ -1,106 +1,134 @@
 {
-  "updated_at": "2026-08-13T21:18:00+08:00",
+  "updated_at": "2026-08-14T08:32:24+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 14,
-  "tldr": "Evening batch, Aug 13: DeepSeek officially ships V4-Pro and introduces peak/off-peak API pricing with off-peak 50% cheaper from Aug 16, while Anthropic's research Claude pushes a Riemann hypothesis-related lower bound from 41.6% to 67.2%. Hermes Agent ships a script-driven Browser Use mode cutting tokens 48-66% and Pixel Office on VSCode; Claude Cowork lands in the Chrome extension, Qwen3.8-27B's countdown is live, Kimi K3 hits Databricks, and Ramp data suggests corporate willingness to pay for frontier AI has hit a ceiling.",
+  "article_count": 18,
+  "tldr": "Morning batch, Aug 14: DeepSeek officially launches V4-Pro (agent-first, flexible reasoning effort, native OpenAI Responses API support) and open-sources its Harness agent framework, while Qwen 3.8 ships with prompt-steered reasoning effort (xhigh/medium/low). OpenAI previews GPT-5.6 Sol 'Ultrafast' at up to 14x speed on Cerebras and adds Computer History memory to ChatGPT desktop; Google's Gemini 3.7 Flash lands at half price, Ant Group's Ling 3.0 Flash tops its size class, Hermes gains live subagent supervision, and a 2,200-paper ICML reproduction study lands.",
   "articles": [
     {
-      "title": "DeepSeek Adds Peak/Off-Peak API Pricing — 50% Off Overnight",
-      "url": "https://x.com/deepseek_ai/status/2087864589895798968",
+      "title": "DeepSeek Launches V4-Pro — Agent-First With Tunable Reasoning Effort",
+      "url": "https://x.com/deepseek_ai/status/2087864585504305397",
       "category": "deepseek",
       "published": "2026-08-13",
-      "summary": "New V4-lineup pricing with peak/off-peak rates; off-peak is 50% cheaper for flexible workload scheduling. Effective 16:00 UTC, Aug 16."
+      "summary": "Agent-first flagship: flexible reasoning effort (low/high/max), native OpenAI Responses API support, one-click Codex setup; live on app/web via Expert Mode and API."
     },
     {
-      "title": "Research Claude Pushes Riemann Hypothesis Bound to 67.2%",
-      "url": "https://x.com/AnthropicAI/status/2086867246073401655",
+      "title": "GPT-5.6 Sol 'Ultrafast' — Up to 14x Faster via Cerebras",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "category": "ai_models",
+      "published": "2026-08-13",
+      "summary": "New API tier runs GPT-5.6 Sol up to 14x faster on Cerebras wafer-scale chips — up to 750 output tokens/s; limited preview for select customers."
+    },
+    {
+      "title": "ChatGPT Gains 'Computer History' — Persistent Activity Memory",
+      "url": "https://x.com/OpenAI/status/2087996496088297746",
+      "category": "agents_tooling",
+      "published": "2026-08-13",
+      "summary": "ChatGPT desktop now remembers your activity across apps and websites on your computer, making future interactions more personalized with less re-explanation."
+    },
+    {
+      "title": "Hermes Agents Gain Live Subagent Supervision",
+      "url": "https://x.com/Teknium/status/2087986084592709814",
+      "category": "hermes_nous",
+      "published": "2026-08-13",
+      "summary": "Hermes can now steer, end, and read live transcripts of async subagents — full control over subagent work while it runs."
+    },
+    {
+      "title": "The Builder's Guide to GPT-5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "category": "agents_tooling",
+      "published": "2026-08-13",
+      "summary": "OpenAI's guide to building with GPT-5.6 — faster, more cost-efficient agents via smarter model selection and new Responses API capabilities."
+    },
+    {
+      "title": "OpenAI Appoints Dali Rajic as Chief Revenue Officer",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "category": "industry",
+      "published": "2026-08-13",
+      "summary": "OpenAI hires Dali Rajic to lead its global revenue organization and help businesses realize the full value of AI."
+    },
+    {
+      "title": "Strands Agents + LeRobot + HF Storage Buckets: One Robotics Data Loop",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "category": "platforms_integration",
+      "published": "2026-08-13",
+      "summary": "Record, train, and deploy from one place — Amazon's Strands agents, LeRobot, and Hugging Face Storage Buckets streamline the robotics data loop."
+    },
+    {
+      "title": "What We Learned Reproducing 2,200 ICML Papers",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
       "category": "ai_research",
-      "published": "2026-08-10",
-      "summary": "An unreleased research Claude raised the proven fraction of Riemann zeta zeros on the critical line from 41.6% to 67.2% — a notable math capability milestone."
+      "published": "2026-08-13",
+      "summary": "Hugging Face shares lessons from reproducing 2,200 ICML papers — a large-scale open-science effort stress-testing ML reproducibility."
     },
     {
-      "title": "Hermes Replaces 12 Browser Tools With One Script-Driven Mode",
-      "url": "https://x.com/NousResearch/status/2086881660658663469",
-      "category": "hermes_nous",
-      "published": "2026-08-10",
-      "summary": "Browser Use mode (browser_use CLI 3.0) swaps a dozen tool schemas for a single script the agent writes, cutting token use 48-66% with no accuracy drop."
-    },
-    {
-      "title": "Hermes Pixel Office Goes Live on VSCode",
-      "url": "https://x.com/Teknium/status/2086975696786829471",
-      "category": "hermes_nous",
-      "published": "2026-08-11",
-      "summary": "New VSCode extension + Hermes Agent plugin visualize all your running Hermes agents live, right in the editor."
-    },
-    {
-      "title": "Qwen3.8-27B Countdown Is Live — Release Imminent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn6lri/qwenqwen3827b_official_countdown_hugging_face/",
+      "title": "Qwen 3.8 Ships With Prompt-Steered Reasoning Effort",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/",
       "category": "chinese_ai",
       "published": "2026-08-13",
-      "summary": "Official Hugging Face countdown page is up and the Qwen team is going live — an open-weight drop promising stronger agentic coding than Qwen3.6-27B."
+      "summary": "Qwen's first 3.8 model adds prompt-steered reasoning effort (xhigh/medium/low) — developers can now control how deeply the model thinks."
     },
     {
-      "title": "Qwen3.8-Max Jumps to #4 on Legal Research Bench",
-      "url": "https://x.com/Alibaba_Qwen/status/2087382811921854827",
+      "title": "Doom Running on an LLM — Compiler-Ported Weights, No Training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnjtyh/doom_running_on_an_llm_hugging_face_checkpoint/",
+      "category": "ai_research",
+      "published": "2026-08-13",
+      "summary": "A compiler (torchwright) ported Doom's rendering algorithm into transformer weights — no training, every weight computed; checkpoints on HF."
+    },
+    {
+      "title": "DeepSeek Harness (dsh) Open-Sources — Everything Is a Plugin",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnb66j/deepseek_harness_is_up/",
+      "category": "agents_tooling",
+      "published": "2026-08-13",
+      "summary": "DeepSeek's agent harness is now open source — an everything-is-a-plugin architecture powered by Cordis; currently in developer preview."
+    },
+    {
+      "title": "Ling 3.0 Flash Is the Smartest Open Model at Its Size",
+      "url": "https://the-decoder.com/ling-3-0-flash-is-the-smartest-open-model-at-its-size/",
+      "category": "ai_models",
+      "published": "2026-08-13",
+      "summary": "Ant Group's inclusionAI ships Ling 3.0 Flash — MIT-licensed open model topping its size class with a big accuracy jump and far fewer hallucinations."
+    },
+    {
+      "title": "'Understanding Is the New Bottleneck' — Geoffrey Litt Essay",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+      "category": "ai_research",
+      "published": "2026-08-13",
+      "summary": "A widely-discussed essay arguing comprehension, not capability, now limits AI progress — 124 points and 68 comments on HN."
+    },
+    {
+      "title": "MiniMax Releases Music3",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vngww3/minimaxmusic3_released/",
       "category": "chinese_ai",
-      "published": "2026-08-12",
-      "summary": "Qwen3.8-Max climbs from #22 to #4 on Legal Research Bench; Qwen-Image-3.0 also debuts on OpenArt."
+      "published": "2026-08-13",
+      "summary": "MiniMax ships Music3, the next generation of its music-generation model family."
     },
     {
-      "title": "Kimi K3 Goes Live on Databricks",
-      "url": "https://x.com/Kimi_Moonshot/status/2087091895822631178",
-      "category": "moonshot_ai",
-      "published": "2026-08-11",
-      "summary": "Moonshot's flagship Kimi K3 is now available on Databricks, expanding enterprise distribution."
+      "title": "Suno Studio 2.0 Turns Your DAW Into a Chat",
+      "url": "https://the-decoder.com/suno-studio-2-0s-new-chat-feature-lets-you-talk-to-your-daw-like-its-a-bandmate/",
+      "category": "platforms_integration",
+      "published": "2026-08-13",
+      "summary": "Suno Studio 2.0 becomes a full production tool — chat to build instruments and plugins, MIDI import, unlimited 32-bit export for Premier subscribers."
     },
     {
-      "title": "GBrain v0.45.6 Adds 17 Skills, Now Works With Codex and Claude Code",
-      "url": "https://x.com/garrytan/status/2087594114372259890",
+      "title": "Gemini 3.7 Flash Lands With Coding Gains at 50% Lower Price",
+      "url": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/",
+      "category": "ai_models",
+      "published": "2026-08-13",
+      "summary": "Google ships Gemini 3.7 Flash three weeks after 3.6 — its most capable workhorse for coding and agents, undercutting its predecessor's price by 50%."
+    },
+    {
+      "title": "1.5B Model Writes Shell Commands — Runs on a Laptop CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnl0um/trained_a_15b_to_write_shell_commands_so_id_stop/",
+      "category": "ai_models",
+      "published": "2026-08-13",
+      "summary": "A Qwen2.5-Coder 1.5B fine-tuned on 125k shell-command pairs writes bash for you — 941MB quantized build answers in ~1 second on CPU."
+    },
+    {
+      "title": "Claude Code's /code-review Now Runs on a Forked Agent",
+      "url": "https://x.com/bcherny/status/2087383935491907894",
       "category": "agents_tooling",
       "published": "2026-08-12",
-      "summary": "Garry Tan's open-source personal AGI gains 17 new brain skills and integrates with Codex and Claude Code."
-    },
-    {
-      "title": "MatrAIx — Simulating the World With 8.3B Persona Agents",
-      "url": "https://huggingface.co/papers/2608.04205",
-      "category": "ai_research",
-      "published": "2026-08-10",
-      "summary": "New paper pushes agent-based world simulation to 8.3 billion persona agents — a new scale for large-scale agent simulation."
-    },
-    {
-      "title": "SWE-Bench ProMax Benchmarks Agents on Multilingual Code Refactoring",
-      "url": "https://huggingface.co/papers/2608.09802",
-      "category": "ai_research",
-      "published": "2026-08-11",
-      "summary": "New benchmark tests coding agents on large-scale multilingual code refactoring — a harder bar than single-language SWE tasks."
-    },
-    {
-      "title": "Hugging Face CTO: 'Open Source AI Summer' in Full Swing",
-      "url": "https://x.com/julien_c/status/2087573876331221351",
-      "category": "industry",
-      "published": "2026-08-12",
-      "summary": "julien_c highlights a hot streak of open-weight releases across modalities from DeepSeek, Meta, NVIDIA, Mistral and more."
-    },
-    {
-      "title": "Fable 5's Slow Adoption — Corporate AI Spend Hits a Ceiling",
-      "url": "https://the-decoder.com/fable-5s-slow-adoption-suggests-corporate-willingness-to-pay-for-frontier-ai-has-hit-a-ceiling/",
-      "category": "anthropic",
-      "published": "2026-08-13",
-      "summary": "Fable 5 accounts for just 6% of Anthropic tokens sold, per Ramp data — corporate willingness to pay for frontier AI may have hit a ceiling."
-    },
-    {
-      "title": "Researchers' Recursive Self-Improvement Milestones Are Already Falling",
-      "url": "https://the-decoder.com/top-ai-lab-researchers-warned-about-automated-ai-research-and-several-of-their-predicted-milestones-have-already-fallen/",
-      "category": "ai_research",
-      "published": "2026-08-13",
-      "summary": "IAPS' Severin Field interviewed 25 researchers about automated AI research; several milestones they predicted are already hit."
-    },
-    {
-      "title": "Claude Cowork Lands in Chrome — Skills & Plugins Hit the Browser",
-      "url": "https://the-decoder.com/anthropic-brings-claude-cowork-to-its-chrome-extension-adding-skills-and-plugins-to-the-browser/",
-      "category": "anthropic",
-      "published": "2026-08-13",
-      "summary": "Claude Cowork now runs directly in the side panel of Anthropic's Chrome extension, adding skills and plugins to the browser."
+      "summary": "Since 2.1.218, /code-review uses a forked agent — none on low effort, up to 10 parallel agents at higher effort levels."
     }
   ]
 }
