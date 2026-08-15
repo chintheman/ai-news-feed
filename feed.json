@@ -1,113 +1,64 @@
 {
-  "updated_at": "2026-08-15T08:30:00+08:00",
+  "updated_at": "2026-08-15T13:20:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 15,
-  "tldr": "Morning batch, Aug 15: open-weight momentum peaks — Qwen3.8-27B and the 2.4T-A95B Max drop under Apache 2.0 (27B beats Qwen3.7-Plus on coding/office, 262K native context), and Meta follows Zuckerberg's manifesto by opening Muse Glimmer weights with Muse Spark 1.2 coming. OpenAI launches GPT-5.6 Sol Ultrafast at up to 14x speed on Cerebras, Anthropic ships a SynthID-style watermark-detection API for Claude, and a Princeton/UK study finds frontier agents still can't produce publishable research ('Reject' verdicts). Hermes Desktop now connects to Cloud agents, ChatGPT lands on Linux, and HF's State of Open Models confirms small models dominate real-world usage.",
+  "article_count": 8,
+  "tldr": "Midday batch, Aug 15: Anthropic publishes its second RSP Risk Report, and bcherny shows Claude autonomously maintaining production apps (388 PRs opened, 180 merged) — agentic maintenance goes mainstream. Hermes gains a HAR-derived API client skill and GBrain ships 17 new skills, while Mixedbread's Toast 1 search agent matches frontier models at up to 10x lower cost. Qwen3.8-27B keeps dominating r/LocalLLaMA: Unsloth weights land day-one and users speculate its general knowledge was pruned.",
   "articles": [
     {
-      "title": "Qwen 3.8 Open Weights Released Under Apache 2.0",
-      "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
-      "category": "chinese_ai",
+      "title": "Anthropic Publishes Second RSP Risk Report",
+      "url": "https://x.com/AnthropicAI/status/2088324824863236248",
+      "category": "policy",
       "published": "2026-08-14",
-      "summary": "Qwen3.8-27B dense + Qwen3.8-2.4T-A95B Max weights out under Apache 2.0. The 27B beats Qwen3.7-Plus on coding/office, 262K native context (1M via YaRN)."
+      "summary": "Second Responsible Scaling Policy Risk Report details system risks and mitigations — safety-governance cadence continues ahead of reported IPO plans."
     },
     {
-      "title": "Qwen3.8-27B Is Architecturally Identical to 3.6-27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/",
-      "category": "chinese_ai",
-      "published": "2026-08-14",
-      "summary": "Zero-diff comparison: 3.8 shares the exact 3.6-27B architecture — all capability gains come purely from training improvements."
+      "title": "Claude Maintains Production Apps Autonomously: 388 PRs Opened, 180 Merged",
+      "url": "https://x.com/bcherny/status/2088014489438621990",
+      "category": "agents_tooling",
+      "published": "2026-08-13",
+      "summary": "Anthropic's bcherny ran a Slack-driven daily routine letting Claude maintain iOS/Android/web/CLI/Agent SDK code — crash fuzzer included, minimal oversight needed."
     },
     {
-      "title": "Meta Opens Muse Glimmer Weights, Muse Spark 1.2 Coming",
-      "url": "https://x.com/rowancheung/status/2087204267568615724",
-      "category": "ai_models",
-      "published": "2026-08-12",
-      "summary": "Zuckerberg: 'open source is so back' — Meta open-sources Muse Glimmer, with Muse Spark 1.2 on the way as open-weight momentum builds."
-    },
-    {
-      "title": "GPT-5.6 Sol Goes 14x Faster With Cerebras-Powered Ultrafast Mode",
-      "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/",
-      "category": "ai_models",
-      "published": "2026-08-14",
-      "summary": "OpenAI's Ultrafast inference hits up to 750 tok/s on Cerebras hardware, creating a Standard/Fast/Ultrafast three-tier pricing structure."
-    },
-    {
-      "title": "Study Contradicts Anthropic and OpenAI Claims on Autonomous AI Research",
-      "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
-      "category": "ai_research",
-      "published": "2026-08-14",
-      "summary": "Claude Opus 4.8 + GPT-5.6 Sol got 6 days and $3K in credits to write NeurIPS papers — original authors rated the results 'Reject'."
-    },
-    {
-      "title": "Anthropic Announces Watermark-Detection API for Claude Text",
-      "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/",
-      "category": "anthropic",
-      "published": "2026-08-14",
-      "summary": "Third parties will be able to check if text was written by Claude. Builds on Google's SynthID by tweaking word-selection randomness without hurting quality."
-    },
-    {
-      "title": "Maximizing the Value of Your Claude Code Sessions",
-      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
-      "category": "anthropic",
-      "published": "2026-08-14",
-      "summary": "Claude's official guide to getting more out of Claude Code sessions tops Hacker News — practical workflow tips for agentic coding."
-    },
-    {
-      "title": "OpenAI's Computer History Turns Clicks and Keystrokes Into a Searchable Timeline",
-      "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
-      "category": "platforms_integration",
-      "published": "2026-08-14",
-      "summary": "Records clicks, keystrokes, and app switches on Mac into a searchable ChatGPT/Codex timeline. Stored locally as Markdown; not used for training."
-    },
-    {
-      "title": "Google Makes Private AI Practical With Homomorphic Encryption",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "category": "ai_research",
-      "published": "2026-08-14",
-      "summary": "Google's HEIR compiler and encrypted-compute roadmap bring private AI within reach — 202 points and 127 comments on Hacker News."
-    },
-    {
-      "title": "State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "category": "ai_models",
-      "published": "2026-08-14",
-      "summary": "Frontier models grow larger but small models dominate real-world usage. Qwen leads local inference; AI agents are now a major force on the Hub."
-    },
-    {
-      "title": "Hermes Desktop Now Connects to Hermes Cloud Agents",
-      "url": "https://x.com/NousResearch/status/2088395070059770061",
+      "title": "Hermes Gains HAR-Derived API Client Skill",
+      "url": "https://x.com/Teknium/status/2087686461822996905",
       "category": "hermes_nous",
-      "published": "2026-08-14",
-      "summary": "Point Hermes Desktop at Hermes Cloud via Settings > Gateway for a persistent agent that keeps working after you close the laptop, reachable anywhere."
+      "published": "2026-08-12",
+      "summary": "New Hermes skill watches a site's API calls during an operation, then generates a durable static API client for agents and scripts to reuse forever."
     },
     {
-      "title": "ChatGPT Desktop App Lands on Linux in Preview",
-      "url": "https://x.com/OpenAI/status/2087231350134980830",
-      "category": "platforms_integration",
-      "published": "2026-08-11",
-      "summary": "ChatGPT, ChatGPT Work, and Codex arrive on Linux in preview — projects and browser workflows for Linux developers."
+      "title": "BDH-CQ: In-Context Learning With Recurrent Latent Reasoning",
+      "url": "https://x.com/_akhaliq/status/2087591432697651424",
+      "category": "ai_research",
+      "published": "2026-08-12",
+      "summary": "New paper (HF papers 2608.09888) combines in-context learning with recurrent latent reasoning — an efficiency angle on reasoning models."
     },
     {
-      "title": "bcherny on Adversarial Code Review With Claude",
-      "url": "https://x.com/bcherny/status/2087284684103537011",
+      "title": "GBrain v0.45.6.0 Adds 17 OpenClaw-Hardened Skills",
+      "url": "https://x.com/garrytan/status/2087594114372259890",
       "category": "agents_tooling",
       "published": "2026-08-12",
-      "summary": "Anthropic's Boris Cherny: a one-line dynamic-workflow prompt ('adversarial test every edge case') or Claude's built-in /code-review catches bugs LLMs miss."
+      "summary": "Garry Tan's personal-AGI stack ships 17 new brain skills hardened via OpenClaw; GBrain now works with Codex and Claude Code."
     },
     {
-      "title": "Garry Tan: One Person + 20 Agents Beats a Big-Tech Engineering Department",
-      "url": "https://x.com/garrytan/status/2088306577124262220",
-      "category": "agents_tooling",
-      "published": "2026-08-14",
-      "summary": "YC's Garry Tan argues one person running 20 parallel agents can outperform an entire department of engineers at a Magnificent 7 company."
-    },
-    {
-      "title": "Frontier ~30B Models: Muse Glimmer Held the Crown for Four Days",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vofnnf/muse_glimmer_was_frontier_in_the_model_class/",
+      "title": "Mixedbread's Toast 1: Frontier Search at 10x Lower Cost",
+      "url": "https://www.mixedbread.com/blog/toast-1",
       "category": "ai_models",
+      "published": "2026-08-13",
+      "summary": "Specialized search agent matches Claude Opus 5 / GPT-5.6 Sol retrieval quality at up to 10x cheaper and 12x faster; works with any search backend."
+    },
+    {
+      "title": "Unsloth Releases Qwen 3.8 27B Weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo9qjv/unsloth_qwen_38_27b_weights_released/",
+      "category": "chinese_ai",
       "published": "2026-08-14",
-      "summary": "r/LocalLLaMA tracks the churn in the ~30B model class — Muse Glimmer led for four days before the next open release took over."
+      "summary": "Day-one quantized builds of the new Qwen3.8-27B dense multimodal model land for local hardware."
+    },
+    {
+      "title": "Hunch: Qwen3.8-27B's General Knowledge Got Pruned",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vokpw6/a_hunch_qwen3827bs_general_knowledge_got_pruned/",
+      "category": "chinese_ai",
+      "published": "2026-08-14",
+      "summary": "r/LocalLLaMA probes Qwen3.8-27B with hometown photo questions and suspects general knowledge was pruned vs 3.6 — 'good, if true'."
     }
   ]
 }
