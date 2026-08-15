@@ -1,64 +1,78 @@
 {
-  "updated_at": "2026-08-15T13:20:00+08:00",
+  "updated_at": "2026-08-15T21:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 8,
-  "tldr": "Midday batch, Aug 15: Anthropic publishes its second RSP Risk Report, and bcherny shows Claude autonomously maintaining production apps (388 PRs opened, 180 merged) — agentic maintenance goes mainstream. Hermes gains a HAR-derived API client skill and GBrain ships 17 new skills, while Mixedbread's Toast 1 search agent matches frontier models at up to 10x lower cost. Qwen3.8-27B keeps dominating r/LocalLLaMA: Unsloth weights land day-one and users speculate its general knowledge was pruned.",
+  "article_count": 10,
+  "tldr": "Evening batch, Aug 15: The price war escalates — OpenAI cut GPT-5.6 Luna ~80% and Anthropic priced Opus 5 at half of Fable 5 while DeepSeek and Z.ai overtook both in OpenRouter token usage. Security stories dominate: encrypted chain-of-thought blocks from all major labs get decoded (182 credentials exposed), the first US court sanctions a prompt-injection attempt in filings, and GPT-5.6-Cyber finds two real Chrome V8 zero-days. Anthropic is in talks to buy Decart AI for ~$6B ahead of its reported mega IPO, IBM launches an OpenAI Practice, HF's State of Open Models report shows small models still dominate real usage, and Qwen3.8 open weights go live Day-0 across the serving stack.",
   "articles": [
     {
-      "title": "Anthropic Publishes Second RSP Risk Report",
-      "url": "https://x.com/AnthropicAI/status/2088324824863236248",
+      "title": "AI Books Flood Amazon: 20% of Self-Published Catalog, 12% of Sales",
+      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
       "category": "policy",
-      "published": "2026-08-14",
-      "summary": "Second Responsible Scaling Policy Risk Report details system risks and mitigations — safety-governance cadence continues ahead of reported IPO plans."
+      "published": "2026-08-15",
+      "summary": "Study of 14,419 titles: AI books are 20% of Amazon's self-published catalog but only 12% of sales; human authors lost ground in 7 of 8 genres."
     },
     {
-      "title": "Claude Maintains Production Apps Autonomously: 388 PRs Opened, 180 Merged",
-      "url": "https://x.com/bcherny/status/2088014489438621990",
-      "category": "agents_tooling",
-      "published": "2026-08-13",
-      "summary": "Anthropic's bcherny ran a Slack-driven daily routine letting Claude maintain iOS/Android/web/CLI/Agent SDK code — crash fuzzer included, minimal oversight needed."
+      "title": "First US Court Sanctions Prompt-Injection Attempt in Legal Filings",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "category": "policy",
+      "published": "2026-08-15",
+      "summary": "Connecticut plaintiff hid white-on-white AI instructions in filings; judge banned e-filing, ordered paper copies — first US case of its kind."
     },
     {
-      "title": "Hermes Gains HAR-Derived API Client Skill",
-      "url": "https://x.com/Teknium/status/2087686461822996905",
-      "category": "hermes_nous",
-      "published": "2026-08-12",
-      "summary": "New Hermes skill watches a site's API calls during an operation, then generates a durable static API client for agents and scripts to reuse forever."
-    },
-    {
-      "title": "BDH-CQ: In-Context Learning With Recurrent Latent Reasoning",
-      "url": "https://x.com/_akhaliq/status/2087591432697651424",
+      "title": "Encrypted Reasoning Blocks Decoded: 182 Credentials Exposed",
+      "url": "https://www.explainx.ai/blog/stealing-reasoning-traces-encrypted-cot-vulnerability-august-2026",
       "category": "ai_research",
-      "published": "2026-08-12",
-      "summary": "New paper (HF papers 2608.09888) combines in-context learning with recurrent latent reasoning — an efficiency angle on reasoning models."
+      "published": "2026-08-15",
+      "summary": "Chain-of-thought 'encryption' cracked: 315K reasoning blocks decoded from public repos across OpenAI/Anthropic/Google, exposing 367 PII records and 182 credentials."
     },
     {
-      "title": "GBrain v0.45.6.0 Adds 17 OpenClaw-Hardened Skills",
-      "url": "https://x.com/garrytan/status/2087594114372259890",
-      "category": "agents_tooling",
-      "published": "2026-08-12",
-      "summary": "Garry Tan's personal-AGI stack ships 17 new brain skills hardened via OpenClaw; GBrain now works with Codex and Claude Code."
+      "title": "OpenAI and Anthropic Slash Prices as Chinese Models Take Token Crown",
+      "url": "https://www.techrepublic.com/article/news-openai-anthropic-cheaper-ai-models-open-weight-competition/",
+      "category": "industry",
+      "published": "2026-08-15",
+      "summary": "OpenAI cut GPT-5.6 Luna ~80% and Anthropic priced Opus 5 at half of Fable 5, as DeepSeek and Z.ai overtook them in OpenRouter token usage."
     },
     {
-      "title": "Mixedbread's Toast 1: Frontier Search at 10x Lower Cost",
-      "url": "https://www.mixedbread.com/blog/toast-1",
+      "title": "GPT-5.6-Cyber Found Two Real Chrome V8 Zero-Days",
+      "url": "https://releasebot.io/updates/openai",
       "category": "ai_models",
+      "published": "2026-08-15",
+      "summary": "OpenAI's Daybreak Red model found two previously unknown Chrome V8 bugs; Google patched them as CVE-2026-15903."
+    },
+    {
+      "title": "HF State of Open Models: Small Models Still Dominate Real Usage",
+      "url": "https://x.com/huggingface/status/2088301795890044975",
+      "category": "ai_research",
+      "published": "2026-08-14",
+      "summary": "HF: frontier models grow larger but small models dominate real usage; Qwen leads local inference, agents are a growing Hub force."
+    },
+    {
+      "title": "Anthropic in Talks to Buy Decart AI for ~$6B",
+      "url": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/",
+      "category": "industry",
       "published": "2026-08-13",
-      "summary": "Specialized search agent matches Claude Opus 5 / GPT-5.6 Sol retrieval quality at up to 10x cheaper and 12x faster; works with any search backend."
+      "summary": "Anthropic in talks to buy Nvidia-backed Decart AI for ~$6B — its largest known deal, adding chip-efficiency tech to inference ahead of a reported mega IPO."
     },
     {
-      "title": "Unsloth Releases Qwen 3.8 27B Weights",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo9qjv/unsloth_qwen_38_27b_weights_released/",
-      "category": "chinese_ai",
-      "published": "2026-08-14",
-      "summary": "Day-one quantized builds of the new Qwen3.8-27B dense multimodal model land for local hardware."
+      "title": "IBM Launches OpenAI Practice, Embeds GPT-5.6 Into Consulting",
+      "url": "https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations",
+      "category": "platforms_integration",
+      "published": "2026-08-13",
+      "summary": "IBM embeds GPT-5.6, Codex and ChatGPT Work into Consulting Advantage and launches a dedicated OpenAI Practice with thousands of certified consultants."
     },
     {
-      "title": "Hunch: Qwen3.8-27B's General Knowledge Got Pruned",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vokpw6/a_hunch_qwen3827bs_general_knowledge_got_pruned/",
+      "title": "Hermes Agent v0.20.1 Rolls Up ~656 Merged PRs",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.13",
+      "category": "hermes_nous",
+      "published": "2026-08-13",
+      "summary": "Patch release closes ~481 issues across 1,444 commits since v0.20.0 — a stabilization milestone ahead of the v0.21.0 feature release."
+    },
+    {
+      "title": "Qwen3.8 Open Weights Live Day-0 Across the Serving Stack",
+      "url": "https://x.com/Alibaba_Qwen/status/2088301611731009582",
       "category": "chinese_ai",
       "published": "2026-08-14",
-      "summary": "r/LocalLLaMA probes Qwen3.8-27B with hometown photo questions and suspects general knowledge was pruned vs 3.6 — 'good, if true'."
+      "summary": "2.4T-A95B live on Together AI (1M context) and DeepInfra; 27B on vLLM single-GPU; Max on SiliconFlow — the fastest open-weight distribution play yet."
     }
   ]
 }
