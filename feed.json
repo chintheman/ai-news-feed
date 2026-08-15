@@ -1,92 +1,113 @@
 {
-  "updated_at": "2026-08-14T21:15:00+08:00",
+  "updated_at": "2026-08-15T08:30:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 12,
-  "tldr": "Evening batch, Aug 14: Zhipu's GLM-5.3 claims the open-weights coding crown — +50% coding from post-training alone, first to top CyberGym at 84.5, weights open in ~2 weeks — while Claude Code now maintains Anthropic's own software with a 46% merge rate across 388 PRs. Anthropic's CFO starts IPO investor meetings with a $2T+ listing floated; Jeff Dean's Discovery Loop seeks $1B pre-product; China's YMTC cracks top-3 in NAND. Nous Portal offers Meituan's LongCat-2.0 free for a week, SWE-Bench ProMax benchmarks multilingual refactoring, and Qwen3.8-27B's model card goes live.",
+  "article_count": 15,
+  "tldr": "Morning batch, Aug 15: open-weight momentum peaks — Qwen3.8-27B and the 2.4T-A95B Max drop under Apache 2.0 (27B beats Qwen3.7-Plus on coding/office, 262K native context), and Meta follows Zuckerberg's manifesto by opening Muse Glimmer weights with Muse Spark 1.2 coming. OpenAI launches GPT-5.6 Sol Ultrafast at up to 14x speed on Cerebras, Anthropic ships a SynthID-style watermark-detection API for Claude, and a Princeton/UK study finds frontier agents still can't produce publishable research ('Reject' verdicts). Hermes Desktop now connects to Cloud agents, ChatGPT lands on Linux, and HF's State of Open Models confirms small models dominate real-world usage.",
   "articles": [
     {
-      "title": "Zhipu's GLM-5.3 Claims the Open-Weights Coding Crown",
-      "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/",
+      "title": "Qwen 3.8 Open Weights Released Under Apache 2.0",
+      "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
       "category": "chinese_ai",
       "published": "2026-08-14",
-      "summary": "GLM-5.3 claims strongest open-weights coding model: +50% coding from post-training alone, tops CyberGym at 84.5, found 2,436 vulns across 269 projects. Weights open in ~2 weeks."
+      "summary": "Qwen3.8-27B dense + Qwen3.8-2.4T-A95B Max weights out under Apache 2.0. The 27B beats Qwen3.7-Plus on coding/office, 262K native context (1M via YaRN)."
     },
     {
-      "title": "Claude Code Now Maintains Anthropic's Own Software",
-      "url": "https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/",
+      "title": "Qwen3.8-27B Is Architecturally Identical to 3.6-27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/",
+      "category": "chinese_ai",
+      "published": "2026-08-14",
+      "summary": "Zero-diff comparison: 3.8 shares the exact 3.6-27B architecture — all capability gains come purely from training improvements."
+    },
+    {
+      "title": "Meta Opens Muse Glimmer Weights, Muse Spark 1.2 Coming",
+      "url": "https://x.com/rowancheung/status/2087204267568615724",
+      "category": "ai_models",
+      "published": "2026-08-12",
+      "summary": "Zuckerberg: 'open source is so back' — Meta open-sources Muse Glimmer, with Muse Spark 1.2 on the way as open-weight momentum builds."
+    },
+    {
+      "title": "GPT-5.6 Sol Goes 14x Faster With Cerebras-Powered Ultrafast Mode",
+      "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/",
+      "category": "ai_models",
+      "published": "2026-08-14",
+      "summary": "OpenAI's Ultrafast inference hits up to 750 tok/s on Cerebras hardware, creating a Standard/Fast/Ultrafast three-tier pricing structure."
+    },
+    {
+      "title": "Study Contradicts Anthropic and OpenAI Claims on Autonomous AI Research",
+      "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
+      "category": "ai_research",
+      "published": "2026-08-14",
+      "summary": "Claude Opus 4.8 + GPT-5.6 Sol got 6 days and $3K in credits to write NeurIPS papers — original authors rated the results 'Reject'."
+    },
+    {
+      "title": "Anthropic Announces Watermark-Detection API for Claude Text",
+      "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/",
       "category": "anthropic",
       "published": "2026-08-14",
-      "summary": "Anthropic dogfoods Claude Code on its own apps — crash fuzzing to dead-code removal. 388 PRs in weeks, 46% merged after human review. Boris Cherny calls it 'early signs' of agentic maintenance."
+      "summary": "Third parties will be able to check if text was written by Claude. Builds on Google's SynthID by tweaking word-selection randomness without hurting quality."
     },
     {
-      "title": "Anthropic CFO Kicks Off IPO Investor Meetings",
-      "url": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html",
-      "category": "industry",
-      "published": "2026-08-13",
-      "summary": "CFO Krishna Rao leads early IPO meetings; confidential S-1 filed in June. Investors float a $2T+ listing — which would top SpaceX's $1.77T record debut."
-    },
-    {
-      "title": "Jeff Dean's Discovery Loop Seeks $1B at ~$10B Valuation",
-      "url": "https://www.businessinsider.com/former-google-exec-jeff-dean-valuation-for-new-ai-startup-2026-8",
-      "category": "industry",
-      "published": "2026-08-13",
-      "summary": "Ex-Google chief scientist's 'automate science' startup (with Ghemawat, Vinyals, Quoc Le) is pre-product, pre-revenue — investors bet $1B on the team alone."
-    },
-    {
-      "title": "China's YMTC Cracks Global Top-3 in NAND Memory",
-      "url": "https://www.cnbc.com/2026/08/13/chinese-firm-tops-micron-kioxia-shipments-nand-memory-chips.html",
-      "category": "industry",
-      "published": "2026-08-13",
-      "summary": "14% shipment share edges past Kioxia and Micron; 267-layer 3D NAND targets AI inference and KV-cache SSDs."
-    },
-    {
-      "title": "Meituan's LongCat-2.0 Free for a Week in Nous Portal",
-      "url": "https://x.com/NousResearch/status/2087970618167706023",
-      "category": "hermes_nous",
-      "published": "2026-08-13",
-      "summary": "1.6T-param MoE with 1M context built for agentic coding — 70.8 on Terminal-Bench 2.1, ingests an entire codebase in one pass. Free in Nous Portal for one week."
-    },
-    {
-      "title": "SWE-Bench ProMax: Benchmarking Agents on Multilingual Code Refactoring",
-      "url": "https://x.com/_akhaliq/status/2087026792972308750",
-      "category": "ai_research",
-      "published": "2026-08-11",
-      "summary": "New benchmark evaluates coding agents on large-scale multilingual code refactoring. Paper: huggingface.co/papers/2608.09802."
-    },
-    {
-      "title": "Qwen3.8-27B Preliminary Model Card Goes Live",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo2iiz/a_preliminary_qwen3827b_mod/",
-      "category": "chinese_ai",
+      "title": "Maximizing the Value of Your Claude Code Sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "category": "anthropic",
       "published": "2026-08-14",
-      "summary": "Preliminary Qwen3.8-27B model card is live — the countdown model's specs start surfacing ahead of release."
+      "summary": "Claude's official guide to getting more out of Claude Code sessions tops Hacker News — practical workflow tips for agentic coding."
     },
     {
-      "title": "LFM 2.5 2.6B Shines at Tool Use",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo4oxw/lfm_25_26b_is_the_best_small_model_for_tool_use_i/",
-      "category": "agents_tooling",
-      "published": "2026-08-14",
-      "summary": "Local AI-search builder calls LFM 2.5 2.6B the best small model for tool use — almost to spec with no additional training in a custom agent harness."
-    },
-    {
-      "title": "Qwen 3.8 Max Knows What Not to Build",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo3pmq/qwen_38_max_is_extremely_good_at_knowing_what_not/",
-      "category": "chinese_ai",
-      "published": "2026-08-14",
-      "summary": "Hands-on: Qwen 3.8 Max is fast, strong at planning, and unusually good at catching when a problem shouldn't be built at all."
-    },
-    {
-      "title": "How Organizations Use AI: Evidence from ChatGPT",
-      "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
-      "category": "ai_research",
-      "published": "2026-08-13",
-      "summary": "OpenAI paper analyzing real ChatGPT usage across organizations — top Hacker News story with insights into enterprise adoption."
-    },
-    {
-      "title": "Bluesky Introduces Protocol Services",
-      "url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
+      "title": "OpenAI's Computer History Turns Clicks and Keystrokes Into a Searchable Timeline",
+      "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
       "category": "platforms_integration",
       "published": "2026-08-14",
-      "summary": "Bluesky launches Protocol Services — a new infrastructure layer for the AT Protocol, expanding beyond the Bluesky app."
+      "summary": "Records clicks, keystrokes, and app switches on Mac into a searchable ChatGPT/Codex timeline. Stored locally as Markdown; not used for training."
+    },
+    {
+      "title": "Google Makes Private AI Practical With Homomorphic Encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "category": "ai_research",
+      "published": "2026-08-14",
+      "summary": "Google's HEIR compiler and encrypted-compute roadmap bring private AI within reach — 202 points and 127 comments on Hacker News."
+    },
+    {
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "category": "ai_models",
+      "published": "2026-08-14",
+      "summary": "Frontier models grow larger but small models dominate real-world usage. Qwen leads local inference; AI agents are now a major force on the Hub."
+    },
+    {
+      "title": "Hermes Desktop Now Connects to Hermes Cloud Agents",
+      "url": "https://x.com/NousResearch/status/2088395070059770061",
+      "category": "hermes_nous",
+      "published": "2026-08-14",
+      "summary": "Point Hermes Desktop at Hermes Cloud via Settings > Gateway for a persistent agent that keeps working after you close the laptop, reachable anywhere."
+    },
+    {
+      "title": "ChatGPT Desktop App Lands on Linux in Preview",
+      "url": "https://x.com/OpenAI/status/2087231350134980830",
+      "category": "platforms_integration",
+      "published": "2026-08-11",
+      "summary": "ChatGPT, ChatGPT Work, and Codex arrive on Linux in preview — projects and browser workflows for Linux developers."
+    },
+    {
+      "title": "bcherny on Adversarial Code Review With Claude",
+      "url": "https://x.com/bcherny/status/2087284684103537011",
+      "category": "agents_tooling",
+      "published": "2026-08-12",
+      "summary": "Anthropic's Boris Cherny: a one-line dynamic-workflow prompt ('adversarial test every edge case') or Claude's built-in /code-review catches bugs LLMs miss."
+    },
+    {
+      "title": "Garry Tan: One Person + 20 Agents Beats a Big-Tech Engineering Department",
+      "url": "https://x.com/garrytan/status/2088306577124262220",
+      "category": "agents_tooling",
+      "published": "2026-08-14",
+      "summary": "YC's Garry Tan argues one person running 20 parallel agents can outperform an entire department of engineers at a Magnificent 7 company."
+    },
+    {
+      "title": "Frontier ~30B Models: Muse Glimmer Held the Crown for Four Days",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vofnnf/muse_glimmer_was_frontier_in_the_model_class/",
+      "category": "ai_models",
+      "published": "2026-08-14",
+      "summary": "r/LocalLLaMA tracks the churn in the ~30B model class — Muse Glimmer led for four days before the next open release took over."
     }
   ]
 }
