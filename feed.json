@@ -1,78 +1,85 @@
 {
-  "updated_at": "2026-08-15T21:15:00+08:00",
+  "updated_at": "2026-08-16T08:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 10,
-  "tldr": "Evening batch, Aug 15: The price war escalates — OpenAI cut GPT-5.6 Luna ~80% and Anthropic priced Opus 5 at half of Fable 5 while DeepSeek and Z.ai overtook both in OpenRouter token usage. Security stories dominate: encrypted chain-of-thought blocks from all major labs get decoded (182 credentials exposed), the first US court sanctions a prompt-injection attempt in filings, and GPT-5.6-Cyber finds two real Chrome V8 zero-days. Anthropic is in talks to buy Decart AI for ~$6B ahead of its reported mega IPO, IBM launches an OpenAI Practice, HF's State of Open Models report shows small models still dominate real usage, and Qwen3.8 open weights go live Day-0 across the serving stack.",
+  "article_count": 11,
+  "tldr": "Morning batch, Aug 16: Anthropic's IPO will be priced off a $190-200B 2028 revenue forecast while Nvidia halves its OpenAI Ohio backstop to under $120B after investor pushback; the US tells 35 countries to pick a side in the AI race. DeepSeek V4's peak/off-peak API pricing goes live today at 16:00 UTC — cache-hit input up to 12x at peak, the sharpest squeeze hits agentic workloads. Hermes Agent's Bot Mode — persistent per-profile agent chats that talk to each other — ships in Desktop Monday Aug 17 after a one-day beta, and Dario Amodei re-frames Anthropic's regulatory stance around pre-deployment testing plus FINRA-like oversight that advantages open weights. Qwen3.8-27B spreads to LM Studio, MediaTek on-device and RTX Spark, then one-shots a Super Mario clone from a local Q8 GGUF; Kimi K3 text support lands in llama.cpp; Nous Portal pushes a guaranteed 20%-discount aggregator play.",
   "articles": [
     {
-      "title": "AI Books Flood Amazon: 20% of Self-Published Catalog, 12% of Sales",
-      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
-      "category": "policy",
-      "published": "2026-08-15",
-      "summary": "Study of 14,419 titles: AI books are 20% of Amazon's self-published catalog but only 12% of sales; human authors lost ground in 7 of 8 genres."
-    },
-    {
-      "title": "First US Court Sanctions Prompt-Injection Attempt in Legal Filings",
-      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-      "category": "policy",
-      "published": "2026-08-15",
-      "summary": "Connecticut plaintiff hid white-on-white AI instructions in filings; judge banned e-filing, ordered paper copies — first US case of its kind."
-    },
-    {
-      "title": "Encrypted Reasoning Blocks Decoded: 182 Credentials Exposed",
-      "url": "https://www.explainx.ai/blog/stealing-reasoning-traces-encrypted-cot-vulnerability-august-2026",
-      "category": "ai_research",
-      "published": "2026-08-15",
-      "summary": "Chain-of-thought 'encryption' cracked: 315K reasoning blocks decoded from public repos across OpenAI/Anthropic/Google, exposing 367 PII records and 182 credentials."
-    },
-    {
-      "title": "OpenAI and Anthropic Slash Prices as Chinese Models Take Token Crown",
-      "url": "https://www.techrepublic.com/article/news-openai-anthropic-cheaper-ai-models-open-weight-competition/",
+      "title": "Anthropic IPO Priced Off $190-200B 2028 Revenue Forecast",
+      "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
       "category": "industry",
       "published": "2026-08-15",
-      "summary": "OpenAI cut GPT-5.6 Luna ~80% and Anthropic priced Opus 5 at half of Fable 5, as DeepSeek and Z.ai overtook them in OpenRouter token usage."
+      "summary": "Bankers are valuing the listing on 2028 revenue, not today's: $190-200B against a $47B run rate. Q2 revenue $10.9B, first operating profit $559M."
     },
     {
-      "title": "GPT-5.6-Cyber Found Two Real Chrome V8 Zero-Days",
-      "url": "https://releasebot.io/updates/openai",
-      "category": "ai_models",
+      "title": "Nvidia Halves OpenAI Ohio Data-Center Backstop to Under $120B",
+      "url": "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3",
+      "category": "industry",
       "published": "2026-08-15",
-      "summary": "OpenAI's Daybreak Red model found two previously unknown Chrome V8 bugs; Google patched them as CVE-2026-15903."
+      "summary": "Investors balked at the risk: the $250B guarantee shrinks to <$120B, and a first-phase deal could sign this weekend."
     },
     {
-      "title": "HF State of Open Models: Small Models Still Dominate Real Usage",
-      "url": "https://x.com/huggingface/status/2088301795890044975",
-      "category": "ai_research",
+      "title": "US Tells 35 Countries to Pick a Side in the AI Race",
+      "url": "https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/",
+      "category": "policy",
       "published": "2026-08-14",
-      "summary": "HF: frontier models grow larger but small models dominate real usage; Qwen leads local inference, agents are a growing Hub force."
+      "summary": "Draft State Dept letter warns Pax Silica members they'll be excluded if they also join Beijing's WAICO. Kazakhstan, in both camps, is the test case."
     },
     {
-      "title": "Anthropic in Talks to Buy Decart AI for ~$6B",
-      "url": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/",
-      "category": "industry",
-      "published": "2026-08-13",
-      "summary": "Anthropic in talks to buy Nvidia-backed Decart AI for ~$6B — its largest known deal, adding chip-efficiency tech to inference ahead of a reported mega IPO."
+      "title": "DeepSeek V4 Peak/Off-Peak API Pricing Goes Live Today",
+      "url": "https://runtimewire.com/article/deepseek-v4-api-peak-off-peak-price-increase",
+      "category": "deepseek",
+      "published": "2026-08-16",
+      "summary": "16:00 UTC today: cache-hit input rises up to 12x at peak — the sharpest squeeze hits agentic workloads. V4-Pro output $0.87 → $1.98 off-peak / $3.96 peak."
     },
     {
-      "title": "IBM Launches OpenAI Practice, Embeds GPT-5.6 Into Consulting",
-      "url": "https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations",
-      "category": "platforms_integration",
-      "published": "2026-08-13",
-      "summary": "IBM embeds GPT-5.6, Codex and ChatGPT Work into Consulting Advantage and launches a dedicated OpenAI Practice with thousands of certified consultants."
-    },
-    {
-      "title": "Hermes Agent v0.20.1 Rolls Up ~656 Merged PRs",
-      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.13",
+      "title": "Hermes Agent Bot Mode Ships Monday in Desktop",
+      "url": "https://x.com/Teknium/status/2088488103380205907",
       "category": "hermes_nous",
-      "published": "2026-08-13",
-      "summary": "Patch release closes ~481 issues across 1,444 commits since v0.20.0 — a stabilization milestone ahead of the v0.21.0 feature release."
+      "published": "2026-08-15",
+      "summary": "Persistent per-profile agent 'bots' that talk to each other graduate from their one-day public beta into the main Hermes Desktop app Aug 17."
     },
     {
-      "title": "Qwen3.8 Open Weights Live Day-0 Across the Serving Stack",
-      "url": "https://x.com/Alibaba_Qwen/status/2088301611731009582",
+      "title": "Dario Amodei Re-Frames Anthropic's Regulatory Stance",
+      "url": "https://x.com/DarioAmodei/status/2088758816376807762",
+      "category": "policy",
+      "published": "2026-08-15",
+      "summary": "'Concentrate or distribute' is a false choice: policy should constrain frontier labs while advantaging open weights — pre-deployment testing plus a FINRA-like entity."
+    },
+    {
+      "title": "Qwen3.8-27B Live on LM Studio, MediaTek and RTX Spark",
+      "url": "https://x.com/Alibaba_Qwen/status/2088471287203246227",
       "category": "chinese_ai",
-      "published": "2026-08-14",
-      "summary": "2.4T-A95B live on Together AI (1M context) and DeepInfra; 27B on vLLM single-GPU; Max on SiliconFlow — the fastest open-weight distribution play yet."
+      "published": "2026-08-15",
+      "summary": "Within 24h of release: LM Studio local inference, MediaTek smartphones/vehicles on-device, NVIDIA RTX Spark — the fastest local-distribution play of any open model this year."
+    },
+    {
+      "title": "Nous Portal Positions as Discount Aggregator",
+      "url": "https://x.com/NousResearch/status/2088505146875527353",
+      "category": "hermes_nous",
+      "published": "2026-08-15",
+      "summary": "Hundreds of models, bundled external tool usage, guaranteed minimum 20% discount across providers — a pricing play on the model-gateway layer."
+    },
+    {
+      "title": "Kimi K3 Text Model Support Lands in llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp6haw/model_add_kimik3_text_model_by_pwilkin_pull/",
+      "category": "moonshot_ai",
+      "published": "2026-08-15",
+      "summary": "PR #26185 by pwilkin adds the Kimi-K3 text model to llama.cpp — local inference support for Moonshot's flagship arrives on the community stack."
+    },
+    {
+      "title": "Qwen3.8-27B One-Shots a Super Mario Clone From a Local Q8 GGUF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp438p/if_you_would_have_told_me_half_a_year_ago_that_a/",
+      "category": "chinese_ai",
+      "published": "2026-08-15",
+      "summary": "Running Q8 on a Framework Desktop: not fast, but smart enough to one-shot a Super Mario clone — a striking community datapoint for a 27B local model."
+    },
+    {
+      "title": "AI Isn't Outthinking Mathematicians — It's Out-Remembering Them",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "category": "ai_research",
+      "published": "2026-08-15",
+      "summary": "Top HN essay (302 pts, 260 comments): frontier models ace known problems by memorizing patterns at scale, not by genuinely new mathematical insight."
     }
   ]
 }
