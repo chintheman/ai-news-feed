@@ -1,43 +1,64 @@
 {
-  "updated_at": "2026-08-17T11:55:00+08:00",
+  "updated_at": "2026-08-17T13:16:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 5,
-  "tldr": "Midday batch, Aug 17: The big one — Stripe is closing in on a $7B+ deal to buy OpenRouter, a major consolidation play at the AI-infrastructure layer that would put one of the biggest model gateways inside a payments giant. Separately, two pieces land on the knowledge-vs-reasoning trade: an essay argues labs are deliberately shrinking world knowledge to buy reasoning skill (small models now hallucinate ~80% of facts), while top mathematicians tell The Decoder LLMs are strong calculators but poor creative thinkers. Qwen3.8 keeps dominating local-model talk: a custom engine hits 82 tps single-request on a 3090 with 195K context, and Simon Willison calls the 27B the most fun local model in ages — though it defaults to wildly overthinking. Most of the X-account news (DeepSeek V4-Pro, Qwen3.8 open weights, Hermes Agent updates, Anthropic Risk Report) was already covered in this morning's push.",
+  "article_count": 8,
+  "tldr": "Afternoon batch, Aug 17: Hermes Agent crossed 2,500 GitHub contributors over the weekend and Teknium teed up downloadable, role-specialized agent profiles. Anthropic published its EU AI Act watermarking FAQ for Claude — no output-quality impact, untraceable to individuals, with other major labs signed to the same Code of Practice. Qwen3.8 keeps expanding: official vLLM support brings 1M context to a single GPU, and a hybrid IQ4_XS quant targets the 16GB-VRAM crowd, while audio.cpp 0.6 landed five new audio-model families including MiniMax-H3 and Music3. On policy, a Higher Ed Dive investigation details the federal keyword lists that drove billions in research-funding cancellations; YC's Garry Tan argues one operator with 20 parallel agents can outproduce a big-tech engineering department.",
   "articles": [
     {
-      "title": "Stripe Clinches Over $7B Deal to Buy AI Firm OpenRouter",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+      "title": "Hermes Agent Crosses 2,500 GitHub Contributors",
+      "url": "https://x.com/Teknium/status/2089186056973562102",
+      "category": "hermes_nous",
+      "published": "2026-08-17",
+      "summary": "Hermes Agent passed 2,500 contributors over the weekend; Teknium flags a PR-review backlog from the surge."
+    },
+    {
+      "title": "Teknium Teases Downloadable Role-Specialized Agent Profiles",
+      "url": "https://x.com/Teknium/status/2089198760505327846",
+      "category": "hermes_nous",
+      "published": "2026-08-17",
+      "summary": "Roadmap: package-manager-style, downloadable Hermes agent profiles specialized for roles and jobs."
+    },
+    {
+      "title": "Anthropic Publishes EU AI Act Watermarking FAQ for Claude",
+      "url": "https://x.com/AnthropicAI/status/2088343978873966687",
+      "category": "anthropic",
+      "published": "2026-08-16",
+      "summary": "Watermarking Claude outputs: no quality impact, no extra tokens, untraceable to individuals; other labs signed the same Code of Practice."
+    },
+    {
+      "title": "The Federal Keyword Lists That Canceled Billions in Research Funding",
+      "url": "https://www.highereddive.com/news/inside-the-federal-keyword-lists-that-canceled-billions-in-research-funding/826203/",
+      "category": "policy",
+      "published": "2026-08-17",
+      "summary": "Investigation into the federal keyword lists — including AI-related terms — that drove billions in research-grant cancellations."
+    },
+    {
+      "title": "Qwen3.8-27B Hybrid IQ4_XS Quantization Targets 16GB Cards",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpzhws/qwen3827b_hybrid_iq4_xs_quantization_for_16gb_gang/",
+      "category": "chinese_ai",
+      "published": "2026-08-16",
+      "summary": "Hybrid IQ4_XS quant of Qwen3.8-27B aims to bring the model's quality to 16GB-VRAM setups."
+    },
+    {
+      "title": "audio.cpp 0.6: dots.tts, MiniMax-H3, MiniMax-Music3 and More",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqasuk/audiocpp_release_06_dotstts_minimaxh3_text2audio/",
+      "category": "platforms_integration",
+      "published": "2026-08-16",
+      "summary": "audio.cpp 0.6 adds five model families — dots.tts, NeuTTS-2e, MuScriptor, MiniMax-H3 (3x realtime), MiniMax-Music3 — 49 models total."
+    },
+    {
+      "title": "Qwen3.8-27B Gets Official vLLM Integration for 1M Context on One GPU",
+      "url": "https://x.com/Alibaba_Qwen/status/2088292188505755728",
+      "category": "chinese_ai",
+      "published": "2026-08-16",
+      "summary": "Official vLLM support brings Qwen3.8-27B's 1M-token context to single-GPU local inference."
+    },
+    {
+      "title": "Garry Tan: One Person + 20 Agents Beats an Engineering Department",
+      "url": "https://x.com/garrytan/status/2088306577124262220",
       "category": "industry",
       "published": "2026-08-16",
-      "summary": "Stripe is closing a $7B+ deal for OpenRouter, putting the biggest multi-model AI gateway under a payments giant."
-    },
-    {
-      "title": "Models Are Getting Dumber on Purpose",
-      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-      "category": "ai_research",
-      "published": "2026-08-17",
-      "summary": "Essay argues labs deliberately trade world knowledge for reasoning: small models ace math/code but hallucinate ~80% of factual recall."
-    },
-    {
-      "title": "Top Mathematicians: LLMs Are Strong Calculators But Poor Creative Thinkers",
-      "url": "https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/",
-      "category": "ai_research",
-      "published": "2026-08-16",
-      "summary": "Leading mathematicians say LLMs excel at calculation but fall short on creative, open-ended math thinking."
-    },
-    {
-      "title": "Qwen3.8-27B on RTX 3090 — 82 tps Single Request, Up to 672 tps Peak",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq6fdj/qwen3827b_on_rtx_3090_82_tps_single_request_up_to/",
-      "category": "chinese_ai",
-      "published": "2026-08-16",
-      "summary": "Custom inference engine claims 82 tps single-request / 417 tps at 64 concurrent for Qwen3.8-27B on a 250W-capped RTX 3090, with up to 195K context."
-    },
-    {
-      "title": "Simon Willison: Qwen 3.8 27B Is Excellent, But Defaults to Wildly Overthinking",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqaqgn/simon_willison_qwen_38_27b_is_excellent_but_it/",
-      "category": "chinese_ai",
-      "published": "2026-08-16",
-      "summary": "Simon Willison calls Qwen3.8 27B the most fun local model in a long time — excellent quality, but it defaults to overthinking even simple requests."
+      "summary": "YC president doubles down on the solo-operator-plus-agents thesis as team multipliers go mainstream."
     }
   ]
 }
