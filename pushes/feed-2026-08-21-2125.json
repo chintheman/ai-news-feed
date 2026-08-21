@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-08-21T21:25:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 15,
+  "tldr": "Evening batch, Aug 21: DeepSeek went multimodal — V4-Flash-Vision-Exp matches V4-Flash on text and approaches Opus-4.8 on multimodal agent benchmarks, bundled with a free Files API (upload once, reuse by file_id) and Harness 0.1.1 support. Nvidia paid $6B for Poolside's Model Factory and 109 employees, OpenAI credits GPT-5.6 Sol for a 35% revenue surge, and Meta became one of Microsoft's biggest AI customers (hundreds of millions). Tooling: Ox Alpha landed in Hermes Agent via opencode/OpenRouter, Hermes shipped blank-slate mode with zero MCPs by default, and a Codex-on-Bedrock bug surfaced 10x token charges. China ecosystem: Qwen3.8-Max (2.4T, 1M ctx) hit Modal, a Blackwell-native NVFP4 quant of Qwen3.8-27B runs 50% faster than Q4, and Waymo built its own robotaxi chip to cut Nvidia reliance.",
+  "articles": [
+    {
+      "title": "DeepSeek-V4-Flash-Vision-Exp: Multimodal Model Nears Opus-4.8 on Agent Benchmarks",
+      "url": "https://x.com/deepseek_ai/status/2090730032574631962",
+      "category": "deepseek",
+      "published": "2026-08-21",
+      "summary": "DeepSeek's first multimodal model matches V4-Flash on text and nears Opus-4.8 on multimodal agent benchmarks; DeepSeek Harness 0.1.1 adds support."
+    },
+    {
+      "title": "DeepSeek Launches Free Files API — Upload Once, Reuse by file_id",
+      "url": "https://x.com/deepseek_ai/status/2090730039973392531",
+      "category": "deepseek",
+      "published": "2026-08-21",
+      "summary": "Free Files API: upload an image once, reference it by file_id across requests — cuts multimodal bandwidth. Works with deepseek-v4-flash-vision-exp."
+    },
+    {
+      "title": "Nvidia Acquires Poolside's Model Factory and 109 Employees for $6B",
+      "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
+      "category": "industry",
+      "published": "2026-08-21",
+      "summary": "Nvidia is paying $6 billion for Poolside's software that builds AI models, plus 109 employees — a major bet on owning the model-training stack."
+    },
+    {
+      "title": "GPT-5.6 Sol Drives OpenAI's Revenue Surge — Up 35% This Quarter",
+      "url": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/",
+      "category": "industry",
+      "published": "2026-08-21",
+      "summary": "Since GPT-5.6 Sol launched in early July, OpenAI revenue is up 35% (enterprise +50%); Ramp shows OpenAI outpacing Anthropic in business API spend."
+    },
+    {
+      "title": "Meta Spends Hundreds of Millions on Microsoft's AI Services",
+      "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/",
+      "category": "industry",
+      "published": "2026-08-21",
+      "summary": "Meta has become one of Microsoft's biggest AI customers, according to Bloomberg — hundreds of millions in AI services spend."
+    },
+    {
+      "title": "Waymo Builds Its Own Robotaxi Chip, Cutting Reliance on Nvidia",
+      "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
+      "category": "industry",
+      "published": "2026-08-21",
+      "summary": "Waymo designed its own chip for its robotaxi fleet to reduce dependence on Nvidia silicon — in-house compute for autonomous driving."
+    },
+    {
+      "title": "GPT-Image-2 Can Now Generate Transparent-Background Images",
+      "url": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/",
+      "category": "ai_models",
+      "published": "2026-08-21",
+      "summary": "OpenAI previews transparent-background support in GPT-Image-2 via API — alpha baked in at generation, beating conventional background removal."
+    },
+    {
+      "title": "Ox Alpha Model Now Available in Hermes Agent via opencode and OpenRouter",
+      "url": "https://x.com/Teknium/status/2090674052058984513",
+      "category": "hermes_nous",
+      "published": "2026-08-21",
+      "summary": "The stealth Ox Alpha model lands in Hermes Agent through @opencode and @OpenRouter — a new frontier option for Hermes users."
+    },
+    {
+      "title": "Hermes Agent Ships Blank-Slate Mode — No MCPs by Default",
+      "url": "https://x.com/Teknium/status/2090749469805703541",
+      "category": "hermes_nous",
+      "published": "2026-08-21",
+      "summary": "Hermes defaults to zero MCPs and offers blank-slate mode (no skills, core tools only) — a privacy-by-default agent configuration."
+    },
+    {
+      "title": "Codex on AWS Bedrock Bug Causes 10x Token Charges",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "category": "platforms_integration",
+      "published": "2026-08-21",
+      "summary": "OpenAI Codex on AWS Bedrock is inflating bills ~10x; the GitHub issue drew a 126-point HN thread with 38 comments."
+    },
+    {
+      "title": "Vomit: Clean Up Claude 5's Token Output with a Separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "category": "agents_tooling",
+      "published": "2026-08-20",
+      "summary": "A 256-point HN hit: a tool that uses a separate LLM to clean up Claude 5's verbose token output."
+    },
+    {
+      "title": "Qwen3.8-Max (2.4T, 1M Context) Lands on Modal; 27B Optimized by Unsloth",
+      "url": "https://x.com/Alibaba_Qwen/status/2090289279037821023",
+      "category": "chinese_ai",
+      "published": "2026-08-20",
+      "summary": "Qwen3.8-Max (2.4T params, 1M context) hits Modal; Unsloth-optimized Qwen3.8-27B runs frontier dense inference on a single RTX 5090."
+    },
+    {
+      "title": "Fastest NVFP4 Quant of Qwen3.8-27B — 50% Faster than Q4 at Same Footprint",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vub9od/fastest_nvfp4_quant_of_qwen38_27b_out_there/",
+      "category": "chinese_ai",
+      "published": "2026-08-21",
+      "summary": "Blackwell-native NVFP4 quant of Qwen3.8-27B: 50% faster than Q4 at same footprint, 4-7% faster than other NVFP4 quants on RTX 5090."
+    },
+    {
+      "title": "When 9 of the Top 12 Models Are Just Exactly One",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vud6va/when_9_of_top_12_models_are_just_exactly_one/",
+      "category": "ai_models",
+      "published": "2026-08-21",
+      "summary": "r/LocalLLaMA flags that 9 of the top 12 models on a leaderboard are the same model under different names — open-rank consolidation debate."
+    },
+    {
+      "title": "Fork of Continue Stripped Down to Pure Tab-Completion — Any Model, No Subscription",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vubpn4/i_got_fed_up_with_lockeddown_autocomplete_so_i/",
+      "category": "agents_tooling",
+      "published": "2026-08-21",
+      "summary": "Fed up with locked-down autocomplete, a dev forked Continue and stripped it to ghost-text tab completion: any model, no subscription, no telemetry."
+    }
+  ]
+}
