@@ -1,85 +1,169 @@
 {
-  "updated_at": "2026-08-23T13:18:21+08:00",
+  "updated_at": "2026-08-23T21:18:31+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 11,
-  "tldr": "Midday batch, Aug 23 — MCP publishes its official roadmap with five priority areas (agentic messaging primitives, Streamable HTTP over stdio, agent identity via DPoP + Workload Identity Federation, one tool-result contract, and progressive discovery so 100-tool servers stop taxing the model up front). Manus's Meta-acquisition unwind hits its data-deletion window (Aug 23-24 SGT) with restore opening Tue Aug 25. r/LocalLLaMA keeps stretching local agents: a homelab doubles to 36 DGX Sparks / 4.6TB unified memory, and threads debate whether recursive sub-agents can make 64K feel like 300K — plus the best harnesses for long autonomous runs. From X: Anthropic's Boris Cherny confirms Mythos-class enterprise data ownership (zero Anthropic retention, ships this fall), details Claude Code remote-control security (device trust + prompt-injection protection), and shares Opus profiler-driven hill-climbing as an optimization workflow; Nous/Teknium push Hermes Agent's sovereignty story and a version-based signed-desktop-installer roadmap; Garry Tan calls to legalize building societal infrastructure in the data-center buildout debate.",
+  "article_count": 23,
+  "tldr": "Evening batch, Aug 23 — The agent-token economy flexes: agents now out-consume humans on OpenRouter (agentic usage up 14x vs 2.8x human), while OpenAI cuts GPT-5.6 Sol API pricing >20% for 3 months. DeepSeek ships V4-Flash-Vision-Exp (multimodal agent performance near Opus-4.8) with a free Files API, and Qwen keeps the open-weight momentum with Unsloth fine-tuning plus NVFP4/DFlash2 SGLang recipes for Qwen3.8-27B. Nvidia's memory-shortage price hikes (~15%) land alongside a $6B Poolside license + 109 staff to fuel Nemotron, and China's gray market resells Claude tokens at ~10% of list via credit farming and model swapping. Local LLMs keep scaling: Kimi K3 self-hosted on 8x B300 at 92 tok/s, a NanoGPT speedrun frontier, and Qwen3.8-27B quant data. Hermes Agent pushes open-everywhere: no MCPs by default, blank-slate mode, Ox Alpha integration, and Hermes Cloud at a few dollars a month.",
   "articles": [
     {
-      "title": "MCP Publishes Its Official Roadmap — Five Priority Areas",
-      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
-      "category": "agents_tooling",
-      "published": "2026-08-22",
-      "summary": "Agentic messaging primitives, Streamable HTTP over stdio, agent identity via DPoP, one tool-result contract, progressive discovery so 100-tool servers stop taxing the model up front. HN hit (176 pts)."
+      "title": "OpenAI Cuts GPT-5.6 Sol API Pricing >20% for 3 Months",
+      "url": "https://x.com/OpenAI/status/2090885187634905500",
+      "category": "ai_models",
+      "published": "2026-08-21",
+      "summary": "API and credit pricing of GPT-5.6 Sol drop over 20% for the next 3 months, rolling to ChatGPT Work + Codex credits; subscriptions unchanged. Cheaper frontier access for builders."
     },
     {
-      "title": "Manus Data Deletion Window Is Live — Restore Opens Aug 25",
-      "url": "https://explainx.ai/blog/manus-meta-separation-data-deletion-backup-guide-august-2026",
+      "title": "DeepSeek Ships V4-Flash-Vision-Exp — Multimodal Near Opus-4.8 on Agent Benchmarks",
+      "url": "https://x.com/deepseek_ai/status/2090730032574631962",
+      "category": "deepseek",
+      "published": "2026-08-21",
+      "summary": "Experimental multimodal model matches V4-Flash on text (agents, reasoning, knowledge) and leaps to near Opus-4.8 on multimodal agent benchmarks. Harness 0.1.1 included."
+    },
+    {
+      "title": "DeepSeek Launches Free Files API With Cheap Image Tokenization",
+      "url": "https://x.com/deepseek_ai/status/2090730042586489333",
+      "category": "deepseek",
+      "published": "2026-08-21",
+      "summary": "Upload an image once, reference by file_id across requests. Images tokenized at up to 384 tokens each at V4-Flash pricing — lowers cost of image-heavy agent pipelines."
+    },
+    {
+      "title": "OpenAI Computer History Arrives on Mac App for EEA/UK/CH Paid Tiers",
+      "url": "https://x.com/OpenAI/status/2090488285198250017",
+      "category": "platforms_integration",
+      "published": "2026-08-20",
+      "summary": "Session-recall for desktop agents lands for Pro/Business/Enterprise in EEA, UK and Switzerland — the EU data-sovereignty version of the feature."
+    },
+    {
+      "title": "Qwen3.8-27B Gets Official Unsloth Fine-Tuning Support",
+      "url": "https://x.com/Alibaba_Qwen/status/2090289279037821023",
+      "category": "chinese_ai",
+      "published": "2026-08-20",
+      "summary": "Alibaba's compact Qwen flagship now has a first-party community fine-tune path via Unsloth."
+    },
+    {
+      "title": "Qwen3.8-27B NVFP4 + DFlash2 Recipes Land in SGLang Cookbook",
+      "url": "https://x.com/Alibaba_Qwen/status/2090709994761339190",
+      "category": "chinese_ai",
+      "published": "2026-08-21",
+      "summary": "Official NVFP4 + DFlash2 inference recipes for Qwen3.8-27B — a cheaper and faster self-hosted serving path for the open-weight model."
+    },
+    {
+      "title": "Hermes Agent: Use It Anywhere, Modify It, Ask It to Modify Itself",
+      "url": "https://x.com/NousResearch/status/2090487438435041549",
+      "category": "hermes_nous",
+      "published": "2026-08-20",
+      "summary": "Nous positions Hermes Agent as fully open and self-modifying — runs on a Mac Studio, a $35 SBC, Docker, or Hermes Cloud. Sovereignty + flexibility as the differentiator."
+    },
+    {
+      "title": "Hermes Cloud Pitched at 'A Few Dollars a Month' vs $200",
+      "url": "https://x.com/NousResearch/status/2090432358969196548",
+      "category": "hermes_nous",
+      "published": "2026-08-20",
+      "summary": "Hermes Agent's remote compute option prices at a few $/month versus premium agent-cloud offerings — a direct price attack on locked-in $200 tiers."
+    },
+    {
+      "title": "Ox Alpha Now Available in Hermes Agent via OpenCode + OpenRouter",
+      "url": "https://x.com/Teknium/status/2090674052058984513",
+      "category": "hermes_nous",
+      "published": "2026-08-21",
+      "summary": "Teknium's new Ox Alpha model integrates into the Hermes Agent stack through OpenCode and OpenRouter — model availability expands."
+    },
+    {
+      "title": "Hermes Agent: No MCPs by Default, Blank-Slate Mode Available",
+      "url": "https://x.com/Teknium/status/2090749469805703541",
+      "category": "hermes_nous",
+      "published": "2026-08-21",
+      "summary": "Zero MCPs enabled out of the box; blank-slate mode starts with no skills and only core tools — privacy/security-first default posture for the agent runtime."
+    },
+    {
+      "title": "AI Is Now AI's Biggest Customer — Agent Token Use Up 14x on OpenRouter",
+      "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+      "category": "agents_tooling",
+      "published": "2026-08-23",
+      "summary": "Agents have out-consumed humans on OpenRouter since Feb 6 2025; agentic usage up 14x vs 2.8x human. ~70% of agent tokens are cheap cached prompts, so costs rise slower."
+    },
+    {
+      "title": "Nvidia AI Server Prices to Jump ~15% on Memory Shortage",
+      "url": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
+      "category": "industry",
+      "published": "2026-08-23",
+      "summary": "Bloomberg: DRAM price hikes from Samsung, SK Hynix, Micron push up Vera Rubin and Grace Blackwell systems shipping early next year; contract makers have told Microsoft, Google, Oracle."
+    },
+    {
+      "title": "Nvidia Pays Poolside $6B to License Its Model Factory, Hires 109 Staff",
+      "url": "https://thenextweb.com/news/nvidia-poolside-6bn-model-factory-licence",
+      "category": "industry",
+      "published": "2026-08-23",
+      "summary": "Third 'license + talent, not acquisition' deal: $6B non-exclusive license, $1B investment at $12B pre-money, founders stay, Poolside independent. Fuels Nemotron against DeepSeek and Kimi."
+    },
+    {
+      "title": "China's Gray Market Sells Claude Tokens at ~10% of List Price",
+      "url": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
+      "category": "anthropic",
+      "published": "2026-08-23",
+      "summary": "Oxford China Policy Lab: 'transfer stations' proxy Anthropic's API past geoblocking, card checks and KYC. 70-90% discounts via credit farming, Max-plan splitting, and model swapping."
+    },
+    {
+      "title": "Kimi K3 Self-Hosted: 8x B300, 92 tok/s, $190/M Output Tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw1j2p/i_hosted_kimi_k3_28t_parameters_using_8_b300s_92/",
+      "category": "moonshot_ai",
+      "published": "2026-08-23",
+      "summary": "2.8T-param model served on Modal via vLLM with native MXFP4 — ~1s TTFT, ~$36 per clean run. A one-man frontier-inference setup."
+    },
+    {
+      "title": "NanoGPT Speedrun Frontier",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "category": "ai_research",
+      "published": "2026-08-22",
+      "summary": "Prime Intellect's speedrun research pushes how fast and cheaply a GPT-class model can be trained. HN hit (113 pts)."
+    },
+    {
+      "title": "Qwen3.8-27B KLDs — First-Time Poster Compares Quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw2ayp/qwen3827b_klds/",
+      "category": "chinese_ai",
+      "published": "2026-08-23",
+      "summary": "r/LocalLLaMA quant comparison of Qwen3.8-27B using KL divergence — community data on how much each quant loses vs the original."
+    },
+    {
+      "title": "GMKtec to Launch Ryzen AI Max+ PRO 495 Hardware at IFA Berlin 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw55zn/gmktec_is_going_to_launch_new_hardware_with_ryzen/",
       "category": "platforms_integration",
       "published": "2026-08-23",
-      "summary": "Manus's Meta-acquisition unwind deletes data from Dec 29 2025 onward Aug 23-24 SGT; backup window closed, restore opens Tue 08:00 SGT. Apple/Facebook signups get no email — check in-app."
+      "summary": "Next-gen AI mini-PC teased for IFA Sep 4-8 — more local-LLM horsepower in the small-form-factor space."
     },
     {
-      "title": "One Homelab, 36 DGX Sparks, 4.6TB Unified Memory",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvv7iv/the_all_spark_cluster_upgrading_from_16_36_dgx/",
-      "category": "ai_models",
+      "title": "DeepSeek Harness Is 'Insanely Good' — Community Take",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw10m3/deepseek_harness_is_insanely_good/",
+      "category": "deepseek",
       "published": "2026-08-23",
-      "summary": "r/LocalLLaMA's All-Spark rack doubles from 16 to 36 DGX Sparks on 24x200Gb QSFP56 + 8x400Gb switching — a one-man frontier-inference cluster."
+      "summary": "r/LocalLLaMA thread on DeepSeek Harness 0.1.1 — agents, reasoning and world knowledge in an easy local harness."
     },
     {
-      "title": "Can Recursive Sub-Agents Make 64K Feel Like 300K?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvt3c4/has_anyone_actually_made_64k_feel_like_300k_with/",
-      "category": "agents_tooling",
+      "title": "Study: AI Could Make Scientists Do More Work, Less Well",
+      "url": "https://the-decoder.com/ai-could-make-scientists-do-more-wor",
+      "category": "ai_research",
       "published": "2026-08-23",
-      "summary": "r/LocalLLaMA thread: one model stays loaded with a 64K main agent; when context overflows it spawns fresh-context sub-agents — does recursion actually match a 300K window?"
+      "summary": "New research argues AI boosts scientist throughput but may degrade the quality of scientific work — a counterpoint to the productivity narrative."
     },
     {
-      "title": "Best Harness for Long Autonomous Tasks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvsgsp/best_harness_for_long_autonomous_tasks/",
-      "category": "agents_tooling",
+      "title": "Qwen3.8-27B — One Week Later: Community Verdict",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama_rlocalllm/",
+      "category": "chinese_ai",
       "published": "2026-08-23",
-      "summary": "After 'Qwen 3.8 27B one-shotted a 3D game in 24 hours' posts, the community hunts harnesses with auto-compaction, memory, computer use, and self-analysis for multi-day runs."
+      "summary": "r/LocalLLaMA + r/LocalLLM roundup of how Qwen3.8-27B holds up in real use a week after release — strengths, weaknesses, deployment tips."
     },
     {
-      "title": "Nous Ties Hermes Agent to the Open-Source Sovereignty Story",
-      "url": "https://x.com/NousResearch/status/2091293710877175964",
-      "category": "hermes_nous",
-      "published": "2026-08-22",
-      "summary": "As people rediscover open-source harnesses and controlling their own stack, Nous points to Hermes Agent as the self-hosted option in the sovereignty narrative."
+      "title": "A Week of Using Codex More Than Claude",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more",
+      "category": "platforms_integration",
+      "published": "2026-08-21",
+      "summary": "Hands-on developer writeup comparing a Codex-heavy week against Claude-heavy workflows — practical signal on agentic coding tooling trade-offs."
     },
     {
-      "title": "Hermes Agent Desktop Moving to Version-Based Signed Installs",
-      "url": "https://x.com/Teknium/status/2091348304143794305",
-      "category": "hermes_nous",
-      "published": "2026-08-22",
-      "summary": "Teknium: version-pinned releases with signed compiled binaries — more stable, faster, auditable desktop installs/updates. CLI stays pinned to main."
-    },
-    {
-      "title": "Mythos-Class Models: Customer-Owned Data, Zero Anthropic Retention",
-      "url": "https://x.com/bcherny/status/2090537902912815536",
-      "category": "anthropic",
-      "published": "2026-08-20",
-      "summary": "Boris Cherny confirms Mythos-class enterprise data control: customers own their data, Anthropic retains none — for enterprise privacy/compliance rules, coming this fall."
-    },
-    {
-      "title": "Claude Code Remote Control Security: Device Trust + Prompt-Injection Protection",
-      "url": "https://x.com/bcherny/status/2091299496454135980",
-      "category": "anthropic",
-      "published": "2026-08-22",
-      "summary": "Starting laptop sessions from your phone made secure by default — device trust/verification plus prompt-injection protection. More updates coming."
-    },
-    {
-      "title": "Anthropic Uses Opus for Profiler-Driven Hill-Climbing",
-      "url": "https://x.com/bcherny/status/2091308045284585724",
-      "category": "agents_tooling",
-      "published": "2026-08-22",
-      "summary": "Boris Cherny's proven pattern: 'iterate on X with a profiler and dataset until it hits Y' — Opus optimizes CPU/memory, CI times, frame rates, and latency."
-    },
-    {
-      "title": "Garry Tan: Legalize Building Societal Infrastructure",
-      "url": "https://x.com/garrytan/status/2090778439943131275",
+      "title": "Texas Student Blew the Whistle on a Rogue AI Hacking Attempt",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle",
       "category": "policy",
       "published": "2026-08-21",
-      "summary": "YC's Garry Tan calls to legalize building societal infrastructure, weighing in on the AI data-center buildout debate."
+      "summary": "Reuters: a student's report exposed an attempted AI-driven intrusion — a case study in how AI abuse surfaces and gets stopped in the wild."
     }
   ]
 }
