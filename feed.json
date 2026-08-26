@@ -1,57 +1,113 @@
 {
-  "updated_at": "2026-08-26T13:17:00+08:00",
+  "updated_at": "2026-08-26T21:20:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 7,
-  "tldr": "Midday batch, Aug 26 — Open-weight week keeps rolling: Thomson Reuters open-weights Thomson-1.0-Small, its first in-house legal/tax LLM (continual learning on a Qwen3.6-35B-A3B base with Westlaw data, debuting in CoCounsel Legal), while Qwen3.8-27B claims #9 on Code Arena as the only sub-30B model in the top 10 and a new NVFP4 quantization (QUASAR QAD) pushes 4-bit quality toward full precision. Research: Apodex 1.1 (scaling agentic intelligence, HF paper of the day) and extrapolative video world models via latent dynamics reasoning. Hermes: Teknium details his --worktree --yolo parallel dev workflow. Local-AI economics: a Mac Studio M5 Max cost thread puts DeepSeek V4 Flash at ~100B tokens per $10k of hardware.",
+  "article_count": 15,
+  "tldr": "Evening batch (Aug 26): Z.AI confirms the Ox Alpha stealth model is GLM-5.3-Flash (multimodal, 1M-token context, DeepSWE ~63%) and plans to drop weights tonight — same day Qwen3.8-Flash-Next's release-day megathread opens, a huge night for Chinese open weights. Moonshot AI is negotiating revenue-share hosting with Microsoft, Amazon and Google, a first for a Chinese LLM on US clouds. Hermes Agent ships version-only signed desktop builds plus a /review auxiliary-model subagent; Anthropic's Boris Cherny reveals Claude Code outputStyle=concise, self-maintained apps, and a solvable prompt-injection thesis; Pichai predicts universal modality conversion within 3 years; Bill Gates warns the industry is hiding AI's dangers.",
   "articles": [
     {
-      "title": "Thomson Reuters Open-Weights Thomson-1.0-Small, a Legal/Tax LLM",
-      "url": "https://huggingface.co/thomsonreuters/Thomson-1.0-Small",
+      "title": "Z.AI Confirms Ox Alpha Stealth Model Is GLM-5.3-Flash — Weights Dropping Tonight",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyp1l9/first_serious_confirmation_ox_alpha_is_glm53flash/",
+      "category": "chinese_ai",
+      "published": "2026-08-26",
+      "summary": "Bloomberg-confirmed: Z.AI's Ox Alpha is the new GLM-5.3-Flash — multimodal, 1M-token context, DeepSWE ~63% — with weights to be released tonight."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next Release Day — Megathread Opens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyq2v4/megathread_qwen38flashnext_release_day/",
+      "category": "chinese_ai",
+      "published": "2026-08-26",
+      "summary": "Community megathread as Qwen3.8-Flash-Next lands — the Qwen4-architecture-preview MoE (125B+51B, ~82GB 4-bit) tracking quants, benchmarks and inference support."
+    },
+    {
+      "title": "Chinese Moonshot AI Negotiates Hosting Deals with Microsoft, Amazon, and Google",
+      "url": "https://the-decoder.com/chinese-moonshot-ai-negotiates-hosting-deals-with-microsoft-amazon-and-google/",
+      "category": "moonshot_ai",
+      "published": "2026-08-26",
+      "summary": "Moonshot AI could become the first Chinese LLM on major US clouds via revenue-share hosting deals — a major cross-border milestone for Chinese AI."
+    },
+    {
+      "title": "Bill Gates Warns AI Is More Dangerous Than the Tech Industry Will Admit",
+      "url": "https://the-decoder.com/bill-gates-warns-ai-is-more-dangerous-than-the-tech-industry-will-admit/",
+      "category": "policy",
+      "published": "2026-08-26",
+      "summary": "Gates warns on mass unemployment and easier bioterrorism, accuses his own industry of hiding risks ('bad for the next trillion we're trying to raise'), rejects self-regulation."
+    },
+    {
+      "title": "Hermes Desktop Moving to Version-Only Signed Binary Installs",
+      "url": "https://x.com/Teknium/status/2091348304143794305",
+      "category": "hermes_nous",
+      "published": "2026-08-23",
+      "summary": "Hermes Desktop shifts to version-only, signed compiled-binary installs/updates for stability and speed; CLI stays pinned to main."
+    },
+    {
+      "title": "Hermes /review Now Supports a Configurable Auxiliary Review Model",
+      "url": "https://x.com/Teknium/status/2091686997228478653",
+      "category": "hermes_nous",
+      "published": "2026-08-24",
+      "summary": "Hermes /review sends the last 10 messages + your prompt to a subagent running your chosen auxiliary model, then reports its review back to the main agent."
+    },
+    {
+      "title": "Chinese Open Models Now Lead AI Research Mentions",
+      "url": "https://x.com/Alibaba_Qwen/status/2092090931776545001",
+      "category": "chinese_ai",
+      "published": "2026-08-25",
+      "summary": "Nathan Lambert's Codex analysis: ~40% of AI papers mention a Chinese open LLM vs 25-30% an American one; Qwen appears in 1/3 of papers mentioning any LLM."
+    },
+    {
+      "title": "Garry Tan: Systems of Record Must Become AI Harnesses or Face Replacement",
+      "url": "https://x.com/garrytan/status/2091742825042030681",
+      "category": "industry",
+      "published": "2026-08-24",
+      "summary": "YC's Garry Tan predicts software companies must build the AI harness around their deterministic APIs/ACLs/SQL — or be subsumed by agents."
+    },
+    {
+      "title": "Anthropic's Cherny: Prompt Injection Is Solvable — It Just Took Years",
+      "url": "https://x.com/bcherny/status/2091690757480735000",
+      "category": "ai_research",
+      "published": "2026-08-24",
+      "summary": "Boris Cherny: prompt injection yields to alignment training + mechanistic interpretability — 'a solvable problem' proven out over years of research."
+    },
+    {
+      "title": "Claude Code Ships outputStyle=concise as Opus Verbosity Stopgap",
+      "url": "https://x.com/bcherny/status/2091591570982371454",
+      "category": "anthropic",
+      "published": "2026-08-23",
+      "summary": "Anthropic ships claude /config outputStyle=concise as an immediate band-aid for Opus verbosity; the longer-term fix is a team priority."
+    },
+    {
+      "title": "Anthropic Is Now Automatically Maintaining Its Own Apps with Agents",
+      "url": "https://x.com/bcherny/status/2091636827727986748",
+      "category": "anthropic",
+      "published": "2026-08-23",
+      "summary": "Cherny: Anthropic's engineering teams auto-maintain their apps with coding agents today — and a quickly increasing number of customers are doing the same."
+    },
+    {
+      "title": "Pichai: Universal Modality Conversion Within 3 Years — Creators Supply Ideas, Consumers Choose Format",
+      "url": "https://x.com/rowancheung/status/2092276652944593257",
+      "category": "industry",
+      "published": "2026-08-25",
+      "summary": "Sundar Pichai: 'any content from any modality to any modality' in 3 years — volume stops being an advantage, YouTube's policies target slop not AI."
+    },
+    {
+      "title": "loveholidays Makes Everyone a Builder with OpenAI Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "category": "platforms_integration",
+      "published": "2026-08-26",
+      "summary": "OpenAI case study: travel company loveholidays uses Codex to make software development accessible across the whole business, not just engineers."
+    },
+    {
+      "title": "C2PA Cameras Do Not Survive Contact with Reality",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+      "category": "policy",
+      "published": "2026-08-25",
+      "summary": "Top HN post: Android C2PA provenance implementation fails real-world checks — content-authenticity tooling still isn't fit for purpose despite industry push."
+    },
+    {
+      "title": "Open-Source Kernel Hits 78K Tokens/s for Qwen3.6-35B-A3B on AMD MI350X",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vymha8/open_source_kernel_in_qwen3635ba3b_for_amd_mi350x/",
       "category": "ai_models",
       "published": "2026-08-26",
-      "summary": "TR's first in-house legal/tax LLM — continual learning on Qwen3.6-35B-A3B with Westlaw data; open-weight (non-commercial), debuts in CoCounsel Legal."
-    },
-    {
-      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
-      "url": "https://huggingface.co/papers/2608.23283",
-      "category": "ai_research",
-      "published": "2026-08-25",
-      "summary": "HF paper of the day — trains agents to coordinate long-horizon tasks via a shared execution harness; 35B Mini stays locally deployable."
-    },
-    {
-      "title": "Qwen3.8-27B Hits #9 on Code Arena — Only Sub-30B Model in Top 10",
-      "url": "https://x.com/Alibaba_Qwen/status/2092090827690610914",
-      "category": "chinese_ai",
-      "published": "2026-08-25",
-      "summary": "Alibaba's 27B open-weight model cracks the Code Arena top 10, punching well above its size class on coding benchmarks."
-    },
-    {
-      "title": "Fully Quantized NVFP4 Qwen3.8-27B with QUASAR QAD",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyie86/fully_quantized_nvfp4_qwen3827b_with_quasar_qad/",
-      "category": "chinese_ai",
-      "published": "2026-08-26",
-      "summary": "Quantization-aware distillation (QUASAR QAD) ships an NVFP4 Qwen3.8-27B — 4-bit quality approaching full precision, distilled 2,446 steps from BF16."
-    },
-    {
-      "title": "Extrapolative Video World Models via Latent Dynamics Reasoning",
-      "url": "https://huggingface.co/papers/2608.09926",
-      "category": "ai_research",
-      "published": "2026-08-25",
-      "summary": "New paper on learning how the world evolves — video world models that extrapolate beyond observed frames using latent dynamics reasoning."
-    },
-    {
-      "title": "Teknium's Parallel Dev Workflow: hermes --worktree --yolo",
-      "url": "https://x.com/Teknium/status/2092140664695976202",
-      "category": "hermes_nous",
-      "published": "2026-08-25",
-      "summary": "Hermes maintainer runs concurrent agent sessions from one checkout with --worktree + --yolo — the parallel worktree model in practice."
-    },
-    {
-      "title": "Mac Studio M5 Max Cost Analysis: Local vs API Token Economics",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy3lsp/mac_studio_m5_max_cost_analysis/",
-      "category": "platforms_integration",
-      "published": "2026-08-25",
-      "summary": "$10k Mac Studio thread: 100B tokens via DeepSeek V4 Flash API vs 6.2B on Qwen Pro vs local inference — when local actually pays off."
+      "summary": "Community kernel reaches 78,498 output tok/s for Qwen3.6-35B-A3B on 8x AMD MI350X — raw AMD power challenging NVIDIA's inference dominance."
     }
   ]
 }
