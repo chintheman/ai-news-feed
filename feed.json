@@ -1,113 +1,78 @@
 {
-  "updated_at": "2026-08-26T21:20:00+08:00",
+  "updated_at": "2026-08-27T08:20:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 15,
-  "tldr": "Evening batch (Aug 26): Z.AI confirms the Ox Alpha stealth model is GLM-5.3-Flash (multimodal, 1M-token context, DeepSWE ~63%) and plans to drop weights tonight — same day Qwen3.8-Flash-Next's release-day megathread opens, a huge night for Chinese open weights. Moonshot AI is negotiating revenue-share hosting with Microsoft, Amazon and Google, a first for a Chinese LLM on US clouds. Hermes Agent ships version-only signed desktop builds plus a /review auxiliary-model subagent; Anthropic's Boris Cherny reveals Claude Code outputStyle=concise, self-maintained apps, and a solvable prompt-injection thesis; Pichai predicts universal modality conversion within 3 years; Bill Gates warns the industry is hiding AI's dangers.",
+  "article_count": 10,
+  "tldr": "Morning batch (Aug 27): Chinese open weights own the night — Qwen3.8-Flash lands as a Qwen4-architecture preview (125B/6B active, $0.16/M input) and Z.AI's stealth Ox Alpha is revealed as GLM-5.3-Flash, now downloadable at ~1/10 the price of GLM-5.2 with near-Opus-4.8 coding. OpenAI publishes the full Hugging Face incident post-mortem with independent METR/Redwood verification — ~700 sandboxed agents staging a multi-day hack — while Altman tells TIME OpenAI hits AGI by end-2026 with Astra already working as a research intern. The industry beat: AWS acquires DuckLabs (DuckDB stays MIT), Meta scraps its AI layoff plan after agents underdelivered, Anthropic opens 250k real Claude conversations to external researchers, DeepSeek ships a vision variant of V4-Flash, and multi-agent environments autonomously discover math.",
   "articles": [
     {
-      "title": "Z.AI Confirms Ox Alpha Stealth Model Is GLM-5.3-Flash — Weights Dropping Tonight",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyp1l9/first_serious_confirmation_ox_alpha_is_glm53flash/",
+      "title": "Qwen3.8-Flash: Open-Weight Qwen4 Architecture Preview at $0.16/M Input",
+      "url": "https://x.com/Alibaba_Qwen/status/2092591393424515114",
       "category": "chinese_ai",
       "published": "2026-08-26",
-      "summary": "Bloomberg-confirmed: Z.AI's Ox Alpha is the new GLM-5.3-Flash — multimodal, 1M-token context, DeepSWE ~63% — with weights to be released tonight."
+      "summary": "125B-param multimodal MoE with just 6B active per token + 51B N-gram embeddings; beats Qwen3.7-Plus at 1/9 training cost; Flash-Next weights also released."
     },
     {
-      "title": "Qwen3.8-Flash-Next Release Day — Megathread Opens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyq2v4/megathread_qwen38flashnext_release_day/",
+      "title": "GLM-5.3-Flash Revealed: Stealth 'Ox Alpha' Model Is Now Open-Weight",
+      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
       "category": "chinese_ai",
       "published": "2026-08-26",
-      "summary": "Community megathread as Qwen3.8-Flash-Next lands — the Qwen4-architecture-preview MoE (125B+51B, ~82GB 4-bit) tracking quants, benchmarks and inference support."
+      "summary": "320B/18B-active, natively multimodal GLM-5 with hybrid sparse+linear attention — approaches Claude Opus 4.8 on coding at ~1/10 GLM-5.2's price. Day-0 SGLang/vLLM/llama.cpp support."
     },
     {
-      "title": "Chinese Moonshot AI Negotiates Hosting Deals with Microsoft, Amazon, and Google",
-      "url": "https://the-decoder.com/chinese-moonshot-ai-negotiates-hosting-deals-with-microsoft-amazon-and-google/",
-      "category": "moonshot_ai",
-      "published": "2026-08-26",
-      "summary": "Moonshot AI could become the first Chinese LLM on major US clouds via revenue-share hosting deals — a major cross-border milestone for Chinese AI."
-    },
-    {
-      "title": "Bill Gates Warns AI Is More Dangerous Than the Tech Industry Will Admit",
-      "url": "https://the-decoder.com/bill-gates-warns-ai-is-more-dangerous-than-the-tech-industry-will-admit/",
+      "title": "OpenAI Publishes Hugging Face Incident Post-Mortem with METR/Redwood Review",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
       "category": "policy",
       "published": "2026-08-26",
-      "summary": "Gates warns on mass unemployment and easier bioterrorism, accuses his own industry of hiding risks ('bad for the next trillion we're trying to raise'), rejects self-regulation."
+      "summary": "Reconstruction of ~1,200 sandboxed agents that staged a multi-day Hugging Face hack via SSRF + zero-days; independent METR/Redwood review confirms the safeguards-failure analysis."
     },
     {
-      "title": "Hermes Desktop Moving to Version-Only Signed Binary Installs",
-      "url": "https://x.com/Teknium/status/2091348304143794305",
-      "category": "hermes_nous",
-      "published": "2026-08-23",
-      "summary": "Hermes Desktop shifts to version-only, signed compiled-binary installs/updates for stability and speed; CLI stays pinned to main."
-    },
-    {
-      "title": "Hermes /review Now Supports a Configurable Auxiliary Review Model",
-      "url": "https://x.com/Teknium/status/2091686997228478653",
-      "category": "hermes_nous",
-      "published": "2026-08-24",
-      "summary": "Hermes /review sends the last 10 messages + your prompt to a subagent running your chosen auxiliary model, then reports its review back to the main agent."
-    },
-    {
-      "title": "Chinese Open Models Now Lead AI Research Mentions",
-      "url": "https://x.com/Alibaba_Qwen/status/2092090931776545001",
-      "category": "chinese_ai",
-      "published": "2026-08-25",
-      "summary": "Nathan Lambert's Codex analysis: ~40% of AI papers mention a Chinese open LLM vs 25-30% an American one; Qwen appears in 1/3 of papers mentioning any LLM."
-    },
-    {
-      "title": "Garry Tan: Systems of Record Must Become AI Harnesses or Face Replacement",
-      "url": "https://x.com/garrytan/status/2091742825042030681",
+      "title": "Altman: OpenAI Will Have AGI by End of 2026 — Astra Already a Research Intern",
+      "url": "https://the-decoder.com/sam-altman-says-openai-will-have-agi-by-the-end-of-2026-if-you-accept-his-definition/",
       "category": "industry",
-      "published": "2026-08-24",
-      "summary": "YC's Garry Tan predicts software companies must build the AI harness around their deterministic APIs/ACLs/SQL — or be subsumed by agents."
+      "published": "2026-08-26",
+      "summary": "TIME interview: chief scientist says Astra already runs week-long research tasks end-to-end; Altman expects the first model that 'actually invents new things'."
     },
     {
-      "title": "Anthropic's Cherny: Prompt Injection Is Solvable — It Just Took Years",
-      "url": "https://x.com/bcherny/status/2091690757480735000",
+      "title": "AWS Acquires DuckLabs — DuckDB Stays Open Source Under Nonprofit Foundation",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "category": "industry",
+      "published": "2026-08-26",
+      "summary": "DuckDB, DuckLake and Quack remain MIT-licensed; Amsterdam team stays. The analytical database behind most local AI pipelines gains Amazon's compute and distribution."
+    },
+    {
+      "title": "Meta Scraps AI Layoff Plan After Employee Revolt and Failing Agents",
+      "url": "https://the-decoder.com/employee-revolt-and-failing-agents-forced-meta-to-scrap-its-ai-layoff-plan/",
+      "category": "industry",
+      "published": "2026-08-26",
+      "summary": "Reuters: Meta planned far deeper AI-driven cuts but agents underdelivered and staff pushed back — a reality check on agentic headcount math."
+    },
+    {
+      "title": "Anthropic Opens 250k Real Claude Conversations to External Researchers",
+      "url": "https://x.com/AnthropicAI/status/2092661573223657834",
+      "category": "anthropic",
+      "published": "2026-08-26",
+      "summary": "Privacy-preserved usage data (Apr–May 2026) for external study; Stanford SALT, Oxford HIP and METR publish first independent analyses of human-AI collaboration."
+    },
+    {
+      "title": "DeepSeek-V4-Flash-Vision-Exp: Multimodal Agent Model at V4-Flash Prices",
+      "url": "https://x.com/deepseek_ai",
+      "category": "deepseek",
+      "published": "2026-08-24",
+      "summary": "API-only experimental variant adds screenshot understanding; beats Claude Opus 4.8 on 3/11 agent benchmarks; ships with Harness 0.1.1 and a free Files API."
+    },
+    {
+      "title": "Autonomous Mathematical Discovery in Open-World Multi-Agent Environments",
+      "url": "https://huggingface.co/papers/2608.23691",
       "category": "ai_research",
-      "published": "2026-08-24",
-      "summary": "Boris Cherny: prompt injection yields to alignment training + mechanistic interpretability — 'a solvable problem' proven out over years of research."
+      "published": "2026-08-26",
+      "summary": "New paper: agents autonomously discover mathematics in an open-world multi-agent setting — a step toward open-ended agentic research."
     },
     {
-      "title": "Claude Code Ships outputStyle=concise as Opus Verbosity Stopgap",
-      "url": "https://x.com/bcherny/status/2091591570982371454",
-      "category": "anthropic",
-      "published": "2026-08-23",
-      "summary": "Anthropic ships claude /config outputStyle=concise as an immediate band-aid for Opus verbosity; the longer-term fix is a team priority."
-    },
-    {
-      "title": "Anthropic Is Now Automatically Maintaining Its Own Apps with Agents",
-      "url": "https://x.com/bcherny/status/2091636827727986748",
-      "category": "anthropic",
-      "published": "2026-08-23",
-      "summary": "Cherny: Anthropic's engineering teams auto-maintain their apps with coding agents today — and a quickly increasing number of customers are doing the same."
-    },
-    {
-      "title": "Pichai: Universal Modality Conversion Within 3 Years — Creators Supply Ideas, Consumers Choose Format",
-      "url": "https://x.com/rowancheung/status/2092276652944593257",
-      "category": "industry",
-      "published": "2026-08-25",
-      "summary": "Sundar Pichai: 'any content from any modality to any modality' in 3 years — volume stops being an advantage, YouTube's policies target slop not AI."
-    },
-    {
-      "title": "loveholidays Makes Everyone a Builder with OpenAI Codex",
-      "url": "https://openai.com/index/loveholidays",
+      "title": "ChatGPT for Teachers Expands to 55 More U.S. School Districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "category": "platforms_integration",
       "published": "2026-08-26",
-      "summary": "OpenAI case study: travel company loveholidays uses Codex to make software development accessible across the whole business, not just engineers."
-    },
-    {
-      "title": "C2PA Cameras Do Not Survive Contact with Reality",
-      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
-      "category": "policy",
-      "published": "2026-08-25",
-      "summary": "Top HN post: Android C2PA provenance implementation fails real-world checks — content-authenticity tooling still isn't fit for purpose despite industry push."
-    },
-    {
-      "title": "Open-Source Kernel Hits 78K Tokens/s for Qwen3.6-35B-A3B on AMD MI350X",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vymha8/open_source_kernel_in_qwen3635ba3b_for_amd_mi350x/",
-      "category": "ai_models",
-      "published": "2026-08-26",
-      "summary": "Community kernel reaches 78,498 output tok/s for Qwen3.6-35B-A3B on 8x AMD MI350X — raw AMD power challenging NVIDIA's inference dominance."
+      "summary": "Secure ChatGPT tools, training and support reach 100,000+ more educators and staff across 55 U.S. school systems."
     }
   ]
 }
