@@ -23,14 +23,14 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1inuk/qwen38next_streaming_150tps_prefill_36_tps_decode/",
       "category": "chinese_ai",
       "published": "2026-08-29",
-      "summary": "Adapted DSv4 streaming stack runs the 3.8-Next MoE faster on a 32GB M5 than the dense 27B — even on low power mode; Apple Silicon local inference keeps climbing."
+      "summary": "Adapted DSv4 streaming stack runs the 3.8-Next MoE faster on a 32GB M5 than the dense 27B — even on low power; Apple Silicon local inference keeps climbing."
     },
     {
       "title": "Samsung puts MAC units inside LPDDR5X — Hot Chips 2026",
       "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
       "category": "platforms_integration",
       "published": "2026-08-29",
-      "summary": "Processing-in-Memory computes in place with standard DDR commands — a memory-compute answer to the bandwidth wall; uncacheable regions and software overhead remain open."
+      "summary": "PIM computes in place with standard DDR commands — a memory-compute answer to the bandwidth wall; uncacheable regions and software overhead remain open."
     },
     {
       "title": "Hermes Agent gains a native /review command",
