@@ -9,35 +9,35 @@
       "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
       "category": "anthropic",
       "published": "2026-08-28",
-      "summary": "In 60h on one GPU, Sonnet 5 post-trained an early Opus 4.8 checkpoint to near-production safety (65% vs 72%) using ~15,000x fewer examples. Setup open-sourced."
+      "summary": "In 60h on one GPU, Sonnet 5 post-trained an early Opus 4.8 checkpoint to near-production safety (65% vs 72%). Setup open-sourced."
     },
     {
       "title": "DeepMind's AI Co-Scientist now runs labs end-to-end",
       "url": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/",
       "category": "ai_research",
       "published": "2026-08-28",
-      "summary": "Gemini multi-agent system plans experiments, controls lab equipment, analyzes results and drafts manuscripts across materials and medical-AI labs. Human optional."
+      "summary": "Gemini multi-agent system plans experiments, runs lab equipment, analyzes results and drafts papers. Human optional."
     },
     {
       "title": "First double-blind benchmark — questions sealed from Google, weights from evaluators",
       "url": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/",
       "category": "ai_research",
       "published": "2026-08-28",
-      "summary": "DeepMind ran Gemini Flash Lite inside a hardware-attested TEE — prompts and weights never meet outside the enclave, killing contamination. Singapore AISI is a partner."
+      "summary": "DeepMind ran Gemini Flash Lite inside a hardware-attested TEE — prompts and weights never meet outside the enclave, killing contamination."
     },
     {
       "title": "AMD ROCm 10.0 ships agentic dev tooling",
       "url": "https://newsroom.amd.com/news/rocm-10-software-ai-native-developer-experiences",
       "category": "platforms_integration",
       "published": "2026-08-28",
-      "summary": "Ten-year release makes ROCm.AI GA: AMD Skills plug validated docs into Claude Code/Cursor/Codex, Hyperloom automates kernel tuning (weeks → hours). 3.3x inference, 2.4x training."
+      "summary": "ROCm.AI goes GA: AMD Skills plug validated docs into Claude Code/Cursor/Codex, Hyperloom automates kernel tuning. 3.3x inference, 2.4x training."
     },
     {
       "title": "Breeze-TTS-2: frontier TTS on one GPU",
       "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
       "category": "ai_models",
       "published": "2026-08-28",
-      "summary": "3B open-weight model tops the Artificial Analysis TTS leaderboard, beating proprietary systems. Voice cloning + natural-language voice design, ~7.7GB VRAM eager."
+      "summary": "3B open-weight model tops the Artificial Analysis TTS leaderboard, beating proprietary systems. ~7.7GB VRAM eager."
     },
     {
       "title": "Qwen3.8-Flash on RTX 3090 — you only need 12GB VRAM",
@@ -72,7 +72,7 @@
       "url": "https://x.com/garrytan/status/2093056910631293063",
       "category": "industry",
       "published": "2026-08-27",
-      "summary": "YC CEO's macro thesis: AI generates cash faster than the economy finds productive uses for new capital — deflationary pressure on AI-native services and startup pricing."
+      "summary": "YC CEO's macro thesis: AI generates cash faster than the economy can absorb — deflationary pressure on AI-native services and startup pricing."
     }
   ]
 }
