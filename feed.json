@@ -1,106 +1,64 @@
 {
-  "updated_at": "2026-08-31T13:19:10+08:00",
+  "updated_at": "2026-08-31T21:20:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 14,
-  "tldr": "Midday batch (Aug 31): Anthropic's automated-researchers work is the standout — Claude post-trained an Opus 4.8 checkpoint to near-production safety on 1 GPU, generalizing to models 4.7x larger, hinting at self-improving alignment. In open-weight land, Z.ai's GLM-5.3 weights are finally downloadable (756GB, free except >$10B-revenue model makers) and GLM-5.3-Flash landed in transformers as the 18B-active price-performance challenger, while Qwen3.8-Flash spread everywhere — OpenCode Go, a $400 Android phone at 3.5 tok/s, and a single-GPU NVFP4 eval. Hermes shipped a /review command for configurable second-pass self-review, and Anthropic warned that infostealer malware is draining Claude accounts via stolen session cookies. Community: a 1B audio-grounded LM trained from scratch, the Agentic Coding Index, and a pentesting-model benchmark.",
+  "article_count": 8,
+  "tldr": "Evening batch (Aug 31): OpenAI quietly bought tens of thousands of Mac minis and Mac Studios to train computer-use agents — Apple's unified memory beating GPU clusters on memory-bound RL workloads, making agent training its own hardware category. OpenClaw 2.0 shipped its biggest release ever (16,000+ PRs, multiplayer live agent sessions, rebuilt browser app), and Anthropic repriced Claude Sonnet 5 with a tokenizer change that pushes real code cost well past the headline 50%. Pipecat's open-weights PhoneLLM Alpha 1 claims GPT-5.6-Terra-level voice-agent performance at 1/18 the cost, DeepSeek's V4 Flash Vision-Exp surfaced on Hugging Face, and a ~7k-paper GitHub list has r/MachineLearning debating whether NeurIPS 2026 acceptances leaked.",
   "articles": [
     {
-      "title": "Claude autonomously aligns other AIs — 48 hours, 1 GPU",
-      "url": "https://x.com/AnthropicAI/status/2093386528668172373",
-      "category": "anthropic",
-      "published": "2026-08-28",
-      "summary": "Automated-researchers program: Claude post-trained an early Opus 4.8 checkpoint to near-production safety scores, generalizing to models 4.7x larger."
-    },
-    {
-      "title": "Z.ai finally drops GLM-5.3 weights — 756GB with a $10B gate",
-      "url": "https://thenewstack.io/zai-glm-weights-license",
-      "category": "chinese_ai",
+      "title": "OpenAI quietly bought tens of thousands of Mac minis to train computer-use agents",
+      "url": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/",
+      "category": "platforms_integration",
       "published": "2026-08-31",
-      "summary": "Cyber-safety hold over: GLM-5.3 (753B MoE, 1M ctx) is downloadable and vLLM/SGLang-ready, free except >$10B-revenue model providers. CyberGym 84.5% SOTA."
+      "summary": "The Information: OpenAI snapped up Mac minis/Studios en masse for computer-use RL; Apple silicon wins on memory-bound agent workloads."
     },
     {
-      "title": "Anthropic: infostealer malware is hijacking Claude sessions to drain usage",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-      "category": "anthropic",
-      "published": "2026-08-31",
-      "summary": "Vidar, LummaC2, StealC, RedLine and Atomic Stealer steal live login cookies — attackers drain usage with no password, 2FA doesn't stop a stolen session."
-    },
-    {
-      "title": "GLM-5.3-Flash: first natively multimodal model in the GLM-5 series",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
-      "category": "chinese_ai",
-      "published": "2026-08-26",
-      "summary": "320B total / 18B active, hybrid sparse+linear attention, beats GLM-5.2 at one-tenth the price, approaches Claude Opus 4.8 on coding and agentic benchmarks."
-    },
-    {
-      "title": "Qwen3.8-Flash: 1M context, multimodal — now in OpenCode Go",
-      "url": "https://x.com/Alibaba_Qwen/status/2093227357951897687",
-      "category": "chinese_ai",
-      "published": "2026-08-28",
-      "summary": "125B/6B MoE with 1M context lands in OpenCode Go — an easy drop-in for long-context coding workflows."
-    },
-    {
-      "title": "Hermes Agent adds /review — configurable second-pass review model",
-      "url": "https://x.com/Teknium/status/2093658855276519574",
-      "category": "hermes_nous",
-      "published": "2026-08-29",
-      "summary": "Dedicated command reviews work in the last ten messages with a model you choose — an independent-review loop without leaving the agent."
-    },
-    {
-      "title": "Garry Tan runs skill-driven research agents on cron jobs",
-      "url": "https://x.com/garrytan/status/2094236920360706331",
+      "title": "OpenClaw 2.0 — rebuilt browser app + multiplayer sessions in its biggest release ever",
+      "url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions/",
       "category": "agents_tooling",
-      "published": "2026-08-30",
-      "summary": "YC's Garry Tan: 'My open claw does this with GBrain skills on cronjobs' — a mainstream exec validating the scheduled-agent pattern."
-    },
-    {
-      "title": "ChatGPT Ads goes live in India — 41 markets in five days",
-      "url": "https://ppc.land/openai-gains-32-chatgpt-ad-markets-in-5-days-as-india-goes-live",
-      "category": "industry",
       "published": "2026-08-31",
-      "summary": "OpenAI's ad pilot hit 32 new markets by Aug 29 — India live, 31 European, Brazil/Mexico — partners only, no self-serve yet."
+      "summary": "Open-source agent platform ships v2026.8.1 after a 7-week pause: 16k+ PRs, 933 contributors, multiplayer live sessions, rebuilt browser app, SQLite."
     },
     {
-      "title": "Qwen3.8-Flash-Next NVFP4 vs Qwen3.8-27B FP8 — single-GPU local eval",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2z2zo/qwen38flashnextnvfp4_vs_qwen3827bfp_test_results/",
+      "title": "Claude Sonnet 5 repriced — real cost up well past the headline 50%",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-august-31-2026",
+      "category": "anthropic",
+      "published": "2026-08-31",
+      "summary": "Sonnet 5 API moves $2/$10 → $3/$15 per M tokens; tokenizer change adds 10–35% more tokens on code. Re-check burn before Sept 14."
+    },
+    {
+      "title": "PhoneLLM Alpha 1 — open-weights voice agent model at 1/18 the cost",
+      "url": "https://huggingface.co/pipecat-ai/phonellm-alpha-1",
       "category": "ai_models",
       "published": "2026-08-31",
-      "summary": "LocalLLaMA runs both on one RTX PRO 6000 Blackwell Max — real workloads, same rig, same prompts, results favor Flash-Next NVFP4 in most tests."
+      "summary": "Pipecat fine-tunes Nemotron Nano 30B on real support calls: GPT-5.6 Terra-level voice performance, 94% cheaper, 1.3s faster P95, BSD-2."
     },
     {
-      "title": "Sori-1B: audio-grounded LM trained from scratch, no text-only pretraining",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w317fn/snkiisori1b_audiogrounded_lm_trained_from_scratch/",
-      "category": "ai_research",
-      "published": "2026-08-31",
-      "summary": "A single SNU researcher trains a 1B audio-language model whose decoder learned entirely from audio-paired text — no pretrained-LM initialization."
-    },
-    {
-      "title": "Qwen 3.8 Flash Next runs on a $400-500 Android phone at 3.5 tok/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2nz07/qwen_38_flash_next_locally_on_simple_mobile_phone/",
-      "category": "chinese_ai",
-      "published": "2026-08-30",
-      "summary": "12GB mid-range Android hits 3.5 tok/s with low-quant dense-part optimization — frontier-class MoE on commodity phones."
-    },
-    {
-      "title": "One collector computed every LLM coding benchmark's 'Intelligence Density'",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2v97w/i_collected_every_single_llm_coding_benchmark_and/",
-      "category": "ai_research",
-      "published": "2026-08-30",
-      "summary": "Agentic Coding Index aggregates SWE-bench Pro, DeepSWE v1.1, Terminal-Bench, Code Arena Elo, LiveCodeBench v6 into a per-parameter efficiency metric."
-    },
-    {
-      "title": "Which LLM is actually best at pentesting? New benchmark says test",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wdeq/which_llm_is_actually_best_at_pentesting/",
-      "category": "ai_research",
-      "published": "2026-08-30",
-      "summary": "Community benchmark pits models for offensive-security work, building on CyberGym as a base — the missing eval for agentic pentesting."
-    },
-    {
-      "title": "52-page document extraction on an iPhone 16 — Arctic Embed + Bonsai 8B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2qe1t/demo_of_local_document_extraction_52_pages_using/",
+      "title": "Willison maps ChatGPT Work as two products in one $20 tier",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
       "category": "platforms_integration",
       "published": "2026-08-30",
-      "summary": "KernelAI app runs an 8B model + local extraction on-device; works with Apple's foundation model on iOS 26 with no install."
+      "summary": "Work Cloud (web) adds internet-connected code env, headless Chrome, persistent filesystem, sub-agents; Work Local is the old Codex app."
+    },
+    {
+      "title": "DeepSeek V4 Flash Vision-Exp lands on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/",
+      "category": "deepseek",
+      "published": "2026-08-31",
+      "summary": "DeepSeek's vision-capable V4 Flash experimental model surfaces on HF — multimodal at Flash-class pricing, a top LocalLLaMA discussion today."
+    },
+    {
+      "title": "NeurIPS 2026 accepted-papers list leaked on GitHub?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/",
+      "category": "ai_research",
+      "published": "2026-08-30",
+      "summary": "A GitHub repo with ~7k accepted-paper entries surfaces early; r/MachineLearning debates whether the list is legit."
+    },
+    {
+      "title": "Claude Code for research papers — a PhD workflow reality check",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/",
+      "category": "agents_tooling",
+      "published": "2026-08-30",
+      "summary": "NLP PhD student leans on Claude Code for argparse, plotting and config wrangling — scope creep now writes most of the experiment scaffolding."
     }
   ]
 }
