@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-09-03T13:15:00+08:00",
+  "updated_at": "2026-09-03T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 7,
-  "tldr": "Midday batch (Sep 3): Anthropic CEO Dario Amodei publicly asked governments for narrow authority to block unsafe AI deployments and proposed AI-specific taxes, committing $200M to AI-society research — while the Trump administration formally reversed course, with Commerce Secretary Lutnick declaring 'We trust Anthropic' after months of export restrictions. Anthropic also launched Enterprise Frontier Safeguards (zero data retention + misuse detection with data in customer-held clouds). Elsewhere: Hugging Face shipped 207 Apache-2.0 WebGPU kernels for in-browser AI, Hermes Agent added first-class multi-source secrets management, and llama.cpp's expert-cache PR lifted Qwen3.8-Flash-Next decode to 25-29 t/s on dual-3090 DDR4 rigs.",
+  "tldr": "Anthropic locks in a ~$35B Nvidia-backed Lambda deal (~350MW, Texas) — roughly $80B compute committed in days ahead of a reported fall IPO push; Moonshot confidentially files a ~$3B Hong Kong IPO, the first big China LLM-lab listing test. Meta's Muse Spark 1.3 makes its price play at $0.55/task, still trailing Claude Fable 5.1. Hugging Face ships a cheap 100-step GRPO recipe for structured outputs and funes, durable cross-agent memory; Teknium's recursive subagent swarm shed 375,000 lines from Hermes Agent in one 15-hour run.",
   "articles": [
     {
-      "title": "Dario Amodei calls for stronger AI regulation — deployment-block authority, AI taxes, $200M research pledge",
-      "url": "https://abcnews.com/Business/exclusive-anthropic-ceo-calls-stronger-regulation-ai/story?id=133753620",
-      "category": "policy",
-      "published": "2026-09-02",
-      "summary": "Anthropic CEO asks governments for narrow power to block unsafe deployments, proposes AI-specific taxes, commits $200M to AI-society research."
-    },
-    {
-      "title": "'We trust Anthropic' — Trump administration reverses course after export restrictions",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/us-government-now-trusts-anthropic-the-company-that-it-banned-months-ago-howard-lutnick-says-they-are-back-on-/articleshow/133723161.cms",
-      "category": "policy",
-      "published": "2026-09-02",
-      "summary": "Lutnick confirms the US now trusts Anthropic after months of restrictions on its most capable models — de-icing the export relationship."
-    },
-    {
-      "title": "Anthropic announces Enterprise Frontier Safeguards — ZDR with customer-held data",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "title": "Anthropic ramps up Claude infrastructure with $35 billion Lambda deal",
+      "url": "https://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal/",
       "category": "anthropic",
-      "published": "2026-09-01",
-      "summary": "EFS combines zero data retention with misuse detection, storing enterprise data in customer-controlled clouds — phasing in from fall 2026."
+      "published": "2026-09-03",
+      "summary": "~$35B Nvidia-backed Lambda deal adds ~350MW at Hut 8's Texas campus; ~$80B compute committed in days ahead of a reported fall IPO push."
     },
     {
-      "title": "Hugging Face ships 207 Apache-2.0 WebGPU kernels for browser inference",
-      "url": "https://huggingface.co/blog/webgpu-kernels",
-      "category": "platforms_integration",
-      "published": "2026-09-01",
-      "summary": "Versioned WebGPU kernels for local AI plus Fleet, a crowdsourced in-browser GPU benchmark suite — a real browser-inference stack."
+      "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO",
+      "url": "https://www.reuters.com/world/asia-pacific/chinese-ai-firm-moonshot-files-confidentially-hong-kong-ipo-sources-say-2026-09-03/",
+      "category": "moonshot_ai",
+      "published": "2026-09-03",
+      "summary": "Kimi maker targets ~$3B raise at ~$50B valuation after unwinding its red-chip structure — first big China LLM-lab public-listing test."
     },
     {
-      "title": "Hermes Agent adds first-class secrets-manager support",
-      "url": "https://x.com/NousResearch/status/2095251523580162277",
+      "title": "Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
+      "url": "https://the-decoder.com/meta-closes-in-on-the-top-with-muse-spark-1-3-and-undercuts-rivals-on-price/",
+      "category": "ai_models",
+      "published": "2026-09-03",
+      "summary": "Meta's fourth Muse model in five months: tops agentic gains but trails Claude Fable 5.1 — at $0.55/task it undercuts rivals; open weights promised."
+    },
+    {
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "category": "ai_research",
+      "published": "2026-09-03",
+      "summary": "Public TRL recipe: ~500 samples and 100 GRPO steps lift LiquidAI LFM2.5-350M from 22.6% to 29.7% on IFStruct schema compliance — sized for a free-tier GPU."
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "url": "https://huggingface.co/blog/funes",
+      "category": "agents_tooling",
+      "published": "2026-09-03",
+      "summary": "HF's funes indexes Claude Code/Codex/pi session logs into one local vector store any agent can recall from — shareable across machines via HF datasets."
+    },
+    {
+      "title": "Teknium: 1,320-subagent run deleted 375k lines from Hermes Agent",
+      "url": "https://x.com/Teknium/status/2095412050751332838",
       "category": "hermes_nous",
-      "published": "2026-09-02",
-      "summary": "Hermes Agent can now pull credentials from multiple secret sources at once — native password/secrets management without extra tooling."
+      "published": "2026-09-03",
+      "summary": "One /goal, ~15h, waves of ~120 recursive subagents on a single desktop shed 375,000 lines from the Hermes Agent repo — orchestration, not GPUs, is the ceiling."
     },
     {
-      "title": "Qwen3.8-Flash-Next: 25-29 t/s decode on 2x3090 + DDR4 with expert-cache PR",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5vjp6/qwen38flashnext_on_2x3090_ddr4_17_2529_ts_decode/",
+      "title": "Qwen-3.8-Next-Flash Ngram hot-swappable knowledge injector for llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w64y26/qwen38nextflash_ngram_hotswappable_knowledge/",
       "category": "chinese_ai",
       "published": "2026-09-03",
-      "summary": "llama.cpp's expert-cache PR lifts Qwen3.8-Flash-Next decode from 17 to 25-29 t/s with all 48 expert layers pinned in host RAM on dual-3090 DDR4."
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT Work",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "category": "platforms_integration",
-      "published": "2026-09-02",
-      "summary": "OpenAI case study: a motorsport tour uses ChatGPT Work for marketing and merchandising — product photos became an inventory site in 15 minutes."
+      "summary": "llama.cpp mod patches the Qwen Ngram PLE table in-memory, turning it into a hot-swappable long-term knowledge store — with known limitations."
     }
   ]
 }
