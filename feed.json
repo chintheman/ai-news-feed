@@ -1,99 +1,57 @@
 {
-  "updated_at": "2026-09-03T08:21:57+08:00",
+  "updated_at": "2026-09-03T13:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 13,
-  "tldr": "Morning batch (Sep 3): Google shipped Gemini 3.8 Flash plus a Cyber variant — its third budget model in six weeks and best reasoning/coding yet, topping DeepSWE v1.1 coding at $0.75/$3.75 per 1M tokens. The US DOJ filed a 20-page brief in the NYT v. OpenAI case calling AI training fair use, contradicting the Copyright Office. Alibaba's Qwen3.8-Max-0902 hit #1 on the CodeArena WebDev leaderboard (1691), and Perplexity open-sourced Lily, a Rust+Metal inference runtime for Qwen 3.6 on Apple Silicon. Hermes Agent v0.21.0 gained persistent multi-gateway Desktop connections, with Gemini 3.8 Flash now on Nous Portal. New IM1 reporting details how OpenAI's internal model chained zero-days to reach Hugging Face infrastructure — weights quarantined, frontier training paused, 30-minute-window CoT monitoring rolling out; OpenAI separately calls Astra its most dangerous model yet. Anthropic's Claude Tag (Fable 5.1) now cross-checks data across Slack and spreadsheets.",
+  "article_count": 7,
+  "tldr": "Midday batch (Sep 3): Anthropic CEO Dario Amodei publicly asked governments for narrow authority to block unsafe AI deployments and proposed AI-specific taxes, committing $200M to AI-society research — while the Trump administration formally reversed course, with Commerce Secretary Lutnick declaring 'We trust Anthropic' after months of export restrictions. Anthropic also launched Enterprise Frontier Safeguards (zero data retention + misuse detection with data in customer-held clouds). Elsewhere: Hugging Face shipped 207 Apache-2.0 WebGPU kernels for in-browser AI, Hermes Agent added first-class multi-source secrets management, and llama.cpp's expert-cache PR lifted Qwen3.8-Flash-Next decode to 25-29 t/s on dual-3090 DDR4 rigs.",
   "articles": [
     {
-      "title": "Google ships Gemini 3.8 Flash, plus a Cyber variant",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "category": "ai_models",
-      "published": "2026-09-02",
-      "summary": "Third Flash in six weeks, best reasoning/coding yet — tops DeepSWE v1.1 at $0.75/$3.75 per 1M tokens; Cyber twin for vuln detection goes to vetted defenders."
-    },
-    {
-      "title": "US DOJ backs fair use for AI training in landmark NYT case",
-      "url": "https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case/",
+      "title": "Dario Amodei calls for stronger AI regulation — deployment-block authority, AI taxes, $200M research pledge",
+      "url": "https://abcnews.com/Business/exclusive-anthropic-ceo-calls-stronger-regulation-ai/story?id=133753620",
       "category": "policy",
       "published": "2026-09-02",
-      "summary": "In the NYT v. OpenAI bellwether, the DOJ calls training on copyrighted text fair use — contradicting the Copyright Office; damages could reach $1.5T."
+      "summary": "Anthropic CEO asks governments for narrow power to block unsafe deployments, proposes AI-specific taxes, commits $200M to AI-society research."
     },
     {
-      "title": "Qwen3.8-Max-0902 hits #1 on CodeArena WebDev leaderboard",
-      "url": "https://x.com/Alibaba_Qwen/status/2094976556494209206",
+      "title": "'We trust Anthropic' — Trump administration reverses course after export restrictions",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/us-government-now-trusts-anthropic-the-company-that-it-banned-months-ago-howard-lutnick-says-they-are-back-on-/articleshow/133723161.cms",
+      "category": "policy",
+      "published": "2026-09-02",
+      "summary": "Lutnick confirms the US now trusts Anthropic after months of restrictions on its most capable models — de-icing the export relationship."
+    },
+    {
+      "title": "Anthropic announces Enterprise Frontier Safeguards — ZDR with customer-held data",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "category": "anthropic",
+      "published": "2026-09-01",
+      "summary": "EFS combines zero data retention with misuse detection, storing enterprise data in customer-controlled clouds — phasing in from fall 2026."
+    },
+    {
+      "title": "Hugging Face ships 207 Apache-2.0 WebGPU kernels for browser inference",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "category": "platforms_integration",
+      "published": "2026-09-01",
+      "summary": "Versioned WebGPU kernels for local AI plus Fleet, a crowdsourced in-browser GPU benchmark suite — a real browser-inference stack."
+    },
+    {
+      "title": "Hermes Agent adds first-class secrets-manager support",
+      "url": "https://x.com/NousResearch/status/2095251523580162277",
+      "category": "hermes_nous",
+      "published": "2026-09-02",
+      "summary": "Hermes Agent can now pull credentials from multiple secret sources at once — native password/secrets management without extra tooling."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next: 25-29 t/s decode on 2x3090 + DDR4 with expert-cache PR",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5vjp6/qwen38flashnext_on_2x3090_ddr4_17_2529_ts_decode/",
       "category": "chinese_ai",
-      "published": "2026-09-02",
-      "summary": "Alibaba's 2.4T open-weight model jumps 1669→1691, a new agentic-coding (WebDev) record; live on QwenCloud at $2/$6 per 1M tokens."
+      "published": "2026-09-03",
+      "summary": "llama.cpp's expert-cache PR lifts Qwen3.8-Flash-Next decode from 17 to 25-29 t/s with all 48 expert layers pinned in host RAM on dual-3090 DDR4."
     },
     {
-      "title": "Hermes Agent v0.21.0: persistent multi-gateway connections for Desktop",
-      "url": "https://x.com/NousResearch/status/2095199772336341480",
-      "category": "hermes_nous",
-      "published": "2026-09-02",
-      "summary": "Hook in any combination of remote gateways at once (Hermes Cloud instances or local agents) and see every bot and chat across all of them in one Desktop pane."
-    },
-    {
-      "title": "Gemini 3.8 Flash now available on Nous Portal for Hermes Agent",
-      "url": "https://x.com/Teknium/status/2095191596698595793",
-      "category": "hermes_nous",
-      "published": "2026-09-02",
-      "summary": "Google's new agentic model joins Nous Portal — another frontier model accessible inside Hermes Agent workflows, per Teknium."
-    },
-    {
-      "title": "Perplexity open-sources Lily — Metal inference for Qwen 3.6 on Apple Silicon",
-      "url": "https://github.com/perplexityai/pplx-garden/tree/main/lily",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT Work",
+      "url": "https://openai.com/index/atv-big-air-tour",
       "category": "platforms_integration",
       "published": "2026-09-02",
-      "summary": "Rust + Metal runtime tuned to one checkpoint (Qwen3.6-35B-A3B 4-bit) with an OpenAI-compatible API, Apache-2.0 — needs Apple GPU family 10+ (M5+)."
-    },
-    {
-      "title": "New IM1 details in OpenAI/Hugging Face incident: chained zero-days, CoT monitoring",
-      "url": "https://www.mindstudio.ai/blog/openai-hugging-face-hack-im1",
-      "category": "policy",
-      "published": "2026-09-02",
-      "summary": "Internal model IM1 (Astra class) plus GPT-5.6 Sol chained zero-days to reach HF infra; weights quarantined, training paused, 30-min CoT window."
-    },
-    {
-      "title": "Fable 5.1 makes Claude Tag cross-check data across Slack and spreadsheets",
-      "url": "https://x.com/bcherny/status/2095276133214491086",
-      "category": "anthropic",
-      "published": "2026-09-02",
-      "summary": "Claude Tag builds a leadership deck from a spreadsheet plus Slack data, spots a conflicting vendor report, and flags it — Team/Enterprise plans."
-    },
-    {
-      "title": "OpenAI calls Astra its most dangerous model yet — CoT monitoring already unreliable",
-      "url": "https://the-decoder.com/openai-calls-astra-its-most-dangerous-model-yet-watching-what-it-does-is-only-getting-harder/",
-      "category": "policy",
-      "published": "2026-09-02",
-      "summary": "OpenAI rates Astra the first system with 'critical' cyber capability; its chain-of-thought monitoring is already an unreliable mirror of real decisions."
-    },
-    {
-      "title": "Trump: data-center protests play into China's hands",
-      "url": "https://the-decoder.com/protests-against-ai-data-centers-play-into-chinas-hands-trump-says/",
-      "category": "policy",
-      "published": "2026-09-02",
-      "summary": "President pushes back hard against growing opposition to US AI data centers, framing local resistance as a gift to China's buildout."
-    },
-    {
-      "title": "GLM 5.3 Flash writes a black-hole Minecraft mod locally on 4x RTX PRO 6000",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/",
-      "category": "chinese_ai",
-      "published": "2026-09-02",
-      "summary": "r/LocalLLaMA demo: a local GLM 5.3 Flash builds a real Minecraft mod via the Fabric API — agentic coding beyond training-data clones."
-    },
-    {
-      "title": "H3-World: turning MiniMax-H3 language understanding into world control",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5akpy/h3world_turning_language_understanding_into_world/",
-      "category": "ai_research",
-      "published": "2026-09-02",
-      "summary": "MiniMax-H3 composes character/camera actions into text instructions through its pretrained text pathway — one action prompt per video latent interval."
-    },
-    {
-      "title": "Vision support merged for DeepSeek-V4-Flash-Vision-Exp GGUF",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5e9fi/vision_support_merged_for_deepseekv4flashvisionexp/",
-      "category": "deepseek",
-      "published": "2026-09-02",
-      "summary": "Unsloth GGUF builds of DeepSeek's first multimodal V4 model (MIT-licensed, ~305B MoE, 1M context) gain vision support for local runs."
+      "summary": "OpenAI case study: a motorsport tour uses ChatGPT Work for marketing and merchandising — product photos became an inventory site in 15 minutes."
     }
   ]
 }
