@@ -1,106 +1,64 @@
 {
-  "updated_at": "2026-09-04T08:15:00+08:00",
+  "updated_at": "2026-09-04T13:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 14,
-  "tldr": "Morning batch (Sep 4): OpenAI shipped GPT-6 Astra — live for early orgs with broad ChatGPT/API/AWS rollout in days, the first model rated Critical for cyber and the one behind OpenAI's 'AGI era' declaration (~98.6% ARC-AGI-3); Nvidia confirmed its $12.9B Hugging Face acquisition, with HF staying independent and hardware-neutral. In governance, Sanders and Casar introduced a bill to ban superintelligent AI outright. Open-weight news: MBZUAI's IFM released the six-model K2 Horizon fleet (0.9B→375B, Apache-2.0) and Qwen 3.8 27B hit ~1,500 tokens/s on Cerebras. Tooling: Hermes Desktop gained one-click local model setup, Anthropic previewed deeper Claude Code extensibility and cut safeguard over-intervention ~85%/60%. Altman warned of 'unsustainable silliness' in the compute buildout, OpenAI committed $1B to frontline cyber defenders, and Claude Fable 5.1 cracked a cipher hidden since 1653.",
+  "article_count": 8,
+  "tldr": "Midday batch (Sep 4): GPT-6 Astra's API pricing is live at $10/$50 per MTok with a $1 cached-input rate — but prompts over 272K input tokens trigger 2x/1.5x multipliers on the whole request, a real budgeting trap for long-context agents. A new armature.tech study measured which tools Claude, Codex and Cursor actually install across 17k sandboxed runs (they agree only 42% of the time). Qwen released E-Commerce Bench (365-day autonomous storefronts run against fraudsters and real economics), Google open-sourced TimesFM-3 for native multivariate forecasting, and ik_llama.cpp merged MTP support that doubles Qwen3.8-Flash-Next to 90 tok/s on a 5090. LessWrong digs into Astra's recurrent architecture, while two HF papers explore self-evolving agent harnesses (HarnessDev) and distilling GitHub repos into agent skills (Repo-To-Skill).",
   "articles": [
     {
-      "title": "OpenAI launches GPT-6 Astra, declares the 'AGI era'",
-      "url": "https://openai.com/index/gpt-6-astra/",
+      "title": "GPT-6 Astra API pricing lands: $10/$50 per MTok",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
       "category": "ai_models",
-      "published": "2026-09-03",
-      "summary": "New flagship live for select orgs, broad ChatGPT/API/AWS rollout in days — first model rated Critical for cyber, ~98.6% ARC-AGI-3, 100K+ GPU training run."
+      "published": "2026-09-04",
+      "summary": "Astra at $10 in / $50 out per MTok, $1 cached — but >272K input tokens bill 2x/1.5x on the whole request. 1.05M context, 128K max output."
     },
     {
-      "title": "Nvidia confirms $12.9B Hugging Face acquisition",
-      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion",
-      "category": "industry",
+      "title": "Which tools do Claude, Codex and Cursor choose? 17k runs measured",
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "category": "agents_tooling",
       "published": "2026-09-03",
-      "summary": "Nvidia buys the open-model hub — 18M devs, 3M models; $11.9B to shareholders + $1B retention; HF stays independent and hardware-neutral."
+      "summary": "16,893 sandboxed sessions, 75 repos: agents agree on a tool only 42% of the time. Claude Code web-searches least but reads 3x more pages when it does."
     },
     {
-      "title": "MBZUAI's IFM ships K2 Horizon — six fully open models",
-      "url": "https://ifm.ai/blog/k2",
-      "category": "ai_models",
-      "published": "2026-09-03",
-      "summary": "Most complete open release yet: weights, code, data recipes for a 0.9B→375B fleet, Apache-2.0. MoVA 36B-A4B runs 4B active params at 512K context."
-    },
-    {
-      "title": "Sanders & Casar move to ban artificial superintelligence",
-      "url": "https://thehill.com/policy/technology/6069131-sanders-casar-ai-superintelligence-ban/",
-      "category": "policy",
-      "published": "2026-09-03",
-      "summary": "Bill would permanently ban superintelligent AI and pause advanced development until a new federal agency sets rules — up to 20 years for individuals."
-    },
-    {
-      "title": "Qwen 3.8 27B on Cerebras hits ~1,500 tokens/s",
-      "url": "https://news.ycombinator.com/item?id=49554520",
+      "title": "Qwen's E-Commerce Bench: agents run stores for 365 days",
+      "url": "https://x.com/Alibaba_Qwen/status/2095476249556853100",
       "category": "chinese_ai",
       "published": "2026-09-03",
-      "summary": "Qwen 3.8 27B served at ~1,500 tokens/sec on Cerebras — but HN flags flaky tool-calling and a 450K-token/min cap that counts cached reads."
+      "summary": "Long-horizon business benchmark: agents start with ¥100,000, run online stores for a year — sourcing, pricing, inventory, 152 fraudsters among suppliers."
     },
     {
-      "title": "Altman warns of 'unsustainable silliness' in compute buildout",
-      "url": "https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/",
-      "category": "industry",
-      "published": "2026-09-03",
-      "summary": "Too many neoclouds are announcing massive capacity without customers to back it; falling compute costs could turn billion-dollar projects into bad bets."
-    },
-    {
-      "title": "Hermes Desktop sets up local models in one click",
-      "url": "https://x.com/NousResearch/status/2095602995874410664",
-      "category": "hermes_nous",
-      "published": "2026-09-03",
-      "summary": "NousResearch: Hermes Desktop auto-detects hardware, picks the best local model, then downloads and configures the runtime — no manual setup."
-    },
-    {
-      "title": "Anthropic previews a much more extensible Claude Code",
-      "url": "https://x.com/bcherny/status/2095590515765060076",
-      "category": "anthropic",
-      "published": "2026-09-03",
-      "summary": "Early look at deeper Claude Code extensibility — 'a little crazy, and very exciting' — feedback solicited via anthropics/claude-code issue #91870."
-    },
-    {
-      "title": "Anthropic cuts safety over-intervention ~85%",
-      "url": "https://x.com/bcherny/status/2094864063478276288",
-      "category": "anthropic",
-      "published": "2026-09-01",
-      "summary": "Biology safeguards now stop benign requests 85% less often than at Fable 5 launch; Claude Code sessions see ~60% fewer cyber interventions."
-    },
-    {
-      "title": "Claude Fable 5.1 decodes a royalist message hidden since 1653",
-      "url": "https://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653/",
-      "category": "anthropic",
-      "published": "2026-09-03",
-      "summary": "Anthropic's Claude Fable 5.1 cracks a centuries-old number puzzle researchers had considered unsolved, hidden in plain sight since 1653."
-    },
-    {
-      "title": "OpenAI commits $1B to protect frontline essential services",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "category": "policy",
-      "published": "2026-09-03",
-      "summary": "Daybreak for Frontline Defenders: $1B to expand frontier cyber AI, training and support for essential services — days after Astra's Critical cyber rating."
-    },
-    {
-      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3 — ARC Prize analysis",
-      "url": "https://arcprize.org/blog/astra",
-      "category": "ai_research",
-      "published": "2026-09-03",
-      "summary": "ARC Prize's independent take on GPT-6 Astra's 98.6% ARC-AGI-3 score — the eval detail behind OpenAI's headline generalization claims."
-    },
-    {
-      "title": "MoE trick: more active experts per token cuts reasoning tokens 8.5%",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6lk6z/increasing_active_parameters_per_token_in_moe/",
-      "category": "ai_research",
-      "published": "2026-09-03",
-      "summary": "New paper: expanding the expert-selection budget at runtime — no retraining — reduced reasoning tokens ~8.5% on Qwen 35B-A4B+ sparse MoE models."
-    },
-    {
-      "title": "sanoTTS: complete TTS in 294k params that runs on a $3 chip",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6lmmg/i_released_sanotts_smallest_complete_tts_stack_in/",
+      "title": "Google releases TimesFM-3 for native multivariate forecasting",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6hlpt/google_released_timesfm3_a_330mparameter_time/",
       "category": "ai_models",
       "published": "2026-09-03",
-      "summary": "Smallest complete TTS stack: 294k params (337KB) on a $3 microcontroller with 512KB SRAM; the 1.46M variant beats models 3–10x its size."
+      "summary": "TimesFM-3 is a 330M-param time-series foundation model handling multiple targets and covariates natively (vs single-series in 2.5); non-commercial license."
+    },
+    {
+      "title": "ik_llama.cpp merges MTP: Qwen3.8-Flash-Next doubles to 90 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6ccgs/qwen38flashnext_mtp_merged_in_ik_llamacpp/",
+      "category": "chinese_ai",
+      "published": "2026-09-03",
+      "summary": "Multi-token prediction now on main in ik_llama.cpp (PR #2369) — 45 → 90 tok/s on a 5090 + 128GB, still usable down to a 12GB 4070."
+    },
+    {
+      "title": "How concerned should we be about Astra's recurrent architecture?",
+      "url": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
+      "category": "ai_research",
+      "published": "2026-09-03",
+      "summary": "LessWrong thread (103 pts, 61 comments) on safety and interpretability implications of Astra's recurrent design vs standard transformer stacks."
+    },
+    {
+      "title": "HarnessDev: can LLMs create and evolve their own agent harnesses?",
+      "url": "https://huggingface.co/papers/2609.01437",
+      "category": "ai_research",
+      "published": "2026-09-04",
+      "summary": "New HF paper (2609.01437) on self-improving agent scaffolding — models generating and iterating on their own harness code rather than using fixed tooling."
+    },
+    {
+      "title": "Repo-To-Skill: distilling GitHub repositories into agent skills",
+      "url": "https://huggingface.co/papers/2609.02749",
+      "category": "agents_tooling",
+      "published": "2026-09-04",
+      "summary": "DisCo distilled 1,000 ML repos into 5,000+ verified skills — the same agent scores +134% on MLE-bench with skills vs without."
     }
   ]
 }
