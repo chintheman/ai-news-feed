@@ -1,71 +1,36 @@
 {
-  "updated_at": "2026-09-05T08:15:00+08:00",
+  "updated_at": "2026-09-05T13:20:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 9,
-  "tldr": "Morning batch (Sep 5): Anthropic's Claude produced the first complete computer-checked proof of Fermat's Last Theorem — 11 days of largely autonomous work, 13M lines of Lean, 29,500 theorems coordinated by a Prove2Me multi-agent harness, a landmark for AI formal mathematics. OpenAI expanded GPT-6 Astra to GA: live in the API and for Pro/Enterprise/Business Premium in ChatGPT Work and Codex, while an independent eval found Astra still falls to hidden in-document prompt injections 8.5% of the time (Claude Opus 5: 4.8%). DeepSeek plans a 160,000-chip Huawei Ascend-950DT inference cluster in Inner Mongolia — the largest known Huawei deployment, though delivery likely lags a year. Ant Group open-sourced Ling-3.0-flash-VL (vision + visual agent on the 124B MoE), and the community datapoints on Qwen3.8-27B keep landing: a 21-variant 16GB-VRAM quant shootout (bartowski IQ4_XS best) and an 8-hour uninterrupted agentic run called the first local model worth 'blindly trusting'. Garry Tan moved GStack's remote sessions to AsideAI's agent browser.",
+  "article_count": 4,
+  "tldr": "Midday batch (Sep 5): OpenAI is under scrutiny after Fortune tracked post-launch edits to GPT-6 Astra's benchmark post — the coding score was nudged up 57.7 to 57.9% and some rival comparisons down, with Stanford researchers flagging 'benchmaxxing' and the system card thin on eval method. Google patched CVE-2026-85046, an already-exploited Chrome zero-day (V8 type-confusion, CVSS 8.8) now on CISA's KEV list — worth watching beyond browsers since Chromium is the substrate under agent tooling. Nous Research teased an open-source-harness announcement ('wait till they learn'), days after Teknium's Hermes Agent self-refactor shed 375K lines, and the community logged Qwen3.8-Flash-Next running fully on-device on a phone CPU.",
   "articles": [
     {
-      "title": "Claude formalizes Fermat's Last Theorem — first complete computer-checked proof",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "category": "anthropic",
-      "published": "2026-09-04",
-      "summary": "Claude worked largely autonomously for 11 days, writing 13M lines of Lean and 29,500 theorems via a multi-agent Prove2Me harness — the largest Lean proof ever built."
-    },
-    {
-      "title": "GPT-6 Astra reaches GA: live in API and ChatGPT Work + Codex for Pro/Enterprise",
-      "url": "https://x.com/OpenAI/status/2095968413646737608",
+      "title": "OpenAI quietly boosted Astra's benchmark numbers post-launch",
+      "url": "https://fortune.com/2026/09/04/openai-quietly-boosts-some-of-astras-evaluation-metrics-amid-rare-delay-in-publication-of-the-modeblog-post-announcement/",
       "category": "ai_models",
       "published": "2026-09-04",
-      "summary": "OpenAI expanded Astra from limited orgs to all Pro, Enterprise and Business Premium users in ChatGPT Work and Codex, switched on in the API; Plus/Business land within days."
+      "summary": "Post-launch edits to Astra's Sep 3 benchmark post: coding up 57.7 to 57.9%, some rival comparisons down — Stanford researchers flag 'benchmaxxing'."
     },
     {
-      "title": "DeepSeek plans largest known Huawei chip cluster — 160,000 Ascend processors in Inner Mongolia",
-      "url": "https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/",
-      "category": "deepseek",
+      "title": "Google patches actively exploited Chrome zero-day (CVE-2026-85046)",
+      "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks",
+      "category": "platforms_integration",
       "published": "2026-09-04",
-      "summary": "Inference-only data center on Ascend-950DT would be the biggest Huawei deployment on record — but production bottlenecks likely delay delivery by over a year."
+      "summary": "V8 type-confusion (CVSS 8.8) already exploited in the wild and on CISA's KEV list; Chromium underpins agent browsers — update to 152.0.7977.82+."
     },
     {
-      "title": "GPT-6 Astra hallucinates less but hidden prompt injections still crack it",
-      "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
-      "category": "ai_models",
-      "published": "2026-09-04",
-      "summary": "Astra blocks 99.99% of direct prompt injections but attacks hidden in documents still succeed 8.5% of the time — Claude Opus 5 fares better at 4.8%."
+      "title": "Nous Research teases open-source harnesses for Hermes Agent",
+      "url": "https://x.com/NousResearch/status/2096060060099096946",
+      "category": "hermes_nous",
+      "published": "2026-09-05",
+      "summary": "Sep 5 tease: 'wait till they learn about open source harnesses' — hot on Teknium's 375K-line Hermes self-refactor; announcement expected within days."
     },
     {
-      "title": "Ant Group ships Ling-3.0-flash-VL — vision and visual-agent abilities on the 124B MoE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7c6u4/ling30flashvl_built_on_ling30flash_with_visual/",
+      "title": "Qwen3.8-Flash-Next runs fully local on a phone CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7aoau/qwen38flashnext_on_a_phone_cpu/",
       "category": "chinese_ai",
       "published": "2026-09-04",
-      "summary": "Ling-3.0-flash-VL adds visual understanding and agentic tasks to Ant's sparse Ling-3.0-flash: perception, STEM reasoning, document intelligence, multimodal agents, frontend coding."
-    },
-    {
-      "title": "21 Qwen3.8-27B variants benchmarked on 16GB VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7ee1c/i_benchmarked_21_qwen38_27b_variants_on_16gb_vram/",
-      "category": "chinese_ai",
-      "published": "2026-09-04",
-      "summary": "Quant shootout on an RTX 5080 running real C code: bartowski/Qwen3.8-27B-IQ4_XS best overall, best uncensored from huihui-ai — some quants clearly underwhelmed."
-    },
-    {
-      "title": "Qwen3.8-27B runs 8+ hours of agentic work uninterrupted — 'first local model I blindly trust'",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w78dmn/qwen3827b_is_the_first_local_model_im_able_to/",
-      "category": "chinese_ai",
-      "published": "2026-09-04",
-      "summary": "Community datapoint on local agent reliability: continuous multi-step work without supervision and zero derailments — a trust signal for local agentic stacks."
-    },
-    {
-      "title": "Can AI design circuit boards yet? EEBench puts it to the test",
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
-      "category": "ai_research",
-      "published": "2026-09-04",
-      "summary": "New benchmark evaluates LLMs on real PCB/electronics design work — early results show where frontier models help and where they still fall short (110+ HN points)."
-    },
-    {
-      "title": "Garry Tan: GStack picks AsideAI browser as preferred remote-session browser",
-      "url": "https://x.com/garrytan/status/2095948689823121872",
-      "category": "agents_tooling",
-      "published": "2026-09-04",
-      "summary": "YC's Garry Tan calls AsideAI the best agent-browser combo he's found — credentials, integrations, harness and memory in one tool, now powering GStack's remote sessions."
+      "summary": "Xiaomi 14T Pro runs Flash-Next fully on-device (IQ3_XXS via BigMoeOnEdge) — another efficiency datapoint for the MoE on constrained hardware."
     }
   ]
 }
