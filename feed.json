@@ -9,21 +9,21 @@
       "url": "https://financialpost.com/financial-times/anthropic-investors-bet-valuation-ipo",
       "category": "industry",
       "published": "2026-09-06",
-      "summary": "FT: backers expect a $2T+ October float — the largest listing ever, topping SpaceX's $1.77T debut. Morgan Stanley and Goldman Sachs closing in as leads."
+      "summary": "FT: backers expect a $2T+ October float, topping SpaceX's $1.77T debut. Morgan Stanley and Goldman Sachs closing in as leads."
     },
     {
       "title": "OpenAI's AGI number came from a harness, not the model",
       "url": "https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions",
       "category": "ai_models",
       "published": "2026-09-06",
-      "summary": "ARC Prize ran Astra: 62.7% under the standard harness vs 99.9% under OpenAI's adapter — same weights, different scaffolding. Even a zero-reasoning adapter run beat max-reasoning standard."
+      "summary": "ARC Prize ran Astra: 62.7% under standard harness vs 99.9% with OpenAI's adapter — same weights. Zero-reasoning beat max-reasoning."
     },
     {
       "title": "Hermes Agent sheds 400K lines via 1,396 recursive subagents",
       "url": "https://x.com/Teknium/status/2096704726381563931",
       "category": "hermes_nous",
       "published": "2026-09-06",
-      "summary": "Teknium's 19-hour /goal refactor removed 400K lines with 1,396 recursive subagents, merged to prod a day later with few problems — a scale datapoint for long-horizon agent ops."
+      "summary": "19-hour /goal refactor removed 400K lines via 1,396 recursive subagents, merged to prod a day later — a scale datapoint for long-horizon agent ops."
     }
   ]
 }
