@@ -1,78 +1,36 @@
 {
-  "updated_at": "2026-09-06T21:18:00+08:00",
+  "updated_at": "2026-09-07T08:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 10,
-  "tldr": "Evening batch (Sep 6) — the week's heaviest stories get their health-and-safety edges. Psychiatry researchers push for an 'AI-associated psychosis' clinical diagnosis (KCL/UCL; OpenAI self-reports ~560K users/week showing psychosis or mania signs) — a documented harm vector for anyone shipping companion agents. OpenAI dev Thibault Sottiaux says pre-GA Astra was 'probably our biggest competitive advantage', pulling internal plans forward six months to ship at DevDay. Abliteration.ai turns guardrail-stripping into a turnkey paid service on open-weight GLM-5.3 — journalists generated malware instructions without restriction. Fresh model drops: Google's WeatherNext 3 learns weather directly from live satellite data (no physics sims, 5km hourly forecasts), Lyria 3.5 brings music generation into the Gemini app, and Meta Superintelligence Labs' Muse Voice Transcribe does 80ms-chunk real-time streaming transcription with speaker separation. Gemini Spark expands to managing your Google Photos library. Hermes Agent adds per-model provider pinning for OpenRouter. YC announces an 'Own Your Intelligence' hackathon (Sep 27, SF).",
+  "article_count": 4,
+  "tldr": "Morning batch (Sep 7) — OpenAI's Sunday transparency drop dominates a quiet overnight. The lab says it reached its 'automated research intern' milestone (multi-day agentic tasks under human direction; median researcher now runs >$600/day of inference, 3.1 agent-workdays per human day) and reveals it paused RL training on deployment-bound models after July's research-infra breach. Chief scientist Jakub Pachocki's 'An Alien Mind' essay goes further: capability jumps 'of equal or larger magnitude,' self-driven development, and safety bars that are 'widely mandated,' not voluntary. Anthropic's $1.5B copyright settlement starts paying out and authors push back — publishers claim books whose rights reverted years ago while literary agencies with no rights demand cuts; an arbitrator decides ~482K titles. Jensen Huang calls GPT-6 Astra's 100K+ GB200 training run 'AGI has arrived' — but the 400K extra GPUs carry no buyer, site or date, a capacity story more than a model story.",
   "articles": [
     {
-      "title": "Psychiatry debates whether 'AI-associated psychosis' should be a diagnosis",
-      "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "title": "OpenAI hits its 'automated research intern' goal — and reveals an RL-training pause",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "category": "ai_research",
       "published": "2026-09-06",
-      "summary": "KCL/UCL argue heavy chatbot use can trigger psychotic symptoms; OpenAI self-reports ~560K users/week showing signs — an 'echo chamber of one'."
+      "summary": "Rare Sunday transparency drop: multi-day agentic research tasks now work under human direction, but OpenAI paused RL training on deployment-bound models after July's research-infra breach."
     },
     {
-      "title": "OpenAI developer: Astra pulled internal plans forward by six months",
-      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
-      "category": "ai_models",
-      "published": "2026-09-06",
-      "summary": "Sottiaux calls pre-GA Astra OpenAI's 'biggest competitive advantage' — internal use moved some roadmap plans up six months to DevDay."
-    },
-    {
-      "title": "Stripping safety guardrails from open-weight models is now a turnkey service",
-      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
+      "title": "Pachocki's 'An Alien Mind': capability jumps, self-driven development, mandated safety bars",
+      "url": "https://openai.com/index/an-alien-mind",
       "category": "policy",
       "published": "2026-09-06",
-      "summary": "Abliteration.ai sells refusal-free open-weight GLM-5.3 access for red teams — journalists generated password-stealer code and a pathogen protocol unrestrained."
+      "summary": "OpenAI's chief scientist argues capability jumps 'of equal or larger magnitude' are ahead, development becomes self-driven, and safety bars must be 'widely mandated' — not voluntary."
     },
     {
-      "title": "Google's WeatherNext 3 learns weather directly from live satellite data",
-      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
-      "category": "ai_models",
+      "title": "Authors push back as publishers and agents grab for Anthropic's $1.5B payout",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "category": "anthropic",
       "published": "2026-09-06",
-      "summary": "Google Research/DeepMind drop physics simulations for live satellite learning — hourly forecasts up to 5km resolution."
+      "summary": "July-approved settlement is paying out; authors say publishers claim reverted-rights books (April Henry vs HarperCollins) while rights-free agencies demand cuts. Arbitrator decides ~482K titles."
     },
     {
-      "title": "Google's Lyria 3.5 music model lands in the Gemini app and API",
-      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
-      "category": "ai_models",
-      "published": "2026-09-06",
-      "summary": "More expressive vocals and richer arrangements — available via Gemini, Flow Music, AI Studio and Google Vids; Google says trained only on licensed content."
-    },
-    {
-      "title": "Meta's Muse Voice Transcribe: real-time audio for assistants that never stop listening",
-      "url": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
-      "category": "ai_models",
-      "published": "2026-09-06",
-      "summary": "Meta's streaming transcription processes speech in 80ms chunks, separates speakers, detects sentence boundaries — most accurate per Artificial Analysis."
-    },
-    {
-      "title": "Gemini Spark can now manage your Google Photos library",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "category": "platforms_integration",
-      "published": "2026-09-04",
-      "summary": "Google's personal agent searches, curates, edits and shares photos, runs recurring workflows — edits save as new copies, originals untouched."
-    },
-    {
-      "title": "Hermes Agent adds per-model provider pinning for OpenRouter",
-      "url": "https://x.com/Teknium/status/2096569635948900404",
-      "category": "hermes_nous",
-      "published": "2026-09-06",
-      "summary": "Constrain specific models to specific OpenRouter providers without a global lock — tighter cost/routing control for multi-provider agent runs."
-    },
-    {
-      "title": "LLMs as a Cognitive Virus — arxiv paper models AI dependence as an epidemic",
-      "url": "https://arxiv.org/abs/2609.03344",
-      "category": "ai_research",
-      "published": "2026-09-05",
-      "summary": "Epidemiological math for LLM adoption — uncoupled/coupled/dependent users, tipping points, 'cognitive immunization'; 237-pt HN discussion pushed back."
-    },
-    {
-      "title": "YC announces 'Own Your Intelligence' hackathon — agents, models and memory",
-      "url": "https://x.com/garrytan/status/2096283493764665350",
+      "title": "Huang: 'AGI has arrived' — Astra trained on 100K+ GB200s, 400K more coming",
+      "url": "https://x.com/JensenHuang/status/2096700264569090384",
       "category": "industry",
-      "published": "2026-09-05",
-      "summary": "Garry Tan: build and own your own agent, models and memory — YC hackathon Sep 27 in SF; a signal YC's agent thesis is moving to owning the full stack."
+      "published": "2026-09-06",
+      "summary": "Nvidia CEO's Sunday reply: 'From ChatGPT to o1 to Astra in 4 years. AGI has arrived.' But the 400K extra GPUs carry no buyer, site or date — capacity and power are the real story."
     }
   ]
 }
