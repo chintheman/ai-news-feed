@@ -1,36 +1,29 @@
 {
-  "updated_at": "2026-09-07T08:15:00+08:00",
+  "updated_at": "2026-09-07T13:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 4,
-  "tldr": "Morning batch (Sep 7) — OpenAI's Sunday transparency drop dominates a quiet overnight. The lab says it reached its 'automated research intern' milestone (multi-day agentic tasks under human direction; median researcher now runs >$600/day of inference, 3.1 agent-workdays per human day) and reveals it paused RL training on deployment-bound models after July's research-infra breach. Chief scientist Jakub Pachocki's 'An Alien Mind' essay goes further: capability jumps 'of equal or larger magnitude,' self-driven development, and safety bars that are 'widely mandated,' not voluntary. Anthropic's $1.5B copyright settlement starts paying out and authors push back — publishers claim books whose rights reverted years ago while literary agencies with no rights demand cuts; an arbitrator decides ~482K titles. Jensen Huang calls GPT-6 Astra's 100K+ GB200 training run 'AGI has arrived' — but the 400K extra GPUs carry no buyer, site or date, a capacity story more than a model story.",
+  "article_count": 3,
+  "tldr": "Midday batch (Sep 7) — Anthropic's $2T IPO firms up: FT reports half a dozen backers expect an October float topping SpaceX's $1.77T record debut, Morgan Stanley and Goldman Sachs closing in as leads, S-1 paperwork could hit the SEC this week — backers model $100-120B exit-2026 revenue at ~30x sales. On benchmarks, ARC Prize ran Astra itself and found the 'AGI has arrived' number was harness-dependent: 62.7% under the standard harness vs 99.9% under OpenAI's adapter — same weights, different scaffolding, and even a zero-reasoning adapter run beat the max-reasoning standard one. Teknium discloses the full scale of the Hermes Agent self-refactor: 400,000 lines removed via 1,396 recursive subagents over 19 hours on one desktop, merged to prod a day later with almost no issues — the recursive-subagent reliability story keeps scaling.",
   "articles": [
     {
-      "title": "OpenAI hits its 'automated research intern' goal — and reveals an RL-training pause",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "category": "ai_research",
-      "published": "2026-09-06",
-      "summary": "Rare Sunday transparency drop: multi-day agentic research tasks now work under human direction, but OpenAI paused RL training on deployment-bound models after July's research-infra breach."
-    },
-    {
-      "title": "Pachocki's 'An Alien Mind': capability jumps, self-driven development, mandated safety bars",
-      "url": "https://openai.com/index/an-alien-mind",
-      "category": "policy",
-      "published": "2026-09-06",
-      "summary": "OpenAI's chief scientist argues capability jumps 'of equal or larger magnitude' are ahead, development becomes self-driven, and safety bars must be 'widely mandated' — not voluntary."
-    },
-    {
-      "title": "Authors push back as publishers and agents grab for Anthropic's $1.5B payout",
-      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "category": "anthropic",
-      "published": "2026-09-06",
-      "summary": "July-approved settlement is paying out; authors say publishers claim reverted-rights books (April Henry vs HarperCollins) while rights-free agencies demand cuts. Arbitrator decides ~482K titles."
-    },
-    {
-      "title": "Huang: 'AGI has arrived' — Astra trained on 100K+ GB200s, 400K more coming",
-      "url": "https://x.com/JensenHuang/status/2096700264569090384",
+      "title": "Anthropic's $2T IPO firms up — S-1 could land this week",
+      "url": "https://financialpost.com/financial-times/anthropic-investors-bet-valuation-ipo",
       "category": "industry",
       "published": "2026-09-06",
-      "summary": "Nvidia CEO's Sunday reply: 'From ChatGPT to o1 to Astra in 4 years. AGI has arrived.' But the 400K extra GPUs carry no buyer, site or date — capacity and power are the real story."
+      "summary": "FT: backers expect a $2T+ October float — the largest listing ever, topping SpaceX's $1.77T debut. Morgan Stanley and Goldman Sachs closing in as leads."
+    },
+    {
+      "title": "OpenAI's AGI number came from a harness, not the model",
+      "url": "https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions",
+      "category": "ai_models",
+      "published": "2026-09-06",
+      "summary": "ARC Prize ran Astra: 62.7% under the standard harness vs 99.9% under OpenAI's adapter — same weights, different scaffolding. Even a zero-reasoning adapter run beat max-reasoning standard."
+    },
+    {
+      "title": "Hermes Agent sheds 400K lines via 1,396 recursive subagents",
+      "url": "https://x.com/Teknium/status/2096704726381563931",
+      "category": "hermes_nous",
+      "published": "2026-09-06",
+      "summary": "Teknium's 19-hour /goal refactor removed 400K lines with 1,396 recursive subagents, merged to prod a day later with few problems — a scale datapoint for long-horizon agent ops."
     }
   ]
 }
