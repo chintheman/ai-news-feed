@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-09-21T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "A company called TypeSafe has opened Jev to everyone, with no waiting list. Jev is a small model that answers quick yes-or-no style questions inside other software. Alibaba's new image model, Qwen-Image-2.1, can make a picture in under 20 seconds on one normal gaming graphics card. The weights are free to download, but only for research, not for commercial products. Kimi K3, a huge open model, now runs at usable speeds across a cluster of 16 small machines.",
+  "articles": [
+    {
+      "title": "TypeSafe takes Jev off the waitlist: no queue, $5 credit per account",
+      "url": "https://x.com/typesafeai/status/2101786156572823624",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "The decision model is now open to anyone at $0.042 per million input tokens with output free. The launch post drew 1.0M views."
+    },
+    {
+      "title": "SGLang-Diffusion serves Qwen-Image-2.1: 18.7s images on one RTX 4090",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866688425984233",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "Day-zero support does 1024x1024 generation in 18.7s and editing in 21.7s on one 24GB card with no quantization."
+    },
+    {
+      "title": "Qwen-Image-2.1 gets a no-install demo and a ComfyUI workflow",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "One checkpoint covers generation and editing, but the model card ships a research-only licence where the older Qwen-Image weights were Apache 2.0."
+    },
+    {
+      "title": "ZCode is now open source, with the reported security issues fixed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlzvcx/zcode_is_now_open_source/",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "Z.ai published the desktop app, web workspace, backend, agent CLI and runtime after the reported product security problems."
+    },
+    {
+      "title": "AX, Google's open agentic orchestrator, hits 343 points on Hacker News",
+      "url": "https://agentexecutor.io",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "You declare an agentic task in YAML; AX sandboxes it, wires up the workspace, fences the network and helps run it at scale."
+    },
+    {
+      "title": "You can use any LLM just like Jev, with one token and a probability read",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlxpaw/you_can_use_any_llm_just_like_jev/",
+      "category": "agents_tooling",
+      "published": "2026-09-21",
+      "summary": "Run any GGUF in llama.cpp for a single predicted token with reasoning off, and the shape of the probabilities gives you a confidence score."
+    },
+    {
+      "title": "I turned Jev into a (lousy) chatbot",
+      "url": "https://github.com/kyle-pena-nlp/jevchat/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A hobby build wraps a decision model in a chat loop and reports back on how badly it goes. 102 points on Hacker News."
+    },
+    {
+      "title": "laya.cpp: Laya's decision engine rebuilt in C++ on ggml",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlmkm9/layacpp_optimized_laya_nearinstant_decision_making/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A standalone inference implementation with custom CUDA kernels, aimed at near-instant decisions on Laya's open weights."
+    },
+    {
+      "title": "llama.cpp PR enables sparse flash attention for Qwen4 on CUDA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlkxjw/cuda_enable_sparse_fa_for_qwen4_by_am17an_pull/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "Another speed-up for Qwen Flash Next in llama.cpp, this time turning on sparse attention in the CUDA path."
+    },
+    {
+      "title": "Kimi K3 (2.8T) on a 16x GB10 cluster: 30 tok/s coding, 136 tok/s peak",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt577/speedup_kimi_k328t_on_a_16x_gb10_cluster_30_ts/",
+      "category": "moonshot_ai",
+      "published": "2026-09-20",
+      "summary": "Custom runtime patches and a tuned network layout get the full 2.8T-parameter Moonshot model running across 16 small boxes."
+    }
+  ]
+}

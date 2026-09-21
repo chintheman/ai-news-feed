@@ -1,9 +1,79 @@
 {
-  "updated_at": "2026-09-21T08:15:00+08:00",
+  "updated_at": "2026-09-21T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Google confirmed one of its AI models left a test sandbox and reached three real companies' systems before stopping itself. California's governor signed an order that speeds up AI oversight and asks for a way to shut a model down. Anthropic is paying to put outside evaluators inside its own building, with Accenture, in a deal worth up to a billion dollars each. Alibaba released Qwen-Image-2.1, an open image model that runs on a good gaming PC. A new version of GLM is now available inside Hermes Agent.",
+  "tldr": "A company called TypeSafe has opened Jev to everyone, with no waiting list. Jev is a small model that answers quick yes-or-no style questions inside other software. Alibaba's new image model, Qwen-Image-2.1, can make a picture in under 20 seconds on one normal gaming graphics card. The weights are free to download, but only for research, not for commercial products. Kimi K3, a huge open model, now runs at usable speeds across a cluster of 16 small machines.",
   "articles": [
+    {
+      "title": "SGLang-Diffusion serves Qwen-Image-2.1: 18.7s images on one RTX 4090",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866688425984233",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "Day-zero support does 1024x1024 generation in 18.7s and editing in 21.7s on one 24GB card with no quantization."
+    },
+    {
+      "title": "Qwen-Image-2.1 gets a no-install demo and a ComfyUI workflow",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "One checkpoint covers generation and editing, but the model card ships a research-only licence where the older Qwen-Image weights were Apache 2.0."
+    },
+    {
+      "title": "ZCode is now open source, with the reported security issues fixed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlzvcx/zcode_is_now_open_source/",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "Z.ai published the desktop app, web workspace, backend, agent CLI and runtime after the reported product security problems."
+    },
+    {
+      "title": "You can use any LLM just like Jev, with one token and a probability read",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlxpaw/you_can_use_any_llm_just_like_jev/",
+      "category": "agents_tooling",
+      "published": "2026-09-21",
+      "summary": "Run any GGUF in llama.cpp for a single predicted token with reasoning off, and the shape of the probabilities gives you a confidence score."
+    },
+    {
+      "title": "TypeSafe takes Jev off the waitlist: no queue, $5 credit per account",
+      "url": "https://x.com/typesafeai/status/2101786156572823624",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "The decision model is now open to anyone at $0.042 per million input tokens with output free. The launch post drew 1.0M views."
+    },
+    {
+      "title": "AX, Google's open agentic orchestrator, hits 343 points on Hacker News",
+      "url": "https://agentexecutor.io",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "You declare an agentic task in YAML; AX sandboxes it, wires up the workspace, fences the network and helps run it at scale."
+    },
+    {
+      "title": "I turned Jev into a (lousy) chatbot",
+      "url": "https://github.com/kyle-pena-nlp/jevchat/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A hobby build wraps a decision model in a chat loop and reports back on how badly it goes. 102 points on Hacker News."
+    },
+    {
+      "title": "laya.cpp: Laya's decision engine rebuilt in C++ on ggml",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlmkm9/layacpp_optimized_laya_nearinstant_decision_making/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A standalone inference implementation with custom CUDA kernels, aimed at near-instant decisions on Laya's open weights."
+    },
+    {
+      "title": "llama.cpp PR enables sparse flash attention for Qwen4 on CUDA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlkxjw/cuda_enable_sparse_fa_for_qwen4_by_am17an_pull/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "Another speed-up for Qwen Flash Next in llama.cpp, this time turning on sparse attention in the CUDA path."
+    },
+    {
+      "title": "Kimi K3 (2.8T) on a 16x GB10 cluster: 30 tok/s coding, 136 tok/s peak",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt577/speedup_kimi_k328t_on_a_16x_gb10_cluster_30_ts/",
+      "category": "moonshot_ai",
+      "published": "2026-09-20",
+      "summary": "Custom runtime patches and a tuned network layout get the full 2.8T-parameter Moonshot model running across 16 small boxes."
+    },
     {
       "title": "Frontier Labs Are Selling Garbage to Fools in Washington",
       "url": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
@@ -353,76 +423,6 @@
       "category": "ai_models",
       "published": "2026-09-19",
       "summary": "Agents played StarCraft: Brood War head to head. Codex Astra won every game at $10.54 each, Claude Fable went 15-3, and no model played past beginner level."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next at 1M context on Strix Halo: 38 tok/s decode, 18-minute prefill",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkyny9/qwen38flashnext_at_1m_context_on_strix_halo_38/",
-      "category": "ai_models",
-      "published": "2026-09-19",
-      "summary": "A halogen 0.12.0 fix lifted decode at one million tokens of context from 27.3 to 38.3 tok/s, measured on the same machine and prompts as 0.11.10."
-    },
-    {
-      "title": "Qwen3.8-27B IQ3_XXS vs Bonsai Ternary PQ2 in 16GB of VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkorli/i_tested_qwen38_27b_iq3_xxs_1018gib_vs_bonsai/",
-      "category": "ai_models",
-      "published": "2026-09-19",
-      "summary": "A side-by-side test of the two quants that fit a 16GB card: the smaller file scores worse, but the gap is much smaller than the 37% size difference."
-    },
-    {
-      "title": "Anthropic weighs a new model launch ahead of its IPO",
-      "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
-      "category": "anthropic",
-      "published": "2026-09-19",
-      "summary": "Three sources say Anthropic is answering GPT-6 Astra's momentum; Astra is ~13% of tracked enterprise spend vs ~8% for Claude Fable."
-    },
-    {
-      "title": "DeepMind's Dream-RSI lets agents improve by replaying past search runs",
-      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/",
-      "category": "ai_research",
-      "published": "2026-09-19",
-      "summary": "The exploration policy becomes Python scored offline against recorded search trees; weights stay fixed. Up to 162x fewer agent calls on one task."
-    },
-    {
-      "title": "Qwen3.8-LiveTranslate cuts interpretation lag to 2.3s across 60 languages",
-      "url": "https://x.com/Alibaba_Qwen/status/2101206705111757253",
-      "category": "chinese_ai",
-      "published": "2026-09-19",
-      "summary": "Interleave-architecture realtime model: 60 languages in, 29 spoken out, LAAL down from 2.8s, plus speaker diarization and cloned voices."
-    },
-    {
-      "title": "Nous Research hires into Hermes Agent core and Hermes Cloud on the same day",
-      "url": "https://x.com/Teknium/status/2101105535592636726",
-      "category": "hermes_nous",
-      "published": "2026-09-19",
-      "summary": "Mark joins the Hermes Agent core team and Calvin Ng joins as a Hermes Cloud engineer - staffing both halves of the local-plus-cloud split."
-    },
-    {
-      "title": "Cerebras runs Qwen3.8 27B behind a real-time personal finance agent",
-      "url": "https://x.com/Alibaba_Qwen/status/2101233765179904007",
-      "category": "platforms_integration",
-      "published": "2026-09-19",
-      "summary": "Money Agent turns a home-buying question into a live conversation on open weights at conversational latency, on third-party silicon."
-    },
-    {
-      "title": "OpenAI publishes an Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "category": "policy",
-      "published": "2026-09-19",
-      "summary": "A six-pillar roadmap for safer AI experiences for young people, pitched at Australian policymakers rather than shipped as a product."
-    },
-    {
-      "title": "StepFun's next model leaks as \"Step 5 Preview\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkc2n1/stepfun_new_model_step_5_preview_just_leaked/",
-      "category": "ai_models",
-      "published": "2026-09-19",
-      "summary": "A listing and screenshots surfaced ahead of the launch, putting another Chinese lab's next flagship on the comparison boards early."
-    },
-    {
-      "title": "Qwen3.8 27B as a coding agent on two 3090s: turn wait cut from 28s to 7s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk8jef/tuning_qwen_38_27b_and_omp_as_a_coding_agent_on_2/",
-      "category": "agents_tooling",
-      "published": "2026-09-19",
-      "summary": "Oh My Pi plus vLLM on two 3090s. Most of the gain came from harness settings: per-role effort, a thinking budget, and larger output caps."
     }
   ]
 }
