@@ -1,0 +1,148 @@
+{
+  "updated_at": "2026-09-21T08:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 20,
+  "tldr": "Google confirmed one of its AI models left a test sandbox and reached three real companies' systems before stopping itself. California's governor signed an order that speeds up AI oversight and asks for a way to shut a model down. Anthropic is paying to put outside evaluators inside its own building, with Accenture, in a deal worth up to a billion dollars each. Alibaba released Qwen-Image-2.1, an open image model that runs on a good gaming PC. A new version of GLM is now available inside Hermes Agent.",
+  "articles": [
+    {
+      "title": "Frontier Labs Are Selling Garbage to Fools in Washington",
+      "url": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
+      "category": "policy",
+      "published": "2026-09-20",
+      "summary": "An argument that what frontier labs tell Washington is being sold to people who cannot check it. 102 points on Hacker News."
+    },
+    {
+      "title": "ChatGPT now sees what you do on other websites through its ad collector",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "category": "policy",
+      "published": "2026-09-20",
+      "summary": "A write-up of how ChatGPT's advertising collector reports your activity on other sites back to OpenAI. 504 points on Hacker News."
+    },
+    {
+      "title": "Would you buy a Qwen3.8-27B chip for $1k if it ran at 7,000 tokens per second?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wltts7/would_you_buy_a_qwen3827b_taalas_chip_for_1k_if/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "A thought experiment about a model fixed into silicon: slower to fall behind than it looks, because it runs orders of magnitude faster than a GPU."
+    },
+    {
+      "title": "DIY Jev: a Jev-style inference setup built from ordinary open weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlu9rd/diy_jev/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A week into the Jev architecture being everywhere, someone replicates the approach locally and writes down what it takes."
+    },
+    {
+      "title": "Nine local LLMs, one web-dev prompt, eight hours: results on an RTX 3060 12GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wljzix/i_tested_9_llms_on_the_exact_same_webdev_prompt/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "One prompt, nine models, eight hours of side-by-side output on a single consumer card, posted for readers to rank."
+    },
+    {
+      "title": "AI and the Destruction of the Creative Commons",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "category": "policy",
+      "published": "2026-09-20",
+      "summary": "What generative models take from the shared pool of creative work, and who ends up paying for the parts that disappear."
+    },
+    {
+      "title": "Is Typesafe's Jev derived from the Laya author's earlier work?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlfmgq/is_typesafe_basedderived_from_work_done_by_the/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A developer lays the two timelines side by side and asks whether the Jev architecture was published a year earlier by someone else."
+    },
+    {
+      "title": "Qwen 3.8 27B on 16-20GB of VRAM: quant-by-quant test results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlf6hb/my_qwen_38_27b_tests_on_limited_vram_1620gb/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "IQ4_XS and other quants compared on a mid-range card against fixed prompts, including a single-file Three.js animation task."
+    },
+    {
+      "title": "Samsung expected to more than double HBM4 and HBM4E output next year",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "category": "industry",
+      "published": "2026-09-20",
+      "summary": "Supply-chain sources say Samsung will roughly double its next-generation memory output in 2027. 236 points on Hacker News."
+    },
+    {
+      "title": "Laya runs offline on an M4 Mac through Core ML at 45 decisions per second",
+      "url": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "A gist that puts the Laya decision model on Apple silicon with no network, at roughly 45 decisions per second."
+    },
+    {
+      "title": "Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google made an illegal slowdown agreement",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/",
+      "category": "policy",
+      "published": "2026-09-20",
+      "summary": "A suit alleges the four labs agreed to pace releases together, the antitrust framing that has followed the safety debate all month."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next built and tested a browser game in one shot on four V620s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "About three hours, four V620s at ~2k prefill and 70 tok/s decode, with the model driving two browsers at once to test its own game."
+    },
+    {
+      "title": "The bear can dance: three weeks of a local agent on one RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wloora/the_bear_can_dance_qwen_38_27b_on_one_3090_for_3/",
+      "category": "ai_models",
+      "published": "2026-09-20",
+      "summary": "Roughly 12 human messages over 21 days produced working CUDA kernels, no win over llama.cpp, and 83 hours eaten by compaction."
+    },
+    {
+      "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models with 7B parameters",
+      "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
+      "category": "chinese_ai",
+      "published": "2026-09-20",
+      "summary": "Generates and edits images on consumer GPUs with transparency and up to ten reference images. Its research licence bars commercial use."
+    },
+    {
+      "title": "Tencent's Gander keeps talking while it works in the background",
+      "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/",
+      "category": "chinese_ai",
+      "published": "2026-09-20",
+      "summary": "A small \"cerebellum\" holds the conversation while a swappable \"brain\" searches files or writes code. Tasks can be interrupted mid-flight."
+    },
+    {
+      "title": "GLM-5.3 FlashX goes live in Hermes Agent through Nous Portal and OpenRouter",
+      "url": "https://x.com/Teknium/status/2101773802418139526",
+      "category": "hermes_nous",
+      "published": "2026-09-20",
+      "summary": "A new FlashX-tier GLM becomes a selectable model in Hermes on release day, reachable through both Nous Portal and OpenRouter."
+    },
+    {
+      "title": "Teknium: Jev's rivals are zero-shot classifiers, and 32k context is the binding limit",
+      "url": "https://x.com/Teknium/status/2101811956575580210",
+      "category": "hermes_nous",
+      "published": "2026-09-20",
+      "summary": "Nous's lead engineer reframes the Jev comparison as an old model class, and names the context window as what actually constrains it."
+    },
+    {
+      "title": "Anthropic partners with Accenture on independent evaluation of frontier AI",
+      "url": "https://x.com/AnthropicAI/status/2101039819870937247",
+      "category": "anthropic",
+      "published": "2026-09-18",
+      "summary": "Both sides expect to invest at least $1bn over five years to build outside evaluation capacity. A community note disputes the independence."
+    },
+    {
+      "title": "Google confirms Gemini reached three real companies during a security test",
+      "url": "https://heise.de/en/news/Misconfiguration-in-test-Gemini-accesses-three-real-companies-11459084.html",
+      "category": "policy",
+      "published": "2026-09-18",
+      "summary": "A test-environment misconfiguration left live internet access on during a May capture-the-flag run. Google says the model stopped itself each time."
+    },
+    {
+      "title": "Newsom pulls California's AI oversight deadlines forward and asks for a kill switch",
+      "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+      "category": "policy",
+      "published": "2026-09-18",
+      "summary": "Executive Order N-9-26 pulls SB 813 and AB 1405 forward and wants recommendations by 16 Nov on on-site auditors and a verified model kill switch."
+    }
+  ]
+}
