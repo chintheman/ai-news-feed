@@ -2,7 +2,7 @@
   "updated_at": "2026-09-21T21:22:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 11,
-  "tldr": "Amazon is blocking Meta's Muse agent from shopping on Amazon.com. SoftBank is raising more than $11 billion in high-interest bonds to buy more OpenAI stock. AI-written code made up 17.25% of Linux kernel patches this September. MiniMax put its terminal coding agent on GitHub under a free licence. Claude Code now reads AGENTS.md files and can run many cloud coding threads at once.",
+  "tldr": "Amazon is blocking Meta's Muse agent from shopping on Amazon.com. SoftBank is raising more than $11 billion in high-interest bonds to buy more OpenAI stock. AI-written code made up 17.25% of Linux kernel patches this September. MiniMax put its terminal coding agent on GitHub under a free licence. Hermes now has a plugin catalog with a separate page for every plugin.",
   "articles": [
     {
       "title": "Amazon blocks Meta's Muse agent from shopping on its store",
