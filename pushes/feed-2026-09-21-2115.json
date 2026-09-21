@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-09-21T21:22:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "Amazon is blocking Meta's Muse agent from shopping on Amazon.com. SoftBank is raising more than $11 billion in high-interest bonds to buy more OpenAI stock. AI-written code made up 17.25% of Linux kernel patches this September. MiniMax put its terminal coding agent on GitHub under a free licence. Claude Code now reads AGENTS.md files and can run many cloud coding threads at once.",
+  "articles": [
+    {
+      "title": "Amazon blocks Meta's Muse agent from shopping on its store",
+      "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+      "category": "industry",
+      "published": "2026-09-21",
+      "summary": "Muse users now hit a popup saying an unauthorised AI agent breaks Amazon's terms. Amazon says Meta never agreed the access."
+    },
+    {
+      "title": "SoftBank seeks over $11B in junk bonds for its next OpenAI tranche",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet",
+      "category": "industry",
+      "published": "2026-09-21",
+      "summary": "A $10B third tranche closes 1 October, taking its OpenAI stake to about 13%. The bond is expected to price on Thursday."
+    },
+    {
+      "title": "AI-written code reached 17.25% of Linux kernel patches in September",
+      "url": "https://x.com/LundukeJournal/status/2101841277432070210",
+      "category": "industry",
+      "published": "2026-09-21",
+      "summary": "1,634 AI submissions in the last week alone, up from 3% of patches in February. Maintainers say review time is the cost."
+    },
+    {
+      "title": "MiniMax open-sources its terminal coding agent under MIT",
+      "url": "https://technode.com/2026/09/21/minimax-open-sources-minimax-code-terminal-coding-agent/",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "MiniMax Code v0.4.12 ships a terminal UI, a headless mode for CI and editor support, and accepts your own API keys. Desktop app not included."
+    },
+    {
+      "title": "Claude Code 2.1.277 adds AGENTS.md support and a proxy-egress gateway flag",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "category": "anthropic",
+      "published": "2026-09-18",
+      "summary": "When a project has no CLAUDE.md, the CLI now reads AGENTS.md. CLAUDE.md still wins when both exist; Bedrock, Vertex and Foundry unsupported."
+    },
+    {
+      "title": "Claude Code Projects becomes a coordinator over parallel cloud threads",
+      "url": "https://genaidaily.com/anthropic-launches-claude-code-projects-to-manage-parallel-ai-coding-threads/",
+      "category": "anthropic",
+      "published": "2026-09-17",
+      "summary": "One prompt spawns cloud sessions on their own branches that report back to a coordinator. Capped at 200 new threads per project per day in beta."
+    },
+    {
+      "title": "Kimi K3.1 teased with 135 digits of pi on Moonshot's Zhihu account",
+      "url": "https://cellcog.ai/blog/kimi-k3-1-release-date/",
+      "category": "moonshot_ai",
+      "published": "2026-09-19",
+      "summary": "No K3.1 identifier appears on any Moonshot surface, so this is a signal rather than a release. K3 remains the shipping model."
+    },
+    {
+      "title": "Hermes plugin catalog goes live with a page per plugin",
+      "url": "https://x.com/Teknium/status/2101932350821257289",
+      "category": "hermes_nous",
+      "published": "2026-09-21",
+      "summary": "Each plugin now gets its own page with its readme, plus sort-by-recent and browse-by-author views."
+    },
+    {
+      "title": "\"MCP was always a bad idea?\" argues the protocol overreached",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "category": "agents_tooling",
+      "published": "2026-09-20",
+      "summary": "The most argued-about agent-tooling post of the weekend: 135 points and 110 comments on Hacker News."
+    },
+    {
+      "title": "Kev: a tiny Jev-like family of decision models built on Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "category": "agents_tooling",
+      "published": "2026-09-21",
+      "summary": "An open attempt at typed decision output instead of generated text. 155 points and 71 comments on Hacker News."
+    },
+    {
+      "title": "Gewell: a Gemma 4 inference engine for Blackwell GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm8ede/gewell_gemma4_inference_engine/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "Built to run Gemma 4 31B under high concurrency on Blackwell cards, filling the gap ninfer left for Gemma."
+    }
+  ]
+}
