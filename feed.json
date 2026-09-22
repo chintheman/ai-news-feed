@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-09-22T13:16:24+08:00",
+  "updated_at": "2026-09-22T21:16:21+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Alibaba announced Qwen 4, the next version of its flagship model, at the Apsara Conference. Terence Tao explained the new group that will advise OpenAI on mathematics. Xiaomi released the weights and training code for its MiMo v2.6 models. A community test puts Xiaomi's small Flash model ahead of DeepSeek's on one coding benchmark. A new Copilot plugin adds a screenshot of the source behind every claim in a document analysis.",
+  "tldr": "Alibaba says it is planning a model far bigger than anything it has shipped so far, plus a new chip to run it. Xiaomi's new open model now leads the open-weight rankings, and Anthropic says the company copied from Claude to get there. OpenAI says a model it built for research solved more than a hundred maths problems that were still open. Anthropic is building a biology lab where Claude tells robots how to run drug experiments. Apple removed the switch that let people turn Apple Intelligence off, and an upgrade turned it back on.",
   "articles": [
+    {
+      "title": "Alibaba plans a 5-10 trillion parameter model and unveils a new chip",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmyh9z/alibaba_plans_ai_model_with_5_trillion_to_10/",
+      "category": "chinese_ai",
+      "published": "2026-09-22",
+      "summary": "Alibaba told the Apsara Conference it is planning a model of 5 to 10 trillion parameters and showed a new AI chip."
+    },
+    {
+      "title": "oMLX creator Jun Kim joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "category": "platforms_integration",
+      "published": "2026-09-22",
+      "summary": "Jun Kim, who created the oMLX runtime, joined Hugging Face to look after the community building on Apple's MLX."
+    },
+    {
+      "title": "Complex KDA: why Kimi Delta Attention stops short and how to fix it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn1t6a/r_complex_kda_understanding_and_enhancing_the/",
+      "category": "moonshot_ai",
+      "published": "2026-09-22",
+      "summary": "A paper works out why Kimi's Delta Attention is limited and shows a complex-valued fix, with code and weights released."
+    },
+    {
+      "title": "Apple removed the macOS switch that turned Apple Intelligence off",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "category": "policy",
+      "published": "2026-09-22",
+      "summary": "A developer found macOS 27 removed the setting that disabled Apple Intelligence, and that upgrading turned it back on anyway."
+    },
+    {
+      "title": "Can gzip be a language model?",
+      "url": "https://nathan.rs/posts/gzip-lm/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "A run at language modelling with no neural network: prime gzip with a corpus and let DEFLATE pick the best-compressing continuation."
+    },
+    {
+      "title": "Claude had elevated errors across multiple models",
+      "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "category": "anthropic",
+      "published": "2026-09-22",
+      "summary": "Claude hit elevated errors across several models, and the status page incident drew 112 points on Hacker News."
+    },
+    {
+      "title": "Anthropic is setting up a biology lab where Claude guides drug-test robots",
+      "url": "https://the-decoder.com/anthropic-is-setting-up-a-biology-lab-where-claude-guides-robots-through-drug-experiments/",
+      "category": "anthropic",
+      "published": "2026-09-22",
+      "summary": "Anthropic is building its own biology lab so Claude can direct robots through drug experiments rather than just simulating them."
+    },
+    {
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "Hugging Face's Transformers library can now load and run llama.cpp's quantised weights directly."
+    },
+    {
+      "title": "A local-model user benchmarks six coding models against their own git history",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn4012/claude_vs_antigravity_vs_3827b_vs_flash_next_vs/",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "A local-model user built a coding benchmark out of their own commit history and published the cross-model results."
+    },
+    {
+      "title": "Xiaomi's MiMo-V2.6-Pro leads the open models as Anthropic alleges distillation",
+      "url": "https://the-decoder.com/xiaomis-affordable-flagship-ai-leads-the-open-models-and-anthropic-says-claude-helped-get-it-there/",
+      "category": "chinese_ai",
+      "published": "2026-09-22",
+      "summary": "Xiaomi's MiMo-V2.6-Pro tops the open-model rankings on price and score, and Anthropic says it was distilled from Claude."
+    },
+    {
+      "title": "OpenAI says an internal model solved over 100 open maths problems in a month",
+      "url": "https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "OpenAI says an internal model solved more than 100 open maths problems in a month and is funding outside review of the results."
+    },
+    {
+      "title": "Kimi relaunches WebBridge as a browser extension that records skills",
+      "url": "https://x.com/Kimi_Moonshot/status/2102352211988865456",
+      "category": "moonshot_ai",
+      "published": "2026-09-22",
+      "summary": "Moonshot relaunched Kimi WebBridge as a browser extension that records your steps once and replays them as a skill."
+    },
     {
       "title": "Alibaba announces Qwen 4 at the Apsara Conference",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/",
@@ -17,6 +101,20 @@
       "category": "ai_research",
       "published": "2026-09-22",
       "summary": "CodeMidas builds RL training environments for coding agents out of the code itself, easing the environment bottleneck."
+    },
+    {
+      "title": "Jev's calibration was measured and the LLMs won",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wmre0b/jevs_calibration_was_measured_the_llms_won_d/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "A community measurement finds Jev's decision models less well calibrated than Gemini Flash, DeepSeek and GLM."
+    },
+    {
+      "title": "Attention is all you have",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "category": "industry",
+      "published": "2026-09-21",
+      "summary": "An essay on how feeds and AI slop captured our attention, and what taking the internet back would take. 750 points on HN."
     },
     {
       "title": "Spymarks, Not Watermarks",
@@ -325,104 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-09-21",
       "summary": "Each plugin now gets its own page with its readme, plus sort-by-recent and browse-by-author views."
-    },
-    {
-      "title": "Kev: a tiny Jev-like family of decision models built on Qwen3.5",
-      "url": "https://github.com/jaredpalmer/kev/tree/main",
-      "category": "agents_tooling",
-      "published": "2026-09-21",
-      "summary": "An open attempt at typed decision output instead of generated text. 155 points and 71 comments on Hacker News."
-    },
-    {
-      "title": "Gewell: a Gemma 4 inference engine for Blackwell GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm8ede/gewell_gemma4_inference_engine/",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "Built to run Gemma 4 31B under high concurrency on Blackwell cards, filling the gap ninfer left for Gemma."
-    },
-    {
-      "title": "SGLang-Diffusion serves Qwen-Image-2.1: 18.7s images on one RTX 4090",
-      "url": "https://x.com/Alibaba_Qwen/status/2101866688425984233",
-      "category": "chinese_ai",
-      "published": "2026-09-21",
-      "summary": "Day-zero support does 1024x1024 generation in 18.7s and editing in 21.7s on one 24GB card with no quantization."
-    },
-    {
-      "title": "Qwen-Image-2.1 gets a no-install demo and a ComfyUI workflow",
-      "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
-      "category": "chinese_ai",
-      "published": "2026-09-21",
-      "summary": "One checkpoint covers generation and editing, but the model card ships a research-only licence where the older Qwen-Image weights were Apache 2.0."
-    },
-    {
-      "title": "ZCode is now open source, with the reported security issues fixed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlzvcx/zcode_is_now_open_source/",
-      "category": "chinese_ai",
-      "published": "2026-09-21",
-      "summary": "Z.ai published the desktop app, web workspace, backend, agent CLI and runtime after the reported product security problems."
-    },
-    {
-      "title": "You can use any LLM just like Jev, with one token and a probability read",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlxpaw/you_can_use_any_llm_just_like_jev/",
-      "category": "agents_tooling",
-      "published": "2026-09-21",
-      "summary": "Run any GGUF in llama.cpp for a single predicted token with reasoning off, and the shape of the probabilities gives you a confidence score."
-    },
-    {
-      "title": "\"MCP was always a bad idea?\" argues the protocol overreached",
-      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "The most argued-about agent-tooling post of the weekend: 135 points and 110 comments on Hacker News."
-    },
-    {
-      "title": "TypeSafe takes Jev off the waitlist: no queue, $5 credit per account",
-      "url": "https://x.com/typesafeai/status/2101786156572823624",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "The decision model is now open to anyone at $0.042 per million input tokens with output free. The launch post drew 1.0M views."
-    },
-    {
-      "title": "AX, Google's open agentic orchestrator, hits 343 points on Hacker News",
-      "url": "https://agentexecutor.io",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "You declare an agentic task in YAML; AX sandboxes it, wires up the workspace, fences the network and helps run it at scale."
-    },
-    {
-      "title": "I turned Jev into a (lousy) chatbot",
-      "url": "https://github.com/kyle-pena-nlp/jevchat/",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "A hobby build wraps a decision model in a chat loop and reports back on how badly it goes. 102 points on Hacker News."
-    },
-    {
-      "title": "laya.cpp: Laya's decision engine rebuilt in C++ on ggml",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlmkm9/layacpp_optimized_laya_nearinstant_decision_making/",
-      "category": "agents_tooling",
-      "published": "2026-09-20",
-      "summary": "A standalone inference implementation with custom CUDA kernels, aimed at near-instant decisions on Laya's open weights."
-    },
-    {
-      "title": "llama.cpp PR enables sparse flash attention for Qwen4 on CUDA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlkxjw/cuda_enable_sparse_fa_for_qwen4_by_am17an_pull/",
-      "category": "ai_models",
-      "published": "2026-09-20",
-      "summary": "Another speed-up for Qwen Flash Next in llama.cpp, this time turning on sparse attention in the CUDA path."
-    },
-    {
-      "title": "Kimi K3 (2.8T) on a 16x GB10 cluster: 30 tok/s coding, 136 tok/s peak",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt577/speedup_kimi_k328t_on_a_16x_gb10_cluster_30_ts/",
-      "category": "moonshot_ai",
-      "published": "2026-09-20",
-      "summary": "Custom runtime patches and a tuned network layout get the full 2.8T-parameter Moonshot model running across 16 small boxes."
-    },
-    {
-      "title": "Frontier Labs Are Selling Garbage to Fools in Washington",
-      "url": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
-      "category": "policy",
-      "published": "2026-09-20",
-      "summary": "An argument that what frontier labs tell Washington is being sold to people who cannot check it. 102 points on Hacker News."
     }
   ]
 }
