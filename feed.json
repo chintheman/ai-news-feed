@@ -2,7 +2,7 @@
   "updated_at": "2026-09-22T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI set up an outside group of mathematicians to check how it shares new maths results. xAI released Grok 4.7. It is cheap, but it scores well behind Claude and GPT-6 on benchmarks. Xiaomi, Alibaba and Yandex all put out new open models in the same week. The UN's AI science panel says no one can promise humans stay in control of AI agents. Amazon blocked Meta's shopping agent, and the US and China agreed to talk about AI safety.",
+  "tldr": "OpenAI set up an outside group of mathematicians to check how it shares new maths results. xAI's Grok 4.7 is cheap, but it trails Claude and GPT-6 on benchmarks. Xiaomi, Alibaba and Yandex all shipped new open models this week. The UN's AI science panel says no one can promise humans stay in control of AI agents. The US and China agreed to talk about AI safety rules before their leaders meet.",
   "articles": [
     {
       "title": "Hermes Agent ships official Claude subscription plugin",
