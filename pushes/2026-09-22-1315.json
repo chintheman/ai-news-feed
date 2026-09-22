@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-09-22T13:16:24+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 13,
+  "tldr": "Alibaba announced Qwen 4, the next version of its flagship model, at the Apsara Conference. Terence Tao explained the new group that will advise OpenAI on mathematics. Xiaomi released the weights and training code for its MiMo v2.6 models. A community test puts Xiaomi's small Flash model ahead of DeepSeek's on one coding benchmark. A new Copilot plugin adds a screenshot of the source behind every claim in a document analysis.",
+  "articles": [
+    {
+      "title": "Spymarks, Not Watermarks",
+      "url": "https://brand.io/article/spymarks/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "Argues AI text should be traced by origin marks rather than watermarks, 118 points on Hacker News."
+    },
+    {
+      "title": "I don't want to read what you didn't write",
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "category": "industry",
+      "published": "2026-09-21",
+      "summary": "An essay on why readers reject AI-written blog posts, 261 points and 97 comments on Hacker News."
+    },
+    {
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "category": "agents_tooling",
+      "published": "2026-09-21",
+      "summary": "Linear rebuilt its CI pipeline after AI-written code pushed build demand past what it could absorb."
+    },
+    {
+      "title": "Uncensor an LLM without touching weights using an 18MB KV-cache bank",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wms904/uncensor_an_llm_without_touching_weights_inject_a/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "phantom-kv removes model refusals by loading a trained 18MB KV-cache bank; the weights stay untouched."
+    },
+    {
+      "title": "M5 Ultra Mac Studio review: the dream Mac for local AI agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+      "category": "platforms_integration",
+      "published": "2026-09-21",
+      "summary": "MacStories calls the M5 Ultra Mac Studio the best desktop yet for running local AI agents."
+    },
+    {
+      "title": "Terence Tao on the Advisory Group on Mathematics and AI",
+      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "Terence Tao explains the new maths-and-AI advisory group, 104 points on Hacker News."
+    },
+    {
+      "title": "Frontier AI on your own hardware",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "Tim Dettmers opens a week of tools for running frontier AI on your own hardware, 117 points on HN."
+    },
+    {
+      "title": "Why does mathmain need an encrypted loader?",
+      "url": "https://safedep.io/mathmain-encrypted-loader/",
+      "category": "ai_research",
+      "published": "2026-09-21",
+      "summary": "A teardown of why a package ships an encrypted loader, 117 points and 35 comments on Hacker News."
+    },
+    {
+      "title": "Alibaba announces Qwen 4 at the Apsara Conference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/",
+      "category": "chinese_ai",
+      "published": "2026-09-22",
+      "summary": "Alibaba announced Qwen 4, the next version of its flagship model line, at the Apsara Conference."
+    },
+    {
+      "title": "Xiaomi publishes MiMo-V2.6-Pro-RL weights on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmntwv/xiaomimimomimov26prorl_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "Xiaomi put the RL-trained MiMo-V2.6-Pro weights on Hugging Face for open download."
+    },
+    {
+      "title": "MiMo-V2.6-Flash-RL vs open-weight models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp5h2/mimo_v26flashrl_vs_openweight_models/",
+      "category": "ai_models",
+      "published": "2026-09-21",
+      "summary": "A community test puts MiMo-V2.6-Flash-RL at 28.8% on Terminal-Bench 4.0, ahead of DeepSeek V4 Flash at 12%."
+    },
+    {
+      "title": "CodeMidas scales coding-agent RL environments from code itself",
+      "url": "https://x.com/_akhaliq/status/2102205326485557643",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "CodeMidas builds RL training environments for coding agents out of the code itself, easing the environment bottleneck."
+    },
+    {
+      "title": "Eyeball turns every claim into a screenshot of its source",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/eyeball/SKILL.md",
+      "category": "agents_tooling",
+      "published": "2026-09-21",
+      "summary": "An open-sourced Copilot CLI plugin makes each claim in a document analysis carry a highlighted screenshot of the source."
+    }
+  ]
+}
