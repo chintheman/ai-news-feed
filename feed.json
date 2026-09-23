@@ -1,9 +1,163 @@
 {
-  "updated_at": "2026-09-22T21:16:21+08:00",
+  "updated_at": "2026-09-23T08:16:51+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Alibaba says it is planning a model far bigger than anything it has shipped so far, plus a new chip to run it. Xiaomi's new open model now leads the open-weight rankings, and Anthropic says the company copied from Claude to get there. OpenAI says a model it built for research solved more than a hundred maths problems that were still open. Anthropic is building a biology lab where Claude tells robots how to run drug experiments. Apple removed the switch that let people turn Apple Intelligence off, and an upgrade turned it back on.",
+  "tldr": "OpenAI shipped two new models, GPT-6 Sol and Luna, at half the token price of GPT-5.6. Anthropic shipped Claude Opus 5.5 the same day, also about 40% cheaper to run. Both are already available in Hermes Agent. A Pentagon review says too much trust in AI helped cause a missile strike on a school in Iran. OpenAI also set out the rules it wants for independent outside safety checks on frontier models.",
   "articles": [
+    {
+      "title": "OpenAI launches GPT-6 Sol and Luna at half the previous price",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "Two cheaper GPT-6 models, live in ChatGPT Work, Codex and the API, priced 50% below GPT-5.6 promotional rates."
+    },
+    {
+      "title": "GPT-6 Sol and Luna halve the price but barely move the needle on performance",
+      "url": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "Independent checks find little intelligence gain over the previous models as OpenAI cuts token prices and points the cut at Anthropic."
+    },
+    {
+      "title": "AntLing open-sources the Ming-Image-0.1-Design family",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnh7tk/antling_open_sourced_the_mingimage01design_family/",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "A 6B image model that ranks first among open weights on UI design, plus two open agent skills for UI design and image-to-PPT."
+    },
+    {
+      "title": "Claude Opus 5.5 matches Fable 5.1 at 40% lower run cost",
+      "url": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/",
+      "category": "anthropic",
+      "published": "2026-09-22",
+      "summary": "First model in the Claude 5.5 family, tested before release by external evaluators, with Anthropic promising to fix Claudish writing."
+    },
+    {
+      "title": "Opus 5.5 ships on every cloud at $4/$20 per million tokens",
+      "url": "https://x.com/AnthropicAI/status/2102435703535939725",
+      "category": "anthropic",
+      "published": "2026-09-22",
+      "summary": "Anthropic's launch post: 1M-token context, available on AWS, Google Cloud and Azure, with the preserved-thinking safeguard in place."
+    },
+    {
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "category": "platforms_integration",
+      "published": "2026-09-22",
+      "summary": "GPT-6 prompt caching adds explicit breakpoints and diagnostics that raise cache hit rates and cut both latency and cost."
+    },
+    {
+      "title": "Claude Code lets you switch effort mid-session without breaking the cache",
+      "url": "https://x.com/lydiahallie/status/2102513987699212344",
+      "category": "platforms_integration",
+      "published": "2026-09-22",
+      "summary": "Cache-safe from v2.1.280, and prompt-cache lifetime is now pinnable to one hour in settings.json or an environment variable."
+    },
+    {
+      "title": "GPT-6 Sol and Luna are selectable in Hermes Agent",
+      "url": "https://x.com/Teknium/status/2102472696525377909",
+      "category": "hermes_nous",
+      "published": "2026-09-22",
+      "summary": "Both GPT-6 models arrive through Nous Portal and OpenRouter on launch day, with Codex subscription access flagged as coming."
+    },
+    {
+      "title": "Claude Opus 5.5 is available in Hermes Agent via Nous Portal",
+      "url": "https://x.com/Teknium/status/2102442142040014893",
+      "category": "hermes_nous",
+      "published": "2026-09-22",
+      "summary": "Opus 5.5 lands in the harness on the same day Anthropic launched it, alongside the GPT-6 pair."
+    },
+    {
+      "title": "OpenAI sets out priorities for independent third-party model assessments",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "category": "policy",
+      "published": "2026-09-22",
+      "summary": "A position paper on how independent safety assessments of frontier models should be run, reported and kept secure."
+    },
+    {
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "category": "policy",
+      "published": "2026-09-22",
+      "summary": "Bloomberg reporting on a strike that killed schoolchildren says over-reliance on AI helped produce the targeting error."
+    },
+    {
+      "title": "AI has no wisdom and neither will you",
+      "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+      "category": "industry",
+      "published": "2026-09-22",
+      "summary": "A widely argued essay: fluent model output is not judgement, and people who outsource their thinking lose the ability to check it."
+    },
+    {
+      "title": "Qwen-Image-2.1 in fast FP8 turns out premium images under 10GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnhq8d/qwen_image_21_fast_fp8_generates_premium_quality/",
+      "category": "chinese_ai",
+      "published": "2026-09-22",
+      "summary": "A user reports high-quality local generation from the quantized Qwen image model after an Unsloth Studio update."
+    },
+    {
+      "title": "Qwen3.8-27B hits 70 tok/s single-stream and 160 concurrent on 2x3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn53le/qwen3827b_70_toks_160_toks_concurrent_10k_toks/",
+      "category": "chinese_ai",
+      "published": "2026-09-22",
+      "summary": "Full context, 10k tok/s prefill, on two consumer cards with plain vLLM, after benchmarking a couple of dozen quants."
+    },
+    {
+      "title": "FreeToken fork adds DeepSeek-V4.1 with vision and speculative decoding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn852z/fork_of_freetoken_with_deepseekv41_vision_and/",
+      "category": "deepseek",
+      "published": "2026-09-22",
+      "summary": "A maintained fork of the edge-native MoE serving engine, with measured 2x3090 numbers published alongside it."
+    },
+    {
+      "title": "UK AISI and EvalEval publish a shared route to reproducible benchmarks",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "A joint write-up on publishing evaluation results in a form other labs can re-run and reproduce."
+    },
+    {
+      "title": "RRSI: recursive self-improvement applied to the agent harness",
+      "url": "https://x.com/_akhaliq/status/2102452358118871331",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Regularized recursive self-improvement of agent harnesses targets the scaffolding around the model, not the weights."
+    },
+    {
+      "title": "onPanda labels on-policy alignment data with token-level corrections",
+      "url": "https://x.com/_akhaliq/status/2102474190335234301",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Token-level correction cuts the human cost of the alignment labelling that agent fine-tunes depend on."
+    },
+    {
+      "title": "Transferring the intelligence of vision-language models to robotic control",
+      "url": "https://x.com/_akhaliq/status/2102474539620090152",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Reuses vision-language representations directly for control instead of training a robotics policy from scratch."
+    },
+    {
+      "title": "WorldCrafter keeps video world models coherent with 3D-aware memory",
+      "url": "https://x.com/_akhaliq/status/2102266547108819254",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Implicit 3D-aware memory is the fix for world models that forget scene geometry across long rollouts."
+    },
+    {
+      "title": "A layer grown from real neurons promises 5x faster, 80% cheaper AI video",
+      "url": "https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "The Biological Computing Co wants to sell a text-to-video model to AWS with a layer derived from lab-grown nerve cells."
+    },
+    {
+      "title": "A 421M Laya model plays Flappy Bird on a desktop CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnf4q2/laya_model_playing_flappy_bird_on_a_cpu_using/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "The decision-model line keeps shrinking: conversion to OpenVINO int8 runs it on an ordinary 12th-gen Intel chip."
+    },
     {
       "title": "Alibaba plans a 5-10 trillion parameter model and unveils a new chip",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmyh9z/alibaba_plans_ai_model_with_5_trillion_to_10/",
@@ -269,160 +423,6 @@
       "category": "policy",
       "published": "2026-09-21",
       "summary": "The two countries agreed to an official AI dialogue, with a proposed notification mechanism for AI incidents."
-    },
-    {
-      "title": "Amazon blocks Meta's AI agent Muse from online shopping",
-      "url": "https://the-decoder.com/amazon-blocks-metas-ai-agent-muse-from-online-shopping/",
-      "category": "industry",
-      "published": "2026-09-21",
-      "summary": "Amazon blocked Meta's new shopping agent from Amazon.com, escalating the fight over who agents shop for."
-    },
-    {
-      "title": "ByteDance launches Dramagic for AI short dramas",
-      "url": "https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/",
-      "category": "chinese_ai",
-      "published": "2026-09-21",
-      "summary": "ByteDance's Dramagic takes a script to finished short drama; 128,000 were released in China in Q1, 95% AI-made."
-    },
-    {
-      "title": "Bristol researchers borrow drug approval to test medical AI",
-      "url": "https://the-decoder.com/bristol-researchers-say-medicine-already-knows-how-to-handle-black-boxes-and-ai-could-learn-from-it/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "University of Bristol's framework checks medical AI limits, fairness across patient groups and clinical fit."
-    },
-    {
-      "title": "Xiaomi releases MiMo v2.6",
-      "url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "Xiaomi's MiMo v2.6 launch drew 241 points and 105 comments on Hacker News."
-    },
-    {
-      "title": "MiMo-V2.6-Distill-Qwen-9B lands on Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp2di/xiaomimimomimov26distillqwen9b/",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "A small 9B Qwen-based distillation of Xiaomi's MiMo v2.6 aimed at running locally."
-    },
-    {
-      "title": "Yandex releases AliceAI-Foundation-80B-A3B-Base",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmmnrt/yandexaliceaifoundation80ba3bbase/",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "A fully custom 80B architecture, not a Qwen finetune, pitched against Qwen 35B and DeepSeek V4 Flash. No llama.cpp support yet."
-    },
-    {
-      "title": "Report: DeepSeek training a 2T model, plans 8T",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model/",
-      "category": "deepseek",
-      "published": "2026-09-21",
-      "summary": "DeepSeek is reportedly training a 2T-parameter model and plans an 8T one, up from Flash at 552B and Pro at 1.6T."
-    },
-    {
-      "title": "Huawei shelves global AI chip rollout as home demand outstrips supply",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmm89l/huawei_shelves_global_ai_chip_rollout_as_chinas/",
-      "category": "chinese_ai",
-      "published": "2026-09-21",
-      "summary": "Huawei put its overseas AI chip push on hold because Chinese buyers already take all the supply."
-    },
-    {
-      "title": "Qwen3.8-27B runs in native 8-bit on Apple Silicon at 37-55 tok/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmbbf9/splash_engine_qwen3827b_in_native_8bit_at_3755/",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "The Splash engine extended to Q8 on an M5 Pro with 64GB, plus 256k context scaling and a documented reasoning cliff."
-    },
-    {
-      "title": "A 100M text-to-image model trained in under 10 hours on one H100",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "Supra2-IMG is a 100M-parameter DiT trained from scratch on a single H100, released openly."
-    },
-    {
-      "title": "Mini-AGI: continual learning model trained on 8GB of VRAM",
-      "url": "https://github.com/volotat/mini-AGI/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "A hobby project bundling dynamic continual learning and memory pieces into one small model."
-    },
-    {
-      "title": "Framework-free learner that corrects local LLM facts instantly",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "Jayce claims 1.6-4x faster fact learning than backprop by learning from a few examples rather than a full retrain."
-    },
-    {
-      "title": "16GB is the VRAM most people will realistically have",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "Argues 12-16GB is the practical ceiling for home inference, against a subreddit skewed to multi-GPU rigs."
-    },
-    {
-      "title": "Transformers Explained Visually",
-      "url": "https://poloclub.github.io/transformer-explainer/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "An interactive visual walkthrough of how a transformer works, 117 points on Hacker News."
-    },
-    {
-      "title": "Analysis claims Fable 5's median thinking declined in August",
-      "url": "https://twitter.com/Lon/status/2101793422487204027",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "A widely read thread on Fable 5 behaviour drew 323 points and 219 comments on Hacker News."
-    },
-    {
-      "title": "Import AI 473: US superintelligence strategy and machine hermeneutics",
-      "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "Weekly roundup covering the US superintelligence strategy, a human brain in a mouse skull, and machine hermeneutics."
-    },
-    {
-      "title": "Jev-Leftpad",
-      "url": "https://github.com/f/jev-leftpad",
-      "category": "agents_tooling",
-      "published": "2026-09-21",
-      "summary": "A small repo pulling apart the leftpad-style context trick, 148 points and 51 comments on Hacker News."
-    },
-    {
-      "title": "Amazon blocks Meta's Muse agent from shopping on its store",
-      "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
-      "category": "industry",
-      "published": "2026-09-21",
-      "summary": "Muse users now hit a popup saying an unauthorised AI agent breaks Amazon's terms. Amazon says Meta never agreed the access."
-    },
-    {
-      "title": "SoftBank seeks over $11B in junk bonds for its next OpenAI tranche",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet",
-      "category": "industry",
-      "published": "2026-09-21",
-      "summary": "A $10B third tranche closes 1 October, taking its OpenAI stake to about 13%. The bond is expected to price on Thursday."
-    },
-    {
-      "title": "AI-written code reached 17.25% of Linux kernel patches in September",
-      "url": "https://x.com/LundukeJournal/status/2101841277432070210",
-      "category": "industry",
-      "published": "2026-09-21",
-      "summary": "1,634 AI submissions in the last week alone, up from 3% of patches in February. Maintainers say review time is the cost."
-    },
-    {
-      "title": "MiniMax open-sources its terminal coding agent under MIT",
-      "url": "https://technode.com/2026/09/21/minimax-open-sources-minimax-code-terminal-coding-agent/",
-      "category": "chinese_ai",
-      "published": "2026-09-21",
-      "summary": "MiniMax Code v0.4.12 ships a terminal UI, a headless mode for CI and editor support, and accepts your own API keys. Desktop app not included."
-    },
-    {
-      "title": "Hermes plugin catalog goes live with a page per plugin",
-      "url": "https://x.com/Teknium/status/2101932350821257289",
-      "category": "hermes_nous",
-      "published": "2026-09-21",
-      "summary": "Each plugin now gets its own page with its readme, plus sort-by-recent and browse-by-author views."
     }
   ]
 }

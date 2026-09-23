@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-09-23T08:16:51+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 22,
+  "tldr": "OpenAI shipped two new models, GPT-6 Sol and Luna, at half the token price of GPT-5.6. Anthropic shipped Claude Opus 5.5 the same day, also about 40% cheaper to run. Both are already available in Hermes Agent. A Pentagon review says too much trust in AI helped cause a missile strike on a school in Iran. OpenAI also set out the rules it wants for independent outside safety checks on frontier models.",
+  "articles": [
+    {
+      "title": "OpenAI launches GPT-6 Sol and Luna at half the previous price",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "Two cheaper GPT-6 models, live in ChatGPT Work, Codex and the API, priced 50% below GPT-5.6 promotional rates."
+    },
+    {
+      "title": "GPT-6 Sol and Luna halve the price but barely move the needle on performance",
+      "url": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "Independent checks find little intelligence gain over the previous models as OpenAI cuts token prices and points the cut at Anthropic."
+    },
+    {
+      "title": "AntLing open-sources the Ming-Image-0.1-Design family",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnh7tk/antling_open_sourced_the_mingimage01design_family/",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "A 6B image model that ranks first among open weights on UI design, plus two open agent skills for UI design and image-to-PPT."
+    },
+    {
+      "title": "Claude Opus 5.5 matches Fable 5.1 at 40% lower run cost",
+      "url": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/",
+      "category": "anthropic",
+      "published": "2026-09-22",
+      "summary": "First model in the Claude 5.5 family, tested before release by external evaluators, with Anthropic promising to fix Claudish writing."
+    },
+    {
+      "title": "Opus 5.5 ships on every cloud at $4/$20 per million tokens",
+      "url": "https://x.com/AnthropicAI/status/2102435703535939725",
+      "category": "anthropic",
+      "published": "2026-09-22",
+      "summary": "Anthropic's launch post: 1M-token context, available on AWS, Google Cloud and Azure, with the preserved-thinking safeguard in place."
+    },
+    {
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "category": "platforms_integration",
+      "published": "2026-09-22",
+      "summary": "GPT-6 prompt caching adds explicit breakpoints and diagnostics that raise cache hit rates and cut both latency and cost."
+    },
+    {
+      "title": "Claude Code lets you switch effort mid-session without breaking the cache",
+      "url": "https://x.com/lydiahallie/status/2102513987699212344",
+      "category": "platforms_integration",
+      "published": "2026-09-22",
+      "summary": "Cache-safe from v2.1.280, and prompt-cache lifetime is now pinnable to one hour in settings.json or an environment variable."
+    },
+    {
+      "title": "GPT-6 Sol and Luna are selectable in Hermes Agent",
+      "url": "https://x.com/Teknium/status/2102472696525377909",
+      "category": "hermes_nous",
+      "published": "2026-09-22",
+      "summary": "Both GPT-6 models arrive through Nous Portal and OpenRouter on launch day, with Codex subscription access flagged as coming."
+    },
+    {
+      "title": "Claude Opus 5.5 is available in Hermes Agent via Nous Portal",
+      "url": "https://x.com/Teknium/status/2102442142040014893",
+      "category": "hermes_nous",
+      "published": "2026-09-22",
+      "summary": "Opus 5.5 lands in the harness on the same day Anthropic launched it, alongside the GPT-6 pair."
+    },
+    {
+      "title": "OpenAI sets out priorities for independent third-party model assessments",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "category": "policy",
+      "published": "2026-09-22",
+      "summary": "A position paper on how independent safety assessments of frontier models should be run, reported and kept secure."
+    },
+    {
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "category": "policy",
+      "published": "2026-09-22",
+      "summary": "Bloomberg reporting on a strike that killed schoolchildren says over-reliance on AI helped produce the targeting error."
+    },
+    {
+      "title": "AI has no wisdom and neither will you",
+      "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+      "category": "industry",
+      "published": "2026-09-22",
+      "summary": "A widely argued essay: fluent model output is not judgement, and people who outsource their thinking lose the ability to check it."
+    },
+    {
+      "title": "Qwen-Image-2.1 in fast FP8 turns out premium images under 10GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnhq8d/qwen_image_21_fast_fp8_generates_premium_quality/",
+      "category": "chinese_ai",
+      "published": "2026-09-22",
+      "summary": "A user reports high-quality local generation from the quantized Qwen image model after an Unsloth Studio update."
+    },
+    {
+      "title": "Qwen3.8-27B hits 70 tok/s single-stream and 160 concurrent on 2x3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn53le/qwen3827b_70_toks_160_toks_concurrent_10k_toks/",
+      "category": "chinese_ai",
+      "published": "2026-09-22",
+      "summary": "Full context, 10k tok/s prefill, on two consumer cards with plain vLLM, after benchmarking a couple of dozen quants."
+    },
+    {
+      "title": "FreeToken fork adds DeepSeek-V4.1 with vision and speculative decoding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn852z/fork_of_freetoken_with_deepseekv41_vision_and/",
+      "category": "deepseek",
+      "published": "2026-09-22",
+      "summary": "A maintained fork of the edge-native MoE serving engine, with measured 2x3090 numbers published alongside it."
+    },
+    {
+      "title": "UK AISI and EvalEval publish a shared route to reproducible benchmarks",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "A joint write-up on publishing evaluation results in a form other labs can re-run and reproduce."
+    },
+    {
+      "title": "RRSI: recursive self-improvement applied to the agent harness",
+      "url": "https://x.com/_akhaliq/status/2102452358118871331",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Regularized recursive self-improvement of agent harnesses targets the scaffolding around the model, not the weights."
+    },
+    {
+      "title": "onPanda labels on-policy alignment data with token-level corrections",
+      "url": "https://x.com/_akhaliq/status/2102474190335234301",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Token-level correction cuts the human cost of the alignment labelling that agent fine-tunes depend on."
+    },
+    {
+      "title": "Transferring the intelligence of vision-language models to robotic control",
+      "url": "https://x.com/_akhaliq/status/2102474539620090152",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Reuses vision-language representations directly for control instead of training a robotics policy from scratch."
+    },
+    {
+      "title": "WorldCrafter keeps video world models coherent with 3D-aware memory",
+      "url": "https://x.com/_akhaliq/status/2102266547108819254",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Implicit 3D-aware memory is the fix for world models that forget scene geometry across long rollouts."
+    },
+    {
+      "title": "A layer grown from real neurons promises 5x faster, 80% cheaper AI video",
+      "url": "https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "The Biological Computing Co wants to sell a text-to-video model to AWS with a layer derived from lab-grown nerve cells."
+    },
+    {
+      "title": "A 421M Laya model plays Flappy Bird on a desktop CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnf4q2/laya_model_playing_flappy_bird_on_a_cpu_using/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "The decision-model line keeps shrinking: conversion to OpenVINO int8 runs it on an ordinary 12th-gen Intel chip."
+    }
+  ]
+}
