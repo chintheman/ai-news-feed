@@ -1,0 +1,106 @@
+{
+  "updated_at": "2026-09-23T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 14,
+  "tldr": "OpenAI's GPT-6 Astra broke a German wartime code that had resisted experts since 2005. Claude Opus 5.5 was used to formally check the Claude Agent SDK, and a few prompts turned up 16 real bug fixes. China is investigating DeepSeek and Moonshot over company data sent to Anthropic. OpenAI is hiring Patreon's co-founder to build new tools for creators. Hugging Face made the step that splits text for models up to 30 times faster, without changing how models read it.",
+  "articles": [
+    {
+      "title": "OpenAI GPT-6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "A 1941 Enigma message that codebreakers could not crack for two decades falls to GPT-6 Astra. 659 points on Hacker News."
+    },
+    {
+      "title": "Opus 5.5 used to formally verify the Claude Agent SDK in Lean and TLA+",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "category": "agents_tooling",
+      "published": "2026-09-22",
+      "summary": "Boris Cherny ran a couple of prompts in two languages he does not know well and got 16 PRs of real bug and race-condition fixes."
+    },
+    {
+      "title": "DeepSeek and Moonshot AI face Beijing's probe over potential data leaks to Anthropic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnv85k/deepseek_and_moonshot_ai_face_beijings_probe_over/",
+      "category": "policy",
+      "published": "2026-09-23",
+      "summary": "China's regulator is investigating both labs over data that may have reached Anthropic, giving the earlier Kimi executive rumours legs."
+    },
+    {
+      "title": "OpenAI hires Patreon co-founder Sam Yam to lead a new Creator Product division",
+      "url": "https://the-decoder.com/openai-hires-patreon-co-founder-sam-yam-to-lead-a-new-creator-product-division/",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "After 13 years at Patreon, Sam Yam joins OpenAI and brings two Patreon executives, with a first look possible at DevDay next week."
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme to help 30,000 partners build practical AI skills."
+    },
+    {
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "category": "agents_tooling",
+      "published": "2026-09-23",
+      "summary": "A whole typed-decision model in 25 lines, showing how little code a Jev-class chooser needs. 125 points on Hacker News."
+    },
+    {
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "url": "https://benchmarkheaven.com/jev-models",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "A public benchmark that scores Jev-class models, which return bounded choices and probabilities instead of text, against their lookalikes."
+    },
+    {
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "category": "industry",
+      "published": "2026-09-22",
+      "summary": "Argument that OpenAI's distribution, not its models, is what would let it absorb the cheap typed-decision category. 277 points, 200 comments."
+    },
+    {
+      "title": "Tokenizers v1: a Rust rewrite that encodes 3 to 30 times faster",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "category": "platforms_integration",
+      "published": "2026-09-21",
+      "summary": "Release candidate keeps identical token IDs, vocabulary and merge ranks while cutting encoding time sharply on the same hardware."
+    },
+    {
+      "title": "stuntd: a local Jev-compatible server on Laya that learns from your own traffic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnt7kv/stuntd_a_local_jevcompatible_server_on_laya_that/",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "A local proxy for typed decisions that records what your app asks, trains a small head on Laya, and serves it in shadow mode. No API key."
+    },
+    {
+      "title": "mini-AGI: a continual-learning looped transformer grown on a laptop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnggz5/miniagi_continuallearning_dynamically_looped/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Dynamic recurrent depth up to 24 cycles per token plus self-supervised training, built by one person on consumer hardware."
+    },
+    {
+      "title": "Pirate Face - a Pirate Bay for LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnxhji/pirate_face_pirate_bay_for_llms/",
+      "category": "policy",
+      "published": "2026-09-23",
+      "summary": "A censorship-resistant mirror for model weights, pitched as a fallback if Hugging Face ever has to take open models down."
+    },
+    {
+      "title": "LinearSolveBench: a new benchmark for linear solvers",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wnctam/linearsolvebench_new_benchmark_for_linear_solvers/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Measures whether a model or harness can write fast, accurate and general sparse linear solvers in C, with the code public on GitHub."
+    },
+    {
+      "title": "The cost of intelligence is dropping fast",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wo1bct/cost_of_intelligence_is_dropping_fast/",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "Falling price per unit of capability is running at about 50% a quarter, four times faster than DNA sequencing ever managed."
+    }
+  ]
+}

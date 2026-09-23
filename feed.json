@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-09-23T13:16:12+08:00",
+  "updated_at": "2026-09-23T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Claude Opus 5.5 now has a full public benchmark, scoring 58 points. That is twelve points ahead of the best openly downloadable model. Anthropic says Opus 5.5 matches its older Fable 5.1 for most tasks and costs 40% less to run. Pressure on openly downloadable models keeps growing, and downloads of Chinese ones now run about twice America's. Xiaomi released MiMo-V2.6 with every input type, on a reported $3.5M training bill.",
+  "tldr": "OpenAI's GPT-6 Astra broke a German wartime code that had resisted experts since 2005. Claude Opus 5.5 was used to formally check the Claude Agent SDK, and a few prompts turned up 16 real bug fixes. China is investigating DeepSeek and Moonshot over company data sent to Anthropic. OpenAI is hiring Patreon's co-founder to build new tools for creators. Hugging Face made the step that splits text for models up to 30 times faster, without changing how models read it.",
   "articles": [
+    {
+      "title": "DeepSeek and Moonshot AI face Beijing's probe over potential data leaks to Anthropic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnv85k/deepseek_and_moonshot_ai_face_beijings_probe_over/",
+      "category": "policy",
+      "published": "2026-09-23",
+      "summary": "China's regulator is investigating both labs over data that may have reached Anthropic, giving the earlier Kimi executive rumours legs."
+    },
+    {
+      "title": "OpenAI hires Patreon co-founder Sam Yam to lead a new Creator Product division",
+      "url": "https://the-decoder.com/openai-hires-patreon-co-founder-sam-yam-to-lead-a-new-creator-product-division/",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "After 13 years at Patreon, Sam Yam joins OpenAI and brings two Patreon executives, with a first look possible at DevDay next week."
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme to help 30,000 partners build practical AI skills."
+    },
+    {
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "category": "agents_tooling",
+      "published": "2026-09-23",
+      "summary": "A whole typed-decision model in 25 lines, showing how little code a Jev-class chooser needs. 125 points on Hacker News."
+    },
+    {
+      "title": "stuntd: a local Jev-compatible server on Laya that learns from your own traffic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnt7kv/stuntd_a_local_jevcompatible_server_on_laya_that/",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "A local proxy for typed decisions that records what your app asks, trains a small head on Laya, and serves it in shadow mode. No API key."
+    },
+    {
+      "title": "Pirate Face - a Pirate Bay for LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnxhji/pirate_face_pirate_bay_for_llms/",
+      "category": "policy",
+      "published": "2026-09-23",
+      "summary": "A censorship-resistant mirror for model weights, pitched as a fallback if Hugging Face ever has to take open models down."
+    },
+    {
+      "title": "The cost of intelligence is dropping fast",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wo1bct/cost_of_intelligence_is_dropping_fast/",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "Falling price per unit of capability is running at about 50% a quarter, four times faster than DNA sequencing ever managed."
+    },
     {
       "title": "Unsloth Studio vs LM Studio - which one do you prefer?",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnrh76/unsloth_studio_vs_lm_studio_which_one_do_you/",
@@ -24,6 +73,48 @@
       "category": "policy",
       "published": "2026-09-23",
       "summary": "LocalLLaMA thread on Illinois standing up an AI cabinet to assess risk, framed as part of a wider push against open-weight models."
+    },
+    {
+      "title": "OpenAI GPT-6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "category": "ai_models",
+      "published": "2026-09-22",
+      "summary": "A 1941 Enigma message that codebreakers could not crack for two decades falls to GPT-6 Astra. 659 points on Hacker News."
+    },
+    {
+      "title": "Opus 5.5 used to formally verify the Claude Agent SDK in Lean and TLA+",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "category": "agents_tooling",
+      "published": "2026-09-22",
+      "summary": "Boris Cherny ran a couple of prompts in two languages he does not know well and got 16 PRs of real bug and race-condition fixes."
+    },
+    {
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "url": "https://benchmarkheaven.com/jev-models",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "A public benchmark that scores Jev-class models, which return bounded choices and probabilities instead of text, against their lookalikes."
+    },
+    {
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "category": "industry",
+      "published": "2026-09-22",
+      "summary": "Argument that OpenAI's distribution, not its models, is what would let it absorb the cheap typed-decision category. 277 points, 200 comments."
+    },
+    {
+      "title": "mini-AGI: a continual-learning looped transformer grown on a laptop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnggz5/miniagi_continuallearning_dynamically_looped/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Dynamic recurrent depth up to 24 cycles per token plus self-supervised training, built by one person on consumer hardware."
+    },
+    {
+      "title": "LinearSolveBench: a new benchmark for linear solvers",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wnctam/linearsolvebench_new_benchmark_for_linear_solvers/",
+      "category": "ai_research",
+      "published": "2026-09-22",
+      "summary": "Measures whether a model or harness can write fast, accurate and general sparse linear solvers in C, with the code public on GitHub."
     },
     {
       "title": "Claude Opus 5.5",
@@ -327,102 +418,11 @@
       "summary": "CodeMidas builds RL training environments for coding agents out of the code itself, easing the environment bottleneck."
     },
     {
-      "title": "Jev's calibration was measured and the LLMs won",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wmre0b/jevs_calibration_was_measured_the_llms_won_d/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "A community measurement finds Jev's decision models less well calibrated than Gemini Flash, DeepSeek and GLM."
-    },
-    {
-      "title": "Attention is all you have",
-      "url": "https://alicegg.tech/2026/09/21/attention",
-      "category": "industry",
-      "published": "2026-09-21",
-      "summary": "An essay on how feeds and AI slop captured our attention, and what taking the internet back would take. 750 points on HN."
-    },
-    {
-      "title": "Spymarks, Not Watermarks",
-      "url": "https://brand.io/article/spymarks/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "Argues AI text should be traced by origin marks rather than watermarks, 118 points on Hacker News."
-    },
-    {
-      "title": "I don't want to read what you didn't write",
-      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
-      "category": "industry",
-      "published": "2026-09-21",
-      "summary": "An essay on why readers reject AI-written blog posts, 261 points and 97 comments on Hacker News."
-    },
-    {
-      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-      "url": "https://linear.app/now/ci-bottleneck-reworked",
-      "category": "agents_tooling",
-      "published": "2026-09-21",
-      "summary": "Linear rebuilt its CI pipeline after AI-written code pushed build demand past what it could absorb."
-    },
-    {
-      "title": "Uncensor an LLM without touching weights using an 18MB KV-cache bank",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wms904/uncensor_an_llm_without_touching_weights_inject_a/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "phantom-kv removes model refusals by loading a trained 18MB KV-cache bank; the weights stay untouched."
-    },
-    {
-      "title": "M5 Ultra Mac Studio review: the dream Mac for local AI agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+      "title": "Tokenizers v1: a Rust rewrite that encodes 3 to 30 times faster",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
       "category": "platforms_integration",
       "published": "2026-09-21",
-      "summary": "MacStories calls the M5 Ultra Mac Studio the best desktop yet for running local AI agents."
-    },
-    {
-      "title": "Terence Tao on the Advisory Group on Mathematics and AI",
-      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "Terence Tao explains the new maths-and-AI advisory group, 104 points on Hacker News."
-    },
-    {
-      "title": "Frontier AI on your own hardware",
-      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "Tim Dettmers opens a week of tools for running frontier AI on your own hardware, 117 points on HN."
-    },
-    {
-      "title": "Why does mathmain need an encrypted loader?",
-      "url": "https://safedep.io/mathmain-encrypted-loader/",
-      "category": "ai_research",
-      "published": "2026-09-21",
-      "summary": "A teardown of why a package ships an encrypted loader, 117 points and 35 comments on Hacker News."
-    },
-    {
-      "title": "Xiaomi publishes MiMo-V2.6-Pro-RL weights on Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmntwv/xiaomimimomimov26prorl_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "Xiaomi put the RL-trained MiMo-V2.6-Pro weights on Hugging Face for open download."
-    },
-    {
-      "title": "MiMo-V2.6-Flash-RL vs open-weight models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp5h2/mimo_v26flashrl_vs_openweight_models/",
-      "category": "ai_models",
-      "published": "2026-09-21",
-      "summary": "A community test puts MiMo-V2.6-Flash-RL at 28.8% on Terminal-Bench 4.0, ahead of DeepSeek V4 Flash at 12%."
-    },
-    {
-      "title": "Eyeball turns every claim into a screenshot of its source",
-      "url": "https://github.com/github/awesome-copilot/blob/main/skills/eyeball/SKILL.md",
-      "category": "agents_tooling",
-      "published": "2026-09-21",
-      "summary": "An open-sourced Copilot CLI plugin makes each claim in a document analysis carry a highlighted screenshot of the source."
-    },
-    {
-      "title": "Hermes Agent ships official Claude subscription plugin",
-      "url": "https://x.com/Teknium/status/2102093483788107792",
-      "category": "hermes_nous",
-      "published": "2026-09-21",
-      "summary": "A new official plugin runs Claude Code subscriptions through the Claude SDK inside Hermes Agent, keeping built-in memory and tools."
+      "summary": "Release candidate keeps identical token IDs, vocabulary and merge ranks while cutting encoding time sharply on the same hardware."
     }
   ]
 }
