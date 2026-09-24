@@ -1,0 +1,190 @@
+{
+  "updated_at": "2026-09-24T08:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 26,
+  "tldr": "Claude discovered a molecular machine that may be a new way to edit genes. Anthropic says the model did most of the work itself. OpenAI added email, calendar and Slack to ChatGPT Voice, so you can book and send things by talking. Hermes Desktop now lets you watch any agent work on a live screen and take over. Meta's agent Muse drew half a million users in its first week.",
+  "articles": [
+    {
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "category": "anthropic",
+      "published": "2026-09-23",
+      "summary": "Anthropic reports Claude found a molecular machine with CRISPR-like repeats, a candidate new gene-editing mechanism whose function is not yet confirmed."
+    },
+    {
+      "title": "Dario Amodei: the gene-editing discovery was mostly Claude's work",
+      "url": "https://x.com/DarioAmodei/status/2102831170299834652",
+      "category": "anthropic",
+      "published": "2026-09-23",
+      "summary": "Amodei says a broad research direction was set, then Claude read the literature and genome data and found the candidate mechanism itself."
+    },
+    {
+      "title": "Hermes Desktop streams any bot's screen live, with take-over",
+      "url": "https://x.com/NousResearch/status/2102873234819698877",
+      "category": "hermes_nous",
+      "published": "2026-09-23",
+      "summary": "Watch an agent drive a browser or type in a terminal in real time, take over to type credentials yourself, then hand control back."
+    },
+    {
+      "title": "Live desktop passthrough lands for every Hermes remote gateway",
+      "url": "https://x.com/Teknium/status/2102875926317142488",
+      "category": "hermes_nous",
+      "published": "2026-09-23",
+      "summary": "Visual and interactive access to the same machine the Hermes Agent runs on, for every supported remote gateway."
+    },
+    {
+      "title": "ChatGPT Voice gets email, calendar and Slack access",
+      "url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "ChatGPT Voice now runs on GPT-6 Astra, Sol and Luna and can use plugins to book appointments, send mail, or build docs and sites by talking."
+    },
+    {
+      "title": "Google's Flash TTS models design AI voices from text descriptions",
+      "url": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "Gemini 3.8 Flash TTS and Flash-Lite TTS cover 100-plus languages, invent voices from a written description and generate two-voice dialogue."
+    },
+    {
+      "title": "YouTube adds script coaching, smart thumbnails and Gemini editing",
+      "url": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "Creator Studio gains a storytelling assistant for scripts and rough cuts, a chat-based Gemini editor for Shorts, and live English-to-Spanish translation."
+    },
+    {
+      "title": "Meta's agent Muse draws 500,000 users in a week as copying claims land",
+      "url": "https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "Muse hit number one on the App Store, while Meta admits the agent is heavily inspired by OpenClaw with near-identical file names and contents."
+    },
+    {
+      "title": "Anthropic engineer explains why Claude's writing got worse",
+      "url": "https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/",
+      "category": "anthropic",
+      "published": "2026-09-23",
+      "summary": "Jackson Kernion says tuning for maths, code and machine-readable answers left newer Claude models reading like dense info dumps to people."
+    },
+    {
+      "title": "Nscale keeps its biggest customer, Bytedance, out of its IPO filing",
+      "url": "https://the-decoder.com/nvidia-backed-nscale-keeps-its-biggest-customer-bytedance-out-of-its-ipo-filing/",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "The Nvidia-backed AI cloud provider left its most important customer out of the main prospectus for its planned US listing."
+    },
+    {
+      "title": "How Anthropic made claude.ai and the desktop app faster",
+      "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+      "category": "anthropic",
+      "published": "2026-09-23",
+      "summary": "An engineering write-up on the recent speed-up of claude.ai and the desktop app, with techniques other app teams can reuse."
+    },
+    {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "category": "policy",
+      "published": "2026-09-23",
+      "summary": "OpenAI extended its Daybreak cyber programme to Ukraine's government to help defend civilian infrastructure."
+    },
+    {
+      "title": "Sam Altman's remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "policy",
+      "published": "2026-09-23",
+      "summary": "The OpenAI CEO spoke to the Security Council on AI safety, keeping humans in control, and international cooperation."
+    },
+    {
+      "title": "invideo improves color grading 3x with GPT-6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "The video tool plans edits more precisely, triples colour-correction quality, and shipped 50 custom effects in a single day."
+    },
+    {
+      "title": "Ringg's AI agents resolve up to 65% of customer calls",
+      "url": "https://openai.com/index/ringg",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "Ringg runs multilingual voice, chat, WhatsApp and web agents on GPT-5.6 for 90% less cost than GPT-4.1."
+    },
+    {
+      "title": "Introducing MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "category": "ai_research",
+      "published": "2026-09-23",
+      "summary": "An expert-informed benchmark for measuring how helpfully and safely AI systems answer real mental health conversations."
+    },
+    {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, leaving lawyers to focus on strategy."
+    },
+    {
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "OpenAI marks two years of its free AI skills programme and says it is bringing it to more communities."
+    },
+    {
+      "title": "Inside Basecamp Research, the startup turning evolution into training data",
+      "url": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "The London company raised $140M from Nvidia and Anthropic's Anthology Fund to train models on genetic material for new antibiotics."
+    },
+    {
+      "title": "Alibaba launches Qwen Audio 3.1 and cuts audio prices up to 95%",
+      "url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/",
+      "category": "chinese_ai",
+      "published": "2026-09-23",
+      "summary": "Five models cover speech recognition, text-to-speech and real-time interaction, with ASR that cleans up filler words and handles dialects."
+    },
+    {
+      "title": "Claude Code reads AGENTS.md only when telemetry is on",
+      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "category": "agents_tooling",
+      "published": "2026-09-23",
+      "summary": "A widely discussed find that the AGENTS.md instruction file is honoured only when telemetry is enabled, tying config behaviour to data sharing."
+    },
+    {
+      "title": "MiMo-V3 gets a new architecture, with HySparse2 out today",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wo7mr6/mimov3_is_getting_a_new_architecture_the_core_of/",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "Xiaomi published HySparse2, the core of the next MiMo model, in a new paper alongside the MiMo-V2.6 release."
+    },
+    {
+      "title": "Antigravity SDK adds support for local AI models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wof9kk/introducing_support_for_local_ai_models_in_the/",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "The Antigravity SDK can now target locally hosted models rather than hosted APIs only."
+    },
+    {
+      "title": "Apple's LensVLM-9B expands only the pages a task needs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wodf84/applelensvlm9b_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "A 9B vision-language model scans compressed page images and pulls only the relevant pages back to full resolution, cutting cost on long documents."
+    },
+    {
+      "title": "Jev isn't new tech, and its marketing targets people who think AI began with LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "A community rebuttal arguing Jev is ordinary classifier behaviour with modern zero-shot ability, dressed up as a new class of decision model."
+    },
+    {
+      "title": "Opus 5.5 safety classifiers can reroute requests to older models",
+      "url": "https://thenewstack.io/claude-opus-5-5-release/",
+      "category": "anthropic",
+      "published": "2026-09-22",
+      "summary": "Flagged cybersecurity, biology and frontier-model requests are silently sent to Opus 4.8 or Opus 5, so a workflow may not run on one model throughout."
+    }
+  ]
+}
