@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-09-24T08:15:00+08:00",
+  "updated_at": "2026-09-24T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Claude discovered a molecular machine that may be a new way to edit genes. Anthropic says the model did most of the work itself. OpenAI added email, calendar and Slack to ChatGPT Voice, so you can book and send things by talking. Hermes Desktop now lets you watch any agent work on a live screen and take over. Meta's agent Muse drew half a million users in its first week.",
+  "tldr": "OpenAI is putting ChatGPT ads into Southeast Asia and Taiwan, its biggest ad push outside the US so far. Airbnb is rolling out GPT-6 Astra to more of its engineering teams. Qualcomm says Linux is finally coming to its Snapdragon X2 laptops. US federal agencies are accused of treating well-known AI critics as foreign agents. And a widely read post argues Xiaomi benchmark-gamed its new MiMo-V2.6 models.",
   "articles": [
+    {
+      "title": "Feds Target AI Critics as \"Foreign Agents\"",
+      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+      "category": "policy",
+      "published": "2026-09-24",
+      "summary": "A Ken Klippenstein report alleges US agencies are treating prominent AI critics as foreign agents; 116 points on Hacker News."
+    },
+    {
+      "title": "The Pope's AI Guy Is Worried About 'Cartel' Behavior Among Big Labs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wonvcg/the_popes_ai_guy_is_worried_about_cartel_behavior/",
+      "category": "policy",
+      "published": "2026-09-24",
+      "summary": "The Vatican's AI adviser warns that the biggest AI labs are starting to behave like a cartel, in remarks reshared on r/LocalLLaMA."
+    },
+    {
+      "title": "Garry Tan: agents are becoming a customer-acquisition channel",
+      "url": "https://x.com/garrytan/status/2102955139875397806",
+      "category": "industry",
+      "published": "2026-09-24",
+      "summary": "Garry Tan says startups now need to make software agents want their product, then use agents to make people want it."
+    },
+    {
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "ChatGPT Ads is opening in Southeast Asia and Taiwan, giving businesses in more than 60 countries a way to reach ChatGPT users."
+    },
+    {
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "Airbnb is expanding GPT-6 Astra and other OpenAI frontier models across its engineering teams to debug and ship faster."
+    },
+    {
+      "title": "MiMo-V2.6 Pro and Flash called a \"benchmaxxed scam\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woa5d3/mimov26_both_pro_and_flash_is_a_benchmaxxed_scam/",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "A detailed LocalLLaMA post argues Xiaomi's MiMo-V2.6 scores are benchmark-gamed, despite topping the open-source charts."
+    },
+    {
+      "title": "Using uncensored models makes working less of a headache",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wol7zc/using_uncensored_models_makes_working_less_of_a/",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "A LocalLLaMA user says Qwen 3.8 and Muse Spark 1.3 refuse ordinary coding tasks, so they moved to uncensored local models."
+    },
+    {
+      "title": "Linux support is coming to Snapdragon X2 Series",
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "Qualcomm says Linux support is coming to its Snapdragon X2 chips, aimed at agentic AI PCs — 144 points on Hacker News."
+    },
+    {
+      "title": "Meta VR Glasses",
+      "url": "https://www.meta.com/vr-glasses/",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "Meta's new VR glasses page went live and topped Hacker News with 211 points, as the company pushes further into face-worn hardware."
+    },
+    {
+      "title": "Qwen 3.8 Flash Next: 130k context on 16GB VRAM at 15-20 t/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wom3fe/qwen_38_flash_next_q4_k_m_130k_context_q8_cache/",
+      "category": "chinese_ai",
+      "published": "2026-09-23",
+      "summary": "A week of testing shows Qwen 3.8 Flash Next at 15-20 tokens/second on a 16GB 4080 with the right quant, branch and cache flags."
+    },
+    {
+      "title": "Lemonade drops OpenMOSS ROCm as ~40x slower than Vulkan",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wogzdm/lemonade_fixes_amd_apu_model_streaming_drops/",
+      "category": "platforms_integration",
+      "published": "2026-09-23",
+      "summary": "Lemonade fixed model streaming on AMD APUs and dropped OpenMOSS ROCm after finding it roughly 40x slower than Vulkan."
+    },
     {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -346,83 +423,6 @@
       "category": "ai_models",
       "published": "2026-09-22",
       "summary": "Two ~3-bit builds of Qwen 3.8 27B tested on a single RTX 3060 - the newer ByteShape quant came out worse than the one it replaced."
-    },
-    {
-      "title": "OpenAI launches GPT-6 Sol and Luna at half the previous price",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "Two cheaper GPT-6 models, live in ChatGPT Work, Codex and the API, priced 50% below GPT-5.6 promotional rates."
-    },
-    {
-      "title": "GPT-6 Sol and Luna halve the price but barely move the needle on performance",
-      "url": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "Independent checks find little intelligence gain over the previous models as OpenAI cuts token prices and points the cut at Anthropic."
-    },
-    {
-      "title": "AntLing open-sources the Ming-Image-0.1-Design family",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnh7tk/antling_open_sourced_the_mingimage01design_family/",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "A 6B image model that ranks first among open weights on UI design, plus two open agent skills for UI design and image-to-PPT."
-    },
-    {
-      "title": "Claude Opus 5.5 matches Fable 5.1 at 40% lower run cost",
-      "url": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/",
-      "category": "anthropic",
-      "published": "2026-09-22",
-      "summary": "First model in the Claude 5.5 family, tested before release by external evaluators, with Anthropic promising to fix Claudish writing."
-    },
-    {
-      "title": "Opus 5.5 ships on every cloud at $4/$20 per million tokens",
-      "url": "https://x.com/AnthropicAI/status/2102435703535939725",
-      "category": "anthropic",
-      "published": "2026-09-22",
-      "summary": "Anthropic's launch post: 1M-token context, available on AWS, Google Cloud and Azure, with the preserved-thinking safeguard in place."
-    },
-    {
-      "title": "Better prompt caching for GPT-6",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "category": "platforms_integration",
-      "published": "2026-09-22",
-      "summary": "GPT-6 prompt caching adds explicit breakpoints and diagnostics that raise cache hit rates and cut both latency and cost."
-    },
-    {
-      "title": "Claude Code lets you switch effort mid-session without breaking the cache",
-      "url": "https://x.com/lydiahallie/status/2102513987699212344",
-      "category": "platforms_integration",
-      "published": "2026-09-22",
-      "summary": "Cache-safe from v2.1.280, and prompt-cache lifetime is now pinnable to one hour in settings.json or an environment variable."
-    },
-    {
-      "title": "GPT-6 Sol and Luna are selectable in Hermes Agent",
-      "url": "https://x.com/Teknium/status/2102472696525377909",
-      "category": "hermes_nous",
-      "published": "2026-09-22",
-      "summary": "Both GPT-6 models arrive through Nous Portal and OpenRouter on launch day, with Codex subscription access flagged as coming."
-    },
-    {
-      "title": "Claude Opus 5.5 is available in Hermes Agent via Nous Portal",
-      "url": "https://x.com/Teknium/status/2102442142040014893",
-      "category": "hermes_nous",
-      "published": "2026-09-22",
-      "summary": "Opus 5.5 lands in the harness on the same day Anthropic launched it, alongside the GPT-6 pair."
-    },
-    {
-      "title": "OpenAI sets out priorities for independent third-party model assessments",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "category": "policy",
-      "published": "2026-09-22",
-      "summary": "A position paper on how independent safety assessments of frontier models should be run, reported and kept secure."
-    },
-    {
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "category": "policy",
-      "published": "2026-09-22",
-      "summary": "Bloomberg reporting on a strike that killed schoolchildren says over-reliance on AI helped produce the targeting error."
     }
   ]
 }
