@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-09-24T13:15:00+08:00",
+  "updated_at": "2026-09-24T21:16:49+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI is putting ChatGPT ads into Southeast Asia and Taiwan, its biggest ad push outside the US so far. Airbnb is rolling out GPT-6 Astra to more of its engineering teams. Qualcomm says Linux is finally coming to its Snapdragon X2 laptops. US federal agencies are accused of treating well-known AI critics as foreign agents. And a widely read post argues Xiaomi benchmark-gamed its new MiMo-V2.6 models.",
+  "tldr": "Alibaba released Qwen Intelligence, a set of three phone agents that plan, act and create on a handset. It also cut the price of its speech models by up to 95 percent. Google shipped Gemini 3.8 text-to-speech. Researchers found early AI agents scanning the web for weak spots, including attempts to hack a website. One widely read essay asks what happens to AI pricing once tokens become too cheap to meter.",
   "articles": [
+    {
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "url": "https://transluce.org/agent-activity",
+      "category": "agents_tooling",
+      "published": "2026-09-24",
+      "summary": "Transluce traces early AI agent activity on urlquery.net, including attempts to hack the site."
+    },
+    {
+      "title": "Contrastive Language Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woscea/contrastive_language_models/",
+      "category": "ai_research",
+      "published": "2026-09-24",
+      "summary": "Contrastive Language Models: a new projection head for Qwen3-8B that sharpens its outputs."
+    },
+    {
+      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "category": "industry",
+      "published": "2026-09-24",
+      "summary": "Meta pulled a critical video about its AI glasses after the creator filmed inside a Meta office."
+    },
+    {
+      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
+      "url": "https://github.com/nestrilabs/virtio-nvgpu",
+      "category": "platforms_integration",
+      "published": "2026-09-24",
+      "summary": "Virtio-nvgpu gives KVM guests near-native Nvidia GPU access, useful for cheaper AI sandboxes."
+    },
+    {
+      "title": "Lesson learned. Don't blindly trust repos and make sure everything is stable for a long running (multi weeks) benchmark.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woxw7s/lesson_learned_dont_blindly_trust_repos_and_make/",
+      "category": "ai_research",
+      "published": "2026-09-24",
+      "summary": "A LocalLLaMA user reruns his SWE-bench Django evals after finding the harness was unstable."
+    },
+    {
+      "title": "MacBook Pro M5 Max LSE LLM running an AMD Radeon AI PRO R9700 over Thunderbolt 5 in a Razer enclosure",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woutxp/macbook_pro_m5_max_lse_llm_running_an_amd_radeon/",
+      "category": "platforms_integration",
+      "published": "2026-09-24",
+      "summary": "An AMD Radeon AI PRO R9700 eGPU drives local models from a Thunderbolt 5 MacBook Pro."
+    },
+    {
+      "title": "My foray into local ai. Two BC-250 ex mining apus running Qwen3.6-35B-A3B Q4_K_M at 60 tok/s with 64k context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wou3gr/my_foray_into_local_ai_two_bc250_ex_mining_apus/",
+      "category": "platforms_integration",
+      "published": "2026-09-24",
+      "summary": "Two $115 ex-mining boards run Qwen3.6-35B at 60 tok/s on 27GB of pooled GPU memory."
+    },
+    {
+      "title": "New DeepThink built on GLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woo22j/new_deepthink_built_on_glm/",
+      "category": "ai_models",
+      "published": "2026-09-24",
+      "summary": "Rogue builds Deep Think on GLM open weights, pushing max test-time reasoning as the open-model play."
+    },
+    {
+      "title": "model : add Ling 3.0 VL support by aetherbird · Pull Request #29151 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wow7nt/model_add_ling_30_vl_support_by_aetherbird_pull/",
+      "category": "chinese_ai",
+      "published": "2026-09-24",
+      "summary": "Ling-3.0-flash-VL, a 124B model activating 5.5B parameters, gets llama.cpp support via an open PR."
+    },
     {
       "title": "Feds Target AI Critics as \"Foreign Agents\"",
       "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
@@ -24,6 +87,48 @@
       "category": "industry",
       "published": "2026-09-24",
       "summary": "Garry Tan says startups now need to make software agents want their product, then use agents to make people want it."
+    },
+    {
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+      "category": "ai_research",
+      "published": "2026-09-23",
+      "summary": "arXiv says multiyear commitments will keep it running as an independent nonprofit."
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "Google ships Gemini 3.8 text-to-speech, its newest voice stack."
+    },
+    {
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "url": "https://artificialanalysis.ai/models/mercury-2-5",
+      "category": "ai_models",
+      "published": "2026-09-23",
+      "summary": "Mercury 2.5 posts 770 tokens per second, the fastest model Artificial Analysis has measured."
+    },
+    {
+      "title": "Tokens too cheap to meter",
+      "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "category": "ai_research",
+      "published": "2026-09-23",
+      "summary": "A widely read essay on what happens to AI pricing when tokens get too cheap to meter."
+    },
+    {
+      "title": "Qwen Intelligence: three phone-side agents and four open agent benchmarks",
+      "url": "https://x.com/Alibaba_Qwen/status/2102727405198876753",
+      "category": "chinese_ai",
+      "published": "2026-09-23",
+      "summary": "Qwen launches three phone-side agents - planner, mobile-use and creative - plus four open benchmarks."
+    },
+    {
+      "title": "Qwen-Audio-3.1 adds five speech models and cuts prices up to 95%",
+      "url": "https://x.com/Alibaba_Qwen/status/2102687258990026993",
+      "category": "chinese_ai",
+      "published": "2026-09-23",
+      "summary": "Qwen's five-model audio stack adds TTS-Next and ASR-Next, with speech prices cut up to 95%."
     },
     {
       "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
@@ -318,111 +423,6 @@
       "category": "policy",
       "published": "2026-09-23",
       "summary": "Congressional testimony on open models: downloads of Chinese open weights now run about 2x America's, and over 80% of open-model use on OpenRouter."
-    },
-    {
-      "title": "The attack on open weights continues to grow",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wntshq/the_attack_on_open_weights_continues_to_grow/",
-      "category": "policy",
-      "published": "2026-09-23",
-      "summary": "LocalLLaMA thread on Illinois standing up an AI cabinet to assess risk, framed as part of a wider push against open-weight models."
-    },
-    {
-      "title": "Opus 5.5 safety classifiers can reroute requests to older models",
-      "url": "https://thenewstack.io/claude-opus-5-5-release/",
-      "category": "anthropic",
-      "published": "2026-09-22",
-      "summary": "Flagged cybersecurity, biology and frontier-model requests are silently sent to Opus 4.8 or Opus 5, so a workflow may not run on one model throughout."
-    },
-    {
-      "title": "OpenAI GPT-6 Astra breaks Enigma message that has resisted solution since 2005",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "A 1941 Enigma message that codebreakers could not crack for two decades falls to GPT-6 Astra. 659 points on Hacker News."
-    },
-    {
-      "title": "Opus 5.5 used to formally verify the Claude Agent SDK in Lean and TLA+",
-      "url": "https://x.com/bcherny/status/2102543349102338309",
-      "category": "agents_tooling",
-      "published": "2026-09-22",
-      "summary": "Boris Cherny ran a couple of prompts in two languages he does not know well and got 16 PRs of real bug and race-condition fixes."
-    },
-    {
-      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
-      "url": "https://benchmarkheaven.com/jev-models",
-      "category": "ai_research",
-      "published": "2026-09-22",
-      "summary": "A public benchmark that scores Jev-class models, which return bounded choices and probabilities instead of text, against their lookalikes."
-    },
-    {
-      "title": "OpenAI is well positioned to fast-follow Jev",
-      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "category": "industry",
-      "published": "2026-09-22",
-      "summary": "Argument that OpenAI's distribution, not its models, is what would let it absorb the cheap typed-decision category. 277 points, 200 comments."
-    },
-    {
-      "title": "mini-AGI: a continual-learning looped transformer grown on a laptop",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnggz5/miniagi_continuallearning_dynamically_looped/",
-      "category": "ai_research",
-      "published": "2026-09-22",
-      "summary": "Dynamic recurrent depth up to 24 cycles per token plus self-supervised training, built by one person on consumer hardware."
-    },
-    {
-      "title": "LinearSolveBench: a new benchmark for linear solvers",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wnctam/linearsolvebench_new_benchmark_for_linear_solvers/",
-      "category": "ai_research",
-      "published": "2026-09-22",
-      "summary": "Measures whether a model or harness can write fast, accurate and general sparse linear solvers in C, with the code public on GitHub."
-    },
-    {
-      "title": "Claude Opus 5.5",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "category": "anthropic",
-      "published": "2026-09-22",
-      "summary": "Anthropic's launch page for Opus 5.5: Fable 5.1-class performance at 40% lower run cost, live on Anthropic, AWS, Google Cloud and Azure."
-    },
-    {
-      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis",
-      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "Independent benchmark page for Opus 5.5, which scores 58 on the Artificial Analysis index - 12 points above the best open model."
-    },
-    {
-      "title": "Unreal Agent",
-      "url": "https://unreallabs.ai/blog/unreal-agent/",
-      "category": "agents_tooling",
-      "published": "2026-09-22",
-      "summary": "Unreal Labs releases an open-source agent with its code on GitHub. 132 points and 80 comments on Hacker News."
-    },
-    {
-      "title": "Opus 5.5 sits at 58 on Artificial Analysis - how long until an open model gets there?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnhlbl/now_opus_55_is_58_on_artificial_analysis_how_long/",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "LocalLLaMA thread on the gap between Opus 5.5 at 58 and the best open model, Xiaomi's MiMo 2.6 Pro, at 46."
-    },
-    {
-      "title": "Xiaomi releases MiMo-V2.6: frontier intelligence, all the modalities",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wn36d4/xiaomi_releases_mimov26_frontier_intelligence_all/",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "Xiaomi's MiMo-V2.6 ships with every input type and a live benchmark dashboard. Reported total RL training cost: $3.5M."
-    },
-    {
-      "title": "M5 Ultra AI test results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnmu2l/m5_ultra_ai_test_results/",
-      "category": "platforms_integration",
-      "published": "2026-09-22",
-      "summary": "Local AI benchmarks for Apple's M5 Ultra: prompt processing 4-4.5x faster than M3 Ultra, but twice the power draw and more fan noise."
-    },
-    {
-      "title": "Qwen 3.8 27B at ~3 BPW on an RTX 3060: GSQ vs ByteShape IQ3-XXS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnechu/qwen_38_27b_at_3_bpw_on_an_rtx_3060_gsq_vs/",
-      "category": "ai_models",
-      "published": "2026-09-22",
-      "summary": "Two ~3-bit builds of Qwen 3.8 27B tested on a single RTX 3060 - the newer ByteShape quant came out worse than the one it replaced."
     }
   ]
 }
