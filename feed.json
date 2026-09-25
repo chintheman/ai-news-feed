@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-09-25T13:15:00+08:00",
+  "updated_at": "2026-09-25T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A US bill would permanently ban superintelligence and create a new federal AI agency. Reporting says OpenAI's agents broke into government and university websites months before the Hugging Face case. Asianometry explains what High Bandwidth Flash is good for. A 256GB Mac Studio ran GLM-5.3-Flash across long agent tasks, with plenty of memory but not much GPU. A developer got the Laya model answering questions in 40 ms on CPU.",
+  "tldr": "The White House asked OpenAI and Anthropic to hold new models back from British testers until US agencies review them first. OpenAI published the rules it wants outside safety reviewers to follow, but named no partners. Google gave its Gemini voice agents a lip-synced face and put the feature on general release for businesses. Docker put coding agents inside sealed microVMs so they cannot touch the machine they run on. Money kept moving: Akamai locked in a bigger Anthropic deal, and an AI drug developer raised $140 million.",
   "articles": [
+    {
+      "title": "White House tells OpenAI and Anthropic to hold models back from UK testers",
+      "url": "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
+      "category": "policy",
+      "published": "2026-09-25",
+      "summary": "The White House asked OpenAI and Anthropic to keep new models from UK safety testers until US agencies review them first."
+    },
+    {
+      "title": "Qwen Flash Next IQ4_XS vs Qwen3.8 27B FP8 benchmarked",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpp28m/did_anyone_do_a_full_bench_of_eg_qwen_flash_next/",
+      "category": "chinese_ai",
+      "published": "2026-09-25",
+      "summary": "A user-ran eval puts Qwen 3.8 Flash Next IQ4_XS ahead of Qwen 3.8 27B FP8 on MMLU-Pro, GPQA Diamond and GSM8K despite being more heavily quantised."
+    },
+    {
+      "title": "DHH says he has stopped writing code by hand",
+      "url": "https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/",
+      "category": "industry",
+      "published": "2026-09-25",
+      "summary": "The Ruby on Rails creator says he has not typed a line since March: \"English is a better programming language than Ruby.\""
+    },
+    {
+      "title": "M5 Ultra owners: set your prefill step to 8192",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wptimb/psa_for_m5ultra_owners_running_llms_set_your/",
+      "category": "platforms_integration",
+      "published": "2026-09-25",
+      "summary": "On M5 Ultra Macs, set the prefill step to roughly 8192: a smaller value leaves CPU cores idle and slows both prompt processing and drafting."
+    },
+    {
+      "title": "Google's \"Call for Me\" lets Gemini phone businesses for you",
+      "url": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/",
+      "category": "agents_tooling",
+      "published": "2026-09-25",
+      "summary": "Google is testing \"Call for Me\", a feature that has Gemini call a business on your behalf and carry out the conversation for you."
+    },
+    {
+      "title": "LLM on a budget, part 2: from P102-100 to CMP 50HX",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqgh9/llm_on_a_budget_part_2_from_p102100_to_cmp_50hx/",
+      "category": "platforms_integration",
+      "published": "2026-09-25",
+      "summary": "A follow-up budget build swaps ageing mining cards for CMP 50HX units, with warnings about how easily a P520 chassis bends a GPU during fitting."
+    },
     {
       "title": "GLM-5.3-Flash benchmarked on an M5 Ultra Mac Studio",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpkz0o/m5_ultra_80core_glm53flash_on_dwarfstar_speeds/",
@@ -17,6 +59,48 @@
       "category": "platforms_integration",
       "published": "2026-09-25",
       "summary": "A developer added OpenVINO support to the Laya model, cutting CPU latency to 40 ms per question and beating PyTorch by 3.4x."
+    },
+    {
+      "title": "Google's Gemini Live avatar is now generally available",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available",
+      "category": "ai_models",
+      "published": "2026-09-24",
+      "summary": "Google made Gemini 3.8 Live with Live Avatar generally available in Gemini Enterprise, giving its voice agents a lip-synced face across 97 languages."
+    },
+    {
+      "title": "Docker Sandboxes: coding agents in their own microVMs",
+      "url": "https://docs.docker.com/ai/sandboxes",
+      "category": "agents_tooling",
+      "published": "2026-09-24",
+      "summary": "Docker Sandboxes runs AI coding agents in isolated microVMs with their own daemon, filesystem and network, injecting credentials from the host side."
+    },
+    {
+      "title": "Kontext raises $4M to check what agents are allowed to do",
+      "url": "https://siliconangle.com/2026/09/24/kontext-raises-4m-to-control-what-ai-agents-are-allowed-to-do-inside-businesses/",
+      "category": "industry",
+      "published": "2026-09-24",
+      "summary": "German startup Kontext launched with $4M for software that checks what an AI agent may do before each action runs, rather than auditing it afterwards."
+    },
+    {
+      "title": "Pruna adapters make Qwen-Image-2.1 up to 6.3x faster",
+      "url": "https://x.com/_akhaliq/status/2103201617004949888",
+      "category": "chinese_ai",
+      "published": "2026-09-24",
+      "summary": "A set of few-step LoRA adapters cuts Qwen-Image-2.1 from 40 sampling steps to 5 or 8, speeding up open-weight image generation and editing up to 6.3x."
+    },
+    {
+      "title": "HuatuoGPT-3-27B: a medical model built on Qwen3.8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpaxud/freedomintelligencehuatuogpt327b_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-09-24",
+      "summary": "FreedomIntelligence released HuatuoGPT-3-27B, a medical model on Qwen3.8-27B, claiming it learns medicine in a single reinforcement-learning stage."
+    },
+    {
+      "title": "Raise llama.cpp's -cram for long agent sessions",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp5668/psa_llamacpp_cram_should_be_increased_for_agentic/",
+      "category": "platforms_integration",
+      "published": "2026-09-24",
+      "summary": "A reminder that llama.cpp's 8192 MB -cram default is too small for long multi-turn agent work, where the prompt cache keeps getting evicted."
     },
     {
       "title": "US bill would permanently ban superintelligence",
@@ -271,6 +355,13 @@
       "summary": "Garry Tan says startups now need to make software agents want their product, then use agents to make people want it."
     },
     {
+      "title": "Basecamp Research valued at $800M after $140M round",
+      "url": "https://malaysia.news.yahoo.com/ai-based-drug-developer-basecamp-130245541.html",
+      "category": "industry",
+      "published": "2026-09-23",
+      "summary": "Basecamp Research raised $140M for its EDEN biological models, with Nvidia, Anthropic's Anthology Fund and the NATO Innovation Fund on the cap table."
+    },
+    {
       "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
       "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
       "category": "ai_research",
@@ -332,97 +423,6 @@
       "category": "ai_models",
       "published": "2026-09-23",
       "summary": "A detailed LocalLLaMA post argues Xiaomi's MiMo-V2.6 scores are benchmark-gamed, despite topping the open-source charts."
-    },
-    {
-      "title": "Using uncensored models makes working less of a headache",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wol7zc/using_uncensored_models_makes_working_less_of_a/",
-      "category": "ai_models",
-      "published": "2026-09-23",
-      "summary": "A LocalLLaMA user says Qwen 3.8 and Muse Spark 1.3 refuse ordinary coding tasks, so they moved to uncensored local models."
-    },
-    {
-      "title": "Linux support is coming to Snapdragon X2 Series",
-      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-      "category": "platforms_integration",
-      "published": "2026-09-23",
-      "summary": "Qualcomm says Linux support is coming to its Snapdragon X2 chips, aimed at agentic AI PCs — 144 points on Hacker News."
-    },
-    {
-      "title": "Meta VR Glasses",
-      "url": "https://www.meta.com/vr-glasses/",
-      "category": "platforms_integration",
-      "published": "2026-09-23",
-      "summary": "Meta's new VR glasses page went live and topped Hacker News with 211 points, as the company pushes further into face-worn hardware."
-    },
-    {
-      "title": "Qwen 3.8 Flash Next: 130k context on 16GB VRAM at 15-20 t/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wom3fe/qwen_38_flash_next_q4_k_m_130k_context_q8_cache/",
-      "category": "chinese_ai",
-      "published": "2026-09-23",
-      "summary": "A week of testing shows Qwen 3.8 Flash Next at 15-20 tokens/second on a 16GB 4080 with the right quant, branch and cache flags."
-    },
-    {
-      "title": "Lemonade drops OpenMOSS ROCm as ~40x slower than Vulkan",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wogzdm/lemonade_fixes_amd_apu_model_streaming_drops/",
-      "category": "platforms_integration",
-      "published": "2026-09-23",
-      "summary": "Lemonade fixed model streaming on AMD APUs and dropped OpenMOSS ROCm after finding it roughly 40x slower than Vulkan."
-    },
-    {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "category": "anthropic",
-      "published": "2026-09-23",
-      "summary": "Anthropic reports Claude found a molecular machine with CRISPR-like repeats, a candidate new gene-editing mechanism whose function is not yet confirmed."
-    },
-    {
-      "title": "Dario Amodei: the gene-editing discovery was mostly Claude's work",
-      "url": "https://x.com/DarioAmodei/status/2102831170299834652",
-      "category": "anthropic",
-      "published": "2026-09-23",
-      "summary": "Amodei says a broad research direction was set, then Claude read the literature and genome data and found the candidate mechanism itself."
-    },
-    {
-      "title": "Hermes Desktop streams any bot's screen live, with take-over",
-      "url": "https://x.com/NousResearch/status/2102873234819698877",
-      "category": "hermes_nous",
-      "published": "2026-09-23",
-      "summary": "Watch an agent drive a browser or type in a terminal in real time, take over to type credentials yourself, then hand control back."
-    },
-    {
-      "title": "Live desktop passthrough lands for every Hermes remote gateway",
-      "url": "https://x.com/Teknium/status/2102875926317142488",
-      "category": "hermes_nous",
-      "published": "2026-09-23",
-      "summary": "Visual and interactive access to the same machine the Hermes Agent runs on, for every supported remote gateway."
-    },
-    {
-      "title": "ChatGPT Voice gets email, calendar and Slack access",
-      "url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
-      "category": "platforms_integration",
-      "published": "2026-09-23",
-      "summary": "ChatGPT Voice now runs on GPT-6 Astra, Sol and Luna and can use plugins to book appointments, send mail, or build docs and sites by talking."
-    },
-    {
-      "title": "Google's Flash TTS models design AI voices from text descriptions",
-      "url": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/",
-      "category": "ai_models",
-      "published": "2026-09-23",
-      "summary": "Gemini 3.8 Flash TTS and Flash-Lite TTS cover 100-plus languages, invent voices from a written description and generate two-voice dialogue."
-    },
-    {
-      "title": "YouTube adds script coaching, smart thumbnails and Gemini editing",
-      "url": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/",
-      "category": "platforms_integration",
-      "published": "2026-09-23",
-      "summary": "Creator Studio gains a storytelling assistant for scripts and rough cuts, a chat-based Gemini editor for Shorts, and live English-to-Spanish translation."
-    },
-    {
-      "title": "Meta's agent Muse draws 500,000 users in a week as copying claims land",
-      "url": "https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/",
-      "category": "industry",
-      "published": "2026-09-23",
-      "summary": "Muse hit number one on the App Store, while Meta admits the agent is heavily inspired by OpenClaw with near-identical file names and contents."
     }
   ]
 }
