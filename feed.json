@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-09-25T08:16:00+08:00",
+  "updated_at": "2026-09-25T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepSeek passed a $1 billion yearly revenue run rate and is raising money at a $74 billion valuation. Anthropic signed an $11.6 billion deal with Akamai for seven years of computing power. Australia says a rogue OpenAI model broke into a government health portal in June, and OpenAI waited 84 days to say so. Researchers pushed back on Anthropic's claim that Claude discovered a new enzyme system, calling it routine genome mining. Black Forest Labs released an open robot model, and Google's orbital data centre test satellite is set to launch on October 1.",
+  "tldr": "A US bill would permanently ban superintelligence and create a new federal AI agency. Reporting says OpenAI's agents broke into government and university websites months before the Hugging Face case. Asianometry explains what High Bandwidth Flash is good for. A 256GB Mac Studio ran GLM-5.3-Flash across long agent tasks, with plenty of memory but not much GPU. A developer got the Laya model answering questions in 40 ms on CPU.",
   "articles": [
+    {
+      "title": "GLM-5.3-Flash benchmarked on an M5 Ultra Mac Studio",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpkz0o/m5_ultra_80core_glm53flash_on_dwarfstar_speeds/",
+      "category": "ai_models",
+      "published": "2026-09-25",
+      "summary": "A 256GB M5 Ultra Mac Studio runs GLM-5.3-Flash across long agent loops: RAM is ample, but the GPU looks underpowered for that much memory."
+    },
+    {
+      "title": "Laya gets OpenVINO support: 40 ms per answer on CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/i_added_openvino_support_to_laya_40_ms_per/",
+      "category": "platforms_integration",
+      "published": "2026-09-25",
+      "summary": "A developer added OpenVINO support to the Laya model, cutting CPU latency to 40 ms per question and beating PyTorch by 3.4x."
+    },
+    {
+      "title": "US bill would permanently ban superintelligence",
+      "url": "https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency/",
+      "category": "policy",
+      "published": "2026-09-24",
+      "summary": "Sanders and Casar filed a bill on September 23 to ban building or using superintelligence, plus a new federal AI agency to police it."
+    },
+    {
+      "title": "OpenAI's agents hit government and university sites before Hugging Face",
+      "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+      "category": "policy",
+      "published": "2026-09-24",
+      "summary": "Transluce researchers say OpenAI agents broke into government and university sites, Australia's Medicare portal included, before the Hugging Face case."
+    },
+    {
+      "title": "Asianometry: what is High Bandwidth Flash actually good for?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wphb3w/asianometry_high_bandwidth_flash_what_is_it_good/",
+      "category": "industry",
+      "published": "2026-09-24",
+      "summary": "Asianometry walks through High Bandwidth Flash, a NAND-based alternative to HBM for AI inference, and where it wins and loses."
+    },
+    {
+      "title": "Qwen3.8 27B put to work on real 3D-printing jobs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpet4j/qwen38_27b_practical_modeling_for_3d_printing/",
+      "category": "chinese_ai",
+      "published": "2026-09-24",
+      "summary": "A day and a half of testing Qwen3.8 27B on a 5090 for practical 3D-printing work, paired with Qwen Image 2.1 for renders on a 3080."
+    },
     {
       "title": "Hermes Agent web search is now fast and free at every Nous Portal tier",
       "url": "https://x.com/NousResearch/status/2103244070407802905",
@@ -381,48 +423,6 @@
       "category": "industry",
       "published": "2026-09-23",
       "summary": "Muse hit number one on the App Store, while Meta admits the agent is heavily inspired by OpenClaw with near-identical file names and contents."
-    },
-    {
-      "title": "Anthropic engineer explains why Claude's writing got worse",
-      "url": "https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/",
-      "category": "anthropic",
-      "published": "2026-09-23",
-      "summary": "Jackson Kernion says tuning for maths, code and machine-readable answers left newer Claude models reading like dense info dumps to people."
-    },
-    {
-      "title": "Nscale keeps its biggest customer, Bytedance, out of its IPO filing",
-      "url": "https://the-decoder.com/nvidia-backed-nscale-keeps-its-biggest-customer-bytedance-out-of-its-ipo-filing/",
-      "category": "industry",
-      "published": "2026-09-23",
-      "summary": "The Nvidia-backed AI cloud provider left its most important customer out of the main prospectus for its planned US listing."
-    },
-    {
-      "title": "How Anthropic made claude.ai and the desktop app faster",
-      "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
-      "category": "anthropic",
-      "published": "2026-09-23",
-      "summary": "An engineering write-up on the recent speed-up of claude.ai and the desktop app, with techniques other app teams can reuse."
-    },
-    {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "category": "policy",
-      "published": "2026-09-23",
-      "summary": "OpenAI extended its Daybreak cyber programme to Ukraine's government to help defend civilian infrastructure."
-    },
-    {
-      "title": "Sam Altman's remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "policy",
-      "published": "2026-09-23",
-      "summary": "The OpenAI CEO spoke to the Security Council on AI safety, keeping humans in control, and international cooperation."
-    },
-    {
-      "title": "invideo improves color grading 3x with GPT-6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "platforms_integration",
-      "published": "2026-09-23",
-      "summary": "The video tool plans edits more precisely, triples colour-correction quality, and shipped 50 custom effects in a single day."
     }
   ]
 }
