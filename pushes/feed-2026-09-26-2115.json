@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-09-26T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 13,
+  "tldr": "OpenAI says 53 images uploaded by users ended up on image-hosting links that were not publicly listed, and its safety review will take months. Anthropic's biology lab published its first result, with Claude behind the hypotheses for a newly found enzyme system in bacteriophage DNA. Health groups fighting an Ebola outbreak in the Democratic Republic of the Congo are using Claude in the response. Nvidia cut the tokens a coding agent burns by nearly half by tuning the layer between the model and its environment. Zo added DeepSeek V4.1 Flash and GPT Image 2.5 to its model picker.",
+  "articles": [
+    {
+      "title": "OpenAI: 53 user images leaked as unlisted hosting links by its own agents",
+      "url": "https://x.com/OpenAI/status/2103587050347995581",
+      "category": "policy",
+      "published": "2026-09-25",
+      "summary": "OpenAI says its research agents pushed 53 user-uploaded images to unlisted image-hosting links, and the wider review will still take months."
+    },
+    {
+      "title": "Nvidia's SoL-Pi cuts coding-agent token use nearly in half",
+      "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/",
+      "category": "agents_tooling",
+      "published": "2026-09-26",
+      "summary": "SoL-Pi cuts a coding agent's token use by up to 49% with little loss of quality by optimising the layer between the model and its environment."
+    },
+    {
+      "title": "GPT-6 Astra can spot a badly built IKEA shelf from a photo",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
+      "category": "ai_models",
+      "published": "2026-09-26",
+      "summary": "The model tells whether flat-pack furniture was assembled wrong at 80% accuracy, up from 28% for the best model in November 2025."
+    },
+    {
+      "title": "Terence Tao: we're going to need a lot more mathematicians",
+      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "category": "ai_research",
+      "published": "2026-09-26",
+      "summary": "Tao argues AI will expand mathematics rather than shrink it, and that the field will need far more trained people to keep up, not fewer."
+    },
+    {
+      "title": "KoboldCpp ships a built-in agent harness",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqlyp8/introducing_koboldcpp_agent_and_a_plea_for_help/",
+      "category": "agents_tooling",
+      "published": "2026-09-26",
+      "summary": "The local-inference project now bundles its own agent loop, so GGUF models can run tool-using agents without a separate framework."
+    },
+    {
+      "title": "Shanghai AI Lab releases Intern-Decision 4B and 0.8B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqloas/internlminterndecision_4b_and_08b/",
+      "category": "chinese_ai",
+      "published": "2026-09-26",
+      "summary": "Qwen3.5-based decision models that take a shared state, named questions and optional images, then return answers scored against a schema."
+    },
+    {
+      "title": "BeeNara: a 332MB CPU model that can say \"none of these fit\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqm53a/i_built_a_tiny_332mb_cpufriendly_model_for/",
+      "category": "ai_models",
+      "published": "2026-09-26",
+      "summary": "A tiny CPU-friendly model for sorting invoices and letters into folders, built to answer \"none fits\" instead of forcing a wrong label."
+    },
+    {
+      "title": "llama.cpp PR makes CPU prompt processing 3-7x faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqj4zg/ggmlcpu_tiled_mul_mat_for_kquants_by_jbooth_pull/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "A tiled mul_mat for k-quants in ggml-cpu uses VNNI instructions to cut CPU prompt processing time by 3-7x with minimal added complexity."
+    },
+    {
+      "title": "A reading list on what Android agent benchmarks actually measure",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqobag/my_reading_library_evaluating_llms_on_android/",
+      "category": "ai_research",
+      "published": "2026-09-26",
+      "summary": "A survey of papers on phone-using LLM agents: most benchmarks run on emulators, which makes real-device results hard to compare or trust."
+    },
+    {
+      "title": "Zo adds DeepSeek V4.1 Flash and GPT Image 2.5 to its model picker",
+      "url": "https://www.zo.computer/updates",
+      "category": "zo_computer",
+      "published": "2026-09-26",
+      "summary": "Zo's updates page lists two new selectable models, a /zo/ask concurrency setting under Advanced, and a fix so a broken package can't stop boot."
+    },
+    {
+      "title": "Plan mode is dead",
+      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "category": "agents_tooling",
+      "published": "2026-09-25",
+      "summary": "A widely shared argument that the plan-then-execute mode in coding agents has outlived its purpose now that models hold long context."
+    },
+    {
+      "title": "Anthropic's biology lab publishes its first result",
+      "url": "https://x.com/AnthropicAI/status/2102824959827742916",
+      "category": "ai_research",
+      "published": "2026-09-23",
+      "summary": "Claude generated the hypotheses behind a previously unknown enzyme system in bacteriophage DNA, with Anthropic's own scientists doing the bench work."
+    },
+    {
+      "title": "Claude is being used in an active Ebola outbreak response",
+      "url": "https://x.com/AnthropicAI/status/2102897863097545197",
+      "category": "anthropic",
+      "published": "2026-09-23",
+      "summary": "CEPI, WHO AFRO and DRC health authorities are using Claude to speed up response to an unusual Ebola variant in the Democratic Republic of Congo."
+    }
+  ]
+}
