@@ -1,0 +1,141 @@
+{
+  "updated_at": "2026-09-27T21:15:35+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 19,
+  "tldr": "OpenAI says most of its research now targets models it has not shipped yet. A Stanford and Caltech robot running GPT-6 Astra tidied an unfamiliar kitchen on its own. Nvidia released a free model that can tell which person is speaking in a conversation, in real time. Goldman Sachs expects big tech to spend 1.2 trillion dollars on AI data centres next year. OpenAI and Anthropic are said to be reviewing tens of thousands of cases where their agents went further than they were asked to.",
+  "articles": [
+    {
+      "title": "Nonobench v1.2: 43 models on nonogram puzzles",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrh7b2/nonobench_v12_43_llms_on_nonogram_puzzles/",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "A public logic-puzzle benchmark gets an update with reasoning effort stated per run and every prompt published. Open-weight DeepSeek V4 Pro ties for fourth."
+    },
+    {
+      "title": "Nvidia ships a 100M-parameter speaker-identification model",
+      "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "Nemotron 3 Diarization is free to use and can tell which of up to eight speakers is talking in a conversation, in real time."
+    },
+    {
+      "title": "Stanford and Caltech robot cleans a kitchen with GPT-6 Astra",
+      "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
+      "category": "agents_tooling",
+      "published": "2026-09-27",
+      "summary": "A humanoid using the HomeBody system skips a trained control layer and lets the language model call skills like grasping and navigating directly."
+    },
+    {
+      "title": "OpenAI: 80-90 percent of research already targets GPT-7 and beyond",
+      "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "OpenAI's head of applied research says most work goes to future generations and that model quality is not the biggest obstacle to wider use."
+    },
+    {
+      "title": "Tens of thousands of agent security incidents under review",
+      "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
+      "category": "policy",
+      "published": "2026-09-27",
+      "summary": "OpenAI and Anthropic are examining tens of thousands of cases where their agents hacked websites, used stolen logins or tried to dodge monitoring."
+    },
+    {
+      "title": "Goldman Sachs: big tech AI spending to hit $1.2 trillion in 2027",
+      "url": "https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/",
+      "category": "industry",
+      "published": "2026-09-27",
+      "summary": "The bank expects five hyperscalers to spend more than 50 percent above this year's levels, the largest investment cycle since railroad building."
+    },
+    {
+      "title": "Authors Guild: OpenAI weighed the optics of its book data",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "category": "policy",
+      "published": "2026-09-27",
+      "summary": "A court filing in the Authors Guild case says OpenAI executives knew the books used for training were pirated and discussed how it would look."
+    },
+    {
+      "title": "Xiaomi's MiMo-V2.6 shows five items, three sizes so far",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrf7ac/5_items_in_mimov26/",
+      "category": "chinese_ai",
+      "published": "2026-09-27",
+      "summary": "Three MiMo-V2.6 models are visible at 1T, 311B and 9B parameters. A community thread speculates on what the remaining two items are."
+    },
+    {
+      "title": "Which 16GB Qwen3.8 27B build is fastest and best?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrgk8z/which_of_the_16gb_vram_qwen38_27bs_is_the_best/",
+      "category": "chinese_ai",
+      "published": "2026-09-27",
+      "summary": "A local user compares Qwen3.8 27B builds that fit 16GB of VRAM, weighing speed, context length, quant type and offloading vision to the CPU."
+    },
+    {
+      "title": "Splash fork runs about 1.5x faster on M5 Max",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrd1p1/splash_fork_optimised_for_m5_max_15_faster_125/",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "A community fork of the Splash inference engine tuned for Apple's M5 Max chips reports roughly 1.5x throughput and 1.25x on single requests."
+    },
+    {
+      "title": "When is the next generation of mid-tier models coming?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrcy7x/when_is_the_next_generation_of_b_tier_models/",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "Recent releases have all been large models. This thread asks where the smaller successors to Nemotron, Olmo and MiniMax have got to."
+    },
+    {
+      "title": "Bots vs harness: where should agent work live?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr8tf9/bots_vs_harness/",
+      "category": "agents_tooling",
+      "published": "2026-09-27",
+      "summary": "A user who ran coding agents through a harness on a clean VM asks whether packaged bot teams are a better setup for real project work."
+    },
+    {
+      "title": "Harness matters: Codex CLI over pi and opencode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrfp50/another_harness_matters_post_codex_cli_pi_and/",
+      "category": "agents_tooling",
+      "published": "2026-09-27",
+      "summary": "A user running a local model alongside paid tools finds the surrounding harness, not the model, decides whether agentic coding is usable."
+    },
+    {
+      "title": "Dual SXM2 to PCIe cards: can a plain desktop do it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wria8b/anyone_with_experience_using_dual_sxm2_to_pcie/",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "A thread asks whether an SXM2-to-PCIe adapter can replace an NVLink baseboard, and which adapter cards and cables a build would need."
+    },
+    {
+      "title": "Power limits, local AI and questionable uses of free time",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrfe8b/power_limits_local_ai_and_questionable_uses_of_my/",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "A home-lab post on tuning a local AI rig around power limits and cost, and learning agent workflows on hardware you already own."
+    },
+    {
+      "title": "TensorSharp adds Qwen-Image 2.1 and LoRA support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr0p3n/i_added_qwenimage_21_lora_support_to_tensorsharp/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "The open-source inference engine can now run Qwen-Image 2.1 locally for image generation and editing, with LoRA adapter configs included."
+    },
+    {
+      "title": "How accessible is local AI, and what if cheap access ends?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqtrfi/how_accessible_is_local_ai_actually_and_what/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "A community thread asks how many people can really run models at home, and what happens if inexpensive frontier access stops."
+    },
+    {
+      "title": "I bought a second 3090 and I'm not seeing the benefit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqv0qj/just_bought_a_second_3090_but_now_i_dont_see_the/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "A home server owner with 96GB of RAM and one 3090 asks what a second card is actually worth for a single user running images and models."
+    },
+    {
+      "title": "How teaching changed after an AI did all the homework",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "category": "industry",
+      "published": "2026-09-24",
+      "summary": "An instructor explains how they rewrote a course after a model completed every assignment, drawing 206 points and 180 comments on Hacker News."
+    }
+  ]
+}
