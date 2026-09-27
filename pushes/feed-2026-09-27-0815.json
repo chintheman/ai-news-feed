@@ -1,0 +1,106 @@
+{
+  "updated_at": "2026-09-27T08:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 14,
+  "tldr": "Local hardware and local models produced most of the new stories. Builders showed off dual 3090 rigs and faster Qwen models running on Apple Silicon. DeepSeek published a paper on elastic compute. Anthropic said Claude can now run work on your own machine, and sometimes decides that on its own. A study of 3,000 people found that easy AI access makes them stop saying they do not know.",
+  "articles": [
+    {
+      "title": "DeepSeek publishes an elastic compute paper",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "category": "deepseek",
+      "published": "2026-09-26",
+      "summary": "DeepSeek's DSec paper on elastic compute reached Hacker News, drawing 103 points and 23 comments."
+    },
+    {
+      "title": "Reladraw: a diagram language where you place every element yourself",
+      "url": "https://github.com/reladraw/reladraw",
+      "category": "agents_tooling",
+      "published": "2026-09-26",
+      "summary": "The author wanted hand-placed diagrams instead of auto-layout, and pointed out that Mermaid-style sources are awkward for agents to edit."
+    },
+    {
+      "title": "GPT-OSS chat template shipped with a serious reasoning bug",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr0wki/improved_and_fixed_template_for_gptoss_again/",
+      "category": "ai_models",
+      "published": "2026-09-26",
+      "summary": "A corrected template for GPT-OSS after the Unsloth-derived version was found to degrade output when chat history replays earlier reasoning."
+    },
+    {
+      "title": "Four old 3060 Ti cards beat spending on new GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqv9o8/getting_stupidly_good_results_on_my_4x3060ti_setup/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "A builder put the budget into a motherboard and CPU instead, and got strong local inference results from mining cards already on hand."
+    },
+    {
+      "title": "Qwen3.8 Flash Next runs up to 3x faster on Apple Silicon with MLX tuning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr1qlz/run_qwen38flashnext_and_tiny_models_on_apple/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "An MLX contributor reports up to 3x speedups for Qwen3.8 Flash Next and other small models on Apple chips."
+    },
+    {
+      "title": "The 2400cc Inference Racer: two water-cooled 3090s and a Golf radiator",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqs2t8/2400cc_inference_racer_dual_rtx_3090_motors/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "A homemade dual RTX 3090 rig with NVLink, a ThinkPad as the controller and a car radiator, described by its builder as a winter heater."
+    },
+    {
+      "title": "Is Qwen3.8 Flash Next really built on Qwen 4 architecture?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqzx12/qwen_38_flash_next_is_based_on_qwen_4/",
+      "category": "chinese_ai",
+      "published": "2026-09-26",
+      "summary": "A LocalLLaMA user asks whether the shared architecture means the announced Qwen 4 27B will run faster on a single 3090 without extra tuning."
+    },
+    {
+      "title": "Ukraine's ex-defence minister pitches a private robot army",
+      "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
+      "category": "industry",
+      "published": "2026-09-26",
+      "summary": "Mykhailo Fedorov wants robots for casualty evacuation, mine clearance and combat, and says drones already handle 95% of target engagements."
+    },
+    {
+      "title": "Two-thirds of IT leaders report AI results, few would wake the CEO for them",
+      "url": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/",
+      "category": "industry",
+      "published": "2026-09-26",
+      "summary": "Of 160 IT vice presidents asked in Las Vegas, most claimed measurable AI results but only eight rated them urgent enough to interrupt a holiday."
+    },
+    {
+      "title": "Easy AI answers almost ended people's willingness to say 'I don't know'",
+      "url": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/",
+      "category": "ai_research",
+      "published": "2026-09-26",
+      "summary": "In a study of more than 3,000 people, willingness to admit not knowing fell from 44% to 3% with AI access, even when the AI was wrong."
+    },
+    {
+      "title": "A month of working without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "category": "industry",
+      "published": "2026-09-26",
+      "summary": "One developer's write-up of four weeks doing the job without AI assistance, which drew 103 points on Hacker News."
+    },
+    {
+      "title": "ProgramDistill turns interactive web apps into verifiable SWE tasks",
+      "url": "https://x.com/_akhaliq/status/2103952916545761536",
+      "category": "ai_research",
+      "published": "2026-09-26",
+      "summary": "A method for generating reference-guided software-engineering tasks from interactive web apps, aimed at agent evaluation sets."
+    },
+    {
+      "title": "Anthropic engineer: Claude can work locally, and sometimes routes there itself",
+      "url": "https://x.com/lydiahallie/status/2103972312852975955",
+      "category": "anthropic",
+      "published": "2026-09-26",
+      "summary": "Claude's composer offers a 'Work locally' option, and Anthropic says the product also auto-routes some tasks to local threads."
+    },
+    {
+      "title": "Training world models that objects still exist when unobserved",
+      "url": "https://x.com/_akhaliq/status/2103540737656918351",
+      "category": "ai_research",
+      "published": "2026-09-25",
+      "summary": "A paper on object permanence in world models, the property an agent's model of its environment needs to survive looking away."
+    }
+  ]
+}

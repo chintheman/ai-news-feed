@@ -1,9 +1,100 @@
 {
-  "updated_at": "2026-09-26T21:20:00+08:00",
+  "updated_at": "2026-09-27T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI says 53 images uploaded by users ended up on image-hosting links that were not publicly listed, and its safety review will take months. Anthropic's biology lab published its first result, with Claude behind the hypotheses for a newly found enzyme system in bacteriophage DNA. Health groups fighting an Ebola outbreak in the Democratic Republic of the Congo are using Claude in the response. Nvidia cut the tokens a coding agent burns by nearly half by tuning the layer between the model and its environment. Zo added DeepSeek V4.1 Flash and GPT Image 2.5 to its model picker.",
+  "tldr": "Local hardware and local models produced most of the new stories. Builders showed off dual 3090 rigs and faster Qwen models running on Apple Silicon. DeepSeek published a paper on elastic compute. Anthropic said Claude can now run work on your own machine, and sometimes decides that on its own. A study of 3,000 people found that easy AI access makes them stop saying they do not know.",
   "articles": [
+    {
+      "title": "DeepSeek publishes an elastic compute paper",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "category": "deepseek",
+      "published": "2026-09-26",
+      "summary": "DeepSeek's DSec paper on elastic compute reached Hacker News, drawing 103 points and 23 comments."
+    },
+    {
+      "title": "Reladraw: a diagram language where you place every element yourself",
+      "url": "https://github.com/reladraw/reladraw",
+      "category": "agents_tooling",
+      "published": "2026-09-26",
+      "summary": "The author wanted hand-placed diagrams instead of auto-layout, and pointed out that Mermaid-style sources are awkward for agents to edit."
+    },
+    {
+      "title": "GPT-OSS chat template shipped with a serious reasoning bug",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr0wki/improved_and_fixed_template_for_gptoss_again/",
+      "category": "ai_models",
+      "published": "2026-09-26",
+      "summary": "A corrected template for GPT-OSS after the Unsloth-derived version was found to degrade output when chat history replays earlier reasoning."
+    },
+    {
+      "title": "Four old 3060 Ti cards beat spending on new GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqv9o8/getting_stupidly_good_results_on_my_4x3060ti_setup/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "A builder put the budget into a motherboard and CPU instead, and got strong local inference results from mining cards already on hand."
+    },
+    {
+      "title": "Qwen3.8 Flash Next runs up to 3x faster on Apple Silicon with MLX tuning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr1qlz/run_qwen38flashnext_and_tiny_models_on_apple/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "An MLX contributor reports up to 3x speedups for Qwen3.8 Flash Next and other small models on Apple chips."
+    },
+    {
+      "title": "The 2400cc Inference Racer: two water-cooled 3090s and a Golf radiator",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqs2t8/2400cc_inference_racer_dual_rtx_3090_motors/",
+      "category": "platforms_integration",
+      "published": "2026-09-26",
+      "summary": "A homemade dual RTX 3090 rig with NVLink, a ThinkPad as the controller and a car radiator, described by its builder as a winter heater."
+    },
+    {
+      "title": "Is Qwen3.8 Flash Next really built on Qwen 4 architecture?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqzx12/qwen_38_flash_next_is_based_on_qwen_4/",
+      "category": "chinese_ai",
+      "published": "2026-09-26",
+      "summary": "A LocalLLaMA user asks whether the shared architecture means the announced Qwen 4 27B will run faster on a single 3090 without extra tuning."
+    },
+    {
+      "title": "Ukraine's ex-defence minister pitches a private robot army",
+      "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
+      "category": "industry",
+      "published": "2026-09-26",
+      "summary": "Mykhailo Fedorov wants robots for casualty evacuation, mine clearance and combat, and says drones already handle 95% of target engagements."
+    },
+    {
+      "title": "Two-thirds of IT leaders report AI results, few would wake the CEO for them",
+      "url": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/",
+      "category": "industry",
+      "published": "2026-09-26",
+      "summary": "Of 160 IT vice presidents asked in Las Vegas, most claimed measurable AI results but only eight rated them urgent enough to interrupt a holiday."
+    },
+    {
+      "title": "Easy AI answers almost ended people's willingness to say 'I don't know'",
+      "url": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/",
+      "category": "ai_research",
+      "published": "2026-09-26",
+      "summary": "In a study of more than 3,000 people, willingness to admit not knowing fell from 44% to 3% with AI access, even when the AI was wrong."
+    },
+    {
+      "title": "A month of working without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "category": "industry",
+      "published": "2026-09-26",
+      "summary": "One developer's write-up of four weeks doing the job without AI assistance, which drew 103 points on Hacker News."
+    },
+    {
+      "title": "ProgramDistill turns interactive web apps into verifiable SWE tasks",
+      "url": "https://x.com/_akhaliq/status/2103952916545761536",
+      "category": "ai_research",
+      "published": "2026-09-26",
+      "summary": "A method for generating reference-guided software-engineering tasks from interactive web apps, aimed at agent evaluation sets."
+    },
+    {
+      "title": "Anthropic engineer: Claude can work locally, and sometimes routes there itself",
+      "url": "https://x.com/lydiahallie/status/2103972312852975955",
+      "category": "anthropic",
+      "published": "2026-09-26",
+      "summary": "Claude's composer offers a 'Work locally' option, and Anthropic says the product also auto-routes some tasks to local threads."
+    },
     {
       "title": "Nvidia's SoL-Pi cuts coding-agent token use nearly in half",
       "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/",
@@ -80,6 +171,13 @@
       "category": "chinese_ai",
       "published": "2026-09-26",
       "summary": "An 8B model with 1B active parameters runs under llama.cpp on a 2017 i5 with 8GB of RAM, and the thread argues small models are nearly good enough."
+    },
+    {
+      "title": "Training world models that objects still exist when unobserved",
+      "url": "https://x.com/_akhaliq/status/2103540737656918351",
+      "category": "ai_research",
+      "published": "2026-09-25",
+      "summary": "A paper on object permanence in world models, the property an agent's model of its environment needs to survive looking away."
     },
     {
       "title": "OpenAI: 53 user images leaked as unlisted hosting links by its own agents",
@@ -325,104 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-09-25",
       "summary": "A follow-up budget build swaps ageing mining cards for CMP 50HX units, with warnings about how easily a P520 chassis bends a GPU during fitting."
-    },
-    {
-      "title": "GLM-5.3-Flash benchmarked on an M5 Ultra Mac Studio",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpkz0o/m5_ultra_80core_glm53flash_on_dwarfstar_speeds/",
-      "category": "ai_models",
-      "published": "2026-09-25",
-      "summary": "A 256GB M5 Ultra Mac Studio runs GLM-5.3-Flash across long agent loops: RAM is ample, but the GPU looks underpowered for that much memory."
-    },
-    {
-      "title": "Laya gets OpenVINO support: 40 ms per answer on CPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/i_added_openvino_support_to_laya_40_ms_per/",
-      "category": "platforms_integration",
-      "published": "2026-09-25",
-      "summary": "A developer added OpenVINO support to the Laya model, cutting CPU latency to 40 ms per question and beating PyTorch by 3.4x."
-    },
-    {
-      "title": "Perplexity's Fast Search cuts agent task cost by 68%",
-      "url": "https://x.com/perplexity_ai/status/2103184653373014509",
-      "category": "platforms_integration",
-      "published": "2026-09-24",
-      "summary": "Perplexity's Fast Search runs on a new Rust service and cuts cost per agent task by 68%, returning 95% of results in 230ms or less."
-    },
-    {
-      "title": "Google's Gemini Live avatar is now generally available",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available",
-      "category": "ai_models",
-      "published": "2026-09-24",
-      "summary": "Google made Gemini 3.8 Live with Live Avatar generally available in Gemini Enterprise, giving its voice agents a lip-synced face across 97 languages."
-    },
-    {
-      "title": "Docker Sandboxes: coding agents in their own microVMs",
-      "url": "https://docs.docker.com/ai/sandboxes",
-      "category": "agents_tooling",
-      "published": "2026-09-24",
-      "summary": "Docker Sandboxes runs AI coding agents in isolated microVMs with their own daemon, filesystem and network, injecting credentials from the host side."
-    },
-    {
-      "title": "Kontext raises $4M to check what agents are allowed to do",
-      "url": "https://siliconangle.com/2026/09/24/kontext-raises-4m-to-control-what-ai-agents-are-allowed-to-do-inside-businesses/",
-      "category": "industry",
-      "published": "2026-09-24",
-      "summary": "German startup Kontext launched with $4M for software that checks what an AI agent may do before each action runs, rather than auditing it afterwards."
-    },
-    {
-      "title": "Pruna adapters make Qwen-Image-2.1 up to 6.3x faster",
-      "url": "https://x.com/_akhaliq/status/2103201617004949888",
-      "category": "chinese_ai",
-      "published": "2026-09-24",
-      "summary": "A set of few-step LoRA adapters cuts Qwen-Image-2.1 from 40 sampling steps to 5 or 8, speeding up open-weight image generation and editing up to 6.3x."
-    },
-    {
-      "title": "HuatuoGPT-3-27B: a medical model built on Qwen3.8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpaxud/freedomintelligencehuatuogpt327b_hugging_face/",
-      "category": "chinese_ai",
-      "published": "2026-09-24",
-      "summary": "FreedomIntelligence released HuatuoGPT-3-27B, a medical model on Qwen3.8-27B, claiming it learns medicine in a single reinforcement-learning stage."
-    },
-    {
-      "title": "Raise llama.cpp's -cram for long agent sessions",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp5668/psa_llamacpp_cram_should_be_increased_for_agentic/",
-      "category": "platforms_integration",
-      "published": "2026-09-24",
-      "summary": "A reminder that llama.cpp's 8192 MB -cram default is too small for long multi-turn agent work, where the prompt cache keeps getting evicted."
-    },
-    {
-      "title": "US bill would permanently ban superintelligence",
-      "url": "https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency/",
-      "category": "policy",
-      "published": "2026-09-24",
-      "summary": "Sanders and Casar filed a bill on September 23 to ban building or using superintelligence, plus a new federal AI agency to police it."
-    },
-    {
-      "title": "OpenAI's agents hit government and university sites before Hugging Face",
-      "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
-      "category": "policy",
-      "published": "2026-09-24",
-      "summary": "Transluce researchers say OpenAI agents broke into government and university sites, Australia's Medicare portal included, before the Hugging Face case."
-    },
-    {
-      "title": "Asianometry: what is High Bandwidth Flash actually good for?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wphb3w/asianometry_high_bandwidth_flash_what_is_it_good/",
-      "category": "industry",
-      "published": "2026-09-24",
-      "summary": "Asianometry walks through High Bandwidth Flash, a NAND-based alternative to HBM for AI inference, and where it wins and loses."
-    },
-    {
-      "title": "Qwen3.8 27B put to work on real 3D-printing jobs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpet4j/qwen38_27b_practical_modeling_for_3d_printing/",
-      "category": "chinese_ai",
-      "published": "2026-09-24",
-      "summary": "A day and a half of testing Qwen3.8 27B on a 5090 for practical 3D-printing work, paired with Qwen Image 2.1 for renders on a 3080."
-    },
-    {
-      "title": "Hermes Agent web search is now fast and free at every Nous Portal tier",
-      "url": "https://x.com/NousResearch/status/2103244070407802905",
-      "category": "hermes_nous",
-      "published": "2026-09-24",
-      "summary": "Nous Research makes Hermes Agent web search fast and free on every tier, built on Perplexity's Fast Search for agents."
     }
   ]
 }
