@@ -2,7 +2,7 @@
   "updated_at": "2026-09-28T08:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 11,
-  "tldr": "Fireworks retrained Kimi K3 to think less and use about 40 percent fewer tokens without losing quality. New York City wants a 25,000 dollar fine for every AI agent that breaks its rules. Trump invited Anthropic's Dario Amodei to a private White House dinner. Google found stolen AI logins selling on the dark web for up to 97 percent off. YC's Garry Tan says one agent tool finished more tasks on Claude Opus 5.5 than on GPT-6 Astra.",
+  "tldr": "Fireworks retrained Kimi K3 to think less and use about 40 percent fewer tokens without losing quality. Trump invited Anthropic's Dario Amodei to a private White House dinner. Google found stolen AI logins selling on the dark web for up to 97 percent off. YC's Garry Tan says one agent tool finished more tasks on Claude Opus 5.5 than on GPT-6 Astra. A study of one model build found agents drafted most methods but humans made nearly all the final calls.",
   "articles": [
     {
       "title": "Fireworks retrains Kimi K3 to think less at 40% fewer tokens",
