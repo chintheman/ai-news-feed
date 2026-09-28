@@ -1,0 +1,106 @@
+{
+  "updated_at": "2026-09-28T21:16:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 14,
+  "tldr": "A new open model called Holo4 drives a computer by looking at the screen and clicking for you. NVIDIA released a free sandbox that puts hard limits on what agents can do, instead of just asking them to behave. Hermes Agent is getting a web version, so the desktop app will open in any browser. New York City proposed ten AI bills that would fine companies $25,000 per violation and force a kill switch. A court in Wuhan counted AI token costs when it worked out copyright damages.",
+  "articles": [
+    {
+      "title": "Holo4: an open model that drives a computer by looking at the screen",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "category": "ai_models",
+      "published": "2026-09-28",
+      "summary": "H Company's Holo4-27B reads screenshots and acts on them: a vision-language model for computer use built on Qwen3.8 with a matching agent harness."
+    },
+    {
+      "title": "NVIDIA ships OpenShell, a sandbox that gives agents hard runtime limits",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/",
+      "category": "agents_tooling",
+      "published": "2026-09-28",
+      "summary": "OpenShell enforces what an agent may do in code rather than in prompts. Over 100 firms joined the safety stack; OpenAI did not."
+    },
+    {
+      "title": "Hermes Desktop will open in any browser",
+      "url": "https://x.com/Teknium/status/2104522071757967852",
+      "category": "hermes_nous",
+      "published": "2026-09-28",
+      "summary": "Nous Research's lead engineer confirmed the hermes webapp pull request is coming to all: chat, files, Git and a terminal that survives a refresh, served from your own host."
+    },
+    {
+      "title": "OpenAI fixes a bug that was degrading image understanding in GPT-6",
+      "url": "https://x.com/OpenAIDevs/status/2104252306447544447",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "Vision in GPT-6 Sol and GPT-6 Luna had been degraded by a bug across the API, Codex and computer use. OpenAI says it is fixed and asks for reruns."
+    },
+    {
+      "title": "Anthropic publishes prompting guidance for Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "category": "anthropic",
+      "published": "2026-09-28",
+      "summary": "A new docs page sets out how to prompt Opus 5.5. It drew 125 points and 121 comments on Hacker News."
+    },
+    {
+      "title": "New York City proposes ten AI bills with $25,000 per-instance fines",
+      "url": "https://council.nyc.gov/press/2026/09/25/3252/",
+      "category": "policy",
+      "published": "2026-09-25",
+      "summary": "The package would require outside validation and a kill switch for any AI system deployed in the city, plus a first-in-the-nation whistleblower bounty."
+    },
+    {
+      "title": "A Wuhan court made AI production costs part of copyright damages",
+      "url": "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases/",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "Token usage and AI tool licence fees were counted for the first time when a Chinese court worked out what a copyright breach was worth."
+    },
+    {
+      "title": "AI doom probabilities are still too unreliable to base policy on",
+      "url": "https://www.normaltech.ai/p/p-doom",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "Normal Tech argues speculation about AI extinction risk gets dressed up as numbers, and those numbers should not be driving law."
+    },
+    {
+      "title": "GPT-3 is discontinued",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws67x4/gpt3_is_discontinued_today/",
+      "category": "industry",
+      "published": "2026-09-28",
+      "summary": "OpenAI retired the model that started the current wave, with GPT-5.6 Terra named as the suggested replacement."
+    },
+    {
+      "title": "macOS already ships a local model, and now Node and Python can call it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws5l5p/macos_27_ships_a_free_local_llm_on_apple_silicon/",
+      "category": "platforms_integration",
+      "published": "2026-09-28",
+      "summary": "Apple Silicon Macs ship a small model with no download and no API key, and nothing leaves the machine. A developer wrapped it for Node and Python."
+    },
+    {
+      "title": "Faster inference for Qwen 3.8 Flash Next on Strix Halo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws8dpy/if_you_are_running_qwen_38_flash_next_on_strix/",
+      "category": "platforms_integration",
+      "published": "2026-09-28",
+      "summary": "A user reports a community inference stack beating llama.cpp on Strix Halo, most clearly at long context, with benchmark numbers published."
+    },
+    {
+      "title": "A 30B model cut to half its width still does 57 of 60 tool tasks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws6bmh/liked_muse_so_i_cut_the_30b_model_in_half_by/",
+      "category": "ai_research",
+      "published": "2026-09-28",
+      "summary": "Muse-Glimmer was halved by width and distilled back with no reinforcement learning, losing three of sixty tool-calling tasks against its parent."
+    },
+    {
+      "title": "An uncensored Qwen 3.8 27B wrote an EDR-evading credential dumper",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws7csk/modified_qwen_38_27b_modifies_windows_credential/",
+      "category": "ai_research",
+      "published": "2026-09-28",
+      "summary": "A security researcher used a modified local Qwen 3.8 27B to build a tool that dumps LSASS memory while dodging two commercial EDR products."
+    },
+    {
+      "title": "A free 523-lesson course builds every AI algorithm by hand",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
+      "category": "ai_research",
+      "published": "2026-09-28",
+      "summary": "AI Engineering from Scratch is MIT-licensed and stdlib-first, and now ships as six EPUB and PDF volumes across 20 phases."
+    }
+  ]
+}
