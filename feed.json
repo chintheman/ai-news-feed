@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-09-28T08:16:00+08:00",
+  "updated_at": "2026-09-28T13:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Fireworks retrained Kimi K3 to think less and use about 40 percent fewer tokens without losing quality. Trump invited Anthropic's Dario Amodei to a private White House dinner. Google found stolen AI logins selling on the dark web for up to 97 percent off. YC's Garry Tan says one agent tool finished more tasks on Claude Opus 5.5 than on GPT-6 Astra. A study of one model build found agents drafted most methods but humans made nearly all the final calls.",
+  "tldr": "A Financial Times report says big companies are choosing cheaper open models over expensive frontier ones. Qwen models fill this batch: one user built a private World of Warcraft server with agents and opened it in a browser. Others ran Qwen on ordinary hardware, a 48GB Mac and a stack of five used mining cards. A community fine-tune of Qwen 3.8 27B is tuned to think less and spend fewer tokens. MiniMax switched on a new coding model inside its own tool with no price and no model card, and Alibaba quietly posted docs for a new decision model.",
   "articles": [
+    {
+      "title": "FT: corporate America rejects overpriced frontier, embraces open models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrzpzg/ft_corporate_america_rejects_overpriced_frontier/",
+      "category": "industry",
+      "published": "2026-09-28",
+      "summary": "A Financial Times report says corporate buyers are turning away from expensive frontier models in favour of open-weight alternatives."
+    },
+    {
+      "title": "Five ex-mining GPU boards run Qwen3-Coder-Next at 40 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws49si/im_calling_this_the_monstrosity_5_ex_mining_bc250/",
+      "category": "platforms_integration",
+      "published": "2026-09-28",
+      "summary": "One board leads and four stay headless in a 12-unit case, exposing about 71GB of VRAM for Qwen3-Coder-Next Q4 at 40 tokens a second, 30 at 100k context."
+    },
+    {
+      "title": "MiniMax slips a new coding model into its own tool with no price tag",
+      "url": "https://startupfortune.com/minimax-slips-a-new-coding-model-into-its-agent-tool-without-a-price-tag/",
+      "category": "chinese_ai",
+      "published": "2026-09-27",
+      "summary": "MiniMax turned on M3.1-Flash-Preview inside MiniMax Code with no model card, price or API route; its platform docs still list only M3 as callable."
+    },
+    {
+      "title": "Agents host a private World of Warcraft server, playable in a browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wry136/qwen_plays_world_of_warcraft/",
+      "category": "agents_tooling",
+      "published": "2026-09-27",
+      "summary": "A user's agents stood up a private WoW server and built a browser client with mobile controls, then wired a custom MCP for finer game control."
+    },
+    {
+      "title": "Alibaba quietly posts a docs page for a new decision model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrz9py/qwen_company_already_rushed_out_a_jev_competitor/",
+      "category": "chinese_ai",
+      "published": "2026-09-27",
+      "summary": "A model called decision-model-preview appeared with only a docs page, no announcement and no open weights, read as Alibaba rushing out a rival answer."
+    },
+    {
+      "title": "Swift 1.5 Qwen3.8 27b, a fine-tune built for low-reasoning runs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrv6bp/swift_15_qwen38_27b_a_musthave_for_low_thinking/",
+      "category": "chinese_ai",
+      "published": "2026-09-27",
+      "summary": "UkisAI's Swift 1.5 tunes Qwen 3.8 27B for token efficiency, and one tester found the IQ4_XS quant beat Unsloth's build on low-thinking prompts."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next runs on a 48GB M4 Pro Mac",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrutx9/so_yeah/",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "A user got Qwen3.8-Flash-Next running in 48GB on an M4 Pro Mac from a community GGUF, and reports the Flash model kept pace with the dense 27B."
+    },
     {
       "title": "Fireworks retrains Kimi K3 to think less at 40% fewer tokens",
       "url": "https://fireworks.ai/blog/ember-1",
@@ -374,55 +423,6 @@
       "category": "ai_models",
       "published": "2026-09-26",
       "summary": "The model tells whether flat-pack furniture was assembled wrong at 80% accuracy, up from 28% for the best model in November 2025."
-    },
-    {
-      "title": "Terence Tao: we're going to need a lot more mathematicians",
-      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
-      "category": "ai_research",
-      "published": "2026-09-26",
-      "summary": "Tao argues AI will expand mathematics rather than shrink it, and that the field will need far more trained people to keep up, not fewer."
-    },
-    {
-      "title": "KoboldCpp ships a built-in agent harness",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqlyp8/introducing_koboldcpp_agent_and_a_plea_for_help/",
-      "category": "agents_tooling",
-      "published": "2026-09-26",
-      "summary": "The local-inference project now bundles its own agent loop, so GGUF models can run tool-using agents without a separate framework."
-    },
-    {
-      "title": "Shanghai AI Lab releases Intern-Decision 4B and 0.8B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqloas/internlminterndecision_4b_and_08b/",
-      "category": "chinese_ai",
-      "published": "2026-09-26",
-      "summary": "Qwen3.5-based decision models that take a shared state, named questions and optional images, then return answers scored against a schema."
-    },
-    {
-      "title": "BeeNara: a 332MB CPU model that can say \"none of these fit\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqm53a/i_built_a_tiny_332mb_cpufriendly_model_for/",
-      "category": "ai_models",
-      "published": "2026-09-26",
-      "summary": "A tiny CPU-friendly model for sorting invoices and letters into folders, built to answer \"none fits\" instead of forcing a wrong label."
-    },
-    {
-      "title": "llama.cpp PR makes CPU prompt processing 3-7x faster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqj4zg/ggmlcpu_tiled_mul_mat_for_kquants_by_jbooth_pull/",
-      "category": "platforms_integration",
-      "published": "2026-09-26",
-      "summary": "A tiled mul_mat for k-quants in ggml-cpu uses VNNI instructions to cut CPU prompt processing time by 3-7x with minimal added complexity."
-    },
-    {
-      "title": "A reading list on what Android agent benchmarks actually measure",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqobag/my_reading_library_evaluating_llms_on_android/",
-      "category": "ai_research",
-      "published": "2026-09-26",
-      "summary": "A survey of papers on phone-using LLM agents: most benchmarks run on emulators, which makes real-device results hard to compare or trust."
-    },
-    {
-      "title": "Zo adds DeepSeek V4.1 Flash and GPT Image 2.5 to its model picker",
-      "url": "https://www.zo.computer/updates",
-      "category": "zo_computer",
-      "published": "2026-09-26",
-      "summary": "Zo's updates page lists two new selectable models, a /zo/ask concurrency setting under Advanced, and a fix so a broken package can't stop boot."
     }
   ]
 }
