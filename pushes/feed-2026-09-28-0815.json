@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-09-28T08:16:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "Fireworks retrained Kimi K3 to think less and use about 40 percent fewer tokens without losing quality. New York City wants a 25,000 dollar fine for every AI agent that breaks its rules. Trump invited Anthropic's Dario Amodei to a private White House dinner. Google found stolen AI logins selling on the dark web for up to 97 percent off. YC's Garry Tan says one agent tool finished more tasks on Claude Opus 5.5 than on GPT-6 Astra.",
+  "articles": [
+    {
+      "title": "Fireworks retrains Kimi K3 to think less at 40% fewer tokens",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "Fireworks Research built Ember-1 on Kimi K3 and taught it to skip needless reasoning, keeping K3-level quality while spending about 40% fewer tokens."
+    },
+    {
+      "title": "New York City moves to per-agent AI liability at $25,000 an instance",
+      "url": "https://council.nyc.gov/press/2026/09/25/3252/",
+      "category": "policy",
+      "published": "2026-09-25",
+      "summary": "Ten bills would bar deploying any AI system in the city without third-party validation and a human kill switch, fining 25,000 dollars per instance."
+    },
+    {
+      "title": "Trump invites Anthropic's Amodei to a private White House dinner",
+      "url": "https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite",
+      "category": "anthropic",
+      "published": "2026-09-27",
+      "summary": "The first one-on-one between Trump and Anthropic's chief comes as the company's dispute with the administration continues and an IPO is expected."
+    },
+    {
+      "title": "Garry Tan: Opus 5.5 beats GPT-6 Astra in the same agent harness",
+      "url": "https://x.com/garrytan/status/2104224426091016247",
+      "category": "agents_tooling",
+      "published": "2026-09-27",
+      "summary": "YC's president says the identical Openclaw setup completed more tasks on Claude Opus 5.5 than on GPT-6 Astra, and calls the result surprising."
+    },
+    {
+      "title": "Anthropic explains how to pull a cloud Claude Code session onto your machine",
+      "url": "https://x.com/lydiahallie/status/2104303982839816212",
+      "category": "anthropic",
+      "published": "2026-09-27",
+      "summary": "An Anthropic developer says you commit, push, then run claude --teleport locally, and that cloud sessions bill against subscription limits, not API credits."
+    },
+    {
+      "title": "Stolen AI logins are selling on the dark web for up to 97% off",
+      "url": "https://www.ft.com/content/3f406fbe-b72e-488f-9975-5b94e95dfe32",
+      "category": "policy",
+      "published": "2026-09-27",
+      "summary": "Google's threat team says hijacked logins for Claude, ChatGPT and Gemini are resold on dark-web markets, some sellers promising replacement keys when blocked."
+    },
+    {
+      "title": "Agents do more model-development work, but humans still decide",
+      "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
+      "category": "ai_research",
+      "published": "2026-09-27",
+      "summary": "A study of 769 task logs from building one model found agents proposed up to 55% of methods, while humans made more than 85% of the final calls."
+    },
+    {
+      "title": "Garry Tan: a real browser with real logins is the fix for agent anti-bot blocks",
+      "url": "https://x.com/garrytan/status/2104221282095218731",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "Tan suggests running an MCP-capable browser with your own credentials on an always-on spare machine, and says headless automation never hit a real block."
+    },
+    {
+      "title": "177B Qwen model streams from an SSD at 9-10 tokens a second on one 16GB card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrxap8/qwen38flashnext_177b_nvfp4119gib_ssd_streaming_at/",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "A new inference engine keeps most of Qwen3.8-Flash-Next on disk and reads experts as tokens need them, running a 119GB model on 16GB of VRAM."
+    },
+    {
+      "title": "Penalising 'wait' and 'maybe' makes Qwen better at maths",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wromzr/adding_logit_penalty_for_wait_maybe_and_perhaps/",
+      "category": "ai_research",
+      "published": "2026-09-27",
+      "summary": "A user replicated a Meta paper on 50 maths problems and found penalising hedging tokens raises Qwen accuracy across most llama.cpp quantizations."
+    },
+    {
+      "title": "Naive AI releases a 309B open model built for coding research",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrs58t/naiven05flash_309ba155b/",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "N0.5-Flash carries 309B total parameters with 15.5B active per token, a 1M-token context and a hybrid sliding-window attention recipe."
+    }
+  ]
+}

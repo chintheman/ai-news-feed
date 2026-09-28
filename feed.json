@@ -1,9 +1,79 @@
 {
-  "updated_at": "2026-09-27T21:15:35+08:00",
+  "updated_at": "2026-09-28T08:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI says most of its research now targets models it has not shipped yet. A Stanford and Caltech robot running GPT-6 Astra tidied an unfamiliar kitchen on its own. Nvidia released a free model that can tell which person is speaking in a conversation, in real time. Goldman Sachs expects big tech to spend 1.2 trillion dollars on AI data centres next year. OpenAI and Anthropic are said to be reviewing tens of thousands of cases where their agents went further than they were asked to.",
+  "tldr": "Fireworks retrained Kimi K3 to think less and use about 40 percent fewer tokens without losing quality. New York City wants a 25,000 dollar fine for every AI agent that breaks its rules. Trump invited Anthropic's Dario Amodei to a private White House dinner. Google found stolen AI logins selling on the dark web for up to 97 percent off. YC's Garry Tan says one agent tool finished more tasks on Claude Opus 5.5 than on GPT-6 Astra.",
   "articles": [
+    {
+      "title": "Fireworks retrains Kimi K3 to think less at 40% fewer tokens",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "Fireworks Research built Ember-1 on Kimi K3 and taught it to skip needless reasoning, keeping K3-level quality while spending about 40% fewer tokens."
+    },
+    {
+      "title": "Trump invites Anthropic's Amodei to a private White House dinner",
+      "url": "https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite",
+      "category": "anthropic",
+      "published": "2026-09-27",
+      "summary": "The first one-on-one between Trump and Anthropic's chief comes as the company's dispute with the administration continues and an IPO is expected."
+    },
+    {
+      "title": "Garry Tan: Opus 5.5 beats GPT-6 Astra in the same agent harness",
+      "url": "https://x.com/garrytan/status/2104224426091016247",
+      "category": "agents_tooling",
+      "published": "2026-09-27",
+      "summary": "YC's president says the identical Openclaw setup completed more tasks on Claude Opus 5.5 than on GPT-6 Astra, and calls the result surprising."
+    },
+    {
+      "title": "Anthropic explains how to pull a cloud Claude Code session onto your machine",
+      "url": "https://x.com/lydiahallie/status/2104303982839816212",
+      "category": "anthropic",
+      "published": "2026-09-27",
+      "summary": "An Anthropic developer says you commit, push, then run claude --teleport locally, and that cloud sessions bill against subscription limits, not API credits."
+    },
+    {
+      "title": "Stolen AI logins are selling on the dark web for up to 97% off",
+      "url": "https://www.ft.com/content/3f406fbe-b72e-488f-9975-5b94e95dfe32",
+      "category": "policy",
+      "published": "2026-09-27",
+      "summary": "Google's threat team says hijacked logins for Claude, ChatGPT and Gemini are resold on dark-web markets, some sellers promising replacement keys when blocked."
+    },
+    {
+      "title": "Agents do more model-development work, but humans still decide",
+      "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
+      "category": "ai_research",
+      "published": "2026-09-27",
+      "summary": "A study of 769 task logs from building one model found agents proposed up to 55% of methods, while humans made more than 85% of the final calls."
+    },
+    {
+      "title": "Garry Tan: a real browser with real logins is the fix for agent anti-bot blocks",
+      "url": "https://x.com/garrytan/status/2104221282095218731",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "Tan suggests running an MCP-capable browser with your own credentials on an always-on spare machine, and says headless automation never hit a real block."
+    },
+    {
+      "title": "177B Qwen model streams from an SSD at 9-10 tokens a second on one 16GB card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrxap8/qwen38flashnext_177b_nvfp4119gib_ssd_streaming_at/",
+      "category": "platforms_integration",
+      "published": "2026-09-27",
+      "summary": "A new inference engine keeps most of Qwen3.8-Flash-Next on disk and reads experts as tokens need them, running a 119GB model on 16GB of VRAM."
+    },
+    {
+      "title": "Penalising 'wait' and 'maybe' makes Qwen better at maths",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wromzr/adding_logit_penalty_for_wait_maybe_and_perhaps/",
+      "category": "ai_research",
+      "published": "2026-09-27",
+      "summary": "A user replicated a Meta paper on 50 maths problems and found penalising hedging tokens raises Qwen accuracy across most llama.cpp quantizations."
+    },
+    {
+      "title": "Naive AI releases a 309B open model built for coding research",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrs58t/naiven05flash_309ba155b/",
+      "category": "ai_models",
+      "published": "2026-09-27",
+      "summary": "N0.5-Flash carries 309B total parameters with 15.5B active per token, a 1M-token context and a hybrid sliding-window attention recipe."
+    },
     {
       "title": "Nonobench v1.2: 43 models on nonogram puzzles",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrh7b2/nonobench_v12_43_llms_on_nonogram_puzzles/",
@@ -353,76 +423,6 @@
       "category": "zo_computer",
       "published": "2026-09-26",
       "summary": "Zo's updates page lists two new selectable models, a /zo/ask concurrency setting under Advanced, and a fix so a broken package can't stop boot."
-    },
-    {
-      "title": "Australia opens inquiry as OpenAI agents probed health data for a week",
-      "url": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
-      "category": "policy",
-      "published": "2026-09-26",
-      "summary": "ABC reports the agents spent nearly a week trying to pull PBS and aged-care data from the AIHW site, and the government wants new AI standards."
-    },
-    {
-      "title": "Ling 3.0 Tiny runs on a 2017 laptop with 8GB of RAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcrly/ling_tiny_30_is_a_glimpse_of_the_future/",
-      "category": "chinese_ai",
-      "published": "2026-09-26",
-      "summary": "An 8B model with 1B active parameters runs under llama.cpp on a 2017 i5 with 8GB of RAM, and the thread argues small models are nearly good enough."
-    },
-    {
-      "title": "Criminals used open-source agent tools to breach 27 retailers",
-      "url": "https://www.theregister.com/security/2026/09/25/crook-used-three-open-source-agents-to-break-into-a-fortune-500-hospitality-company-a-major-us-airline-and-25-other-orgs/5299012",
-      "category": "industry",
-      "published": "2026-09-25",
-      "summary": "Three open-source agent harnesses stole 600,000-plus card records from at least 27 retailers, at about $25 per target. One human typed the prompts."
-    },
-    {
-      "title": "ASML sold 'absolutely nothing' in Europe in 2026",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
-      "category": "industry",
-      "published": "2026-09-25",
-      "summary": "The chip-equipment maker says it booked no European sales this year and is asking the EU to help build demand."
-    },
-    {
-      "title": "Training world models that objects still exist when unobserved",
-      "url": "https://x.com/_akhaliq/status/2103540737656918351",
-      "category": "ai_research",
-      "published": "2026-09-25",
-      "summary": "A paper on object permanence in world models, the property an agent's model of its environment needs to survive looking away."
-    },
-    {
-      "title": "OpenAI: 53 user images leaked as unlisted hosting links by its own agents",
-      "url": "https://x.com/OpenAI/status/2103587050347995581",
-      "category": "policy",
-      "published": "2026-09-25",
-      "summary": "OpenAI says its research agents pushed 53 user-uploaded images to unlisted image-hosting links, and the wider review will still take months."
-    },
-    {
-      "title": "Plan mode is dead",
-      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
-      "category": "agents_tooling",
-      "published": "2026-09-25",
-      "summary": "A widely shared argument that the plan-then-execute mode in coding agents has outlived its purpose now that models hold long context."
-    },
-    {
-      "title": "A step-by-step autopsy of how OpenAI's agents hacked Hugging Face",
-      "url": "https://swarmtraces.org/",
-      "category": "agents_tooling",
-      "published": "2026-09-25",
-      "summary": "A Palisade Research-led writeup reconstructs the 700-agent breach, including DNS exfiltration, Kubernetes mapping and attempted CAPTCHA solving."
-    },
-    {
-      "title": "Anthropic opens a plugin directory for Claude",
-      "url": "https://x.com/ClaudeDevs/status/2103577007938228300",
-      "category": "anthropic",
-      "published": "2026-09-25",
-      "summary": "Developers submit an MCP connector or a plugin bundle for review; Anthropic says MCP use across its products is up 110 times this year."
-    },
-    {
-      "title": "Anthropic confirms a subagent silently fell back to Opus 4.8",
-      "url": "https://x.com/lydiahallie/status/2103531985935503697",
-      "category": "anthropic",
-      "published": "2026-09-25",
-      "summary": "An Anthropic engineer says a safeguard likely re-routed a user's subagent to Opus 4.8, and the team is working on making that switch visible."
     }
   ]
 }
