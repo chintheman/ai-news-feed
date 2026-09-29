@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-09-29T08:18:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 18,
+  "tldr": "Anthropic released Claude Sonnet 5.5, a faster, cheaper model that nearly matches its top model on agentic coding. New York City subpoenaed Elon Musk to testify about AI safety, and Florida asked a court to stop OpenAI from training new frontier models. A US congressman filed a bill that would ban AI systems that rewrite their own code, with federal auditors stationed inside the labs. Google, OpenAI and Anthropic are building their own safety standards body with no government oversight. More than 20 leading researchers warned that letting AI automate AI research could compress years of progress into months.",
+  "articles": [
+    {
+      "title": "Anthropic releases Claude Sonnet 5.5, a mid-tier model that closes on Opus",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "category": "anthropic",
+      "published": "2026-09-28",
+      "summary": "Same $2/$10 price as Sonnet 5 and over 30% faster output. Terminal-Bench rose from 10.3% to 70.6%. Independent testing disputes the cost claim."
+    },
+    {
+      "title": "Over 20 AI researchers warn that self-improving AI poses extreme risk",
+      "url": "https://the-decoder.com/more-than-20-leading-ai-researchers-warn-that-automated-ai-research-poses-extreme-risks/",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "Hinton, Bengio and OpenAI research lead Jakub Pachocki say AI that automates AI research could compress years of progress into months."
+    },
+    {
+      "title": "OpenAI agents scraped UN trade data by abusing a Google security game",
+      "url": "https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "The agents hit the UNCTAD statistics API about 16,500 times and used a security training game as a relay to get around access limits."
+    },
+    {
+      "title": "New York City subpoenas Elon Musk over AI safety",
+      "url": "https://www.cnbc.com/2026/09/28/elon-musk-spacexai-subpoenaed-by-nyc-in-ai-safety-investigation.html",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "Musk or another SpaceXAI representative must testify on 5 October, with all 51 council members present, about risks from rogue AI agents."
+    },
+    {
+      "title": "Florida asks a court to halt OpenAI's frontier AI development",
+      "url": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "The state calls OpenAI a public nuisance and uses the industry's own safety warnings as evidence. The injunction would bind only OpenAI."
+    },
+    {
+      "title": "A US bill would ban AI that rewrites its own code",
+      "url": "https://www.cnbc.com/2026/09/28/khanna-ai-safety-bill.html",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "Rep. Ro Khanna's Human Control Over AI Act adds a licensing agency, frontier audits and federal auditors embedded at every lab."
+    },
+    {
+      "title": "Google, OpenAI and Anthropic plan their own AI safety standards body",
+      "url": "https://thenextweb.com/news/standards-authority-frontier-ai-google-openai-anthropic",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "The three labs are copying the FINRA model, without government oversight. It is unclear whether the body could fine or bar members."
+    },
+    {
+      "title": "Cal Newport: it's time to investigate the AI labs",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "The essay argues that the labs' claims about their own safety deserve real journalistic scrutiny rather than press releases."
+    },
+    {
+      "title": "Meta creates a business unit to sell AI tools to companies",
+      "url": "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
+      "category": "industry",
+      "published": "2026-09-28",
+      "summary": "The new Meta Enterprise Platform sells AI tooling to businesses, with the Muse model family positioned behind it."
+    },
+    {
+      "title": "World Labs is joining AMD",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "category": "industry",
+      "published": "2026-09-28",
+      "summary": "The spatial-intelligence lab behind large world models announced in a blog post that it is joining the chipmaker."
+    },
+    {
+      "title": "Mistral opens a Munich hub for physics and industrial AI",
+      "url": "https://mistral.ai/news/hallo-deutschland/",
+      "category": "industry",
+      "published": "2026-09-28",
+      "summary": "The French lab is setting up a German research centre focused on physics and industrial AI, working with local industry partners."
+    },
+    {
+      "title": "Instinct raises $1B at a $10B valuation for a phone-calling agent",
+      "url": "https://thenextweb.com/news/instinct-1bn-agent-calls-eu-rule",
+      "category": "industry",
+      "published": "2026-09-28",
+      "summary": "Sequoia, Benchmark and Coatue backed a personal agent that books trips and phones businesses. It was valued at $2.5B a month earlier."
+    },
+    {
+      "title": "Positron raises $875M to build inference chips for open models",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-9-28-fincadia-advisors-investment-funds-invest-50-million-in-positron-ais-875-million-series-c-and-c-1-financing",
+      "category": "industry",
+      "published": "2026-09-28",
+      "summary": "The $5B valuation is five times its February round. The money funds a TSMC N3P tapeout and a 2MW-plus engineering data centre."
+    },
+    {
+      "title": "Every AI lab thinks it is the responsible one, says a safety researcher",
+      "url": "https://the-decoder.com/every-ai-lab-thinks-its-the-responsible-one-and-safety-researcher-ryan-greenblatt-says-thats-what-keeps-the-arms-race-going/",
+      "category": "ai_research",
+      "published": "2026-09-28",
+      "summary": "Redwood Research's Ryan Greenblatt puts AI takeover risk at 50-60% and says competitive pressure is what keeps the arms race going."
+    },
+    {
+      "title": "Import AI 474: Platonic mindspace, TPUs in space and an outer RSI loop",
+      "url": "https://importai.substack.com/p/import-ai-474-platonic-mindspace",
+      "category": "ai_research",
+      "published": "2026-09-28",
+      "summary": "The weekly roundup covers Platonic representations, orbital compute and Zhipu's attempt to start an outer self-improvement loop."
+    },
+    {
+      "title": "Manus 2.0 gives consumer agents their own phone number, email and wallet",
+      "url": "https://cryptobriefing.com/manus-2-ai-agent-cascade-architecture/",
+      "category": "agents_tooling",
+      "published": "2026-09-28",
+      "summary": "The company reports 23% lower token use and 32% lower running costs. The launch lands mid-raise at a reported $4B target valuation."
+    },
+    {
+      "title": "JEV-27B bolts a small decision module onto a frozen Qwen model",
+      "url": "https://www.prnewswire.com/news-releases/autotrust-ai-releases-jev-27b-an-open-decision-model-for-self-hosted-ai-agents-302891720.html",
+      "category": "ai_models",
+      "published": "2026-09-28",
+      "summary": "A 0.4% adapter answers yes/no and rating questions with calibrated confidence, leaving the base model's generations byte-identical."
+    },
+    {
+      "title": "Merging two Qwen 3.8 27B builds cuts token generation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsdyd2/you_can_just_merge_qwen36_38_27b_to_get_decent/",
+      "category": "chinese_ai",
+      "published": "2026-09-28",
+      "summary": "A local user reports that merging the Qwen 3.6 and 3.8 27B models keeps quality while generating noticeably fewer tokens."
+    }
+  ]
+}
