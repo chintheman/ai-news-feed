@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-09-29T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 6,
+  "tldr": "Anthropic has filed to go public at a valuation above $2 trillion, and the paperwork warns its own technology could threaten humanity. OpenAI reopened its $200-a-month Pro plan to new sign-ups, but halved the API credits the plan includes. A Chinese lab released IQuest-Q1, a large open model built for coding agents that use tools. OpenAI published its guidelines for keeping frontier training runs safe. Cloudflare shipped a command-line tool that lets AI agents drive its API.",
+  "articles": [
+    {
+      "title": "Anthropic files for a $2 trillion IPO with an $8 billion annual loss",
+      "url": "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/",
+      "category": "anthropic",
+      "published": "2026-09-29",
+      "summary": "Revenue grew twelvefold in 2025 to $4.6B while the operating loss widened to $8.06B. The prospectus itself warns the tech poses existential risks."
+    },
+    {
+      "title": "OpenAI reopens its $200 Pro plan but halves the API credits",
+      "url": "https://the-decoder.com/openai-reopens-its-200-pro-plan-but-cuts-api-credits-in-half-as-it-nudges-users-toward-pay-per-use/",
+      "category": "industry",
+      "published": "2026-09-29",
+      "summary": "Pro returns to new sign-ups with half the API credits per dollar. An OpenAI employee says cheaper models like GPT-6 Sol and Luna cover the gap."
+    },
+    {
+      "title": "IQuest-Q1: a 320B open mixture of experts for coding agents",
+      "url": "https://github.com/IQuestLab/IQuest-Q1",
+      "category": "ai_models",
+      "published": "2026-09-29",
+      "summary": "IQuest-Q1 activates about 15B of its 320B parameters per token and carries a 512K context window, with day-0 vLLM and SGLang support."
+    },
+    {
+      "title": "Half of Qwen3.8-Flash-Next's experts removed in a new quant build",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt4s88/release_gsqrco_ggufs_for_qwen38flashnext_plus_a/",
+      "category": "chinese_ai",
+      "published": "2026-09-29",
+      "summary": "GGUF quants of Qwen3.8-Flash-Next, plus a capability-targeted build with half the model's experts pruned, running at about 1.89 bits per weight."
+    },
+    {
+      "title": "OpenAI publishes its guidelines for frontier RL training runs",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "policy",
+      "published": "2026-09-28",
+      "summary": "Early guidelines for documenting that a frontier training run is safe, covering technical safeguards, operational practice and misalignment probes."
+    },
+    {
+      "title": "Cloudflare ships cf, a CLI covering its whole API for agents",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "category": "platforms_integration",
+      "published": "2026-09-28",
+      "summary": "The new cf CLI covers over 3,000 API operations, up from Wrangler's roughly 280, and adds a natural-language command search built for agents."
+    }
+  ]
+}
