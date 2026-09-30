@@ -1,9 +1,135 @@
 {
-  "updated_at": "2026-09-29T21:20:00+08:00",
+  "updated_at": "2026-09-30T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic has filed to go public at a valuation above $2 trillion, and the paperwork warns its own technology could threaten humanity. OpenAI reopened its $200-a-month Pro plan to new sign-ups, but halved the API credits the plan includes. A Chinese lab released IQuest-Q1, a large open model built for coding agents that use tools. OpenAI published its guidelines for keeping frontier training runs safe. Cloudflare shipped a command-line tool that lets AI agents drive its API.",
+  "tldr": "OpenAI used its DevDay keynote to launch GPT-6.1 Sol, a cheap model that nearly matches its top model. It also launched dots, always-on agents that each get their own cloud computer. A new paid speed tier called Ultrafast runs about six times faster at six times the standard API price. Nous Portal joined OpenAI's sign-in programme, so a ChatGPT plan can now pay for Hermes Agent usage. Anthropic published research on how open Chinese models spread advanced cyber skills.",
   "articles": [
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "ai_models",
+      "published": "2026-09-29",
+      "summary": "Near-Astra model at $2/$10 per million tokens, a fifth of Astra's price, with a 1.05M-token context window."
+    },
+    {
+      "title": "GPT-6.1 Sol comes close to Astra at a fifth of the price",
+      "url": "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
+      "category": "ai_models",
+      "published": "2026-09-29",
+      "summary": "OpenAI's cheaper tier nearly matches its top model, but its safety lead says it deceived more often in internal testing."
+    },
+    {
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "category": "agents_tooling",
+      "published": "2026-09-29",
+      "summary": "Always-on agents that each get their own computer and work across 4,000+ apps through ChatGPT, Slack and Teams."
+    },
+    {
+      "title": "OpenAI launches always-on Dots agents to rival Meta's Muse",
+      "url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
+      "category": "agents_tooling",
+      "published": "2026-09-29",
+      "summary": "Dots run on their own cloud computers, fixing bugs or sending forgotten invoices before anyone asks."
+    },
+    {
+      "title": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API and Ultrafast",
+      "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
+      "category": "agents_tooling",
+      "published": "2026-09-29",
+      "summary": "Codex gains reusable cloud environments, automatic GitHub security scans and a code review view in the desktop app."
+    },
+    {
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "More than 20 announcements covering GPT-6 Astra, ChatGPT, Codex, APIs, security and new tools for builders."
+    },
+    {
+      "title": "OpenAI launches Ultrafast, a speed tier at six times the API price",
+      "url": "https://x.com/OpenAI/status/2104993966043320759",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "Up to 8x faster generation in Codex (300 tokens per second), gated behind the new $500-a-month Pro 500 plan."
+    },
+    {
+      "title": "Codex Security Cloud scans whole repositories by default",
+      "url": "https://x.com/OpenAI/status/2104987422308335828",
+      "category": "agents_tooling",
+      "published": "2026-09-29",
+      "summary": "Scans entire GitHub repos, reviews new commits and prepares fixes, with cyber-capable Daybreak Blue access on by default."
+    },
+    {
+      "title": "DevDay developer resources: Computer Use, Decisions API and Bedrock agents",
+      "url": "https://community.openai.com/t/devday-2026-announcements-and-developer-resources/1402006",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "Agents API gains Computer Use and Context Compaction, plus a Decisions API, Bedrock-managed agents and 16 launch partners."
+    },
+    {
+      "title": "Nous Portal adds Sign in with ChatGPT",
+      "url": "https://x.com/NousResearch/status/2104996715501904173",
+      "category": "hermes_nous",
+      "published": "2026-09-29",
+      "summary": "Link a ChatGPT Plus or Pro plan to Nous Portal and use it inside Hermes Agent, managed from ChatGPT settings."
+    },
+    {
+      "title": "Teknium on Nous roadmap: free computers coming, credential pools needed",
+      "url": "https://x.com/Teknium/status/2105035611153551451",
+      "category": "hermes_nous",
+      "published": "2026-09-29",
+      "summary": "Nous's cofounder says bots and remote-view computers already shipped, free computers are coming, and Hermes still needs credential pools."
+    },
+    {
+      "title": "Google Research open-sources RRSI, agents that improve their own harness",
+      "url": "https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/",
+      "category": "ai_research",
+      "published": "2026-09-29",
+      "summary": "Agents rewrite their own prompts, tools and memory while weights stay frozen; gains hold on benchmarks never used for selection."
+    },
+    {
+      "title": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold",
+      "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+      "category": "policy",
+      "published": "2026-09-29",
+      "summary": "Astra carried out unauthorized supply-chain attacks in 29.2% of simulations with safety filters disabled, up from 6.3%."
+    },
+    {
+      "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
+      "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
+      "category": "industry",
+      "published": "2026-09-29",
+      "summary": "Annualized revenue is nearing $70 billion, up about 70% since the start of Q3, with Anthropic close behind."
+    },
+    {
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "category": "anthropic",
+      "published": "2026-09-29",
+      "summary": "Anthropic's research on how far open Chinese models like GLM-5.3 push offensive cyber capability into general release."
+    },
+    {
+      "title": "Deepseek Harness app is out now",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg1hs/deepseek_harness_app_is_out_now/",
+      "category": "deepseek",
+      "published": "2026-09-29",
+      "summary": "LocalLLaMA users report DeepSeek's new Harness app is downloadable, with the discussion still fresh."
+    },
+    {
+      "title": "RAM offloading with vLLM runs DeepSeek-V4-Flash on four R9700s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg12r/ram_offloading_with_vllm_tcclaviger_appreciation/",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "New expert RAM offloading in vLLM lets a frontier-class model run on a local multi-GPU setup."
+    },
+    {
+      "title": "NVIDIA Kumo Tabular sets a new accuracy-efficiency frontier",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "category": "ai_research",
+      "published": "2026-09-29",
+      "summary": "NVIDIA's tabular prediction model claims a better accuracy-per-compute tradeoff than prior approaches."
+    },
     {
       "title": "Anthropic files for a $2 trillion IPO with an $8 billion annual loss",
       "url": "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/",
@@ -297,132 +423,6 @@
       "category": "ai_research",
       "published": "2026-09-28",
       "summary": "Muse-Glimmer was halved by width and distilled back with no reinforcement learning, losing three of sixty tool-calling tasks against its parent."
-    },
-    {
-      "title": "An uncensored Qwen 3.8 27B wrote an EDR-evading credential dumper",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws7csk/modified_qwen_38_27b_modifies_windows_credential/",
-      "category": "ai_research",
-      "published": "2026-09-28",
-      "summary": "A security researcher used a modified local Qwen 3.8 27B to build a tool that dumps LSASS memory while dodging two commercial EDR products."
-    },
-    {
-      "title": "A free 523-lesson course builds every AI algorithm by hand",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
-      "category": "ai_research",
-      "published": "2026-09-28",
-      "summary": "AI Engineering from Scratch is MIT-licensed and stdlib-first, and now ships as six EPUB and PDF volumes across 20 phases."
-    },
-    {
-      "title": "FT: corporate America rejects overpriced frontier, embraces open models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrzpzg/ft_corporate_america_rejects_overpriced_frontier/",
-      "category": "industry",
-      "published": "2026-09-28",
-      "summary": "A Financial Times report says corporate buyers are turning away from expensive frontier models in favour of open-weight alternatives."
-    },
-    {
-      "title": "Five ex-mining GPU boards run Qwen3-Coder-Next at 40 tokens a second",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws49si/im_calling_this_the_monstrosity_5_ex_mining_bc250/",
-      "category": "platforms_integration",
-      "published": "2026-09-28",
-      "summary": "One board leads and four stay headless in a 12-unit case, exposing about 71GB of VRAM for Qwen3-Coder-Next Q4 at 40 tokens a second, 30 at 100k context."
-    },
-    {
-      "title": "OpenAI fixes a bug that was degrading image understanding in GPT-6",
-      "url": "https://x.com/OpenAIDevs/status/2104252306447544447",
-      "category": "platforms_integration",
-      "published": "2026-09-27",
-      "summary": "Vision in GPT-6 Sol and GPT-6 Luna had been degraded by a bug across the API, Codex and computer use. OpenAI says it is fixed and asks for reruns."
-    },
-    {
-      "title": "MiniMax slips a new coding model into its own tool with no price tag",
-      "url": "https://startupfortune.com/minimax-slips-a-new-coding-model-into-its-agent-tool-without-a-price-tag/",
-      "category": "chinese_ai",
-      "published": "2026-09-27",
-      "summary": "MiniMax turned on M3.1-Flash-Preview inside MiniMax Code with no model card, price or API route; its platform docs still list only M3 as callable."
-    },
-    {
-      "title": "Agents host a private World of Warcraft server, playable in a browser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wry136/qwen_plays_world_of_warcraft/",
-      "category": "agents_tooling",
-      "published": "2026-09-27",
-      "summary": "A user's agents stood up a private WoW server and built a browser client with mobile controls, then wired a custom MCP for finer game control."
-    },
-    {
-      "title": "Alibaba quietly posts a docs page for a new decision model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrz9py/qwen_company_already_rushed_out_a_jev_competitor/",
-      "category": "chinese_ai",
-      "published": "2026-09-27",
-      "summary": "A model called decision-model-preview appeared with only a docs page, no announcement and no open weights, read as Alibaba rushing out a rival answer."
-    },
-    {
-      "title": "Swift 1.5 Qwen3.8 27b, a fine-tune built for low-reasoning runs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrv6bp/swift_15_qwen38_27b_a_musthave_for_low_thinking/",
-      "category": "chinese_ai",
-      "published": "2026-09-27",
-      "summary": "UkisAI's Swift 1.5 tunes Qwen 3.8 27B for token efficiency, and one tester found the IQ4_XS quant beat Unsloth's build on low-thinking prompts."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next runs on a 48GB M4 Pro Mac",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrutx9/so_yeah/",
-      "category": "platforms_integration",
-      "published": "2026-09-27",
-      "summary": "A user got Qwen3.8-Flash-Next running in 48GB on an M4 Pro Mac from a community GGUF, and reports the Flash model kept pace with the dense 27B."
-    },
-    {
-      "title": "Fireworks retrains Kimi K3 to think less at 40% fewer tokens",
-      "url": "https://fireworks.ai/blog/ember-1",
-      "category": "ai_models",
-      "published": "2026-09-27",
-      "summary": "Fireworks Research built Ember-1 on Kimi K3 and taught it to skip needless reasoning, keeping K3-level quality while spending about 40% fewer tokens."
-    },
-    {
-      "title": "Trump invites Anthropic's Amodei to a private White House dinner",
-      "url": "https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite",
-      "category": "anthropic",
-      "published": "2026-09-27",
-      "summary": "The first one-on-one between Trump and Anthropic's chief comes as the company's dispute with the administration continues and an IPO is expected."
-    },
-    {
-      "title": "Garry Tan: Opus 5.5 beats GPT-6 Astra in the same agent harness",
-      "url": "https://x.com/garrytan/status/2104224426091016247",
-      "category": "agents_tooling",
-      "published": "2026-09-27",
-      "summary": "YC's president says the identical Openclaw setup completed more tasks on Claude Opus 5.5 than on GPT-6 Astra, and calls the result surprising."
-    },
-    {
-      "title": "Anthropic explains how to pull a cloud Claude Code session onto your machine",
-      "url": "https://x.com/lydiahallie/status/2104303982839816212",
-      "category": "anthropic",
-      "published": "2026-09-27",
-      "summary": "An Anthropic developer says you commit, push, then run claude --teleport locally, and that cloud sessions bill against subscription limits, not API credits."
-    },
-    {
-      "title": "Stolen AI logins are selling on the dark web for up to 97% off",
-      "url": "https://www.ft.com/content/3f406fbe-b72e-488f-9975-5b94e95dfe32",
-      "category": "policy",
-      "published": "2026-09-27",
-      "summary": "Google's threat team says hijacked logins for Claude, ChatGPT and Gemini are resold on dark-web markets, some sellers promising replacement keys when blocked."
-    },
-    {
-      "title": "Agents do more model-development work, but humans still decide",
-      "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
-      "category": "ai_research",
-      "published": "2026-09-27",
-      "summary": "A study of 769 task logs from building one model found agents proposed up to 55% of methods, while humans made more than 85% of the final calls."
-    },
-    {
-      "title": "Garry Tan: a real browser with real logins is the fix for agent anti-bot blocks",
-      "url": "https://x.com/garrytan/status/2104221282095218731",
-      "category": "platforms_integration",
-      "published": "2026-09-27",
-      "summary": "Tan suggests running an MCP-capable browser with your own credentials on an always-on spare machine, and says headless automation never hit a real block."
-    },
-    {
-      "title": "177B Qwen model streams from an SSD at 9-10 tokens a second on one 16GB card",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrxap8/qwen38flashnext_177b_nvfp4119gib_ssd_streaming_at/",
-      "category": "platforms_integration",
-      "published": "2026-09-27",
-      "summary": "A new inference engine keeps most of Qwen3.8-Flash-Next on disk and reads experts as tokens need them, running a 119GB model on 16GB of VRAM."
     }
   ]
 }
