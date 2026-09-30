@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-09-30T13:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "AMD is buying Fei-Fei Li's World Labs for $8.2 billion, and she joins AMD as chief scientist. Trump and four AI chief executives signed a voluntary pledge to audit their own safety work. Anthropic's IPO paperwork shows 47% of its sales now run through Amazon and Google, up from 11% in 2023. ElevenLabs shipped a voice model that laughs and whispers on cue and starts speaking in 150 milliseconds. A new open tool that checks whether a model has quietly got worse topped Hacker News.",
+  "articles": [
+    {
+      "title": "AMD buys AI world model startup World Labs for $8.2 billion",
+      "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
+      "category": "industry",
+      "published": "2026-09-29",
+      "summary": "Fei-Fei Li's World Labs is being acquired by AMD for $8.2B; Li joins as Executive VP and Chief Scientist reporting to Lisa Su, bringing the Atlas spatial models."
+    },
+    {
+      "title": "Anthropic's IPO filing: 47% of revenue runs through Amazon and Google",
+      "url": "https://www.reuters.com/world/anthropic-ipo-prospectus-lays-bare-deep-dependence-big-tech-partners-2026-09-29/",
+      "category": "industry",
+      "published": "2026-09-29",
+      "summary": "47% of last year's sales came through the two cloud marketplaces, up from 11% in 2023 — the same firms that supply Anthropic's compute and compete with Claude."
+    },
+    {
+      "title": "Trump and AI chiefs sign 'morally binding' self-policing accord",
+      "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/",
+      "category": "policy",
+      "published": "2026-09-29",
+      "summary": "Amodei, Zuckerberg, Pichai and Huang agreed to internal and external reviews with independent auditors; Trump is weighing a 10-person AI safety board."
+    },
+    {
+      "title": "ElevenLabs' new v4 speech model is more expressive and more consistent",
+      "url": "https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/",
+      "category": "ai_models",
+      "published": "2026-09-29",
+      "summary": "Eleven v4 follows laughter and whisper cues more accurately and holds one voice steady across an audiobook; its Turbo variant starts speaking in 150 milliseconds."
+    },
+    {
+      "title": "Livenerf: has Opus 5.5 been nerfed yet?",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "category": "ai_models",
+      "published": "2026-09-29",
+      "summary": "Open-source tool that re-runs coding probes against a model over time to catch quiet capability regressions; 216 points on Hacker News."
+    },
+    {
+      "title": "Qwen-family models are quietly the backbone of modern audio LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+      "category": "chinese_ai",
+      "published": "2026-09-29",
+      "summary": "A chart of 100+ audio model architectures in audio.cpp finds 32 families built on a Qwen language backbone, with 20 of them on Qwen3."
+    },
+    {
+      "title": "Are you worried about a potential ban of Chinese open weight models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp9x4/are_you_worried_about_a_potential_ban_of_chinese/",
+      "category": "policy",
+      "published": "2026-09-29",
+      "summary": "r/LocalLLaMA thread after Anthropic's GLM-5.3 cyber report and new US travel curbs on Chinese AI engineers asks whether open weights are restricted next."
+    },
+    {
+      "title": "AMD boosts Radeon iGPU AI performance 18-23% with Linux 7.4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp87p/amd_boosting_aillm_performance_for_radeon_igpus/",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "Kernel and driver work in Linux 7.4 lifts Radeon integrated-GPU LLM throughput by as much as 18-23%, making small-box local inference more viable."
+    },
+    {
+      "title": "The DGX Spark handbook, shared by Hugging Face's cofounder",
+      "url": "https://x.com/julien_c/status/2105008672527249665",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "A community-written deployment guide for NVIDIA's desktop AI box, evidence the DGX Spark is now attracting real setup documentation."
+    },
+    {
+      "title": "ModelScope CLI has moved to modelscope-hub",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtrykk/psa_modelscope_cli_is_now_moved_to_modelscopehub/",
+      "category": "platforms_integration",
+      "published": "2026-09-30",
+      "summary": "The modelscope package is now library-only and provides no CLI; the command line tool ships separately as modelscope-hub, so old installs need reinstalling."
+    }
+  ]
+}

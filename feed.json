@@ -1,9 +1,79 @@
 {
-  "updated_at": "2026-09-30T08:15:00+08:00",
+  "updated_at": "2026-09-30T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI used its DevDay keynote to launch GPT-6.1 Sol, a cheap model that nearly matches its top model. It also launched dots, always-on agents that each get their own cloud computer. A new paid speed tier called Ultrafast runs about six times faster at six times the standard API price. Nous Portal joined OpenAI's sign-in programme, so a ChatGPT plan can now pay for Hermes Agent usage. Anthropic published research on how open Chinese models spread advanced cyber skills.",
+  "tldr": "AMD is buying Fei-Fei Li's World Labs for $8.2 billion, and she joins AMD as chief scientist. Trump and four AI chief executives signed a voluntary pledge to audit their own safety work. Anthropic's IPO paperwork shows 47% of its sales now run through Amazon and Google, up from 11% in 2023. ElevenLabs shipped a voice model that laughs and whispers on cue and starts speaking in 150 milliseconds. A new open tool that checks whether a model has quietly got worse topped Hacker News.",
   "articles": [
+    {
+      "title": "ModelScope CLI has moved to modelscope-hub",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtrykk/psa_modelscope_cli_is_now_moved_to_modelscopehub/",
+      "category": "platforms_integration",
+      "published": "2026-09-30",
+      "summary": "The modelscope package is now library-only and provides no CLI; the command line tool ships separately as modelscope-hub, so old installs need reinstalling."
+    },
+    {
+      "title": "AMD buys AI world model startup World Labs for $8.2 billion",
+      "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
+      "category": "industry",
+      "published": "2026-09-29",
+      "summary": "Fei-Fei Li's World Labs is being acquired by AMD for $8.2B; Li joins as Executive VP and Chief Scientist reporting to Lisa Su, bringing the Atlas spatial models."
+    },
+    {
+      "title": "Anthropic's IPO filing: 47% of revenue runs through Amazon and Google",
+      "url": "https://www.reuters.com/world/anthropic-ipo-prospectus-lays-bare-deep-dependence-big-tech-partners-2026-09-29/",
+      "category": "industry",
+      "published": "2026-09-29",
+      "summary": "47% of last year's sales came through the two cloud marketplaces, up from 11% in 2023 — the same firms that supply Anthropic's compute and compete with Claude."
+    },
+    {
+      "title": "Trump and AI chiefs sign 'morally binding' self-policing accord",
+      "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/",
+      "category": "policy",
+      "published": "2026-09-29",
+      "summary": "Amodei, Zuckerberg, Pichai and Huang agreed to internal and external reviews with independent auditors; Trump is weighing a 10-person AI safety board."
+    },
+    {
+      "title": "ElevenLabs' new v4 speech model is more expressive and more consistent",
+      "url": "https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/",
+      "category": "ai_models",
+      "published": "2026-09-29",
+      "summary": "Eleven v4 follows laughter and whisper cues more accurately and holds one voice steady across an audiobook; its Turbo variant starts speaking in 150 milliseconds."
+    },
+    {
+      "title": "Livenerf: has Opus 5.5 been nerfed yet?",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "category": "ai_models",
+      "published": "2026-09-29",
+      "summary": "Open-source tool that re-runs coding probes against a model over time to catch quiet capability regressions; 216 points on Hacker News."
+    },
+    {
+      "title": "Qwen-family models are quietly the backbone of modern audio LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+      "category": "chinese_ai",
+      "published": "2026-09-29",
+      "summary": "A chart of 100+ audio model architectures in audio.cpp finds 32 families built on a Qwen language backbone, with 20 of them on Qwen3."
+    },
+    {
+      "title": "Are you worried about a potential ban of Chinese open weight models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp9x4/are_you_worried_about_a_potential_ban_of_chinese/",
+      "category": "policy",
+      "published": "2026-09-29",
+      "summary": "r/LocalLLaMA thread after Anthropic's GLM-5.3 cyber report and new US travel curbs on Chinese AI engineers asks whether open weights are restricted next."
+    },
+    {
+      "title": "AMD boosts Radeon iGPU AI performance 18-23% with Linux 7.4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp87p/amd_boosting_aillm_performance_for_radeon_igpus/",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "Kernel and driver work in Linux 7.4 lifts Radeon integrated-GPU LLM throughput by as much as 18-23%, making small-box local inference more viable."
+    },
+    {
+      "title": "The DGX Spark handbook, shared by Hugging Face's cofounder",
+      "url": "https://x.com/julien_c/status/2105008672527249665",
+      "category": "platforms_integration",
+      "published": "2026-09-29",
+      "summary": "A community-written deployment guide for NVIDIA's desktop AI box, evidence the DGX Spark is now attracting real setup documentation."
+    },
     {
       "title": "Introducing GPT-6.1 Sol",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
@@ -353,76 +423,6 @@
       "category": "chinese_ai",
       "published": "2026-09-28",
       "summary": "A local user reports that merging the Qwen 3.6 and 3.8 27B models keeps quality while generating noticeably fewer tokens."
-    },
-    {
-      "title": "Holo4: an open model that drives a computer by looking at the screen",
-      "url": "https://huggingface.co/blog/Hcompany/holo4",
-      "category": "ai_models",
-      "published": "2026-09-28",
-      "summary": "H Company's Holo4-27B reads screenshots and acts on them: a vision-language model for computer use built on Qwen3.8 with a matching agent harness."
-    },
-    {
-      "title": "NVIDIA ships OpenShell, a sandbox that gives agents hard runtime limits",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/",
-      "category": "agents_tooling",
-      "published": "2026-09-28",
-      "summary": "OpenShell enforces what an agent may do in code rather than in prompts. Over 100 firms joined the safety stack; OpenAI did not."
-    },
-    {
-      "title": "Hermes Desktop will open in any browser",
-      "url": "https://x.com/Teknium/status/2104522071757967852",
-      "category": "hermes_nous",
-      "published": "2026-09-28",
-      "summary": "Nous Research's lead engineer confirmed the hermes webapp pull request is coming to all: chat, files, Git and a terminal that survives a refresh, served from your own host."
-    },
-    {
-      "title": "Anthropic publishes prompting guidance for Claude Opus 5.5",
-      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
-      "category": "anthropic",
-      "published": "2026-09-28",
-      "summary": "A new docs page sets out how to prompt Opus 5.5. It drew 125 points and 121 comments on Hacker News."
-    },
-    {
-      "title": "A Wuhan court made AI production costs part of copyright damages",
-      "url": "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases/",
-      "category": "policy",
-      "published": "2026-09-28",
-      "summary": "Token usage and AI tool licence fees were counted for the first time when a Chinese court worked out what a copyright breach was worth."
-    },
-    {
-      "title": "AI doom probabilities are still too unreliable to base policy on",
-      "url": "https://www.normaltech.ai/p/p-doom",
-      "category": "policy",
-      "published": "2026-09-28",
-      "summary": "Normal Tech argues speculation about AI extinction risk gets dressed up as numbers, and those numbers should not be driving law."
-    },
-    {
-      "title": "GPT-3 is discontinued",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws67x4/gpt3_is_discontinued_today/",
-      "category": "industry",
-      "published": "2026-09-28",
-      "summary": "OpenAI retired the model that started the current wave, with GPT-5.6 Terra named as the suggested replacement."
-    },
-    {
-      "title": "macOS already ships a local model, and now Node and Python can call it",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws5l5p/macos_27_ships_a_free_local_llm_on_apple_silicon/",
-      "category": "platforms_integration",
-      "published": "2026-09-28",
-      "summary": "Apple Silicon Macs ship a small model with no download and no API key, and nothing leaves the machine. A developer wrapped it for Node and Python."
-    },
-    {
-      "title": "Faster inference for Qwen 3.8 Flash Next on Strix Halo",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws8dpy/if_you_are_running_qwen_38_flash_next_on_strix/",
-      "category": "platforms_integration",
-      "published": "2026-09-28",
-      "summary": "A user reports a community inference stack beating llama.cpp on Strix Halo, most clearly at long context, with benchmark numbers published."
-    },
-    {
-      "title": "A 30B model cut to half its width still does 57 of 60 tool tasks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws6bmh/liked_muse_so_i_cut_the_30b_model_in_half_by/",
-      "category": "ai_research",
-      "published": "2026-09-28",
-      "summary": "Muse-Glimmer was halved by width and distilled back with no reinforcement learning, losing three of sixty tool-calling tasks against its parent."
     }
   ]
 }
