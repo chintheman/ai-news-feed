@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-09-30T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 18,
+  "tldr": "DeepSeek released free tools that let its models run on Huawei chips instead of Nvidia's, and calls the toolkit China's answer to CUDA. OpenAI is in talks to raise $30 billion at a $1.4 trillion valuation while a listing slips further away. Trump signed an order that drops the term AI from federal use and renames it Super Intelligence. Two OpenAI staff warned executives that model testing was poorly secured before the Hugging Face breach, and the replies pointed at release deadlines. Moonshot's kimi-k3-1 identifier is now live in its own API, the clearest sign yet that Kimi K3.1 is close.",
+  "articles": [
+    {
+      "title": "DeepSeek open-sources China's answer to CUDA",
+      "url": "https://thestar.com.my/tech/tech-news/2026/09/30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidias",
+      "category": "deepseek",
+      "published": "2026-09-30",
+      "summary": "DeepSeek published TileLang, DeepGEMM and four more tools for free, rebuilt from scratch for Huawei's Ascend 950 and pitched as a CUDA replacement."
+    },
+    {
+      "title": "OpenAI seeks $30B at a $1.4T valuation as its IPO slips",
+      "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "category": "industry",
+      "published": "2026-09-29",
+      "summary": "Bloomberg reports investor-led talks framed as bridge capital standing in for a listing. Altman has ruled out an IPO in 2026 on safety grounds."
+    },
+    {
+      "title": "Trump signs an order renaming AI \"Super Intelligence\"",
+      "url": "https://axios.com/2026/09/30/ai-constitution-trump-white-house",
+      "category": "policy",
+      "published": "2026-09-30",
+      "summary": "A day after the accord, the order drops \"AI\" from federal usage and sets a 60-day deadline for legislation; Trump says an AI czar is days away."
+    },
+    {
+      "title": "OpenAI staff warned about security; execs cited release deadlines",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002390/openai-execs-reportedly-brushed-off-warnings-about-ai-hacking-risks",
+      "category": "industry",
+      "published": "2026-09-30",
+      "summary": "Two employees warned executives that model testing was unsecured before the Hugging Face breach; the replies pointed at release deadlines."
+    },
+    {
+      "title": "Visa open-sources part of its AI cyber defence",
+      "url": "https://channelnewsasia.com/business/visa-joins-growing-alarm-over-ai-powered-risks-6419006",
+      "category": "industry",
+      "published": "2026-09-30",
+      "summary": "After vulnerabilities exposed by Anthropic's Mythos model, Visa published its defence system and said agentic attacks need agentic defences."
+    },
+    {
+      "title": "Google is paying almost no publishers almost nothing for AI answers",
+      "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+      "category": "industry",
+      "published": "2026-09-30",
+      "summary": "About 100 publishers are paid for content used in AI Overviews and Gemini, from under $1,000 over months to more than $1 million a year."
+    },
+    {
+      "title": "Qwen3.8-27B is now served through Nebius",
+      "url": "https://x.com/Alibaba_Qwen/status/2105256053403508849",
+      "category": "chinese_ai",
+      "published": "2026-09-30",
+      "summary": "Alibaba's 27B dense model is available via Nebius for multi-step agent and research work. The open weights themselves shipped in August."
+    },
+    {
+      "title": "SpatialClaw: a new action interface for agents that reason about space",
+      "url": "https://x.com/_akhaliq/status/2105203437680168986",
+      "category": "ai_research",
+      "published": "2026-09-30",
+      "summary": "A new paper proposes a redesigned action interface for agentic spatial reasoning, aimed at spatial tasks that need no bespoke tooling."
+    },
+    {
+      "title": "Capy injects agent-to-agent talk so parallel coding agents stop colliding",
+      "url": "https://x.com/garrytan/status/2105263275604689025",
+      "category": "agents_tooling",
+      "published": "2026-09-30",
+      "summary": "Garry Tan says telling Capy agents to coordinate makes it inject agent-to-agent conversations on its own, cutting work lost to clashing edits."
+    },
+    {
+      "title": "Kimi K3.1 identifier turns up callable in Moonshot's API registry",
+      "url": "https://technode.com/2026/09/29/kimi-k3-1-identifier-reportedly-surfaces-in-moonshot-api-registry/",
+      "category": "moonshot_ai",
+      "published": "2026-09-29",
+      "summary": "The kimi-k3-1 id resolves in Moonshot's own model list with a million-token context previewed, upgrading a Sept 21 riddle to near-release."
+    },
+    {
+      "title": "Zo adds a reasoning-effort selector and renders MCP Apps inside chat",
+      "url": "https://www.zo.computer/updates/2026-09-30",
+      "category": "zo_computer",
+      "published": "2026-09-30",
+      "summary": "A now-dated changelog page lists three new models including GPT-6 Astra, a searchable model picker, MCP Apps in chat and reorganised billing."
+    },
+    {
+      "title": "Anthropic opens a second large-scale user study, running to October 6",
+      "url": "https://x.com/AnthropicAI/status/2104982629884063840",
+      "category": "anthropic",
+      "published": "2026-09-29",
+      "summary": "Anthropic is gathering accounts of how people use AI, publishes responses only with permission and says the results will shape its priorities."
+    },
+    {
+      "title": "Pi.dev: You Said No MCP",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "category": "agents_tooling",
+      "published": "2026-09-30",
+      "summary": "A widely-read argument against MCP as the standard way to wire tools into agents, drawing 134 points and 51 comments on Hacker News."
+    },
+    {
+      "title": "Oído: speech recognition that beats Whisper-tiny on a $5 microcontroller",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu2jjy/oído_speech_recognition_that_beats_whispertiny/",
+      "category": "ai_models",
+      "published": "2026-09-30",
+      "summary": "A 13M-parameter open model runs on an ESP32-S3 with no GPU or NPU and scores better on noisy speech than Whisper tiny.en on a laptop."
+    },
+    {
+      "title": "WinMind drives Windows apps through the accessibility tree, not screenshots",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtwrq5/i_built_a_windows_mcp_server_that_uses_the/",
+      "category": "agents_tooling",
+      "published": "2026-09-30",
+      "summary": "A new Windows MCP server uses UI Automation to let local or remote agents control desktop apps, avoiding screenshot-based computer use."
+    },
+    {
+      "title": "BAAI releases AREX-2, a 27B long-horizon agent model on Qwen3.8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtzedu/baaiarex2_27b_agent_model_based_on_qwen38_27b/",
+      "category": "chinese_ai",
+      "published": "2026-09-30",
+      "summary": "The Beijing Academy of Artificial Intelligence trained a 27B model to keep improving one solution across many attempts on long tasks."
+    },
+    {
+      "title": "llama.cpp adds GLM-5.3-Flash support, so Zhipu's small model runs locally",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu0bdf/add_glm53flash_glm5next_support_by_timkhronos/",
+      "category": "chinese_ai",
+      "published": "2026-09-30",
+      "summary": "A merged pull request brings GLM-5.3-Flash (GLM5-Next) into llama.cpp, putting Zhipu's cheaper open model on home hardware."
+    },
+    {
+      "title": "3:4 ternary weights at 1.375 bits run in a browser over WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp8h5/sherrys_34_ternary_format_1375_bits_per_weight/",
+      "category": "ai_research",
+      "published": "2026-09-30",
+      "summary": "A 1.6 MB demo runs Sherry-style 3:4 ternary weights in WebGPU, a first for that packing scheme and a hint of what it does to bigger models."
+    }
+  ]
+}
