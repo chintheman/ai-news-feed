@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-10-01T13:15:59+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "OpenAI says the campaign that copied its models' hidden reasoning was run in part by accounts linked to Moonshot AI, the maker of Kimi. Researchers found software agents trying to break into Canada's national archive, and every attempt failed. Nous says it is tuning its Hermes agent on new interaction data from its nemo-relay service. Two new open models landed: a translation model covering 150 languages and a pair of fine-tunes built on Qwen. An AI Alliance project showed two countries training a model together while each kept its own data at home.",
+  "articles": [
+    {
+      "title": "OpenAI ties a reasoning-extraction campaign to Moonshot-linked accounts",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "category": "ai_research",
+      "published": "2026-10-01",
+      "summary": "16,000 extraction requests from 4,000+ users on July 24-25; operators copied encrypted reasoning and asked another model to transcribe it. A core cluster is linked to people tied to Moonshot."
+    },
+    {
+      "title": "Agents made failed hacking attempts on Library and Archives Canada",
+      "url": "https://gizmodo.com/ai-agents-targeted-canadian-government-in-rudimentary-hacking-attempts-2000819992",
+      "category": "policy",
+      "published": "2026-10-01",
+      "summary": "Transluce counted 13 possible attacks on the archive's search service, including three SQL injections, all failed. Canada reports no compromise; the tactics match agents OpenAI admits running elsewhere."
+    },
+    {
+      "title": "Nous tunes its Hermes harness on nemo-relay interaction data",
+      "url": "https://x.com/Teknium/status/2105509432193081546",
+      "category": "hermes_nous",
+      "published": "2026-10-01",
+      "summary": "Nous cofounder Teknium says more interaction data means a better-optimised agent harness, and credits nemo relay with giving the team much more to work with. No release or date attached."
+    },
+    {
+      "title": "Index-Translate ships 150-language translation across text, documents and video",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wugf2t/indextranslate_150_text_languages_plus_document/",
+      "category": "chinese_ai",
+      "published": "2026-09-30",
+      "summary": "BiliBili's Index LLM team releases translation models at 2B, 9B and 35B-A3B, plus document translation, multilingual subtitles and dubbing, with control over terminology and style."
+    },
+    {
+      "title": "Victoria and Maple: two open-weight fine-tunes of Qwen3.8-Flash-Next",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wujph3/two_openweights_releases_victoria_qwen38flashnext/",
+      "category": "ai_models",
+      "published": "2026-09-30",
+      "summary": "Victoria cuts Qwen3.8-Flash-Next by 44% of experts using REAP and retrains at 4-bit for coding and agents; Maple is a Canada-first fine-tune. Both ship with GGUF builds."
+    },
+    {
+      "title": "LEGO-Anything: coding agents for 3D scene reconstruction",
+      "url": "https://x.com/_akhaliq/status/2105430425657364973",
+      "category": "ai_research",
+      "published": "2026-09-30",
+      "summary": "A new paper repurposes coding agents to rebuild 3D scenes. Carried as a pointer: title and paper link, no benchmark numbers."
+    },
+    {
+      "title": "LongLive-Plug: once-for-all distillation for video generation",
+      "url": "https://x.com/_akhaliq/status/2105432314633490445",
+      "category": "ai_research",
+      "published": "2026-09-30",
+      "summary": "New paper on distilling video generation models once for all downstream uses. Carried as a pointer: title and paper link, no benchmark numbers."
+    },
+    {
+      "title": "Omni-IO Skills: one skill set that carries across input and output formats",
+      "url": "https://x.com/_akhaliq/status/2105431737262350346",
+      "category": "agents_tooling",
+      "published": "2026-09-30",
+      "summary": "Paper on agent skills written once and reused across modalities, instead of being authored per format. Carried as a pointer: a title, a demo video and a paper link."
+    },
+    {
+      "title": "Project Tapestry shows two countries training a model without moving data",
+      "url": "https://technode.global/prnasia/project-tapestry-gains-momentum-for-sovereign-ai-during-un-general-assembly-week/",
+      "category": "policy",
+      "published": "2026-10-01",
+      "summary": "The AI Alliance's first Project Tapestry milestone had India's BharatGen train jointly with Monash University while each kept its data at home. Vietnam and India partnerships also expanded."
+    },
+    {
+      "title": "Capy's agent swarms coordinate as peers, not as parent and child",
+      "url": "https://x.com/GarryTan/status/2105449821645480046",
+      "category": "agents_tooling",
+      "published": "2026-10-01",
+      "summary": "Garry Tan draws the line between editors that coordinate child agents top-down and Capy's swarms that talk to each other as equals and organise themselves. No release in the post."
+    },
+    {
+      "title": "Ideogram weights are heading to Hugging Face",
+      "url": "https://x.com/huggingface/status/2105332449077076195",
+      "category": "ai_models",
+      "published": "2026-09-30",
+      "summary": "Hugging Face's reply to Ideogram signals image-model weights landing on the Hub soon. No date and no announcement yet."
+    }
+  ]
+}
