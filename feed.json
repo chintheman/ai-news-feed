@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-10-02T08:16:00+08:00",
+  "updated_at": "2026-10-02T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Three labs released small models that pick between set options instead of writing out an answer. Anthropic opened Claude for Government to US federal and state agencies. OpenAI published an essay arguing AI will matter most for the routine work behind big ideas. Three vendors put a checkpoint in front of the calls agents make to models and tools. JetBrains shipped an IDE layer that runs Codex, Claude and Copilot inside its own window.",
+  "tldr": "Perplexity opened up a 27-billion-parameter decision model that returns answers and probabilities instead of prose, and says it edges out the current leader. Microsoft shipped its first streaming speech-to-text model plus two new voices. Databricks added a fast decision function so companies can classify and route work without calling a large model. Publishers launched a standard that reports when AI systems read and cite their work. Hermes is getting an update that should be about four times faster.",
   "articles": [
+    {
+      "title": "Publishers ship a standard for reporting when AI reads their work",
+      "url": "https://digiday.com/media/spur-publishes-ai-content-tracking-standard-pitches-openai-and-google-to-join/",
+      "category": "policy",
+      "published": "2026-10-02",
+      "summary": "Guardian, FT, BBC and AP-backed SPUR shipped v1.0: retrieval, grounding and citation events get reported back to publishers, now multimodal and C2PA-aware."
+    },
+    {
+      "title": "Perplexity releases an embedding model that returns the evidence",
+      "url": "https://www.perplexity.ai/hub/blog/contextual-embedding-beyond-the-gold-passage",
+      "category": "ai_research",
+      "published": "2026-10-02",
+      "summary": "pplx-embed-v2-context-9b-preview encodes a document once, so each chunk carries the passage that verifies the answer. Open weights, 45.5% answer recall."
+    },
+    {
+      "title": "Microsoft's first streaming transcription model lands at $0.54/hour",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+      "category": "ai_models",
+      "published": "2026-10-02",
+      "summary": "MAI-Transcribe-2-Streaming covers 60 languages with ~100ms partials. MAI-Voice-2.1 and a 150ms Flash voice model ship alongside it."
+    },
+    {
+      "title": "Perplexity open-weights a 27B decision model that returns probabilities",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvfz9n/perplexity_decider_27b_open_weights_decision/",
+      "category": "ai_models",
+      "published": "2026-10-02",
+      "summary": "pplx-decider-v1-27b skips prose and returns a probability distribution over developer-supplied options. Perplexity's own tests put it at 85.71%, ahead of Jev."
+    },
+    {
+      "title": "Databricks adds ai_decide to push structured decisions into the lakehouse",
+      "url": "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data",
+      "category": "agents_tooling",
+      "published": "2026-10-02",
+      "summary": "ai_decide is a native AI Function returning classifications, scores and choices in a fraction of a second, in beta via SQL or REST, powered by a Jev-style model."
+    },
+    {
+      "title": "Tangent Robotics raises $4.5M pre-seed for robotic dexterity",
+      "url": "https://www.rockingrobots.com/tangent-robotics-raises-4-5-million-in-pre-seed-funding-for-robotic-dexterity/",
+      "category": "industry",
+      "published": "2026-10-02",
+      "summary": "The Columbia spinoff's round was led by Fly Ventures and Toyota Ventures. It is building manipulation that combines vision and touch."
+    },
+    {
+      "title": "Hermes is getting an update that should be about 4x faster",
+      "url": "https://x.com/Teknium/status/2105809042291798441",
+      "category": "hermes_nous",
+      "published": "2026-10-02",
+      "summary": "Nous Research co-founder Teknium says the next Hermes release should run roughly four times faster for everyone."
+    },
+    {
+      "title": "Generative AI has gutted the web development education business",
+      "url": "https://molily.de/web-dev-education/",
+      "category": "industry",
+      "published": "2026-10-01",
+      "summary": "A widely-shared essay tracks how chatbots and coding agents collapsed demand for web dev courses, ebooks and training, ending many independent educators' businesses."
+    },
     {
       "title": "Three small open models that pick between options instead of answering",
       "url": "https://venturebeat.com/technology/amazon-unveils-a-free-fast-open-source-jev-killer-strands-decider-2b-makes-decisions-in-fractions-of-a-second",
@@ -367,62 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-09-30",
       "summary": "A YC S25 launch that tunes itself to the hardware it runs on, works on Mac, Linux and Windows, and claims up to twice llama.cpp's speed."
-    },
-    {
-      "title": "Team open-sources 200+ WebGPU kernels for local AI in the browser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu8tpg/we_just_opensourced_the_worlds_fastest_webgpu/",
-      "category": "platforms_integration",
-      "published": "2026-09-30",
-      "summary": "More than 200 WebGPU kernels for common ML operations now run locally in the browser, with upstreaming planned for Transformers.js and ONNX Runtime Web."
-    },
-    {
-      "title": "OpenAI and Synopsys build a model that drives chip-design tools",
-      "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
-      "category": "platforms_integration",
-      "published": "2026-09-30",
-      "summary": "GPT-Synopsys is meant to operate EDA software like an experienced engineer and optimise designs on its own; customer tests are already running."
-    },
-    {
-      "title": "DeepSeek open-sources China's answer to CUDA",
-      "url": "https://thestar.com.my/tech/tech-news/2026/09/30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidias",
-      "category": "deepseek",
-      "published": "2026-09-30",
-      "summary": "DeepSeek published TileLang, DeepGEMM and four more tools for free, rebuilt from scratch for Huawei's Ascend 950 and pitched as a CUDA replacement."
-    },
-    {
-      "title": "Trump signs an order renaming AI \"Super Intelligence\"",
-      "url": "https://axios.com/2026/09/30/ai-constitution-trump-white-house",
-      "category": "policy",
-      "published": "2026-09-30",
-      "summary": "A day after the accord, the order drops \"AI\" from federal usage and sets a 60-day deadline for legislation; Trump says an AI czar is days away."
-    },
-    {
-      "title": "OpenAI staff warned about security; execs cited release deadlines",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002390/openai-execs-reportedly-brushed-off-warnings-about-ai-hacking-risks",
-      "category": "industry",
-      "published": "2026-09-30",
-      "summary": "Two employees warned executives that model testing was unsecured before the Hugging Face breach; the replies pointed at release deadlines."
-    },
-    {
-      "title": "Visa open-sources part of its AI cyber defence",
-      "url": "https://channelnewsasia.com/business/visa-joins-growing-alarm-over-ai-powered-risks-6419006",
-      "category": "industry",
-      "published": "2026-09-30",
-      "summary": "After vulnerabilities exposed by Anthropic's Mythos model, Visa published its defence system and said agentic attacks need agentic defences."
-    },
-    {
-      "title": "Google is paying almost no publishers almost nothing for AI answers",
-      "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
-      "category": "industry",
-      "published": "2026-09-30",
-      "summary": "About 100 publishers are paid for content used in AI Overviews and Gemini, from under $1,000 over months to more than $1 million a year."
-    },
-    {
-      "title": "Qwen3.8-27B is now served through Nebius",
-      "url": "https://x.com/Alibaba_Qwen/status/2105256053403508849",
-      "category": "chinese_ai",
-      "published": "2026-09-30",
-      "summary": "Alibaba's 27B dense model is available via Nebius for multi-step agent and research work. The open weights themselves shipped in August."
     }
   ]
 }
