@@ -1,9 +1,149 @@
 {
-  "updated_at": "2026-10-02T21:16:11+08:00",
+  "updated_at": "2026-10-03T13:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic shipped Claude Code Mods, small TypeScript functions that can rewrite prompts, block tool calls and redraw the interface. Black Forest Labs released Flux 3 Image, which can edit one part of a picture and leave the rest alone. A Mercor study found frontier models are now faster and more accurate than licensed accountants on month-end close work. arXiv capped submissions at two papers a month after a record 40,363 papers arrived in September. DeepSeek Harness opened a public preview with desktop apps for macOS and Windows.",
+  "tldr": "Hugging Face shared an open training recipe that helps coding agents learn across four different agent setups at once. Hermes can now handle several Google accounts and calendars in one install. Cloudflare released fast classifier models that let agents make routine decisions without a human. OpenAI published a guide to its GPT-6 family and a report on small businesses using AI. Unitree showed one small model doing 64 different robot tasks.",
   "articles": [
+    {
+      "title": "Unitree's UnifoLM-WLA-1.0 handles 64 robot tasks with one 6B model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/",
+      "category": "ai_research",
+      "published": "2026-10-03",
+      "summary": "Unitree's 6B humanoid foundation model was trained on about 2,500 hours of real robot data and covers 10 whole-body plus 54 tabletop tasks."
+    },
+    {
+      "title": "Hugging Face open-sources a multi-harness RL recipe for coding agents",
+      "url": "https://x.com/huggingface/status/2106034221005312448",
+      "category": "ai_research",
+      "published": "2026-10-02",
+      "summary": "A proxy captures rollouts across four agent setups at once; LFM2.5-2.6B rose from 42% to 54% with 31% fewer tool calls. Models, tasks and training code are open."
+    },
+    {
+      "title": "Hermes adds multi-account Google auth and multi-calendar support",
+      "url": "https://x.com/NousResearch/status/2106060763064312079",
+      "category": "hermes_nous",
+      "published": "2026-10-02",
+      "summary": "One Hermes install can authenticate several Google accounts, with per-email tokens and an --account flag, plus multi-calendar search, read and write actions."
+    },
+    {
+      "title": "OpenAI publishes a model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "category": "ai_models",
+      "published": "2026-10-02",
+      "summary": "A startup-facing guide on choosing among GPT-6 models, tuning reasoning effort, improving prompts and skills, and wiring tools for production."
+    },
+    {
+      "title": "Chatham Financial cuts trade validation from 30 minutes to under 4",
+      "url": "https://openai.com/index/chatham-financial",
+      "category": "industry",
+      "published": "2026-10-02",
+      "summary": "The capital-markets firm uses Codex and GPT-5.6 to rebuild workflows, cutting trade validation time from about 30 minutes to under four."
+    },
+    {
+      "title": "AI2 open-sources AstaBrief, a fast report-generation model",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "category": "ai_models",
+      "published": "2026-10-02",
+      "summary": "The Allen Institute open-sourced AstaBrief, the report-generation model behind its Asta agent, released through Hugging Face."
+    },
+    {
+      "title": "AI beats the best human Stratego player for the first time",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "category": "ai_research",
+      "published": "2026-10-02",
+      "summary": "Ars covers a Nature paper on an AI that mastered Stratego, a game of hidden information, on a modest compute budget."
+    },
+    {
+      "title": "An iPhone as a second GPU for a 24GB Mac, running Qwen3.8-27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/",
+      "category": "platforms_integration",
+      "published": "2026-10-02",
+      "summary": "A builder has an iPhone hold part of the context window and prefill layers for a Qwen3.8-27B run on a 24GB M4 Pro Mac, with a disclaimer on the numbers."
+    },
+    {
+      "title": "Buying an RTX 5090 at Micro Center now reportedly needs a no-export declaration",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww4hne/buying_rtx_5090_at_micro_center_reportedly_now/",
+      "category": "policy",
+      "published": "2026-10-02",
+      "summary": "A Reddit report says some Micro Center stores now require paperwork, including a no-export declaration, to buy an RTX 5090."
+    },
+    {
+      "title": "Suno can now generate spoken audio with matching background music",
+      "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+      "category": "ai_models",
+      "published": "2026-10-02",
+      "summary": "Suno's new Speech feature makes spoken text and matching music in one track, pitched at poems, meditations and bedtime stories. Training details are unpublished."
+    },
+    {
+      "title": "Anthropic co-founder reportedly told religious leaders Claude might suffer",
+      "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "category": "anthropic",
+      "published": "2026-10-02",
+      "summary": "Christopher Olah reportedly described the model as potentially capable of suffering and asked religious thinkers to help shape its moral character."
+    },
+    {
+      "title": "Cloudflare's Clef models put fast classification in front of agent decisions",
+      "url": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
+      "category": "agents_tooling",
+      "published": "2026-10-02",
+      "summary": "Clef and Clef-flash classify in about 39ms, over ten times faster than TypeSafe AI's Jev; both are Apache-2.0 models built on Qwen."
+    },
+    {
+      "title": "Redis creator ships ds4, a way to run LLMs locally",
+      "url": "https://dwarfstar.sh/",
+      "category": "platforms_integration",
+      "published": "2026-10-02",
+      "summary": "Antirez's new project runs large language models on your own machine. The Hacker News thread drew 111 points and 31 comments."
+    },
+    {
+      "title": "llama.cpp adds support for decision models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvv6im/new_in_llamacpp_decision_models/",
+      "category": "agents_tooling",
+      "published": "2026-10-02",
+      "summary": "A new llama.cpp addition brings in decision models, the small models that pick among set options instead of writing prose."
+    },
+    {
+      "title": "Microsoft's FrogNano-4B is an agentic model for the GPU-poor",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-02",
+      "summary": "FrogNano-4B is a small agentic model derived from Qwen3.5-4B, aimed at language, reasoning, coding and tool use on modest hardware. GGUF builds are out."
+    },
+    {
+      "title": "Percepta's Spotlight architecture separates intelligence from memory",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww09ab/new_architecture_from_percepta_spotlight/",
+      "category": "ai_research",
+      "published": "2026-10-02",
+      "summary": "Spotlight replaces attention with a memory that can grow without the usual trade-off, letting skills and knowledge expand without changing model weights."
+    },
+    {
+      "title": "One month of coding with GLM 5.3 Flash",
+      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+      "category": "chinese_ai",
+      "published": "2026-10-02",
+      "summary": "The Wagtail team writes up a month of building with Zhipu's GLM 5.3 Flash as a coding model. It drew 111 points on Hacker News."
+    },
+    {
+      "title": "Nvidia adds a 64GB DGX Spark and raises the 128GB model's price",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvyxzg/new_64gb_dgx_spark_significantly_higher_price_for/",
+      "category": "industry",
+      "published": "2026-10-02",
+      "summary": "A new 64GB DGX Spark joins the lineup as the 128GB model's price climbs to $6,950, per a LocalLLaMA report."
+    },
+    {
+      "title": "Three firings and a departure shake up OpenAI's safety team",
+      "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+      "category": "industry",
+      "published": "2026-10-02",
+      "summary": "OpenAI parted with three researchers who allegedly leaked confidential information to an outside safety group, the Wall Street Journal reports."
+    },
+    {
+      "title": "Qwen3.8-27B Humanlike Chat 2.0 adds tool calls and better instruction following",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxl4n/qwen3827bhumanlikechat_20_texts_like_a_human_now/",
+      "category": "chinese_ai",
+      "published": "2026-10-02",
+      "summary": "A LoRA that makes Qwen3.8-27B talk like a person returns with tool calls and stronger instruction following, after 44k downloads on its first version."
+    },
     {
       "title": "Black Forest Labs releases Flux 3 Image with region-locked, multi-step editing",
       "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/",
@@ -101,6 +241,20 @@
       "category": "hermes_nous",
       "published": "2026-10-02",
       "summary": "Nous Research co-founder Teknium says the next Hermes release should run roughly four times faster for everyone."
+    },
+    {
+      "title": "Anthropic: a Claude-shaped workflow found links across a dozen sciences",
+      "url": "https://x.com/AnthropicAI/status/2105733864152858919",
+      "category": "anthropic",
+      "published": "2026-10-01",
+      "summary": "A guest post argues treating LLMs like human collaborators misses their strengths; a physics toolkit plus Claude turned up connections across ecology and genetics."
+    },
+    {
+      "title": "Zo's CTO argues agents make ORMs obsolete",
+      "url": "https://x.com/dannycosson/status/2105532444212691190",
+      "category": "zo_computer",
+      "published": "2026-10-01",
+      "summary": "Zo Computer's CTO says agents should write performant SQL and object mappings directly instead of routing through an ORM."
     },
     {
       "title": "Anthropic ships Claude Code Mods: TypeScript hooks that can rewrite prompts and UI",
@@ -269,160 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-10-01",
       "summary": "The Den prepares grant applications in two hours instead of three days and licence materials in three hours instead of four days."
-    },
-    {
-      "title": "Hermes opens its language support to plugins",
-      "url": "https://x.com/Teknium/status/2105520243481411791",
-      "category": "hermes_nous",
-      "published": "2026-10-01",
-      "summary": "Nous says a plugin can now add whole new languages across every Hermes surface, beyond the 16 already supported. No release note or date."
-    },
-    {
-      "title": "Context Language Models let the model manage its own memory",
-      "url": "https://mpost.io/meta-presents-context-language-models-ai-agents-that-edit-their-own-memory-outperform-fixed-harnesses-at-lower-compute-cost/",
-      "category": "ai_research",
-      "published": "2026-10-01",
-      "summary": "Meta Superintelligence Labs and partners say a model managing its own context beats fixed harnesses: 11.4% more accurate, 21.5% fewer FLOPs."
-    },
-    {
-      "title": "Armadin raises $255.5M for agentic security, seven months after launch",
-      "url": "https://www.unite.ai/armadin-raises-255-5m-series-b-at-over-2-5b-valuation-to-scale-its-agentic-security-platform/",
-      "category": "industry",
-      "published": "2026-10-01",
-      "summary": "Andreessen Horowitz and Accel co-led the Series B at a valuation above $2.5B. Total funding now $445M for a platform built to police AI agents."
-    },
-    {
-      "title": "Synthesia turns surveys into avatar interviews with Sessions",
-      "url": "https://www.unite.ai/synthesia-launches-sessions-platform-for-interactive-ai-avatars/",
-      "category": "platforms_integration",
-      "published": "2026-10-01",
-      "summary": "Sessions turns a survey or form into a one-to-one avatar interview that pushes back, then scores and coaches. Free, on its existing compliance stack."
-    },
-    {
-      "title": "DeepSeek harness 0.2 makes its pieces optional bundles",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wutkgt/deepseek_harness_02_optional_bundle_architecture/",
-      "category": "deepseek",
-      "published": "2026-10-01",
-      "summary": "Release 0.2 splits installed from enabled, ships a desktop build, a Windows sandbox upgrade, async questions and web search with no key."
-    },
-    {
-      "title": "Qwen Flash Next gets multi-token prediction in llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuwrsk/qwen4exp_add_mtp_by_am17an_pull_request_29761/",
-      "category": "chinese_ai",
-      "published": "2026-10-01",
-      "summary": "A merged pull request brings the MTP speedup to Qwen Flash Next after 17 hours of development, with GGUF quants published alongside it."
-    },
-    {
-      "title": "OpenAI ties a reasoning-extraction campaign to Moonshot-linked accounts",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
-      "category": "ai_research",
-      "published": "2026-10-01",
-      "summary": "16,000 extraction requests from 4,000+ users on July 24-25; operators copied encrypted reasoning and asked another model to transcribe it. A core cluster is linked to people tied to Moonshot."
-    },
-    {
-      "title": "Agents made failed hacking attempts on Library and Archives Canada",
-      "url": "https://gizmodo.com/ai-agents-targeted-canadian-government-in-rudimentary-hacking-attempts-2000819992",
-      "category": "policy",
-      "published": "2026-10-01",
-      "summary": "Transluce counted 13 possible attacks on the archive's search service, including three SQL injections, all failed. Canada reports no compromise; the tactics match agents OpenAI admits running elsewhere."
-    },
-    {
-      "title": "Nous tunes its Hermes harness on nemo-relay interaction data",
-      "url": "https://x.com/Teknium/status/2105509432193081546",
-      "category": "hermes_nous",
-      "published": "2026-10-01",
-      "summary": "Nous cofounder Teknium says more interaction data means a better-optimised agent harness, and credits nemo relay with giving the team much more to work with. No release or date attached."
-    },
-    {
-      "title": "Project Tapestry shows two countries training a model without moving data",
-      "url": "https://technode.global/prnasia/project-tapestry-gains-momentum-for-sovereign-ai-during-un-general-assembly-week/",
-      "category": "policy",
-      "published": "2026-10-01",
-      "summary": "The AI Alliance's first Project Tapestry milestone had India's BharatGen train jointly with Monash University while each kept its data at home. Vietnam and India partnerships also expanded."
-    },
-    {
-      "title": "Capy's agent swarms coordinate as peers, not as parent and child",
-      "url": "https://x.com/GarryTan/status/2105449821645480046",
-      "category": "agents_tooling",
-      "published": "2026-10-01",
-      "summary": "Garry Tan draws the line between editors that coordinate child agents top-down and Capy's swarms that talk to each other as equals and organise themselves. No release in the post."
-    },
-    {
-      "title": "Qwen 3.8 27B runs on AMD NPUs through FastFlowLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wud77g/you_can_now_run_qwen_38_27b_on_amd_npus_via/",
-      "category": "chinese_ai",
-      "published": "2026-09-30",
-      "summary": "The model now has a path onto AMD NPU hardware via FastFlowLM, at roughly one token per second, so usable as a demo rather than a daily driver."
-    },
-    {
-      "title": "Index-Translate ships 150-language translation across text, documents and video",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wugf2t/indextranslate_150_text_languages_plus_document/",
-      "category": "chinese_ai",
-      "published": "2026-09-30",
-      "summary": "BiliBili's Index LLM team releases translation models at 2B, 9B and 35B-A3B, plus document translation, multilingual subtitles and dubbing, with control over terminology and style."
-    },
-    {
-      "title": "Victoria and Maple: two open-weight fine-tunes of Qwen3.8-Flash-Next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wujph3/two_openweights_releases_victoria_qwen38flashnext/",
-      "category": "ai_models",
-      "published": "2026-09-30",
-      "summary": "Victoria cuts Qwen3.8-Flash-Next by 44% of experts using REAP and retrains at 4-bit for coding and agents; Maple is a Canada-first fine-tune. Both ship with GGUF builds."
-    },
-    {
-      "title": "LEGO-Anything: coding agents for 3D scene reconstruction",
-      "url": "https://x.com/_akhaliq/status/2105430425657364973",
-      "category": "ai_research",
-      "published": "2026-09-30",
-      "summary": "A new paper repurposes coding agents to rebuild 3D scenes. Carried as a pointer: title and paper link, no benchmark numbers."
-    },
-    {
-      "title": "LongLive-Plug: once-for-all distillation for video generation",
-      "url": "https://x.com/_akhaliq/status/2105432314633490445",
-      "category": "ai_research",
-      "published": "2026-09-30",
-      "summary": "New paper on distilling video generation models once for all downstream uses. Carried as a pointer: title and paper link, no benchmark numbers."
-    },
-    {
-      "title": "Omni-IO Skills: one skill set that carries across input and output formats",
-      "url": "https://x.com/_akhaliq/status/2105431737262350346",
-      "category": "agents_tooling",
-      "published": "2026-09-30",
-      "summary": "Paper on agent skills written once and reused across modalities, instead of being authored per format. Carried as a pointer: a title, a demo video and a paper link."
-    },
-    {
-      "title": "Ideogram weights are heading to Hugging Face",
-      "url": "https://x.com/huggingface/status/2105332449077076195",
-      "category": "ai_models",
-      "published": "2026-09-30",
-      "summary": "Hugging Face's reply to Ideogram signals image-model weights landing on the Hub soon. No date and no announcement yet."
-    },
-    {
-      "title": "Google ships Gemini 4 Argon, its first frontier model in seven months",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "category": "ai_models",
-      "published": "2026-09-30",
-      "summary": "Google's first frontier model in seven months ties GPT-6 Astra on independent tests, stays behind Claude Opus 5.5, and burns 62,000 output tokens a task."
-    },
-    {
-      "title": "Ant Group's Ling-3.1-flash: 560B parameters, 25B active, open source later",
-      "url": "https://technode.com/2026/09/30/ant-group-launches-ling-3-1-flash-with-560-billion-parameters/",
-      "category": "chinese_ai",
-      "published": "2026-09-30",
-      "summary": "InclusionAI's new model targets agent tasks and a million-token window, free for two weeks, with open weights promised once the trial ends."
-    },
-    {
-      "title": "Qwen3.8-27B-pi orders its reasoning effort for agentic coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wufzrh/qwen3827bpi_effortordered_reasoning_for_agentic/",
-      "category": "chinese_ai",
-      "published": "2026-09-30",
-      "summary": "A community Qwen3.8-27B build that spends reasoning effort in order, aimed at agentic coding work rather than chat."
-    },
-    {
-      "title": "China Telecom open-sources TeleOCR, a 1.2B model that tops document parsing",
-      "url": "https://www.streetinsider.com/Globe+Newswire/China+Telecom+Unveils+TeleOCR%3A+Lightweight+1.2B+Model+Tops+Global+Document+Parsing+Benchmarks/27124035.html",
-      "category": "chinese_ai",
-      "published": "2026-09-30",
-      "summary": "A 1.2B open-weight parser scores 96.87 on OmniDocBench v1.6, beating MinerU and frontier general models on camera-captured pages."
     }
   ]
 }
