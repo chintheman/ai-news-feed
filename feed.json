@@ -1,15 +1,85 @@
 {
-  "updated_at": "2026-10-04T13:16:46+08:00",
+  "updated_at": "2026-10-04T21:16:36.174962+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic's IPO filing tells investors its own models could pose catastrophic risks, and it is asking for a valuation above $2 trillion. Broadcom is arranging $60 billion of chip financing, and is lending Anthropic up to $42 billion against a $125 billion chip lease. Cloudflare put web search behind its AI Gateway, and Prime Intellect opened its own service for running open models. IBM made its Bob coding agent self-hostable, so companies can run it on their own machines. Simon Willison argues pay-by-usage AI tools need hard spending caps by default.",
+  "tldr": "Google is putting its best Gemini models behind a paid plan, leaving free users on the smallest model. A US judge called Flock's camera network indiscriminate mass surveillance. NASA and IBM released an open model that reads 17 years of moon data and predicts polar ice better. A study found Chinese AI models repeat state positions or refuse sensitive questions. Meta's new Muse agent tells users their authority over their household overrides its safety training.",
   "articles": [
+    {
+      "title": "NASA and IBM's open-source lunar model turns 17 years of orbiter data into lunar science",
+      "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+      "category": "ai_research",
+      "published": "2026-10-04",
+      "summary": "An open model trained on 17 years of Lunar Reconnaissance Orbiter data cuts the error in predicting polar ice deposits by up to 22%."
+    },
+    {
+      "title": "Chinese AI models parrot state doctrine or refuse sensitive topics",
+      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+      "category": "chinese_ai",
+      "published": "2026-10-04",
+      "summary": "An Aleph Alpha study rated only 17 to 41 percent of Chinese models' answers on sensitive political questions as balanced."
+    },
+    {
+      "title": "Google's new Gemini tiers cut free users to its weakest model",
+      "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+      "category": "ai_models",
+      "published": "2026-10-04",
+      "summary": "From October, free users get only Flash-Lite while Flash and Pro go to paying subscribers, possibly clearing room for Gemini 4."
+    },
+    {
+      "title": "Meta's Muse system prompt says household authority overrides safety training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx8ruy/metas_muse_agent_1_in_the_app_store_system_prompt/",
+      "category": "agents_tooling",
+      "published": "2026-10-04",
+      "summary": "A posted system prompt for Meta's top-ranking Muse agent states the user's authority over their own household is unconditional and overrides safety training."
+    },
+    {
+      "title": "Bilibili releases Index-Translate, a 150-language family built on Qwen3.5",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxa1wr/bilibili_released_indextranslatea_a_multilingual/",
+      "category": "chinese_ai",
+      "published": "2026-10-04",
+      "summary": "A multilingual translation model family built on Qwen3.5, covering 150 languages and following terminology and formatting instructions."
+    },
+    {
+      "title": "A 5KB pure assembly engine runs Gemma-2B on CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx5x1p/discussion_a_5kb_pure_x8664_assembly_engine_for/",
+      "category": "ai_research",
+      "published": "2026-10-04",
+      "summary": "A bare-metal inference engine written entirely in flat x86-64 assembly runs an LLM from a 5.2KB binary, with no runtime or compiler layer."
+    },
     {
       "title": "Hermes cleans up its Discord setup flow",
       "url": "https://x.com/Teknium/status/2106563883058274541",
       "category": "hermes_nous",
       "published": "2026-10-04",
       "summary": "Nous's cofounder says setting up Hermes with Discord should be less confusing now, with a screenshot of the revised onboarding steps."
+    },
+    {
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "category": "agents_tooling",
+      "published": "2026-10-03",
+      "summary": "The case that durable docs beat agent memory: facts an agent can re-read on demand survive context loss better than anything it remembers."
+    },
+    {
+      "title": "Federal judge calls Flock's camera network 'indiscriminate mass surveillance'",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "category": "policy",
+      "published": "2026-10-03",
+      "summary": "A federal judge criticised the licence-plate camera network as indiscriminate mass surveillance in a case with implications for AI camera data."
+    },
+    {
+      "title": "I quit OpenAI because its culture is broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "A departing safety staffer's account of how OpenAI's culture pushed out people raising risk concerns, amid a run of safety-team exits."
+    },
+    {
+      "title": "LeCun says he has 'zero concerns' about AI wiping out humanity",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "category": "policy",
+      "published": "2026-10-03",
+      "summary": "The Meta chief scientist dismissed extinction risk from AI and called Anthropic CEO Dario Amodei deluded, a public split among the field's founders."
     },
     {
       "title": "Anthropic's IPO filing warns its own models could pose existential risk",
@@ -353,76 +423,6 @@
       "category": "chinese_ai",
       "published": "2026-10-02",
       "summary": "A LoRA that makes Qwen3.8-27B talk like a person returns with tool calls and stronger instruction following, after 44k downloads on its first version."
-    },
-    {
-      "title": "Black Forest Labs releases Flux 3 Image with region-locked, multi-step editing",
-      "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "The image model in the Flux 3 family does multi-step edits that leave the rest of the picture alone, composes scenes with bounding boxes and up to ten reference images, and outputs 4K. Open weights are coming."
-    },
-    {
-      "title": "Ramp AI Index: AI usage hits a record while business spending keeps falling",
-      "url": "https://ramp.com/data/ai-index",
-      "category": "industry",
-      "published": "2026-10-02",
-      "summary": "Ramp's index finds US firms using AI more while paying less for it, with adoption at a record as per-seat spend keeps falling."
-    },
-    {
-      "title": "DeepSeek Harness hits public preview with desktop builds for macOS and Windows",
-      "url": "https://www.deepseek.com/en/harness/",
-      "category": "deepseek",
-      "published": "2026-10-02",
-      "summary": "DeepSeek's open-source agent harness is in public preview, packaged for macOS and Windows with Linux served through the deepseek-ai/dsh npm package. Everything is a plugin."
-    },
-    {
-      "title": "AKASA launches an autonomous AI platform for inpatient medical coding",
-      "url": "https://www.prnewswire.com/news-releases/akasa-launches-first-autonomous-ai-platform-for-coding-and-documentation-302896818.html",
-      "category": "industry",
-      "published": "2026-10-02",
-      "summary": "AKASA says its platform codes complex inpatient cases with no human in the loop, fine-tuning per health system. Its customers cover about 1 in 10 US inpatient discharges."
-    },
-    {
-      "title": "Detecting local-model hallucinations without burning extra VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvm15e/detecting_hallucinations_in_local_models_without/",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "A write-up on flagging hallucinations in local models without a heavy judge model or extra VRAM, built from tests spanning 1.5B to 120B parameters."
-    },
-    {
-      "title": "ServiceNow's AutoSynthData generates training data for enterprise agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "A Hugging Face blog from ServiceNow on AutoSynthData, a method for generating the training data enterprise agents need."
-    },
-    {
-      "title": "llama.cpp adds a /v1/systemone API for the Jev-family decision models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvqbrz/llama_server_add_v1systemone_api_models_laya/",
-      "category": "platforms_integration",
-      "published": "2026-10-02",
-      "summary": "A llama.cpp pull request adds a /v1/systemone endpoint with GGUF builds of the Jev-family decision models: laya, julia-1, lev, openjev and kev."
-    },
-    {
-      "title": "Publishers ship a standard for reporting when AI reads their work",
-      "url": "https://digiday.com/media/spur-publishes-ai-content-tracking-standard-pitches-openai-and-google-to-join/",
-      "category": "policy",
-      "published": "2026-10-02",
-      "summary": "Guardian, FT, BBC and AP-backed SPUR shipped v1.0: retrieval, grounding and citation events get reported back to publishers, now multimodal and C2PA-aware."
-    },
-    {
-      "title": "Perplexity releases an embedding model that returns the evidence",
-      "url": "https://www.perplexity.ai/hub/blog/contextual-embedding-beyond-the-gold-passage",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "pplx-embed-v2-context-9b-preview encodes a document once, so each chunk carries the passage that verifies the answer. Open weights, 45.5% answer recall."
-    },
-    {
-      "title": "Microsoft's first streaming transcription model lands at $0.54/hour",
-      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "MAI-Transcribe-2-Streaming covers 60 languages with ~100ms partials. MAI-Voice-2.1 and a 150ms Flash voice model ship alongside it."
     }
   ]
 }
