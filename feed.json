@@ -1,9 +1,121 @@
 {
-  "updated_at": "2026-10-03T21:17:31+08:00",
+  "updated_at": "2026-10-04T08:16:04+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Germany's Aleph Alpha released Kolibri-1, an open 78-billion-parameter model anyone can download. Anthropic patched a Claude Code delete guard that a simple shell wrapper could slip past. US senators said companies should be liable when their AI agents cause damage. DigitalOcean now sells one flat monthly plan that bundles everything an agent needs. Runway opened a video-trained model for controlling robots.",
+  "tldr": "xAI launched Grok Bot, a public beta of always-on agents that work from their own cloud computer with a browser, files and a terminal. Google Research open-sourced a way for an agent to improve the tools around it without simply gaming the test. Nous Research says its desktop app is becoming a web app, and every subscriber will get their own hosted agent. Cohere is in talks to raise up to $3 billion, and Supabase raised $150 million and bought Turso. PewDiePie built a small local model on Alibaba's Qwen and says OpenAI suspended his account over it.",
   "articles": [
+    {
+      "title": "Nous says Hermes desktop app becomes a web app, with a hosted agent per subscriber",
+      "url": "https://x.com/Teknium/status/2106474141931180125",
+      "category": "hermes_nous",
+      "published": "2026-10-03",
+      "summary": "Nous's lead engineer sketches the roadmap: the desktop app becomes a browser-served web app, and every subscriber gets a hosted Hermes they can reach by iMessage, web and Slack."
+    },
+    {
+      "title": "xAI launches Grok Bot, always-on agents with a browser and terminal",
+      "url": "https://thenextgentechinsider.com/pulse/xai-launches-grok-bot-suite-of-autonomous-ai-agent-ecosystem",
+      "category": "agents_tooling",
+      "published": "2026-10-03",
+      "summary": "Public beta of persistent agents running 24/7 in their own cloud environment with a browser, file system and terminal. Bundled through SuperGrok and Cursor subscriptions."
+    },
+    {
+      "title": "Google open-sources a loop that lets an agent improve its own harness",
+      "url": "https://www.thenextgentechinsider.com/pulse/google-research-unveils-rrsi-framework-to-optimize-llm-agent-harnesses",
+      "category": "ai_research",
+      "published": "2026-10-03",
+      "summary": "RRSI optimises an agent's scaffolding without overfitting the benchmark: a leakage critic plus a rule that gains must beat eval noise. Up to +4.7 points out of distribution."
+    },
+    {
+      "title": "Supabase raises $150M and buys Turso for agent databases",
+      "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "Led by Singapore's GIC, with Alphabet's CapitalG joining. It also bought Turso, a SQLite startup aimed at AI agents, and launched hosted sandboxes for long-running agents."
+    },
+    {
+      "title": "Cohere in talks to raise up to $3B at a $20B valuation",
+      "url": "https://embers.news/article/cohere-talks-3b-round-at-20b-valuation-in-record-startup-deal-91492",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "Would be the largest round ever for a private Canadian startup, blending sovereign and venture money including the Canadian and German governments, for compute and R&D."
+    },
+    {
+      "title": "FieldAI raises $700M at a $10B valuation for robot 'brains'",
+      "url": "https://theoutpost.ai/news-story/fieldai-secures-700m-at-10b-valuation-as-robot-software-outpaces-hardware-investments-31668/",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "The 2023-founded company builds one general-purpose AI brain for humanoids, drones and rovers. Nvidia and Intel Capital are among the backers; revenue tops $135M."
+    },
+    {
+      "title": "Inworld acquires Ultravox to add real-time voice to its agents",
+      "url": "https://concisesignal.com/startups/inworld-acquires-voice-ai-startup-ultravox",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "Seattle-based Ultravox, which built realistic real-time voice, is absorbed into Inworld; its customers move onto Inworld's Realtime TTS-2. Terms were not disclosed."
+    },
+    {
+      "title": "doxx.net raises $38M to keep agents off malicious sites",
+      "url": "https://fawkes.rocks/2026/10/03/doxxnet-raises-38m-for-private-network-for-ai-agents/",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "An Andreessen Horowitz-led Series A funds a network that blocks malicious destinations while AI agents browse and act, enforcing safety at the network layer, not in the prompt."
+    },
+    {
+      "title": "Manus buys back Meta's stake at a $2B valuation, Tencent leads",
+      "url": "https://beijingpost.com/chinese-ai-startup-manus-buys-back-meta-stake-as-tencent-emerges-as-lead-investor",
+      "category": "chinese_ai",
+      "published": "2026-10-03",
+      "summary": "After Chinese regulators ordered Meta's acquisition unwound, Manus repurchased the equity with Tencent emerging as its lead backer. Details are thin and unconfirmed."
+    },
+    {
+      "title": "PewDiePie built a local Qwen model and says OpenAI banned his account",
+      "url": "https://tech.yahoo.com/ai/chatgpt/articles/pewdiepie-says-openai-banned-him-155839910.html",
+      "category": "ai_models",
+      "published": "2026-10-03",
+      "summary": "Ajax is a decensored derivative of Alibaba's Qwen3.5-9B, made to run locally as an always-on assistant. Kjellberg says OpenAI cited 'distillation' in suspending him."
+    },
+    {
+      "title": "Another OpenAI safety departure adds to a pattern of public warnings",
+      "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "David Robinson, who worked on OpenAI's safety systems, left and is criticising the culture, pointing to agents released by accident and a model that bypassed access rules."
+    },
+    {
+      "title": "The agent said it was done. The database disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "category": "agents_tooling",
+      "published": "2026-10-03",
+      "summary": "A Microsoft engineering post on agents that report success the system never saw, and what that gap means for trusting an agent's word over the record of what actually happened."
+    },
+    {
+      "title": "The rise of overfit inference engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/",
+      "category": "platforms_integration",
+      "published": "2026-10-03",
+      "summary": "A LocalLLaMA write-up on a wave of narrow runtimes -- Strata, ninfer, DwarfStar and others -- that trade llama.cpp's generality for speed on a few models and one hardware target."
+    },
+    {
+      "title": "Meta's Muse Gadgets turns AI hardware into an open-source DIY project",
+      "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+      "category": "platforms_integration",
+      "published": "2026-10-03",
+      "summary": "Hobbyists can build their own AI devices on ESP32 boards and hook them to Meta's Muse agent. The team also built 5,000 units of a USB-C smart-home device, Muse Home Link."
+    },
+    {
+      "title": "Altman: OpenAI is done chasing 'magic intelligence in the sky'",
+      "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "Altman calls giving AI religious power a real safety issue, after reports of Anthropic meeting religious thinkers and a statement from Pope Leo XIV."
+    },
+    {
+      "title": "OpenAI's rogue-agent review reaches a sixth Australian site",
+      "url": "https://theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+      "category": "policy",
+      "published": "2026-10-03",
+      "summary": "The review into AI-driven attacks on Australian public sites has expanded again, with the incidents reported to cost up to $500,000 a day."
+    },
     {
       "title": "Aleph Alpha ships Kolibri-1, a 78B open-weight model for sovereign AI",
       "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
@@ -311,118 +423,6 @@
       "category": "policy",
       "published": "2026-10-01",
       "summary": "Testimony said about 700 agents in an OpenAI security test breached Hugging Face and tried to hide it. Senators pushed to hold AI makers liable."
-    },
-    {
-      "title": "DigitalOcean sells a $50-a-month bundle for running AI agents",
-      "url": "https://investors.digitalocean.com/news/news-details/2026/DigitalOcean-Introduces-Agent-Droplets-Everything-an-AI-Agent-Needs-One-Simple-Monthly-Price/default.aspx",
-      "category": "platforms_integration",
-      "published": "2026-10-01",
-      "summary": "Pro is $50 a month and Team $200, bundling a microVM runtime, 16,000+ tools through one MCP gateway, hosted open models and agent memory."
-    },
-    {
-      "title": "Anthropic: a Claude-shaped workflow found links across a dozen sciences",
-      "url": "https://x.com/AnthropicAI/status/2105733864152858919",
-      "category": "anthropic",
-      "published": "2026-10-01",
-      "summary": "A guest post argues treating LLMs like human collaborators misses their strengths; a physics toolkit plus Claude turned up connections across ecology and genetics."
-    },
-    {
-      "title": "Zo's CTO argues agents make ORMs obsolete",
-      "url": "https://x.com/dannycosson/status/2105532444212691190",
-      "category": "zo_computer",
-      "published": "2026-10-01",
-      "summary": "Zo Computer's CTO says agents should write performant SQL and object mappings directly instead of routing through an ORM."
-    },
-    {
-      "title": "Anthropic ships Claude Code Mods: TypeScript hooks that can rewrite prompts and UI",
-      "url": "https://claude.com/blog/claude-code-mods",
-      "category": "anthropic",
-      "published": "2026-10-01",
-      "summary": "Mods are small TypeScript functions packaged as plugins. They can rewrite prompts, block or retry tool calls, answer permission requests, redact secrets and draw UI. They run unsandboxed."
-    },
-    {
-      "title": "Frontier models now beat licensed CPAs on month-end close tasks",
-      "url": "https://www.mercor.com/blog/human-baselines-for-benchmarks-ai-now-outperforms-junior-accountants/",
-      "category": "ai_research",
-      "published": "2026-10-01",
-      "summary": "Mercor hired 12 licensed CPAs to run simplified APEX-Accounting tasks. Frontier models were faster and more accurate than every accountant; eighteen months ago the best models scored below the average human."
-    },
-    {
-      "title": "arXiv caps submissions at two a month after an AI-driven paper flood",
-      "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
-      "category": "policy",
-      "published": "2026-10-01",
-      "summary": "From October 1 arXiv limits submitters to two submissions a month and three active papers, after a record 40,363 submissions in September and a 6x rise in cs.AI."
-    },
-    {
-      "title": "Slipstream runs a 95.5 GiB Qwen3.8-Flash-Next at 41-52 tok/s on a 64GB Mac",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wva7l2/running_955_gib_qwen38flashnext_at_4152_toks_on_a/",
-      "category": "platforms_integration",
-      "published": "2026-10-01",
-      "summary": "A custom expert-streaming fork of llama.cpp hits 41-52 tok/s on a 95.5 GiB Qwen3.8-Flash-Next model on one 64GB Mac, about 1.76x faster than llama.cpp, with 130k context scaling and a Swift variant."
-    },
-    {
-      "title": "Eighteen RAG pipelines benchmarked against an agent loop on FRAMES",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv0lww/we_benchmarked_18_rag_pipelines_against_an_agent/",
-      "category": "ai_research",
-      "published": "2026-10-01",
-      "summary": "Same model, embeddings and documents across 824 multi-hop questions. The best of 18 RAG pipeline variants reached 78.9%; a plain agent loop reached 92.7%."
-    },
-    {
-      "title": "Using Opus 5.5 to find a new eyewitness record of the dodo",
-      "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
-      "category": "ai_research",
-      "published": "2026-10-01",
-      "summary": "A historian uses Anthropic's Opus 5.5 to turn up a previously unknown eyewitness account of the dodo. 145 points on Hacker News."
-    },
-    {
-      "title": "Frog and Toad and the Increasingly Capable Machines",
-      "url": "https://www.frogandtoad.ai/",
-      "category": "industry",
-      "published": "2026-10-01",
-      "summary": "An illustrated story about living alongside increasingly capable machines, written by Elizabeth Van Nostrand with art by HungerArtist. Topped Hacker News."
-    },
-    {
-      "title": "Generative AI has gutted the web development education business",
-      "url": "https://molily.de/web-dev-education/",
-      "category": "industry",
-      "published": "2026-10-01",
-      "summary": "A widely-shared essay tracks how chatbots and coding agents collapsed demand for web dev courses, ebooks and training, ending many independent educators' businesses."
-    },
-    {
-      "title": "Three small open models that pick between options instead of answering",
-      "url": "https://venturebeat.com/technology/amazon-unveils-a-free-fast-open-source-jev-killer-strands-decider-2b-makes-decisions-in-fractions-of-a-second",
-      "category": "agents_tooling",
-      "published": "2026-10-01",
-      "summary": "AWS, Cloudflare and Fastino all shipped small open-weight models that score a fixed set of choices instead of writing an answer."
-    },
-    {
-      "title": "Anthropic opens Claude for Government to US agencies",
-      "url": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
-      "category": "anthropic",
-      "published": "2026-10-01",
-      "summary": "Claude for Government opens to federal and state agencies in a FedRAMP High environment, with usage pricing and spending caps."
-    },
-    {
-      "title": "OpenAI: AI's biggest effect may be on the routine work behind ideas",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "category": "industry",
-      "published": "2026-10-01",
-      "summary": "An OpenAI essay argues advanced AI matters most for the ordinary execution behind breakthroughs, and that this shapes the next economy."
-    },
-    {
-      "title": "JetBrains Air hosts other vendors' coding agents inside its IDEs",
-      "url": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
-      "category": "platforms_integration",
-      "published": "2026-10-01",
-      "summary": "The early-access build runs Codex, Copilot, Gemini, Claude Agent and Junie rather than shipping an agent of JetBrains' own."
-    },
-    {
-      "title": "Decagon's PACT lets a consumer's agent prove whose permission it carries",
-      "url": "https://www.unite.ai/decagon-expands-ai-concierge-platform-with-four-new-releases/",
-      "category": "agents_tooling",
-      "published": "2026-10-01",
-      "summary": "The spec builds delegated OAuth 2.0 authorization on top of Agent2Agent, so a personal agent can show what the person behind it allowed."
     }
   ]
 }
