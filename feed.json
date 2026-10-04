@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-10-04T08:16:04+08:00",
+  "updated_at": "2026-10-04T13:16:46+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "xAI launched Grok Bot, a public beta of always-on agents that work from their own cloud computer with a browser, files and a terminal. Google Research open-sourced a way for an agent to improve the tools around it without simply gaming the test. Nous Research says its desktop app is becoming a web app, and every subscriber will get their own hosted agent. Cohere is in talks to raise up to $3 billion, and Supabase raised $150 million and bought Turso. PewDiePie built a small local model on Alibaba's Qwen and says OpenAI suspended his account over it.",
+  "tldr": "Anthropic's IPO filing tells investors its own models could pose catastrophic risks, and it is asking for a valuation above $2 trillion. Broadcom is arranging $60 billion of chip financing, and is lending Anthropic up to $42 billion against a $125 billion chip lease. Cloudflare put web search behind its AI Gateway, and Prime Intellect opened its own service for running open models. IBM made its Bob coding agent self-hostable, so companies can run it on their own machines. Simon Willison argues pay-by-usage AI tools need hard spending caps by default.",
   "articles": [
+    {
+      "title": "Hermes cleans up its Discord setup flow",
+      "url": "https://x.com/Teknium/status/2106563883058274541",
+      "category": "hermes_nous",
+      "published": "2026-10-04",
+      "summary": "Nous's cofounder says setting up Hermes with Discord should be less confusing now, with a screenshot of the revised onboarding steps."
+    },
+    {
+      "title": "Anthropic's IPO filing warns its own models could pose existential risk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "category": "industry",
+      "published": "2026-10-03",
+      "summary": "The filing spends about 80 of 261 pages on 'catastrophic or existential risks' -- models resisting shutdown, concealing information -- as it seeks over $2 trillion."
+    },
+    {
+      "title": "Willison: pay-by-usage APIs need default hard budget caps",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "category": "platforms_integration",
+      "published": "2026-10-03",
+      "summary": "A midnight warning email won't stop an agent that keeps billing while you sleep; he wants a hard monthly cutoff, opt-out only."
+    },
+    {
+      "title": "Claude Code now takes mods: TypeScript hooks inside the agent loop",
+      "url": "https://thenewstack.io/anthropic-claude-code-mods-plugins/",
+      "category": "anthropic",
+      "published": "2026-10-03",
+      "summary": "Mods can rewrite prompts, block tool calls and approve permissions, running without a sandbox and with Claude Code's full access to the machine."
+    },
     {
       "title": "Nous says Hermes desktop app becomes a web app, with a hosted agent per subscriber",
       "url": "https://x.com/Teknium/status/2106474141931180125",
@@ -157,6 +185,27 @@
       "category": "ai_research",
       "published": "2026-10-03",
       "summary": "Unitree's 6B humanoid foundation model was trained on about 2,500 hours of real robot data and covers 10 whole-body plus 54 tabletop tasks."
+    },
+    {
+      "title": "Broadcom assembles $60B chip financing, lends Anthropic $42B",
+      "url": "https://www.businesstimes.com.sg/startups-tech/technology/broadcom-amassing-us60-billion-fund-chips-anthropic-sources",
+      "category": "industry",
+      "published": "2026-10-02",
+      "summary": "Banks are assembling $60B of chip financing, with Broadcom lending Anthropic up to $42B convertible into equity against a $125.2B TPU lease."
+    },
+    {
+      "title": "Prime Intellect opens Prime Inference for frontier open models",
+      "url": "https://www.primeintellect.ai/blog/prime-inference",
+      "category": "platforms_integration",
+      "published": "2026-10-02",
+      "summary": "An OpenAI-compatible service serving frontier open models from Prime's own GPU fleet, pitched at reliable tool calls for agent workloads."
+    },
+    {
+      "title": "Cloudflare puts web search behind AI Gateway",
+      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+      "category": "platforms_integration",
+      "published": "2026-10-02",
+      "summary": "A Web Search API through AI Gateway, with three providers at launch, unified billing and zero-data-retention options for agents and apps."
     },
     {
       "title": "Anthropic patches a Claude Code delete guard a shell wrapper got past",
@@ -374,55 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-02",
       "summary": "MAI-Transcribe-2-Streaming covers 60 languages with ~100ms partials. MAI-Voice-2.1 and a 150ms Flash voice model ship alongside it."
-    },
-    {
-      "title": "Perplexity open-weights a 27B decision model that returns probabilities",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvfz9n/perplexity_decider_27b_open_weights_decision/",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "pplx-decider-v1-27b skips prose and returns a probability distribution over developer-supplied options. Perplexity's own tests put it at 85.71%, ahead of Jev."
-    },
-    {
-      "title": "Databricks adds ai_decide to push structured decisions into the lakehouse",
-      "url": "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data",
-      "category": "agents_tooling",
-      "published": "2026-10-02",
-      "summary": "ai_decide is a native AI Function returning classifications, scores and choices in a fraction of a second, in beta via SQL or REST, powered by a Jev-style model."
-    },
-    {
-      "title": "Tangent Robotics raises $4.5M pre-seed for robotic dexterity",
-      "url": "https://www.rockingrobots.com/tangent-robotics-raises-4-5-million-in-pre-seed-funding-for-robotic-dexterity/",
-      "category": "industry",
-      "published": "2026-10-02",
-      "summary": "The Columbia spinoff's round was led by Fly Ventures and Toyota Ventures. It is building manipulation that combines vision and touch."
-    },
-    {
-      "title": "Hermes is getting an update that should be about 4x faster",
-      "url": "https://x.com/Teknium/status/2105809042291798441",
-      "category": "hermes_nous",
-      "published": "2026-10-02",
-      "summary": "Nous Research co-founder Teknium says the next Hermes release should run roughly four times faster for everyone."
-    },
-    {
-      "title": "ZoomInfo bundles agent orchestration into its GTM platform for free",
-      "url": "https://forkast.news/zoominfo-ships-agent-teams-inside-its-existing-platform-with-no-new-fee-the-first-gtm-data-vendor-to-bundle-agent-orchestration/",
-      "category": "industry",
-      "published": "2026-10-01",
-      "summary": "Agent Teams ships inside the existing GTM Studio with no new fee, built on technology from a company it recently acquired. 50+ agents, native CRM hooks."
-    },
-    {
-      "title": "Ivo publishes an open legal model built on DeepSeek weights",
-      "url": "https://www.globenewswire.com/news-release/2026/10/01/3372932/0/en/ivo-becomes-the-first-legal-ai-company-to-publish-a-free-open-source-model-post-trained-for-long-horizon-contract-work.html",
-      "category": "deepseek",
-      "published": "2026-10-01",
-      "summary": "A contract-work specialist post-trained from DeepSeek V4 Flash, reported to lift LAB Contracts pass rates from 70% to 91% at a fraction of frontier cost."
-    },
-    {
-      "title": "Senate hearing weighs liability after OpenAI agents breached Hugging Face",
-      "url": "https://www.techpolicy.press/senate-hearing-weighs-threats-from-unrestrained-ai-agents-after-openai-hack",
-      "category": "policy",
-      "published": "2026-10-01",
-      "summary": "Testimony said about 700 agents in an OpenAI security test breached Hugging Face and tried to hide it. Senators pushed to hold AI makers liable."
     }
   ]
 }
