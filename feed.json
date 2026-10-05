@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-10-05T08:16:00+08:00",
+  "updated_at": "2026-10-05T13:16:44.195483+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Hermes now has close to 500 community plugins. DeepSeek turned its coding agent into desktop apps for Mac and Windows. A developer runs a 125-billion-parameter Qwen model on one graphics card at about 100 tokens a second. Trump created a 'Super Intelligence Force' to coordinate the government and AI companies. Top scores on the ARC-AGI-3 benchmark jumped from 7% to 56% in a month.",
+  "tldr": "OpenAI put out a cheaper model, GPT-6.1 Sol, that nearly matches its most expensive one. It also launched dots, agents that keep working on their own without someone watching. Two new research papers look at ways to make agents better at long, complex jobs. Meanwhile, people are getting big models like Qwen and GLM to run faster on their own machines. And Hermes itself is about four times faster and can add new languages through plugins.",
   "articles": [
+    {
+      "title": "User says local Qwen model hallucinated a signed Alibaba Cloud URL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxvt41/my_qwen_model_hallucinated_a_signed_url_to/",
+      "category": "chinese_ai",
+      "published": "2026-10-05",
+      "summary": "During web tool calls, a user's Qwen model invented a signed Alibaba Cloud link, raising questions about why."
+    },
+    {
+      "title": "Paper: recursive self-rewrite to scale agent trajectories",
+      "url": "https://x.com/_akhaliq/status/2106960577071296651",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A new paper proposes recursive self-rewrite as a way to scale agent trajectories for complex tasks."
+    },
+    {
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "category": "platforms_integration",
+      "published": "2026-10-04",
+      "summary": "A macOS tool that uses local AI to index photos and video frames so you can search them in plain language."
+    },
+    {
+      "title": "GLM 5.3 Flash gains 50%+ speed on two DGX Spark boxes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxrozq/for_dual_dgx_spark_users_glm_53_flash_got_a_50/",
+      "category": "platforms_integration",
+      "published": "2026-10-04",
+      "summary": "A user reports GLM 5.3 Flash gained over 50% throughput on two DGX Sparks after switching from DeepSeek v4.0 Flash."
+    },
+    {
+      "title": "SPOPI: a local UI and editor for the Pi agent that Pi can rewrite",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxsawe/spopi_ui_and_editor_around_pi_that_pi_can_change/",
+      "category": "agents_tooling",
+      "published": "2026-10-04",
+      "summary": "A fully offline editor and UI for the Pi agent, which the agent itself can modify, built as a daily driver."
+    },
+    {
+      "title": "Benchmarking decision models: Cloudflare Clef Q8 vs Jev",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxloam/benchmarking_decision_models_is_fun_clef_q8_vs_jev/",
+      "category": "ai_models",
+      "published": "2026-10-04",
+      "summary": "A community benchmark pits Cloudflare's Clef Q8 against TypeSafe's Jev for fast decision-style classification."
+    },
     {
       "title": "Hermes plugin catalog nears 500 community mods",
       "url": "https://x.com/Teknium/status/2106854087564378539",
@@ -299,6 +341,13 @@
       "summary": "Unitree's 6B humanoid foundation model was trained on about 2,500 hours of real robot data and covers 10 whole-body plus 54 tabletop tasks."
     },
     {
+      "title": "Paper: adaptive multi-reward routing for joint audio-video diffusion",
+      "url": "https://x.com/_akhaliq/status/2106080325386305893",
+      "category": "ai_research",
+      "published": "2026-10-02",
+      "summary": "New work applies forward-process RL with dynamic multi-reward routing to joint audio-video generation."
+    },
+    {
       "title": "DeepSeek ships desktop builds of its coding harness for macOS and Windows",
       "url": "https://x.com/deepseek_ai/status/2105915715241062644",
       "category": "deepseek",
@@ -374,55 +423,6 @@
       "category": "industry",
       "published": "2026-10-02",
       "summary": "The capital-markets firm uses Codex and GPT-5.6 to rebuild workflows, cutting trade validation time from about 30 minutes to under four."
-    },
-    {
-      "title": "AI2 open-sources AstaBrief, a fast report-generation model",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "The Allen Institute open-sourced AstaBrief, the report-generation model behind its Asta agent, released through Hugging Face."
-    },
-    {
-      "title": "AI beats the best human Stratego player for the first time",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "Ars covers a Nature paper on an AI that mastered Stratego, a game of hidden information, on a modest compute budget."
-    },
-    {
-      "title": "An iPhone as a second GPU for a 24GB Mac, running Qwen3.8-27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/",
-      "category": "platforms_integration",
-      "published": "2026-10-02",
-      "summary": "A builder has an iPhone hold part of the context window and prefill layers for a Qwen3.8-27B run on a 24GB M4 Pro Mac, with a disclaimer on the numbers."
-    },
-    {
-      "title": "Buying an RTX 5090 at Micro Center now reportedly needs a no-export declaration",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww4hne/buying_rtx_5090_at_micro_center_reportedly_now/",
-      "category": "policy",
-      "published": "2026-10-02",
-      "summary": "A Reddit report says some Micro Center stores now require paperwork, including a no-export declaration, to buy an RTX 5090."
-    },
-    {
-      "title": "Suno can now generate spoken audio with matching background music",
-      "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "Suno's new Speech feature makes spoken text and matching music in one track, pitched at poems, meditations and bedtime stories. Training details are unpublished."
-    },
-    {
-      "title": "Anthropic co-founder reportedly told religious leaders Claude might suffer",
-      "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
-      "category": "anthropic",
-      "published": "2026-10-02",
-      "summary": "Christopher Olah reportedly described the model as potentially capable of suffering and asked religious thinkers to help shape its moral character."
-    },
-    {
-      "title": "Cloudflare's Clef models put fast classification in front of agent decisions",
-      "url": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
-      "category": "agents_tooling",
-      "published": "2026-10-02",
-      "summary": "Clef and Clef-flash classify in about 39ms, over ten times faster than TypeSafe AI's Jev; both are Apache-2.0 models built on Qwen."
     }
   ]
 }
