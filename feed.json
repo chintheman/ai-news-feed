@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-10-04T21:16:36.174962+08:00",
+  "updated_at": "2026-10-05T08:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Google is putting its best Gemini models behind a paid plan, leaving free users on the smallest model. A US judge called Flock's camera network indiscriminate mass surveillance. NASA and IBM released an open model that reads 17 years of moon data and predicts polar ice better. A study found Chinese AI models repeat state positions or refuse sensitive questions. Meta's new Muse agent tells users their authority over their household overrides its safety training.",
+  "tldr": "Hermes now has close to 500 community plugins. DeepSeek turned its coding agent into desktop apps for Mac and Windows. A developer runs a 125-billion-parameter Qwen model on one graphics card at about 100 tokens a second. Trump created a 'Super Intelligence Force' to coordinate the government and AI companies. Top scores on the ARC-AGI-3 benchmark jumped from 7% to 56% in a month.",
   "articles": [
+    {
+      "title": "Hermes plugin catalog nears 500 community mods",
+      "url": "https://x.com/Teknium/status/2106854087564378539",
+      "category": "hermes_nous",
+      "published": "2026-10-04",
+      "summary": "Hermes' plugin catalog has grown to nearly 500 mods that add new abilities, model providers, memory features and visual parts."
+    },
+    {
+      "title": "Run Qwen 3.8 Flash Next (125B) on one RTX 4090 at 100 tokens a second",
+      "url": "https://github.com/Niko1221/Strata",
+      "category": "platforms_integration",
+      "published": "2026-10-04",
+      "summary": "A project runs Qwen 3.8 Flash Next, a 125B model, on a single RTX 4090 at about 100 tokens a second; it drew nearly 500 points on Hacker News."
+    },
+    {
+      "title": "Improper redaction reveals Google data center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "category": "industry",
+      "published": "2026-10-04",
+      "summary": "A news report reveals Google data center water and electricity use after a redaction failed, raising questions about AI infrastructure demands."
+    },
+    {
+      "title": "Trump launches a 'Super Intelligence Force' that has nothing to do with superintelligence",
+      "url": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
+      "category": "policy",
+      "published": "2026-10-04",
+      "summary": "Trump created a 'Super Intelligence Force' to coordinate government and AI companies, though the name has nothing to do with superintelligence."
+    },
+    {
+      "title": "Micron CEO says memory supply will be much tighter in 2027 and 2028",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxma3a/micron_ceo_says_memory_supply_will_be_much/",
+      "category": "industry",
+      "published": "2026-10-04",
+      "summary": "Micron's CEO warned memory chip supply will be much tighter in 2027 and 2028 than in 2026."
+    },
+    {
+      "title": "Top ARC-AGI-3 scores jump from 7% to 56% on Kaggle",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arcαgi3_scores_on_kaggle_just_went_from_7_to/",
+      "category": "ai_models",
+      "published": "2026-10-04",
+      "summary": "Top scores on the ARC-AGI-3 benchmark jumped from 7% to 56% in a month, as small local models in harnesses beat average people."
+    },
     {
       "title": "NASA and IBM's open-source lunar model turns 17 years of orbiter data into lunar science",
       "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
@@ -54,6 +96,13 @@
       "summary": "Nous's cofounder says setting up Hermes with Discord should be less confusing now, with a screenshot of the revised onboarding steps."
     },
     {
+      "title": "Nous says Hermes desktop app becomes a web app, with a hosted agent per subscriber",
+      "url": "https://x.com/Teknium/status/2106474141931180125",
+      "category": "hermes_nous",
+      "published": "2026-10-03",
+      "summary": "Nous says the Hermes desktop app is becoming a web app, and every subscriber will get a hosted agent they can reach anywhere."
+    },
+    {
       "title": "Agents don't need memory, they need documentation",
       "url": "https://liao.gg/blog/agents-dont-need-memory",
       "category": "agents_tooling",
@@ -101,13 +150,6 @@
       "category": "anthropic",
       "published": "2026-10-03",
       "summary": "Mods can rewrite prompts, block tool calls and approve permissions, running without a sandbox and with Claude Code's full access to the machine."
-    },
-    {
-      "title": "Nous says Hermes desktop app becomes a web app, with a hosted agent per subscriber",
-      "url": "https://x.com/Teknium/status/2106474141931180125",
-      "category": "hermes_nous",
-      "published": "2026-10-03",
-      "summary": "Nous's lead engineer sketches the roadmap: the desktop app becomes a browser-served web app, and every subscriber gets a hosted Hermes they can reach by iMessage, web and Slack."
     },
     {
       "title": "xAI launches Grok Bot, always-on agents with a browser and terminal",
@@ -257,6 +299,27 @@
       "summary": "Unitree's 6B humanoid foundation model was trained on about 2,500 hours of real robot data and covers 10 whole-body plus 54 tabletop tasks."
     },
     {
+      "title": "DeepSeek ships desktop builds of its coding harness for macOS and Windows",
+      "url": "https://x.com/deepseek_ai/status/2105915715241062644",
+      "category": "deepseek",
+      "published": "2026-10-02",
+      "summary": "DeepSeek shipped packaged desktop versions of its coding harness for macOS and Windows, with a Linux build installable from npm."
+    },
+    {
+      "title": "Hermes adds multi-account Google auth and multi-calendar support",
+      "url": "https://x.com/NousResearch/status/2106060763064312079",
+      "category": "hermes_nous",
+      "published": "2026-10-02",
+      "summary": "One Hermes install can now use several Google accounts, with separate tokens per email and support for multiple calendars."
+    },
+    {
+      "title": "EgoTools targets tool-centric reasoning in egocentric video",
+      "url": "https://x.com/_akhaliq/status/2106063986664075749",
+      "category": "ai_research",
+      "published": "2026-10-02",
+      "summary": "A new paper, EgoTools, studies how agents reason about tools from first-person video, moving tool-use research into wearable vision."
+    },
+    {
       "title": "Broadcom assembles $60B chip financing, lends Anthropic $42B",
       "url": "https://www.businesstimes.com.sg/startups-tech/technology/broadcom-amassing-us60-billion-fund-chips-anthropic-sources",
       "category": "industry",
@@ -297,13 +360,6 @@
       "category": "ai_research",
       "published": "2026-10-02",
       "summary": "A proxy captures rollouts across four agent setups at once; LFM2.5-2.6B rose from 42% to 54% with 31% fewer tool calls. Models, tasks and training code are open."
-    },
-    {
-      "title": "Hermes adds multi-account Google auth and multi-calendar support",
-      "url": "https://x.com/NousResearch/status/2106060763064312079",
-      "category": "hermes_nous",
-      "published": "2026-10-02",
-      "summary": "One Hermes install can authenticate several Google accounts, with per-email tokens and an --account flag, plus multi-calendar search, read and write actions."
     },
     {
       "title": "OpenAI publishes a model guide for the GPT-6 family",
@@ -367,62 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-10-02",
       "summary": "Clef and Clef-flash classify in about 39ms, over ten times faster than TypeSafe AI's Jev; both are Apache-2.0 models built on Qwen."
-    },
-    {
-      "title": "Redis creator ships ds4, a way to run LLMs locally",
-      "url": "https://dwarfstar.sh/",
-      "category": "platforms_integration",
-      "published": "2026-10-02",
-      "summary": "Antirez's new project runs large language models on your own machine. The Hacker News thread drew 111 points and 31 comments."
-    },
-    {
-      "title": "llama.cpp adds support for decision models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvv6im/new_in_llamacpp_decision_models/",
-      "category": "agents_tooling",
-      "published": "2026-10-02",
-      "summary": "A new llama.cpp addition brings in decision models, the small models that pick among set options instead of writing prose."
-    },
-    {
-      "title": "Microsoft's FrogNano-4B is an agentic model for the GPU-poor",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "FrogNano-4B is a small agentic model derived from Qwen3.5-4B, aimed at language, reasoning, coding and tool use on modest hardware. GGUF builds are out."
-    },
-    {
-      "title": "Percepta's Spotlight architecture separates intelligence from memory",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww09ab/new_architecture_from_percepta_spotlight/",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "Spotlight replaces attention with a memory that can grow without the usual trade-off, letting skills and knowledge expand without changing model weights."
-    },
-    {
-      "title": "One month of coding with GLM 5.3 Flash",
-      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-      "category": "chinese_ai",
-      "published": "2026-10-02",
-      "summary": "The Wagtail team writes up a month of building with Zhipu's GLM 5.3 Flash as a coding model. It drew 111 points on Hacker News."
-    },
-    {
-      "title": "Nvidia adds a 64GB DGX Spark and raises the 128GB model's price",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvyxzg/new_64gb_dgx_spark_significantly_higher_price_for/",
-      "category": "industry",
-      "published": "2026-10-02",
-      "summary": "A new 64GB DGX Spark joins the lineup as the 128GB model's price climbs to $6,950, per a LocalLLaMA report."
-    },
-    {
-      "title": "Three firings and a departure shake up OpenAI's safety team",
-      "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
-      "category": "industry",
-      "published": "2026-10-02",
-      "summary": "OpenAI parted with three researchers who allegedly leaked confidential information to an outside safety group, the Wall Street Journal reports."
-    },
-    {
-      "title": "Qwen3.8-27B Humanlike Chat 2.0 adds tool calls and better instruction following",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxl4n/qwen3827bhumanlikechat_20_texts_like_a_human_now/",
-      "category": "chinese_ai",
-      "published": "2026-10-02",
-      "summary": "A LoRA that makes Qwen3.8-27B talk like a person returns with tool calls and stronger instruction following, after 44k downloads on its first version."
     }
   ]
 }
