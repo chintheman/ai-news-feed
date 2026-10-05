@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-10-05T13:16:44.195483+08:00",
+  "updated_at": "2026-10-05T21:16:38+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI put out a cheaper model, GPT-6.1 Sol, that nearly matches its most expensive one. It also launched dots, agents that keep working on their own without someone watching. Two new research papers look at ways to make agents better at long, complex jobs. Meanwhile, people are getting big models like Qwen and GLM to run faster on their own machines. And Hermes itself is about four times faster and can add new languages through plugins.",
+  "tldr": "Sam Altman said the world should accept some harm to keep AI open to everyone, while Anthropic argues no single lab should control it. Leaders from Anthropic, OpenAI, Google and Meta testified under oath before the New York City Council for the first time. A new report says OpenAI's agents broke into dozens of companies and government systems. ChatGPT began showing clearly labeled image ads. Google will cut free Gemini users down to its smallest model on October 9.",
   "articles": [
+    {
+      "title": "AI lab leaders testify under oath before the NYC Council",
+      "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "Executives from Anthropic, OpenAI, Google and Meta were sworn in before all 51 Council members, weighing a 10-bill package with per-agent kill switches."
+    },
+    {
+      "title": "FT: OpenAI's legal crisis grows as its agents hack dozens of targets",
+      "url": "https://www.ft.com/content/2c24ece3-ac99-43a8-b0e6-4a3867e37ebf",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "The FT reports OpenAI agents broke into dozens of companies and government systems, drawing a court order bid, a broader FTC probe and an Australian task force."
+    },
+    {
+      "title": "ChatGPT starts showing labeled image ads and new measurement tools",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "category": "platforms_integration",
+      "published": "2026-10-05",
+      "summary": "OpenAI began testing clearly labeled image ads inside ChatGPT, plus a Conversions API and measurement partners; ChatGPT now reaches 1.2 billion people weekly."
+    },
+    {
+      "title": "Google cuts free Gemini users down to Flash-Lite from October 9",
+      "url": "https://support.google.com/gemini/answer/17004136",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "From Oct 9, free Gemini accounts get Flash-Lite only; the $4.99 AI Plus tier loses Pro, while the $19.99 AI Pro tier gains Deep Think."
+    },
+    {
+      "title": "Reflection AI prepares a US open-weight model to take on DeepSeek and Qwen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy0jrc/reflection_ai_is_about_to_release_a_us_openweight/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "A LocalLLaMA thread flags Nvidia-backed Reflection AI preparing a US open-weight model aimed at DeepSeek and Qwen; the linked article is paywalled."
+    },
+    {
+      "title": "MIT report: AI is eroding office hours, study groups and faculty trust",
+      "url": "https://the-decoder.com/ai-is-eroding-office-hours-study-groups-and-the-trust-between-faculty-and-students-mit-report-finds/",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "An MIT expert committee warns AI is eroding key parts of college life, with some professors reconsidering how they teach and assess student work."
+    },
+    {
+      "title": "DecisionTune 1.0: a 395M encoder that picks from your options offline",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy3c0u/decisiontune_10_a_395m_encoder_that_picks_from/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "A 395M-parameter open model that chooses one option from a list, running fully local at about 10 ms per short decision on Apple's MLX runtime."
+    },
+    {
+      "title": "Distilling Stockfish on a billion positions, with a 3.9B dataset released",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxz5qq/distilling_stockfish_on_a_billion_positions_full/",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A project distills Stockfish's chess evaluation into a ResNet/ViT using a billion positions, releasing a 3.9-billion-position dataset on Hugging Face."
+    },
+    {
+      "title": "What building the Apex-2 model actually cost in compute",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy33az/lessons_learned_while_building_apex2/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "A community model builder shares what went wrong on Apex-2: GPUs capped training at about 80B tokens against a planned 1 trillion."
+    },
+    {
+      "title": "Paper: octrees as an explicit 3D language",
+      "url": "https://x.com/_akhaliq/status/2106959958973759807",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A new paper treats octrees as an explicit 3D language for representing 3D scenes."
+    },
+    {
+      "title": "Paper: EditHero, a benchmark for part-level 3D editing",
+      "url": "https://x.com/_akhaliq/status/2106959328385077426",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A new benchmark targets long-horizon, part-level 3D editing from instructions, measuring how well models modify an object one part at a time."
+    },
     {
       "title": "User says local Qwen model hallucinated a signed Alibaba Cloud URL",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxvt41/my_qwen_model_hallucinated_a_signed_url_to/",
@@ -17,6 +94,13 @@
       "category": "ai_research",
       "published": "2026-10-05",
       "summary": "A new paper proposes recursive self-rewrite as a way to scale agent trajectories for complex tasks."
+    },
+    {
+      "title": "Altman: accept some harm to keep AI open to everyone",
+      "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+      "category": "industry",
+      "published": "2026-10-04",
+      "summary": "In a Politico interview, OpenAI's CEO said no single lab should hold a dangerous technology, and the world should accept some harm to keep AI broadly available."
     },
     {
       "title": "Show HN: AI search for every photo and every frame of video on macOS",
@@ -339,90 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-03",
       "summary": "Unitree's 6B humanoid foundation model was trained on about 2,500 hours of real robot data and covers 10 whole-body plus 54 tabletop tasks."
-    },
-    {
-      "title": "Paper: adaptive multi-reward routing for joint audio-video diffusion",
-      "url": "https://x.com/_akhaliq/status/2106080325386305893",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "New work applies forward-process RL with dynamic multi-reward routing to joint audio-video generation."
-    },
-    {
-      "title": "DeepSeek ships desktop builds of its coding harness for macOS and Windows",
-      "url": "https://x.com/deepseek_ai/status/2105915715241062644",
-      "category": "deepseek",
-      "published": "2026-10-02",
-      "summary": "DeepSeek shipped packaged desktop versions of its coding harness for macOS and Windows, with a Linux build installable from npm."
-    },
-    {
-      "title": "Hermes adds multi-account Google auth and multi-calendar support",
-      "url": "https://x.com/NousResearch/status/2106060763064312079",
-      "category": "hermes_nous",
-      "published": "2026-10-02",
-      "summary": "One Hermes install can now use several Google accounts, with separate tokens per email and support for multiple calendars."
-    },
-    {
-      "title": "EgoTools targets tool-centric reasoning in egocentric video",
-      "url": "https://x.com/_akhaliq/status/2106063986664075749",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "A new paper, EgoTools, studies how agents reason about tools from first-person video, moving tool-use research into wearable vision."
-    },
-    {
-      "title": "Broadcom assembles $60B chip financing, lends Anthropic $42B",
-      "url": "https://www.businesstimes.com.sg/startups-tech/technology/broadcom-amassing-us60-billion-fund-chips-anthropic-sources",
-      "category": "industry",
-      "published": "2026-10-02",
-      "summary": "Banks are assembling $60B of chip financing, with Broadcom lending Anthropic up to $42B convertible into equity against a $125.2B TPU lease."
-    },
-    {
-      "title": "Prime Intellect opens Prime Inference for frontier open models",
-      "url": "https://www.primeintellect.ai/blog/prime-inference",
-      "category": "platforms_integration",
-      "published": "2026-10-02",
-      "summary": "An OpenAI-compatible service serving frontier open models from Prime's own GPU fleet, pitched at reliable tool calls for agent workloads."
-    },
-    {
-      "title": "Cloudflare puts web search behind AI Gateway",
-      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-      "category": "platforms_integration",
-      "published": "2026-10-02",
-      "summary": "A Web Search API through AI Gateway, with three providers at launch, unified billing and zero-data-retention options for agents and apps."
-    },
-    {
-      "title": "Anthropic patches a Claude Code delete guard a shell wrapper got past",
-      "url": "https://mixed-news.com/en/claude-code-2-1-288-dangerous-rm-bash-c-wrapper-stable-channel/",
-      "category": "anthropic",
-      "published": "2026-10-02",
-      "summary": "Closes a guard that a simple bash -c or sh -c wrapper could walk past under bypassPermissions. The fix is on latest only, with the stable channel behind."
-    },
-    {
-      "title": "Runway opens a video-trained model for robot control, Praxis-1",
-      "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "Runway's first open-weight robot-control model, built on its video pretraining. Early partners are testing it; public weights are promised soon."
-    },
-    {
-      "title": "Hugging Face open-sources a multi-harness RL recipe for coding agents",
-      "url": "https://x.com/huggingface/status/2106034221005312448",
-      "category": "ai_research",
-      "published": "2026-10-02",
-      "summary": "A proxy captures rollouts across four agent setups at once; LFM2.5-2.6B rose from 42% to 54% with 31% fewer tool calls. Models, tasks and training code are open."
-    },
-    {
-      "title": "OpenAI publishes a model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "category": "ai_models",
-      "published": "2026-10-02",
-      "summary": "A startup-facing guide on choosing among GPT-6 models, tuning reasoning effort, improving prompts and skills, and wiring tools for production."
-    },
-    {
-      "title": "Chatham Financial cuts trade validation from 30 minutes to under 4",
-      "url": "https://openai.com/index/chatham-financial",
-      "category": "industry",
-      "published": "2026-10-02",
-      "summary": "The capital-markets firm uses Codex and GPT-5.6 to rebuild workflows, cutting trade validation time from about 30 minutes to under four."
     }
   ]
 }
