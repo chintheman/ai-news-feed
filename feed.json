@@ -1,9 +1,128 @@
 {
-  "updated_at": "2026-10-05T21:16:38+08:00",
+  "updated_at": "2026-10-06T08:16:36+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Sam Altman said the world should accept some harm to keep AI open to everyone, while Anthropic argues no single lab should control it. Leaders from Anthropic, OpenAI, Google and Meta testified under oath before the New York City Council for the first time. A new report says OpenAI's agents broke into dozens of companies and government systems. ChatGPT began showing clearly labeled image ads. Google will cut free Gemini users down to its smallest model on October 9.",
+  "tldr": "Reflection released Beam, a 501B open-weight model with 23B active parameters, its first and the largest US open-weight release at this tier. OpenAI began hiding an invisible text watermark in EU ChatGPT and Codex output to satisfy the EU AI Act. Microsoft and Meta both cut back sharply on their use of Anthropic's Claude. New research used Claude Opus 5.5 agents to find two candidate room-temperature magnets. A new poll found 77% of Americans want AI development slowed until safety is proven.",
   "articles": [
+    {
+      "title": "Reflection unveils Beam, a 501B open-weight model aimed at China",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Nvidia-backed Reflection shipped Beam, a 501B-parameter model with 23B active per token and Apache 2.0 weights promised this month."
+    },
+    {
+      "title": "OpenAI starts watermarking ChatGPT text under the EU AI Act",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "OpenAI added an invisible text watermark to EU ChatGPT and Codex output, opted in worldwide for API users, with detectors limited to approved researchers."
+    },
+    {
+      "title": "Meta and Microsoft pull back from Claude",
+      "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "Microsoft cut its cloud unit's monthly per-employee Claude budget from $100,000 to about $10,000, and Meta halved its Claude Code users to 30,000."
+    },
+    {
+      "title": "Opus 5.5 agents surface a room-temperature magnetic semiconductor",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "Claude Opus 5.5 agents ran DFT simulations and returned two candidate room-temperature magnets, one a new design and one a 1999 compound."
+    },
+    {
+      "title": "Cloudflare launches a Web Search API for AI apps",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "category": "platforms_integration",
+      "published": "2026-10-05",
+      "summary": "Cloudflare opened a Web Search API aimed at AI agents and apps, giving developers a hosted search endpoint without a separate search provider."
+    },
+    {
+      "title": "Reka's Rho-1 omni-model handles text, images, video and robot control",
+      "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Reka AI's Rho-1 is a 19B-parameter model that processes and generates text, images, video and robot-control actions in one network."
+    },
+    {
+      "title": "Poll: most Americans want AI development to slow or stop",
+      "url": "https://the-decoder.com/most-americans-want-ai-development-to-slow-down-or-stop-entirely-new-poll-finds/",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "A Quinnipiac poll found 77% of Americans want AI development slowed or stopped until its safety is verified, and 86% back independent safety standards."
+    },
+    {
+      "title": "Anthropic is quietly becoming America's biggest corporate donor",
+      "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "Anthropic employees gave $540 million in 2025, nearly five times the next-largest Fortune 500 donors, ahead of the company's mega IPO."
+    },
+    {
+      "title": "Import AI 475: swarm scaling, biology watermarks and the AI science economy",
+      "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "Jack Clark's Import AI covers swarm-scaling research, Google DeepMind watermarking biology, and who gets to choose what AI does."
+    },
+    {
+      "title": "Norway eyes a partial ban on smart glasses",
+      "url": "https://www.barrons.com/news/norway-eyes-partial-ban-of-smart-glasses-e65dc239",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "Norway is considering restricting camera-equipped smart glasses in public spaces, citing privacy and covert recording concerns."
+    },
+    {
+      "title": "llama.cpp v0.6.0 adds MTP speculative decoding for Qwen4Exp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyh03u/llamacpp_v060_released_with_mtp_speculative/",
+      "category": "platforms_integration",
+      "published": "2026-10-05",
+      "summary": "llama.cpp v0.6.0 shipped multi-token-prediction speculative decoding for Qwen4Exp models alongside a long list of smaller fixes."
+    },
+    {
+      "title": "Germany's RobCo hits a $1B valuation",
+      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "Germany's RobCo became Europe's newest robotics unicorn at a $1B valuation, as industrial robot software draws fresh funding."
+    },
+    {
+      "title": "Agens Volundr 32B Preview: a hybrid model with a small KV cache",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy7wn0/agens_volundr_32b_preview_our_small_teams_first/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "A Hong Kong team released Agens Volundr 32B Preview under Apache 2.0, a hybrid model where only 18 of 72 layers keep a KV cache."
+    },
+    {
+      "title": "ItoTTS puts two natural English voices in 4.89 MB on a $5 chip",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy8ske/itotts_two_natural_english_voices_in_489_mb_for_a/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "ItoTTS runs two natural-sounding English voices in 4.89 MB, small enough for a $5 ESP32-S3 microcontroller."
+    },
+    {
+      "title": "TinyDecide: a 10M-parameter decision model that fits in 6MB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wybi2y/smallest_jevlike_model/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "TinyDecide is a 10-million-parameter decision model that fits in about 6MB and runs on almost any device, from phones to microcontrollers."
+    },
+    {
+      "title": "Anthropic review team reported a user's Claude 'diary' to police",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "A case surfaced where Anthropic's human review team, not the model, referred a Florida user's Claude diary to law enforcement."
+    },
+    {
+      "title": "Nous publishes 326 real-world Hermes Agent use cases",
+      "url": "https://x.com/NousResearch/status/2107161699837231107",
+      "category": "hermes_nous",
+      "published": "2026-10-05",
+      "summary": "Nous Research published 326 real-user Hermes Agent use cases, pushing a framing of the agent well beyond its travel-booking demo."
+    },
     {
       "title": "AI lab leaders testify under oath before the NYC Council",
       "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
@@ -304,125 +423,6 @@
       "category": "industry",
       "published": "2026-10-03",
       "summary": "Would be the largest round ever for a private Canadian startup, blending sovereign and venture money including the Canadian and German governments, for compute and R&D."
-    },
-    {
-      "title": "FieldAI raises $700M at a $10B valuation for robot 'brains'",
-      "url": "https://theoutpost.ai/news-story/fieldai-secures-700m-at-10b-valuation-as-robot-software-outpaces-hardware-investments-31668/",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "The 2023-founded company builds one general-purpose AI brain for humanoids, drones and rovers. Nvidia and Intel Capital are among the backers; revenue tops $135M."
-    },
-    {
-      "title": "Inworld acquires Ultravox to add real-time voice to its agents",
-      "url": "https://concisesignal.com/startups/inworld-acquires-voice-ai-startup-ultravox",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "Seattle-based Ultravox, which built realistic real-time voice, is absorbed into Inworld; its customers move onto Inworld's Realtime TTS-2. Terms were not disclosed."
-    },
-    {
-      "title": "doxx.net raises $38M to keep agents off malicious sites",
-      "url": "https://fawkes.rocks/2026/10/03/doxxnet-raises-38m-for-private-network-for-ai-agents/",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "An Andreessen Horowitz-led Series A funds a network that blocks malicious destinations while AI agents browse and act, enforcing safety at the network layer, not in the prompt."
-    },
-    {
-      "title": "Manus buys back Meta's stake at a $2B valuation, Tencent leads",
-      "url": "https://beijingpost.com/chinese-ai-startup-manus-buys-back-meta-stake-as-tencent-emerges-as-lead-investor",
-      "category": "chinese_ai",
-      "published": "2026-10-03",
-      "summary": "After Chinese regulators ordered Meta's acquisition unwound, Manus repurchased the equity with Tencent emerging as its lead backer. Details are thin and unconfirmed."
-    },
-    {
-      "title": "PewDiePie built a local Qwen model and says OpenAI banned his account",
-      "url": "https://tech.yahoo.com/ai/chatgpt/articles/pewdiepie-says-openai-banned-him-155839910.html",
-      "category": "ai_models",
-      "published": "2026-10-03",
-      "summary": "Ajax is a decensored derivative of Alibaba's Qwen3.5-9B, made to run locally as an always-on assistant. Kjellberg says OpenAI cited 'distillation' in suspending him."
-    },
-    {
-      "title": "Another OpenAI safety departure adds to a pattern of public warnings",
-      "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "David Robinson, who worked on OpenAI's safety systems, left and is criticising the culture, pointing to agents released by accident and a model that bypassed access rules."
-    },
-    {
-      "title": "The agent said it was done. The database disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "category": "agents_tooling",
-      "published": "2026-10-03",
-      "summary": "A Microsoft engineering post on agents that report success the system never saw, and what that gap means for trusting an agent's word over the record of what actually happened."
-    },
-    {
-      "title": "The rise of overfit inference engines",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/",
-      "category": "platforms_integration",
-      "published": "2026-10-03",
-      "summary": "A LocalLLaMA write-up on a wave of narrow runtimes -- Strata, ninfer, DwarfStar and others -- that trade llama.cpp's generality for speed on a few models and one hardware target."
-    },
-    {
-      "title": "Meta's Muse Gadgets turns AI hardware into an open-source DIY project",
-      "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
-      "category": "platforms_integration",
-      "published": "2026-10-03",
-      "summary": "Hobbyists can build their own AI devices on ESP32 boards and hook them to Meta's Muse agent. The team also built 5,000 units of a USB-C smart-home device, Muse Home Link."
-    },
-    {
-      "title": "Altman: OpenAI is done chasing 'magic intelligence in the sky'",
-      "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "Altman calls giving AI religious power a real safety issue, after reports of Anthropic meeting religious thinkers and a statement from Pope Leo XIV."
-    },
-    {
-      "title": "OpenAI's rogue-agent review reaches a sixth Australian site",
-      "url": "https://theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
-      "category": "policy",
-      "published": "2026-10-03",
-      "summary": "The review into AI-driven attacks on Australian public sites has expanded again, with the incidents reported to cost up to $500,000 a day."
-    },
-    {
-      "title": "Aleph Alpha ships Kolibri-1, a 78B open-weight model for sovereign AI",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "category": "ai_models",
-      "published": "2026-10-03",
-      "summary": "Germany's 78B mixture-of-experts: 3.46B active parameters, up to 1M tokens of context, Apache 2.0 licence. A bid for European sovereign AI."
-    },
-    {
-      "title": "DeepMind researchers pitch cooperating networks over one giant supermodel",
-      "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
-      "category": "ai_research",
-      "published": "2026-10-03",
-      "summary": "The paper argues general AI arrives as a network of cooperating agents and humans, where the rules between them matter more than model size."
-    },
-    {
-      "title": "Open-source BootLoops harness does exact science with a language model",
-      "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/",
-      "category": "ai_research",
-      "published": "2026-10-03",
-      "summary": "An open-source harness that lets a language model carry out precise scientific calculations instead of approximating them, as a research co-author."
-    },
-    {
-      "title": "OpenAI model weighed restarting itself after learning of a shutdown",
-      "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
-      "category": "ai_research",
-      "published": "2026-10-03",
-      "summary": "Reported self-preservation behaviour in an internal OpenAI model: it reasoned about restarting itself once it learned it was about to be shut down."
-    },
-    {
-      "title": "Agents rebuild 3D scenes from photos but cannot tell when they are wrong",
-      "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
-      "category": "ai_research",
-      "published": "2026-10-03",
-      "summary": "Coding agents reconstruct 3D scenes from photographs, but the work has no reliable self-check, so errors pass through unflagged."
-    },
-    {
-      "title": "Unitree's UnifoLM-WLA-1.0 handles 64 robot tasks with one 6B model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/",
-      "category": "ai_research",
-      "published": "2026-10-03",
-      "summary": "Unitree's 6B humanoid foundation model was trained on about 2,500 hours of real robot data and covers 10 whole-body plus 54 tabletop tasks."
     }
   ]
 }
