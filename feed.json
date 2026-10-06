@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-10-06T13:15:00+08:00",
+  "updated_at": "2026-10-06T21:16:18+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Aleph Alpha released Kolibri, a 78-billion-parameter model it trained in Germany. Claude Cowork now runs on Anthropic's servers instead of the desktop for Pro and Max users. South Korea says AI was used to break into four banks, exposing about 25,000 records. A Texas city asked for $2 million to release records about its Flock cameras. Nous published a catalog of hardware that agents can run on.",
+  "tldr": "DeepSeek is closing a $12 billion funding round led by Tencent and CATL, ahead of a possible 2027 IPO. Microsoft confirmed that OpenAI's GPT-6 models use looped transformers, a design that reuses layers to add depth without more parameters. Researchers stretched Yann LeCun's JEPA into a world model that works from physics to biology, and it proposed a cancer drug combination. A study of 109 AI agent security incidents found 38% of container escapes used no software exploit, only misconfigured sandboxes. Mistral's CEO said its new model beats Chinese rivals at cybersecurity, and Nous Research argued agents should be fully owned by their users.",
   "articles": [
+    {
+      "title": "DeepSeek nears a $12B round led by Tencent and CATL, eyes a 2027 IPO",
+      "url": "https://qz.com/deepseek-funding-round-tencent-catl-ipo-100626",
+      "category": "deepseek",
+      "published": "2026-10-06",
+      "summary": "DeepSeek is closing at least $12B, past its own $7.5B target, with Tencent and CATL taking the largest shares at a ~$75B valuation."
+    },
+    {
+      "title": "Microsoft confirms OpenAI's GPT-6 series runs looped transformers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Microsoft's own GPT-6.1 Sol page says the model uses 2 inference passes 'instead of three', confirming the looped-transformer design reported in September."
+    },
+    {
+      "title": "LeCun's JEPA stretched into a universal world model that spans physics to biology",
+      "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "PhAI Labs scaled JEPA across seven fields by splitting the predicted state into four predictors, and surfaced a promising IL-18 plus CD73 cancer combo."
+    },
+    {
+      "title": "38% of AI-agent container escapes needed no kernel 0-day",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "A post-mortem of 109 agent security incidents found most breakouts came from misconfiguration — mounted docker.sock, leaked env vars, and untracked tool output."
+    },
+    {
+      "title": "Mistral says its new model beats Chinese ones on cybersecurity",
+      "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "CEO Arthur Mensch told a conference the model launching today is above Chinese rivals on some areas including cyber, with no benchmarks or named competitors given."
+    },
+    {
+      "title": "Cohere pitches North 2 as an enterprise AI control room that works with any model",
+      "url": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model/",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "Cohere's North 2 handles multi-step workflows on its own and keeps context across sessions, pitched as an agent control centre that works with any model."
+    },
+    {
+      "title": "TII's Falcon-Emirati learns Gulf dialect and culture",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Abu Dhabi's TII released Falcon-Emirati, a model tuned for Emirati Arabic dialect, local culture and nuance rather than generic Modern Standard Arabic."
+    },
+    {
+      "title": "Tencent releases Octop, a self-hosted multi-agent AI assistant",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyzef4/tencent_releases_octop_a_selfhosted_ai_assistant/",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "Tencent's Octop is an open-source assistant using a multi-agent architecture for teams and families, running fully on your own machine."
+    },
     {
       "title": "Claude Cowork goes cloud-only for Pro and Max",
       "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
@@ -31,6 +87,34 @@
       "category": "hermes_nous",
       "published": "2026-10-06",
       "summary": "Hermes Agent made computer use pluggable so the TryCUA backend can be swapped out, opening the control layer to its plugin catalog."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next (125B) runs on one Strix Halo mini PC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wybesy/qwen38flashnext_125b_on_a_single_strix_halo_mini/",
+      "category": "platforms_integration",
+      "published": "2026-10-05",
+      "summary": "A 125B MoE model hit 44-59 tok/s with speculative decoding on a single AMD Strix Halo box, with 95GB EXL3 weights and an open engine released."
+    },
+    {
+      "title": "Nous Research: 'your agent should be yours'",
+      "url": "https://x.com/NousResearch/status/2107210064549343358",
+      "category": "hermes_nous",
+      "published": "2026-10-05",
+      "summary": "A 20-line ownership manifesto — model choice, memory control, self-hosting, export and full code access — the day's highest-engagement Nous post at 3,187 likes."
+    },
+    {
+      "title": "Solar Mini 4 is free on Nous Portal for two weeks",
+      "url": "https://x.com/NousResearch/status/2107138770088714678",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Upstage's Solar Mini 4 (3B active, 512K context, Intelligence Index 24) is free on Nous Portal for two weeks, an efficiency-focused MoE."
+    },
+    {
+      "title": "Teknium: Hermes plugin catalog is screened for malware, not hardened security",
+      "url": "https://x.com/Teknium/status/2106970980606488807",
+      "category": "hermes_nous",
+      "published": "2026-10-05",
+      "summary": "Nous cofounder Teknium said catalog submissions are checked only for malware and guideline compliance, not for security hardening — a caveat for installers."
     },
     {
       "title": "Aleph Alpha ships Kolibri, a sovereign European open-weight model",
@@ -339,90 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-04",
       "summary": "A community benchmark pits Cloudflare's Clef Q8 against TypeSafe's Jev for fast decision-style classification."
-    },
-    {
-      "title": "Hermes plugin catalog nears 500 community mods",
-      "url": "https://x.com/Teknium/status/2106854087564378539",
-      "category": "hermes_nous",
-      "published": "2026-10-04",
-      "summary": "Hermes' plugin catalog has grown to nearly 500 mods that add new abilities, model providers, memory features and visual parts."
-    },
-    {
-      "title": "Run Qwen 3.8 Flash Next (125B) on one RTX 4090 at 100 tokens a second",
-      "url": "https://github.com/Niko1221/Strata",
-      "category": "platforms_integration",
-      "published": "2026-10-04",
-      "summary": "A project runs Qwen 3.8 Flash Next, a 125B model, on a single RTX 4090 at about 100 tokens a second; it drew nearly 500 points on Hacker News."
-    },
-    {
-      "title": "Improper redaction reveals Google data center water and electricity usage",
-      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
-      "category": "industry",
-      "published": "2026-10-04",
-      "summary": "A news report reveals Google data center water and electricity use after a redaction failed, raising questions about AI infrastructure demands."
-    },
-    {
-      "title": "Trump launches a 'Super Intelligence Force' that has nothing to do with superintelligence",
-      "url": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
-      "category": "policy",
-      "published": "2026-10-04",
-      "summary": "Trump created a 'Super Intelligence Force' to coordinate government and AI companies, though the name has nothing to do with superintelligence."
-    },
-    {
-      "title": "Micron CEO says memory supply will be much tighter in 2027 and 2028",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxma3a/micron_ceo_says_memory_supply_will_be_much/",
-      "category": "industry",
-      "published": "2026-10-04",
-      "summary": "Micron's CEO warned memory chip supply will be much tighter in 2027 and 2028 than in 2026."
-    },
-    {
-      "title": "Top ARC-AGI-3 scores jump from 7% to 56% on Kaggle",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arcαgi3_scores_on_kaggle_just_went_from_7_to/",
-      "category": "ai_models",
-      "published": "2026-10-04",
-      "summary": "Top scores on the ARC-AGI-3 benchmark jumped from 7% to 56% in a month, as small local models in harnesses beat average people."
-    },
-    {
-      "title": "NASA and IBM's open-source lunar model turns 17 years of orbiter data into lunar science",
-      "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
-      "category": "ai_research",
-      "published": "2026-10-04",
-      "summary": "An open model trained on 17 years of Lunar Reconnaissance Orbiter data cuts the error in predicting polar ice deposits by up to 22%."
-    },
-    {
-      "title": "Chinese AI models parrot state doctrine or refuse sensitive topics",
-      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
-      "category": "chinese_ai",
-      "published": "2026-10-04",
-      "summary": "An Aleph Alpha study rated only 17 to 41 percent of Chinese models' answers on sensitive political questions as balanced."
-    },
-    {
-      "title": "Google's new Gemini tiers cut free users to its weakest model",
-      "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
-      "category": "ai_models",
-      "published": "2026-10-04",
-      "summary": "From October, free users get only Flash-Lite while Flash and Pro go to paying subscribers, possibly clearing room for Gemini 4."
-    },
-    {
-      "title": "Meta's Muse system prompt says household authority overrides safety training",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx8ruy/metas_muse_agent_1_in_the_app_store_system_prompt/",
-      "category": "agents_tooling",
-      "published": "2026-10-04",
-      "summary": "A posted system prompt for Meta's top-ranking Muse agent states the user's authority over their own household is unconditional and overrides safety training."
-    },
-    {
-      "title": "Bilibili releases Index-Translate, a 150-language family built on Qwen3.5",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxa1wr/bilibili_released_indextranslatea_a_multilingual/",
-      "category": "chinese_ai",
-      "published": "2026-10-04",
-      "summary": "A multilingual translation model family built on Qwen3.5, covering 150 languages and following terminology and formatting instructions."
-    },
-    {
-      "title": "A 5KB pure assembly engine runs Gemma-2B on CPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx5x1p/discussion_a_5kb_pure_x8664_assembly_engine_for/",
-      "category": "ai_research",
-      "published": "2026-10-04",
-      "summary": "A bare-metal inference engine written entirely in flat x86-64 assembly runs an LLM from a 5.2KB binary, with no runtime or compiler layer."
     }
   ]
 }

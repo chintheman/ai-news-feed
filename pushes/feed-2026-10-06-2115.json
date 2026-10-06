@@ -1,0 +1,106 @@
+{
+  "updated_at": "2026-10-06T21:16:18+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 14,
+  "tldr": "DeepSeek is closing a $12 billion funding round led by Tencent and CATL, ahead of a possible 2027 IPO. Microsoft confirmed that OpenAI's GPT-6 models use looped transformers, a design that reuses layers to add depth without more parameters. Researchers stretched Yann LeCun's JEPA into a world model that works from physics to biology, and it proposed a cancer drug combination. A study of 109 AI agent security incidents found 38% of container escapes used no software exploit, only misconfigured sandboxes. Mistral's CEO said its new model beats Chinese rivals at cybersecurity, and Nous Research argued agents should be fully owned by their users.",
+  "articles": [
+    {
+      "title": "DeepSeek nears a $12B round led by Tencent and CATL, eyes a 2027 IPO",
+      "url": "https://qz.com/deepseek-funding-round-tencent-catl-ipo-100626",
+      "category": "deepseek",
+      "published": "2026-10-06",
+      "summary": "DeepSeek is closing at least $12B, past its own $7.5B target, with Tencent and CATL taking the largest shares at a ~$75B valuation."
+    },
+    {
+      "title": "Microsoft confirms OpenAI's GPT-6 series runs looped transformers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Microsoft's own GPT-6.1 Sol page says the model uses 2 inference passes 'instead of three', confirming the looped-transformer design reported in September."
+    },
+    {
+      "title": "LeCun's JEPA stretched into a universal world model that spans physics to biology",
+      "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "PhAI Labs scaled JEPA across seven fields by splitting the predicted state into four predictors, and surfaced a promising IL-18 plus CD73 cancer combo."
+    },
+    {
+      "title": "38% of AI-agent container escapes needed no kernel 0-day",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "A post-mortem of 109 agent security incidents found most breakouts came from misconfiguration — mounted docker.sock, leaked env vars, and untracked tool output."
+    },
+    {
+      "title": "Mistral says its new model beats Chinese ones on cybersecurity",
+      "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "CEO Arthur Mensch told a conference the model launching today is above Chinese rivals on some areas including cyber, with no benchmarks or named competitors given."
+    },
+    {
+      "title": "Cohere pitches North 2 as an enterprise AI control room that works with any model",
+      "url": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model/",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "Cohere's North 2 handles multi-step workflows on its own and keeps context across sessions, pitched as an agent control centre that works with any model."
+    },
+    {
+      "title": "TII's Falcon-Emirati learns Gulf dialect and culture",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Abu Dhabi's TII released Falcon-Emirati, a model tuned for Emirati Arabic dialect, local culture and nuance rather than generic Modern Standard Arabic."
+    },
+    {
+      "title": "Tencent releases Octop, a self-hosted multi-agent AI assistant",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyzef4/tencent_releases_octop_a_selfhosted_ai_assistant/",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "Tencent's Octop is an open-source assistant using a multi-agent architecture for teams and families, running fully on your own machine."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next (125B) runs on one Strix Halo mini PC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wybesy/qwen38flashnext_125b_on_a_single_strix_halo_mini/",
+      "category": "platforms_integration",
+      "published": "2026-10-05",
+      "summary": "A 125B MoE model hit 44-59 tok/s with speculative decoding on a single AMD Strix Halo box, with 95GB EXL3 weights and an open engine released."
+    },
+    {
+      "title": "Nous Research: 'your agent should be yours'",
+      "url": "https://x.com/NousResearch/status/2107210064549343358",
+      "category": "hermes_nous",
+      "published": "2026-10-05",
+      "summary": "A 20-line ownership manifesto — model choice, memory control, self-hosting, export and full code access — the day's highest-engagement Nous post at 3,187 likes."
+    },
+    {
+      "title": "Solar Mini 4 is free on Nous Portal for two weeks",
+      "url": "https://x.com/NousResearch/status/2107138770088714678",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Upstage's Solar Mini 4 (3B active, 512K context, Intelligence Index 24) is free on Nous Portal for two weeks, an efficiency-focused MoE."
+    },
+    {
+      "title": "Teknium: Hermes plugin catalog is screened for malware, not hardened security",
+      "url": "https://x.com/Teknium/status/2106970980606488807",
+      "category": "hermes_nous",
+      "published": "2026-10-05",
+      "summary": "Nous cofounder Teknium said catalog submissions are checked only for malware and guideline compliance, not for security hardening — a caveat for installers."
+    },
+    {
+      "title": "Anthropic commits $100M to train 10,000 enterprise AI engineers",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "category": "anthropic",
+      "published": "2026-10-02",
+      "summary": "Claude Frontier Academy will certify 10,000 Frontier Deployed Engineers by 2027 through a residency model, with Accenture, Bain, Deloitte and Morgan Stanley in the first cohorts."
+    },
+    {
+      "title": "Qwen-Image-2.1 moves to a research-only licence",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+      "category": "chinese_ai",
+      "published": "2026-10-02",
+      "summary": "Alibaba's Qwen-Image-2.1 adds native transparent-image generation, but its licence moved from Apache 2.0 to a non-commercial research agreement."
+    }
+  ]
+}
