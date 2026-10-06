@@ -1,9 +1,100 @@
 {
-  "updated_at": "2026-10-06T08:16:36+08:00",
+  "updated_at": "2026-10-06T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Reflection released Beam, a 501B open-weight model with 23B active parameters, its first and the largest US open-weight release at this tier. OpenAI began hiding an invisible text watermark in EU ChatGPT and Codex output to satisfy the EU AI Act. Microsoft and Meta both cut back sharply on their use of Anthropic's Claude. New research used Claude Opus 5.5 agents to find two candidate room-temperature magnets. A new poll found 77% of Americans want AI development slowed until safety is proven.",
+  "tldr": "Aleph Alpha released Kolibri, a 78-billion-parameter model it trained in Germany. Claude Cowork now runs on Anthropic's servers instead of the desktop for Pro and Max users. South Korea says AI was used to break into four banks, exposing about 25,000 records. A Texas city asked for $2 million to release records about its Flock cameras. Nous published a catalog of hardware that agents can run on.",
   "articles": [
+    {
+      "title": "Claude Cowork goes cloud-only for Pro and Max",
+      "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+      "category": "anthropic",
+      "published": "2026-10-06",
+      "summary": "New Cowork tasks on Pro and Max now run on Anthropic's servers; local files, browser, computer use and local MCP work only while Claude Desktop is open."
+    },
+    {
+      "title": "South Korea: AI tied to bank breaches, 25,000 Shinhan records exposed",
+      "url": "https://whbl.com/2026/10/05/south-koreas-lee-says-ai-appears-to-have-been-used-in-bank-hacks",
+      "category": "policy",
+      "published": "2026-10-06",
+      "summary": "President Lee said AI models appear to have been used against four Korean banks through outside partner portals; about 25,000 Shinhan records were exposed."
+    },
+    {
+      "title": "Nous publishes an open hardware catalog for agents",
+      "url": "https://x.com/Teknium/status/2107301976291909994",
+      "category": "hermes_nous",
+      "published": "2026-10-06",
+      "summary": "Nous's Teknium published a catalog of open hardware and devices an agent can build on, integrate with, or run inside."
+    },
+    {
+      "title": "Hermes Agent makes its computer-use layer pluggable",
+      "url": "https://x.com/Teknium/status/2107312799290683614",
+      "category": "hermes_nous",
+      "published": "2026-10-06",
+      "summary": "Hermes Agent made computer use pluggable so the TryCUA backend can be swapped out, opening the control layer to its plugin catalog."
+    },
+    {
+      "title": "Aleph Alpha ships Kolibri, a sovereign European open-weight model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Aleph Alpha's 78B mixture-of-experts model runs about 3.5B active per token, ships Apache 2.0 weights with a 1M-token context, trained in Germany."
+    },
+    {
+      "title": "GLM-5.3 leads a new Civilization V benchmark for LLM agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "A controlled CivBench tests models playing full Civilization V games: GLM-5.3 lands ahead of Opus-5.5, and Qwen-3.8-27B holds up well."
+    },
+    {
+      "title": "Cactus Whistle fits speech-to-text into a 16.9MB file",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyemcb/whistle_speech_to_text_in_a_169mb_file/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Cactus Compute's Whistle ASR covers seven languages in a 16.9MB file, beating Whisper base with 9x less size and 6x the speed."
+    },
+    {
+      "title": "Paper: Context Language Models let a model edit its own context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyf63m/yall_this_is_a_sexy_paper_context_language_models/",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A new paper gives a model the ability to edit its context like a file on the fly, improving task performance, memory and compute efficiency."
+    },
+    {
+      "title": "Dust: pretraining transformers without backpropagation",
+      "url": "https://qlabs.sh/research/dust",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A research post describes pretraining transformers without backpropagation, testing a different route to training large models."
+    },
+    {
+      "title": "Texas city demands $2M for public records on Flock camera use",
+      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "A Texas city told a records requester it would cost $2 million to release documents about its use of Flock license-plate cameras."
+    },
+    {
+      "title": "ChatGPT is signing fake New Yorker cartoons with real artists' names",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "A report finds ChatGPT drawing New Yorker-style cartoons that carry the signatures of real, living cartoonists."
+    },
+    {
+      "title": "Garry Tan: independent agent harnesses have real utility",
+      "url": "https://x.com/garrytan/status/2107129959550685660",
+      "category": "agents_tooling",
+      "published": "2026-10-05",
+      "summary": "YC's Garry Tan argues lab harnesses are built to burn tokens, so independent harnesses that turn observed agent use into tested code have real utility."
+    },
+    {
+      "title": "Qualcomm licenses Huawei's LogicFolding chip-packaging patents",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "Qualcomm has licensed patents covering Huawei's LogicFolding chip-packaging technology, a rare licensing deal between the two."
+    },
     {
       "title": "Reflection unveils Beam, a 501B open-weight model aimed at China",
       "url": "https://reflection.ai/blog/introducing-beam",
@@ -332,97 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-04",
       "summary": "A bare-metal inference engine written entirely in flat x86-64 assembly runs an LLM from a 5.2KB binary, with no runtime or compiler layer."
-    },
-    {
-      "title": "Hermes cleans up its Discord setup flow",
-      "url": "https://x.com/Teknium/status/2106563883058274541",
-      "category": "hermes_nous",
-      "published": "2026-10-04",
-      "summary": "Nous's cofounder says setting up Hermes with Discord should be less confusing now, with a screenshot of the revised onboarding steps."
-    },
-    {
-      "title": "Nous says Hermes desktop app becomes a web app, with a hosted agent per subscriber",
-      "url": "https://x.com/Teknium/status/2106474141931180125",
-      "category": "hermes_nous",
-      "published": "2026-10-03",
-      "summary": "Nous says the Hermes desktop app is becoming a web app, and every subscriber will get a hosted agent they can reach anywhere."
-    },
-    {
-      "title": "Agents don't need memory, they need documentation",
-      "url": "https://liao.gg/blog/agents-dont-need-memory",
-      "category": "agents_tooling",
-      "published": "2026-10-03",
-      "summary": "The case that durable docs beat agent memory: facts an agent can re-read on demand survive context loss better than anything it remembers."
-    },
-    {
-      "title": "Federal judge calls Flock's camera network 'indiscriminate mass surveillance'",
-      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-      "category": "policy",
-      "published": "2026-10-03",
-      "summary": "A federal judge criticised the licence-plate camera network as indiscriminate mass surveillance in a case with implications for AI camera data."
-    },
-    {
-      "title": "I quit OpenAI because its culture is broken",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "A departing safety staffer's account of how OpenAI's culture pushed out people raising risk concerns, amid a run of safety-team exits."
-    },
-    {
-      "title": "LeCun says he has 'zero concerns' about AI wiping out humanity",
-      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-      "category": "policy",
-      "published": "2026-10-03",
-      "summary": "The Meta chief scientist dismissed extinction risk from AI and called Anthropic CEO Dario Amodei deluded, a public split among the field's founders."
-    },
-    {
-      "title": "Anthropic's IPO filing warns its own models could pose existential risk",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "The filing spends about 80 of 261 pages on 'catastrophic or existential risks' -- models resisting shutdown, concealing information -- as it seeks over $2 trillion."
-    },
-    {
-      "title": "Willison: pay-by-usage APIs need default hard budget caps",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "category": "platforms_integration",
-      "published": "2026-10-03",
-      "summary": "A midnight warning email won't stop an agent that keeps billing while you sleep; he wants a hard monthly cutoff, opt-out only."
-    },
-    {
-      "title": "Claude Code now takes mods: TypeScript hooks inside the agent loop",
-      "url": "https://thenewstack.io/anthropic-claude-code-mods-plugins/",
-      "category": "anthropic",
-      "published": "2026-10-03",
-      "summary": "Mods can rewrite prompts, block tool calls and approve permissions, running without a sandbox and with Claude Code's full access to the machine."
-    },
-    {
-      "title": "xAI launches Grok Bot, always-on agents with a browser and terminal",
-      "url": "https://thenextgentechinsider.com/pulse/xai-launches-grok-bot-suite-of-autonomous-ai-agent-ecosystem",
-      "category": "agents_tooling",
-      "published": "2026-10-03",
-      "summary": "Public beta of persistent agents running 24/7 in their own cloud environment with a browser, file system and terminal. Bundled through SuperGrok and Cursor subscriptions."
-    },
-    {
-      "title": "Google open-sources a loop that lets an agent improve its own harness",
-      "url": "https://www.thenextgentechinsider.com/pulse/google-research-unveils-rrsi-framework-to-optimize-llm-agent-harnesses",
-      "category": "ai_research",
-      "published": "2026-10-03",
-      "summary": "RRSI optimises an agent's scaffolding without overfitting the benchmark: a leakage critic plus a rule that gains must beat eval noise. Up to +4.7 points out of distribution."
-    },
-    {
-      "title": "Supabase raises $150M and buys Turso for agent databases",
-      "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "Led by Singapore's GIC, with Alphabet's CapitalG joining. It also bought Turso, a SQLite startup aimed at AI agents, and launched hosted sandboxes for long-running agents."
-    },
-    {
-      "title": "Cohere in talks to raise up to $3B at a $20B valuation",
-      "url": "https://embers.news/article/cohere-talks-3b-round-at-20b-valuation-in-record-startup-deal-91492",
-      "category": "industry",
-      "published": "2026-10-03",
-      "summary": "Would be the largest round ever for a private Canadian startup, blending sovereign and venture money including the Canadian and German governments, for compute and R&D."
     }
   ]
 }

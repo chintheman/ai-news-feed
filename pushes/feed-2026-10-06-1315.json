@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-10-06T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 13,
+  "tldr": "Aleph Alpha released Kolibri, a 78-billion-parameter model it trained in Germany. Claude Cowork now runs on Anthropic's servers instead of the desktop for Pro and Max users. South Korea says AI was used to break into four banks, exposing about 25,000 records. A Texas city asked for $2 million to release records about its Flock cameras. Nous published a catalog of hardware that agents can run on.",
+  "articles": [
+    {
+      "title": "Aleph Alpha ships Kolibri, a sovereign European open-weight model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Aleph Alpha's 78B mixture-of-experts model runs about 3.5B active per token, ships Apache 2.0 weights with a 1M-token context, trained in Germany."
+    },
+    {
+      "title": "GLM-5.3 leads a new Civilization V benchmark for LLM agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "A controlled CivBench tests models playing full Civilization V games: GLM-5.3 lands ahead of Opus-5.5, and Qwen-3.8-27B holds up well."
+    },
+    {
+      "title": "Cactus Whistle fits speech-to-text into a 16.9MB file",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyemcb/whistle_speech_to_text_in_a_169mb_file/",
+      "category": "ai_models",
+      "published": "2026-10-05",
+      "summary": "Cactus Compute's Whistle ASR covers seven languages in a 16.9MB file, beating Whisper base with 9x less size and 6x the speed."
+    },
+    {
+      "title": "Paper: Context Language Models let a model edit its own context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyf63m/yall_this_is_a_sexy_paper_context_language_models/",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A new paper gives a model the ability to edit its context like a file on the fly, improving task performance, memory and compute efficiency."
+    },
+    {
+      "title": "Dust: pretraining transformers without backpropagation",
+      "url": "https://qlabs.sh/research/dust",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A research post describes pretraining transformers without backpropagation, testing a different route to training large models."
+    },
+    {
+      "title": "Claude Cowork goes cloud-only for Pro and Max",
+      "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+      "category": "anthropic",
+      "published": "2026-10-06",
+      "summary": "New Cowork tasks on Pro and Max now run on Anthropic's servers; local files, browser, computer use and local MCP work only while Claude Desktop is open."
+    },
+    {
+      "title": "South Korea: AI tied to bank breaches, 25,000 Shinhan records exposed",
+      "url": "https://whbl.com/2026/10/05/south-koreas-lee-says-ai-appears-to-have-been-used-in-bank-hacks",
+      "category": "policy",
+      "published": "2026-10-06",
+      "summary": "President Lee said AI models appear to have been used against four Korean banks through outside partner portals; about 25,000 Shinhan records were exposed."
+    },
+    {
+      "title": "Texas city demands $2M for public records on Flock camera use",
+      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+      "category": "policy",
+      "published": "2026-10-05",
+      "summary": "A Texas city told a records requester it would cost $2 million to release documents about its use of Flock license-plate cameras."
+    },
+    {
+      "title": "ChatGPT is signing fake New Yorker cartoons with real artists' names",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "A report finds ChatGPT drawing New Yorker-style cartoons that carry the signatures of real, living cartoonists."
+    },
+    {
+      "title": "Nous publishes an open hardware catalog for agents",
+      "url": "https://x.com/Teknium/status/2107301976291909994",
+      "category": "hermes_nous",
+      "published": "2026-10-06",
+      "summary": "Nous's Teknium published a catalog of open hardware and devices an agent can build on, integrate with, or run inside."
+    },
+    {
+      "title": "Hermes Agent makes its computer-use layer pluggable",
+      "url": "https://x.com/Teknium/status/2107312799290683614",
+      "category": "hermes_nous",
+      "published": "2026-10-06",
+      "summary": "Hermes Agent made computer use pluggable so the TryCUA backend can be swapped out, opening the control layer to its plugin catalog."
+    },
+    {
+      "title": "Garry Tan: independent agent harnesses have real utility",
+      "url": "https://x.com/garrytan/status/2107129959550685660",
+      "category": "agents_tooling",
+      "published": "2026-10-05",
+      "summary": "YC's Garry Tan argues lab harnesses are built to burn tokens, so independent harnesses that turn observed agent use into tested code have real utility."
+    },
+    {
+      "title": "Qualcomm licenses Huawei's LogicFolding chip-packaging patents",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "Qualcomm has licensed patents covering Huawei's LogicFolding chip-packaging technology, a rare licensing deal between the two."
+    }
+  ]
+}
