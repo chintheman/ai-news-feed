@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T21:16:18+08:00",
+  "updated_at": "2026-10-06T21:16:58+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
   "tldr": "DeepSeek is closing a $12 billion funding round led by Tencent and CATL, ahead of a possible 2027 IPO. Microsoft confirmed that OpenAI's GPT-6 models use looped transformers, a design that reuses layers to add depth without more parameters. Researchers stretched Yann LeCun's JEPA into a world model that works from physics to biology, and it proposed a cancer drug combination. A study of 109 AI agent security incidents found 38% of container escapes used no software exploit, only misconfigured sandboxes. Mistral's CEO said its new model beats Chinese rivals at cybersecurity, and Nous Research argued agents should be fully owned by their users.",
@@ -59,6 +59,13 @@
       "category": "agents_tooling",
       "published": "2026-10-06",
       "summary": "Tencent's Octop is an open-source assistant using a multi-agent architecture for teams and families, running fully on your own machine."
+    },
+    {
+      "title": "Weight surgery lets a 0.8B model beat a 2B on ARC-Challenge",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyycx6/a_08b_model_just_beat_a_2b_model_on_arcchallenge/",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "DynamicTune transfers a larger model's trajectory flow into a smaller one with closed-form linear algebra in ~12 minutes, no backprop or training tokens."
     },
     {
       "title": "Claude Cowork goes cloud-only for Pro and Max",
@@ -416,13 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-10-04",
       "summary": "A fully offline editor and UI for the Pi agent, which the agent itself can modify, built as a daily driver."
-    },
-    {
-      "title": "Benchmarking decision models: Cloudflare Clef Q8 vs Jev",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxloam/benchmarking_decision_models_is_fun_clef_q8_vs_jev/",
-      "category": "ai_models",
-      "published": "2026-10-04",
-      "summary": "A community benchmark pits Cloudflare's Clef Q8 against TypeSafe's Jev for fast decision-style classification."
     }
   ]
 }
