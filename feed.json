@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-10-07T08:16:15+08:00",
+  "updated_at": "2026-10-07T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Mistral released Large 4, a trillion-parameter model it calls Europe's biggest yet. Google shipped EmbeddingGemma 2, a small open model that handles text, images, audio and video. OpenAI published new mathematics results from one of its internal models. Anthropic widened a programme that gives vetted security staff access to its strongest Claude models. Nous Research launched an index that scores models on agent tasks and their cost.",
+  "tldr": "Claude Code can now run each subagent at its own thinking-effort level. Claude Code's creator says prompt scaffolding no longer matters, and names goal, effort budget and self-verification as the three things that do. OpenAI put a fast classification endpoint into public beta that picks one answer from a list in about 150 milliseconds. Qwen3.8-27B is live on DeepInfra and claims a higher coding score than Opus 4.6 Max for far less money. OpenBMB uploaded a 35B vision-language model to Hugging Face with no model card and no licence.",
   "articles": [
+    {
+      "title": "Claude Code adds a per-subagent effort level",
+      "url": "https://x.com/lydiahallie/status/2107625236430798909",
+      "category": "agents_tooling",
+      "published": "2026-10-07",
+      "summary": "Claude Code v2.1.292+ lets you set the reasoning-effort level for each subagent, so hard parts get more thinking than the rest."
+    },
+    {
+      "title": "Claude Code's creator: prompt scaffolding no longer matters",
+      "url": "https://x.com/bcherny/status/2107565388250874193",
+      "category": "anthropic",
+      "published": "2026-10-06",
+      "summary": "Boris Cherny says talk to Claude like a coworker and name three things only: the goal, the effort budget and how the work gets verified."
+    },
+    {
+      "title": "OpenAI's Decisions API enters public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "A preview endpoint that forces one answer from a caller-supplied list plus a confidence score in about 150 ms."
+    },
+    {
+      "title": "Jump Trading scales quant research with OpenAI models",
+      "url": "https://openai.com/index/jump-trading",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "The trading firm runs long research workflows that combine several data sources with human review."
+    },
+    {
+      "title": "OpenBMB uploads MiniCPM-V 4.7 with no licence or model card",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+      "category": "chinese_ai",
+      "published": "2026-10-06",
+      "summary": "A 35B vision-language checkpoint appeared on Hugging Face with no README, no declared licence and no benchmarks."
+    },
+    {
+      "title": "Claude Code's suggested-message feature: the model is the customer",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "A look at what Claude Code's suggested prompts are really for, and why the benefit lands on the model rather than the user."
+    },
+    {
+      "title": "A one-person project trained a model to be wrong on purpose",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz8wsb/i_trained_a_model_to_be_wrong_98_of_the_time_and/",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "A Qwen3.5-9B fine-tune called Bev returns a probability per answer and picks the worst option 98% of the time, at 96% confidence."
+    },
+    {
+      "title": "A 21M model plus an SSD lookup table matches a 114M dense model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz7tvs/i_gave_a_21m_model_a_64bparameter_lookup_table_it/",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "A hobby project pairs a tiny model with a 6.4B-parameter lookup table kept on an SSD to match a much larger dense model."
+    },
+    {
+      "title": "Garry Tan: markdown skills on a cron now cover most knowledge work",
+      "url": "https://x.com/garrytan/status/2107536129952194884",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "The YC partner says you can write agent skills in markdown, schedule them, and get most useful knowledge work done."
+    },
     {
       "title": "Mistral releases Large 4, a trillion-parameter European model",
       "url": "https://mistral.ai/news/mistral-large-4/",
@@ -201,6 +264,13 @@
       "summary": "Hermes Agent made computer use pluggable so the TryCUA backend can be swapped out, opening the control layer to its plugin catalog."
     },
     {
+      "title": "Qwen3.8-27B goes live on DeepInfra",
+      "url": "https://deepinfra.com/blog/qwen3-8-27b-deepinfra",
+      "category": "chinese_ai",
+      "published": "2026-10-05",
+      "summary": "A 27B open vision-language model with a 262K context window claims 61.7 on SWE-bench Pro, above Opus 4.6 Max, at $0.15 per 1M input tokens."
+    },
+    {
       "title": "Garry Tan flags 'AGI Science Loops' as a new startup category",
       "url": "https://x.com/garrytan/status/2107173670699622830",
       "category": "industry",
@@ -353,76 +423,6 @@
       "category": "industry",
       "published": "2026-10-05",
       "summary": "Anthropic employees gave $540 million in 2025, nearly five times the next-largest Fortune 500 donors, ahead of the company's mega IPO."
-    },
-    {
-      "title": "Import AI 475: swarm scaling, biology watermarks and the AI science economy",
-      "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-      "category": "ai_research",
-      "published": "2026-10-05",
-      "summary": "Jack Clark's Import AI covers swarm-scaling research, Google DeepMind watermarking biology, and who gets to choose what AI does."
-    },
-    {
-      "title": "Norway eyes a partial ban on smart glasses",
-      "url": "https://www.barrons.com/news/norway-eyes-partial-ban-of-smart-glasses-e65dc239",
-      "category": "policy",
-      "published": "2026-10-05",
-      "summary": "Norway is considering restricting camera-equipped smart glasses in public spaces, citing privacy and covert recording concerns."
-    },
-    {
-      "title": "llama.cpp v0.6.0 adds MTP speculative decoding for Qwen4Exp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyh03u/llamacpp_v060_released_with_mtp_speculative/",
-      "category": "platforms_integration",
-      "published": "2026-10-05",
-      "summary": "llama.cpp v0.6.0 shipped multi-token-prediction speculative decoding for Qwen4Exp models alongside a long list of smaller fixes."
-    },
-    {
-      "title": "Germany's RobCo hits a $1B valuation",
-      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
-      "category": "industry",
-      "published": "2026-10-05",
-      "summary": "Germany's RobCo became Europe's newest robotics unicorn at a $1B valuation, as industrial robot software draws fresh funding."
-    },
-    {
-      "title": "Agens Volundr 32B Preview: a hybrid model with a small KV cache",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy7wn0/agens_volundr_32b_preview_our_small_teams_first/",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "A Hong Kong team released Agens Volundr 32B Preview under Apache 2.0, a hybrid model where only 18 of 72 layers keep a KV cache."
-    },
-    {
-      "title": "ItoTTS puts two natural English voices in 4.89 MB on a $5 chip",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy8ske/itotts_two_natural_english_voices_in_489_mb_for_a/",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "ItoTTS runs two natural-sounding English voices in 4.89 MB, small enough for a $5 ESP32-S3 microcontroller."
-    },
-    {
-      "title": "TinyDecide: a 10M-parameter decision model that fits in 6MB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wybi2y/smallest_jevlike_model/",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "TinyDecide is a 10-million-parameter decision model that fits in about 6MB and runs on almost any device, from phones to microcontrollers."
-    },
-    {
-      "title": "Anthropic review team reported a user's Claude 'diary' to police",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
-      "category": "policy",
-      "published": "2026-10-05",
-      "summary": "A case surfaced where Anthropic's human review team, not the model, referred a Florida user's Claude diary to law enforcement."
-    },
-    {
-      "title": "Nous publishes 326 real-world Hermes Agent use cases",
-      "url": "https://x.com/NousResearch/status/2107161699837231107",
-      "category": "hermes_nous",
-      "published": "2026-10-05",
-      "summary": "Nous Research published 326 real-user Hermes Agent use cases, pushing a framing of the agent well beyond its travel-booking demo."
-    },
-    {
-      "title": "AI lab leaders testify under oath before the NYC Council",
-      "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-      "category": "policy",
-      "published": "2026-10-05",
-      "summary": "Executives from Anthropic, OpenAI, Google and Meta were sworn in before all 51 Council members, weighing a 10-bill package with per-agent kill switches."
     }
   ]
 }
