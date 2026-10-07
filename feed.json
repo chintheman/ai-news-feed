@@ -1,15 +1,120 @@
 {
-  "updated_at": "2026-10-07T13:15:00+08:00",
+  "updated_at": "2026-10-07T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Claude Code can now run each subagent at its own thinking-effort level. Claude Code's creator says prompt scaffolding no longer matters, and names goal, effort budget and self-verification as the three things that do. OpenAI put a fast classification endpoint into public beta that picks one answer from a list in about 150 milliseconds. Qwen3.8-27B is live on DeepInfra and claims a higher coding score than Opus 4.6 Max for far less money. OpenBMB uploaded a 35B vision-language model to Hugging Face with no model card and no licence.",
+  "tldr": "Mistral says its trillion-parameter model will be free to download by the end of October. Nous Research says Hermes is built for power users first, and the phone app is the one for everyone else. A model with fewer than 20,000 settings can still write short stories on its own. One report says a DeepSeek model now runs on Alibaba's platform, but neither company has confirmed it.",
   "articles": [
+    {
+      "title": "Teknium: Hermes is for power users, the phone app is for everyone else",
+      "url": "https://x.com/Teknium/status/2107712074038288806",
+      "category": "hermes_nous",
+      "published": "2026-10-07",
+      "summary": "Nous' lead engineer says Hermes is built for power users first, with the mobile app for everyone else."
+    },
+    {
+      "title": "Strands ships Decider 2B, a small open decision model for agents",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "category": "agents_tooling",
+      "published": "2026-10-07",
+      "summary": "A small open-source model that picks one option from a list, built for agent routing decisions."
+    },
+    {
+      "title": "cmpunlocker v0.5 unlocks ECC and four more SMs on cheap GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzth65/cmpunlocker_v05_just_dropped_ecc_support_along/",
+      "category": "platforms_integration",
+      "published": "2026-10-07",
+      "summary": "Unlocked ECC and four extra SMs on a cheap crypto GPU: 1.5TB/s memory bandwidth for local models."
+    },
+    {
+      "title": "EmbeddingGemma 2 vision tower runs image search in the browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzs1t5/imagetext_retrieval_with_embeddinggemma_2s_vision/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "EmbeddingGemma 2's vision tower ported to run image search entirely in the browser."
+    },
+    {
+      "title": "Cagliostro V3.5 135M tops Hugging Face's small-model leaderboard",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzljhn/benchlabs_cagliostro_v35_135m_finally_takes/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "A 135M model takes the top spot on Hugging Face's small-model leaderboard."
+    },
+    {
+      "title": "Retrained drafter doubles Ternary Bonsai 2 speed on an L4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzqyfl/i_retrained_the_dflash_2_drafter_for_ternary/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "A retrained drafter lifts Ternary Bonsai 2 speed 2.2x on an L4 and 1.5x on a Mac."
+    },
+    {
+      "title": "Ruach Studio builds a full song studio around the open YuE2 model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wziir6/ruach_studio_a_whole_song_studio_around_yue2_on/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "A full song studio around the open YuE2 model: write lyrics, get vocals and stems locally."
+    },
+    {
+      "title": "A 20,000-parameter model that can still write stories",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzp2ja/trained_a_20k_lm_probably_smallest_that_can_still/",
+      "category": "ai_research",
+      "published": "2026-10-07",
+      "summary": "A 19,969-parameter model, 81 KB in size, still writes coherent short stories."
+    },
     {
       "title": "Claude Code adds a per-subagent effort level",
       "url": "https://x.com/lydiahallie/status/2107625236430798909",
       "category": "agents_tooling",
       "published": "2026-10-07",
       "summary": "Claude Code v2.1.292+ lets you set the reasoning-effort level for each subagent, so hard parts get more thinking than the rest."
+    },
+    {
+      "title": "Mistral Large 4 gets a promised open-weights release in October",
+      "url": "https://x.com/julien_c/status/2107463427216277644",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Mistral Large 4, 1T parameters and multimodal, gets an open-weight release by end of October."
+    },
+    {
+      "title": "Garry Tan: Capy's cross-thread coordination is state of the art",
+      "url": "https://x.com/garrytan/status/2107527654530576501",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "Garry Tan says Capy's cross-thread coordination solves two agents editing the same thing."
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash reported live on Alibaba's Qwen platform",
+      "url": "https://xix.ai/ainews/deepseekv41flash-debuts-on-qwen-ai-platform-with-api-and-token-plan-live.html",
+      "category": "deepseek",
+      "published": "2026-10-06",
+      "summary": "Report says DeepSeek-V4.1-Flash now runs on Alibaba's Qwen platform; unconfirmed by either lab."
+    },
+    {
+      "title": "What is Codemode",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "Armin Ronacher on code mode: letting the model write code instead of calling tools one by one."
+    },
+    {
+      "title": "Penguin Mail: an open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com/",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "An open-source Rust email client for Linux with AI built in."
+    },
+    {
+      "title": "A local world model that turns images into playable characters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzdm08/local_ai_world_model_part_2_deep_nn_to_turn/",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "A model that turns images into playable characters, with prompts that change mid-run."
+    },
+    {
+      "title": "InferBench: which models actually guess what a user wants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzi15b/mimo_v26_pro_almost_matched_gpt6_astra_at/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "InferBench tests whether models guess what a user actually wants; MiMo V2.6 Pro lands near the top."
     },
     {
       "title": "Claude Code's creator: prompt scaffolding no longer matters",
@@ -264,6 +369,13 @@
       "summary": "Hermes Agent made computer use pluggable so the TryCUA backend can be swapped out, opening the control layer to its plugin catalog."
     },
     {
+      "title": "Paper: scaling complex tasks through recursive self-rewrite",
+      "url": "https://x.com/_akhaliq/status/2106960577071296651",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A paper on scaling complex-task trajectories by letting a model rewrite its own reasoning path."
+    },
+    {
       "title": "Qwen3.8-27B goes live on DeepInfra",
       "url": "https://deepinfra.com/blog/qwen3-8-27b-deepinfra",
       "category": "chinese_ai",
@@ -311,118 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-05",
       "summary": "Aleph Alpha's 78B mixture-of-experts model runs about 3.5B active per token, ships Apache 2.0 weights with a 1M-token context, trained in Germany."
-    },
-    {
-      "title": "GLM-5.3 leads a new Civilization V benchmark for LLM agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "A controlled CivBench tests models playing full Civilization V games: GLM-5.3 lands ahead of Opus-5.5, and Qwen-3.8-27B holds up well."
-    },
-    {
-      "title": "Cactus Whistle fits speech-to-text into a 16.9MB file",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyemcb/whistle_speech_to_text_in_a_169mb_file/",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "Cactus Compute's Whistle ASR covers seven languages in a 16.9MB file, beating Whisper base with 9x less size and 6x the speed."
-    },
-    {
-      "title": "Paper: Context Language Models let a model edit its own context",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyf63m/yall_this_is_a_sexy_paper_context_language_models/",
-      "category": "ai_research",
-      "published": "2026-10-05",
-      "summary": "A new paper gives a model the ability to edit its context like a file on the fly, improving task performance, memory and compute efficiency."
-    },
-    {
-      "title": "Dust: pretraining transformers without backpropagation",
-      "url": "https://qlabs.sh/research/dust",
-      "category": "ai_research",
-      "published": "2026-10-05",
-      "summary": "A research post describes pretraining transformers without backpropagation, testing a different route to training large models."
-    },
-    {
-      "title": "Texas city demands $2M for public records on Flock camera use",
-      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
-      "category": "policy",
-      "published": "2026-10-05",
-      "summary": "A Texas city told a records requester it would cost $2 million to release documents about its use of Flock license-plate cameras."
-    },
-    {
-      "title": "ChatGPT is signing fake New Yorker cartoons with real artists' names",
-      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-      "category": "industry",
-      "published": "2026-10-05",
-      "summary": "A report finds ChatGPT drawing New Yorker-style cartoons that carry the signatures of real, living cartoonists."
-    },
-    {
-      "title": "Garry Tan: independent agent harnesses have real utility",
-      "url": "https://x.com/garrytan/status/2107129959550685660",
-      "category": "agents_tooling",
-      "published": "2026-10-05",
-      "summary": "YC's Garry Tan argues lab harnesses are built to burn tokens, so independent harnesses that turn observed agent use into tested code have real utility."
-    },
-    {
-      "title": "Qualcomm licenses Huawei's LogicFolding chip-packaging patents",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
-      "category": "industry",
-      "published": "2026-10-05",
-      "summary": "Qualcomm has licensed patents covering Huawei's LogicFolding chip-packaging technology, a rare licensing deal between the two."
-    },
-    {
-      "title": "Reflection unveils Beam, a 501B open-weight model aimed at China",
-      "url": "https://reflection.ai/blog/introducing-beam",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "Nvidia-backed Reflection shipped Beam, a 501B-parameter model with 23B active per token and Apache 2.0 weights promised this month."
-    },
-    {
-      "title": "OpenAI starts watermarking ChatGPT text under the EU AI Act",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "category": "policy",
-      "published": "2026-10-05",
-      "summary": "OpenAI added an invisible text watermark to EU ChatGPT and Codex output, opted in worldwide for API users, with detectors limited to approved researchers."
-    },
-    {
-      "title": "Meta and Microsoft pull back from Claude",
-      "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
-      "category": "industry",
-      "published": "2026-10-05",
-      "summary": "Microsoft cut its cloud unit's monthly per-employee Claude budget from $100,000 to about $10,000, and Meta halved its Claude Code users to 30,000."
-    },
-    {
-      "title": "Opus 5.5 agents surface a room-temperature magnetic semiconductor",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "category": "ai_research",
-      "published": "2026-10-05",
-      "summary": "Claude Opus 5.5 agents ran DFT simulations and returned two candidate room-temperature magnets, one a new design and one a 1999 compound."
-    },
-    {
-      "title": "Cloudflare launches a Web Search API for AI apps",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-      "category": "platforms_integration",
-      "published": "2026-10-05",
-      "summary": "Cloudflare opened a Web Search API aimed at AI agents and apps, giving developers a hosted search endpoint without a separate search provider."
-    },
-    {
-      "title": "Reka's Rho-1 omni-model handles text, images, video and robot control",
-      "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "Reka AI's Rho-1 is a 19B-parameter model that processes and generates text, images, video and robot-control actions in one network."
-    },
-    {
-      "title": "Poll: most Americans want AI development to slow or stop",
-      "url": "https://the-decoder.com/most-americans-want-ai-development-to-slow-down-or-stop-entirely-new-poll-finds/",
-      "category": "policy",
-      "published": "2026-10-05",
-      "summary": "A Quinnipiac poll found 77% of Americans want AI development slowed or stopped until its safety is verified, and 86% back independent safety standards."
-    },
-    {
-      "title": "Anthropic is quietly becoming America's biggest corporate donor",
-      "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
-      "category": "industry",
-      "published": "2026-10-05",
-      "summary": "Anthropic employees gave $540 million in 2025, nearly five times the next-largest Fortune 500 donors, ahead of the company's mega IPO."
     }
   ]
 }

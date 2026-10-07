@@ -1,0 +1,120 @@
+{
+  "updated_at": "2026-10-07T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 16,
+  "tldr": "Mistral says its trillion-parameter model will be free to download by the end of October. Nous Research says Hermes is built for power users first, and the phone app is the one for everyone else. A model with fewer than 20,000 settings can still write short stories on its own. One report says a DeepSeek model now runs on Alibaba's platform, but neither company has confirmed it.",
+  "articles": [
+    {
+      "title": "Teknium: Hermes is for power users, the phone app is for everyone else",
+      "url": "https://x.com/Teknium/status/2107712074038288806",
+      "category": "hermes_nous",
+      "published": "2026-10-07",
+      "summary": "Nous' lead engineer says Hermes is built for power users first, with the mobile app for everyone else."
+    },
+    {
+      "title": "Mistral Large 4 gets a promised open-weights release in October",
+      "url": "https://x.com/julien_c/status/2107463427216277644",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Mistral Large 4, 1T parameters and multimodal, gets an open-weight release by end of October."
+    },
+    {
+      "title": "Garry Tan: Capy's cross-thread coordination is state of the art",
+      "url": "https://x.com/garrytan/status/2107527654530576501",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "Garry Tan says Capy's cross-thread coordination solves two agents editing the same thing."
+    },
+    {
+      "title": "Paper: scaling complex tasks through recursive self-rewrite",
+      "url": "https://x.com/_akhaliq/status/2106960577071296651",
+      "category": "ai_research",
+      "published": "2026-10-05",
+      "summary": "A paper on scaling complex-task trajectories by letting a model rewrite its own reasoning path."
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash reported live on Alibaba's Qwen platform",
+      "url": "https://xix.ai/ainews/deepseekv41flash-debuts-on-qwen-ai-platform-with-api-and-token-plan-live.html",
+      "category": "deepseek",
+      "published": "2026-10-06",
+      "summary": "Report says DeepSeek-V4.1-Flash now runs on Alibaba's Qwen platform; unconfirmed by either lab."
+    },
+    {
+      "title": "Strands ships Decider 2B, a small open decision model for agents",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "category": "agents_tooling",
+      "published": "2026-10-07",
+      "summary": "A small open-source model that picks one option from a list, built for agent routing decisions."
+    },
+    {
+      "title": "What is Codemode",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "category": "agents_tooling",
+      "published": "2026-10-06",
+      "summary": "Armin Ronacher on code mode: letting the model write code instead of calling tools one by one."
+    },
+    {
+      "title": "Penguin Mail: an open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com/",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "An open-source Rust email client for Linux with AI built in."
+    },
+    {
+      "title": "cmpunlocker v0.5 unlocks ECC and four more SMs on cheap GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzth65/cmpunlocker_v05_just_dropped_ecc_support_along/",
+      "category": "platforms_integration",
+      "published": "2026-10-07",
+      "summary": "Unlocked ECC and four extra SMs on a cheap crypto GPU: 1.5TB/s memory bandwidth for local models."
+    },
+    {
+      "title": "EmbeddingGemma 2 vision tower runs image search in the browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzs1t5/imagetext_retrieval_with_embeddinggemma_2s_vision/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "EmbeddingGemma 2's vision tower ported to run image search entirely in the browser."
+    },
+    {
+      "title": "Cagliostro V3.5 135M tops Hugging Face's small-model leaderboard",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzljhn/benchlabs_cagliostro_v35_135m_finally_takes/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "A 135M model takes the top spot on Hugging Face's small-model leaderboard."
+    },
+    {
+      "title": "Retrained drafter doubles Ternary Bonsai 2 speed on an L4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzqyfl/i_retrained_the_dflash_2_drafter_for_ternary/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "A retrained drafter lifts Ternary Bonsai 2 speed 2.2x on an L4 and 1.5x on a Mac."
+    },
+    {
+      "title": "Ruach Studio builds a full song studio around the open YuE2 model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wziir6/ruach_studio_a_whole_song_studio_around_yue2_on/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "A full song studio around the open YuE2 model: write lyrics, get vocals and stems locally."
+    },
+    {
+      "title": "A 20,000-parameter model that can still write stories",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzp2ja/trained_a_20k_lm_probably_smallest_that_can_still/",
+      "category": "ai_research",
+      "published": "2026-10-07",
+      "summary": "A 19,969-parameter model, 81 KB in size, still writes coherent short stories."
+    },
+    {
+      "title": "A local world model that turns images into playable characters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzdm08/local_ai_world_model_part_2_deep_nn_to_turn/",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "A model that turns images into playable characters, with prompts that change mid-run."
+    },
+    {
+      "title": "InferBench: which models actually guess what a user wants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzi15b/mimo_v26_pro_almost_matched_gpt6_astra_at/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "InferBench tests whether models guess what a user actually wants; MiMo V2.6 Pro lands near the top."
+    }
+  ]
+}
