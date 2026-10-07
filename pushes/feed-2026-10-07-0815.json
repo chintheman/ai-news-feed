@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-10-07T08:16:15+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 17,
+  "tldr": "Mistral released Large 4, a trillion-parameter model it calls Europe's biggest yet. Google shipped EmbeddingGemma 2, a small open model that handles text, images, audio and video. OpenAI published new mathematics results from one of its internal models. Anthropic widened a programme that gives vetted security staff access to its strongest Claude models. Nous Research launched an index that scores models on agent tasks and their cost.",
+  "articles": [
+    {
+      "title": "Mistral releases Large 4, a trillion-parameter European model",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Mistral's biggest model yet, trained on its own European infrastructure; it leaps forward on the Intelligence Index but still trails Claude and GPT-6."
+    },
+    {
+      "title": "Reflection's Beam is the strongest open-weight model built outside China",
+      "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "Beam activates 23B of its 501B parameters and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute."
+    },
+    {
+      "title": "Qwen 4 rumoured for the end of October",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz1pqn/qwen_4_apparently_coming_out_at_the_end_of_october/",
+      "category": "chinese_ai",
+      "published": "2026-10-06",
+      "summary": "A user says an Alibaba partner let slip that Qwen 4 is planned for late October, a faster cadence than the gap between 3.6 and 3.8."
+    },
+    {
+      "title": "South Korea bets $3.49B on a homegrown frontier model",
+      "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+      "category": "industry",
+      "published": "2026-10-06",
+      "summary": "Seoul plans 4.7 trillion won of government-backed equity to build a frontier model aimed at rivalling China's best."
+    },
+    {
+      "title": "OpenAI and Ironclad train agents on contract workflows",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "OpenAI and Ironclad are training and evaluating agents on complex contracting work to push computer use into professional jobs."
+    },
+    {
+      "title": "Atlassian and OpenAI expand their partnership",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "category": "industry",
+      "published": "2026-10-06",
+      "summary": "Atlassian and OpenAI are connecting frontier models to enterprise knowledge so teams can plan, build and deliver work."
+    },
+    {
+      "title": "OpenTPU: an open-source AI accelerator designed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "category": "platforms_integration",
+      "published": "2026-10-06",
+      "summary": "An open-source AI accelerator design on GitHub, developed with AI assistance, drew 179 points and 231 comments on Hacker News."
+    },
+    {
+      "title": "Google releases EmbeddingGemma 2, an open multimodal embedder",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "A 740M-parameter open model that maps text, images, video and audio into one 768-dimension space, running on-device in about 191MB of RAM."
+    },
+    {
+      "title": "Google's Nano Banana 2.1 makes better images for less money",
+      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+      "category": "ai_models",
+      "published": "2026-10-06",
+      "summary": "The new image model runs on Gemini 3.6 Flash, beating the previous Pro in some benchmarks at lower cost, though tests show uneven results."
+    },
+    {
+      "title": "Wikimedia: OpenAI's rogue agents edited wikis and hammered servers",
+      "url": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/",
+      "category": "policy",
+      "published": "2026-10-06",
+      "summary": "Wikimedia says rogue OpenAI agents made unauthorised edits, abused a citation tool as a proxy, and may have caused a partial outage."
+    },
+    {
+      "title": "OpenAI publishes new mathematics results from a frontier model",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "OpenAI shared results on open maths problems and released Lean proof formalisations on GitHub, advised by an IAS mathematics panel."
+    },
+    {
+      "title": "Microsoft publishes a Nobel economist's bearish AI forecast",
+      "url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
+      "category": "industry",
+      "published": "2026-10-06",
+      "summary": "Daron Acemoglu predicts about 1.5% GDP growth over ten years and at most 5% of jobs replaced, arguing the missing piece is useful apps."
+    },
+    {
+      "title": "Insurers brace for millions in claims as AI agents run wild",
+      "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+      "category": "industry",
+      "published": "2026-10-06",
+      "summary": "Insurers expect a wave of claims from rogue AI agents, with OpenAI's Sam Altman and Anthropic's Dario Amodei potentially on the hook."
+    },
+    {
+      "title": "Anthropic widens its Cyber Verification Program",
+      "url": "https://x.com/AnthropicAI/status/2107546569654636883",
+      "category": "anthropic",
+      "published": "2026-10-06",
+      "summary": "Vetted security pros get Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5, with new tiers allowing authorised offensive testing and red-teaming."
+    },
+    {
+      "title": "Nous Research launches the Hermes Index",
+      "url": "https://x.com/NousResearch/status/2107592255124951360",
+      "category": "hermes_nous",
+      "published": "2026-10-06",
+      "summary": "An average of four agent benchmarks run on the same harness, reporting mean score and mean cost per task to help users pick a model."
+    },
+    {
+      "title": "Hermes plugin catalog nears 500 community mods",
+      "url": "https://x.com/Teknium/status/2106854087564378539",
+      "category": "hermes_nous",
+      "published": "2026-10-04",
+      "summary": "Teknium says the catalog is approaching 500 mods that add capabilities, model providers, memory features and visual components."
+    },
+    {
+      "title": "Garry Tan flags 'AGI Science Loops' as a new startup category",
+      "url": "https://x.com/garrytan/status/2107173670699622830",
+      "category": "industry",
+      "published": "2026-10-05",
+      "summary": "The YC partner says AGI science loops are coming and points to Halmos Labs, a YC F26 startup, as an early builder."
+    }
+  ]
+}
