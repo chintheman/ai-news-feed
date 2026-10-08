@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-10-08T08:16:55+08:00",
+  "updated_at": "2026-10-08T13:17:03+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic released Claude Haiku 5.5, a small model that costs about 75% less to run than the last one. OpenAI put GPT-6 in front of every ChatGPT user, so answers now arrive as charts, buttons and small apps instead of plain text. Nous Research raised $90 million to grow Hermes Agent and finally ship a phone app. Microsoft turned Windows into an agent platform with a sandbox enforced by the operating system, and Hermes Agent is named as one of the tools it supports. A $1.8 billion programme will train AI models that predict how cells behave.",
+  "tldr": "Microsoft opened pre-orders for a $5,999 desktop built to run big AI models at home. AMD's new ROCm 10.1 release speeds up moving data from storage to the graphics card. A community site now holds the same prompt answered by 371 different models. OpenAI says its teen version of ChatGPT turns protections on by default for under-18 accounts. And a new coding test turns to Strata, a free engine that runs a 125B model on a 12 GB graphics card.",
   "articles": [
+    {
+      "title": "AMD's ROCm 10.1 targets the storage-to-GPU bottleneck",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ggrk/rocm_101_breaking_the_datamovement_bottleneck/",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "ROCm 10.1 adds an async fast path that moves data straight from storage to the GPU, plus NUMA-aware host memory and a CLI with ready-made agent skills."
+    },
+    {
+      "title": "Same prompt, 371 models: an archive of side-by-side answers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ejor/same_prompts_to_371_models_since_may_2024_all_the/",
+      "category": "ai_models",
+      "published": "2026-10-08",
+      "summary": "museumofmodels.com sends one prompt to 371 models at temperature 0.7 with no system prompt, including 93 models you can no longer run anywhere."
+    },
+    {
+      "title": "Microsoft opens pre-orders for a $5,999 local-AI desktop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x09g09/surface_rtx_spark_dev_box_the_dev_box_built_for/",
+      "category": "industry",
+      "published": "2026-10-07",
+      "summary": "The Surface RTX Spark Dev Box pairs Nvidia's Grace-Blackwell chip with 128 GB of unified memory to run models above 120B parameters, shipping in November."
+    },
+    {
+      "title": "GLM-5.3-Flash held at 384K context on two HBM compute cards",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b1ws/2x_cmp_170hx_64gb_glm53flash_at_384k_context_90/",
+      "category": "chinese_ai",
+      "published": "2026-10-07",
+      "summary": "A builder serves GLM-5.3-Flash at a 384K context window and about 90 tokens per second on two 64 GB CMP 170HX cards, benchmarked against Qwen3.8-Flash-Next."
+    },
+    {
+      "title": "ChatGPT for Teens switches protections on by default",
+      "url": "https://x.com/OpenAI/status/2107909792945832070",
+      "category": "policy",
+      "published": "2026-10-07",
+      "summary": "OpenAI says ChatGPT for Teens applies automatically to under-18 accounts, and previews a College Planner for U.S. four-year college applicants."
+    },
+    {
+      "title": "Tested in Coding turns to Strata, the 125B-model engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata/",
+      "category": "ai_research",
+      "published": "2026-10-07",
+      "summary": "The r/LocalLLaMA coding-test series benchmarks Strata, the open-source engine that serves a 125B Qwen3.8 mixture-of-experts model from a 12 GB card."
+    },
     {
       "title": "GPT-6 goes global with an interface instead of an answer",
       "url": "https://openai.com/index/gpt-6-for-everyone/",
@@ -381,48 +423,6 @@
       "category": "industry",
       "published": "2026-10-06",
       "summary": "Daron Acemoglu predicts about 1.5% GDP growth over ten years and at most 5% of jobs replaced, arguing the missing piece is useful apps."
-    },
-    {
-      "title": "Insurers brace for millions in claims as AI agents run wild",
-      "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-      "category": "industry",
-      "published": "2026-10-06",
-      "summary": "Insurers expect a wave of claims from rogue AI agents, with OpenAI's Sam Altman and Anthropic's Dario Amodei potentially on the hook."
-    },
-    {
-      "title": "Anthropic widens its Cyber Verification Program",
-      "url": "https://x.com/AnthropicAI/status/2107546569654636883",
-      "category": "anthropic",
-      "published": "2026-10-06",
-      "summary": "Vetted security pros get Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5, with new tiers allowing authorised offensive testing and red-teaming."
-    },
-    {
-      "title": "Nous Research launches the Hermes Index",
-      "url": "https://x.com/NousResearch/status/2107592255124951360",
-      "category": "hermes_nous",
-      "published": "2026-10-06",
-      "summary": "An average of four agent benchmarks run on the same harness, reporting mean score and mean cost per task to help users pick a model."
-    },
-    {
-      "title": "DeepSeek nears a $12B round led by Tencent and CATL, eyes a 2027 IPO",
-      "url": "https://qz.com/deepseek-funding-round-tencent-catl-ipo-100626",
-      "category": "deepseek",
-      "published": "2026-10-06",
-      "summary": "DeepSeek is closing at least $12B, past its own $7.5B target, with Tencent and CATL taking the largest shares at a ~$75B valuation."
-    },
-    {
-      "title": "Microsoft confirms OpenAI's GPT-6 series runs looped transformers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "Microsoft's own GPT-6.1 Sol page says the model uses 2 inference passes 'instead of three', confirming the looped-transformer design reported in September."
-    },
-    {
-      "title": "LeCun's JEPA stretched into a universal world model that spans physics to biology",
-      "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
-      "category": "ai_research",
-      "published": "2026-10-06",
-      "summary": "PhAI Labs scaled JEPA across seven fields by splitting the predicted state into four predictors, and surfaced a promising IL-18 plus CD73 cancer combo."
     }
   ]
 }
