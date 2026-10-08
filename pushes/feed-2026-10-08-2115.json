@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-10-08T21:16:27+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "Google announced one agent for companies that picks the best model for each job, Claude included. It also opened the gate that decides which agent may use which tool. CrowdStrike says one attacker used AI tools to break into several South Korean banks. A poisoned AI toolkit on npm was caught stealing passwords and keys. Researchers showed they could strip Qwen's built-in political refusals with almost no drop on normal tests.",
+  "articles": [
+    {
+      "title": "Google Cloud launches one agent that picks the best model per job",
+      "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+      "category": "agents_tooling",
+      "published": "2026-10-08",
+      "summary": "A universal work agent in Gemini Enterprise, Workspace and third-party apps that routes each job across the Gemini and Claude model families."
+    },
+    {
+      "title": "Google opens its agent gateway to everyone",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "Agent Gateway sits between an agent and its tools: it mediates MCP, A2A, REST and gRPC, checks the agent's identity, and allows or denies each call."
+    },
+    {
+      "title": "Report: Meta raced to fix Muse VM-escape bugs before launch",
+      "url": "https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/",
+      "category": "policy",
+      "published": "2026-10-06",
+      "summary": "Before Muse launched, Meta engineers raced to fix KVM-escape bugs, one of which could have reached internal databases, per 404 Media."
+    },
+    {
+      "title": "A poisoned AI toolkit on npm was stealing keys and passwords",
+      "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "Npm pulled a compromised version of the Tensorlake SDK that carried the Shai-Hulud worm, which harvests credentials and runs remotely supplied code."
+    },
+    {
+      "title": "CrowdStrike: one attacker used AI tools to hit South Korean banks",
+      "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+      "category": "policy",
+      "published": "2026-10-08",
+      "summary": "A likely single attacker used an open-source AI pentest tool plus DeepSeek, GLM-5.3, Grok 4.6 and Claude Code, taking 25,000+ records at one bank."
+    },
+    {
+      "title": "A Claude-planned mountain hike ends in a helicopter rescue",
+      "url": "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
+      "category": "policy",
+      "published": "2026-10-08",
+      "summary": "A 16-year-old routed a Crown Mountain hike with Claude, which sent him down a path needing climbing gear; he was airlifted off a rock face."
+    },
+    {
+      "title": "Researchers strip Qwen's built-in political refusals",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0npmx/we_unlearned_ccp_alignment_from_qwen3635ba3b/",
+      "category": "ai_research",
+      "published": "2026-10-08",
+      "summary": "Hirundo says it unlearned Qwen3.6-35B-A3B's aligned refusals, cutting canned censored answers from 89.8% to 2.8% with general benchmarks within a point."
+    },
+    {
+      "title": "Saluki 27B claims 96% of Qwen 3.8 at a seventh of the size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0mn7x/saluki_27b_96_of_qwen_38s_performance_at_17_the/",
+      "category": "ai_models",
+      "published": "2026-10-08",
+      "summary": "A 27B release on r/LocalLLaMA claims near-Qwen-3.8 quality at roughly one-seventh the parameters; commenters are still waiting on outside evals."
+    },
+    {
+      "title": "A llama.cpp patch lifts Qwen prompt processing about 5%",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0m3ff/ggmlcuda_assign_four_gdn_state_columns_per_warp/",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "A ggml-cuda change puts four GDN state columns per warp, speeding up prompt processing on Qwen 3.x models while token generation stays flat."
+    },
+    {
+      "title": "800 AI residents share one continuously running city",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ms0m/running_an_llmdriven_town_with_800_persistent/",
+      "category": "agents_tooling",
+      "published": "2026-10-08",
+      "summary": "A year-long build runs 800+ persistent agents in one simulated town; the write-up covers concurrent decisions, context caching and the running cost."
+    }
+  ]
+}

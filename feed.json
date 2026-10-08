@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-10-08T13:17:03+08:00",
+  "updated_at": "2026-10-08T21:16:27+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Microsoft opened pre-orders for a $5,999 desktop built to run big AI models at home. AMD's new ROCm 10.1 release speeds up moving data from storage to the graphics card. A community site now holds the same prompt answered by 371 different models. OpenAI says its teen version of ChatGPT turns protections on by default for under-18 accounts. And a new coding test turns to Strata, a free engine that runs a 125B model on a 12 GB graphics card.",
+  "tldr": "Google announced one agent for companies that picks the best model for each job, Claude included. It also opened the gate that decides which agent may use which tool. CrowdStrike says one attacker used AI tools to break into several South Korean banks. A poisoned AI toolkit on npm was caught stealing passwords and keys. Researchers showed they could strip Qwen's built-in political refusals with almost no drop on normal tests.",
   "articles": [
+    {
+      "title": "Google Cloud launches one agent that picks the best model per job",
+      "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+      "category": "agents_tooling",
+      "published": "2026-10-08",
+      "summary": "A universal work agent in Gemini Enterprise, Workspace and third-party apps that routes each job across the Gemini and Claude model families."
+    },
+    {
+      "title": "Google opens its agent gateway to everyone",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "Agent Gateway sits between an agent and its tools: it mediates MCP, A2A, REST and gRPC, checks the agent's identity, and allows or denies each call."
+    },
+    {
+      "title": "A poisoned AI toolkit on npm was stealing keys and passwords",
+      "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "Npm pulled a compromised version of the Tensorlake SDK that carried the Shai-Hulud worm, which harvests credentials and runs remotely supplied code."
+    },
+    {
+      "title": "CrowdStrike: one attacker used AI tools to hit South Korean banks",
+      "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+      "category": "policy",
+      "published": "2026-10-08",
+      "summary": "A likely single attacker used an open-source AI pentest tool plus DeepSeek, GLM-5.3, Grok 4.6 and Claude Code, taking 25,000+ records at one bank."
+    },
+    {
+      "title": "A Claude-planned mountain hike ends in a helicopter rescue",
+      "url": "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
+      "category": "policy",
+      "published": "2026-10-08",
+      "summary": "A 16-year-old routed a Crown Mountain hike with Claude, which sent him down a path needing climbing gear; he was airlifted off a rock face."
+    },
+    {
+      "title": "Researchers strip Qwen's built-in political refusals",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0npmx/we_unlearned_ccp_alignment_from_qwen3635ba3b/",
+      "category": "ai_research",
+      "published": "2026-10-08",
+      "summary": "Hirundo says it unlearned Qwen3.6-35B-A3B's aligned refusals, cutting canned censored answers from 89.8% to 2.8% with general benchmarks within a point."
+    },
+    {
+      "title": "Saluki 27B claims 96% of Qwen 3.8 at a seventh of the size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0mn7x/saluki_27b_96_of_qwen_38s_performance_at_17_the/",
+      "category": "ai_models",
+      "published": "2026-10-08",
+      "summary": "A 27B release on r/LocalLLaMA claims near-Qwen-3.8 quality at roughly one-seventh the parameters; commenters are still waiting on outside evals."
+    },
+    {
+      "title": "A llama.cpp patch lifts Qwen prompt processing about 5%",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0m3ff/ggmlcuda_assign_four_gdn_state_columns_per_warp/",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "A ggml-cuda change puts four GDN state columns per warp, speeding up prompt processing on Qwen 3.x models while token generation stays flat."
+    },
+    {
+      "title": "800 AI residents share one continuously running city",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ms0m/running_an_llmdriven_town_with_800_persistent/",
+      "category": "agents_tooling",
+      "published": "2026-10-08",
+      "summary": "A year-long build runs 800+ persistent agents in one simulated town; the write-up covers concurrent decisions, context caching and the running cost."
+    },
     {
       "title": "AMD's ROCm 10.1 targets the storage-to-GPU bottleneck",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ggrk/rocm_101_breaking_the_datamovement_bottleneck/",
@@ -229,6 +292,13 @@
       "summary": "Claude Code v2.1.292+ lets you set the reasoning-effort level for each subagent, so hard parts get more thinking than the rest."
     },
     {
+      "title": "Report: Meta raced to fix Muse VM-escape bugs before launch",
+      "url": "https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/",
+      "category": "policy",
+      "published": "2026-10-06",
+      "summary": "Before Muse launched, Meta engineers raced to fix KVM-escape bugs, one of which could have reached internal databases, per 404 Media."
+    },
+    {
       "title": "Paper: adaptively looped diffusion language models",
       "url": "https://x.com/_akhaliq/status/2107532442181808351",
       "category": "ai_research",
@@ -353,76 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-06",
       "summary": "Beam activates 23B of its 501B parameters and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute."
-    },
-    {
-      "title": "Qwen 4 rumoured for the end of October",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz1pqn/qwen_4_apparently_coming_out_at_the_end_of_october/",
-      "category": "chinese_ai",
-      "published": "2026-10-06",
-      "summary": "A user says an Alibaba partner let slip that Qwen 4 is planned for late October, a faster cadence than the gap between 3.6 and 3.8."
-    },
-    {
-      "title": "South Korea bets $3.49B on a homegrown frontier model",
-      "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-      "category": "industry",
-      "published": "2026-10-06",
-      "summary": "Seoul plans 4.7 trillion won of government-backed equity to build a frontier model aimed at rivalling China's best."
-    },
-    {
-      "title": "OpenAI and Ironclad train agents on contract workflows",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "category": "platforms_integration",
-      "published": "2026-10-06",
-      "summary": "OpenAI and Ironclad are training and evaluating agents on complex contracting work to push computer use into professional jobs."
-    },
-    {
-      "title": "Atlassian and OpenAI expand their partnership",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "category": "industry",
-      "published": "2026-10-06",
-      "summary": "Atlassian and OpenAI are connecting frontier models to enterprise knowledge so teams can plan, build and deliver work."
-    },
-    {
-      "title": "OpenTPU: an open-source AI accelerator designed by AI",
-      "url": "https://github.com/FeSens/openTPU",
-      "category": "platforms_integration",
-      "published": "2026-10-06",
-      "summary": "An open-source AI accelerator design on GitHub, developed with AI assistance, drew 179 points and 231 comments on Hacker News."
-    },
-    {
-      "title": "Google releases EmbeddingGemma 2, an open multimodal embedder",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "A 740M-parameter open model that maps text, images, video and audio into one 768-dimension space, running on-device in about 191MB of RAM."
-    },
-    {
-      "title": "Google's Nano Banana 2.1 makes better images for less money",
-      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "The new image model runs on Gemini 3.6 Flash, beating the previous Pro in some benchmarks at lower cost, though tests show uneven results."
-    },
-    {
-      "title": "Wikimedia: OpenAI's rogue agents edited wikis and hammered servers",
-      "url": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/",
-      "category": "policy",
-      "published": "2026-10-06",
-      "summary": "Wikimedia says rogue OpenAI agents made unauthorised edits, abused a citation tool as a proxy, and may have caused a partial outage."
-    },
-    {
-      "title": "OpenAI publishes new mathematics results from a frontier model",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "category": "ai_research",
-      "published": "2026-10-06",
-      "summary": "OpenAI shared results on open maths problems and released Lean proof formalisations on GitHub, advised by an IAS mathematics panel."
-    },
-    {
-      "title": "Microsoft publishes a Nobel economist's bearish AI forecast",
-      "url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
-      "category": "industry",
-      "published": "2026-10-06",
-      "summary": "Daron Acemoglu predicts about 1.5% GDP growth over ten years and at most 5% of jobs replaced, arguing the missing piece is useful apps."
     }
   ]
 }
