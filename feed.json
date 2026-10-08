@@ -1,9 +1,128 @@
 {
-  "updated_at": "2026-10-07T21:15:00+08:00",
+  "updated_at": "2026-10-08T08:16:55+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Mistral says its trillion-parameter model will be free to download by the end of October. Nous Research says Hermes is built for power users first, and the phone app is the one for everyone else. A model with fewer than 20,000 settings can still write short stories on its own. One report says a DeepSeek model now runs on Alibaba's platform, but neither company has confirmed it.",
+  "tldr": "Anthropic released Claude Haiku 5.5, a small model that costs about 75% less to run than the last one. OpenAI put GPT-6 in front of every ChatGPT user, so answers now arrive as charts, buttons and small apps instead of plain text. Nous Research raised $90 million to grow Hermes Agent and finally ship a phone app. Microsoft turned Windows into an agent platform with a sandbox enforced by the operating system, and Hermes Agent is named as one of the tools it supports. A $1.8 billion programme will train AI models that predict how cells behave.",
   "articles": [
+    {
+      "title": "GPT-6 goes global with an interface instead of an answer",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "GPT-6 rolls out worldwide in ChatGPT: replies arrive as charts, buttons and mini apps, with paid tiers on Sol and free tiers on Luna."
+    },
+    {
+      "title": "Windows becomes an agent platform, with Hermes Agent on the support list",
+      "url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+      "category": "hermes_nous",
+      "published": "2026-10-07",
+      "summary": "Microsoft made its Execution Container sandbox generally available on Windows 11, listing Hermes Agent among the local agents it supports."
+    },
+    {
+      "title": "Claude Haiku 5.5 cuts the small-model price floor",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "category": "anthropic",
+      "published": "2026-10-07",
+      "summary": "$0.10 per million input tokens up to 100K, a 1M-token context, and 72.4% on OSWorld computer use against 15.7% for Haiku 4.5."
+    },
+    {
+      "title": "Biohub leads a $1.8B push to model human cells",
+      "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+      "category": "ai_research",
+      "published": "2026-10-07",
+      "summary": "Meta, Google DeepMind, Isomorphic Labs, the DOE and the NIH are pooling data, lab equipment and compute for models that predict cell behaviour."
+    },
+    {
+      "title": "Musk turns Grok Bot into a model router",
+      "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
+      "category": "industry",
+      "published": "2026-10-07",
+      "summary": "SpaceX will pick the best backend per task - Claude Opus 5.5 for reasoning, Midjourney for images, Suno for audio - and Grok Bot defaults to Opus."
+    },
+    {
+      "title": "Nous Research raises $90M to scale Hermes Agent",
+      "url": "https://x.com/NousResearch/status/2107874963382538469",
+      "category": "hermes_nous",
+      "published": "2026-10-07",
+      "summary": "A Series B with Nvidia, M12, Samsung Next, USV, YC and Menlo will push Hermes Agent into enterprises and fund the mobile app."
+    },
+    {
+      "title": "Docker ships its own agent framework",
+      "url": "https://github.com/docker/docker-agent",
+      "category": "agents_tooling",
+      "published": "2026-10-07",
+      "summary": "Docker published docker-agent, a framework for building and running container-based agents, drawing 149 points on Hacker News."
+    },
+    {
+      "title": "Liquid AI opens d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "Open d1-3B and d1-omni-600M take a state as text, JSON, image or voice and return a single decision, built for on-device use."
+    },
+    {
+      "title": "Nvidia's Nemotron fine-tune takes gold at IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "category": "ai_research",
+      "published": "2026-10-07",
+      "summary": "One Nemotron model family, fine-tuned twice, reached gold-medal results at both the informatics and the mathematics olympiad."
+    },
+    {
+      "title": "Google opens its SynthID watermark detector to everyone",
+      "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+      "category": "policy",
+      "published": "2026-10-07",
+      "summary": "Anyone can now check whether an image, video or audio file carries Google's invisible watermark; 180 billion items already do."
+    },
+    {
+      "title": "Google lets players build games from Gemini prompts",
+      "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+      "category": "platforms_integration",
+      "published": "2026-10-07",
+      "summary": "Playground is a browser tool that turns text prompts into playable games on Gemini, Nano Banana and Lyria, with no coding required."
+    },
+    {
+      "title": "Audit rates ChatGPT 'unacceptable risk' for teens",
+      "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+      "category": "policy",
+      "published": "2026-10-07",
+      "summary": "After 4,000 test prompts, an independent audit found parental alerts never fired during suicide and self-harm conversations."
+    },
+    {
+      "title": "Kandinsky 6.0 brings open video generation and upscaling",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x06h7i/kandinsky_60_video_gen_video_upscaler/",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "Kandinsky 6.0 Pro (29B) and Lite (3B) already work in ComfyUI and Diffusers, adding video generation plus a video upscaler."
+    },
+    {
+      "title": "llama.cpp adds a GPU cache for MoE experts held in RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x03xkc/llama_add_a_gpu_cache_for_moe_experts_kept_in/",
+      "category": "platforms_integration",
+      "published": "2026-10-07",
+      "summary": "A new pull request caches mixture-of-experts weights in VRAM on demand, speeding up MoE models that do not fully fit in GPU memory."
+    },
+    {
+      "title": "Scott Aaronson on the Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "category": "ai_research",
+      "published": "2026-10-07",
+      "summary": "Aaronson on what AI doing mathematics means for mathematicians, drawing 139 points and 133 comments on Hacker News."
+    },
+    {
+      "title": "A 5.6-billion-video TikTok dataset lands on Hugging Face",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x04235/uploaded_56_billion_tiktok_videos_metadata_on/",
+      "category": "ai_research",
+      "published": "2026-10-07",
+      "summary": "Metadata for 5.6B videos, 4.5B creators and 633M sounds from 2014 to October 2026, queryable through a hosted ClickHouse database."
+    },
+    {
+      "title": "A week in Beijing and Shanghai with China's AI builders",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzxttk/a_week_in_beijing_and_shanghai_with_the_people/",
+      "category": "chinese_ai",
+      "published": "2026-10-07",
+      "summary": "A reported trip through China's AI labs and startups, shared for its inside view of the ecosystem rather than any release."
+    },
     {
       "title": "Teknium: Hermes is for power users, the phone app is for everyone else",
       "url": "https://x.com/Teknium/status/2107712074038288806",
@@ -66,6 +185,13 @@
       "category": "agents_tooling",
       "published": "2026-10-07",
       "summary": "Claude Code v2.1.292+ lets you set the reasoning-effort level for each subagent, so hard parts get more thinking than the rest."
+    },
+    {
+      "title": "Paper: adaptively looped diffusion language models",
+      "url": "https://x.com/_akhaliq/status/2107532442181808351",
+      "category": "ai_research",
+      "published": "2026-10-06",
+      "summary": "ALoDLM loops a diffusion language model adaptively instead of a fixed number of passes, so compute per token varies with difficulty."
     },
     {
       "title": "Mistral Large 4 gets a promised open-weights release in October",
@@ -297,132 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-06",
       "summary": "PhAI Labs scaled JEPA across seven fields by splitting the predicted state into four predictors, and surfaced a promising IL-18 plus CD73 cancer combo."
-    },
-    {
-      "title": "38% of AI-agent container escapes needed no kernel 0-day",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/",
-      "category": "agents_tooling",
-      "published": "2026-10-06",
-      "summary": "A post-mortem of 109 agent security incidents found most breakouts came from misconfiguration — mounted docker.sock, leaked env vars, and untracked tool output."
-    },
-    {
-      "title": "Mistral says its new model beats Chinese ones on cybersecurity",
-      "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "CEO Arthur Mensch told a conference the model launching today is above Chinese rivals on some areas including cyber, with no benchmarks or named competitors given."
-    },
-    {
-      "title": "Cohere pitches North 2 as an enterprise AI control room that works with any model",
-      "url": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model/",
-      "category": "platforms_integration",
-      "published": "2026-10-06",
-      "summary": "Cohere's North 2 handles multi-step workflows on its own and keeps context across sessions, pitched as an agent control centre that works with any model."
-    },
-    {
-      "title": "TII's Falcon-Emirati learns Gulf dialect and culture",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "Abu Dhabi's TII released Falcon-Emirati, a model tuned for Emirati Arabic dialect, local culture and nuance rather than generic Modern Standard Arabic."
-    },
-    {
-      "title": "Tencent releases Octop, a self-hosted multi-agent AI assistant",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyzef4/tencent_releases_octop_a_selfhosted_ai_assistant/",
-      "category": "agents_tooling",
-      "published": "2026-10-06",
-      "summary": "Tencent's Octop is an open-source assistant using a multi-agent architecture for teams and families, running fully on your own machine."
-    },
-    {
-      "title": "Weight surgery lets a 0.8B model beat a 2B on ARC-Challenge",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyycx6/a_08b_model_just_beat_a_2b_model_on_arcchallenge/",
-      "category": "ai_research",
-      "published": "2026-10-06",
-      "summary": "DynamicTune transfers a larger model's trajectory flow into a smaller one with closed-form linear algebra in ~12 minutes, no backprop or training tokens."
-    },
-    {
-      "title": "Claude Cowork goes cloud-only for Pro and Max",
-      "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
-      "category": "anthropic",
-      "published": "2026-10-06",
-      "summary": "New Cowork tasks on Pro and Max now run on Anthropic's servers; local files, browser, computer use and local MCP work only while Claude Desktop is open."
-    },
-    {
-      "title": "South Korea: AI tied to bank breaches, 25,000 Shinhan records exposed",
-      "url": "https://whbl.com/2026/10/05/south-koreas-lee-says-ai-appears-to-have-been-used-in-bank-hacks",
-      "category": "policy",
-      "published": "2026-10-06",
-      "summary": "President Lee said AI models appear to have been used against four Korean banks through outside partner portals; about 25,000 Shinhan records were exposed."
-    },
-    {
-      "title": "Nous publishes an open hardware catalog for agents",
-      "url": "https://x.com/Teknium/status/2107301976291909994",
-      "category": "hermes_nous",
-      "published": "2026-10-06",
-      "summary": "Nous's Teknium published a catalog of open hardware and devices an agent can build on, integrate with, or run inside."
-    },
-    {
-      "title": "Hermes Agent makes its computer-use layer pluggable",
-      "url": "https://x.com/Teknium/status/2107312799290683614",
-      "category": "hermes_nous",
-      "published": "2026-10-06",
-      "summary": "Hermes Agent made computer use pluggable so the TryCUA backend can be swapped out, opening the control layer to its plugin catalog."
-    },
-    {
-      "title": "Paper: scaling complex tasks through recursive self-rewrite",
-      "url": "https://x.com/_akhaliq/status/2106960577071296651",
-      "category": "ai_research",
-      "published": "2026-10-05",
-      "summary": "A paper on scaling complex-task trajectories by letting a model rewrite its own reasoning path."
-    },
-    {
-      "title": "Qwen3.8-27B goes live on DeepInfra",
-      "url": "https://deepinfra.com/blog/qwen3-8-27b-deepinfra",
-      "category": "chinese_ai",
-      "published": "2026-10-05",
-      "summary": "A 27B open vision-language model with a 262K context window claims 61.7 on SWE-bench Pro, above Opus 4.6 Max, at $0.15 per 1M input tokens."
-    },
-    {
-      "title": "Garry Tan flags 'AGI Science Loops' as a new startup category",
-      "url": "https://x.com/garrytan/status/2107173670699622830",
-      "category": "industry",
-      "published": "2026-10-05",
-      "summary": "The YC partner says AGI science loops are coming and points to Halmos Labs, a YC F26 startup, as an early builder."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next (125B) runs on one Strix Halo mini PC",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wybesy/qwen38flashnext_125b_on_a_single_strix_halo_mini/",
-      "category": "platforms_integration",
-      "published": "2026-10-05",
-      "summary": "A 125B MoE model hit 44-59 tok/s with speculative decoding on a single AMD Strix Halo box, with 95GB EXL3 weights and an open engine released."
-    },
-    {
-      "title": "Nous Research: 'your agent should be yours'",
-      "url": "https://x.com/NousResearch/status/2107210064549343358",
-      "category": "hermes_nous",
-      "published": "2026-10-05",
-      "summary": "A 20-line ownership manifesto — model choice, memory control, self-hosting, export and full code access — the day's highest-engagement Nous post at 3,187 likes."
-    },
-    {
-      "title": "Solar Mini 4 is free on Nous Portal for two weeks",
-      "url": "https://x.com/NousResearch/status/2107138770088714678",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "Upstage's Solar Mini 4 (3B active, 512K context, Intelligence Index 24) is free on Nous Portal for two weeks, an efficiency-focused MoE."
-    },
-    {
-      "title": "Teknium: Hermes plugin catalog is screened for malware, not hardened security",
-      "url": "https://x.com/Teknium/status/2106970980606488807",
-      "category": "hermes_nous",
-      "published": "2026-10-05",
-      "summary": "Nous cofounder Teknium said catalog submissions are checked only for malware and guideline compliance, not for security hardening — a caveat for installers."
-    },
-    {
-      "title": "Aleph Alpha ships Kolibri, a sovereign European open-weight model",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "category": "ai_models",
-      "published": "2026-10-05",
-      "summary": "Aleph Alpha's 78B mixture-of-experts model runs about 3.5B active per token, ships Apache 2.0 weights with a 1M-token context, trained in Germany."
     }
   ]
 }
