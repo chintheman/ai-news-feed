@@ -1,9 +1,121 @@
 {
-  "updated_at": "2026-10-08T21:16:27+08:00",
+  "updated_at": "2026-10-09T08:16:20+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Google announced one agent for companies that picks the best model for each job, Claude included. It also opened the gate that decides which agent may use which tool. CrowdStrike says one attacker used AI tools to break into several South Korean banks. A poisoned AI toolkit on npm was caught stealing passwords and keys. Researchers showed they could strip Qwen's built-in political refusals with almost no drop on normal tests.",
+  "tldr": "Anthropic started a cyber mission: free security scans for open-source projects, and its engineers on site at power and water companies. Claude can now build live dashboards and short explainer videos from a written prompt. Nous put Hermes Agent in the Microsoft Store, bundled it onto new ASUS machines, and opened a hosted cloud version. OpenAI's yearly revenue is about $20 billion lower than the company had signalled. Researchers showed one crafted message could hijack every AI agent in a company's cloud account.",
   "articles": [
+    {
+      "title": "Anthropic's Cyber Mission: free scanning for open source",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "category": "anthropic",
+      "published": "2026-10-08",
+      "summary": "Free vulnerability scanning for opted-in open-source projects, plus Anthropic engineers working on site with power-grid and water operators."
+    },
+    {
+      "title": "OpenAI's yearly revenue is $20B below what it signalled",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "category": "industry",
+      "published": "2026-10-08",
+      "summary": "CNBC reports OpenAI's annualised revenue is about $20 billion short of earlier guidance, and AI-linked stocks fell on the news."
+    },
+    {
+      "title": "Claude adds live dashboards and prompt-to-video, Docs and Slides go free",
+      "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+      "category": "anthropic",
+      "published": "2026-10-08",
+      "summary": "Claude can build dashboards from BigQuery and Snowflake data and turn prompts into animated explainer videos; Docs and Slides now work on free plans."
+    },
+    {
+      "title": "Whistle: speech-to-text in a 16.9MB model",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "category": "ai_models",
+      "published": "2026-10-08",
+      "summary": "Whistle is a speech-recognition model small enough to run locally at 16.9MB, drawing 374 points and 91 comments on Hacker News."
+    },
+    {
+      "title": "Mathematicians call for an OpenAI boycott over AI proofs",
+      "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+      "category": "industry",
+      "published": "2026-10-08",
+      "summary": "The Association for Human Mathematics wants a boycott after OpenAI released 700-plus AI-generated maths papers, then retracted three the next day."
+    },
+    {
+      "title": "Hermes Agent lands in the Microsoft Store",
+      "url": "https://x.com/NousResearch/status/2108231536772596193",
+      "category": "hermes_nous",
+      "published": "2026-10-08",
+      "summary": "Hermes Agent is now a featured one-click install in the Microsoft Store, giving Windows users a store listing instead of a manual checkout."
+    },
+    {
+      "title": "Hermes Agent ships pre-installed on ASUS ProArt RTX Spark PCs",
+      "url": "https://x.com/NousResearch/status/2108201390493544680",
+      "category": "hermes_nous",
+      "published": "2026-10-08",
+      "summary": "The bundle adds MuseTree and ComfyUI integrations and runs local models on up to 128GB of unified memory on the new ASUS creative desktops."
+    },
+    {
+      "title": "Nous Portal Cloud opens to the desktop app and every channel",
+      "url": "https://x.com/Teknium/status/2108106809072632213",
+      "category": "hermes_nous",
+      "published": "2026-10-08",
+      "summary": "Teknium says the desktop app and all gateway channels can connect now, with a hosted Hermes instance and its own computer per subscription coming."
+    },
+    {
+      "title": "Paper: measuring whether agents improve from experience",
+      "url": "https://x.com/_akhaliq/status/2108333776774508934",
+      "category": "ai_research",
+      "published": "2026-10-08",
+      "summary": "'Agent Plasticity' proposes a way to measure self-improvement from experience, the eval gap behind most in-context-learning claims."
+    },
+    {
+      "title": "Paper: LLM novelty scoring is unstable",
+      "url": "https://x.com/_akhaliq/status/2108329708345758115",
+      "category": "ai_research",
+      "published": "2026-10-08",
+      "summary": "A new paper finds LLM-based novelty evaluation swings between runs, a warning for anyone using a model as judge for research or idea quality."
+    },
+    {
+      "title": "An astrophysicist used Claude to map the ultraviolet sky",
+      "url": "https://x.com/AnthropicAI/status/2108290395599667700",
+      "category": "anthropic",
+      "published": "2026-10-08",
+      "summary": "Claude Science found existing datasets, combined them and filled the gaps with statistical inference to finish a map that would have taken weeks."
+    },
+    {
+      "title": "One prompt was enough to hijack every agent in an AWS account",
+      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "Zenity Labs says one publicly reachable agent could take over every Bedrock AgentCore agent in the same AWS account and region."
+    },
+    {
+      "title": "Being mean to Claude can now get your account suspended",
+      "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+      "category": "anthropic",
+      "published": "2026-10-08",
+      "summary": "Anthropic's updated usage policy bans sustained abuse of Claude and tightens rules on propaganda, drone weaponisation and surveillance."
+    },
+    {
+      "title": "Ethereum researchers weigh a 'bunker mode' for AI maths",
+      "url": "https://the-decoder.com/ai-math-breakthroughs-have-ethereum-researchers-debating-how-fast-wallet-security-could-collapse/",
+      "category": "policy",
+      "published": "2026-10-08",
+      "summary": "Justin Drake wants the industry ready for a world where AI-powered maths breaks wallet signatures in months; Vitalik Buterin urges caution."
+    },
+    {
+      "title": "OpenAI says it disrupted two AI-run influence operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "category": "policy",
+      "published": "2026-10-08",
+      "summary": "OpenAI took down two operations that used false-front journalists and a think tank to spread geopolitical messaging with its models."
+    },
+    {
+      "title": "JetBrains ships Mellum2.1, a small mixture-of-experts coding model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0u6l7/mellum21_a_jetbrains_collection/",
+      "category": "ai_models",
+      "published": "2026-10-08",
+      "summary": "Mellum2.1 is a 12B coding model with only 2.5B parameters active per token, released as GGUF for local use on Hugging Face."
+    },
     {
       "title": "Google Cloud launches one agent that picks the best model per job",
       "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
@@ -80,6 +192,13 @@
       "category": "ai_models",
       "published": "2026-10-08",
       "summary": "museumofmodels.com sends one prompt to 371 models at temperature 0.7 with no system prompt, including 93 models you can no longer run anywhere."
+    },
+    {
+      "title": "TII releases Falcon ASR on Hugging Face",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "category": "ai_models",
+      "published": "2026-10-07",
+      "summary": "The lab behind the Falcon language models published Falcon ASR, an open speech-recognition model, with weights and documentation."
     },
     {
       "title": "Microsoft opens pre-orders for a $5,999 local-AI desktop",
@@ -292,137 +411,18 @@
       "summary": "Claude Code v2.1.292+ lets you set the reasoning-effort level for each subagent, so hard parts get more thinking than the rest."
     },
     {
+      "title": "Nous launches a benchmark for models running inside Hermes",
+      "url": "https://x.com/NousResearch/status/2107592255124951360",
+      "category": "hermes_nous",
+      "published": "2026-10-06",
+      "summary": "Hermes Index averages benchmarks that measure how models perform inside Hermes Agent, rather than the scores vendors publish themselves."
+    },
+    {
       "title": "Report: Meta raced to fix Muse VM-escape bugs before launch",
       "url": "https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/",
       "category": "policy",
       "published": "2026-10-06",
       "summary": "Before Muse launched, Meta engineers raced to fix KVM-escape bugs, one of which could have reached internal databases, per 404 Media."
-    },
-    {
-      "title": "Paper: adaptively looped diffusion language models",
-      "url": "https://x.com/_akhaliq/status/2107532442181808351",
-      "category": "ai_research",
-      "published": "2026-10-06",
-      "summary": "ALoDLM loops a diffusion language model adaptively instead of a fixed number of passes, so compute per token varies with difficulty."
-    },
-    {
-      "title": "Mistral Large 4 gets a promised open-weights release in October",
-      "url": "https://x.com/julien_c/status/2107463427216277644",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "Mistral Large 4, 1T parameters and multimodal, gets an open-weight release by end of October."
-    },
-    {
-      "title": "Garry Tan: Capy's cross-thread coordination is state of the art",
-      "url": "https://x.com/garrytan/status/2107527654530576501",
-      "category": "agents_tooling",
-      "published": "2026-10-06",
-      "summary": "Garry Tan says Capy's cross-thread coordination solves two agents editing the same thing."
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash reported live on Alibaba's Qwen platform",
-      "url": "https://xix.ai/ainews/deepseekv41flash-debuts-on-qwen-ai-platform-with-api-and-token-plan-live.html",
-      "category": "deepseek",
-      "published": "2026-10-06",
-      "summary": "Report says DeepSeek-V4.1-Flash now runs on Alibaba's Qwen platform; unconfirmed by either lab."
-    },
-    {
-      "title": "What is Codemode",
-      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
-      "category": "agents_tooling",
-      "published": "2026-10-06",
-      "summary": "Armin Ronacher on code mode: letting the model write code instead of calling tools one by one."
-    },
-    {
-      "title": "Penguin Mail: an open-source Rust email client for Linux with AI",
-      "url": "https://penguin-mail.com/",
-      "category": "platforms_integration",
-      "published": "2026-10-06",
-      "summary": "An open-source Rust email client for Linux with AI built in."
-    },
-    {
-      "title": "A local world model that turns images into playable characters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzdm08/local_ai_world_model_part_2_deep_nn_to_turn/",
-      "category": "ai_research",
-      "published": "2026-10-06",
-      "summary": "A model that turns images into playable characters, with prompts that change mid-run."
-    },
-    {
-      "title": "InferBench: which models actually guess what a user wants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzi15b/mimo_v26_pro_almost_matched_gpt6_astra_at/",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "InferBench tests whether models guess what a user actually wants; MiMo V2.6 Pro lands near the top."
-    },
-    {
-      "title": "Claude Code's creator: prompt scaffolding no longer matters",
-      "url": "https://x.com/bcherny/status/2107565388250874193",
-      "category": "anthropic",
-      "published": "2026-10-06",
-      "summary": "Boris Cherny says talk to Claude like a coworker and name three things only: the goal, the effort budget and how the work gets verified."
-    },
-    {
-      "title": "OpenAI's Decisions API enters public beta",
-      "url": "https://developers.openai.com/api/docs/guides/decisions",
-      "category": "platforms_integration",
-      "published": "2026-10-06",
-      "summary": "A preview endpoint that forces one answer from a caller-supplied list plus a confidence score in about 150 ms."
-    },
-    {
-      "title": "Jump Trading scales quant research with OpenAI models",
-      "url": "https://openai.com/index/jump-trading",
-      "category": "platforms_integration",
-      "published": "2026-10-06",
-      "summary": "The trading firm runs long research workflows that combine several data sources with human review."
-    },
-    {
-      "title": "OpenBMB uploads MiniCPM-V 4.7 with no licence or model card",
-      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
-      "category": "chinese_ai",
-      "published": "2026-10-06",
-      "summary": "A 35B vision-language checkpoint appeared on Hugging Face with no README, no declared licence and no benchmarks."
-    },
-    {
-      "title": "Claude Code's suggested-message feature: the model is the customer",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "category": "agents_tooling",
-      "published": "2026-10-06",
-      "summary": "A look at what Claude Code's suggested prompts are really for, and why the benefit lands on the model rather than the user."
-    },
-    {
-      "title": "A one-person project trained a model to be wrong on purpose",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz8wsb/i_trained_a_model_to_be_wrong_98_of_the_time_and/",
-      "category": "ai_research",
-      "published": "2026-10-06",
-      "summary": "A Qwen3.5-9B fine-tune called Bev returns a probability per answer and picks the worst option 98% of the time, at 96% confidence."
-    },
-    {
-      "title": "A 21M model plus an SSD lookup table matches a 114M dense model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz7tvs/i_gave_a_21m_model_a_64bparameter_lookup_table_it/",
-      "category": "ai_research",
-      "published": "2026-10-06",
-      "summary": "A hobby project pairs a tiny model with a 6.4B-parameter lookup table kept on an SSD to match a much larger dense model."
-    },
-    {
-      "title": "Garry Tan: markdown skills on a cron now cover most knowledge work",
-      "url": "https://x.com/garrytan/status/2107536129952194884",
-      "category": "agents_tooling",
-      "published": "2026-10-06",
-      "summary": "The YC partner says you can write agent skills in markdown, schedule them, and get most useful knowledge work done."
-    },
-    {
-      "title": "Mistral releases Large 4, a trillion-parameter European model",
-      "url": "https://mistral.ai/news/mistral-large-4/",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "Mistral's biggest model yet, trained on its own European infrastructure; it leaps forward on the Intelligence Index but still trails Claude and GPT-6."
-    },
-    {
-      "title": "Reflection's Beam is the strongest open-weight model built outside China",
-      "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-      "category": "ai_models",
-      "published": "2026-10-06",
-      "summary": "Beam activates 23B of its 501B parameters and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute."
     }
   ]
 }
