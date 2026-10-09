@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-10-09T08:16:20+08:00",
+  "updated_at": "2026-10-09T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic started a cyber mission: free security scans for open-source projects, and its engineers on site at power and water companies. Claude can now build live dashboards and short explainer videos from a written prompt. Nous put Hermes Agent in the Microsoft Store, bundled it onto new ASUS machines, and opened a hosted cloud version. OpenAI's yearly revenue is about $20 billion lower than the company had signalled. Researchers showed one crafted message could hijack every AI agent in a company's cloud account.",
+  "tldr": "StepFun's new Step 5 Preview model showed up on OpenRouter, with a one-million-token window so it can read a whole codebase in one go. LegalOn cut its daily Codex bill by 65% by sending different jobs to different OpenAI models. A developer found that a startup rewrote its entire git history to erase the lines saying Claude helped write the code. Alibaba is giving away a week of free access to three of its models through GMI Cloud.",
   "articles": [
+    {
+      "title": "StepFun's Step 5 Preview lands on OpenRouter with a 1M-token window",
+      "url": "https://openrouter.ai/stepfun/step-5-preview",
+      "category": "ai_models",
+      "published": "2026-10-09",
+      "summary": "A sparse mixture-of-experts model with 600B total and 27B active parameters, aimed at long agent runs over whole codebases. Weights promised Oct 15."
+    },
+    {
+      "title": "Alibaba opens a free week for Qwen3.8-Max, Flash and Wan3.0",
+      "url": "https://x.com/Alibaba_Qwen/status/2108401307577090259",
+      "category": "chinese_ai",
+      "published": "2026-10-09",
+      "summary": "Access runs through GMI Cloud for one week. All three models had already shipped, so this is a distribution push rather than a release."
+    },
+    {
+      "title": "LegalOn cut its Codex bill 65% by routing work across three models",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "OpenAI's write-up says LegalOn matched Astra, Sol and Luna to each task and managed budgets per job instead of sending everything to one model."
+    },
+    {
+      "title": "A startup rewrote its git history to erase Claude's co-author tags",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/",
+      "category": "industry",
+      "published": "2026-10-08",
+      "summary": "A user reports every commit in Strata's repo was rewritten to strip the 'Co-Authored by Claude' line, which breaks anyone holding an old clone."
+    },
     {
       "title": "Anthropic's Cyber Mission: free scanning for open source",
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
@@ -395,34 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-07",
       "summary": "A full song studio around the open YuE2 model: write lyrics, get vocals and stems locally."
-    },
-    {
-      "title": "A 20,000-parameter model that can still write stories",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzp2ja/trained_a_20k_lm_probably_smallest_that_can_still/",
-      "category": "ai_research",
-      "published": "2026-10-07",
-      "summary": "A 19,969-parameter model, 81 KB in size, still writes coherent short stories."
-    },
-    {
-      "title": "Claude Code adds a per-subagent effort level",
-      "url": "https://x.com/lydiahallie/status/2107625236430798909",
-      "category": "agents_tooling",
-      "published": "2026-10-07",
-      "summary": "Claude Code v2.1.292+ lets you set the reasoning-effort level for each subagent, so hard parts get more thinking than the rest."
-    },
-    {
-      "title": "Nous launches a benchmark for models running inside Hermes",
-      "url": "https://x.com/NousResearch/status/2107592255124951360",
-      "category": "hermes_nous",
-      "published": "2026-10-06",
-      "summary": "Hermes Index averages benchmarks that measure how models perform inside Hermes Agent, rather than the scores vendors publish themselves."
-    },
-    {
-      "title": "Report: Meta raced to fix Muse VM-escape bugs before launch",
-      "url": "https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/",
-      "category": "policy",
-      "published": "2026-10-06",
-      "summary": "Before Muse launched, Meta engineers raced to fix KVM-escape bugs, one of which could have reached internal databases, per 404 Media."
     }
   ]
 }

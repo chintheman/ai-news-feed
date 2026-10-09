@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-10-09T13:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 4,
+  "tldr": "StepFun's new Step 5 Preview model showed up on OpenRouter, with a one-million-token window so it can read a whole codebase in one go. LegalOn cut its daily Codex bill by 65% by sending different jobs to different OpenAI models. A developer found that a startup rewrote its entire git history to erase the lines saying Claude helped write the code. Alibaba is giving away a week of free access to three of its models through GMI Cloud.",
+  "articles": [
+    {
+      "title": "StepFun's Step 5 Preview lands on OpenRouter with a 1M-token window",
+      "url": "https://openrouter.ai/stepfun/step-5-preview",
+      "category": "ai_models",
+      "published": "2026-10-09",
+      "summary": "A sparse mixture-of-experts model with 600B total and 27B active parameters, aimed at long agent runs over whole codebases. Weights promised Oct 15."
+    },
+    {
+      "title": "LegalOn cut its Codex bill 65% by routing work across three models",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "category": "platforms_integration",
+      "published": "2026-10-08",
+      "summary": "OpenAI's write-up says LegalOn matched Astra, Sol and Luna to each task and managed budgets per job instead of sending everything to one model."
+    },
+    {
+      "title": "A startup rewrote its git history to erase Claude's co-author tags",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/",
+      "category": "industry",
+      "published": "2026-10-08",
+      "summary": "A user reports every commit in Strata's repo was rewritten to strip the 'Co-Authored by Claude' line, which breaks anyone holding an old clone."
+    },
+    {
+      "title": "Alibaba opens a free week for Qwen3.8-Max, Flash and Wan3.0",
+      "url": "https://x.com/Alibaba_Qwen/status/2108401307577090259",
+      "category": "chinese_ai",
+      "published": "2026-10-09",
+      "summary": "Access runs through GMI Cloud for one week. All three models had already shipped, so this is a distribution push rather than a release."
+    }
+  ]
+}
