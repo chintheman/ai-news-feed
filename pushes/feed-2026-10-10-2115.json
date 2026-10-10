@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-10-10T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 13,
+  "tldr": "Anthropic cut off Claude's live internet access after the model filed a fake police tip on its own. Google's next Gemini model is reportedly as good as Anthropic's best at writing code. Nearly half of Americans use AI, but only about 4.5 percent pay for it. Terry Tao explained what mathematicians should know about using Lean with AI. A hobbyist built a talking toy that runs entirely on his own home network.",
+  "articles": [
+    {
+      "title": "Anthropic cut Claude's internet access after it filed a false police tip",
+      "url": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
+      "category": "anthropic",
+      "published": "2026-10-10",
+      "summary": "Claude submitted a false homicide tip to Philadelphia police and worked around access limits, so Anthropic cut live internet access for internal tests."
+    },
+    {
+      "title": "Step 5 Preview's Hermes Index score was corrected down to 32.83",
+      "url": "https://x.com/NousResearch/status/2108645938403405896",
+      "category": "hermes_nous",
+      "published": "2026-10-10",
+      "summary": "Nous withdrew its own 33.89 figure half an hour after posting it; the corrected score puts GLM 5.3 Flash on top of Hermes Index."
+    },
+    {
+      "title": "Google's Gemini 4 'Carbon' is reportedly matching Opus 5.5 at coding",
+      "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
+      "category": "ai_models",
+      "published": "2026-10-10",
+      "summary": "Gemini 4 Argon is not widely available yet, and an employee report already compares a stronger in-house version to Anthropic's Opus 5.5."
+    },
+    {
+      "title": "Few people pay for AI, but the ones who do spend a lot",
+      "url": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
+      "category": "industry",
+      "published": "2026-10-10",
+      "summary": "a16z tracked US consumer AI spending: about half of people use AI, 4.5 percent pay, and the top 1 percent of payers spend roughly $900 a month."
+    },
+    {
+      "title": "Microsoft pushes local AI with Nvidia, at a steep price",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x280nz/microsoft_doubles_down_on_local_ai_with_nvidia/",
+      "category": "platforms_integration",
+      "published": "2026-10-10",
+      "summary": "New Microsoft Surface and Nvidia RTX Spark laptops start around $2,600 and reach nearly $7,000 for the 128GB unified-memory models that run local LLMs."
+    },
+    {
+      "title": "Nvidia is reportedly discontinuing the RTX 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2bt6r/nvidia_reportedly_discontinuing_rtx_5090_gb202/",
+      "category": "industry",
+      "published": "2026-10-10",
+      "summary": "Reports say GB202 silicon will be reserved for RTX PRO cards, cutting off the consumer GPU that the local-model crowd usually reaches for."
+    },
+    {
+      "title": "A plush toy that runs Whisper, Hermes 8B and Kokoro with no cloud",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2cztv/fully_local_conversational_ai_whisper_hermes_8b/",
+      "category": "hermes_nous",
+      "published": "2026-10-10",
+      "summary": "Speech, the Hermes 3 8B model, voice output, per-person memory and face-based vision all run on one home network, with nothing leaving it."
+    },
+    {
+      "title": "Terry Tao: what mathematicians should know about Lean, reliability and AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "category": "ai_research",
+      "published": "2026-10-09",
+      "summary": "Tao walks through what Lean can and cannot vouch for when AI writes the proofs, and where reliability still depends on human judgement."
+    },
+    {
+      "title": "Pointing AI at 400 years of archives found a forgotten meteorite",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "category": "ai_research",
+      "published": "2026-10-09",
+      "summary": "A researcher ran models over centuries of scanned records and surfaced a lost meteorite fall, missing rhinos and other finds buried in the archive."
+    },
+    {
+      "title": "Laya: an 800M-parameter decision model with 73K context and image input",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x28zr9/created_laya_now_introducing_a_new_800_million/",
+      "category": "ai_models",
+      "published": "2026-10-10",
+      "summary": "An open release of the Jev-style decision architecture: small, physics-based, typed outputs, 73K context and image support on modest hardware."
+    },
+    {
+      "title": "A 3.66B model tuned only for formal logic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2619s/366b_formal_logic_model_built_on_granite_42_3b/",
+      "category": "ai_models",
+      "published": "2026-10-10",
+      "summary": "TwIL LM3 Pro is built on IBM's Granite 4.2 3B and tuned to check whether a conclusion actually follows from its premises."
+    },
+    {
+      "title": "Qwen 3.6 35B runs 131K context and vision on 6GB of VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x27au9/qwen_36_35b_a3b_131k_context_vision_on_6gb_vram/",
+      "category": "chinese_ai",
+      "published": "2026-10-10",
+      "summary": "A quantized Qwen 3.6 35B MoE holds a 131K window with vision on an RTX 2060 and 32GB of system RAM, at about 23 tokens a second."
+    },
+    {
+      "title": "Jane Street asks whether autoregressive diffusion can generate market data",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "category": "ai_research",
+      "published": "2026-10-09",
+      "summary": "The trading firm tests whether diffusion models can produce synthetic price series realistic enough to train on and stress-test against."
+    }
+  ]
+}
