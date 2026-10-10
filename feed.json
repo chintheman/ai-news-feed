@@ -1,15 +1,71 @@
 {
-  "updated_at": "2026-10-10T08:16:15+08:00",
+  "updated_at": "2026-10-10T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic can now split a job across as many as a thousand sub-agents at once. Microsoft released a small model that answers yes/no and grading questions in one pass, far faster than a big chat model. StepFun's large model is free on Nous Portal for a week. Alibaba's new image model makes and edits 2K pictures in eight steps, and the weights are open. On the tools side, Claude Code can now give each sub-agent its own thinking budget.",
+  "tldr": "Anthropic will now publish regular reports on how Claude behaves, and the first one covers four kinds of behaviour where it acted in ways nobody intended. Anthropic also made its prompt cache's lifetime a setting, so developers can trade cost against speed. Hermes Agent's next release replaces its plug-in catalogue with easier app connectors and adds signed Windows installers. A new Blackwell engine runs Qwen3.8 Flash-Next at 665 tokens a second, and a 27-billion-parameter Qwen now fits at 200K context on a 12GB card. Typesafe AI raised $870M at a $7.5B valuation three weeks after it launched.",
   "articles": [
+    {
+      "title": "Anthropic starts publishing reports on how Claude actually behaves",
+      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+      "category": "anthropic",
+      "published": "2026-10-10",
+      "summary": "The first report beyond the system cards covers four kinds of behaviour where Claude acted on real systems in ways Anthropic did not intend."
+    },
+    {
+      "title": "Prompt-cache lifetime on Anthropic's API is now a setting",
+      "url": "https://x.com/bcherny/status/2108768259516281038",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "The API keeps a 5-minute prompt cache by default and interactive use an hour; both are now configurable when the defaults cost you money."
+    },
+    {
+      "title": "Basalt runs Qwen3.8 Flash-Next at 665 tokens/s on Blackwell",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose/",
+      "category": "ai_models",
+      "published": "2026-10-10",
+      "summary": "A tuned Strata fork for Qwen3.8 Flash-Next on Blackwell hits 665 tokens/s on structured output and 354 on prose, about 2.6x Strata."
+    },
+    {
+      "title": "REA: an open-source reverse-engineering agent hits #1 on GitHub",
+      "url": "https://rea.tools/",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "The rea.tools project drew 169 points and 42 comments on Hacker News, and its repo hit the top of GitHub trending this week."
+    },
     {
       "title": "Step 5 Preview is free on Nous Portal for a week",
       "url": "https://x.com/NousResearch/status/2108638389045960958",
       "category": "hermes_nous",
       "published": "2026-10-10",
       "summary": "StepFun's 600B mixture-of-experts model with a 1M-token window and vision is free for seven days, matching GPT-6 Luna on the Hermes Index."
+    },
+    {
+      "title": "Hermes Agent's next release swaps the MCP catalogue for app connectors",
+      "url": "https://x.com/Teknium/status/2108386852776653060",
+      "category": "hermes_nous",
+      "published": "2026-10-09",
+      "summary": "Due around Tuesday: rebuilt desktop onboarding, connectors far easier to set up than the old MCP catalogue, and signed Windows binaries."
+    },
+    {
+      "title": "Qwen3.8-27B holds 200K context on a 12GB Ampere card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1xt1x/qwen38_27b_with_200k_ctx_mtp_on_12gb_ampere_cards/",
+      "category": "chinese_ai",
+      "published": "2026-10-09",
+      "summary": "LlamAmpere runs the 27B model with speculative decoding on a 3090 and is 3-4% faster with a few hundred MB less memory than the last build."
+    },
+    {
+      "title": "Typesafe AI raises $870M at a $7.5B valuation",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "category": "industry",
+      "published": "2026-10-09",
+      "summary": "The round values the company at $7.5B three weeks after launch and drew 298 points and 226 comments on Hacker News."
+    },
+    {
+      "title": "LumaBrowser, the 'Anthropic/ChatGPT in a box', goes open source",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/",
+      "category": "platforms_integration",
+      "published": "2026-10-09",
+      "summary": "After a year of development and several thousand installs, the developer open-sourced LumaBrowser, a client that puts Claude and ChatGPT in one place."
     },
     {
       "title": "Claude now runs up to 1,000 sub-agents in parallel",
@@ -367,62 +423,6 @@
       "category": "policy",
       "published": "2026-10-08",
       "summary": "Justin Drake wants the industry ready for a world where AI-powered maths breaks wallet signatures in months; Vitalik Buterin urges caution."
-    },
-    {
-      "title": "OpenAI says it disrupted two AI-run influence operations",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "category": "policy",
-      "published": "2026-10-08",
-      "summary": "OpenAI took down two operations that used false-front journalists and a think tank to spread geopolitical messaging with its models."
-    },
-    {
-      "title": "JetBrains ships Mellum2.1, a small mixture-of-experts coding model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0u6l7/mellum21_a_jetbrains_collection/",
-      "category": "ai_models",
-      "published": "2026-10-08",
-      "summary": "Mellum2.1 is a 12B coding model with only 2.5B parameters active per token, released as GGUF for local use on Hugging Face."
-    },
-    {
-      "title": "Google Cloud launches one agent that picks the best model per job",
-      "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
-      "category": "agents_tooling",
-      "published": "2026-10-08",
-      "summary": "A universal work agent in Gemini Enterprise, Workspace and third-party apps that routes each job across the Gemini and Claude model families."
-    },
-    {
-      "title": "Google opens its agent gateway to everyone",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform",
-      "category": "platforms_integration",
-      "published": "2026-10-08",
-      "summary": "Agent Gateway sits between an agent and its tools: it mediates MCP, A2A, REST and gRPC, checks the agent's identity, and allows or denies each call."
-    },
-    {
-      "title": "A poisoned AI toolkit on npm was stealing keys and passwords",
-      "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-      "category": "platforms_integration",
-      "published": "2026-10-08",
-      "summary": "Npm pulled a compromised version of the Tensorlake SDK that carried the Shai-Hulud worm, which harvests credentials and runs remotely supplied code."
-    },
-    {
-      "title": "CrowdStrike: one attacker used AI tools to hit South Korean banks",
-      "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
-      "category": "policy",
-      "published": "2026-10-08",
-      "summary": "A likely single attacker used an open-source AI pentest tool plus DeepSeek, GLM-5.3, Grok 4.6 and Claude Code, taking 25,000+ records at one bank."
-    },
-    {
-      "title": "A Claude-planned mountain hike ends in a helicopter rescue",
-      "url": "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
-      "category": "policy",
-      "published": "2026-10-08",
-      "summary": "A 16-year-old routed a Crown Mountain hike with Claude, which sent him down a path needing climbing gear; he was airlifted off a rock face."
-    },
-    {
-      "title": "Researchers strip Qwen's built-in political refusals",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0npmx/we_unlearned_ccp_alignment_from_qwen3635ba3b/",
-      "category": "ai_research",
-      "published": "2026-10-08",
-      "summary": "Hirundo says it unlearned Qwen3.6-35B-A3B's aligned refusals, cutting canned censored answers from 89.8% to 2.8% with general benchmarks within a point."
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-10-10T13:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 8,
+  "tldr": "Anthropic will now publish regular reports on how Claude behaves, and the first one covers four kinds of behaviour where it acted in ways nobody intended. Anthropic also made its prompt cache's lifetime a setting, so developers can trade cost against speed. Hermes Agent's next release replaces its plug-in catalogue with easier app connectors and adds signed Windows installers. A new Blackwell engine runs Qwen3.8 Flash-Next at 665 tokens a second, and a 27-billion-parameter Qwen now fits at 200K context on a 12GB card. Typesafe AI raised $870M at a $7.5B valuation three weeks after it launched.",
+  "articles": [
+    {
+      "title": "Anthropic starts publishing reports on how Claude actually behaves",
+      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+      "category": "anthropic",
+      "published": "2026-10-10",
+      "summary": "The first report beyond the system cards covers four kinds of behaviour where Claude acted on real systems in ways Anthropic did not intend."
+    },
+    {
+      "title": "Prompt-cache lifetime on Anthropic's API is now a setting",
+      "url": "https://x.com/bcherny/status/2108768259516281038",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "The API keeps a 5-minute prompt cache by default and interactive use an hour; both are now configurable when the defaults cost you money."
+    },
+    {
+      "title": "Hermes Agent's next release swaps the MCP catalogue for app connectors",
+      "url": "https://x.com/Teknium/status/2108386852776653060",
+      "category": "hermes_nous",
+      "published": "2026-10-09",
+      "summary": "Due around Tuesday: rebuilt desktop onboarding, connectors far easier to set up than the old MCP catalogue, and signed Windows binaries."
+    },
+    {
+      "title": "Basalt runs Qwen3.8 Flash-Next at 665 tokens/s on Blackwell",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose/",
+      "category": "ai_models",
+      "published": "2026-10-10",
+      "summary": "A tuned Strata fork for Qwen3.8 Flash-Next on Blackwell hits 665 tokens/s on structured output and 354 on prose, about 2.6x Strata."
+    },
+    {
+      "title": "Qwen3.8-27B holds 200K context on a 12GB Ampere card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1xt1x/qwen38_27b_with_200k_ctx_mtp_on_12gb_ampere_cards/",
+      "category": "chinese_ai",
+      "published": "2026-10-09",
+      "summary": "LlamAmpere runs the 27B model with speculative decoding on a 3090 and is 3-4% faster with a few hundred MB less memory than the last build."
+    },
+    {
+      "title": "Typesafe AI raises $870M at a $7.5B valuation",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "category": "industry",
+      "published": "2026-10-09",
+      "summary": "The round values the company at $7.5B three weeks after launch and drew 298 points and 226 comments on Hacker News."
+    },
+    {
+      "title": "REA: an open-source reverse-engineering agent hits #1 on GitHub",
+      "url": "https://rea.tools/",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "The rea.tools project drew 169 points and 42 comments on Hacker News, and its repo hit the top of GitHub trending this week."
+    },
+    {
+      "title": "LumaBrowser, the 'Anthropic/ChatGPT in a box', goes open source",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/",
+      "category": "platforms_integration",
+      "published": "2026-10-09",
+      "summary": "After a year of development and several thousand installs, the developer open-sourced LumaBrowser, a client that puts Claude and ChatGPT in one place."
+    }
+  ]
+}
