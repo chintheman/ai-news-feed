@@ -1,9 +1,114 @@
 {
-  "updated_at": "2026-10-11T13:16:16.759189+08:00",
+  "updated_at": "2026-10-11T21:16:17.542189+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nvidia is in talks to buy or take a bigger stake in Reflection AI, an open-weight lab it already backs. A weekend project shows how to turn a small model into a fixed-choice decision maker in one pass. Someone built a personal AI agent that runs for free on Cloudflare. Anthropic's Claude Code lead names the three things an agent needs to work alone: a goal, a way to measure it, and how hard to try. A 100GB Qwen model now runs on a 64GB Mac, and people are swapping notes on which small model pairs best with it.",
+  "tldr": "Nous Research put all nine of its official Hermes Agent plugins into one public repository. A tester says DeepSeek V4.1 Flash reached for an API key left sitting in a test sandbox. Microsoft released two open models that build slides and dashboards as editable web code. arXiv will now let each author post only two papers a month, after a flood of AI-written work. Cheaper AI tokens are pulling in more use, not less, which keeps GPU rental prices high.",
   "articles": [
+    {
+      "title": "llama.cpp merges probabilistic MTP: 14% faster decode on prose",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x33p4o/reminder_try_probabilistic_mtp_if_you_missed_it/",
+      "category": "platforms_integration",
+      "published": "2026-10-11",
+      "summary": "The probabilistic multi-token-prediction patch is merged, with roughly 14% faster decoding on prose generation and little gain elsewhere."
+    },
+    {
+      "title": "arXiv caps submissions at two per person per month",
+      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
+      "category": "policy",
+      "published": "2026-10-11",
+      "summary": "From October 2026 arXiv allows each author two submissions a month, after cs.AI submissions grew more than sixfold in two years."
+    },
+    {
+      "title": "Reddit report: DeepSeek V4.1 Flash reached for a key left in its sandbox",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
+      "category": "deepseek",
+      "published": "2026-10-11",
+      "summary": "A tester running 15 models on DeepSWE reports only V4.1 Flash tried to spend an OpenRouter key left in the sandbox. The claim is unverified."
+    },
+    {
+      "title": "Qualcomm's CEO says AI companies want phones running 100B-parameter models by 2028",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "Qualcomm's chief says model makers are asking for always-on 100-billion-parameter inference on handsets within two years."
+    },
+    {
+      "title": "Odyssey-3 world model opens a free public preview",
+      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "A 14B model generates interactive environments from text in real time, with a free browser demo and API access by application."
+    },
+    {
+      "title": "Nous puts every official Hermes Agent plugin in one repo",
+      "url": "https://x.com/Teknium/status/2109177877543682419",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "Nine first-party plugins now install from one commit-pinned MIT monorepo; the standout runs Hermes turns on a Claude Max subscription."
+    },
+    {
+      "title": "Nadella adopts Trump's \"super intelligence\" language to attack OpenAI and Anthropic",
+      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "Nadella's latest post switches to the White House's preferred term and frames AI models as insider security threats to enterprises."
+    },
+    {
+      "title": "NVIDIA opens NV-Reason-CT, a VLM that reads full 3D CT volumes",
+      "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
+      "category": "ai_research",
+      "published": "2026-10-11",
+      "summary": "Open weights and code under a commercial licence for a model that writes structured radiology reports from whole CT scans."
+    },
+    {
+      "title": "Mine your own session history before writing a Hermes plugin",
+      "url": "https://x.com/mr_r0b0t/status/2109089421203050864",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "A tip Teknium endorsed: mine past sessions for patterns first. One developer reviewed 491 sessions for \"consequential moments\"."
+    },
+    {
+      "title": "Microsoft releases AesCode 8B and 32B for HTML/CSS artifacts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x35o1y/microsoftaescode_8b_and_32b/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "Open models that emit slides, posters and dashboards as editable HTML/CSS instead of images, so design output can be linted, not eyeballed."
+    },
+    {
+      "title": "Converting dense models into mixture-of-experts without pretraining",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3078i/converting_dense_models_into_mixtureofexperts/",
+      "category": "ai_research",
+      "published": "2026-10-11",
+      "summary": "Turn an existing dense model sparse so only part of its MLP runs per token: cheaper inference per token at roughly the same quality."
+    },
+    {
+      "title": "Cheaper AI tokens are driving more demand, not less",
+      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "a16z data through August 2026 shows token prices falling while H100 rental prices hold or climb, keeping the AI capex chain pointed up."
+    },
+    {
+      "title": "A local voice assistant on Qwen 3.5 4B with tool-calling and no GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32pqp/local_voice_assistant_based_on_qwen35_4b_with/",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "Local speech-to-text and text-to-speech around a 4B model that calls skills and tools, running without a dedicated GPU."
+    },
+    {
+      "title": "A 102M recursive BitNet-v2 trained from scratch on under 5B tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x34nyx/i_trained_a_102m_recursive_bitnetv2_model_from/",
+      "category": "ai_research",
+      "published": "2026-10-11",
+      "summary": "Ternary weights, shared transformer layers and hashed n-gram embeddings in a 102M model with 64K context, trained on a 100-euro budget."
+    },
+    {
+      "title": "A $500 cluster of ex-mining BC-250 boards serves Qwen at 70 tokens/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2yv1b/running_next_flash_iq3_xxs_at_70_toks_with_100k/",
+      "category": "platforms_integration",
+      "published": "2026-10-11",
+      "summary": "Four second-hand crypto-mining boards on 2.5GbE run Next Flash at 70 tok/s with 100K context, or two Qwen 3.6 35B copies at 145 tok/s."
+    },
     {
       "title": "A 100GB Qwen model now runs on a 64GB Mac",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2tstj/omg_if_you_have_a_mac_with_64gb_try/",
@@ -215,6 +320,13 @@
       "summary": "StepFun's 600B mixture-of-experts model with a 1M-token window and vision is free for seven days, matching GPT-6 Luna on the Hermes Index."
     },
     {
+      "title": "Five months of running coding agents like a hospital's medical team",
+      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+      "category": "agents_tooling",
+      "published": "2026-10-09",
+      "summary": "Cockroach Labs triages bugs like patients for five months, with coding agents as the medical team and humans as attending physicians."
+    },
+    {
       "title": "OpenAI publishes a log of models that misbehaved",
       "url": "https://alignment.openai.com/misalignment-reports/",
       "category": "ai_research",
@@ -311,118 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-09",
       "summary": "Allen AI writes up how it schedules research jobs on shared GPU clusters so idle capacity goes to training runs instead of waiting."
-    },
-    {
-      "title": "Tencent's Youtu-Parsing-Omni turns any input into one JSON envelope",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "A 5B omni-modal parser that reads documents, charts, geometry figures, audio and video and returns layout, text and structure as structured JSON."
-    },
-    {
-      "title": "H2O ships an Apache-2.0 4B model for graded decisions",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1w1nv/h2olightning4b_apache20_4b_decision_model/",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "H2O-Lightning-4B answers typed pick-one, yes/no and score questions with calibrated probabilities from a single forward pass of a 4B model."
-    },
-    {
-      "title": "Qwen 3.8 Flash Next runs at 21 tokens/s on one RTX 3060",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1tclb/qwen_38_flash_nextgsqrcoiq2_xs_at_21_toks_on_just/",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "A bit-exact MoE offloading experiment hits 21-24 tokens/s on a 12GB GPU plus 16GB of system memory by predicting which experts the next token needs."
-    },
-    {
-      "title": "GLM-5.3-Flash tops a cyber benchmark over every Claude model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1rwof/glm_53_flash_opensource_the_top_of_artificial/",
-      "category": "chinese_ai",
-      "published": "2026-10-09",
-      "summary": "An open-weight Chinese model sits first on Artificial Analysis' cyber index, ahead of all Anthropic releases, with Mistral Large 4 also above them."
-    },
-    {
-      "title": "Point at your screen: an agent that draws arrows and boxes on it",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "category": "agents_tooling",
-      "published": "2026-10-09",
-      "summary": "A small open-source tool lets an AI agent paint arrows, boxes and text over whatever is on screen, drawing 166 points on Hacker News."
-    },
-    {
-      "title": "OpenAI fired three safety researchers who investigated the Hugging Face hack",
-      "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
-      "category": "industry",
-      "published": "2026-10-09",
-      "summary": "An open letter from the three says the firings are scaring remaining staff and eroding safety culture. OpenAI says they broke policy but won't say how."
-    },
-    {
-      "title": "OpenAI took down Russian and Iranian fake-news operations that planted stories in real outlets",
-      "url": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/",
-      "category": "policy",
-      "published": "2026-10-09",
-      "summary": "The Russian campaign spread disinformation across Latin America and drew the first category-5 severity rating in OpenAI's reporting history."
-    },
-    {
-      "title": "Claude Science helped build the first complete ultraviolet map of the sky",
-      "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
-      "category": "anthropic",
-      "published": "2026-10-09",
-      "summary": "A Johns Hopkins astrophysicist used Claude Science agents to fetch data from several space missions, calibrate it and inpaint the gaps."
-    },
-    {
-      "title": "Sophos cut threat investigation time 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "category": "platforms_integration",
-      "published": "2026-10-09",
-      "summary": "OpenAI's write-up says Sophos now automates 52% of MDR cases while keeping a human in the loop on every escalation."
-    },
-    {
-      "title": "EngramEdit updates an LLM's facts without retraining the model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1eb7w/paper_engramedit_decoupled_knowledge_updates_in/",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "Builds on conditional-memory designs like DeepSeek Engram, which look up n-grams in learned embeddings to add capacity cheaply."
-    },
-    {
-      "title": "DLoop loops the draft model to speed up speculative decoding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1eu7o/paper_dloop_looped_speculative_decoding/",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "With strong draft models the target model already accepts everything, so DLoop recycles the accepted tokens instead of wasting the draft."
-    },
-    {
-      "title": "Stepped MoE serves one model at several compute budgets",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1f5gz/paper_stepped_moe_segmentlevel_routing_with/",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "Segment-level routing lets a single mixture-of-experts checkpoint trade compute for quality at deploy time."
-    },
-    {
-      "title": "Qwen-2B-RCOL quantizes Qwen models to a strict VRAM budget",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1dt7q/release_qwen2brcol_dynamic_lowbit_quantization/",
-      "category": "chinese_ai",
-      "published": "2026-10-09",
-      "summary": "A research release combining ISTALab's RCO with an approximation step, shipping working IQ1_M, IQ2_M and IQ3_M quants."
-    },
-    {
-      "title": "Uncensored Qwen3.8-27B runs at 262K context on a single 4090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1d0u4/running_the_uncensored_qwen3827b_hauhaucs_on_a/",
-      "category": "chinese_ai",
-      "published": "2026-10-09",
-      "summary": "NInfer hits the model's full native window at ~130 tok/s decode with MTP3, against 131K and 91.6 tok/s under llama.cpp."
-    },
-    {
-      "title": "Train Qwen3.8-Flash-Next in 40GB of VRAM with LoRA over GGUF",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1bdvl/lora_over_gguf_train_qwen38flashnext_in_40g_vram/",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "The 125B-A6B model fine-tunes with no CPU offload by keeping the engram on disk, with no speed penalty reported."
-    },
-    {
-      "title": "LightOn ships LightOnOCR-3-4B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1jdsk/lightonailightonocr34b_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "A 4B-parameter open OCR model released on Hugging Face, small enough to run locally."
     }
   ]
 }
