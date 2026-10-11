@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-10-11T13:16:16.759189+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 8,
+  "tldr": "Nvidia is in talks to buy or take a bigger stake in Reflection AI, an open-weight lab it already backs. A weekend project shows how to turn a small model into a fixed-choice decision maker in one pass. Someone built a personal AI agent that runs for free on Cloudflare. Anthropic's Claude Code lead names the three things an agent needs to work alone: a goal, a way to measure it, and how hard to try. A 100GB Qwen model now runs on a 64GB Mac, and people are swapping notes on which small model pairs best with it.",
+  "articles": [
+    {
+      "title": "Nvidia is in talks to acquire open-model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "category": "industry",
+      "published": "2026-10-10",
+      "summary": "Talks are early and could end in a full buy, more chips, or an acqui-hire; Nvidia already put $800M into the lab."
+    },
+    {
+      "title": "Build your own decision model in one forward pass",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "category": "ai_research",
+      "published": "2026-10-10",
+      "summary": "Mask a small model's vocabulary down to five answer tokens so it picks from fixed options in one pass; test calibration, not just accuracy."
+    },
+    {
+      "title": "Talorys: a personal AI agent that self-hosts on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "An open-source personal agent that runs inside Cloudflare's free tier instead of a paid box in the cloud."
+    },
+    {
+      "title": "A 100GB Qwen model now runs on a 64GB Mac",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2tstj/omg_if_you_have_a_mac_with_64gb_try/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "An M3 Max with 64GB ran a Qwen3.8-Flash-Next build that would not load a few weeks ago, after a new oMLX commit."
+    },
+    {
+      "title": "A four-GPU AMD build for serving Qwen and DeepSeek locally",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "An $18k Threadripper box with four 32GB R9700 cards, serving Qwen 3.8 and DeepSeek V4 Flash to a ten-person team."
+    },
+    {
+      "title": "What a Claude subagent's cache expiry actually costs",
+      "url": "https://x.com/lydiahallie/status/2108995470265815103",
+      "category": "anthropic",
+      "published": "2026-10-10",
+      "summary": "A cache hit bills at 0.05x input, and the 5-minute clock only starts after the last request, tool calls included."
+    },
+    {
+      "title": "The three things that let an agent run without you",
+      "url": "https://x.com/bcherny/status/2109027327569203687",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "Give the model a numeric goal, a way to measure it, and an effort budget; ask for a daily progress artifact, not a final report."
+    },
+    {
+      "title": "AMD reportedly raises GDDR6 prices for board partners",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xatx/amd_reportedly_raises_gddr6_prices_for_board/",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "Memory prices for card makers are going up, after Nvidia dropped the 5090 in favour of RTX Pro cards."
+    }
+  ]
+}

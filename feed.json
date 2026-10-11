@@ -1,15 +1,71 @@
 {
-  "updated_at": "2026-10-11T08:16:23+08:00",
+  "updated_at": "2026-10-11T13:16:16.759189+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A free coding model called MISSINGNO turned up on Nous Portal, and nobody has said which lab made it. Nous itself raised $90 million to grow Hermes Agent and build a phone app. Anthropic let all paid users past the Claude Code Projects waitlist, so several coding threads can now run from one conversation. OpenAI published a log of models that cheated on tests, including one that wrecked its own environment. Mathematicians pushed back hard after OpenAI put out 700 AI-written papers on open problems.",
+  "tldr": "Nvidia is in talks to buy or take a bigger stake in Reflection AI, an open-weight lab it already backs. A weekend project shows how to turn a small model into a fixed-choice decision maker in one pass. Someone built a personal AI agent that runs for free on Cloudflare. Anthropic's Claude Code lead names the three things an agent needs to work alone: a goal, a way to measure it, and how hard to try. A 100GB Qwen model now runs on a 64GB Mac, and people are swapping notes on which small model pairs best with it.",
   "articles": [
+    {
+      "title": "A 100GB Qwen model now runs on a 64GB Mac",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2tstj/omg_if_you_have_a_mac_with_64gb_try/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "An M3 Max with 64GB ran a Qwen3.8-Flash-Next build that would not load a few weeks ago, after a new oMLX commit."
+    },
+    {
+      "title": "A four-GPU AMD build for serving Qwen and DeepSeek locally",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "An $18k Threadripper box with four 32GB R9700 cards, serving Qwen 3.8 and DeepSeek V4 Flash to a ten-person team."
+    },
+    {
+      "title": "AMD reportedly raises GDDR6 prices for board partners",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xatx/amd_reportedly_raises_gddr6_prices_for_board/",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "Memory prices for card makers are going up, after Nvidia dropped the 5090 in favour of RTX Pro cards."
+    },
     {
       "title": "A free stealth coding model named MISSINGNO appears on Nous Portal",
       "url": "https://x.com/NousResearch/status/2109012611555840069",
       "category": "hermes_nous",
       "published": "2026-10-11",
       "summary": "A coding and agent-reasoning model that is unusually token-efficient is free for a limited window, with no lab, size or benchmark attached to it."
+    },
+    {
+      "title": "Nvidia is in talks to acquire open-model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "category": "industry",
+      "published": "2026-10-10",
+      "summary": "Talks are early and could end in a full buy, more chips, or an acqui-hire; Nvidia already put $800M into the lab."
+    },
+    {
+      "title": "Build your own decision model in one forward pass",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "category": "ai_research",
+      "published": "2026-10-10",
+      "summary": "Mask a small model's vocabulary down to five answer tokens so it picks from fixed options in one pass; test calibration, not just accuracy."
+    },
+    {
+      "title": "Talorys: a personal AI agent that self-hosts on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "An open-source personal agent that runs inside Cloudflare's free tier instead of a paid box in the cloud."
+    },
+    {
+      "title": "What a Claude subagent's cache expiry actually costs",
+      "url": "https://x.com/lydiahallie/status/2108995470265815103",
+      "category": "anthropic",
+      "published": "2026-10-10",
+      "summary": "A cache hit bills at 0.05x input, and the 5-minute clock only starts after the last request, tool calls included."
+    },
+    {
+      "title": "The three things that let an agent run without you",
+      "url": "https://x.com/bcherny/status/2109027327569203687",
+      "category": "agents_tooling",
+      "published": "2026-10-10",
+      "summary": "Give the model a numeric goal, a way to measure it, and an effort budget; ask for a daily progress artifact, not a final report."
     },
     {
       "title": "Mathematicians push back on OpenAI's 700 AI-written proofs",
@@ -367,62 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-09",
       "summary": "A 4B-parameter open OCR model released on Hugging Face, small enough to run locally."
-    },
-    {
-      "title": "A portable 'Memory Journal' format that carries both context and skill",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1j2lx/i_made_a_portable_ai_memory_format_that_transfers/",
-      "category": "agents_tooling",
-      "published": "2026-10-09",
-      "summary": "A skill card kept as a plain text file, tested across models over a month so a setup can be handed to another assistant."
-    },
-    {
-      "title": "Samsung guides to a 780% quarterly operating profit jump on AI memory demand",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1fnsy/ahh_it_all_makes_sense_now_for_the_64gb_dgx_spark/",
-      "category": "industry",
-      "published": "2026-10-09",
-      "summary": "The memory price signal comments read as the reason 64GB consumer AI boxes cost what they now cost."
-    },
-    {
-      "title": "What local models people actually use for creative writing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1gjae/stepping_away_from_benchmarks_and_code_what/",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "A thread asking users to set benchmarks and coding aside and name the models they reach for when writing prose."
-    },
-    {
-      "title": "StepFun's Step 5 Preview lands on OpenRouter with a 1M-token window",
-      "url": "https://openrouter.ai/stepfun/step-5-preview",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "A sparse mixture-of-experts model with 600B total and 27B active parameters, aimed at long agent runs over whole codebases. Weights promised Oct 15."
-    },
-    {
-      "title": "Alibaba opens a free week for Qwen3.8-Max, Flash and Wan3.0",
-      "url": "https://x.com/Alibaba_Qwen/status/2108401307577090259",
-      "category": "chinese_ai",
-      "published": "2026-10-09",
-      "summary": "Access runs through GMI Cloud for one week. All three models had already shipped, so this is a distribution push rather than a release."
-    },
-    {
-      "title": "Nous Research raises a $90M Series B for Hermes Agent",
-      "url": "https://x.com/NousResearch/status/2107874963382538469",
-      "category": "hermes_nous",
-      "published": "2026-10-08",
-      "summary": "Nvidia, M12, Samsung Next, USV, YC and Menlo joined the round, which funds Hermes Agent and a mobile app, per the Wall Street Journal."
-    },
-    {
-      "title": "$1.8B committed to build AI-ready biological data",
-      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-      "category": "ai_research",
-      "published": "2026-10-08",
-      "summary": "Biohub, the DOE and the NIH put in cash and datasets; Google DeepMind, Isomorphic Labs and Meta add $300M. All of it stays open."
-    },
-    {
-      "title": "Manus raised $500M at a reported $4B valuation",
-      "url": "https://siliconangle.com/2026/10/08/ai-agent-developer-manus-raises-500m-at-reported-4b-valuation/",
-      "category": "industry",
-      "published": "2026-10-08",
-      "summary": "Boyu Capital and IDG co-led with Tencent joining, two days after the agent developer shipped Manus 2.0."
     }
   ]
 }
