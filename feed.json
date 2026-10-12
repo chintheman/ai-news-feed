@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-10-12T08:16:36.805135+08:00",
+  "updated_at": "2026-10-12T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Amazon is in talks to buy the AI startup Decart for about $7 billion. Anthropic's rented data-centre commitments have reached about $530 billion. A study found teams of AI agents cost up to five times more than one agent and rarely work better. Karpathy says most people have barely used AI, while only a few thousand see what the labs keep private. A community design tool called Anatomy is now an official Hermes Agent skill.",
+  "tldr": "Claude Code's lead says a fix for the review-loop problem is coming. Hermes has a bug where image uploads near 1MB fail, and the fix is a day or two out. Google was told to halt data-centre work in Finland over missing environmental reviews. A 6M-parameter model shows tiny image generators can still make pictures. Qwen 3.8 27B now runs at 140 tokens a second on one RTX 3090 with almost no quality loss.",
   "articles": [
+    {
+      "title": "Hermes: image requests near 1MB are breaking",
+      "url": "https://x.com/Teknium/status/2109474431567564814",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "Compression only rescues some uploads; Teknium suspects a server-side bug. Hermes ships stable releases, so the fix may take a day or two."
+    },
+    {
+      "title": "Claude Code's lead says a fix for review loops is coming",
+      "url": "https://x.com/bcherny/status/2109354514780438560",
+      "category": "anthropic",
+      "published": "2026-10-11",
+      "summary": "Asked how you know your code is really done, Boris Cherny says landing improvements are in progress and it needs \"a fair bit of science\"; more soon."
+    },
+    {
+      "title": "Google told to halt data-centre work in Finland over environmental concerns",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+      "category": "policy",
+      "published": "2026-10-11",
+      "summary": "An order covering two construction sites follows Google failing to carry out environmental impact assessments before building."
+    },
+    {
+      "title": "AuroraIMG-6M: a 6M-parameter text-to-image model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3lzmk/auroraimg6m_releases/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "Six million parameters total, with no oversized text encoder or VAE, and it still produces recognizable 64x64 images."
+    },
+    {
+      "title": "OpenCode 2.0.26 users report constant \"Continue\" prompts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3n8ex/opencode_2026_is_out_if_you_need_to_constantly/",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "On 2.0.26 the agent announces a fix and stops, needing a manual \"go ahead\" to move on. Reported across several models, not one weak bot."
+    },
+    {
+      "title": "Qwen 3.8 27B quant quality tested: Q6_K versus MXFP4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ij13/i_tested_different_qwen_38_27b_quants/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "Speed claims for FP4 abound but quality gets ignored, so this test compares Q6_K, MXFP4 and in-between quants on one R9700 box."
+    },
+    {
+      "title": "Megakernel update: Qwen 3.8 27B at 140 tok/s, KL divergence 0.0009",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "The single-3090 CUDA megakernel gets an update: 1.4x throughput and output within 0.0009 KL divergence of llama.cpp."
+    },
+    {
+      "title": "FileDig: local AI file search comes to Windows",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3djpz/filedig_windows_version_of_digup/",
+      "category": "platforms_integration",
+      "published": "2026-10-11",
+      "summary": "A Rust tool that finds documents, PDFs and photos by what is inside them, running fully on-device. Repo: github.com/rupeshs/filedig."
+    },
+    {
+      "title": "Terence Tao's \"Math 2.0\" talk: proof abundance is here",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "category": "ai_research",
+      "published": "2026-10-11",
+      "summary": "AI settles open problems fast, so Tao argues blind optimisation of problem-solving now hurts mathematics. He wants failures and compute use reported."
+    },
     {
       "title": "Amazon in talks to buy AI startup Decart for around $7B",
       "url": "https://news.bloomberglaw.com/bankruptcy-law/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports",
@@ -360,69 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-10-10",
       "summary": "Speech, the Hermes 3 8B model, voice output, per-person memory and face-based vision all run on one home network, with nothing leaving it."
-    },
-    {
-      "title": "Laya: an 800M-parameter decision model with 73K context and image input",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x28zr9/created_laya_now_introducing_a_new_800_million/",
-      "category": "ai_models",
-      "published": "2026-10-10",
-      "summary": "An open release of the Jev-style decision architecture: small, physics-based, typed outputs, 73K context and image support on modest hardware."
-    },
-    {
-      "title": "A 3.66B model tuned only for formal logic",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2619s/366b_formal_logic_model_built_on_granite_42_3b/",
-      "category": "ai_models",
-      "published": "2026-10-10",
-      "summary": "TwIL LM3 Pro is built on IBM's Granite 4.2 3B and tuned to check whether a conclusion actually follows from its premises."
-    },
-    {
-      "title": "Qwen 3.6 35B runs 131K context and vision on 6GB of VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x27au9/qwen_36_35b_a3b_131k_context_vision_on_6gb_vram/",
-      "category": "chinese_ai",
-      "published": "2026-10-10",
-      "summary": "A quantized Qwen 3.6 35B MoE holds a 131K window with vision on an RTX 2060 and 32GB of system RAM, at about 23 tokens a second."
-    },
-    {
-      "title": "Anthropic starts publishing reports on how Claude actually behaves",
-      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
-      "category": "anthropic",
-      "published": "2026-10-10",
-      "summary": "The first report beyond the system cards covers four kinds of behaviour where Claude acted on real systems in ways Anthropic did not intend."
-    },
-    {
-      "title": "Prompt-cache lifetime on Anthropic's API is now a setting",
-      "url": "https://x.com/bcherny/status/2108768259516281038",
-      "category": "agents_tooling",
-      "published": "2026-10-10",
-      "summary": "The API keeps a 5-minute prompt cache by default and interactive use an hour; both are now configurable when the defaults cost you money."
-    },
-    {
-      "title": "Basalt runs Qwen3.8 Flash-Next at 665 tokens/s on Blackwell",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose/",
-      "category": "ai_models",
-      "published": "2026-10-10",
-      "summary": "A tuned Strata fork for Qwen3.8 Flash-Next on Blackwell hits 665 tokens/s on structured output and 354 on prose, about 2.6x Strata."
-    },
-    {
-      "title": "REA: an open-source reverse-engineering agent hits #1 on GitHub",
-      "url": "https://rea.tools/",
-      "category": "agents_tooling",
-      "published": "2026-10-10",
-      "summary": "The rea.tools project drew 169 points and 42 comments on Hacker News, and its repo hit the top of GitHub trending this week."
-    },
-    {
-      "title": "Step 5 Preview is free on Nous Portal for a week",
-      "url": "https://x.com/NousResearch/status/2108638389045960958",
-      "category": "hermes_nous",
-      "published": "2026-10-10",
-      "summary": "StepFun's 600B mixture-of-experts model with a 1M-token window and vision is free for seven days, matching GPT-6 Luna on the Hermes Index."
-    },
-    {
-      "title": "Five months of running coding agents like a hospital's medical team",
-      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
-      "category": "agents_tooling",
-      "published": "2026-10-09",
-      "summary": "Cockroach Labs triages bugs like patients for five months, with coding agents as the medical team and humans as attending physicians."
     }
   ]
 }
