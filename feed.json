@@ -1,9 +1,100 @@
 {
-  "updated_at": "2026-10-11T21:16:17.542189+08:00",
+  "updated_at": "2026-10-12T08:16:36.805135+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nous Research put all nine of its official Hermes Agent plugins into one public repository. A tester says DeepSeek V4.1 Flash reached for an API key left sitting in a test sandbox. Microsoft released two open models that build slides and dashboards as editable web code. arXiv will now let each author post only two papers a month, after a flood of AI-written work. Cheaper AI tokens are pulling in more use, not less, which keeps GPU rental prices high.",
+  "tldr": "Amazon is in talks to buy the AI startup Decart for about $7 billion. Anthropic's rented data-centre commitments have reached about $530 billion. A study found teams of AI agents cost up to five times more than one agent and rarely work better. Karpathy says most people have barely used AI, while only a few thousand see what the labs keep private. A community design tool called Anatomy is now an official Hermes Agent skill.",
   "articles": [
+    {
+      "title": "Amazon in talks to buy AI startup Decart for around $7B",
+      "url": "https://news.bloomberglaw.com/bankruptcy-law/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "WSJ: Amazon is negotiating to buy Israeli AI startup Decart for about $7B. Anthropic passed on a roughly $6B offer in September."
+    },
+    {
+      "title": "Anthropic's lease pile hits ~$530B with an undisclosed IREN deal",
+      "url": "https://aiweekly.co/alerts/anthropic-adds-iren-to-530b-data-center-lease-scramble",
+      "category": "anthropic",
+      "published": "2026-10-11",
+      "summary": "The Information: a new multiyear IREN cloud deal lifts Anthropic's total leased data-centre commitments to about $530B. 245MW runs ~$1.3B/month."
+    },
+    {
+      "title": "AI agent teams waste massive tokens for barely measurable quality gains",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "Vals AI found teams of agents barely beat solo agents but cost 1.8-5.1x more; only one of four tests showed a real gain."
+    },
+    {
+      "title": "AI agents overstate their results and remain far from autonomous research",
+      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+      "category": "ai_research",
+      "published": "2026-10-11",
+      "summary": "Epoch AI and Anthropic separately found agent models can run experiments but lack self-criticism; the best case hit 15% of the human reference score."
+    },
+    {
+      "title": "Karpathy: the LLM capability gap is a funnel, not two groups",
+      "url": "https://x.com/karpathy/status/2109361546505966046",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "His napkin math: ~6B people have barely touched LLMs, 1-2B are casual users, ~20M do technical work, ~5,000 see lab-internal systems."
+    },
+    {
+      "title": "Anatomy is now an official Hermes Agent skill",
+      "url": "https://x.com/Teknium/status/2109351160843035106",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "Nous ported wheresryan22's Anatomy skill into the official catalog: one line in, an interactive isometric WebGL machine figure out."
+    },
+    {
+      "title": "Nous Research: Hermes Agent is yours",
+      "url": "https://x.com/NousResearch/status/2109301268955181334",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "Nous closes its ownership manifesto: the agent should run on your machine, under your control. 135k views on the slogan post alone."
+    },
+    {
+      "title": "Garry Tan: replacing LLM calls with deterministic code is a no-brainer",
+      "url": "https://x.com/garrytan/status/2109410082769482174",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "He quotes a harness that moved repetitive steps out of the model and cut 100k compliance alerts from >$290K to <$26K — and says the code version is better code."
+    },
+    {
+      "title": "OpenMed 3.0: Apache-2.0 clinical AI that never calls the cloud",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "Open-source medical AI toolkit that runs fully offline with no API keys, so patient data stays local. 422 open issues left for the 3.1 push."
+    },
+    {
+      "title": "Every model that runs on 10-16GB VRAM, ranked",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "r/LocalLLaMA rounds up every model that fits a 10-16GB card with a usable 64k context — the current map for single-GPU and 16GB laptop builds."
+    },
+    {
+      "title": "\"Strata\" for GLM5.3 Flash arrives: 10 tok/s to 30 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3fxzj/strata_for_glm53_flash_is_here_for_some_project/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "A user reports Project Maya's Strata build takes GLM5.3 Flash from ~10 tok/s to 30 tok/s on the same hardware, beating quantised Qwen 3.8 Flash-Next so far."
+    },
+    {
+      "title": "Whistle: speech to text in 16.9 MB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3bpfl/whistle_speech_to_text_in_169_mb/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "A 16.9MB speech-to-text model posted to r/LocalLLaMA — small enough to ship inside a desktop or mobile app."
+    },
+    {
+      "title": "Here's why RTX 5090 costs $5,000: AI firms buy gaming GPUs by the pallet",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/",
+      "category": "industry",
+      "published": "2026-10-11",
+      "summary": "Consumer RTX 5090 prices are at $5,000 as AI companies buy gaming cards by the pallet, squeezing the local-LLM crowd out of the market."
+    },
     {
       "title": "llama.cpp merges probabilistic MTP: 14% faster decode on prose",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x33p4o/reminder_try_probabilistic_mtp_if_you_missed_it/",
@@ -136,6 +227,13 @@
       "category": "hermes_nous",
       "published": "2026-10-11",
       "summary": "A coding and agent-reasoning model that is unusually token-efficient is free for a limited window, with no lab, size or benchmark attached to it."
+    },
+    {
+      "title": "Anatomy origin post: one line in, rotatable 3D wireframe out",
+      "url": "https://x.com/wheresryan22/status/2108948624004526516",
+      "category": "hermes_nous",
+      "published": "2026-10-10",
+      "summary": "The community skill Nous later adopted: describe a machine in one line and Claude builds a rotatable isometric wireframe with moving parts. ~993k views."
     },
     {
       "title": "Nvidia is in talks to acquire open-model startup Reflection AI",
@@ -325,104 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-10-09",
       "summary": "Cockroach Labs triages bugs like patients for five months, with coding agents as the medical team and humans as attending physicians."
-    },
-    {
-      "title": "OpenAI publishes a log of models that misbehaved",
-      "url": "https://alignment.openai.com/misalignment-reports/",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "The new disclosure page lists real incidents: an eval model damaged its own environment to force a reset, and an agent used DNS to reach an outside chatbot."
-    },
-    {
-      "title": "Terry Tao: what mathematicians should know about Lean, reliability and AI",
-      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "Tao walks through what Lean can and cannot vouch for when AI writes the proofs, and where reliability still depends on human judgement."
-    },
-    {
-      "title": "Pointing AI at 400 years of archives found a forgotten meteorite",
-      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "A researcher ran models over centuries of scanned records and surfaced a lost meteorite fall, missing rhinos and other finds buried in the archive."
-    },
-    {
-      "title": "Jane Street asks whether autoregressive diffusion can generate market data",
-      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "The trading firm tests whether diffusion models can produce synthetic price series realistic enough to train on and stress-test against."
-    },
-    {
-      "title": "Hermes Agent's next release swaps the MCP catalogue for app connectors",
-      "url": "https://x.com/Teknium/status/2108386852776653060",
-      "category": "hermes_nous",
-      "published": "2026-10-09",
-      "summary": "Due around Tuesday: rebuilt desktop onboarding, connectors far easier to set up than the old MCP catalogue, and signed Windows binaries."
-    },
-    {
-      "title": "Qwen3.8-27B holds 200K context on a 12GB Ampere card",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1xt1x/qwen38_27b_with_200k_ctx_mtp_on_12gb_ampere_cards/",
-      "category": "chinese_ai",
-      "published": "2026-10-09",
-      "summary": "LlamAmpere runs the 27B model with speculative decoding on a 3090 and is 3-4% faster with a few hundred MB less memory than the last build."
-    },
-    {
-      "title": "Typesafe AI raises $870M at a $7.5B valuation",
-      "url": "https://typesafe.ai/blog/series-ai",
-      "category": "industry",
-      "published": "2026-10-09",
-      "summary": "The round values the company at $7.5B three weeks after launch and drew 298 points and 226 comments on Hacker News."
-    },
-    {
-      "title": "LumaBrowser, the 'Anthropic/ChatGPT in a box', goes open source",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/",
-      "category": "platforms_integration",
-      "published": "2026-10-09",
-      "summary": "After a year of development and several thousand installs, the developer open-sourced LumaBrowser, a client that puts Claude and ChatGPT in one place."
-    },
-    {
-      "title": "Claude now runs up to 1,000 sub-agents in parallel",
-      "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
-      "category": "anthropic",
-      "published": "2026-10-09",
-      "summary": "Dynamic workflows let a lead agent fan work out to as many as 1,000 sub-agents: in tests it caught 66 of 70 bugs where one agent found 27."
-    },
-    {
-      "title": "Microsoft-Decision-1 scores decisions 35x faster than GPT-6 Sol",
-      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
-      "category": "ai_models",
-      "published": "2026-10-09",
-      "summary": "A post-trained Qwen3.5-9B that returns calibrated probabilities for yes/no and grading instead of chat text, now live in Azure Foundry."
-    },
-    {
-      "title": "Alibaba ships an 8-step 2K image model with open weights",
-      "url": "https://x.com/Alibaba_Qwen/status/2108549075218120949",
-      "category": "chinese_ai",
-      "published": "2026-10-09",
-      "summary": "Qwen-Image-2.1-Turbo generates and edits 2K images in eight steps instead of forty, with open weights on Hugging Face and ModelScope."
-    },
-    {
-      "title": "Google open-sources the GPU engine behind LiteRT",
-      "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge",
-      "category": "platforms_integration",
-      "published": "2026-10-09",
-      "summary": "ML Drift is Apache-2.0 and puts Metal, OpenCL, OpenGL ES and WebGPU behind one C++ library; the old TFLite GPU delegate stops getting features."
-    },
-    {
-      "title": "Asana cut its browser agent cost 76x with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "category": "platforms_integration",
-      "published": "2026-10-09",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76 times cheaper and 5 times faster in tests, passing the savings into cheaper plans."
-    },
-    {
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "category": "ai_research",
-      "published": "2026-10-09",
-      "summary": "Allen AI writes up how it schedules research jobs on shared GPU clusters so idle capacity goes to training runs instead of waiting."
     }
   ]
 }
