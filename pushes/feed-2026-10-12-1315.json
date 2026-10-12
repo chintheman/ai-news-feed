@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-10-12T13:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 9,
+  "tldr": "Claude Code's lead says a fix for the review-loop problem is coming. Hermes has a bug where image uploads near 1MB fail, and the fix is a day or two out. Google was told to halt data-centre work in Finland over missing environmental reviews. A 6M-parameter model shows tiny image generators can still make pictures. Qwen 3.8 27B now runs at 140 tokens a second on one RTX 3090 with almost no quality loss.",
+  "articles": [
+    {
+      "title": "Claude Code's lead says a fix for review loops is coming",
+      "url": "https://x.com/bcherny/status/2109354514780438560",
+      "category": "anthropic",
+      "published": "2026-10-11",
+      "summary": "Asked how you know your code is really done, Boris Cherny says landing improvements are in progress and it needs \"a fair bit of science\"; more soon."
+    },
+    {
+      "title": "Hermes: image requests near 1MB are breaking",
+      "url": "https://x.com/Teknium/status/2109474431567564814",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "Compression only rescues some uploads; Teknium suspects a server-side bug. Hermes ships stable releases, so the fix may take a day or two."
+    },
+    {
+      "title": "Google told to halt data-centre work in Finland over environmental concerns",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+      "category": "policy",
+      "published": "2026-10-11",
+      "summary": "An order covering two construction sites follows Google failing to carry out environmental impact assessments before building."
+    },
+    {
+      "title": "AuroraIMG-6M: a 6M-parameter text-to-image model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3lzmk/auroraimg6m_releases/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "Six million parameters total, with no oversized text encoder or VAE, and it still produces recognizable 64x64 images."
+    },
+    {
+      "title": "OpenCode 2.0.26 users report constant \"Continue\" prompts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3n8ex/opencode_2026_is_out_if_you_need_to_constantly/",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "On 2.0.26 the agent announces a fix and stops, needing a manual \"go ahead\" to move on. Reported across several models, not one weak bot."
+    },
+    {
+      "title": "Qwen 3.8 27B quant quality tested: Q6_K versus MXFP4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ij13/i_tested_different_qwen_38_27b_quants/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "Speed claims for FP4 abound but quality gets ignored, so this test compares Q6_K, MXFP4 and in-between quants on one R9700 box."
+    },
+    {
+      "title": "Megakernel update: Qwen 3.8 27B at 140 tok/s, KL divergence 0.0009",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/",
+      "category": "ai_models",
+      "published": "2026-10-11",
+      "summary": "The single-3090 CUDA megakernel gets an update: 1.4x throughput and output within 0.0009 KL divergence of llama.cpp."
+    },
+    {
+      "title": "FileDig: local AI file search comes to Windows",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3djpz/filedig_windows_version_of_digup/",
+      "category": "platforms_integration",
+      "published": "2026-10-11",
+      "summary": "A Rust tool that finds documents, PDFs and photos by what is inside them, running fully on-device. Repo: github.com/rupeshs/filedig."
+    },
+    {
+      "title": "Terence Tao's \"Math 2.0\" talk: proof abundance is here",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "category": "ai_research",
+      "published": "2026-10-11",
+      "summary": "AI settles open problems fast, so Tao argues blind optimisation of problem-solving now hurts mathematics. He wants failures and compute use reported."
+    }
+  ]
+}
