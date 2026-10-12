@@ -1,0 +1,120 @@
+{
+  "updated_at": "2026-10-12T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 16,
+  "tldr": "DeepMind's AlphaProof Nexus got peer reviewed after solving nine Erdős problems. Hermes shipped a compression fix for large image uploads, but the root cause is still open. Codex subscriptions are the most-used provider among Hermes users. New open decision models from 0.6B to 27B now top the Jev index. And 128GB laptops built for running AI locally are selling out.",
+  "articles": [
+    {
+      "title": "DeepMind's AlphaProof Nexus solves open maths problems, then gets peer reviewed",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+      "category": "ai_research",
+      "published": "2026-10-12",
+      "summary": "The work, published in Science, covers nine Erdős problems — two unsolved for 56 years — unlike OpenAI's unreviewed AI proofs."
+    },
+    {
+      "title": "Hermes: the near-1MB image bug is half fixed, cause still open",
+      "url": "https://x.com/Teknium/status/2109529718177607846",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "Compression now ships for large uploads, but Hermes cannot reproduce the failure and still does not know how big images get in."
+    },
+    {
+      "title": "Teknium: Codex subscriptions are Hermes users' most-used provider",
+      "url": "https://x.com/Teknium/status/2109529382419395051",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "The Hermes lead says subscription access is the most common way its users reach models, ahead of per-token API keys."
+    },
+    {
+      "title": "Hermes docs: run turns on a Claude Pro or Max subscription",
+      "url": "https://x.com/Teknium/status/2109592699657654584",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "An experimental provider runs Hermes turns through the official Claude Code CLI, so no separate API key or per-token billing."
+    },
+    {
+      "title": "Hermes: nothing has been auto-enabled on update for about three months",
+      "url": "https://x.com/Teknium/status/2109593106559680579",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "Teknium corrects a user's worry: no built-in skills are switched on for you at install or update time."
+    },
+    {
+      "title": "Decision 3.0: open decision models from 0.6B to 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "A new Apache-2.0 family built on Qwen reads text, images and video, and takes the top spot on both Jev Decision Index boards."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next serves 7 users at 262k context on six RTX 3090s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3wjzf/qwen38flashnext_on_six_3090s_with_vllm_7_users_at/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "A tuned vLLM setup serves long context on older cards and shares the fixes, including moving part of the model onto SSD."
+    },
+    {
+      "title": "A receipt scanner that runs a small vision model on your phone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3u3y5/receipt_scanner_that_runs_a_finetuned_08b_vision/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "An Android app turns a receipt photo into itemised JSON with a fine-tuned 0.8B model, so spending data never leaves the device."
+    },
+    {
+      "title": "Sakana AI: recursive self-improvement through collective intelligence",
+      "url": "https://pub.sakana.ai/mass/",
+      "category": "ai_research",
+      "published": "2026-10-11",
+      "summary": "A new Sakana AI paper on models improving each other together rather than one model improving itself alone."
+    },
+    {
+      "title": "strix-llama branch speeds prompt processing on Strix Halo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3s4qu/strixllama_new_branch_prompt_processing_2154_over/",
+      "category": "platforms_integration",
+      "published": "2026-10-12",
+      "summary": "A tuned llama.cpp branch reports 21-54% faster prompt processing than Vulkan at 128k, with identical output."
+    },
+    {
+      "title": "VectorDash brings AI file search to Windows",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3sqxc/vectordash_a_full_windows_search_replacement/",
+      "category": "platforms_integration",
+      "published": "2026-10-12",
+      "summary": "A Windows 11 search replacement powered by EmbeddingGemma 2: look through photos, PDFs, audio and Office files by meaning."
+    },
+    {
+      "title": "QLoRA training arrives for ExLlamaV3 quantized models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3viem/qlora_on_exllamav3_quants_train_28bpw/",
+      "category": "platforms_integration",
+      "published": "2026-10-12",
+      "summary": "A fork trains 2-8 bits-per-weight exl3 models in plain PyTorch, so quantized models can be fine-tuned without a rebuild."
+    },
+    {
+      "title": "An open-source leaderboard of the best models your machine can run",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows/",
+      "category": "platforms_integration",
+      "published": "2026-10-12",
+      "summary": "Enter your RAM and GPU to see which local models you can run, how they rank, and the command that starts them."
+    },
+    {
+      "title": "128GB local-AI laptops sell out as NVIDIA's CUDA moat holds",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ykyb/any_takers_for_local_llm_nvidias_cuda_moat_is/",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "High-memory RTX Spark laptops are going out of stock, with the cheapest laptop listed at $6,499."
+    },
+    {
+      "title": "Analyst calls Anthropic's IPO an \"unprecedented test of investor gullibility\"",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "A research firm argues the listing will be the year's most ridiculous, and a test of how much investors will accept."
+    },
+    {
+      "title": "A novel-writing analyzer plugin for DeepSeek Harness",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3vriw/i_built_a_novel_writing_analyzer_plugin_for/",
+      "category": "deepseek",
+      "published": "2026-10-12",
+      "summary": "An open-source plugin adds an analyze button that reports vocabulary diversity, clichés and repeated sentences in a draft."
+    }
+  ]
+}
