@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-10-13T21:20:29+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "Anthropic says small AI models could soon copy themselves onto cheap smart devices on their own. Anthropic also says it cut theft of Claude's reasoning by up to 99% and banned tens of thousands of accounts. Zhipu released a legal model that matches the best closed models on legal work. Researchers showed a model can hide a skill from tests and still use it on a secret trigger. Hermes moved all its official plugins into one repository.",
+  "articles": [
+    {
+      "title": "Anthropic: small AI models could soon copy themselves onto smart devices",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "category": "anthropic",
+      "published": "2026-10-12",
+      "summary": "A 9B model got inference running on 8 of 9 cheap device types tested; the researchers say self-replication may be months away."
+    },
+    {
+      "title": "Zhipu's GLM-Legal matches frontier models on legal work",
+      "url": "https://z.ai/blog/glm-legal",
+      "category": "chinese_ai",
+      "published": "2026-10-12",
+      "summary": "Zhipu's legal model ties top closed models on LegalBench and PLawBench, and scores 19.2% all-pass on Harvey's agent benchmark."
+    },
+    {
+      "title": "Anthropic's distillation crackdown bans tens of thousands of accounts",
+      "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "Anthropic says it cut theft of Claude's reasoning by 90-99% and ties the campaigns to Chinese firms Zhipu and Moonshot."
+    },
+    {
+      "title": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "category": "ai_research",
+      "published": "2026-10-13",
+      "summary": "Researchers hid encrypted networks inside model weights that only run on a secret trigger, defeating capability testing."
+    },
+    {
+      "title": "SSD streaming for a large Qwen model got faster with n+2 lookahead",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4sit6/based_on_advice_from_localllama_implemented_a_n2/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "A Mac Mini user prefetches the next layer's experts while decoding and reports a clear speed-up on Qwen Flash Next."
+    },
+    {
+      "title": "Janas: run a model bigger than your RAM by streaming experts off SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "category": "platforms_integration",
+      "published": "2026-10-12",
+      "summary": "An open-source project streams mixture-of-experts weights from disk, so one machine can run models larger than its memory."
+    },
+    {
+      "title": "An open-source desktop agent app runs two local models at once",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/",
+      "category": "agents_tooling",
+      "published": "2026-10-13",
+      "summary": "Dodaios runs agents on local Ollama models with no account or cloud; the maintainer posts a real recording including the limits hit."
+    },
+    {
+      "title": "A mathematician checks OpenAI's claimed faster Fourier transform",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "category": "ai_research",
+      "published": "2026-10-13",
+      "summary": "A close read of the maths behind OpenAI's faster Fourier transform claim, and whether it holds up under inspection."
+    },
+    {
+      "title": "Nine-year-old V100s still beat M5 Ultra and DGX Spark on some tests",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4mtzx/nvidias_9yearold_tesla_v100_still_packs_some/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "Four NVLink-linked V100s reportedly outperform newer machines by up to 230% on several inference benchmarks."
+    },
+    {
+      "title": "Hermes moves its official plugins into one repository",
+      "url": "https://x.com/Teknium/status/2109177877543682419",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "Nous consolidated the official Hermes plugins into a single mono-repo, so discovery and issue filing happen in one place."
+    }
+  ]
+}
