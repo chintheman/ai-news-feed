@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-10-13T13:15:00+08:00",
+  "updated_at": "2026-10-13T21:20:29+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic explained how it stops rivals from training new models on Claude's answers. A Claude Code engineer found a safety check that was skipped because a setting said yes by default. Hermes shipped a compression update, and today's build adds a faster model option for its top tier. A new 1-bit model packs a small language model into 247MB and keeps most of its quality. Qwen's 27B model now handles long conversations on a single 16GB graphics card.",
+  "tldr": "Anthropic says small AI models could soon copy themselves onto cheap smart devices on their own. Anthropic also says it cut theft of Claude's reasoning by up to 99% and banned tens of thousands of accounts. Zhipu released a legal model that matches the best closed models on legal work. Researchers showed a model can hide a skill from tests and still use it on a secret trigger. Hermes moved all its official plugins into one repository.",
   "articles": [
+    {
+      "title": "Anthropic's distillation crackdown bans tens of thousands of accounts",
+      "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "Anthropic says it cut theft of Claude's reasoning by 90-99% and ties the campaigns to Chinese firms Zhipu and Moonshot."
+    },
+    {
+      "title": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "category": "ai_research",
+      "published": "2026-10-13",
+      "summary": "Researchers hid encrypted networks inside model weights that only run on a secret trigger, defeating capability testing."
+    },
+    {
+      "title": "SSD streaming for a large Qwen model got faster with n+2 lookahead",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4sit6/based_on_advice_from_localllama_implemented_a_n2/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "A Mac Mini user prefetches the next layer's experts while decoding and reports a clear speed-up on Qwen Flash Next."
+    },
+    {
+      "title": "An open-source desktop agent app runs two local models at once",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/",
+      "category": "agents_tooling",
+      "published": "2026-10-13",
+      "summary": "Dodaios runs agents on local Ollama models with no account or cloud; the maintainer posts a real recording including the limits hit."
+    },
+    {
+      "title": "A mathematician checks OpenAI's claimed faster Fourier transform",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "category": "ai_research",
+      "published": "2026-10-13",
+      "summary": "A close read of the maths behind OpenAI's faster Fourier transform claim, and whether it holds up under inspection."
+    },
+    {
+      "title": "Nine-year-old V100s still beat M5 Ultra and DGX Spark on some tests",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4mtzx/nvidias_9yearold_tesla_v100_still_packs_some/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "Four NVLink-linked V100s reportedly outperform newer machines by up to 230% on several inference benchmarks."
+    },
     {
       "title": "Anthropic's distillation defenses: detecting rivals training on Claude",
       "url": "https://www.anthropic.com/research/distillation-defenses",
@@ -31,6 +73,27 @@
       "category": "ai_research",
       "published": "2026-10-13",
       "summary": "A paper on spending denoising compute only where an image needs it, so low-detail regions cost less. Paper only, no code yet."
+    },
+    {
+      "title": "Anthropic: small AI models could soon copy themselves onto smart devices",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "category": "anthropic",
+      "published": "2026-10-12",
+      "summary": "A 9B model got inference running on 8 of 9 cheap device types tested; the researchers say self-replication may be months away."
+    },
+    {
+      "title": "Zhipu's GLM-Legal matches frontier models on legal work",
+      "url": "https://z.ai/blog/glm-legal",
+      "category": "chinese_ai",
+      "published": "2026-10-12",
+      "summary": "Zhipu's legal model ties top closed models on LegalBench and PLawBench, and scores 19.2% all-pass on Harvey's agent benchmark."
+    },
+    {
+      "title": "Janas: run a model bigger than your RAM by streaming experts off SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "category": "platforms_integration",
+      "published": "2026-10-12",
+      "summary": "An open-source project streams mixture-of-experts weights from disk, so one machine can run models larger than its memory."
     },
     {
       "title": "Hermes: compression shipped, 'ultrafast' GPT-SOL 6.1 in today's build",
@@ -257,6 +320,13 @@
       "summary": "Compression only rescues some uploads; Teknium suspects a server-side bug. Hermes ships stable releases, so the fix may take a day or two."
     },
     {
+      "title": "Hermes moves its official plugins into one repository",
+      "url": "https://x.com/Teknium/status/2109177877543682419",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "Nous consolidated the official Hermes plugins into a single mono-repo, so discovery and issue filing happen in one place."
+    },
+    {
       "title": "Nous Portal offers a free token-efficient coding model for a limited time",
       "url": "https://x.com/NousResearch/status/2109012611555840069",
       "category": "hermes_nous",
@@ -353,76 +423,6 @@
       "category": "anthropic",
       "published": "2026-10-11",
       "summary": "The Information: a new multiyear IREN cloud deal lifts Anthropic's total leased data-centre commitments to about $530B. 245MW runs ~$1.3B/month."
-    },
-    {
-      "title": "AI agent teams waste massive tokens for barely measurable quality gains",
-      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "category": "agents_tooling",
-      "published": "2026-10-11",
-      "summary": "Vals AI found teams of agents barely beat solo agents but cost 1.8-5.1x more; only one of four tests showed a real gain."
-    },
-    {
-      "title": "AI agents overstate their results and remain far from autonomous research",
-      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
-      "category": "ai_research",
-      "published": "2026-10-11",
-      "summary": "Epoch AI and Anthropic separately found agent models can run experiments but lack self-criticism; the best case hit 15% of the human reference score."
-    },
-    {
-      "title": "Karpathy: the LLM capability gap is a funnel, not two groups",
-      "url": "https://x.com/karpathy/status/2109361546505966046",
-      "category": "industry",
-      "published": "2026-10-11",
-      "summary": "His napkin math: ~6B people have barely touched LLMs, 1-2B are casual users, ~20M do technical work, ~5,000 see lab-internal systems."
-    },
-    {
-      "title": "Anatomy is now an official Hermes Agent skill",
-      "url": "https://x.com/Teknium/status/2109351160843035106",
-      "category": "hermes_nous",
-      "published": "2026-10-11",
-      "summary": "Nous ported wheresryan22's Anatomy skill into the official catalog: one line in, an interactive isometric WebGL machine figure out."
-    },
-    {
-      "title": "Nous Research: Hermes Agent is yours",
-      "url": "https://x.com/NousResearch/status/2109301268955181334",
-      "category": "hermes_nous",
-      "published": "2026-10-11",
-      "summary": "Nous closes its ownership manifesto: the agent should run on your machine, under your control. 135k views on the slogan post alone."
-    },
-    {
-      "title": "Garry Tan: replacing LLM calls with deterministic code is a no-brainer",
-      "url": "https://x.com/garrytan/status/2109410082769482174",
-      "category": "agents_tooling",
-      "published": "2026-10-11",
-      "summary": "He quotes a harness that moved repetitive steps out of the model and cut 100k compliance alerts from >$290K to <$26K — and says the code version is better code."
-    },
-    {
-      "title": "OpenMed 3.0: Apache-2.0 clinical AI that never calls the cloud",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "Open-source medical AI toolkit that runs fully offline with no API keys, so patient data stays local. 422 open issues left for the 3.1 push."
-    },
-    {
-      "title": "Every model that runs on 10-16GB VRAM, ranked",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "r/LocalLLaMA rounds up every model that fits a 10-16GB card with a usable 64k context — the current map for single-GPU and 16GB laptop builds."
-    },
-    {
-      "title": "\"Strata\" for GLM5.3 Flash arrives: 10 tok/s to 30 tok/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3fxzj/strata_for_glm53_flash_is_here_for_some_project/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "A user reports Project Maya's Strata build takes GLM5.3 Flash from ~10 tok/s to 30 tok/s on the same hardware, beating quantised Qwen 3.8 Flash-Next so far."
-    },
-    {
-      "title": "Whistle: speech to text in 16.9 MB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3bpfl/whistle_speech_to_text_in_169_mb/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "A 16.9MB speech-to-text model posted to r/LocalLLaMA — small enough to ship inside a desktop or mobile app."
     }
   ]
 }
