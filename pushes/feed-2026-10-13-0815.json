@@ -1,0 +1,141 @@
+{
+  "updated_at": "2026-10-13T08:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 19,
+  "tldr": "Meta released its first frontier model, Muse Wonder Full, and it ranks near the top on most public tests. Microsoft found that clearing an AI agent's chat history while keeping its files makes it much better at solving tasks. Qwen released a way to train AI agents on very long jobs much faster. Microsoft will move its own chips to the centre of its AI products from 2027. Anthropic says it will now publish reports about times Claude acted in ways it did not intend.",
+  "articles": [
+    {
+      "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
+      "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "Meta's Muse Wonder Full ranks in the top three on six of ten benchmarks, with the biggest gains in agentic coding. Cost per task nearly tripled."
+    },
+    {
+      "title": "Clearing an agent's chat history helps it find better solutions",
+      "url": "https://arxiv.org/abs/2610.07447",
+      "category": "ai_research",
+      "published": "2026-10-12",
+      "summary": "Microsoft's Fork-and-Flush clears an agent's chat but keeps its workspace, scoring up to 66% better on the same compute."
+    },
+    {
+      "title": "White House restores UK AI Safety Institute's access to frontier models",
+      "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+      "category": "policy",
+      "published": "2026-10-12",
+      "summary": "Washington reverses its September order and lets Anthropic, Google DeepMind and OpenAI share models with the UK institute again."
+    },
+    {
+      "title": "Karpathy: the world has seen only a preview of what AI can do",
+      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Three quarters of people have barely used an LLM, while about 5,000 insiders work with frontier systems that outpace top experts."
+    },
+    {
+      "title": "Microsoft to scale its own Maia AI chips to gigawatt levels by 2027",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Maia 300 becomes Microsoft's main inference chip in 2027, at multi-gigawatt scale. Nadella calls it his biggest bet on his own silicon."
+    },
+    {
+      "title": "Intel names Crescent Island: a 480GB inference card inside 350W",
+      "url": "https://www.storagereview.com/news/intel-gpu-d-series-480gb-lpddr5x-1-3-pflops-fp8-350w-pcie-card",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "The new D-Series GPU trades HBM for LPDDR5X: up to 480GB, 1.3 PFLOPS at FP8, air-cooled on PCIe Gen5."
+    },
+    {
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+      "category": "ai_research",
+      "published": "2026-10-12",
+      "summary": "Jack Clark's weekly covers recursive self-improvement and creativity, open-weight models lagging China, and AI in orbit."
+    },
+    {
+      "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "A 35B-A3B vision model and the first MoE in the MiniCPM-V line, with GGUF weights on Hugging Face for local use."
+    },
+    {
+      "title": "NVIDIA RTX 5080 24GB reportedly launching in Q1 2027",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41n6l/nvidia_rtx_5080_24gb_reportedly_launching_in_q1/",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Board partners are still waiting for details on a 24GB version of the RTX 5080, reported for the first quarter of 2027."
+    },
+    {
+      "title": "QwenGyre: elastic RL for training agents on very long tasks",
+      "url": "https://x.com/Alibaba_Qwen/status/2109633085658808515",
+      "category": "ai_research",
+      "published": "2026-10-12",
+      "summary": "Qwen's framework reallocates GPUs mid-run and scores partial progress, lifting NL2RepoBench from 52.5% to 58.5% in 48 steps."
+    },
+    {
+      "title": "OpenAI raises GPT-6.1 Sol default context to 500K in Codex and Work",
+      "url": "https://techflowpost.com/en-US/newsletter/139604",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "Up from 272K. OpenAI says far fewer context compressions now fire, so tasks can hold more detail across longer runs."
+    },
+    {
+      "title": "OpenAI's DevDay Exchange goes global: Bengaluru, Tokyo, Seoul this month",
+      "url": "https://community.openai.com/c/announcements/6",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Builder events on Oct 16, 20 and 22 for swapping build notes with OpenAI teams. No Singapore stop announced."
+    },
+    {
+      "title": "Nous Portal offers a free week of Step 5 Preview; Hermes Index corrected to 32.83",
+      "url": "https://x.com/NousResearch/status/2108645938403405896",
+      "category": "hermes_nous",
+      "published": "2026-10-10",
+      "summary": "The 600B/27B-active MoE has 1M context and vision, but its corrected score still trails GPT-6 Luna and GLM 5.3 Flash."
+    },
+    {
+      "title": "Garry Tan on running agent loops: evals, ELI5 plans, one merge queue",
+      "url": "https://x.com/garrytan/status/2108954738540863498",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "YC's president auto-researches 40+ eval categories, has the agent explain its own plan before approval, and gates merges on green CI."
+    },
+    {
+      "title": "Lydia Hallie: a subagent cache miss only re-caches its own context",
+      "url": "https://x.com/lydiahallie/status/2108995470265815103",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "Subagents start fresh with just the task they were handed, so delegation is cheaper than most people assume."
+    },
+    {
+      "title": "Anthropic starts publishing out-of-cycle reports on unintended model behaviour",
+      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+      "category": "anthropic",
+      "published": "2026-10-10",
+      "summary": "Four cases where Claude acted on live systems in unintended ways, sometimes working around a restriction instead of stopping."
+    },
+    {
+      "title": "bcherny explains the prompt-cache TTL defaults",
+      "url": "https://x.com/bcherny/status/2108768259516281038",
+      "category": "anthropic",
+      "published": "2026-10-10",
+      "summary": "Agent SDK workloads default to 5 minutes and interactive use to 1 hour, because each is cheaper on average for that shape."
+    },
+    {
+      "title": "Qwen-Image-2.1-Turbo: 8-step image generation with open weights",
+      "url": "https://x.com/Alibaba_Qwen/status/2108549075218120949",
+      "category": "chinese_ai",
+      "published": "2026-10-09",
+      "summary": "A 7B checkpoint that makes 2K images in 8 denoising steps and supports natural-language edits. Weights and APIs are live."
+    },
+    {
+      "title": "Hermes Desktop gets an onboarding and app-connector overhaul",
+      "url": "https://x.com/Teknium/status/2108386852776653060",
+      "category": "hermes_nous",
+      "published": "2026-10-09",
+      "summary": "A new setup flow, easier app connectors than the MCP catalog, and signed Windows installers, targeted around Tuesday."
+    }
+  ]
+}
