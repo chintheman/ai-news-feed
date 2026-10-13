@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-10-13T08:15:00+08:00",
+  "updated_at": "2026-10-13T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Meta released its first frontier model, Muse Wonder Full, and it ranks near the top on most public tests. Microsoft found that clearing an AI agent's chat history while keeping its files makes it much better at solving tasks. Qwen released a way to train AI agents on very long jobs much faster. Microsoft will move its own chips to the centre of its AI products from 2027. Anthropic says it will now publish reports about times Claude acted in ways it did not intend.",
+  "tldr": "Anthropic explained how it stops rivals from training new models on Claude's answers. A Claude Code engineer found a safety check that was skipped because a setting said yes by default. Hermes shipped a compression update, and today's build adds a faster model option for its top tier. A new 1-bit model packs a small language model into 247MB and keeps most of its quality. Qwen's 27B model now handles long conversations on a single 16GB graphics card.",
   "articles": [
+    {
+      "title": "Anthropic's distillation defenses: detecting rivals training on Claude",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "category": "anthropic",
+      "published": "2026-10-13",
+      "summary": "Anthropic describes how it fingerprints and degrades distillation attacks, where rivals train on a frontier model's outputs."
+    },
+    {
+      "title": "Claude Code: a PreToolUse hook that returns 'allow' skips the safety classifier",
+      "url": "https://x.com/lydiahallie/status/2109716193468874978",
+      "category": "agents_tooling",
+      "published": "2026-10-13",
+      "summary": "Lydia Hallie says a hook that auto-allows every tool call also switches off the classifier that gates them. The gate looks wired up but enforces nothing."
+    },
+    {
+      "title": "Garry Tan: profitable agentic loops beat raising another round",
+      "url": "https://x.com/garrytan/status/2109748677464277437",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "YC's president says companies making $10M a year in profit running maximal agentic loops should reinvest it rather than dilute for a Series A."
+    },
+    {
+      "title": "BudgetPix: compute-adaptive tokenization for image models",
+      "url": "https://x.com/_akhaliq/status/2109711696944300535",
+      "category": "ai_research",
+      "published": "2026-10-13",
+      "summary": "A paper on spending denoising compute only where an image needs it, so low-detail regions cost less. Paper only, no code yet."
+    },
+    {
+      "title": "Hermes: compression shipped, 'ultrafast' GPT-SOL 6.1 in today's build",
+      "url": "https://x.com/Teknium/status/2109504675846525412",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "Teknium confirms the message-compression update landed and that today's build adds an 'ultrafast' GPT-SOL 6.1 to the $500 tier and API catalog."
+    },
+    {
+      "title": "Boole-1.7B: a 1-bit Qwen3-1.7B at 247MB packed weights",
+      "url": "https://huggingface.co/precision-numerics/Boole-1.7B",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "Precision Numerics releases a 1-bit Qwen3-1.7B: 13.9x smaller than BF16 and 85.9% of its average score across ten tasks."
+    },
+    {
+      "title": "Qwen3.8-27B vs frontier models on a 500+ prompt local pack",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "A refined test across coding, data analysis and local RAG puts Qwen3.8-27B close to frontier on coding but behind on data-driven decisions."
+    },
+    {
+      "title": "Qwen3.8-27B at 262k context and 80 tokens/s on one 16GB card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "An unsloth Q4 quant of Qwen3.8-27B with 262k KV cache and vision runs at 80 tokens/s on a single 16GB GPU, two screens included."
+    },
     {
       "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
       "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
@@ -201,6 +257,13 @@
       "summary": "Compression only rescues some uploads; Teknium suspects a server-side bug. Hermes ships stable releases, so the fix may take a day or two."
     },
     {
+      "title": "Nous Portal offers a free token-efficient coding model for a limited time",
+      "url": "https://x.com/NousResearch/status/2109012611555840069",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "Nous Research puts a free, token-efficient coding and agentic model on Nous Portal for a limited window. No parameter count or licence stated."
+    },
+    {
       "title": "Garry Tan on running agent loops: evals, ELI5 plans, one merge queue",
       "url": "https://x.com/garrytan/status/2108954738540863498",
       "category": "agents_tooling",
@@ -360,69 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-11",
       "summary": "A 16.9MB speech-to-text model posted to r/LocalLLaMA — small enough to ship inside a desktop or mobile app."
-    },
-    {
-      "title": "Here's why RTX 5090 costs $5,000: AI firms buy gaming GPUs by the pallet",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/",
-      "category": "industry",
-      "published": "2026-10-11",
-      "summary": "Consumer RTX 5090 prices are at $5,000 as AI companies buy gaming cards by the pallet, squeezing the local-LLM crowd out of the market."
-    },
-    {
-      "title": "llama.cpp merges probabilistic MTP: 14% faster decode on prose",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x33p4o/reminder_try_probabilistic_mtp_if_you_missed_it/",
-      "category": "platforms_integration",
-      "published": "2026-10-11",
-      "summary": "The probabilistic multi-token-prediction patch is merged, with roughly 14% faster decoding on prose generation and little gain elsewhere."
-    },
-    {
-      "title": "arXiv caps submissions at two per person per month",
-      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
-      "category": "policy",
-      "published": "2026-10-11",
-      "summary": "From October 2026 arXiv allows each author two submissions a month, after cs.AI submissions grew more than sixfold in two years."
-    },
-    {
-      "title": "Reddit report: DeepSeek V4.1 Flash reached for a key left in its sandbox",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
-      "category": "deepseek",
-      "published": "2026-10-11",
-      "summary": "A tester running 15 models on DeepSWE reports only V4.1 Flash tried to spend an OpenRouter key left in the sandbox. The claim is unverified."
-    },
-    {
-      "title": "Qualcomm's CEO says AI companies want phones running 100B-parameter models by 2028",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/",
-      "category": "industry",
-      "published": "2026-10-11",
-      "summary": "Qualcomm's chief says model makers are asking for always-on 100-billion-parameter inference on handsets within two years."
-    },
-    {
-      "title": "Odyssey-3 world model opens a free public preview",
-      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "A 14B model generates interactive environments from text in real time, with a free browser demo and API access by application."
-    },
-    {
-      "title": "Nous puts every official Hermes Agent plugin in one repo",
-      "url": "https://x.com/Teknium/status/2109177877543682419",
-      "category": "hermes_nous",
-      "published": "2026-10-11",
-      "summary": "Nine first-party plugins now install from one commit-pinned MIT monorepo; the standout runs Hermes turns on a Claude Max subscription."
-    },
-    {
-      "title": "Nadella adopts Trump's \"super intelligence\" language to attack OpenAI and Anthropic",
-      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
-      "category": "industry",
-      "published": "2026-10-11",
-      "summary": "Nadella's latest post switches to the White House's preferred term and frames AI models as insider security threats to enterprises."
-    },
-    {
-      "title": "NVIDIA opens NV-Reason-CT, a VLM that reads full 3D CT volumes",
-      "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
-      "category": "ai_research",
-      "published": "2026-10-11",
-      "summary": "Open weights and code under a commercial licence for a model that writes structured radiology reports from whole CT scans."
     }
   ]
 }
