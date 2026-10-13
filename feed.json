@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-10-12T21:20:00+08:00",
+  "updated_at": "2026-10-13T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepMind's AlphaProof Nexus got peer reviewed after solving nine Erdős problems. Hermes shipped a compression fix for large image uploads, but the root cause is still open. Codex subscriptions are the most-used provider among Hermes users. New open decision models from 0.6B to 27B now top the Jev index. And 128GB laptops built for running AI locally are selling out.",
+  "tldr": "Meta released its first frontier model, Muse Wonder Full, and it ranks near the top on most public tests. Microsoft found that clearing an AI agent's chat history while keeping its files makes it much better at solving tasks. Qwen released a way to train AI agents on very long jobs much faster. Microsoft will move its own chips to the centre of its AI products from 2027. Anthropic says it will now publish reports about times Claude acted in ways it did not intend.",
   "articles": [
+    {
+      "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
+      "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "Meta's Muse Wonder Full ranks in the top three on six of ten benchmarks, with the biggest gains in agentic coding. Cost per task nearly tripled."
+    },
+    {
+      "title": "Clearing an agent's chat history helps it find better solutions",
+      "url": "https://arxiv.org/abs/2610.07447",
+      "category": "ai_research",
+      "published": "2026-10-12",
+      "summary": "Microsoft's Fork-and-Flush clears an agent's chat but keeps its workspace, scoring up to 66% better on the same compute."
+    },
+    {
+      "title": "White House restores UK AI Safety Institute's access to frontier models",
+      "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+      "category": "policy",
+      "published": "2026-10-12",
+      "summary": "Washington reverses its September order and lets Anthropic, Google DeepMind and OpenAI share models with the UK institute again."
+    },
+    {
+      "title": "Karpathy: the world has seen only a preview of what AI can do",
+      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Three quarters of people have barely used an LLM, while about 5,000 insiders work with frontier systems that outpace top experts."
+    },
+    {
+      "title": "Microsoft to scale its own Maia AI chips to gigawatt levels by 2027",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Maia 300 becomes Microsoft's main inference chip in 2027, at multi-gigawatt scale. Nadella calls it his biggest bet on his own silicon."
+    },
+    {
+      "title": "Intel names Crescent Island: a 480GB inference card inside 350W",
+      "url": "https://www.storagereview.com/news/intel-gpu-d-series-480gb-lpddr5x-1-3-pflops-fp8-350w-pcie-card",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "The new D-Series GPU trades HBM for LPDDR5X: up to 480GB, 1.3 PFLOPS at FP8, air-cooled on PCIe Gen5."
+    },
+    {
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+      "category": "ai_research",
+      "published": "2026-10-12",
+      "summary": "Jack Clark's weekly covers recursive self-improvement and creativity, open-weight models lagging China, and AI in orbit."
+    },
+    {
+      "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "A 35B-A3B vision model and the first MoE in the MiniCPM-V line, with GGUF weights on Hugging Face for local use."
+    },
+    {
+      "title": "NVIDIA RTX 5080 24GB reportedly launching in Q1 2027",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41n6l/nvidia_rtx_5080_24gb_reportedly_launching_in_q1/",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Board partners are still waiting for details on a 24GB version of the RTX 5080, reported for the first quarter of 2027."
+    },
+    {
+      "title": "QwenGyre: elastic RL for training agents on very long tasks",
+      "url": "https://x.com/Alibaba_Qwen/status/2109633085658808515",
+      "category": "ai_research",
+      "published": "2026-10-12",
+      "summary": "Qwen's framework reallocates GPUs mid-run and scores partial progress, lifting NL2RepoBench from 52.5% to 58.5% in 48 steps."
+    },
+    {
+      "title": "OpenAI raises GPT-6.1 Sol default context to 500K in Codex and Work",
+      "url": "https://techflowpost.com/en-US/newsletter/139604",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "Up from 272K. OpenAI says far fewer context compressions now fire, so tasks can hold more detail across longer runs."
+    },
+    {
+      "title": "OpenAI's DevDay Exchange goes global: Bengaluru, Tokyo, Seoul this month",
+      "url": "https://community.openai.com/c/announcements/6",
+      "category": "industry",
+      "published": "2026-10-12",
+      "summary": "Builder events on Oct 16, 20 and 22 for swapping build notes with OpenAI teams. No Singapore stop announced."
+    },
     {
       "title": "DeepMind's AlphaProof Nexus solves open maths problems, then gets peer reviewed",
       "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
@@ -115,6 +199,20 @@
       "category": "hermes_nous",
       "published": "2026-10-12",
       "summary": "Compression only rescues some uploads; Teknium suspects a server-side bug. Hermes ships stable releases, so the fix may take a day or two."
+    },
+    {
+      "title": "Garry Tan on running agent loops: evals, ELI5 plans, one merge queue",
+      "url": "https://x.com/garrytan/status/2108954738540863498",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "YC's president auto-researches 40+ eval categories, has the agent explain its own plan before approval, and gates merges on green CI."
+    },
+    {
+      "title": "Lydia Hallie: a subagent cache miss only re-caches its own context",
+      "url": "https://x.com/lydiahallie/status/2108995470265815103",
+      "category": "agents_tooling",
+      "published": "2026-10-11",
+      "summary": "Subagents start fresh with just the task they were handed, so delegation is cheaper than most people assume."
     },
     {
       "title": "Sakana AI: recursive self-improvement through collective intelligence",
@@ -325,104 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-11",
       "summary": "Open weights and code under a commercial licence for a model that writes structured radiology reports from whole CT scans."
-    },
-    {
-      "title": "Mine your own session history before writing a Hermes plugin",
-      "url": "https://x.com/mr_r0b0t/status/2109089421203050864",
-      "category": "hermes_nous",
-      "published": "2026-10-11",
-      "summary": "A tip Teknium endorsed: mine past sessions for patterns first. One developer reviewed 491 sessions for \"consequential moments\"."
-    },
-    {
-      "title": "Microsoft releases AesCode 8B and 32B for HTML/CSS artifacts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x35o1y/microsoftaescode_8b_and_32b/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "Open models that emit slides, posters and dashboards as editable HTML/CSS instead of images, so design output can be linted, not eyeballed."
-    },
-    {
-      "title": "Converting dense models into mixture-of-experts without pretraining",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3078i/converting_dense_models_into_mixtureofexperts/",
-      "category": "ai_research",
-      "published": "2026-10-11",
-      "summary": "Turn an existing dense model sparse so only part of its MLP runs per token: cheaper inference per token at roughly the same quality."
-    },
-    {
-      "title": "Cheaper AI tokens are driving more demand, not less",
-      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
-      "category": "industry",
-      "published": "2026-10-11",
-      "summary": "a16z data through August 2026 shows token prices falling while H100 rental prices hold or climb, keeping the AI capex chain pointed up."
-    },
-    {
-      "title": "A local voice assistant on Qwen 3.5 4B with tool-calling and no GPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32pqp/local_voice_assistant_based_on_qwen35_4b_with/",
-      "category": "agents_tooling",
-      "published": "2026-10-11",
-      "summary": "Local speech-to-text and text-to-speech around a 4B model that calls skills and tools, running without a dedicated GPU."
-    },
-    {
-      "title": "A 102M recursive BitNet-v2 trained from scratch on under 5B tokens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x34nyx/i_trained_a_102m_recursive_bitnetv2_model_from/",
-      "category": "ai_research",
-      "published": "2026-10-11",
-      "summary": "Ternary weights, shared transformer layers and hashed n-gram embeddings in a 102M model with 64K context, trained on a 100-euro budget."
-    },
-    {
-      "title": "A $500 cluster of ex-mining BC-250 boards serves Qwen at 70 tokens/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2yv1b/running_next_flash_iq3_xxs_at_70_toks_with_100k/",
-      "category": "platforms_integration",
-      "published": "2026-10-11",
-      "summary": "Four second-hand crypto-mining boards on 2.5GbE run Next Flash at 70 tok/s with 100K context, or two Qwen 3.6 35B copies at 145 tok/s."
-    },
-    {
-      "title": "A 100GB Qwen model now runs on a 64GB Mac",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2tstj/omg_if_you_have_a_mac_with_64gb_try/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "An M3 Max with 64GB ran a Qwen3.8-Flash-Next build that would not load a few weeks ago, after a new oMLX commit."
-    },
-    {
-      "title": "A four-GPU AMD build for serving Qwen and DeepSeek locally",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "An $18k Threadripper box with four 32GB R9700 cards, serving Qwen 3.8 and DeepSeek V4 Flash to a ten-person team."
-    },
-    {
-      "title": "AMD reportedly raises GDDR6 prices for board partners",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xatx/amd_reportedly_raises_gddr6_prices_for_board/",
-      "category": "industry",
-      "published": "2026-10-11",
-      "summary": "Memory prices for card makers are going up, after Nvidia dropped the 5090 in favour of RTX Pro cards."
-    },
-    {
-      "title": "A free stealth coding model named MISSINGNO appears on Nous Portal",
-      "url": "https://x.com/NousResearch/status/2109012611555840069",
-      "category": "hermes_nous",
-      "published": "2026-10-11",
-      "summary": "A coding and agent-reasoning model that is unusually token-efficient is free for a limited window, with no lab, size or benchmark attached to it."
-    },
-    {
-      "title": "Anatomy origin post: one line in, rotatable 3D wireframe out",
-      "url": "https://x.com/wheresryan22/status/2108948624004526516",
-      "category": "hermes_nous",
-      "published": "2026-10-10",
-      "summary": "The community skill Nous later adopted: describe a machine in one line and Claude builds a rotatable isometric wireframe with moving parts. ~993k views."
-    },
-    {
-      "title": "Nvidia is in talks to acquire open-model startup Reflection AI",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "category": "industry",
-      "published": "2026-10-10",
-      "summary": "Talks are early and could end in a full buy, more chips, or an acqui-hire; Nvidia already put $800M into the lab."
-    },
-    {
-      "title": "Build your own decision model in one forward pass",
-      "url": "https://nishtahir.com/build-your-own-decision-model/",
-      "category": "ai_research",
-      "published": "2026-10-10",
-      "summary": "Mask a small model's vocabulary down to five answer tokens so it picks from fixed options in one pass; test calibration, not just accuracy."
     }
   ]
 }
