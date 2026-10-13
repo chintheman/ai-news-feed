@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-10-13T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 9,
+  "tldr": "Anthropic explained how it stops rivals from training new models on Claude's answers. A Claude Code engineer found a safety check that was skipped because a setting said yes by default. Hermes shipped a compression update, and today's build adds a faster model option for its top tier. A new 1-bit model packs a small language model into 247MB and keeps most of its quality. Qwen's 27B model now handles long conversations on a single 16GB graphics card.",
+  "articles": [
+    {
+      "title": "Anthropic's distillation defenses: detecting rivals training on Claude",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "category": "anthropic",
+      "published": "2026-10-13",
+      "summary": "Anthropic describes how it fingerprints and degrades distillation attacks, where rivals train on a frontier model's outputs."
+    },
+    {
+      "title": "Claude Code: a PreToolUse hook that returns 'allow' skips the safety classifier",
+      "url": "https://x.com/lydiahallie/status/2109716193468874978",
+      "category": "agents_tooling",
+      "published": "2026-10-13",
+      "summary": "Lydia Hallie says a hook that auto-allows every tool call also switches off the classifier that gates them. The gate looks wired up but enforces nothing."
+    },
+    {
+      "title": "Garry Tan: profitable agentic loops beat raising another round",
+      "url": "https://x.com/garrytan/status/2109748677464277437",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "YC's president says companies making $10M a year in profit running maximal agentic loops should reinvest it rather than dilute for a Series A."
+    },
+    {
+      "title": "BudgetPix: compute-adaptive tokenization for image models",
+      "url": "https://x.com/_akhaliq/status/2109711696944300535",
+      "category": "ai_research",
+      "published": "2026-10-13",
+      "summary": "A paper on spending denoising compute only where an image needs it, so low-detail regions cost less. Paper only, no code yet."
+    },
+    {
+      "title": "Hermes: compression shipped, 'ultrafast' GPT-SOL 6.1 in today's build",
+      "url": "https://x.com/Teknium/status/2109504675846525412",
+      "category": "hermes_nous",
+      "published": "2026-10-12",
+      "summary": "Teknium confirms the message-compression update landed and that today's build adds an 'ultrafast' GPT-SOL 6.1 to the $500 tier and API catalog."
+    },
+    {
+      "title": "Nous Portal offers a free token-efficient coding model for a limited time",
+      "url": "https://x.com/NousResearch/status/2109012611555840069",
+      "category": "hermes_nous",
+      "published": "2026-10-11",
+      "summary": "Nous Research puts a free, token-efficient coding and agentic model on Nous Portal for a limited window. No parameter count or licence stated."
+    },
+    {
+      "title": "Boole-1.7B: a 1-bit Qwen3-1.7B at 247MB packed weights",
+      "url": "https://huggingface.co/precision-numerics/Boole-1.7B",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "Precision Numerics releases a 1-bit Qwen3-1.7B: 13.9x smaller than BF16 and 85.9% of its average score across ten tasks."
+    },
+    {
+      "title": "Qwen3.8-27B vs frontier models on a 500+ prompt local pack",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "A refined test across coding, data analysis and local RAG puts Qwen3.8-27B close to frontier on coding but behind on data-driven decisions."
+    },
+    {
+      "title": "Qwen3.8-27B at 262k context and 80 tokens/s on one 16GB card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
+      "category": "ai_models",
+      "published": "2026-10-12",
+      "summary": "An unsloth Q4 quant of Qwen3.8-27B with 262k KV cache and vision runs at 80 tokens/s on a single 16GB GPU, two screens included."
+    }
+  ]
+}
