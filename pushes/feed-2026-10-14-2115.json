@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-10-14T21:15:59+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "Anthropic opened an office in Singapore and signed an AI-safety agreement with the government. One of its executives said open-source AI models carry more risk, and the local-model community pushed back. Hermes Agent gained a plugin that does free web search and page fetching. Someone collected hundreds of official connector servers for AI agents in one place, and Nvidia put its AI cluster scheduler under an open licence. Researchers trained a small model adjustment straight on a compressed model file, skipping PyTorch.",
+  "articles": [
+    {
+      "title": "Anthropic opens a Singapore office and signs an AI-safety MOU with the government",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "category": "anthropic",
+      "published": "2026-10-14",
+      "summary": "Its fifth office in Asia-Pacific, at Raffles Place, paired with an agreement covering AI safety, evaluation and adoption."
+    },
+    {
+      "title": "Anthropic executive says open-source AI models carry higher risk",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5nyd3/anthropic_executive_says_opensource_ai_models_are/",
+      "category": "anthropic",
+      "published": "2026-10-14",
+      "summary": "Reported remarks about the cybersecurity risk of open-weight models, which the local-model community disputed."
+    },
+    {
+      "title": "TinyFish plugin gives Hermes Agent free web search and page fetching",
+      "url": "https://hermes-agent.nousresearch.com/docs/plugins/tinyfish",
+      "category": "hermes_nous",
+      "published": "2026-10-14",
+      "summary": "A free backend for Hermes' existing web search and page-extract tools; the browser and web-agent tiers stay gated."
+    },
+    {
+      "title": "A curated list of official connector servers for AI agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5j0p7/updated_list_of_official_mcp_servers_300/",
+      "category": "agents_tooling",
+      "published": "2026-10-14",
+      "summary": "Hundreds of widely used Model Context Protocol servers, limited to ones published by the products' own maintainers."
+    },
+    {
+      "title": "NVIDIA's Run:AI cluster scheduler moves to an Apache-2.0 licence",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5jnbf/nvidias_runai_is_now_apparently_under_apache20/",
+      "category": "platforms_integration",
+      "published": "2026-10-14",
+      "summary": "The software NVIDIA uses to schedule GPU clusters for AI workloads is now open source and self-hostable."
+    },
+    {
+      "title": "Train a LoRA adapter directly on a quantized model file, no PyTorch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5j48s/train_lora_directly_on_quantized_ggufs_no_pytorch/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "Fine-tuning against the compressed model you already run, with no parent FP16 copy and no PyTorch in the loop."
+    },
+    {
+      "title": "OpenAI: the EU's next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "category": "policy",
+      "published": "2026-10-14",
+      "summary": "Analysis of how far agentic AI has spread across EU enterprises and small businesses, and where value is untouched."
+    },
+    {
+      "title": "A local Qwen3.8FN agent comes out cheaper than cloud models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5blg4/my_local_qwen38fn_agent_is_significantly_cheaper/",
+      "category": "chinese_ai",
+      "published": "2026-10-13",
+      "summary": "A cost breakdown at peak and off-peak electricity pricing, with each run routed to whichever option is cheapest."
+    },
+    {
+      "title": "An inference engine moves a running model's layers between GPUs mid-reply",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5i7o9/moving_a_running_models_layers_between_gpus/",
+      "category": "platforms_integration",
+      "published": "2026-10-14",
+      "summary": "jitllm treats model layers like processes it can place and move, switching hardware in 8ms without re-running the prompt."
+    },
+    {
+      "title": "RTX 5090 cards reportedly turn up on smugglers' menus",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ki4t/so_this_is_how_they_do_it_rtx_5090_once_a/",
+      "category": "industry",
+      "published": "2026-10-14",
+      "summary": "A sign of how scarce consumer GPUs with plenty of VRAM have become now that they are AI compute."
+    },
+    {
+      "title": "ComfyUI v0.40.0 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5nu99/comfyui_v0400_released/",
+      "category": "platforms_integration",
+      "published": "2026-10-14",
+      "summary": "A new version of the node-based interface used to run image and video generation models on your own machine."
+    }
+  ]
+}
