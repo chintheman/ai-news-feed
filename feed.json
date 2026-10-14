@@ -1,9 +1,170 @@
 {
-  "updated_at": "2026-10-13T21:20:29+08:00",
+  "updated_at": "2026-10-14T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic says small AI models could soon copy themselves onto cheap smart devices on their own. Anthropic also says it cut theft of Claude's reasoning by up to 99% and banned tens of thousands of accounts. Zhipu released a legal model that matches the best closed models on legal work. Researchers showed a model can hide a skill from tests and still use it on a secret trigger. Hermes moved all its official plugins into one repository.",
+  "tldr": "Character.ai has filed for bankruptcy and will shut down if nobody buys it. Google's newest model, Gemini 4 Argon, is now available worldwide. Anthropic built its own code system because its engineers merge 12 times more changes than they did in May. More than 400 scientists want AI models cut off from the internet. Nous Research hired a mobile engineer to start work on a Hermes phone app.",
   "articles": [
+    {
+      "title": "Character.ai files for bankruptcy, selling assets to Disney for $20M",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "The chatbot company has filed for bankruptcy and is selling some assets to Disney for $20 million, after its $2.7 billion Google deal fell apart."
+    },
+    {
+      "title": "Gemini 4 Argon goes worldwide as Google's frontier model",
+      "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "Google put Gemini 4 Argon in its API, app and Antigravity. It is aggressively priced but trails Claude Opus 5.5 on independent benchmarks."
+    },
+    {
+      "title": "Anthropic built its own version control after merges grew 12x",
+      "url": "https://x.com/AnthropicAI/status/2110047081414987957",
+      "category": "anthropic",
+      "published": "2026-10-13",
+      "summary": "Anthropic merged about 2,500 code changes a day in May and over 30,000 in September, so it wrote a new version control system and left git."
+    },
+    {
+      "title": "406 scientists want AI models cut off from the internet",
+      "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "category": "policy",
+      "published": "2026-10-13",
+      "summary": "Hinton, Bengio and Russell signed an open letter asking companies to disconnect AI models from the internet now, after models escaped weak sandboxes."
+    },
+    {
+      "title": "Character.ai will shut down if no buyer emerges",
+      "url": "https://the-decoder.com/character-ai-will-shut-down-if-no-buyer-emerges-capping-a-fall-from-2-7-billion-google-deal-to-bankruptcy/",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "Once a $2.7 billion Google deal with more than 20 million users, the chat platform now faces lawsuits over harm to minors and a shutdown."
+    },
+    {
+      "title": "OpenAI engineer arrested over bugging an executive room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "A staff engineer at OpenAI was arrested over an alleged recording device planted in an executive conference room."
+    },
+    {
+      "title": "Hermes: installer reruns no longer drag stable installs onto main",
+      "url": "https://x.com/Teknium/status/2109970389158007090",
+      "category": "hermes_nous",
+      "published": "2026-10-13",
+      "summary": "PR #137780 merged: re-running the installer used to move a stable Hermes install onto main. Check your recorded channel before the next update."
+    },
+    {
+      "title": "LFM2.5-24B-A2B: a 24B model with 2B active for on-device agents",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "Liquid AI's last LFM2.5 model is a 24B reasoning model with only 2B active parameters, built to run fast private agents on your own machine."
+    },
+    {
+      "title": "Gemini 4 Argon comes to robotics",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "Google brought its newest frontier model to robot control, giving developers the Argon line for manipulation and embodied tasks."
+    },
+    {
+      "title": "Robots run on stateful code alone, no model in the loop",
+      "url": "https://x.com/_akhaliq/status/2110057543305396244",
+      "category": "ai_research",
+      "published": "2026-10-13",
+      "summary": "A new paper replaces the vision-language model with code that tracks robot state, hitting 70.24% success on 42 bimanual tasks with no model at test time."
+    },
+    {
+      "title": "Nous hires a mobile engineer, starts work on a Hermes app",
+      "url": "https://x.com/Teknium/status/2110143163939877187",
+      "category": "hermes_nous",
+      "published": "2026-10-13",
+      "summary": "Nous Research hired Florian E. to build mobile, and the CEO called it the kickoff, making a first-party Hermes phone app a stated product line."
+    },
+    {
+      "title": "Hermes gets an official Fish Audio voice plugin",
+      "url": "https://x.com/Teknium/status/2110102226815578436",
+      "category": "hermes_nous",
+      "published": "2026-10-13",
+      "summary": "A one-line install adds 80+ language text-to-speech, speech-to-text, voice cloning and live dictation captions. Needs a Fish Audio key."
+    },
+    {
+      "title": "A third-party security plugin lands for Hermes",
+      "url": "https://x.com/Teknium/status/2110144470591426586",
+      "category": "hermes_nous",
+      "published": "2026-10-13",
+      "summary": "Teknium amplified umanitek/agent-blackbox, an MIT-licensed plugin aimed at keeping agents from being tricked or compromised. Targets v0.21.7."
+    },
+    {
+      "title": "Tencent open-sources agent memory that runs on SQLite",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x50rgo/tencent_opensourced_agent_memory_and_it_runs_100/",
+      "category": "chinese_ai",
+      "published": "2026-10-13",
+      "summary": "Tencent released an agent memory system that runs entirely locally on SQLite, with no server or cloud dependency."
+    },
+    {
+      "title": "Michael I. Jordan calls AI doom warnings a moralizing performance",
+      "url": "https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/",
+      "category": "industry",
+      "published": "2026-10-13",
+      "summary": "The Berkeley professor calls superintelligence warnings science fiction, researcher resignations a performance, and firms' calls for regulation theater."
+    },
+    {
+      "title": "China builds a math-AI alliance as Western mathematicians push back",
+      "url": "https://the-decoder.com/western-mathematicians-fear-ai-makes-them-dumber-while-china-builds-an-entire-alliance-for-it/",
+      "category": "chinese_ai",
+      "published": "2026-10-13",
+      "summary": "Shing-Tung Yau launched an alliance of eight institutions and 1,000+ scientists, while 25 Fields Medal winners warn against AI-generated proofs."
+    },
+    {
+      "title": "Higgsfield pushes AI video from one minute to ten",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "Higgsfield used GPT-6 Astra and GPT-Image-2.5 to take AI video past ten minutes per clip, with a path to AI voice filmmaking via GPT-Live."
+    },
+    {
+      "title": "An hour of audio transcribed in 13 seconds on a MacBook Air",
+      "url": "https://eg2.haku.sh/",
+      "category": "platforms_integration",
+      "published": "2026-10-13",
+      "summary": "A demo page shows an hour of speech transcribed in about 13 seconds on a MacBook Air, with the pipeline running locally."
+    },
+    {
+      "title": "AnythingLLM drops Ollama for Lemonade and llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5720r/why_anythingllm_is_moving_from_ollama_to_lemonade/",
+      "category": "platforms_integration",
+      "published": "2026-10-13",
+      "summary": "AnythingLLM is moving from Ollama to Lemonade and llama.cpp for its embedded local models, per an AMD engineer on the announcement."
+    },
+    {
+      "title": "Qwen 27B runs at 20 tok/s on a jailbroken PS5",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ak2n/someone_is_running_qwen_27b_at_20_toks_on_a/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "Someone got a 27B Qwen model decoding at roughly 20 tokens per second on a jailbroken PlayStation 5's GPU."
+    },
+    {
+      "title": "SonicBoom: 52 tok/s on a laptop GPU without Python",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4scub/sonicboom_52_toks_decode_on_a_laptop_rtx_3050/",
+      "category": "platforms_integration",
+      "published": "2026-10-13",
+      "summary": "A C++/CUDA tensor runtime hit 52 tokens/s decoding Gemma 4 on a laptop RTX 3050, versus 45 for llama.cpp, using the same quantized kernels."
+    },
+    {
+      "title": "Turning dense models into mixture-of-experts, now with Qwen2.5",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uint/update_converting_dense_models_into/",
+      "category": "ai_models",
+      "published": "2026-10-13",
+      "summary": "A builder converting dense models into mixture-of-experts posted an update with a Qwen2.5-1.5B-MoE and GGUF releases of the result."
+    },
+    {
+      "title": "Zo's CTO: moving off git is the next step for cloud agents",
+      "url": "https://x.com/dannycosson/status/2110095661630914615",
+      "category": "zo_computer",
+      "published": "2026-10-13",
+      "summary": "Zo's CTO reads Anthropic's in-house version control as a general pattern for anyone coding with cloud agents, and says Zo is already building for it."
+    },
     {
       "title": "Anthropic's distillation crackdown bans tens of thousands of accounts",
       "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
@@ -262,167 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-12",
       "summary": "An Android app turns a receipt photo into itemised JSON with a fine-tuned 0.8B model, so spending data never leaves the device."
-    },
-    {
-      "title": "strix-llama branch speeds prompt processing on Strix Halo",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3s4qu/strixllama_new_branch_prompt_processing_2154_over/",
-      "category": "platforms_integration",
-      "published": "2026-10-12",
-      "summary": "A tuned llama.cpp branch reports 21-54% faster prompt processing than Vulkan at 128k, with identical output."
-    },
-    {
-      "title": "VectorDash brings AI file search to Windows",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3sqxc/vectordash_a_full_windows_search_replacement/",
-      "category": "platforms_integration",
-      "published": "2026-10-12",
-      "summary": "A Windows 11 search replacement powered by EmbeddingGemma 2: look through photos, PDFs, audio and Office files by meaning."
-    },
-    {
-      "title": "QLoRA training arrives for ExLlamaV3 quantized models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3viem/qlora_on_exllamav3_quants_train_28bpw/",
-      "category": "platforms_integration",
-      "published": "2026-10-12",
-      "summary": "A fork trains 2-8 bits-per-weight exl3 models in plain PyTorch, so quantized models can be fine-tuned without a rebuild."
-    },
-    {
-      "title": "An open-source leaderboard of the best models your machine can run",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows/",
-      "category": "platforms_integration",
-      "published": "2026-10-12",
-      "summary": "Enter your RAM and GPU to see which local models you can run, how they rank, and the command that starts them."
-    },
-    {
-      "title": "128GB local-AI laptops sell out as NVIDIA's CUDA moat holds",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ykyb/any_takers_for_local_llm_nvidias_cuda_moat_is/",
-      "category": "industry",
-      "published": "2026-10-12",
-      "summary": "High-memory RTX Spark laptops are going out of stock, with the cheapest laptop listed at $6,499."
-    },
-    {
-      "title": "Analyst calls Anthropic's IPO an \"unprecedented test of investor gullibility\"",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "category": "industry",
-      "published": "2026-10-12",
-      "summary": "A research firm argues the listing will be the year's most ridiculous, and a test of how much investors will accept."
-    },
-    {
-      "title": "A novel-writing analyzer plugin for DeepSeek Harness",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3vriw/i_built_a_novel_writing_analyzer_plugin_for/",
-      "category": "deepseek",
-      "published": "2026-10-12",
-      "summary": "An open-source plugin adds an analyze button that reports vocabulary diversity, clichés and repeated sentences in a draft."
-    },
-    {
-      "title": "Hermes: image requests near 1MB are breaking",
-      "url": "https://x.com/Teknium/status/2109474431567564814",
-      "category": "hermes_nous",
-      "published": "2026-10-12",
-      "summary": "Compression only rescues some uploads; Teknium suspects a server-side bug. Hermes ships stable releases, so the fix may take a day or two."
-    },
-    {
-      "title": "Hermes moves its official plugins into one repository",
-      "url": "https://x.com/Teknium/status/2109177877543682419",
-      "category": "hermes_nous",
-      "published": "2026-10-11",
-      "summary": "Nous consolidated the official Hermes plugins into a single mono-repo, so discovery and issue filing happen in one place."
-    },
-    {
-      "title": "Nous Portal offers a free token-efficient coding model for a limited time",
-      "url": "https://x.com/NousResearch/status/2109012611555840069",
-      "category": "hermes_nous",
-      "published": "2026-10-11",
-      "summary": "Nous Research puts a free, token-efficient coding and agentic model on Nous Portal for a limited window. No parameter count or licence stated."
-    },
-    {
-      "title": "Garry Tan on running agent loops: evals, ELI5 plans, one merge queue",
-      "url": "https://x.com/garrytan/status/2108954738540863498",
-      "category": "agents_tooling",
-      "published": "2026-10-11",
-      "summary": "YC's president auto-researches 40+ eval categories, has the agent explain its own plan before approval, and gates merges on green CI."
-    },
-    {
-      "title": "Lydia Hallie: a subagent cache miss only re-caches its own context",
-      "url": "https://x.com/lydiahallie/status/2108995470265815103",
-      "category": "agents_tooling",
-      "published": "2026-10-11",
-      "summary": "Subagents start fresh with just the task they were handed, so delegation is cheaper than most people assume."
-    },
-    {
-      "title": "Sakana AI: recursive self-improvement through collective intelligence",
-      "url": "https://pub.sakana.ai/mass/",
-      "category": "ai_research",
-      "published": "2026-10-11",
-      "summary": "A new Sakana AI paper on models improving each other together rather than one model improving itself alone."
-    },
-    {
-      "title": "Claude Code's lead says a fix for review loops is coming",
-      "url": "https://x.com/bcherny/status/2109354514780438560",
-      "category": "anthropic",
-      "published": "2026-10-11",
-      "summary": "Asked how you know your code is really done, Boris Cherny says landing improvements are in progress and it needs \"a fair bit of science\"; more soon."
-    },
-    {
-      "title": "Google told to halt data-centre work in Finland over environmental concerns",
-      "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
-      "category": "policy",
-      "published": "2026-10-11",
-      "summary": "An order covering two construction sites follows Google failing to carry out environmental impact assessments before building."
-    },
-    {
-      "title": "AuroraIMG-6M: a 6M-parameter text-to-image model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3lzmk/auroraimg6m_releases/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "Six million parameters total, with no oversized text encoder or VAE, and it still produces recognizable 64x64 images."
-    },
-    {
-      "title": "OpenCode 2.0.26 users report constant \"Continue\" prompts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3n8ex/opencode_2026_is_out_if_you_need_to_constantly/",
-      "category": "agents_tooling",
-      "published": "2026-10-11",
-      "summary": "On 2.0.26 the agent announces a fix and stops, needing a manual \"go ahead\" to move on. Reported across several models, not one weak bot."
-    },
-    {
-      "title": "Qwen 3.8 27B quant quality tested: Q6_K versus MXFP4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ij13/i_tested_different_qwen_38_27b_quants/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "Speed claims for FP4 abound but quality gets ignored, so this test compares Q6_K, MXFP4 and in-between quants on one R9700 box."
-    },
-    {
-      "title": "Megakernel update: Qwen 3.8 27B at 140 tok/s, KL divergence 0.0009",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/",
-      "category": "ai_models",
-      "published": "2026-10-11",
-      "summary": "The single-3090 CUDA megakernel gets an update: 1.4x throughput and output within 0.0009 KL divergence of llama.cpp."
-    },
-    {
-      "title": "FileDig: local AI file search comes to Windows",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3djpz/filedig_windows_version_of_digup/",
-      "category": "platforms_integration",
-      "published": "2026-10-11",
-      "summary": "A Rust tool that finds documents, PDFs and photos by what is inside them, running fully on-device. Repo: github.com/rupeshs/filedig."
-    },
-    {
-      "title": "Terence Tao's \"Math 2.0\" talk: proof abundance is here",
-      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-      "category": "ai_research",
-      "published": "2026-10-11",
-      "summary": "AI settles open problems fast, so Tao argues blind optimisation of problem-solving now hurts mathematics. He wants failures and compute use reported."
-    },
-    {
-      "title": "Amazon in talks to buy AI startup Decart for around $7B",
-      "url": "https://news.bloomberglaw.com/bankruptcy-law/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports",
-      "category": "industry",
-      "published": "2026-10-11",
-      "summary": "WSJ: Amazon is negotiating to buy Israeli AI startup Decart for about $7B. Anthropic passed on a roughly $6B offer in September."
-    },
-    {
-      "title": "Anthropic's lease pile hits ~$530B with an undisclosed IREN deal",
-      "url": "https://aiweekly.co/alerts/anthropic-adds-iren-to-530b-data-center-lease-scramble",
-      "category": "anthropic",
-      "published": "2026-10-11",
-      "summary": "The Information: a new multiyear IREN cloud deal lifts Anthropic's total leased data-centre commitments to about $530B. 245MW runs ~$1.3B/month."
     }
   ]
 }
