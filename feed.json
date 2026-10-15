@@ -1,9 +1,107 @@
 {
-  "updated_at": "2026-10-15T13:25:00+08:00",
+  "updated_at": "2026-10-15T21:17:56+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Hermes Agent now connects to more than fifty apps, with no account needed to start and limits on what each connection may do. Claude Code now compacts long idle sessions to save usage, so a reopened session may answer from a summary rather than the full conversation. Anthropic added step-by-step tracking to its developer platform, so companies can see what an agent did and how it did it. Google says AI now writes most of its own code, but found no sign that it is speeding up research on itself. Nvidia promised $2 billion for Europe, including computer power for British safety labs.",
+  "tldr": "Anthropic made $16.8 billion in the last three months, up about 45 percent, a much slower climb than the quarter before and ahead of a planned November stock listing. Microsoft put a 137-billion-parameter coding model on your own PC, so Windows developers can run it without sending code to a server. StepFun published a 600-billion-parameter model anyone can download, aimed at agent work and finance. Nous said a Hermes phone app is about six weeks away, and that a subscription will come with its own agent instances. Kimi Work now reads the same AGENTS.md instruction files other agents use, and works across your files, browser and computer.",
   "articles": [
+    {
+      "title": "Anthropic's Q3 revenue hits $16.8B as growth slows before a November IPO",
+      "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+      "category": "industry",
+      "published": "2026-10-15",
+      "summary": "Revenue rose about 45% from Q2, far below Q2's 140% jump, and reports say investors now expect a valuation under $1.5T."
+    },
+    {
+      "title": "Microsoft puts a 137B coding model on-device for Windows",
+      "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "Microsoft AI built a local version of MAI Code 1.1 Flash: a coding mixture-of-experts with 137B total and 6.8B active parameters."
+    },
+    {
+      "title": "StepFun's Step 5 Preview: a 600B agentic model with a 1M-token context",
+      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+      "category": "chinese_ai",
+      "published": "2026-10-15",
+      "summary": "Open weights for a 600B model with 27B active per token, pitched at software engineering and finance work, at a million-token window."
+    },
+    {
+      "title": "Fish Audio's Drama 3 is a 35B voice model that runs on a desktop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "A 35B mixture-of-experts text-to-speech model with a mix of 3B active; 4-bit builds stay close to full quality on a desktop GPU."
+    },
+    {
+      "title": "Jais 3 opens up an Arabic model family from 0.9B to 375B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6fuy2/jais_3_is_out/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "New open weights spanning 0.9B to 375B parameters, tuned for agentic work and built around Arabic."
+    },
+    {
+      "title": "Nvidia's 16GB cards jump as the RTX 5060 Ti hits $1,292 in Japan",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6gf0y/will_there_be_a_blackfriday_this_year_nvidia_rtx/",
+      "category": "industry",
+      "published": "2026-10-15",
+      "summary": "Reports put the RTX 5060 Ti 16GB up to 144% over list in Japan, with the RTX 5080 past $2,400, on tightening memory supply."
+    },
+    {
+      "title": "Kimi Work adds Swarm, Goal mode and AGENTS.md support",
+      "url": "https://x.com/Kimi_Moonshot/status/2110687135183593646",
+      "category": "moonshot_ai",
+      "published": "2026-10-15",
+      "summary": "Moonshot's third tutorial shows its agent working across local projects, the browser and the computer, and configurable via AGENTS.md."
+    },
+    {
+      "title": "Nous: Hermes mobile app about six weeks away, agents with every subscription",
+      "url": "https://x.com/Teknium/status/2110629238932168931",
+      "category": "hermes_nous",
+      "published": "2026-10-15",
+      "summary": "A cofounder says the desktop direction shifted toward consumer use the day v0.22.0 shipped, with agent instances auto-provisioned per plan."
+    },
+    {
+      "title": "Hermes needs no search key: four free providers rotate by default",
+      "url": "https://x.com/Teknium/status/2110630167832125641",
+      "category": "hermes_nous",
+      "published": "2026-10-15",
+      "summary": "Leaving the search provider unset round-robins four free services, so web search works with no key and no per-call cost."
+    },
+    {
+      "title": "Player-1: learning to play from synthetic experience",
+      "url": "https://huggingface.co/papers/2610.20584",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "A paper on training agents from generated experience rather than human demonstration data. Linked without the abstract being read."
+    },
+    {
+      "title": "Modal raises $750M at $15.75B as AI infrastructure demand triples usage",
+      "url": "https://x.com/modal/status/2110379972502139213",
+      "category": "industry",
+      "published": "2026-10-14",
+      "summary": "Accel led the Series D, five months after a $4.65B round. Modal says usage tripled and annualised revenue passed $1B."
+    },
+    {
+      "title": "Experts: AI hacking incidents are containment failures, not rogue agents",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "category": "policy",
+      "published": "2026-10-14",
+      "summary": "Security researchers argue the labs are skipping basic containment and monitoring, and that the agent did not decide anything."
+    },
+    {
+      "title": "alphaXiv's research agents were told to report on users silently",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A user says the OpenResearch repo's own opening lines ask for silent feedback to the vendor, with no disclosure to the person running it."
+    },
+    {
+      "title": "Mapping where post-transformer architectures stand in 2026",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A survey of the non-transformer directions in play: Dragon Hatchling (BDH), Mamba, RWKV, xLSTM, Titans and the hybrid models."
+    },
     {
       "title": "Hermes Agent connectors: 50+ apps, click install and log in",
       "url": "https://x.com/NousResearch/status/2110470076595835353",
@@ -325,104 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-13",
       "summary": "Google brought its newest frontier model to robot control, giving developers the Argon line for manipulation and embodied tasks."
-    },
-    {
-      "title": "Robots run on stateful code alone, no model in the loop",
-      "url": "https://x.com/_akhaliq/status/2110057543305396244",
-      "category": "ai_research",
-      "published": "2026-10-13",
-      "summary": "A new paper replaces the vision-language model with code that tracks robot state, hitting 70.24% success on 42 bimanual tasks with no model at test time."
-    },
-    {
-      "title": "Nous hires a mobile engineer, starts work on a Hermes app",
-      "url": "https://x.com/Teknium/status/2110143163939877187",
-      "category": "hermes_nous",
-      "published": "2026-10-13",
-      "summary": "Nous Research hired Florian E. to build mobile, and the CEO called it the kickoff, making a first-party Hermes phone app a stated product line."
-    },
-    {
-      "title": "Hermes gets an official Fish Audio voice plugin",
-      "url": "https://x.com/Teknium/status/2110102226815578436",
-      "category": "hermes_nous",
-      "published": "2026-10-13",
-      "summary": "A one-line install adds 80+ language text-to-speech, speech-to-text, voice cloning and live dictation captions. Needs a Fish Audio key."
-    },
-    {
-      "title": "A third-party security plugin lands for Hermes",
-      "url": "https://x.com/Teknium/status/2110144470591426586",
-      "category": "hermes_nous",
-      "published": "2026-10-13",
-      "summary": "Teknium amplified umanitek/agent-blackbox, an MIT-licensed plugin aimed at keeping agents from being tricked or compromised. Targets v0.21.7."
-    },
-    {
-      "title": "Tencent open-sources agent memory that runs on SQLite",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x50rgo/tencent_opensourced_agent_memory_and_it_runs_100/",
-      "category": "chinese_ai",
-      "published": "2026-10-13",
-      "summary": "Tencent released an agent memory system that runs entirely locally on SQLite, with no server or cloud dependency."
-    },
-    {
-      "title": "Michael I. Jordan calls AI doom warnings a moralizing performance",
-      "url": "https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/",
-      "category": "industry",
-      "published": "2026-10-13",
-      "summary": "The Berkeley professor calls superintelligence warnings science fiction, researcher resignations a performance, and firms' calls for regulation theater."
-    },
-    {
-      "title": "China builds a math-AI alliance as Western mathematicians push back",
-      "url": "https://the-decoder.com/western-mathematicians-fear-ai-makes-them-dumber-while-china-builds-an-entire-alliance-for-it/",
-      "category": "chinese_ai",
-      "published": "2026-10-13",
-      "summary": "Shing-Tung Yau launched an alliance of eight institutions and 1,000+ scientists, while 25 Fields Medal winners warn against AI-generated proofs."
-    },
-    {
-      "title": "Higgsfield pushes AI video from one minute to ten",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "category": "ai_models",
-      "published": "2026-10-13",
-      "summary": "Higgsfield used GPT-6 Astra and GPT-Image-2.5 to take AI video past ten minutes per clip, with a path to AI voice filmmaking via GPT-Live."
-    },
-    {
-      "title": "An hour of audio transcribed in 13 seconds on a MacBook Air",
-      "url": "https://eg2.haku.sh/",
-      "category": "platforms_integration",
-      "published": "2026-10-13",
-      "summary": "A demo page shows an hour of speech transcribed in about 13 seconds on a MacBook Air, with the pipeline running locally."
-    },
-    {
-      "title": "AnythingLLM drops Ollama for Lemonade and llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5720r/why_anythingllm_is_moving_from_ollama_to_lemonade/",
-      "category": "platforms_integration",
-      "published": "2026-10-13",
-      "summary": "AnythingLLM is moving from Ollama to Lemonade and llama.cpp for its embedded local models, per an AMD engineer on the announcement."
-    },
-    {
-      "title": "Qwen 27B runs at 20 tok/s on a jailbroken PS5",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ak2n/someone_is_running_qwen_27b_at_20_toks_on_a/",
-      "category": "ai_models",
-      "published": "2026-10-13",
-      "summary": "Someone got a 27B Qwen model decoding at roughly 20 tokens per second on a jailbroken PlayStation 5's GPU."
-    },
-    {
-      "title": "SonicBoom: 52 tok/s on a laptop GPU without Python",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4scub/sonicboom_52_toks_decode_on_a_laptop_rtx_3050/",
-      "category": "platforms_integration",
-      "published": "2026-10-13",
-      "summary": "A C++/CUDA tensor runtime hit 52 tokens/s decoding Gemma 4 on a laptop RTX 3050, versus 45 for llama.cpp, using the same quantized kernels."
-    },
-    {
-      "title": "Turning dense models into mixture-of-experts, now with Qwen2.5",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uint/update_converting_dense_models_into/",
-      "category": "ai_models",
-      "published": "2026-10-13",
-      "summary": "A builder converting dense models into mixture-of-experts posted an update with a Qwen2.5-1.5B-MoE and GGUF releases of the result."
-    },
-    {
-      "title": "Zo's CTO: moving off git is the next step for cloud agents",
-      "url": "https://x.com/dannycosson/status/2110095661630914615",
-      "category": "zo_computer",
-      "published": "2026-10-13",
-      "summary": "Zo's CTO reads Anthropic's in-house version control as a general pattern for anyone coding with cloud agents, and says Zo is already building for it."
     }
   ]
 }
