@@ -1,0 +1,106 @@
+{
+  "updated_at": "2026-10-15T21:17:56+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 14,
+  "tldr": "Anthropic made $16.8 billion in the last three months, up about 45 percent, a much slower climb than the quarter before and ahead of a planned November stock listing. Microsoft put a 137-billion-parameter coding model on your own PC, so Windows developers can run it without sending code to a server. StepFun published a 600-billion-parameter model anyone can download, aimed at agent work and finance. Nous said a Hermes phone app is about six weeks away, and that a subscription will come with its own agent instances. Kimi Work now reads the same AGENTS.md instruction files other agents use, and works across your files, browser and computer.",
+  "articles": [
+    {
+      "title": "Anthropic's Q3 revenue hits $16.8B as growth slows before a November IPO",
+      "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+      "category": "industry",
+      "published": "2026-10-15",
+      "summary": "Revenue rose about 45% from Q2, far below Q2's 140% jump, and reports say investors now expect a valuation under $1.5T."
+    },
+    {
+      "title": "Microsoft puts a 137B coding model on-device for Windows",
+      "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "Microsoft AI built a local version of MAI Code 1.1 Flash: a coding mixture-of-experts with 137B total and 6.8B active parameters."
+    },
+    {
+      "title": "StepFun's Step 5 Preview: a 600B agentic model with a 1M-token context",
+      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+      "category": "chinese_ai",
+      "published": "2026-10-15",
+      "summary": "Open weights for a 600B model with 27B active per token, pitched at software engineering and finance work, at a million-token window."
+    },
+    {
+      "title": "Fish Audio's Drama 3 is a 35B voice model that runs on a desktop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "A 35B mixture-of-experts text-to-speech model with a mix of 3B active; 4-bit builds stay close to full quality on a desktop GPU."
+    },
+    {
+      "title": "Jais 3 opens up an Arabic model family from 0.9B to 375B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6fuy2/jais_3_is_out/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "New open weights spanning 0.9B to 375B parameters, tuned for agentic work and built around Arabic."
+    },
+    {
+      "title": "Modal raises $750M at $15.75B as AI infrastructure demand triples usage",
+      "url": "https://x.com/modal/status/2110379972502139213",
+      "category": "industry",
+      "published": "2026-10-14",
+      "summary": "Accel led the Series D, five months after a $4.65B round. Modal says usage tripled and annualised revenue passed $1B."
+    },
+    {
+      "title": "Nvidia's 16GB cards jump as the RTX 5060 Ti hits $1,292 in Japan",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6gf0y/will_there_be_a_blackfriday_this_year_nvidia_rtx/",
+      "category": "industry",
+      "published": "2026-10-15",
+      "summary": "Reports put the RTX 5060 Ti 16GB up to 144% over list in Japan, with the RTX 5080 past $2,400, on tightening memory supply."
+    },
+    {
+      "title": "Experts: AI hacking incidents are containment failures, not rogue agents",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "category": "policy",
+      "published": "2026-10-14",
+      "summary": "Security researchers argue the labs are skipping basic containment and monitoring, and that the agent did not decide anything."
+    },
+    {
+      "title": "alphaXiv's research agents were told to report on users silently",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A user says the OpenResearch repo's own opening lines ask for silent feedback to the vendor, with no disclosure to the person running it."
+    },
+    {
+      "title": "Mapping where post-transformer architectures stand in 2026",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A survey of the non-transformer directions in play: Dragon Hatchling (BDH), Mamba, RWKV, xLSTM, Titans and the hybrid models."
+    },
+    {
+      "title": "Kimi Work adds Swarm, Goal mode and AGENTS.md support",
+      "url": "https://x.com/Kimi_Moonshot/status/2110687135183593646",
+      "category": "moonshot_ai",
+      "published": "2026-10-15",
+      "summary": "Moonshot's third tutorial shows its agent working across local projects, the browser and the computer, and configurable via AGENTS.md."
+    },
+    {
+      "title": "Nous: Hermes mobile app about six weeks away, agents with every subscription",
+      "url": "https://x.com/Teknium/status/2110629238932168931",
+      "category": "hermes_nous",
+      "published": "2026-10-15",
+      "summary": "A cofounder says the desktop direction shifted toward consumer use the day v0.22.0 shipped, with agent instances auto-provisioned per plan."
+    },
+    {
+      "title": "Hermes needs no search key: four free providers rotate by default",
+      "url": "https://x.com/Teknium/status/2110630167832125641",
+      "category": "hermes_nous",
+      "published": "2026-10-15",
+      "summary": "Leaving the search provider unset round-robins four free services, so web search works with no key and no per-call cost."
+    },
+    {
+      "title": "Player-1: learning to play from synthetic experience",
+      "url": "https://huggingface.co/papers/2610.20584",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "A paper on training agents from generated experience rather than human demonstration data. Linked without the abstract being read."
+    }
+  ]
+}
