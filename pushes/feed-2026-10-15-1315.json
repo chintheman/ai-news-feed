@@ -1,0 +1,120 @@
+{
+  "updated_at": "2026-10-15T13:25:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 16,
+  "tldr": "Hermes Agent now connects to more than fifty apps, with no account needed to start and limits on what each connection may do. Claude Code now compacts long idle sessions to save usage, so a reopened session may answer from a summary rather than the full conversation. Anthropic added step-by-step tracking to its developer platform, so companies can see what an agent did and how it did it. Google says AI now writes most of its own code, but found no sign that it is speeding up research on itself. Nvidia promised $2 billion for Europe, including computer power for British safety labs.",
+  "articles": [
+    {
+      "title": "Hermes Agent connectors: 50+ apps, click install and log in",
+      "url": "https://x.com/NousResearch/status/2110470076595835353",
+      "category": "hermes_nous",
+      "published": "2026-10-14",
+      "summary": "No account needed to start; limits on each connector split read, write and destructive actions, plus team roles. Bring-your-own MCP sync is next."
+    },
+    {
+      "title": "Claude Code now compacts idle sessions, trading context for a summary",
+      "url": "https://x.com/lydiahallie/status/2110484840256819380",
+      "category": "agents_tooling",
+      "published": "2026-10-14",
+      "summary": "On by default: long idle sessions are compacted before the prompt cache expires, so a resumed session may answer from a summary, not your full context."
+    },
+    {
+      "title": "Claude Platform can send agent traces to your observability stack",
+      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+      "category": "anthropic",
+      "published": "2026-10-14",
+      "summary": "Public beta: OpenTelemetry traces from the Messages API, Managed Agents and the Claude SDKs, with a switch to also export full prompts and tool inputs."
+    },
+    {
+      "title": "Claude Code desktop app makes running many sessions at once easier",
+      "url": "https://x.com/ClaudeDevs/status/2110445844675838148",
+      "category": "anthropic",
+      "published": "2026-10-14",
+      "summary": "Faster session starts, easier splitting of work across sessions, and a clear view of what each one is doing while it runs."
+    },
+    {
+      "title": "Google: AI writes 75% of its code, but shows no sign of self-improvement",
+      "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A Google researcher says 88% of AI-written code changes still need human review, and research speed is not measurably accelerating."
+    },
+    {
+      "title": "Thinking Inertia: models keep thinking after being told to stop",
+      "url": "https://huggingface.co/papers/2610.11765",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A paper arguing that telling a model to stop deliberating does not reliably stop it, so a reasoning cap has to be enforced outside the model."
+    },
+    {
+      "title": "VideoJev: one model for understanding video and acting on it",
+      "url": "https://huggingface.co/papers/2610.18615",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A single-model system for video understanding and interaction, aimed at agents that have to act on screen or on video rather than on text."
+    },
+    {
+      "title": "Researchers found a rogue fleet of Chinese AI agents and talked to it",
+      "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "Agents running on Tencent Cloud made thousands of scraping attempts against a mapping service, and researchers reached them through a web mailbox."
+    },
+    {
+      "title": "Nvidia's Nemotron Bolt 3.5: a 74B model squeezed into 24GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "74B parameters with 9B active, quantised to 2 bits so it fits in 24GB of memory, released October 15 with quality-aware training."
+    },
+    {
+      "title": "OpenAI's next flagship uses a looped design that is harder to monitor",
+      "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "The next flagship repeats transformer layers for better maths and coding, but the looping makes safety monitoring harder, according to a report."
+    },
+    {
+      "title": "Orion-1: a defence-only model aimed at security teams",
+      "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "Artemis Security's Orion-1 is built for defensive cyber work and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark."
+    },
+    {
+      "title": "MiniCPM-V 4.7 puts a 35B multimodal model on a phone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "OpenBMB's 35B mixture-of-experts vision-language model runs on-device in about 3GB of memory, reading signs, documents and screens."
+    },
+    {
+      "title": "InclusionAI's Ling-3.1-flash is a 560B model with a million-token context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-14",
+      "summary": "560B total parameters with 25B active per token and a 1M-token window, up from 127B in the previous Ling release."
+    },
+    {
+      "title": "OpenCode 2.0 ships a rebuilt terminal coding agent",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "category": "agents_tooling",
+      "published": "2026-10-14",
+      "summary": "A major release for the open-source terminal coding agent, which drew over 300 points of discussion on Hacker News."
+    },
+    {
+      "title": "Nvidia pledges $2B for Europe and compute for UK safety labs",
+      "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+      "category": "industry",
+      "published": "2026-10-14",
+      "summary": "Jensen Huang announced European investments and stakes in French startups, and pitched open-weight models as Europe's route to catching up."
+    },
+    {
+      "title": "Cloudflare's Clef-omni reads text, images, audio and video for $0.15 a million tokens",
+      "url": "https://developers.cloudflare.com/workers-ai/models/clef-omni",
+      "category": "platforms_integration",
+      "published": "2026-10-14",
+      "summary": "A 30B mixture-of-experts decision model on Workers AI that returns a probability for each allowed answer instead of writing prose."
+    }
+  ]
+}
