@@ -1,9 +1,121 @@
 {
-  "updated_at": "2026-10-14T21:15:59+08:00",
+  "updated_at": "2026-10-15T13:25:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic opened an office in Singapore and signed an AI-safety agreement with the government. One of its executives said open-source AI models carry more risk, and the local-model community pushed back. Hermes Agent gained a plugin that does free web search and page fetching. Someone collected hundreds of official connector servers for AI agents in one place, and Nvidia put its AI cluster scheduler under an open licence. Researchers trained a small model adjustment straight on a compressed model file, skipping PyTorch.",
+  "tldr": "Hermes Agent now connects to more than fifty apps, with no account needed to start and limits on what each connection may do. Claude Code now compacts long idle sessions to save usage, so a reopened session may answer from a summary rather than the full conversation. Anthropic added step-by-step tracking to its developer platform, so companies can see what an agent did and how it did it. Google says AI now writes most of its own code, but found no sign that it is speeding up research on itself. Nvidia promised $2 billion for Europe, including computer power for British safety labs.",
   "articles": [
+    {
+      "title": "Hermes Agent connectors: 50+ apps, click install and log in",
+      "url": "https://x.com/NousResearch/status/2110470076595835353",
+      "category": "hermes_nous",
+      "published": "2026-10-14",
+      "summary": "No account needed to start; limits on each connector split read, write and destructive actions, plus team roles. Bring-your-own MCP sync is next."
+    },
+    {
+      "title": "Claude Code now compacts idle sessions, trading context for a summary",
+      "url": "https://x.com/lydiahallie/status/2110484840256819380",
+      "category": "agents_tooling",
+      "published": "2026-10-14",
+      "summary": "On by default: long idle sessions are compacted before the prompt cache expires, so a resumed session may answer from a summary, not your full context."
+    },
+    {
+      "title": "Claude Platform can send agent traces to your observability stack",
+      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+      "category": "anthropic",
+      "published": "2026-10-14",
+      "summary": "Public beta: OpenTelemetry traces from the Messages API, Managed Agents and the Claude SDKs, with a switch to also export full prompts and tool inputs."
+    },
+    {
+      "title": "Claude Code desktop app makes running many sessions at once easier",
+      "url": "https://x.com/ClaudeDevs/status/2110445844675838148",
+      "category": "anthropic",
+      "published": "2026-10-14",
+      "summary": "Faster session starts, easier splitting of work across sessions, and a clear view of what each one is doing while it runs."
+    },
+    {
+      "title": "Google: AI writes 75% of its code, but shows no sign of self-improvement",
+      "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A Google researcher says 88% of AI-written code changes still need human review, and research speed is not measurably accelerating."
+    },
+    {
+      "title": "Thinking Inertia: models keep thinking after being told to stop",
+      "url": "https://huggingface.co/papers/2610.11765",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A paper arguing that telling a model to stop deliberating does not reliably stop it, so a reasoning cap has to be enforced outside the model."
+    },
+    {
+      "title": "VideoJev: one model for understanding video and acting on it",
+      "url": "https://huggingface.co/papers/2610.18615",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A single-model system for video understanding and interaction, aimed at agents that have to act on screen or on video rather than on text."
+    },
+    {
+      "title": "Researchers found a rogue fleet of Chinese AI agents and talked to it",
+      "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "Agents running on Tencent Cloud made thousands of scraping attempts against a mapping service, and researchers reached them through a web mailbox."
+    },
+    {
+      "title": "Nvidia's Nemotron Bolt 3.5: a 74B model squeezed into 24GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "74B parameters with 9B active, quantised to 2 bits so it fits in 24GB of memory, released October 15 with quality-aware training."
+    },
+    {
+      "title": "OpenAI's next flagship uses a looped design that is harder to monitor",
+      "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "The next flagship repeats transformer layers for better maths and coding, but the looping makes safety monitoring harder, according to a report."
+    },
+    {
+      "title": "Orion-1: a defence-only model aimed at security teams",
+      "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "Artemis Security's Orion-1 is built for defensive cyber work and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark."
+    },
+    {
+      "title": "MiniCPM-V 4.7 puts a 35B multimodal model on a phone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/",
+      "category": "ai_models",
+      "published": "2026-10-14",
+      "summary": "OpenBMB's 35B mixture-of-experts vision-language model runs on-device in about 3GB of memory, reading signs, documents and screens."
+    },
+    {
+      "title": "InclusionAI's Ling-3.1-flash is a 560B model with a million-token context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-14",
+      "summary": "560B total parameters with 25B active per token and a 1M-token window, up from 127B in the previous Ling release."
+    },
+    {
+      "title": "OpenCode 2.0 ships a rebuilt terminal coding agent",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "category": "agents_tooling",
+      "published": "2026-10-14",
+      "summary": "A major release for the open-source terminal coding agent, which drew over 300 points of discussion on Hacker News."
+    },
+    {
+      "title": "Nvidia pledges $2B for Europe and compute for UK safety labs",
+      "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+      "category": "industry",
+      "published": "2026-10-14",
+      "summary": "Jensen Huang announced European investments and stakes in French startups, and pitched open-weight models as Europe's route to catching up."
+    },
+    {
+      "title": "Cloudflare's Clef-omni reads text, images, audio and video for $0.15 a million tokens",
+      "url": "https://developers.cloudflare.com/workers-ai/models/clef-omni",
+      "category": "platforms_integration",
+      "published": "2026-10-14",
+      "summary": "A 30B mixture-of-experts decision model on Workers AI that returns a probability for each allowed answer instead of writing prose."
+    },
     {
       "title": "Anthropic opens a Singapore office and signs an AI-safety MOU with the government",
       "url": "https://www.anthropic.com/news/singapore-office-opening",
@@ -311,118 +423,6 @@
       "category": "zo_computer",
       "published": "2026-10-13",
       "summary": "Zo's CTO reads Anthropic's in-house version control as a general pattern for anyone coding with cloud agents, and says Zo is already building for it."
-    },
-    {
-      "title": "Anthropic's distillation crackdown bans tens of thousands of accounts",
-      "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
-      "category": "industry",
-      "published": "2026-10-13",
-      "summary": "Anthropic says it cut theft of Claude's reasoning by 90-99% and ties the campaigns to Chinese firms Zhipu and Moonshot."
-    },
-    {
-      "title": "AI models can provably hide arbitrary capabilities",
-      "url": "https://arxiv.org/abs/2610.13928",
-      "category": "ai_research",
-      "published": "2026-10-13",
-      "summary": "Researchers hid encrypted networks inside model weights that only run on a secret trigger, defeating capability testing."
-    },
-    {
-      "title": "SSD streaming for a large Qwen model got faster with n+2 lookahead",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4sit6/based_on_advice_from_localllama_implemented_a_n2/",
-      "category": "ai_models",
-      "published": "2026-10-13",
-      "summary": "A Mac Mini user prefetches the next layer's experts while decoding and reports a clear speed-up on Qwen Flash Next."
-    },
-    {
-      "title": "An open-source desktop agent app runs two local models at once",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/",
-      "category": "agents_tooling",
-      "published": "2026-10-13",
-      "summary": "Dodaios runs agents on local Ollama models with no account or cloud; the maintainer posts a real recording including the limits hit."
-    },
-    {
-      "title": "A mathematician checks OpenAI's claimed faster Fourier transform",
-      "url": "https://www.argmin.net/p/faster-fourier-transforms",
-      "category": "ai_research",
-      "published": "2026-10-13",
-      "summary": "A close read of the maths behind OpenAI's faster Fourier transform claim, and whether it holds up under inspection."
-    },
-    {
-      "title": "Nine-year-old V100s still beat M5 Ultra and DGX Spark on some tests",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4mtzx/nvidias_9yearold_tesla_v100_still_packs_some/",
-      "category": "ai_models",
-      "published": "2026-10-13",
-      "summary": "Four NVLink-linked V100s reportedly outperform newer machines by up to 230% on several inference benchmarks."
-    },
-    {
-      "title": "Anthropic's distillation defenses: detecting rivals training on Claude",
-      "url": "https://www.anthropic.com/research/distillation-defenses",
-      "category": "anthropic",
-      "published": "2026-10-13",
-      "summary": "Anthropic describes how it fingerprints and degrades distillation attacks, where rivals train on a frontier model's outputs."
-    },
-    {
-      "title": "Claude Code: a PreToolUse hook that returns 'allow' skips the safety classifier",
-      "url": "https://x.com/lydiahallie/status/2109716193468874978",
-      "category": "agents_tooling",
-      "published": "2026-10-13",
-      "summary": "Lydia Hallie says a hook that auto-allows every tool call also switches off the classifier that gates them. The gate looks wired up but enforces nothing."
-    },
-    {
-      "title": "Garry Tan: profitable agentic loops beat raising another round",
-      "url": "https://x.com/garrytan/status/2109748677464277437",
-      "category": "industry",
-      "published": "2026-10-13",
-      "summary": "YC's president says companies making $10M a year in profit running maximal agentic loops should reinvest it rather than dilute for a Series A."
-    },
-    {
-      "title": "BudgetPix: compute-adaptive tokenization for image models",
-      "url": "https://x.com/_akhaliq/status/2109711696944300535",
-      "category": "ai_research",
-      "published": "2026-10-13",
-      "summary": "A paper on spending denoising compute only where an image needs it, so low-detail regions cost less. Paper only, no code yet."
-    },
-    {
-      "title": "Moonshot said to be training a 5-6 trillion parameter Kimi K4",
-      "url": "https://www.itbear.com/ai/kimi-k4-in-the-works-moonshot-ai-eyes-5-6-trillion-parameter-beast/",
-      "category": "moonshot_ai",
-      "published": "2026-10-12",
-      "summary": "Report, not a release: Moonshot is said to be training a 5-6 trillion parameter model while Kimi K3.1 slips past its expected mid-October launch."
-    },
-    {
-      "title": "Anthropic: small AI models could soon copy themselves onto smart devices",
-      "url": "https://www.anthropic.com/research/self-replicating-ai",
-      "category": "anthropic",
-      "published": "2026-10-12",
-      "summary": "A 9B model got inference running on 8 of 9 cheap device types tested; the researchers say self-replication may be months away."
-    },
-    {
-      "title": "Zhipu's GLM-Legal matches frontier models on legal work",
-      "url": "https://z.ai/blog/glm-legal",
-      "category": "chinese_ai",
-      "published": "2026-10-12",
-      "summary": "Zhipu's legal model ties top closed models on LegalBench and PLawBench, and scores 19.2% all-pass on Harvey's agent benchmark."
-    },
-    {
-      "title": "Janas: run a model bigger than your RAM by streaming experts off SSD",
-      "url": "https://github.com/prabanta-dev/janas",
-      "category": "platforms_integration",
-      "published": "2026-10-12",
-      "summary": "An open-source project streams mixture-of-experts weights from disk, so one machine can run models larger than its memory."
-    },
-    {
-      "title": "Hermes: compression shipped, 'ultrafast' GPT-SOL 6.1 in today's build",
-      "url": "https://x.com/Teknium/status/2109504675846525412",
-      "category": "hermes_nous",
-      "published": "2026-10-12",
-      "summary": "Teknium confirms the message-compression update landed and that today's build adds an 'ultrafast' GPT-SOL 6.1 to the $500 tier and API catalog."
-    },
-    {
-      "title": "Boole-1.7B: a 1-bit Qwen3-1.7B at 247MB packed weights",
-      "url": "https://huggingface.co/precision-numerics/Boole-1.7B",
-      "category": "ai_models",
-      "published": "2026-10-12",
-      "summary": "Precision Numerics releases a 1-bit Qwen3-1.7B: 13.9x smaller than BF16 and 85.9% of its average score across ten tasks."
     }
   ]
 }
