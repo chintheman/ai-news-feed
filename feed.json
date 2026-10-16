@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-10-16T13:16:24+08:00",
+  "updated_at": "2026-10-16T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic now lets outside safety researchers from METR look inside its work, with the same access employees get. Anthropic and OpenAI each put $5 million into mathematics research on the same day. A public contest to break AI agents opened, run by Gray Swan with Anthropic and other labs. OpenAI says agents now handle more than half of what its business customers in Europe do with AI. A 2-billion-parameter model from the Bonsai family runs entirely inside a web browser.",
+  "tldr": "Hermes Agent v0.22.0 is out, with easier setup and a safer update channel. Alibaba released an open toolkit that lifts computer-control agents by about 20 points on real desktop tasks. Microsoft says it has trained its own base models in the 3-trillion-parameter class. A cheap robot toy leaked 13 million private conversations and could be taken over remotely. Tencent posted a small open model that beats Claude Opus 5 on memory tests, and a new paper shows agents that reason silently score higher on half the tokens.",
   "articles": [
+    {
+      "title": "Hermes REA plugin installs with one command, plus a walkthrough video",
+      "url": "https://x.com/Teknium/status/2110978534894412142",
+      "category": "hermes_nous",
+      "published": "2026-10-16",
+      "summary": "'hermes plugins install rea' sets up the MCP config and skill for reverse-engineering unknown code in a single step."
+    },
+    {
+      "title": "Alibaba opens a computer-use stack that lifts 8 frontier models by 19.6 points",
+      "url": "https://github.com/Tongyi-MAI/OpenGCUA",
+      "category": "agents_tooling",
+      "published": "2026-10-16",
+      "summary": "OpenGCUA cuts steps per task 53% versus a GUI-only baseline on OSWorld-v2, and ships a real macOS harness plus full eval trajectories."
+    },
+    {
+      "title": "Microsoft says its in-house base models now reach 3T parameters",
+      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "MAI says it trained state-of-the-art base models of that size entirely in-house; post-training results are still to come."
+    },
+    {
+      "title": "Tencent's Hy-Memory-30B-A3B is a 3B-active memory writer that edges Opus 5",
+      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+      "category": "chinese_ai",
+      "published": "2026-10-16",
+      "summary": "Apache-2.0 Hunyuan model that replaces the LLM inside Mem0, MemOS and Hy-Memory, averaging 55.49 against Claude Opus 5's 54.62."
+    },
+    {
+      "title": "Hybrid Reasoning Agents score higher while thinking in silence",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "Stanford, Together AI, UIUC and Meta paper: agents that reason in latent space beat text-reasoning baselines by ~10% on half the tokens."
+    },
+    {
+      "title": "Alibaba's BlenderWorld tests whether agents can build 3D scenes",
+      "url": "https://github.com/QwenLM/BlenderWorld",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "Qwen's new benchmark asks visual agents to recreate real-world references in Blender, a harder test than screenshot-based tasks."
+    },
+    {
+      "title": "Open-weight models now beat Sonnet 5 on filtered benchmarks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "Frontier models still lead overall, but open weights have closed to Sonnet 5 level once benchmarks are filtered properly."
+    },
     {
       "title": "Anthropic and Gray Swan open a public contest to break AI agents",
       "url": "https://x.com/bcherny/status/2110791698611855624",
@@ -80,6 +129,41 @@
       "category": "ai_research",
       "published": "2026-10-16",
       "summary": "Navigation-agent training worlds generated from its own failure cases, removing the need for hand-built simulators."
+    },
+    {
+      "title": "A cheap AI robot toy leaked 13 million chats and its whole fleet could be hijacked",
+      "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+      "category": "policy",
+      "published": "2026-10-15",
+      "summary": "The Verge and a hacker read Energize Lab's Eiliko transcripts and rewrote the toy's memory remotely; nine CVEs filed, vendor silent."
+    },
+    {
+      "title": "Krea 3 is an image model built for editing at scale",
+      "url": "https://www.krea.ai/krea-3",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "Krea's new generation model targets large editing workloads rather than one-off generations; 294 points on Hacker News."
+    },
+    {
+      "title": "Goodfire: neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "Interactive explainer arguing model internals are cleanly structured, which makes interpretability work tractable. 645 points on Hacker News."
+    },
+    {
+      "title": "capy-flash runs Qwen3.8-Flash-Next on two 16GB consumer GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "A 125B MoE served in full NVFP4 across two consumer cards, the latest sign that big open models are reaching small local rigs."
+    },
+    {
+      "title": "A GBP 300 Snapdragon mini PC runs a 35B coder at about 30 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/",
+      "category": "platforms_integration",
+      "published": "2026-10-15",
+      "summary": "CPU-only Lenovo box with 32GB hits 24-30 tokens/s on Qwen3.6 35B, and 17 tokens/s on an 80B MoE that does not fit in RAM."
     },
     {
       "title": "OpenAI and a law firm built a tool that reviews draft contracts",
@@ -243,6 +327,13 @@
       "summary": "A paper on training agents from generated experience rather than human demonstration data. Linked without the abstract being read."
     },
     {
+      "title": "Hermes Agent v0.22.0 adds one-click connectors and a Stable update channel",
+      "url": "https://x.com/Teknium/status/2110387396823163357",
+      "category": "hermes_nous",
+      "published": "2026-10-14",
+      "summary": "Hermes now starts working without a provider key, installs app connectors in one click, and gains a tested Stable channel. 2,500+ contributors."
+    },
+    {
       "title": "Embodied Turing Machines: stateful code for robots that improve themselves",
       "url": "https://x.com/_akhaliq/status/2110057543305396244",
       "category": "ai_research",
@@ -332,97 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-14",
       "summary": "A single-model system for video understanding and interaction, aimed at agents that have to act on screen or on video rather than on text."
-    },
-    {
-      "title": "Researchers found a rogue fleet of Chinese AI agents and talked to it",
-      "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "Agents running on Tencent Cloud made thousands of scraping attempts against a mapping service, and researchers reached them through a web mailbox."
-    },
-    {
-      "title": "Nvidia's Nemotron Bolt 3.5: a 74B model squeezed into 24GB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/",
-      "category": "ai_models",
-      "published": "2026-10-14",
-      "summary": "74B parameters with 9B active, quantised to 2 bits so it fits in 24GB of memory, released October 15 with quality-aware training."
-    },
-    {
-      "title": "OpenAI's next flagship uses a looped design that is harder to monitor",
-      "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
-      "category": "ai_models",
-      "published": "2026-10-14",
-      "summary": "The next flagship repeats transformer layers for better maths and coding, but the looping makes safety monitoring harder, according to a report."
-    },
-    {
-      "title": "Orion-1: a defence-only model aimed at security teams",
-      "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
-      "category": "ai_models",
-      "published": "2026-10-14",
-      "summary": "Artemis Security's Orion-1 is built for defensive cyber work and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark."
-    },
-    {
-      "title": "MiniCPM-V 4.7 puts a 35B multimodal model on a phone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/",
-      "category": "ai_models",
-      "published": "2026-10-14",
-      "summary": "OpenBMB's 35B mixture-of-experts vision-language model runs on-device in about 3GB of memory, reading signs, documents and screens."
-    },
-    {
-      "title": "InclusionAI's Ling-3.1-flash is a 560B model with a million-token context",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/",
-      "category": "chinese_ai",
-      "published": "2026-10-14",
-      "summary": "560B total parameters with 25B active per token and a 1M-token window, up from 127B in the previous Ling release."
-    },
-    {
-      "title": "OpenCode 2.0 ships a rebuilt terminal coding agent",
-      "url": "https://anoma.ly/notes/opencode-2-0/",
-      "category": "agents_tooling",
-      "published": "2026-10-14",
-      "summary": "A major release for the open-source terminal coding agent, which drew over 300 points of discussion on Hacker News."
-    },
-    {
-      "title": "Nvidia pledges $2B for Europe and compute for UK safety labs",
-      "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
-      "category": "industry",
-      "published": "2026-10-14",
-      "summary": "Jensen Huang announced European investments and stakes in French startups, and pitched open-weight models as Europe's route to catching up."
-    },
-    {
-      "title": "Cloudflare's Clef-omni reads text, images, audio and video for $0.15 a million tokens",
-      "url": "https://developers.cloudflare.com/workers-ai/models/clef-omni",
-      "category": "platforms_integration",
-      "published": "2026-10-14",
-      "summary": "A 30B mixture-of-experts decision model on Workers AI that returns a probability for each allowed answer instead of writing prose."
-    },
-    {
-      "title": "Anthropic opens a Singapore office and signs an AI-safety MOU with the government",
-      "url": "https://www.anthropic.com/news/singapore-office-opening",
-      "category": "anthropic",
-      "published": "2026-10-14",
-      "summary": "Its fifth office in Asia-Pacific, at Raffles Place, paired with an agreement covering AI safety, evaluation and adoption."
-    },
-    {
-      "title": "Anthropic executive says open-source AI models carry higher risk",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5nyd3/anthropic_executive_says_opensource_ai_models_are/",
-      "category": "anthropic",
-      "published": "2026-10-14",
-      "summary": "Reported remarks about the cybersecurity risk of open-weight models, which the local-model community disputed."
-    },
-    {
-      "title": "TinyFish plugin gives Hermes Agent free web search and page fetching",
-      "url": "https://hermes-agent.nousresearch.com/docs/plugins/tinyfish",
-      "category": "hermes_nous",
-      "published": "2026-10-14",
-      "summary": "A free backend for Hermes' existing web search and page-extract tools; the browser and web-agent tiers stay gated."
-    },
-    {
-      "title": "A curated list of official connector servers for AI agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5j0p7/updated_list_of_official_mcp_servers_300/",
-      "category": "agents_tooling",
-      "published": "2026-10-14",
-      "summary": "Hundreds of widely used Model Context Protocol servers, limited to ones published by the products' own maintainers."
     }
   ]
 }
