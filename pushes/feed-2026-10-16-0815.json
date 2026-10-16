@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-10-16T08:16:17.529469+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 15,
+  "tldr": "Meta released Muse Spark Open, a giant open model anyone can download that handles text, images, video and sound. Nvidia shipped new models built to keep AI agents running nonstop, and Nous says they work well inside Hermes Agent. Hermes Agent also gained an official plugin that connects it to REA research. OpenAI improved the voices in ChatGPT and Codex, adding six more languages, though API access is still to come. A new image model from Black Forest Labs runs on ordinary graphics cards with just 8GB of memory.",
+  "articles": [
+    {
+      "title": "Meta's Muse Spark Open is an 816B open-weight model you can download",
+      "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "Handles text, images, video and audio with a million-token context, and benchmarks near the top Chinese open models."
+    },
+    {
+      "title": "Black Forest Labs' FLUX 3 Image Klein runs on 8GB of VRAM",
+      "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "A 5.6B open-weights image model with native 4K output and pixel-precise edits, small enough for a consumer GPU."
+    },
+    {
+      "title": "Nvidia's Nemotron 3.5 Super VL is built to run agents nonstop",
+      "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "A 120B open multimodal model for enterprise agents, with two compact Bolt models meant to run on local machines."
+    },
+    {
+      "title": "Nous: Nvidia's new open models score 63.44 on Hermes Bench",
+      "url": "https://x.com/NousResearch/status/2110786024024445201",
+      "category": "hermes_nous",
+      "published": "2026-10-16",
+      "summary": "Nous says Nemotron 3.5 Super VL and Bolt run well inside Hermes Agent, with up to 5x the local token throughput."
+    },
+    {
+      "title": "Hermes Agent gets an official plugin for REA research",
+      "url": "https://x.com/Teknium/status/2110736682207355062",
+      "category": "hermes_nous",
+      "published": "2026-10-15",
+      "summary": "A Hermes cofounder shipped a plugin bundling the REA MCP server plus a skill for using it well, installable today."
+    },
+    {
+      "title": "OpenAI ships better voices in six more languages with GPT-Live-1.1",
+      "url": "https://x.com/OpenAI/status/2110797830361436604",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "New voices and accents for ChatGPT, Codex and dots, rolling out now. API access is announced but not shipped yet."
+    },
+    {
+      "title": "OpenAI sponsors GPT-Rosalind for academic labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "The Rosalind Academic Plan gives eligible US university labs sponsored access to OpenAI's life-sciences model."
+    },
+    {
+      "title": "Mistral's Timestral does forecasting in four small sizes",
+      "url": "https://mistral.ai/news/timestral/",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "Probabilistic forecasting models from 5M to 209M parameters, built to run on CPU and work zero-shot."
+    },
+    {
+      "title": "IBM's Granite Switch 4.1 serves chat, decisions and speech from one endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "One endpoint covers chat, decision-making and speech, cutting three model integrations down to one."
+    },
+    {
+      "title": "GPT-6-Astra solves 49 of 50 physics problems at $2.40 each",
+      "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "On TheoPhysEval the agent matched specialists on unpublished problems, and some expert reference answers were wrong."
+    },
+    {
+      "title": "Bank of America puts 4,000 people on vulnerabilities AI models found",
+      "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
+      "category": "industry",
+      "published": "2026-10-15",
+      "summary": "Including 1,000 outside contractors, hired to patch flaws surfaced by Anthropic's Mythos and other AI models."
+    },
+    {
+      "title": "QwenGyre brings elastic RL to very long-horizon agent training",
+      "url": "https://x.com/Alibaba_Qwen/status/2109633085658808515",
+      "category": "chinese_ai",
+      "published": "2026-10-12",
+      "summary": "A scheduler that moves GPUs between rollout and training lifts NL2RepoBench 6 points and cuts training time ~44%."
+    },
+    {
+      "title": "Embodied Turing Machines: stateful code for robots that improve themselves",
+      "url": "https://x.com/_akhaliq/status/2110057543305396244",
+      "category": "ai_research",
+      "published": "2026-10-14",
+      "summary": "A paper on keeping robot state as code so behaviour carries across runs instead of resetting each time."
+    },
+    {
+      "title": "From Failures to Learnable Worlds: training environments built from an agent's own errors",
+      "url": "https://x.com/_akhaliq/status/2110784877629202507",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "Navigation-agent training worlds generated from its own failure cases, removing the need for hand-built simulators."
+    },
+    {
+      "title": "Zo says it is already building the agent-friendly workflow Anthropic described",
+      "url": "https://x.com/dannycosson/status/2110095661630914615",
+      "category": "zo_computer",
+      "published": "2026-10-14",
+      "summary": "Agents that skip full repo clones: short-lived sandboxes and targeted checkouts, so cloud coding stays fast."
+    }
+  ]
+}
