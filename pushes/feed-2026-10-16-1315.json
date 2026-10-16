@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-10-16T13:16:24+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 13,
+  "tldr": "Anthropic now lets outside safety researchers from METR look inside its work, with the same access employees get. Anthropic and OpenAI each put $5 million into mathematics research on the same day. A public contest to break AI agents opened, run by Gray Swan with Anthropic and other labs. OpenAI says agents now handle more than half of what its business customers in Europe do with AI. A 2-billion-parameter model from the Bonsai family runs entirely inside a web browser.",
+  "articles": [
+    {
+      "title": "Anthropic and Gray Swan open a public contest to break AI agents",
+      "url": "https://x.com/bcherny/status/2110791698611855624",
+      "category": "policy",
+      "published": "2026-10-16",
+      "summary": "The Claude team says prompt injection is still unsolved and is running a public contest with Gray Swan to find attacks."
+    },
+    {
+      "title": "Anthropic gives METR researchers employee-level access for safety checks",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "A team from METR now gets employee-like internal access to evaluate Anthropic's safety work, the first such outside arrangement."
+    },
+    {
+      "title": "Anthropic rebuilt version control because agents swamped git",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "category": "anthropic",
+      "published": "2026-10-13",
+      "summary": "Merges in its monorepo went from 2,500 to over 30,000 a month, so Anthropic built Scion in-house and moved off git."
+    },
+    {
+      "title": "OpenAI and a law firm built a tool that reviews draft contracts",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "category": "platforms_integration",
+      "published": "2026-10-15",
+      "summary": "Agreement Analyzer, built with Sullivan & Cromwell, flags problem clauses in a draft agreement before lawyers read it."
+    },
+    {
+      "title": "OpenAI: agents are now over half of EU business AI use",
+      "url": "https://x.com/OpenAI/status/2110442001749659890",
+      "category": "industry",
+      "published": "2026-10-15",
+      "summary": "More than half of what its EU enterprise and business customers do with AI involves agents, and small-business users grew 8x."
+    },
+    {
+      "title": "OpenAI puts $5M into a maths programme that checks AI results",
+      "url": "https://x.com/OpenAI/status/2110741355739963884",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "Money and compute go to a new Simons Foundation initiative funding verification work on AI-produced mathematics."
+    },
+    {
+      "title": "Anthropic matches with $5M of funding, compute and Claude access for maths",
+      "url": "https://x.com/AnthropicAI/status/2110846112152105136",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "Same day, same sum as OpenAI: Anthropic is backing the maths community to work out how to use AI in research."
+    },
+    {
+      "title": "Anthropic opens applications for two paid fellowships",
+      "url": "https://x.com/AnthropicAI/status/2110720940665372825",
+      "category": "anthropic",
+      "published": "2026-10-15",
+      "summary": "STEM and conceptual reasoning fellowships run four months from January 2027. Applications close on 28 October 2026."
+    },
+    {
+      "title": "ALoDLM: a looped diffusion model that beats its Qwen base",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "An 8B looped diffusion language model the author reports at roughly 3x its Qwen3-8B base, with better benchmarks."
+    },
+    {
+      "title": "Ternary Bonsai 2 lands at 2B, 4B and 9B and runs in a browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "The smallest runs fully in the browser at up to 500 tokens a second on an M4 Max through custom WebGPU kernels."
+    },
+    {
+      "title": "DeepSeek-V4-Flash runs on four Radeon cards at 79 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/",
+      "category": "deepseek",
+      "published": "2026-10-16",
+      "summary": "A user reports getting the four-card setup the affinity engine refuses to start on working, at useful speed."
+    },
+    {
+      "title": "A 128GB RTX Spark laptop is selling for $3,832",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6trqq/128gb_rtx_spark_laptop_for_3832/",
+      "category": "industry",
+      "published": "2026-10-16",
+      "summary": "HP lists it at $5,109 and a 25% coupon brings it under the usual price for that much memory, for local model runners."
+    },
+    {
+      "title": "Nvidia opens up the pipeline behind its Indic pretraining run",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "2.8 trillion tokens of Indic data, with the generation pipeline published so other language groups can copy it."
+    }
+  ]
+}
