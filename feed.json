@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-10-16T08:16:17.529469+08:00",
+  "updated_at": "2026-10-16T13:16:24+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Meta released Muse Spark Open, a giant open model anyone can download that handles text, images, video and sound. Nvidia shipped new models built to keep AI agents running nonstop, and Nous says they work well inside Hermes Agent. Hermes Agent also gained an official plugin that connects it to REA research. OpenAI improved the voices in ChatGPT and Codex, adding six more languages, though API access is still to come. A new image model from Black Forest Labs runs on ordinary graphics cards with just 8GB of memory.",
+  "tldr": "Anthropic now lets outside safety researchers from METR look inside its work, with the same access employees get. Anthropic and OpenAI each put $5 million into mathematics research on the same day. A public contest to break AI agents opened, run by Gray Swan with Anthropic and other labs. OpenAI says agents now handle more than half of what its business customers in Europe do with AI. A 2-billion-parameter model from the Bonsai family runs entirely inside a web browser.",
   "articles": [
+    {
+      "title": "Anthropic and Gray Swan open a public contest to break AI agents",
+      "url": "https://x.com/bcherny/status/2110791698611855624",
+      "category": "policy",
+      "published": "2026-10-16",
+      "summary": "The Claude team says prompt injection is still unsolved and is running a public contest with Gray Swan to find attacks."
+    },
+    {
+      "title": "Anthropic gives METR researchers employee-level access for safety checks",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "A team from METR now gets employee-like internal access to evaluate Anthropic's safety work, the first such outside arrangement."
+    },
+    {
+      "title": "Anthropic matches with $5M of funding, compute and Claude access for maths",
+      "url": "https://x.com/AnthropicAI/status/2110846112152105136",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "Same day, same sum as OpenAI: Anthropic is backing the maths community to work out how to use AI in research."
+    },
+    {
+      "title": "ALoDLM: a looped diffusion model that beats its Qwen base",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "An 8B looped diffusion language model the author reports at roughly 3x its Qwen3-8B base, with better benchmarks."
+    },
+    {
+      "title": "Ternary Bonsai 2 lands at 2B, 4B and 9B and runs in a browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "The smallest runs fully in the browser at up to 500 tokens a second on an M4 Max through custom WebGPU kernels."
+    },
+    {
+      "title": "DeepSeek-V4-Flash runs on four Radeon cards at 79 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/",
+      "category": "deepseek",
+      "published": "2026-10-16",
+      "summary": "A user reports getting the four-card setup the affinity engine refuses to start on working, at useful speed."
+    },
+    {
+      "title": "A 128GB RTX Spark laptop is selling for $3,832",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6trqq/128gb_rtx_spark_laptop_for_3832/",
+      "category": "industry",
+      "published": "2026-10-16",
+      "summary": "HP lists it at $5,109 and a 25% coupon brings it under the usual price for that much memory, for local model runners."
+    },
+    {
+      "title": "Nvidia opens up the pipeline behind its Indic pretraining run",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "2.8 trillion tokens of Indic data, with the generation pipeline published so other language groups can copy it."
+    },
     {
       "title": "Nous: Nvidia's new open models score 63.44 on Hermes Bench",
       "url": "https://x.com/NousResearch/status/2110786024024445201",
@@ -24,6 +80,34 @@
       "category": "ai_research",
       "published": "2026-10-16",
       "summary": "Navigation-agent training worlds generated from its own failure cases, removing the need for hand-built simulators."
+    },
+    {
+      "title": "OpenAI and a law firm built a tool that reviews draft contracts",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "category": "platforms_integration",
+      "published": "2026-10-15",
+      "summary": "Agreement Analyzer, built with Sullivan & Cromwell, flags problem clauses in a draft agreement before lawyers read it."
+    },
+    {
+      "title": "OpenAI: agents are now over half of EU business AI use",
+      "url": "https://x.com/OpenAI/status/2110442001749659890",
+      "category": "industry",
+      "published": "2026-10-15",
+      "summary": "More than half of what its EU enterprise and business customers do with AI involves agents, and small-business users grew 8x."
+    },
+    {
+      "title": "OpenAI puts $5M into a maths programme that checks AI results",
+      "url": "https://x.com/OpenAI/status/2110741355739963884",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "Money and compute go to a new Simons Foundation initiative funding verification work on AI-produced mathematics."
+    },
+    {
+      "title": "Anthropic opens applications for two paid fellowships",
+      "url": "https://x.com/AnthropicAI/status/2110720940665372825",
+      "category": "anthropic",
+      "published": "2026-10-15",
+      "summary": "STEM and conceptual reasoning fellowships run four months from January 2027. Applications close on 28 October 2026."
     },
     {
       "title": "Meta's Muse Spark Open is an 816B open-weight model you can download",
@@ -339,90 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-10-14",
       "summary": "Hundreds of widely used Model Context Protocol servers, limited to ones published by the products' own maintainers."
-    },
-    {
-      "title": "NVIDIA's Run:AI cluster scheduler moves to an Apache-2.0 licence",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5jnbf/nvidias_runai_is_now_apparently_under_apache20/",
-      "category": "platforms_integration",
-      "published": "2026-10-14",
-      "summary": "The software NVIDIA uses to schedule GPU clusters for AI workloads is now open source and self-hostable."
-    },
-    {
-      "title": "Train a LoRA adapter directly on a quantized model file, no PyTorch",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5j48s/train_lora_directly_on_quantized_ggufs_no_pytorch/",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "Fine-tuning against the compressed model you already run, with no parent FP16 copy and no PyTorch in the loop."
-    },
-    {
-      "title": "OpenAI: the EU's next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "category": "policy",
-      "published": "2026-10-14",
-      "summary": "Analysis of how far agentic AI has spread across EU enterprises and small businesses, and where value is untouched."
-    },
-    {
-      "title": "An inference engine moves a running model's layers between GPUs mid-reply",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5i7o9/moving_a_running_models_layers_between_gpus/",
-      "category": "platforms_integration",
-      "published": "2026-10-14",
-      "summary": "jitllm treats model layers like processes it can place and move, switching hardware in 8ms without re-running the prompt."
-    },
-    {
-      "title": "RTX 5090 cards reportedly turn up on smugglers' menus",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ki4t/so_this_is_how_they_do_it_rtx_5090_once_a/",
-      "category": "industry",
-      "published": "2026-10-14",
-      "summary": "A sign of how scarce consumer GPUs with plenty of VRAM have become now that they are AI compute."
-    },
-    {
-      "title": "ComfyUI v0.40.0 released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5nu99/comfyui_v0400_released/",
-      "category": "platforms_integration",
-      "published": "2026-10-14",
-      "summary": "A new version of the node-based interface used to run image and video generation models on your own machine."
-    },
-    {
-      "title": "Hermes Agent v0.22.0 'The Threshold Release'",
-      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
-      "category": "hermes_nous",
-      "published": "2026-10-14",
-      "summary": "Hermes 0.22.0 ships stable release channels, one-click local models, Gmail/Linear/Notion connectors and a 600-entry reviewed plugin catalog."
-    },
-    {
-      "title": "Qwen's Flash model serves 685 tokens a second per user",
-      "url": "https://x.com/Alibaba_Qwen/status/2110214931559899630",
-      "category": "chinese_ai",
-      "published": "2026-10-14",
-      "summary": "Qwen points to community inference stack TokenSpeed serving Qwen3.8-Flash-Next at 685 output tokens/s per user on Nvidia GPUs."
-    },
-    {
-      "title": "Discover AI: 51 hands-on labs for learning how AI actually works",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ft3e/discover_ai_a_learning_guide_51_handson_labs_for/",
-      "category": "platforms_integration",
-      "published": "2026-10-14",
-      "summary": "An offline app with 51 labs in six groups, from neurons and gradient descent through attention, RAG, agents, fine-tuning and serving."
-    },
-    {
-      "title": "A local Qwen3.8FN agent comes out cheaper than cloud models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5blg4/my_local_qwen38fn_agent_is_significantly_cheaper/",
-      "category": "chinese_ai",
-      "published": "2026-10-13",
-      "summary": "A cost breakdown at peak and off-peak electricity pricing, with each run routed to whichever option is cheapest."
-    },
-    {
-      "title": "Garry Tan: giving your agent a real browser is the real unlock",
-      "url": "https://x.com/garrytan/status/2110053836945756234",
-      "category": "agents_tooling",
-      "published": "2026-10-13",
-      "summary": "YC's president says handing an agent harness a real browser with your real logins is a genuine unlock, and recommends one. It is also the riskiest step."
-    },
-    {
-      "title": "A blogger watched AI bot traffic flood his site after hitting HN",
-      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-      "category": "industry",
-      "published": "2026-10-13",
-      "summary": "What happened when his post reached Hacker News: a wave of AI crawler traffic, measured, that ordinary analytics never counted."
     }
   ]
 }
