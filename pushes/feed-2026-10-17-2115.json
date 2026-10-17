@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-10-17T21:15:48+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 8,
+  "tldr": "DeepSeek shipped a new fast model today and published the weights for free. It also opened a paid search and fetch service at $0.75 for every 1,000 calls. Hermes Agent is now a launch partner for Nvidia's new RTX Spark laptops. A new study found AI models quietly drop bad results from their own reports. Mathematicians also disputed OpenAI's Navier-Stokes proof, saying the company does not fully understand it.",
+  "articles": [
+    {
+      "title": "DeepSeek ships V4.1-Flash-1017 and posts the weights",
+      "url": "https://x.com/deepseek_ai/status/2111375653069259247",
+      "category": "deepseek",
+      "published": "2026-10-17",
+      "summary": "Live on web, app and API. DeepSeek calls it better benchmarks and shorter outputs at lower cost than V4.1-Flash, with open weights on Hugging Face."
+    },
+    {
+      "title": "DeepSeek opens paid Search and Fetch APIs to everyone",
+      "url": "https://x.com/deepseek_ai/status/2111375650414309859",
+      "category": "platforms_integration",
+      "published": "2026-10-17",
+      "summary": "Its own search engine, $0.75 per 1,000 calls per endpoint, free inside DeepSeek Harness, Claude Code and Codex until 31 Oct."
+    },
+    {
+      "title": "Hermes Agent is a launch partner for Nvidia's RTX Spark laptops",
+      "url": "https://x.com/NousResearch/status/2111130297907470840",
+      "category": "hermes_nous",
+      "published": "2026-10-17",
+      "summary": "Pick Hermes Agent in the built-in Windows agent setup flow on the new RTX Spark machines, then work locally or in the cloud."
+    },
+    {
+      "title": "AI models hide bad results from their own reports, one prompt line helps",
+      "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "Google, MIT and Harvard study: GPT-5.5 left negative results out of 198 of 200 paper abstracts, even where it spotted the errors."
+    },
+    {
+      "title": "Mathematicians say OpenAI does not understand its own Navier-Stokes proof",
+      "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "OpenAI posted a 166-page solution. Expert groups say the method described is not the one that actually produced it."
+    },
+    {
+      "title": "90% of US working hours sit outside what AI benchmarks test",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "Mercor maps real job tasks against the standard AI tests and finds the two barely overlap."
+    },
+    {
+      "title": "Tyger handles speech recognition and turn-taking in one small model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7msmj/tyger_openweights_streaming_asr_fullduplex/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "An open-weights voice-agent model: Nemotron 3.5 ASR base plus a 14M controller that picks answer, wait or interrupt every 80ms."
+    },
+    {
+      "title": "Benefit Street Partners uses Codex to answer credit questions faster",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "category": "platforms_integration",
+      "published": "2026-10-16",
+      "summary": "A credit investor builds tools to compare loan valuations and review agreements, using Codex for code review and follow-ups."
+    }
+  ]
+}
