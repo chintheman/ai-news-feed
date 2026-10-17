@@ -1,9 +1,114 @@
 {
-  "updated_at": "2026-10-16T21:15:00+08:00",
+  "updated_at": "2026-10-17T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Hermes Agent v0.22.0 is out, with easier setup and a safer update channel. Alibaba released an open toolkit that lifts computer-control agents by about 20 points on real desktop tasks. Microsoft says it has trained its own base models in the 3-trillion-parameter class. A cheap robot toy leaked 13 million private conversations and could be taken over remotely. Tencent posted a small open model that beats Claude Opus 5 on memory tests, and a new paper shows agents that reason silently score higher on half the tokens.",
+  "tldr": "OpenAI's GPT-6 Astra Pro can now run several agents on one task at the same time. Anthropic showed Claude designing quantum circuits that beat the best published ones. Nous's benchmark page has listed GPT 6.1 Sol, a model OpenAI has not announced yet. Google's Gemini 4 Argon scores 97.5% on a hard reasoning test under its own setup but only 49.8% under the standard one. China has drafted export controls on open-weight models and 23 other AI technologies.",
   "articles": [
+    {
+      "title": "OpenAI's GPT-6 Astra Pro runs several agents on one task in parallel",
+      "url": "https://x.com/OpenAI/status/2111192259073094035",
+      "category": "agents_tooling",
+      "published": "2026-10-17",
+      "summary": "Pro users in the Chat tab get per-agent progress and finished sub-tasks they can open and review, a step past single-turn chat."
+    },
+    {
+      "title": "Claude Mythos 5 designs quantum circuits that beat the best published ones",
+      "url": "https://x.com/AnthropicAI/status/2111152183240511640",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "From plain-language instructions, Claude designed quantum circuits that beat the best published ones, sometimes by an order of magnitude."
+    },
+    {
+      "title": "Nous's Hermes Index adds GPT 6.1 Sol to its benchmark table",
+      "url": "https://x.com/Teknium/status/2111197448282702310",
+      "category": "hermes_nous",
+      "published": "2026-10-17",
+      "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
+    },
+    {
+      "title": "Kunlun open-sources Matrix-Game 4.0, playable at 480p 60 FPS on one RTX 5090",
+      "url": "https://huggingface.co/Skywork/Matrix-Game-4.0",
+      "category": "chinese_ai",
+      "published": "2026-10-16",
+      "summary": "Code and weights for a real-time game world model: a coding agent edits the game logic while a video model draws the frames, under 150 ms."
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with its ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "category": "platforms_integration",
+      "published": "2026-10-16",
+      "summary": "Two engineers shipped it in a few weeks using Codex, and the plugin drove up to 10x growth in agent creation, OpenAI says."
+    },
+    {
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "Anthropic's own write-up on running code review with Claude Code inside the team. 128 points and 122 comments on Hacker News."
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "Anthropic research on where elliptic-curve seeds came from, read alongside Filippo Valsorda's write-up. 449 points on Hacker News."
+    },
+    {
+      "title": "ORL: 2,788 tokens a second from a diffusion model on one RTX 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "Open-source on-policy residual learning plus a custom engine, dlmrt, speeds diffusion language models up without losing quality, say the authors."
+    },
+    {
+      "title": "llama.cpp runs on a jailbroken PS5 and loads any GGUF model",
+      "url": "https://github.com/cobanov/PS5LM",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "PS5LM ports llama.cpp to the console's hardware, so a jailbroken PS5 can run local models natively. 119 points on Hacker News."
+    },
+    {
+      "title": "ChatGPT's Chrome extension now reads your open tabs and acts on them",
+      "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+      "category": "platforms_integration",
+      "published": "2026-10-16",
+      "summary": "The updated extension sums up tabs and uses Computer Use in Work mode to fill forms or compare products, and it is open to all plans."
+    },
+    {
+      "title": "China drafts export controls on open-weight models and 23 AI technologies",
+      "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
+      "category": "policy",
+      "published": "2026-10-16",
+      "summary": "The draft covers weights, source code and training methods above 10^26 FLOPs or 2 trillion parameters, with a fast track for open releases."
+    },
+    {
+      "title": "Gemini 4 Argon hits 97.5% on ARC-AGI-3, then 49.8% in the standard harness",
+      "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "Google's newest model is the second from any lab past 95% under its own test setup, but the score swings hard with the harness."
+    },
+    {
+      "title": "Reflection releases Beam, a 501B open model with 23B active parameters",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "Sparse mixture-of-experts weights ship in BF16, FP8 and NVFP4, with the instruction-tuned model ready to host yourself."
+    },
+    {
+      "title": "OpenMOSS releases MOSS-Image under Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ey7i/openmoss_releases_mossimage/",
+      "category": "chinese_ai",
+      "published": "2026-10-16",
+      "summary": "A new image model plus a base checkpoint, both Apache-licensed, inviting comparison with Qwen Image 2.1 and Flux Klein 3."
+    },
+    {
+      "title": "Is AI interpretability close to a breakthrough?",
+      "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "A new essay argues about 90% of neurons serve a clear function, which would make deception easier to spot. Researchers disagree."
+    },
     {
       "title": "Hermes REA plugin installs with one command, plus a walkthrough video",
       "url": "https://x.com/Teknium/status/2110978534894412142",
@@ -318,111 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-10-15",
       "summary": "Leaving the search provider unset round-robins four free services, so web search works with no key and no per-call cost."
-    },
-    {
-      "title": "Player-1: learning to play from synthetic experience",
-      "url": "https://huggingface.co/papers/2610.20584",
-      "category": "ai_research",
-      "published": "2026-10-15",
-      "summary": "A paper on training agents from generated experience rather than human demonstration data. Linked without the abstract being read."
-    },
-    {
-      "title": "Hermes Agent v0.22.0 adds one-click connectors and a Stable update channel",
-      "url": "https://x.com/Teknium/status/2110387396823163357",
-      "category": "hermes_nous",
-      "published": "2026-10-14",
-      "summary": "Hermes now starts working without a provider key, installs app connectors in one click, and gains a tested Stable channel. 2,500+ contributors."
-    },
-    {
-      "title": "Embodied Turing Machines: stateful code for robots that improve themselves",
-      "url": "https://x.com/_akhaliq/status/2110057543305396244",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "A paper on keeping robot state as code so behaviour carries across runs instead of resetting each time."
-    },
-    {
-      "title": "Zo says it is already building the agent-friendly workflow Anthropic described",
-      "url": "https://x.com/dannycosson/status/2110095661630914615",
-      "category": "zo_computer",
-      "published": "2026-10-14",
-      "summary": "Agents that skip full repo clones: short-lived sandboxes and targeted checkouts, so cloud coding stays fast."
-    },
-    {
-      "title": "Modal raises $750M at $15.75B as AI infrastructure demand triples usage",
-      "url": "https://x.com/modal/status/2110379972502139213",
-      "category": "industry",
-      "published": "2026-10-14",
-      "summary": "Accel led the Series D, five months after a $4.65B round. Modal says usage tripled and annualised revenue passed $1B."
-    },
-    {
-      "title": "Experts: AI hacking incidents are containment failures, not rogue agents",
-      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "category": "policy",
-      "published": "2026-10-14",
-      "summary": "Security researchers argue the labs are skipping basic containment and monitoring, and that the agent did not decide anything."
-    },
-    {
-      "title": "alphaXiv's research agents were told to report on users silently",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "A user says the OpenResearch repo's own opening lines ask for silent feedback to the vendor, with no disclosure to the person running it."
-    },
-    {
-      "title": "Mapping where post-transformer architectures stand in 2026",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "A survey of the non-transformer directions in play: Dragon Hatchling (BDH), Mamba, RWKV, xLSTM, Titans and the hybrid models."
-    },
-    {
-      "title": "Hermes Agent connectors: 50+ apps, click install and log in",
-      "url": "https://x.com/NousResearch/status/2110470076595835353",
-      "category": "hermes_nous",
-      "published": "2026-10-14",
-      "summary": "No account needed to start; limits on each connector split read, write and destructive actions, plus team roles. Bring-your-own MCP sync is next."
-    },
-    {
-      "title": "Claude Code now compacts idle sessions, trading context for a summary",
-      "url": "https://x.com/lydiahallie/status/2110484840256819380",
-      "category": "agents_tooling",
-      "published": "2026-10-14",
-      "summary": "On by default: long idle sessions are compacted before the prompt cache expires, so a resumed session may answer from a summary, not your full context."
-    },
-    {
-      "title": "Claude Platform can send agent traces to your observability stack",
-      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
-      "category": "anthropic",
-      "published": "2026-10-14",
-      "summary": "Public beta: OpenTelemetry traces from the Messages API, Managed Agents and the Claude SDKs, with a switch to also export full prompts and tool inputs."
-    },
-    {
-      "title": "Claude Code desktop app makes running many sessions at once easier",
-      "url": "https://x.com/ClaudeDevs/status/2110445844675838148",
-      "category": "anthropic",
-      "published": "2026-10-14",
-      "summary": "Faster session starts, easier splitting of work across sessions, and a clear view of what each one is doing while it runs."
-    },
-    {
-      "title": "Google: AI writes 75% of its code, but shows no sign of self-improvement",
-      "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "A Google researcher says 88% of AI-written code changes still need human review, and research speed is not measurably accelerating."
-    },
-    {
-      "title": "Thinking Inertia: models keep thinking after being told to stop",
-      "url": "https://huggingface.co/papers/2610.11765",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "A paper arguing that telling a model to stop deliberating does not reliably stop it, so a reasoning cap has to be enforced outside the model."
-    },
-    {
-      "title": "VideoJev: one model for understanding video and acting on it",
-      "url": "https://huggingface.co/papers/2610.18615",
-      "category": "ai_research",
-      "published": "2026-10-14",
-      "summary": "A single-model system for video understanding and interaction, aimed at agents that have to act on screen or on video rather than on text."
     }
   ]
 }
