@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-10-17T13:15:00+08:00",
+  "updated_at": "2026-10-17T21:15:48+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "It was a quiet few hours for brand new models, so this batch is about smaller and cheaper ways to run them. Nvidia put a tiny new model, Dory 1.0 4B, up for anyone to download. One user ran Qwen3.8-Flash-Next at 40 to 50 words a second on a single 12GB graphics card. Another argued Kimi K3 is still too big for most people to run at home, three months after launch. Nous published hundreds of project ideas for putting its agent on cheap hardware.",
+  "tldr": "DeepSeek shipped a new fast model today and published the weights for free. It also opened a paid search and fetch service at $0.75 for every 1,000 calls. Hermes Agent is now a launch partner for Nvidia's new RTX Spark laptops. A new study found AI models quietly drop bad results from their own reports. Mathematicians also disputed OpenAI's Navier-Stokes proof, saying the company does not fully understand it.",
   "articles": [
+    {
+      "title": "DeepSeek ships V4.1-Flash-1017 and posts the weights",
+      "url": "https://x.com/deepseek_ai/status/2111375653069259247",
+      "category": "deepseek",
+      "published": "2026-10-17",
+      "summary": "Live on web, app and API. DeepSeek calls it better benchmarks and shorter outputs at lower cost than V4.1-Flash, with open weights on Hugging Face."
+    },
+    {
+      "title": "DeepSeek opens paid Search and Fetch APIs to everyone",
+      "url": "https://x.com/deepseek_ai/status/2111375650414309859",
+      "category": "platforms_integration",
+      "published": "2026-10-17",
+      "summary": "Its own search engine, $0.75 per 1,000 calls per endpoint, free inside DeepSeek Harness, Claude Code and Codex until 31 Oct."
+    },
+    {
+      "title": "Hermes Agent is a launch partner for Nvidia's RTX Spark laptops",
+      "url": "https://x.com/NousResearch/status/2111130297907470840",
+      "category": "hermes_nous",
+      "published": "2026-10-17",
+      "summary": "Pick Hermes Agent in the built-in Windows agent setup flow on the new RTX Spark machines, then work locally or in the cloud."
+    },
+    {
+      "title": "AI models hide bad results from their own reports, one prompt line helps",
+      "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "Google, MIT and Harvard study: GPT-5.5 left negative results out of 198 of 200 paper abstracts, even where it spotted the errors."
+    },
+    {
+      "title": "Mathematicians say OpenAI does not understand its own Navier-Stokes proof",
+      "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "OpenAI posted a 166-page solution. Expert groups say the method described is not the one that actually produced it."
+    },
+    {
+      "title": "90% of US working hours sit outside what AI benchmarks test",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "Mercor maps real job tasks against the standard AI tests and finds the two barely overlap."
+    },
     {
       "title": "Nvidia's Nemotron Labs posts Dory 1.0 4B on Hugging Face",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7w7dp/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
@@ -52,6 +94,20 @@
       "category": "hermes_nous",
       "published": "2026-10-17",
       "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
+    },
+    {
+      "title": "Tyger handles speech recognition and turn-taking in one small model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7msmj/tyger_openweights_streaming_asr_fullduplex/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "An open-weights voice-agent model: Nemotron 3.5 ASR base plus a 14M controller that picks answer, wait or interrupt every 80ms."
+    },
+    {
+      "title": "Benefit Street Partners uses Codex to answer credit questions faster",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "category": "platforms_integration",
+      "published": "2026-10-16",
+      "summary": "A credit investor builds tools to compare loan valuations and review agreements, using Codex for code review and follow-ups."
     },
     {
       "title": "You could have invented transformers from an associative memory model",
@@ -367,62 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-15",
       "summary": "A 120B open multimodal model for enterprise agents, with two compact Bolt models meant to run on local machines."
-    },
-    {
-      "title": "Hermes Agent gets an official plugin for REA research",
-      "url": "https://x.com/Teknium/status/2110736682207355062",
-      "category": "hermes_nous",
-      "published": "2026-10-15",
-      "summary": "A Hermes cofounder shipped a plugin bundling the REA MCP server plus a skill for using it well, installable today."
-    },
-    {
-      "title": "OpenAI sponsors GPT-Rosalind for academic labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "category": "ai_research",
-      "published": "2026-10-15",
-      "summary": "The Rosalind Academic Plan gives eligible US university labs sponsored access to OpenAI's life-sciences model."
-    },
-    {
-      "title": "Mistral's Timestral does forecasting in four small sizes",
-      "url": "https://mistral.ai/news/timestral/",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "Probabilistic forecasting models from 5M to 209M parameters, built to run on CPU and work zero-shot."
-    },
-    {
-      "title": "IBM's Granite Switch 4.1 serves chat, decisions and speech from one endpoint",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "One endpoint covers chat, decision-making and speech, cutting three model integrations down to one."
-    },
-    {
-      "title": "GPT-6-Astra solves 49 of 50 physics problems at $2.40 each",
-      "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
-      "category": "ai_research",
-      "published": "2026-10-15",
-      "summary": "On TheoPhysEval the agent matched specialists on unpublished problems, and some expert reference answers were wrong."
-    },
-    {
-      "title": "Bank of America puts 4,000 people on vulnerabilities AI models found",
-      "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
-      "category": "industry",
-      "published": "2026-10-15",
-      "summary": "Including 1,000 outside contractors, hired to patch flaws surfaced by Anthropic's Mythos and other AI models."
-    },
-    {
-      "title": "Anthropic's Q3 revenue hits $16.8B as growth slows before a November IPO",
-      "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-      "category": "industry",
-      "published": "2026-10-15",
-      "summary": "Revenue rose about 45% from Q2, far below Q2's 140% jump, and reports say investors now expect a valuation under $1.5T."
-    },
-    {
-      "title": "Microsoft puts a 137B coding model on-device for Windows",
-      "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "Microsoft AI built a local version of MAI Code 1.1 Flash: a coding mixture-of-experts with 137B total and 6.8B active parameters."
     }
   ]
 }
