@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-10-17T08:15:00+08:00",
+  "updated_at": "2026-10-17T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI's GPT-6 Astra Pro can now run several agents on one task at the same time. Anthropic showed Claude designing quantum circuits that beat the best published ones. Nous's benchmark page has listed GPT 6.1 Sol, a model OpenAI has not announced yet. Google's Gemini 4 Argon scores 97.5% on a hard reasoning test under its own setup but only 49.8% under the standard one. China has drafted export controls on open-weight models and 23 other AI technologies.",
+  "tldr": "It was a quiet few hours for brand new models, so this batch is about smaller and cheaper ways to run them. Nvidia put a tiny new model, Dory 1.0 4B, up for anyone to download. One user ran Qwen3.8-Flash-Next at 40 to 50 words a second on a single 12GB graphics card. Another argued Kimi K3 is still too big for most people to run at home, three months after launch. Nous published hundreds of project ideas for putting its agent on cheap hardware.",
   "articles": [
+    {
+      "title": "Nvidia's Nemotron Labs posts Dory 1.0 4B on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7w7dp/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-17",
+      "summary": "A 4B Nemotron Labs model in BF16 lands on Hugging Face, small enough for a laptop or a single consumer card."
+    },
+    {
+      "title": "Teknium publishes a catalogue of Hermes Agent x open-hardware projects",
+      "url": "https://teknium.io/hermes-devices",
+      "category": "hermes_nous",
+      "published": "2026-10-17",
+      "summary": "Hundreds of project ideas for running Hermes Agent on cheap physical devices, from a Nous co-founder."
+    },
+    {
+      "title": "Garry Tan's new-project stack is two agents: Capy for code, Aside for DevOps",
+      "url": "https://x.com/garrytan/status/2111235500568969451",
+      "category": "agents_tooling",
+      "published": "2026-10-17",
+      "summary": "YC's Garry Tan says paired agents, one coding and one wiring infrastructure, now cover his whole first build."
+    },
+    {
+      "title": "OmniCompass gives omni-modal video models one scoreboard",
+      "url": "https://huggingface.co/papers/2610.18829",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "A holistic benchmark for video grounding and understanding, the number to check before trusting a video model in a pipeline."
+    },
     {
       "title": "OpenAI's GPT-6 Astra Pro runs several agents on one task in parallel",
       "url": "https://x.com/OpenAI/status/2111192259073094035",
@@ -24,6 +52,27 @@
       "category": "hermes_nous",
       "published": "2026-10-17",
       "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
+    },
+    {
+      "title": "You could have invented transformers from an associative memory model",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "A from-scratch derivation that builds attention out of a simple associative memory, with no hand-waving."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next runs at 40-50 tokens a second on a single 12GB card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbdc/qwen38flashnextgsqrco_iq3_s_4050_toksec_decode/",
+      "category": "chinese_ai",
+      "published": "2026-10-16",
+      "summary": "An IQ3_S quant recipe hits that decode speed at 131k context on 12GB VRAM, 32GB RAM and NVMe."
+    },
+    {
+      "title": "Three months on, Kimi K3 is still too big for most people to run at home",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7s89u/kimi_k3_three_months_after_the_hype_too_big_for/",
+      "category": "moonshot_ai",
+      "published": "2026-10-16",
+      "summary": "K3 scored 57 on Artificial Analysis in July, but quant docs and the license still rule out local use for most."
     },
     {
       "title": "Kunlun open-sources Matrix-Game 4.0, playable at 480p 60 FPS on one RTX 5090",
@@ -374,55 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-15",
       "summary": "Microsoft AI built a local version of MAI Code 1.1 Flash: a coding mixture-of-experts with 137B total and 6.8B active parameters."
-    },
-    {
-      "title": "StepFun's Step 5 Preview: a 600B agentic model with a 1M-token context",
-      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
-      "category": "chinese_ai",
-      "published": "2026-10-15",
-      "summary": "Open weights for a 600B model with 27B active per token, pitched at software engineering and finance work, at a million-token window."
-    },
-    {
-      "title": "Fish Audio's Drama 3 is a 35B voice model that runs on a desktop",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "A 35B mixture-of-experts text-to-speech model with a mix of 3B active; 4-bit builds stay close to full quality on a desktop GPU."
-    },
-    {
-      "title": "Jais 3 opens up an Arabic model family from 0.9B to 375B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6fuy2/jais_3_is_out/",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "New open weights spanning 0.9B to 375B parameters, tuned for agentic work and built around Arabic."
-    },
-    {
-      "title": "Nvidia's 16GB cards jump as the RTX 5060 Ti hits $1,292 in Japan",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6gf0y/will_there_be_a_blackfriday_this_year_nvidia_rtx/",
-      "category": "industry",
-      "published": "2026-10-15",
-      "summary": "Reports put the RTX 5060 Ti 16GB up to 144% over list in Japan, with the RTX 5080 past $2,400, on tightening memory supply."
-    },
-    {
-      "title": "Kimi Work adds Swarm, Goal mode and AGENTS.md support",
-      "url": "https://x.com/Kimi_Moonshot/status/2110687135183593646",
-      "category": "moonshot_ai",
-      "published": "2026-10-15",
-      "summary": "Moonshot's third tutorial shows its agent working across local projects, the browser and the computer, and configurable via AGENTS.md."
-    },
-    {
-      "title": "Nous: Hermes mobile app about six weeks away, agents with every subscription",
-      "url": "https://x.com/Teknium/status/2110629238932168931",
-      "category": "hermes_nous",
-      "published": "2026-10-15",
-      "summary": "A cofounder says the desktop direction shifted toward consumer use the day v0.22.0 shipped, with agent instances auto-provisioned per plan."
-    },
-    {
-      "title": "Hermes needs no search key: four free providers rotate by default",
-      "url": "https://x.com/Teknium/status/2110630167832125641",
-      "category": "hermes_nous",
-      "published": "2026-10-15",
-      "summary": "Leaving the search provider unset round-robins four free services, so web search works with no key and no per-call cost."
     }
   ]
 }
