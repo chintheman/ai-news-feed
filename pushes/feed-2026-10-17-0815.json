@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-10-17T08:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 15,
+  "tldr": "OpenAI's GPT-6 Astra Pro can now run several agents on one task at the same time. Anthropic showed Claude designing quantum circuits that beat the best published ones. Nous's benchmark page has listed GPT 6.1 Sol, a model OpenAI has not announced yet. Google's Gemini 4 Argon scores 97.5% on a hard reasoning test under its own setup but only 49.8% under the standard one. China has drafted export controls on open-weight models and 23 other AI technologies.",
+  "articles": [
+    {
+      "title": "OpenAI's GPT-6 Astra Pro runs several agents on one task in parallel",
+      "url": "https://x.com/OpenAI/status/2111192259073094035",
+      "category": "agents_tooling",
+      "published": "2026-10-17",
+      "summary": "Pro users in the Chat tab get per-agent progress and finished sub-tasks they can open and review, a step past single-turn chat."
+    },
+    {
+      "title": "Claude Mythos 5 designs quantum circuits that beat the best published ones",
+      "url": "https://x.com/AnthropicAI/status/2111152183240511640",
+      "category": "ai_research",
+      "published": "2026-10-17",
+      "summary": "From plain-language instructions, Claude designed quantum circuits that beat the best published ones, sometimes by an order of magnitude."
+    },
+    {
+      "title": "Nous's Hermes Index adds GPT 6.1 Sol to its benchmark table",
+      "url": "https://x.com/Teknium/status/2111197448282702310",
+      "category": "hermes_nous",
+      "published": "2026-10-17",
+      "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
+    },
+    {
+      "title": "Kunlun open-sources Matrix-Game 4.0, playable at 480p 60 FPS on one RTX 5090",
+      "url": "https://huggingface.co/Skywork/Matrix-Game-4.0",
+      "category": "chinese_ai",
+      "published": "2026-10-16",
+      "summary": "Code and weights for a real-time game world model: a coding agent edits the game logic while a video model draws the frames, under 150 ms."
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with its ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "category": "platforms_integration",
+      "published": "2026-10-16",
+      "summary": "Two engineers shipped it in a few weeks using Codex, and the plugin drove up to 10x growth in agent creation, OpenAI says."
+    },
+    {
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "Anthropic's own write-up on running code review with Claude Code inside the team. 128 points and 122 comments on Hacker News."
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "Anthropic research on where elliptic-curve seeds came from, read alongside Filippo Valsorda's write-up. 449 points on Hacker News."
+    },
+    {
+      "title": "ORL: 2,788 tokens a second from a diffusion model on one RTX 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "Open-source on-policy residual learning plus a custom engine, dlmrt, speeds diffusion language models up without losing quality, say the authors."
+    },
+    {
+      "title": "llama.cpp runs on a jailbroken PS5 and loads any GGUF model",
+      "url": "https://github.com/cobanov/PS5LM",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "PS5LM ports llama.cpp to the console's hardware, so a jailbroken PS5 can run local models natively. 119 points on Hacker News."
+    },
+    {
+      "title": "ChatGPT's Chrome extension now reads your open tabs and acts on them",
+      "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+      "category": "platforms_integration",
+      "published": "2026-10-16",
+      "summary": "The updated extension sums up tabs and uses Computer Use in Work mode to fill forms or compare products, and it is open to all plans."
+    },
+    {
+      "title": "China drafts export controls on open-weight models and 23 AI technologies",
+      "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
+      "category": "policy",
+      "published": "2026-10-16",
+      "summary": "The draft covers weights, source code and training methods above 10^26 FLOPs or 2 trillion parameters, with a fast track for open releases."
+    },
+    {
+      "title": "Gemini 4 Argon hits 97.5% on ARC-AGI-3, then 49.8% in the standard harness",
+      "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "Google's newest model is the second from any lab past 95% under its own test setup, but the score swings hard with the harness."
+    },
+    {
+      "title": "Reflection releases Beam, a 501B open model with 23B active parameters",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "Sparse mixture-of-experts weights ship in BF16, FP8 and NVFP4, with the instruction-tuned model ready to host yourself."
+    },
+    {
+      "title": "OpenMOSS releases MOSS-Image under Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ey7i/openmoss_releases_mossimage/",
+      "category": "chinese_ai",
+      "published": "2026-10-16",
+      "summary": "A new image model plus a base checkpoint, both Apache-licensed, inviting comparison with Qwen Image 2.1 and Flux Klein 3."
+    },
+    {
+      "title": "Is AI interpretability close to a breakthrough?",
+      "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "A new essay argues about 90% of neurons serve a clear function, which would make deception easier to spot. Researchers disagree."
+    }
+  ]
+}
