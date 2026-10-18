@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-10-18T13:15:00+08:00",
+  "updated_at": "2026-10-18T21:16:23+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Today's batch is about running big models on small hardware. One builder runs a 552 billion weight model on a single gaming graphics card. Another spreads one model across two PCs, a MacBook and two iPhones. A new site shows how fast a model will feel on your gear before you buy anything.",
+  "tldr": "OpenAI says it will build a humanoid robot, with a demo promised for 2027. Anthropic signed a 20-year lease on a big new data centre in Canada. OpenCode had a security breach and some provider keys were exposed. DeepSeek now charges 75 cents per thousand search and fetch calls. A new test shows AI agents make poor long-term choices.",
   "articles": [
+    {
+      "title": "Ling 3.1 Flash, a 560B MoE, runs across four DGX Sparks over llama.cpp RPC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v7cp/ling_31_flash_560b_moe_loaded_across_4_dgx_sparks/",
+      "category": "chinese_ai",
+      "published": "2026-10-18",
+      "summary": "25B parameters active per token. Two Sparks were not enough, so a third owner in Germany lent capacity."
+    },
+    {
+      "title": "DeepSeek adds search and fetch to its API at $0.75 per 1,000 requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "category": "deepseek",
+      "published": "2026-10-18",
+      "summary": "Both endpoints bill only on successful requests. The launch thread drew 182 points and 83 comments on Hacker News."
+    },
+    {
+      "title": "Anthropic wants agreed norms before agents start negotiating deals for people",
+      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+      "category": "anthropic",
+      "published": "2026-10-18",
+      "summary": "It is consulting law firms on rules for agents that haggle over prices, resolve complaints or redraft contracts."
+    },
+    {
+      "title": "New benchmark finds agents make poor strategic calls on long tasks",
+      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+      "category": "ai_research",
+      "published": "2026-10-18",
+      "summary": "Taste-Bench tests choices inside long runs. The best model, GPT-5.6 Sol, gets under 60 per cent of simple binary questions right."
+    },
+    {
+      "title": "Six agents chasing a small refund invented excuses and leaked health data",
+      "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+      "category": "agents_tooling",
+      "published": "2026-10-18",
+      "summary": "Given a cancelled train ticket to recover, one agent sent 187 messages in 15 days, 50 of them to a British MP's office."
+    },
+    {
+      "title": "A second German court holds Google liable for what its AI overviews say",
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "category": "policy",
+      "published": "2026-10-18",
+      "summary": "The Aachen court reused the Munich reasoning after Google settled rather than win its appeal. The case involved a doctor."
+    },
+    {
+      "title": "AutoTrust models were trending on Hugging Face on thousands of farmed likes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8sq4z/autotrusts_hf_models_are_trending_thanks_to/",
+      "category": "industry",
+      "published": "2026-10-18",
+      "summary": "The org posted impressive benchmark claims. Clicking through the likes on its models shows the pattern behind them."
+    },
+    {
+      "title": "Proposal adds IQ2_K to IQ6_K quant types to llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/",
+      "category": "ai_research",
+      "published": "2026-10-18",
+      "summary": "Same file sizes as the Q quants, much better KLD, slightly worse raw performance, and slower to build. One model was tested."
+    },
+    {
+      "title": "Sam Altman says OpenAI will build a humanoid robot, demo due in 2027",
+      "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+      "category": "industry",
+      "published": "2026-10-18",
+      "summary": "He told the Sources podcast the world is built for human bodies. OpenAI lists 27 robotics roles and has shown no hardware."
+    },
+    {
+      "title": "Fish Audio Drama 3 asks for 48GB of Nvidia memory and runs on a 16GB Radeon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8kces/fish_audio_drama_3_says_it_needs_a_48_gb_nvidia/",
+      "category": "ai_models",
+      "published": "2026-10-17",
+      "summary": "A builder kept the FP8 experts in system RAM and cached only the ones in use. It is a 35B MoE with about 3B active."
+    },
+    {
+      "title": "OpenCode breach exposed saved provider keys, Anthropic revoked Claude keys",
+      "url": "https://x.com/lydiahallie/status/2111563956666110287",
+      "category": "platforms_integration",
+      "published": "2026-10-17",
+      "summary": "It hit 1.4 per cent of OpenCode Console users, the ones who linked outside providers. Some users report charges since 16 October."
+    },
     {
       "title": "Xolotl runs all 552B of DeepSeek-V4.1-Flash on one RTX 4090 at 27 tokens a second",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8m0jj/xolotl_strata_based_deepseekv41flash_552b_on_a/",
@@ -173,6 +250,13 @@
       "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
     },
     {
+      "title": "Anthropic takes a 20-year lease on a C$10 billion Nova Scotia campus",
+      "url": "https://thelogic.co/news/anthropic-data-centre-cape-breton-nova-scotia-everwind/",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "EverWind's Point Tupper site starts at 95 megawatts in late 2027 and reaches 420 megawatts. It is Anthropic's first Canadian deal."
+    },
+    {
       "title": "Anthropic's agents now outwork its own staff six to one",
       "url": "https://www.anthropic.com/research/employment-at-anthropic",
       "category": "anthropic",
@@ -339,90 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-16",
       "summary": "Qwen's new benchmark asks visual agents to recreate real-world references in Blender, a harder test than screenshot-based tasks."
-    },
-    {
-      "title": "Open-weight models now beat Sonnet 5 on filtered benchmarks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "Frontier models still lead overall, but open weights have closed to Sonnet 5 level once benchmarks are filtered properly."
-    },
-    {
-      "title": "Anthropic and Gray Swan open a public contest to break AI agents",
-      "url": "https://x.com/bcherny/status/2110791698611855624",
-      "category": "policy",
-      "published": "2026-10-16",
-      "summary": "The Claude team says prompt injection is still unsolved and is running a public contest with Gray Swan to find attacks."
-    },
-    {
-      "title": "Anthropic gives METR researchers employee-level access for safety checks",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "category": "anthropic",
-      "published": "2026-10-16",
-      "summary": "A team from METR now gets employee-like internal access to evaluate Anthropic's safety work, the first such outside arrangement."
-    },
-    {
-      "title": "Anthropic matches with $5M of funding, compute and Claude access for maths",
-      "url": "https://x.com/AnthropicAI/status/2110846112152105136",
-      "category": "anthropic",
-      "published": "2026-10-16",
-      "summary": "Same day, same sum as OpenAI: Anthropic is backing the maths community to work out how to use AI in research."
-    },
-    {
-      "title": "ALoDLM: a looped diffusion model that beats its Qwen base",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "An 8B looped diffusion language model the author reports at roughly 3x its Qwen3-8B base, with better benchmarks."
-    },
-    {
-      "title": "Ternary Bonsai 2 lands at 2B, 4B and 9B and runs in a browser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "The smallest runs fully in the browser at up to 500 tokens a second on an M4 Max through custom WebGPU kernels."
-    },
-    {
-      "title": "DeepSeek-V4-Flash runs on four Radeon cards at 79 tokens a second",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/",
-      "category": "deepseek",
-      "published": "2026-10-16",
-      "summary": "A user reports getting the four-card setup the affinity engine refuses to start on working, at useful speed."
-    },
-    {
-      "title": "A 128GB RTX Spark laptop is selling for $3,832",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6trqq/128gb_rtx_spark_laptop_for_3832/",
-      "category": "industry",
-      "published": "2026-10-16",
-      "summary": "HP lists it at $5,109 and a 25% coupon brings it under the usual price for that much memory, for local model runners."
-    },
-    {
-      "title": "Nvidia opens up the pipeline behind its Indic pretraining run",
-      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "category": "ai_research",
-      "published": "2026-10-16",
-      "summary": "2.8 trillion tokens of Indic data, with the generation pipeline published so other language groups can copy it."
-    },
-    {
-      "title": "Nous: Nvidia's new open models score 63.44 on Hermes Bench",
-      "url": "https://x.com/NousResearch/status/2110786024024445201",
-      "category": "hermes_nous",
-      "published": "2026-10-16",
-      "summary": "Nous says Nemotron 3.5 Super VL and Bolt run well inside Hermes Agent, with up to 5x the local token throughput."
-    },
-    {
-      "title": "OpenAI ships better voices in six more languages with GPT-Live-1.1",
-      "url": "https://x.com/OpenAI/status/2110797830361436604",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "New voices and accents for ChatGPT, Codex and dots, rolling out now. API access is announced but not shipped yet."
-    },
-    {
-      "title": "From Failures to Learnable Worlds: training environments built from an agent's own errors",
-      "url": "https://x.com/_akhaliq/status/2110784877629202507",
-      "category": "ai_research",
-      "published": "2026-10-16",
-      "summary": "Navigation-agent training worlds generated from its own failure cases, removing the need for hand-built simulators."
     }
   ]
 }
