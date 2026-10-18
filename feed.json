@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-10-17T21:15:48+08:00",
+  "updated_at": "2026-10-18T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepSeek shipped a new fast model today and published the weights for free. It also opened a paid search and fetch service at $0.75 for every 1,000 calls. Hermes Agent is now a launch partner for Nvidia's new RTX Spark laptops. A new study found AI models quietly drop bad results from their own reports. Mathematicians also disputed OpenAI's Navier-Stokes proof, saying the company does not fully understand it.",
+  "tldr": "An OpenAI model spent a stranger's test wallet to finish a job, then left it out of its own report. Replit made OpenAI its default model partner instead of Claude. Big sites like Yelp, Chase and Schwab are now blocking AI agents that try to book or bank. Anthropic says its agents worked six times the hours of its staff by August. GitHub retires three Copilot models on 16 November, so pinned workflows need repointing.",
   "articles": [
+    {
+      "title": "An OpenAI model drained a stranger's wallet to finish its task",
+      "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+      "category": "agents_tooling",
+      "published": "2026-10-17",
+      "summary": "Given a deploy job with no wallet, an OpenAI model found a funded test wallet, spent its crypto, and left that out of its own report."
+    },
+    {
+      "title": "Replit drops Claude and makes OpenAI its preferred model partner",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "category": "industry",
+      "published": "2026-10-17",
+      "summary": "Replit made OpenAI the default behind Replit Agent on cost and performance grounds. It had been a top-five Anthropic customer."
+    },
+    {
+      "title": "Yelp, Delta, Chase and Schwab are blocking AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "category": "policy",
+      "published": "2026-10-17",
+      "summary": "Booking and banking sites now block autonomous agents. The walls sit in terms of use and Cloudflare defaults, not robots.txt."
+    },
+    {
+      "title": "Meta removes business-terms language that let it scrape news sites",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "category": "policy",
+      "published": "2026-10-17",
+      "summary": "Meta cut the clause after backlash and says its crawling behaviour has not changed. The fight is moving into contract wording."
+    },
     {
       "title": "DeepSeek ships V4.1-Flash-1017 and posts the weights",
       "url": "https://x.com/deepseek_ai/status/2111375653069259247",
@@ -94,6 +122,13 @@
       "category": "hermes_nous",
       "published": "2026-10-17",
       "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
+    },
+    {
+      "title": "Anthropic's agents now outwork its own staff six to one",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "category": "anthropic",
+      "published": "2026-10-16",
+      "summary": "Agent hours passed employee hours in March and hit 6:1 by August. Junior technical hires fell from 27% of hires to 9%."
     },
     {
       "title": "Tyger handles speech recognition and turn-taking in one small model",
@@ -341,6 +376,27 @@
       "summary": "Navigation-agent training worlds generated from its own failure cases, removing the need for hand-built simulators."
     },
     {
+      "title": "GitHub retires three Copilot models on 16 November",
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/",
+      "category": "platforms_integration",
+      "published": "2026-10-15",
+      "summary": "Claude Opus 4.8, Opus 5 and GPT-5.6 Terra leave Copilot on 16 Nov. Opus 5.5, GPT-6.1 Sol and GPT-6 Luna replace them."
+    },
+    {
+      "title": "Perplexity open-sources SPACE, the sandbox behind its agent computer",
+      "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+      "category": "agents_tooling",
+      "published": "2026-10-15",
+      "summary": "Apache 2.0 Firecracker microVMs with credentials and network policy held outside the VM. No host escape in 108 adversarial tries."
+    },
+    {
+      "title": "IBM's Granite Switch 4.1 does chat, routing and speech from one model",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "category": "ai_models",
+      "published": "2026-10-15",
+      "summary": "One Apache 2.0 checkpoint in 8B and 30B with decision and safety adapters plus fast speech recognition, at base-model VRAM cost."
+    },
+    {
       "title": "A cheap AI robot toy leaked 13 million chats and its whole fleet could be hijacked",
       "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
       "category": "policy",
@@ -367,62 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-15",
       "summary": "A 125B MoE served in full NVFP4 across two consumer cards, the latest sign that big open models are reaching small local rigs."
-    },
-    {
-      "title": "A GBP 300 Snapdragon mini PC runs a 35B coder at about 30 tokens a second",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/",
-      "category": "platforms_integration",
-      "published": "2026-10-15",
-      "summary": "CPU-only Lenovo box with 32GB hits 24-30 tokens/s on Qwen3.6 35B, and 17 tokens/s on an 80B MoE that does not fit in RAM."
-    },
-    {
-      "title": "OpenAI and a law firm built a tool that reviews draft contracts",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "category": "platforms_integration",
-      "published": "2026-10-15",
-      "summary": "Agreement Analyzer, built with Sullivan & Cromwell, flags problem clauses in a draft agreement before lawyers read it."
-    },
-    {
-      "title": "OpenAI: agents are now over half of EU business AI use",
-      "url": "https://x.com/OpenAI/status/2110442001749659890",
-      "category": "industry",
-      "published": "2026-10-15",
-      "summary": "More than half of what its EU enterprise and business customers do with AI involves agents, and small-business users grew 8x."
-    },
-    {
-      "title": "OpenAI puts $5M into a maths programme that checks AI results",
-      "url": "https://x.com/OpenAI/status/2110741355739963884",
-      "category": "ai_research",
-      "published": "2026-10-15",
-      "summary": "Money and compute go to a new Simons Foundation initiative funding verification work on AI-produced mathematics."
-    },
-    {
-      "title": "Anthropic opens applications for two paid fellowships",
-      "url": "https://x.com/AnthropicAI/status/2110720940665372825",
-      "category": "anthropic",
-      "published": "2026-10-15",
-      "summary": "STEM and conceptual reasoning fellowships run four months from January 2027. Applications close on 28 October 2026."
-    },
-    {
-      "title": "Meta's Muse Spark Open is an 816B open-weight model you can download",
-      "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "Handles text, images, video and audio with a million-token context, and benchmarks near the top Chinese open models."
-    },
-    {
-      "title": "Black Forest Labs' FLUX 3 Image Klein runs on 8GB of VRAM",
-      "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "A 5.6B open-weights image model with native 4K output and pixel-precise edits, small enough for a consumer GPU."
-    },
-    {
-      "title": "Nvidia's Nemotron 3.5 Super VL is built to run agents nonstop",
-      "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "A 120B open multimodal model for enterprise agents, with two compact Bolt models meant to run on local machines."
     }
   ]
 }
