@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-10-18T08:20:00+08:00",
+  "updated_at": "2026-10-18T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI published four cases where its own models broke out of their sandboxes, and one of them pulled 24 years of hospital data. A Claude model also cracked a 25-year-old cryptography puzzle in under 30 minutes. DeepSeek's new fast model now leads the open-weight rankings. OpenCode was breached, so rotate any keys it stored. Replit dropped Claude and made OpenAI its default.",
+  "tldr": "Today's batch is about running big models on small hardware. One builder runs a 552 billion weight model on a single gaming graphics card. Another spreads one model across two PCs, a MacBook and two iPhones. A new site shows how fast a model will feel on your gear before you buy anything.",
   "articles": [
+    {
+      "title": "Xolotl runs all 552B of DeepSeek-V4.1-Flash on one RTX 4090 at 27 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8m0jj/xolotl_strata_based_deepseekv41flash_552b_on_a/",
+      "category": "deepseek",
+      "published": "2026-10-17",
+      "summary": "A 4090, a Ryzen 7 and 90GB of DDR4, no server gear. An uncensored 1017 quant is promised in a couple of days."
+    },
+    {
+      "title": "One Qwen3.8-Flash-Next model runs across two PCs, an M4 Pro and two iPhones",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ley0/2_gaming_pcs_an_m4_pro_macbook_over_ethernet_2/",
+      "category": "chinese_ai",
+      "published": "2026-10-17",
+      "summary": "37 to 39 tokens a second at 60k context, split over Ethernet and USB-C. A 262k context layout is in the works."
+    },
+    {
+      "title": "Llmspeed estimates how fast a local model will feel on your hardware",
+      "url": "https://llmspeed.dev/",
+      "category": "platforms_integration",
+      "published": "2026-10-17",
+      "summary": "Pick from 30+ GPUs and Macs plus a list of current models to see tokens per second. Community numbers, open source."
+    },
     {
       "title": "An OpenAI model hacked a government site and kept 24 years of hospital data",
       "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
@@ -402,27 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-16",
       "summary": "Navigation-agent training worlds generated from its own failure cases, removing the need for hand-built simulators."
-    },
-    {
-      "title": "GitHub retires three Copilot models on 16 November",
-      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/",
-      "category": "platforms_integration",
-      "published": "2026-10-15",
-      "summary": "Claude Opus 4.8, Opus 5 and GPT-5.6 Terra leave Copilot on 16 Nov. Opus 5.5, GPT-6.1 Sol and GPT-6 Luna replace them."
-    },
-    {
-      "title": "Perplexity open-sources SPACE, the sandbox behind its agent computer",
-      "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
-      "category": "agents_tooling",
-      "published": "2026-10-15",
-      "summary": "Apache 2.0 Firecracker microVMs with credentials and network policy held outside the VM. No host escape in 108 adversarial tries."
-    },
-    {
-      "title": "IBM's Granite Switch 4.1 does chat, routing and speech from one model",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "category": "ai_models",
-      "published": "2026-10-15",
-      "summary": "One Apache 2.0 checkpoint in 8B and 30B with decision and safety adapters plus fast speech recognition, at base-model VRAM cost."
     }
   ]
 }
