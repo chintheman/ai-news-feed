@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-10-18T21:16:23+08:00",
+  "updated_at": "2026-10-19T08:15:55+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI says it will build a humanoid robot, with a demo promised for 2027. Anthropic signed a 20-year lease on a big new data centre in Canada. OpenCode had a security breach and some provider keys were exposed. DeepSeek now charges 75 cents per thousand search and fetch calls. A new test shows AI agents make poor long-term choices.",
+  "tldr": "Anthropic is putting 5% of its shares into a fund for the public good, and that stake grows as the company grows. Google released a free tool that lets an AI agent rewrite its own setup and improve over time. Four Gemini agents finished Minecraft on their own, with no roles or plan given to them. A $300,000 contest is paying people to break agents by hiding instructions in web pages and files. Hermes Agent already runs on a new AI laptop device on the day it launched.",
   "articles": [
+    {
+      "title": "Anthropic commits 5% of its shares to a public benefit fund",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "category": "policy",
+      "published": "2026-10-18",
+      "summary": "Starts at 5% of shares, rising up to 2% per 50% valuation gain. About 20% of the company is pledged to public good."
+    },
+    {
+      "title": "Google open-sources Harness2 for agents that improve themselves",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
+      "category": "agents_tooling",
+      "published": "2026-10-18",
+      "summary": "Harness2 wraps a model's prompt, tools, memory and skills, then tunes that setup over time instead of leaving it fixed."
+    },
+    {
+      "title": "Four Gemini 4 Argon agents beat Minecraft with no human help",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "category": "agents_tooling",
+      "published": "2026-10-18",
+      "summary": "Given no roles or plan, four agents coordinated on their own, wrote 2,783 programs and killed the Ender Dragon."
+    },
+    {
+      "title": "Hermes Agent gets day-one support on the Harness Pro device",
+      "url": "https://x.com/Teknium/status/2111671559937232988",
+      "category": "hermes_nous",
+      "published": "2026-10-18",
+      "summary": "Autonomous Labs' Harness Pro ships with Hermes support, though Teknium says the device-management plugin is not built yet."
+    },
+    {
+      "title": "AuroraASR-1M does speech recognition at 1.06 MB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/",
+      "category": "ai_models",
+      "published": "2026-10-18",
+      "summary": "949K parameters, Apache licensed, 11.43% word error rate on LibriSpeech clean and about 436x real time on one CPU thread."
+    },
+    {
+      "title": "Four open-weight drops in 72 hours, only Nvidia's fits a 24GB card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
+      "category": "ai_models",
+      "published": "2026-10-18",
+      "summary": "Meta's Muse Spark Open leads at 816B total, 42B active and 1M context; the recap argues only one release runs on consumer hardware."
+    },
+    {
+      "title": "Two pallets of RTX 5090 cards worth $470,000 vanish in Brazil",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x91svd/two_pallets_of_zotac_rtx_5090_graphics_cards/",
+      "category": "industry",
+      "published": "2026-10-18",
+      "summary": "The Zotac shipment disappeared at a Brazilian airport, a reminder that GPU stock is still worth stealing in bulk."
+    },
     {
       "title": "Ling 3.1 Flash, a 560B MoE, runs across four DGX Sparks over llama.cpp RPC",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v7cp/ling_31_flash_560b_moe_loaded_across_4_dgx_sparks/",
@@ -250,6 +299,13 @@
       "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
     },
     {
+      "title": "Lean now ships with verified kernels",
+      "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "The Lean theorem prover now runs on kernels checked by Lean itself, closing a trusted-computing gap in formal proof work."
+    },
+    {
       "title": "Anthropic takes a 20-year lease on a C$10 billion Nova Scotia campus",
       "url": "https://thelogic.co/news/anthropic-data-centre-cape-breton-nova-scotia-everwind/",
       "category": "anthropic",
@@ -367,62 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-16",
       "summary": "Sparse mixture-of-experts weights ship in BF16, FP8 and NVFP4, with the instruction-tuned model ready to host yourself."
-    },
-    {
-      "title": "OpenMOSS releases MOSS-Image under Apache 2.0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ey7i/openmoss_releases_mossimage/",
-      "category": "chinese_ai",
-      "published": "2026-10-16",
-      "summary": "A new image model plus a base checkpoint, both Apache-licensed, inviting comparison with Qwen Image 2.1 and Flux Klein 3."
-    },
-    {
-      "title": "Is AI interpretability close to a breakthrough?",
-      "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
-      "category": "ai_research",
-      "published": "2026-10-16",
-      "summary": "A new essay argues about 90% of neurons serve a clear function, which would make deception easier to spot. Researchers disagree."
-    },
-    {
-      "title": "Hermes REA plugin installs with one command, plus a walkthrough video",
-      "url": "https://x.com/Teknium/status/2110978534894412142",
-      "category": "hermes_nous",
-      "published": "2026-10-16",
-      "summary": "'hermes plugins install rea' sets up the MCP config and skill for reverse-engineering unknown code in a single step."
-    },
-    {
-      "title": "Alibaba opens a computer-use stack that lifts 8 frontier models by 19.6 points",
-      "url": "https://github.com/Tongyi-MAI/OpenGCUA",
-      "category": "agents_tooling",
-      "published": "2026-10-16",
-      "summary": "OpenGCUA cuts steps per task 53% versus a GUI-only baseline on OSWorld-v2, and ships a real macOS harness plus full eval trajectories."
-    },
-    {
-      "title": "Microsoft says its in-house base models now reach 3T parameters",
-      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "MAI says it trained state-of-the-art base models of that size entirely in-house; post-training results are still to come."
-    },
-    {
-      "title": "Tencent's Hy-Memory-30B-A3B is a 3B-active memory writer that edges Opus 5",
-      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
-      "category": "chinese_ai",
-      "published": "2026-10-16",
-      "summary": "Apache-2.0 Hunyuan model that replaces the LLM inside Mem0, MemOS and Hy-Memory, averaging 55.49 against Claude Opus 5's 54.62."
-    },
-    {
-      "title": "Hybrid Reasoning Agents score higher while thinking in silence",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "category": "ai_research",
-      "published": "2026-10-16",
-      "summary": "Stanford, Together AI, UIUC and Meta paper: agents that reason in latent space beat text-reasoning baselines by ~10% on half the tokens."
-    },
-    {
-      "title": "Alibaba's BlenderWorld tests whether agents can build 3D scenes",
-      "url": "https://github.com/QwenLM/BlenderWorld",
-      "category": "ai_research",
-      "published": "2026-10-16",
-      "summary": "Qwen's new benchmark asks visual agents to recreate real-world references in Blender, a harder test than screenshot-based tasks."
     }
   ]
 }

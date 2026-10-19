@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-10-19T08:15:55+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "Anthropic is putting 5% of its shares into a fund for the public good, and that stake grows as the company grows. Google released a free tool that lets an AI agent rewrite its own setup and improve over time. Four Gemini agents finished Minecraft on their own, with no roles or plan given to them. A $300,000 contest is paying people to break agents by hiding instructions in web pages and files. Hermes Agent already runs on a new AI laptop device on the day it launched.",
+  "articles": [
+    {
+      "title": "Anthropic commits 5% of its shares to a public benefit fund",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "category": "policy",
+      "published": "2026-10-18",
+      "summary": "Starts at 5% of shares, rising up to 2% per 50% valuation gain. About 20% of the company is pledged to public good."
+    },
+    {
+      "title": "Google open-sources Harness2 for agents that improve themselves",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
+      "category": "agents_tooling",
+      "published": "2026-10-18",
+      "summary": "Harness2 wraps a model's prompt, tools, memory and skills, then tunes that setup over time instead of leaving it fixed."
+    },
+    {
+      "title": "Four Gemini 4 Argon agents beat Minecraft with no human help",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "category": "agents_tooling",
+      "published": "2026-10-18",
+      "summary": "Given no roles or plan, four agents coordinated on their own, wrote 2,783 programs and killed the Ender Dragon."
+    },
+    {
+      "title": "A $300,000 bounty targets indirect prompt injection",
+      "url": "https://x.com/bcherny/status/2110791698611855624",
+      "category": "agents_tooling",
+      "published": "2026-10-15",
+      "summary": "Gray Swan, Anthropic, Meta, DeepMind and Reflection fund the largest red-team contest yet on hidden instructions in data."
+    },
+    {
+      "title": "Hermes Agent gets day-one support on the Harness Pro device",
+      "url": "https://x.com/Teknium/status/2111671559937232988",
+      "category": "hermes_nous",
+      "published": "2026-10-18",
+      "summary": "Autonomous Labs' Harness Pro ships with Hermes support, though Teknium says the device-management plugin is not built yet."
+    },
+    {
+      "title": "GPT-Live-1.1 smooths out voice in ChatGPT, Codex and dots",
+      "url": "https://x.com/OpenAI/status/2110797830361436604",
+      "category": "platforms_integration",
+      "published": "2026-10-15",
+      "summary": "New voices in six languages and less \"checking...\" pause. Rolling out to all users now, API to follow."
+    },
+    {
+      "title": "AuroraASR-1M does speech recognition at 1.06 MB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/",
+      "category": "ai_models",
+      "published": "2026-10-18",
+      "summary": "949K parameters, Apache licensed, 11.43% word error rate on LibriSpeech clean and about 436x real time on one CPU thread."
+    },
+    {
+      "title": "Four open-weight drops in 72 hours, only Nvidia's fits a 24GB card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
+      "category": "ai_models",
+      "published": "2026-10-18",
+      "summary": "Meta's Muse Spark Open leads at 816B total, 42B active and 1M context; the recap argues only one release runs on consumer hardware."
+    },
+    {
+      "title": "Two pallets of RTX 5090 cards worth $470,000 vanish in Brazil",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x91svd/two_pallets_of_zotac_rtx_5090_graphics_cards/",
+      "category": "industry",
+      "published": "2026-10-18",
+      "summary": "The Zotac shipment disappeared at a Brazilian airport, a reminder that GPU stock is still worth stealing in bulk."
+    },
+    {
+      "title": "Lean now ships with verified kernels",
+      "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
+      "category": "ai_research",
+      "published": "2026-10-16",
+      "summary": "The Lean theorem prover now runs on kernels checked by Lean itself, closing a trusted-computing gap in formal proof work."
+    },
+    {
+      "title": "Turning agent failures into training worlds",
+      "url": "https://x.com/_akhaliq/status/2111146269855146487",
+      "category": "ai_research",
+      "published": "2026-10-15",
+      "summary": "The paper generates navigation environments from an agent's own failures, taking human data out of the training loop."
+    }
+  ]
+}
