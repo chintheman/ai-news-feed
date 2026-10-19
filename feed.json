@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-10-19T08:15:55+08:00",
+  "updated_at": "2026-10-19T13:16:07+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic is putting 5% of its shares into a fund for the public good, and that stake grows as the company grows. Google released a free tool that lets an AI agent rewrite its own setup and improve over time. Four Gemini agents finished Minecraft on their own, with no roles or plan given to them. A $300,000 contest is paying people to break agents by hiding instructions in web pages and files. Hermes Agent already runs on a new AI laptop device on the day it launched.",
+  "tldr": "Anthropic wrote its own AI safety law and is shopping it to US lawmakers. The draft would let only a federal judge block a model, and only for imminent mass harm. Disney paid $60M a year to take on 66 people from Character.AI. OpenAI opened a free research tier for its biology model at US universities. Nous shipped a plugin that lets its agent take apart any app it can run.",
   "articles": [
+    {
+      "title": "Nemotron 3.5 Bolt is fine for a few users, not a crowd",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9lkh5/nemotron_35_bolt_is_okayish_for_small_multiuser/",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "A local-LLM user compares Bolt against a 27B model on a small shared setup and finds it workable but not the upgrade Ultra was meant to be."
+    },
+    {
+      "title": "Qwen 3.8 Flash Next fits on two mining cards at usable speed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "A 4-bit AutoRound checkpoint on two CMP 170HX cards over plain PCIe, no tensor parallel, reaches a speed the poster calls shareable."
+    },
+    {
+      "title": "SonicBoom runs models without Python and beats llama.cpp on decode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9mitw/calling_all_gpus_help_us_benchmark_sonicboom_v003/",
+      "category": "platforms_integration",
+      "published": "2026-10-19",
+      "summary": "An old-school free-software group shipped a GPLv3 inference runtime: one shared C library, no Python, and a call for GPU benchmarkers."
+    },
     {
       "title": "Anthropic commits 5% of its shares to a public benefit fund",
       "url": "https://www.anthropic.com/news/public-benefit-fund",
@@ -299,6 +320,20 @@
       "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
     },
     {
+      "title": "Anthropic is pitching its own AI safety bill to US lawmakers",
+      "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+      "category": "policy",
+      "published": "2026-10-16",
+      "summary": "Politico has the draft Anthropic handed to Capitol Hill: a model can be blocked only for imminent risk of 50+ deaths or $1B in damage."
+    },
+    {
+      "title": "Disney pays $60M a year for 66 Character.AI staff",
+      "url": "https://www.businessinsider.com/disney-pays-60-million-characterai-employees-tech-layoffs-karandeep-anand-2026-10",
+      "category": "industry",
+      "published": "2026-10-16",
+      "summary": "Court papers put numbers on the acqui-hire: a $30M retention pool and $180M over three years, while the app itself wound down."
+    },
+    {
       "title": "Lean now ships with verified kernels",
       "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
       "category": "ai_research",
@@ -388,41 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-16",
       "summary": "Open-source on-policy residual learning plus a custom engine, dlmrt, speeds diffusion language models up without losing quality, say the authors."
-    },
-    {
-      "title": "llama.cpp runs on a jailbroken PS5 and loads any GGUF model",
-      "url": "https://github.com/cobanov/PS5LM",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "PS5LM ports llama.cpp to the console's hardware, so a jailbroken PS5 can run local models natively. 119 points on Hacker News."
-    },
-    {
-      "title": "ChatGPT's Chrome extension now reads your open tabs and acts on them",
-      "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
-      "category": "platforms_integration",
-      "published": "2026-10-16",
-      "summary": "The updated extension sums up tabs and uses Computer Use in Work mode to fill forms or compare products, and it is open to all plans."
-    },
-    {
-      "title": "China drafts export controls on open-weight models and 23 AI technologies",
-      "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
-      "category": "policy",
-      "published": "2026-10-16",
-      "summary": "The draft covers weights, source code and training methods above 10^26 FLOPs or 2 trillion parameters, with a fast track for open releases."
-    },
-    {
-      "title": "Gemini 4 Argon hits 97.5% on ARC-AGI-3, then 49.8% in the standard harness",
-      "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "Google's newest model is the second from any lab past 95% under its own test setup, but the score swings hard with the harness."
-    },
-    {
-      "title": "Reflection releases Beam, a 501B open model with 23B active parameters",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "Sparse mixture-of-experts weights ship in BF16, FP8 and NVFP4, with the instruction-tuned model ready to host yourself."
     }
   ]
 }
