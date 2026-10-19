@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-10-19T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 12,
+  "tldr": "China published draft rules on which advanced AI models can leave the country, and the bar is low enough to catch today's flagships. Reflection AI released Beam, its first open model, free to download. A shakeout in the AI cloud business looks close, with Nvidia holding much of the risk. Two new checks say model makers score their own benchmarks higher than outside testers do, and DeepSeek's new model is the latest example. On the tooling side, Apple Silicon and llama.cpp both got changes worth knowing about.",
+  "articles": [
+    {
+      "title": "China proposes export controls on its best AI models",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/art/2026/art_1666fcaa24424766afe0683498ff0908.html",
+      "category": "policy",
+      "published": "2026-10-16",
+      "summary": "Draft list of 40 technologies, 23 of them AI. A model is caught at 10^26 training FLOPs, 2 trillion parameters, or a global top-10 spot. Comments close Nov 15."
+    },
+    {
+      "title": "Reflection AI releases Beam, a 501B open-weight model",
+      "url": "https://reflection.ai/blog/beam-is-available",
+      "category": "ai_models",
+      "published": "2026-10-16",
+      "summary": "The lab's first open release: sparse mixture of experts, 501B total and 23B active, Apache 2.0 weights on Hugging Face, built for coding and long agent runs."
+    },
+    {
+      "title": "Hundreds of AI cloud firms may shrink to seven or ten",
+      "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
+      "category": "industry",
+      "published": "2026-10-19",
+      "summary": "CoreWeave lost a quarter of its market value and Firmus scrapped its IPO. Microsoft pulled out of a 23,000-chip Nscale deal, leaving Nvidia exposed to its own customers."
+    },
+    {
+      "title": "DeepSeek V4.1-Flash-1017 lands on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "category": "deepseek",
+      "published": "2026-10-19",
+      "summary": "The independent benchmark table for the new DeepSeek model, 115 points and 38 comments on Hacker News. The outside read on the launch numbers."
+    },
+    {
+      "title": "DeepSeek's own 42% score shrinks to 31.8% on outside tests",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9owju/deepseekv41flash1017_on_aa_vals_index/",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "The model card reports 42.3% on Terminal-Bench 4.0 using the Claude Code harness. Artificial Analysis reports 34%, Vals index 31.82%, likely with a different agent."
+    },
+    {
+      "title": "Labs report benchmark scores 6.4% higher than outside testers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "An open leaderboard matched 611 comparisons across 180 models and 103 benchmarks. Lab-published scores run consistently above independent runs."
+    },
+    {
+      "title": "Kapitsa: an open Metal engine tuned for Apple Silicon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9pzt0/kapitsa_opensource_apple_silicon_optimized_metal/",
+      "category": "platforms_integration",
+      "published": "2026-10-19",
+      "summary": "Apache 2.0 inference engine built for offline enterprise Macs, with benchmarks for Qwen 27B, Nemotron and eight more on M1 Pro, M4 Pro and M5 Max."
+    },
+    {
+      "title": "llama.cpp moves its default port from 8080 to 9931",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tbg2/llama_servers_default_port_changed_from_8080_to/",
+      "category": "platforms_integration",
+      "published": "2026-10-19",
+      "summary": "From v0.7.0 the llama server listens on 9931. Anyone who never set a port gets a breaking change on upgrade, and tools hardcoding 8080 stop connecting."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next gets a faster decode path",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9rq3r/incoaiqwen38flashnextdflash2/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "A build from the original DFlash 2 authors. Their table shows it about 20% faster than MTP at concurrency 1."
+    },
+    {
+      "title": "LTX 2.5 generates video locally on a 48GB MacBook Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9p6cp/ltx_25_running_locally_on_a_48gb_m5_pro_macbook/",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "TensorSharp's Video Studio runs the video model on an M5 Pro with an editable timeline and an optional local LLM assistant, no cloud round trip."
+    },
+    {
+      "title": "TempoPFN trains time-series forecasters on synthetic data",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n3qv/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "NeurIPS 2026 paper: a library of synthetic generators and augmentations used to pre-train a linear RNN that forecasts series it has never seen."
+    },
+    {
+      "title": "DeepSeek V4.1-Flash squeezed to 2.6 bits runs on two 3090s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9umtv/deepseek_v41_flash_at_261_bpw_engram_26_ts_on/",
+      "category": "deepseek",
+      "published": "2026-10-19",
+      "summary": "A community quant of the new model using the dsx engine hits 26 tokens a second on two RTX 3090s, with the perplexity table against FP8 and FP4 teachers."
+    }
+  ]
+}
