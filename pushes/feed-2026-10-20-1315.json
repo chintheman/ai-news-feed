@@ -1,0 +1,43 @@
+{
+  "updated_at": "2026-10-20T13:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 5,
+  "tldr": "Anthropic launched a free tool that scans widely used free software for security holes. Its first scans found 77 critical and 803 high-severity problems, including a nasty bug in curl. Claude Projects is becoming a conversation: you say what you need and Claude picks up each job and reports back. Access is going out in stages, with Pro and Max subscribers first. Two small free tools for running AI on your own machine also surfaced today.",
+  "articles": [
+    {
+      "title": "Anthropic launches OSS Scanner: free AI vulnerability scans for critical open-source projects",
+      "url": "https://red.anthropic.com/oss-scanner",
+      "category": "anthropic",
+      "published": "2026-10-19",
+      "summary": "Anthropic's models scan critical open-source projects for free. First batch: 77 critical and 803 high-severity findings, including a curl CVE."
+    },
+    {
+      "title": "Claude Projects becomes a conversation, with a staged waitlist for Pro and Max",
+      "url": "https://claude.com/form/projects",
+      "category": "anthropic",
+      "published": "2026-10-20",
+      "summary": "Say what you need as it comes, and Claude takes each ask, coordinates the threads and reports back. New in Claude Code."
+    },
+    {
+      "title": "A local service that swaps models in and out of VRAM so a 24GB card can run several engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "Watches the GPU, loads and unloads models on demand, no manual swapping and no VRAM collisions. Built for smaller local rigs."
+    },
+    {
+      "title": "VoiceManager: open-source low-latency streaming speech-to-text and text-to-speech server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xag5bj/hermesconsole_a_demo_showing_off_voicemanager_my/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "MIT-licensed local speech-to-speech server with client docs and a Python client; HermesConsole is the demo app built on top of it."
+    },
+    {
+      "title": "6M-parameter character renderer: one reference image in, a minute of video out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9zwts/6m_param_character_renderer_one_reference_image/",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "A tiny model turns a single reference image into a minute of video, with results checked against Blender ground truth."
+    }
+  ]
+}

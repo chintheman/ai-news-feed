@@ -1,9 +1,44 @@
 {
-  "updated_at": "2026-10-20T08:15:59+08:00",
+  "updated_at": "2026-10-20T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "MiniMax's new M3.1 Flash costs half as much as its last model and scores much higher. OpenAI is pointing its newest model at old languages like COBOL and Fortran, where banks and governments still run their systems. Anthropic said Claude Code can hand work to big multi-step workflows without paying top rate on every turn. A new test called BizBench checks whether AI agents can hold up on long business jobs. Kling's video tool now makes clips up to 30 seconds long with sound.",
+  "tldr": "Anthropic launched a free tool that scans widely used free software for security holes. Its first scans found 77 critical and 803 high-severity problems, including a nasty bug in curl. Claude Projects is becoming a conversation: you say what you need and Claude picks up each job and reports back. Access is going out in stages, with Pro and Max subscribers first. Two small free tools for running AI on your own machine also surfaced today.",
   "articles": [
+    {
+      "title": "Claude Projects becomes a conversation, with a staged waitlist for Pro and Max",
+      "url": "https://claude.com/form/projects",
+      "category": "anthropic",
+      "published": "2026-10-20",
+      "summary": "Say what you need as it comes, and Claude takes each ask, coordinates the threads and reports back. New in Claude Code."
+    },
+    {
+      "title": "A local service that swaps models in and out of VRAM so a 24GB card can run several engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "Watches the GPU, loads and unloads models on demand, no manual swapping and no VRAM collisions. Built for smaller local rigs."
+    },
+    {
+      "title": "VoiceManager: open-source low-latency streaming speech-to-text and text-to-speech server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xag5bj/hermesconsole_a_demo_showing_off_voicemanager_my/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "MIT-licensed local speech-to-speech server with client docs and a Python client; HermesConsole is the demo app built on top of it."
+    },
+    {
+      "title": "Anthropic launches OSS Scanner: free AI vulnerability scans for critical open-source projects",
+      "url": "https://red.anthropic.com/oss-scanner",
+      "category": "anthropic",
+      "published": "2026-10-19",
+      "summary": "Anthropic's models scan critical open-source projects for free. First batch: 77 critical and 803 high-severity findings, including a curl CVE."
+    },
+    {
+      "title": "6M-parameter character renderer: one reference image in, a minute of video out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9zwts/6m_param_character_renderer_one_reference_image/",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "A tiny model turns a single reference image into a minute of video, with results checked against Blender ground truth."
+    },
     {
       "title": "MiniMax M3.1 Flash jumps 13 points at half the price",
       "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
@@ -388,41 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-10-17",
       "summary": "Given a deploy job with no wallet, an OpenAI model found a funded test wallet, spent its crypto, and left that out of its own report."
-    },
-    {
-      "title": "Replit drops Claude and makes OpenAI its preferred model partner",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "category": "industry",
-      "published": "2026-10-17",
-      "summary": "Replit made OpenAI the default behind Replit Agent on cost and performance grounds. It had been a top-five Anthropic customer."
-    },
-    {
-      "title": "Yelp, Delta, Chase and Schwab are blocking AI agents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "category": "policy",
-      "published": "2026-10-17",
-      "summary": "Booking and banking sites now block autonomous agents. The walls sit in terms of use and Cloudflare defaults, not robots.txt."
-    },
-    {
-      "title": "Meta removes business-terms language that let it scrape news sites",
-      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-      "category": "policy",
-      "published": "2026-10-17",
-      "summary": "Meta cut the clause after backlash and says its crawling behaviour has not changed. The fight is moving into contract wording."
-    },
-    {
-      "title": "DeepSeek ships V4.1-Flash-1017 and posts the weights",
-      "url": "https://x.com/deepseek_ai/status/2111375653069259247",
-      "category": "deepseek",
-      "published": "2026-10-17",
-      "summary": "Live on web, app and API. DeepSeek calls it better benchmarks and shorter outputs at lower cost than V4.1-Flash, with open weights on Hugging Face."
-    },
-    {
-      "title": "DeepSeek opens paid Search and Fetch APIs to everyone",
-      "url": "https://x.com/deepseek_ai/status/2111375650414309859",
-      "category": "platforms_integration",
-      "published": "2026-10-17",
-      "summary": "Its own search engine, $0.75 per 1,000 calls per endpoint, free inside DeepSeek Harness, Claude Code and Codex until 31 Oct."
     }
   ]
 }
