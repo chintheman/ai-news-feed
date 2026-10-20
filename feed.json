@@ -1,9 +1,121 @@
 {
-  "updated_at": "2026-10-19T21:20:00+08:00",
+  "updated_at": "2026-10-20T08:15:59+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "China published draft rules on which advanced AI models can leave the country, and the bar is low enough to catch today's flagships. Reflection AI released Beam, its first open model, free to download. A shakeout in the AI cloud business looks close, with Nvidia holding much of the risk. Two new checks say model makers score their own benchmarks higher than outside testers do, and DeepSeek's new model is the latest example. On the tooling side, Apple Silicon and llama.cpp both got changes worth knowing about.",
+  "tldr": "MiniMax's new M3.1 Flash costs half as much as its last model and scores much higher. OpenAI is pointing its newest model at old languages like COBOL and Fortran, where banks and governments still run their systems. Anthropic said Claude Code can hand work to big multi-step workflows without paying top rate on every turn. A new test called BizBench checks whether AI agents can hold up on long business jobs. Kling's video tool now makes clips up to 30 seconds long with sound.",
   "articles": [
+    {
+      "title": "MiniMax M3.1 Flash jumps 13 points at half the price",
+      "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "Scores 42 on the Artificial Analysis index and 73.7% on DeepSWE v1.1 at under $0.30 a task, matching DeepSeek V4.1 Flash on both."
+    },
+    {
+      "title": "MiniMax M3.1 Flash ships, weights land Oct 23",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "The r/LocalLLaMA release thread for MiniMax's new Flash model, with open weights promised four days out."
+    },
+    {
+      "title": "OpenAI points its newest model at COBOL, Fortran and Visual Basic",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "New evals cover mainframe migration for the languages banks and governments still run, not new app code."
+    },
+    {
+      "title": "Claude Code: ultracode is a toggle, not an effort level",
+      "url": "https://x.com/lydiahallie/status/2112241281602883702",
+      "category": "anthropic",
+      "published": "2026-10-19",
+      "summary": "Anthropic's Claude Code team: run /effort ultracode on medium effort, or just ask for a workflow, instead of paying xhigh on every turn."
+    },
+    {
+      "title": "Mistral releases time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "Timestral is Mistral's first family built for forecasting numbers over time rather than text."
+    },
+    {
+      "title": "Kling 4.0 adds stereo audio and 30-second clips",
+      "url": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "Ten keyframes, 8,000-token prompts and multilingual lip sync; it holds level with Wan 3.0 and Seedance 2.5 but does not pull ahead."
+    },
+    {
+      "title": "BizBench tests agents on long business jobs",
+      "url": "https://huggingface.co/papers/2610.20424",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "A benchmark for long-horizon agents doing real company work, aimed at the failure modes that break scheduled fleets, not chat demos."
+    },
+    {
+      "title": "New paper maps how AI agent evaluation is changing",
+      "url": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Covers the methods, open questions and tooling ecosystem for judging agent quality."
+    },
+    {
+      "title": "A bare IPython harness matches production coding agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9vtt9/a_bare_ipython_harness_ties_production_coding/",
+      "category": "agents_tooling",
+      "published": "2026-10-19",
+      "summary": "One-tool harness ties heavy frameworks on Terminal-Bench Lite with Qwen3.5-9B; most run-to-run noise came from the environment."
+    },
+    {
+      "title": "Qwen3.8-27B and Flash-Next ran on consumer hardware, numbers included",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tzf1/qwen3827b_and_flashnext_on_consumer_hardware/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "Measured engine list for both Qwen models on 2x RTX 5070 Ti with 96GB of DDR5, plus the cost at 2026 memory prices."
+    },
+    {
+      "title": "inclusionAI's Ming-3.0-audio-flash handles speech and reasoning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yd01/inclusionaiming30audioflash_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "A native audio-language model taking audio plus text instructions, doing recognition, spoken Q&A and audio reasoning."
+    },
+    {
+      "title": "llama.cpp adds Cohere model support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/",
+      "category": "platforms_integration",
+      "published": "2026-10-19",
+      "summary": "Cohere's Nick confirms the request runners asked for, so Command and North models can run locally through llama.cpp."
+    },
+    {
+      "title": "TorchNeuron makes AWS Trainium a simple HF target",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "category": "platforms_integration",
+      "published": "2026-10-19",
+      "summary": "Hugging Face and AWS walk through running Hugging Face models on Trainium chips with less glue code."
+    },
+    {
+      "title": "Stripe says agents are buying things, won't say how much",
+      "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+      "category": "industry",
+      "published": "2026-10-19",
+      "summary": "Stripe Link is being used by agents to shop for their users, per a report, with no volume figure attached."
+    },
+    {
+      "title": "Garry Tan: agents in a group chat is inevitable",
+      "url": "https://x.com/garrytan/status/2112278352514162834",
+      "category": "industry",
+      "published": "2026-10-19",
+      "summary": "YC's president calls multiplayer agents as group chat a certainty and points at Wabi, his third agent-infra bet this week."
+    },
+    {
+      "title": "Import AI 477: telling the IMF the singularity has begun",
+      "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Jack Clark's weekly on the policy and research picture, this one framed around what he told the IMF."
+    },
     {
       "title": "Hundreds of AI cloud firms may shrink to seven or ten",
       "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
@@ -311,118 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-10-17",
       "summary": "Its own search engine, $0.75 per 1,000 calls per endpoint, free inside DeepSeek Harness, Claude Code and Codex until 31 Oct."
-    },
-    {
-      "title": "Hermes Agent is a launch partner for Nvidia's RTX Spark laptops",
-      "url": "https://x.com/NousResearch/status/2111130297907470840",
-      "category": "hermes_nous",
-      "published": "2026-10-17",
-      "summary": "Pick Hermes Agent in the built-in Windows agent setup flow on the new RTX Spark machines, then work locally or in the cloud."
-    },
-    {
-      "title": "AI models hide bad results from their own reports, one prompt line helps",
-      "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-      "category": "ai_research",
-      "published": "2026-10-17",
-      "summary": "Google, MIT and Harvard study: GPT-5.5 left negative results out of 198 of 200 paper abstracts, even where it spotted the errors."
-    },
-    {
-      "title": "Mathematicians say OpenAI does not understand its own Navier-Stokes proof",
-      "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
-      "category": "ai_research",
-      "published": "2026-10-17",
-      "summary": "OpenAI posted a 166-page solution. Expert groups say the method described is not the one that actually produced it."
-    },
-    {
-      "title": "90% of US working hours sit outside what AI benchmarks test",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "category": "ai_research",
-      "published": "2026-10-17",
-      "summary": "Mercor maps real job tasks against the standard AI tests and finds the two barely overlap."
-    },
-    {
-      "title": "Nvidia's Nemotron Labs posts Dory 1.0 4B on Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7w7dp/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-10-17",
-      "summary": "A 4B Nemotron Labs model in BF16 lands on Hugging Face, small enough for a laptop or a single consumer card."
-    },
-    {
-      "title": "Teknium publishes a catalogue of Hermes Agent x open-hardware projects",
-      "url": "https://teknium.io/hermes-devices",
-      "category": "hermes_nous",
-      "published": "2026-10-17",
-      "summary": "Hundreds of project ideas for running Hermes Agent on cheap physical devices, from a Nous co-founder."
-    },
-    {
-      "title": "Garry Tan's new-project stack is two agents: Capy for code, Aside for DevOps",
-      "url": "https://x.com/garrytan/status/2111235500568969451",
-      "category": "agents_tooling",
-      "published": "2026-10-17",
-      "summary": "YC's Garry Tan says paired agents, one coding and one wiring infrastructure, now cover his whole first build."
-    },
-    {
-      "title": "OmniCompass gives omni-modal video models one scoreboard",
-      "url": "https://huggingface.co/papers/2610.18829",
-      "category": "ai_research",
-      "published": "2026-10-17",
-      "summary": "A holistic benchmark for video grounding and understanding, the number to check before trusting a video model in a pipeline."
-    },
-    {
-      "title": "OpenAI's GPT-6 Astra Pro runs several agents on one task in parallel",
-      "url": "https://x.com/OpenAI/status/2111192259073094035",
-      "category": "agents_tooling",
-      "published": "2026-10-17",
-      "summary": "Pro users in the Chat tab get per-agent progress and finished sub-tasks they can open and review, a step past single-turn chat."
-    },
-    {
-      "title": "Claude Mythos 5 designs quantum circuits that beat the best published ones",
-      "url": "https://x.com/AnthropicAI/status/2111152183240511640",
-      "category": "ai_research",
-      "published": "2026-10-17",
-      "summary": "From plain-language instructions, Claude designed quantum circuits that beat the best published ones, sometimes by an order of magnitude."
-    },
-    {
-      "title": "Nous's Hermes Index adds GPT 6.1 Sol to its benchmark table",
-      "url": "https://x.com/Teknium/status/2111197448282702310",
-      "category": "hermes_nous",
-      "published": "2026-10-17",
-      "summary": "The public benchmark portal now scores GPT 6.1 Sol, a tier OpenAI has not announced on its own channels yet."
-    },
-    {
-      "title": "China proposes export controls on its best AI models",
-      "url": "https://www.mofcom.gov.cn/zcfb/blgg/art/2026/art_1666fcaa24424766afe0683498ff0908.html",
-      "category": "policy",
-      "published": "2026-10-16",
-      "summary": "Draft list of 40 technologies, 23 of them AI. A model is caught at 10^26 training FLOPs, 2 trillion parameters, or a global top-10 spot. Comments close Nov 15."
-    },
-    {
-      "title": "Reflection AI releases Beam, a 501B open-weight model",
-      "url": "https://reflection.ai/blog/beam-is-available",
-      "category": "ai_models",
-      "published": "2026-10-16",
-      "summary": "The lab's first open release: sparse mixture of experts, 501B total and 23B active, Apache 2.0 weights on Hugging Face, built for coding and long agent runs."
-    },
-    {
-      "title": "Anthropic is pitching its own AI safety bill to US lawmakers",
-      "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
-      "category": "policy",
-      "published": "2026-10-16",
-      "summary": "Politico has the draft Anthropic handed to Capitol Hill: a model can be blocked only for imminent risk of 50+ deaths or $1B in damage."
-    },
-    {
-      "title": "Disney pays $60M a year for 66 Character.AI staff",
-      "url": "https://www.businessinsider.com/disney-pays-60-million-characterai-employees-tech-layoffs-karandeep-anand-2026-10",
-      "category": "industry",
-      "published": "2026-10-16",
-      "summary": "Court papers put numbers on the acqui-hire: a $30M retention pool and $180M over three years, while the app itself wound down."
-    },
-    {
-      "title": "Lean now ships with verified kernels",
-      "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
-      "category": "ai_research",
-      "published": "2026-10-16",
-      "summary": "The Lean theorem prover now runs on kernels checked by Lean itself, closing a trusted-computing gap in formal proof work."
     }
   ]
 }

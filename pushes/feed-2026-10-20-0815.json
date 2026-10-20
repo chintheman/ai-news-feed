@@ -1,0 +1,120 @@
+{
+  "updated_at": "2026-10-20T08:15:59+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 16,
+  "tldr": "MiniMax's new M3.1 Flash costs half as much as its last model and scores much higher. OpenAI is pointing its newest model at old languages like COBOL and Fortran, where banks and governments still run their systems. Anthropic said Claude Code can hand work to big multi-step workflows without paying top rate on every turn. A new test called BizBench checks whether AI agents can hold up on long business jobs. Kling's video tool now makes clips up to 30 seconds long with sound.",
+  "articles": [
+    {
+      "title": "MiniMax M3.1 Flash jumps 13 points at half the price",
+      "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "Scores 42 on the Artificial Analysis index and 73.7% on DeepSWE v1.1 at under $0.30 a task, matching DeepSeek V4.1 Flash on both."
+    },
+    {
+      "title": "MiniMax M3.1 Flash ships, weights land Oct 23",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "The r/LocalLLaMA release thread for MiniMax's new Flash model, with open weights promised four days out."
+    },
+    {
+      "title": "OpenAI points its newest model at COBOL, Fortran and Visual Basic",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "New evals cover mainframe migration for the languages banks and governments still run, not new app code."
+    },
+    {
+      "title": "Claude Code: ultracode is a toggle, not an effort level",
+      "url": "https://x.com/lydiahallie/status/2112241281602883702",
+      "category": "anthropic",
+      "published": "2026-10-19",
+      "summary": "Anthropic's Claude Code team: run /effort ultracode on medium effort, or just ask for a workflow, instead of paying xhigh on every turn."
+    },
+    {
+      "title": "Mistral releases time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "Timestral is Mistral's first family built for forecasting numbers over time rather than text."
+    },
+    {
+      "title": "Kling 4.0 adds stereo audio and 30-second clips",
+      "url": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "Ten keyframes, 8,000-token prompts and multilingual lip sync; it holds level with Wan 3.0 and Seedance 2.5 but does not pull ahead."
+    },
+    {
+      "title": "BizBench tests agents on long business jobs",
+      "url": "https://huggingface.co/papers/2610.20424",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "A benchmark for long-horizon agents doing real company work, aimed at the failure modes that break scheduled fleets, not chat demos."
+    },
+    {
+      "title": "New paper maps how AI agent evaluation is changing",
+      "url": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Covers the methods, open questions and tooling ecosystem for judging agent quality."
+    },
+    {
+      "title": "A bare IPython harness matches production coding agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9vtt9/a_bare_ipython_harness_ties_production_coding/",
+      "category": "agents_tooling",
+      "published": "2026-10-19",
+      "summary": "One-tool harness ties heavy frameworks on Terminal-Bench Lite with Qwen3.5-9B; most run-to-run noise came from the environment."
+    },
+    {
+      "title": "Qwen3.8-27B and Flash-Next ran on consumer hardware, numbers included",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tzf1/qwen3827b_and_flashnext_on_consumer_hardware/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "Measured engine list for both Qwen models on 2x RTX 5070 Ti with 96GB of DDR5, plus the cost at 2026 memory prices."
+    },
+    {
+      "title": "inclusionAI's Ming-3.0-audio-flash handles speech and reasoning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yd01/inclusionaiming30audioflash_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "A native audio-language model taking audio plus text instructions, doing recognition, spoken Q&A and audio reasoning."
+    },
+    {
+      "title": "llama.cpp adds Cohere model support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/",
+      "category": "platforms_integration",
+      "published": "2026-10-19",
+      "summary": "Cohere's Nick confirms the request runners asked for, so Command and North models can run locally through llama.cpp."
+    },
+    {
+      "title": "TorchNeuron makes AWS Trainium a simple HF target",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "category": "platforms_integration",
+      "published": "2026-10-19",
+      "summary": "Hugging Face and AWS walk through running Hugging Face models on Trainium chips with less glue code."
+    },
+    {
+      "title": "Stripe says agents are buying things, won't say how much",
+      "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+      "category": "industry",
+      "published": "2026-10-19",
+      "summary": "Stripe Link is being used by agents to shop for their users, per a report, with no volume figure attached."
+    },
+    {
+      "title": "Garry Tan: agents in a group chat is inevitable",
+      "url": "https://x.com/garrytan/status/2112278352514162834",
+      "category": "industry",
+      "published": "2026-10-19",
+      "summary": "YC's president calls multiplayer agents as group chat a certainty and points at Wabi, his third agent-infra bet this week."
+    },
+    {
+      "title": "Import AI 477: telling the IMF the singularity has begun",
+      "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Jack Clark's weekly on the policy and research picture, this one framed around what he told the IMF."
+    }
+  ]
+}
