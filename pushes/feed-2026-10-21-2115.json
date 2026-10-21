@@ -1,0 +1,455 @@
+{
+  "updated_at": "2026-10-21T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 60,
+  "tldr": "Nous Research says image, video and 3D generation are all heading inside Hermes, with a media plugin coming next. A new Hermes plugin turned one request into a playable game, then played it to catch its own crash. Local models keep getting cheaper to run: new low-bit builds squeeze Qwen and a 35B agent model onto one graphics card. Memory chip supply is tight, with 2027 capacity sold out and prices expected to jump. Meta's Muse can leak private details when people share a chat.",
+  "articles": [
+    {
+      "title": "One prompt to a playable Godot build: Hermes gains a game-dev plugin",
+      "url": "https://x.com/Teknium/status/2112782970474139927",
+      "category": "hermes_nous",
+      "published": "2026-10-21",
+      "summary": "A third-party plugin made sprites, sound, 3D and a Godot build, then played it and caught its own crash, all without core changes."
+    },
+    {
+      "title": "Mistral and NVIDIA team up on AI for industrial engineering",
+      "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "Mistral is building AI-native engineering and simulation workflows on NVIDIA accelerated computing for industrial customers."
+    },
+    {
+      "title": "NVIDIA opens SimReady Central, a free 3D asset library for robot simulation",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "An open library of simulation-ready 3D assets so robotics and AI factory teams stop rebuilding training scenes from scratch."
+    },
+    {
+      "title": "Specter: quantized speculative offloading makes big MoE models faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj6an/paper_specter_fast_moe_inference_via/",
+      "category": "ai_research",
+      "published": "2026-10-21",
+      "summary": "Uses quantization plus multi-step speculation to cut the memory bus bottleneck when expert weights spill to host RAM."
+    },
+    {
+      "title": "Meta's Muse leaks private and business data when users share chats",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "Ars Technica finds shared Muse conversations expose personal and business secrets that were never meant to leave the chat."
+    },
+    {
+      "title": "Samsung sells out all 2027 HBM capacity, GPU prices expected to jump",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "High-bandwidth memory prices are tipped to rise around 200% next year with DRAM up double digits, pushing card costs higher."
+    },
+    {
+      "title": "KRAFTON's Raon-1-mini preview: a 30B MoE built from scratch for Korean",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbh0ev/kraftonraon1minipreview_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "A 30B total, 4B active mixture-of-experts model trained in-house by KRAFTON AI, aimed at Korean chat and agentic tasks."
+    },
+    {
+      "title": "llama.cpp gets fast LoRA so adapters are cheap to train and run",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbekzx/fast_lora_in_llamacpp/",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "New changes make LoRA practical on local models, including adapters that shift Qwen3.8-Flash-Next behaviour."
+    },
+    {
+      "title": "OvisOCR3 is a 0.8B open OCR model with JSON output and table rebuilding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi9h4/ovisocr3_a_08b_ocr_model_with_structured_output/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "Apache 2.0, built on Qwen3.5-0.8B, and adds structured JSON output plus cross-page table reconstruction."
+    },
+    {
+      "title": "Sage-A1.5: an agentic 35B MoE finetune of Qwen3.6, with GGUF builds",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b/",
+      "category": "chinese_ai",
+      "published": "2026-10-21",
+      "summary": "InternScience releases a 35B-A3B agentic model on Qwen3.6 with Q4 and Q8 GGUF quantizations ready to download."
+    },
+    {
+      "title": "Apple Silicon inference engines benchmarked on small Qwen models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "Kapitsa and DFlash2 builds compared on M4 Pro 48GB and M1 Pro 16GB, with MLX and MTP numbers for Qwen3.8 models."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next squeezed under 36GB at 1.66bpw with no offload",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/",
+      "category": "chinese_ai",
+      "published": "2026-10-21",
+      "summary": "A sub-2-bit EXL3 quant runs the whole model inside one RTX 5090 with no offloaded experts and stable output."
+    },
+    {
+      "title": "Dario Amodei defends Anthropic's safety record in public reply",
+      "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+      "category": "anthropic",
+      "published": "2026-10-21",
+      "summary": "Anthropic's CEO conceded some cited examples were mistakes, then listed actions taken at commercial cost and defended the updated RSP."
+    },
+    {
+      "title": "ByteDance, Alibaba, Tencent place over $35B of Nvidia chip orders",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "Reported order of roughly 3 million RTX 5500 Pro cards, aimed at LLM inference and AI video generation."
+    },
+    {
+      "title": "Nous says image, video and 3D generation all land inside Hermes",
+      "url": "https://x.com/NousResearch/status/2112613895898849387",
+      "category": "hermes_nous",
+      "published": "2026-10-20",
+      "summary": "Krea and Fal already route through the Nous Portal tool gateway, Blender ships as a plugin, and a Desktop media plugin is next."
+    },
+    {
+      "title": "Claude designs scorpion-venom binders; 211 lab-tested, data public",
+      "url": "https://x.com/AnthropicAI/status/2112579251555721573",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "A research Claude generated 300,000+ minibinders against five scorpion toxins in 64 hours; 211 were wet-lab tested and the data released."
+    },
+    {
+      "title": "DeepSeek open-sources the token encoder behind its API",
+      "url": "https://github.com/deepseek-ai/deepseek-recipe",
+      "category": "deepseek",
+      "published": "2026-10-20",
+      "summary": "deepseek-recipe matches the production API's encoding, so self-hosted V4.1-Flash reproduces the same token counts and request behaviour."
+    },
+    {
+      "title": "OpenAI's Terminal X matches senior investor judgment 88.6%",
+      "url": "https://openai.com/index/terminal-x",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Its Eval Agent grades work against a 54-criterion rubric and catches 25% more departures from a fund's mandate with GPT-6.1 Sol."
+    },
+    {
+      "title": "EAGLE-4 ships with a 3.59x decoding speedup on Qwen3.8-27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb6zds/eagle4_released_faster_than_dflash2_dspark/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Beats DFlash2 (2.80x) and DSpark (2.57x) in published benchmarks; only Qwen3.8-27B is supported so far, llama.cpp support pending."
+    },
+    {
+      "title": "Open RK3588 NPU runtime hits ~10 tok/s, 2x faster than vendor SDK",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb45bq/i_built_an_rk3588_npu_runtime_without_any/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Built without Rockchip's proprietary inference libraries: Rust host code and hand-written NPU operators, running Qwen3.5-4B."
+    },
+    {
+      "title": "qev-0.8b: a tiny local decision model claiming SOTA for its size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xazrvd/qev08b_new_sota_tiny_local_decision_model/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "An 0.8B model aimed at on-device decision and routing work, posted with its benchmark numbers and weights."
+    },
+    {
+      "title": "The COUNT: n-gram embeddings scale memory separately from compute",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xat6o7/paper_the_count_counting_ngrams_unlocks_scaling/",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "Paper adds n-gram embedding tables so memory grows independently of compute, giving training-free adaptation and cheaper long context."
+    },
+    {
+      "title": "Intel B65 long-context sweeps for Flash-Next and other models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xavy8t/hardly_any_benchmarks_for_intel_b65_so_i_got_4x/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Four cards tested on a validated vLLM baseline because public B65 benchmarks were scarce; tuning runs to follow."
+    },
+    {
+      "title": "Mistral launches Voxtral 3, a full real-time voice agent stack",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Speech in, speech out, plus a voice agent SDK: 50+ languages, tool calls mid-conversation, EU-hosted or self-run."
+    },
+    {
+      "title": "ElevenLabs ships two speech-to-speech models for live AI conversation",
+      "url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Eleven Realtime v1 Max scores 98.8% on Big Bench Audio with a 0.57s response time, its fastest-yet claim."
+    },
+    {
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "PyTorch code can now target Google's TPU chips directly, closing the gap that kept teams on GPUs."
+    },
+    {
+      "title": "Hugging Face ships TorchTPU support for TPUs natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "Walkthrough of the new native TPU path in PyTorch and what it takes to move a training run onto it."
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio to sell AI into life sciences R&D",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "category": "industry",
+      "published": "2026-10-20",
+      "summary": "The deal puts OpenAI agents inside biopharma drug development, its first acquisition pitched at lab operations."
+    },
+    {
+      "title": "OpenAI says GPT-6 is far better at COBOL, Fortran and Visual Basic",
+      "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "GPT-6 Astra hits 87.4% pass rate across 20 languages on MultiLangBench, up from about 38% for GPT-5.6 Terra."
+    },
+    {
+      "title": "Sam Altman pitched three endgames for AI safety, including one firm melting everyone else's GPUs",
+      "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+      "category": "policy",
+      "published": "2026-10-20",
+      "summary": "Internal OpenAI talk laid out an IAEA-style watchdog, a merger of the big labs, or one firm able to shut down rivals."
+    },
+    {
+      "title": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
+      "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
+      "category": "policy",
+      "published": "2026-10-20",
+      "summary": "Internal documents describe agents that move like a worm between networks, including air-gapped ones, with little human input."
+    },
+    {
+      "title": "NVIDIA Cosmos3-H-Dreams brings clinical surgery to life through generative simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "NVIDIA's world model generates surgical video for training, a step toward simulators that can teach procedures safely."
+    },
+    {
+      "title": "FairStress: a deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "AI2 shows fairness scores collapse when the same model meets harder, shifted prompts, not just new demographic groups."
+    },
+    {
+      "title": "ALTK-Evolve: learned memory tops the tau2-bench leaderboard without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "category": "agents_tooling",
+      "published": "2026-10-20",
+      "summary": "IBM Research gets top customer-service agent scores by learning from past runs instead of buying a bigger base model."
+    },
+    {
+      "title": "REMORY: learning residual memory for context compaction",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasp90/paper_remory_learning_residual_memory_for_context/",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "Adds a small learned memory to the text summary long-running agents keep, so details survive compaction."
+    },
+    {
+      "title": "OpenVLHarness: real-world visual agentic tool use with multimodal memory",
+      "url": "https://x.com/_akhaliq/status/2112566784343876081",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "New benchmark and harness for agents that act on screens and images while remembering what they saw earlier."
+    },
+    {
+      "title": "Phonon open-sourced: 31M and 40M text-to-speech models built for the edge",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Gradium's first open release: tiny TTS models with a Rust inference stack covering 10+ CPU, GPU and NPU backends."
+    },
+    {
+      "title": "Ornith-1.5-122B: a self-improving Qwen finetune",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/",
+      "category": "chinese_ai",
+      "published": "2026-10-20",
+      "summary": "Built on Qwen3.5 and Gemma 4 with extra pretraining, pitched as foundation models grown by self-improvement."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next vs Opus 5.5: controlled six-way agent benchmark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatxqk/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
+      "category": "chinese_ai",
+      "published": "2026-10-20",
+      "summary": "Same Rust feature, same harness for every run, to settle whether the cheap model really competes on agentic coding."
+    },
+    {
+      "title": "DeepSeek open-sources DeepInfer, the stack that serves V4.1-Flash",
+      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+      "category": "deepseek",
+      "published": "2026-10-20",
+      "summary": "Production kernels, distributed inference and batching are now public, so the reason its API is cheap can be read, not guessed."
+    },
+    {
+      "title": "Meshy plugin for Hermes: 3D models rendered in chat",
+      "url": "https://x.com/Teknium/status/2112456282062065690",
+      "category": "hermes_nous",
+      "published": "2026-10-20",
+      "summary": "Full MCP plus skill, a gallery of past models, credits on the status bar and a file-type picker. Promised for Oct 21."
+    },
+    {
+      "title": "Hermes Agent splits releases into channels",
+      "url": "https://x.com/Teknium/status/2112414280402583581",
+      "category": "hermes_nous",
+      "published": "2026-10-20",
+      "summary": "Main for the latest, beta flagged risky, updated on a schedule instead of every merged change. Which channel you are on explains most missing features."
+    },
+    {
+      "title": "Vals AI: DeepSeek V4.1-Flash beats GPT-6 Sol on a security task",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xap2aq/vals_ai_found_deepseek_v41_flash_beats_gpt_6/",
+      "category": "deepseek",
+      "published": "2026-10-20",
+      "summary": "An independent tester puts the open-weight model ahead of GPT-6 Sol on a multi-step offensive cybersecurity task. Sol ran via trusted access."
+    },
+    {
+      "title": "Cloudflare's Clairic reads documents faster and cheaper than an LLM",
+      "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "A small purpose-built extraction model instead of a general one, aimed at document data pulls where an LLM is slow and expensive."
+    },
+    {
+      "title": "Tess-4.5-27B matches its base with a quarter fewer tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xadfm7/migtisseratess4527b_qwen_finetune/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "A Qwen3.8-27B finetune from the Synthia author keeps the score and cuts reasoning length by 25% across 150 test scenarios."
+    },
+    {
+      "title": "AMD GAIA 0.25 improves local AI agents on Ryzen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaegqa/amd_gaia_025_brings_several_improvements_for/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "Updates to AMD's local agent stack for Ryzen AI hardware, the PC-side answer to running agents without a cloud round trip."
+    },
+    {
+      "title": "PyTorch 2.15's MPS backend, explained",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "Hugging Face walks through what the Metal backend now covers on Apple Silicon and where the sharp edges still are."
+    },
+    {
+      "title": "A prefiller model streamed from SSD fixes low-bit Qwen3.8-27B quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xao7kx/improve_qwen3827b_low_quants_by_using_a_prefiller/",
+      "category": "chinese_ai",
+      "published": "2026-10-20",
+      "summary": "An ISTA-DASLab demo recovers accuracy in low quants while keeping VRAM low and decode fast, with no speed penalty past 4k context."
+    },
+    {
+      "title": "Claude Projects becomes a conversation, with a staged waitlist for Pro and Max",
+      "url": "https://claude.com/form/projects",
+      "category": "anthropic",
+      "published": "2026-10-20",
+      "summary": "Say what you need as it comes, and Claude takes each ask, coordinates the threads and reports back. New in Claude Code."
+    },
+    {
+      "title": "A local service that swaps models in and out of VRAM so a 24GB card can run several engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "Watches the GPU, loads and unloads models on demand, no manual swapping and no VRAM collisions. Built for smaller local rigs."
+    },
+    {
+      "title": "VoiceManager: open-source low-latency streaming speech-to-text and text-to-speech server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xag5bj/hermesconsole_a_demo_showing_off_voicemanager_my/",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "MIT-licensed local speech-to-speech server with client docs and a Python client; HermesConsole is the demo app built on top of it."
+    },
+    {
+      "title": "BizBench: hidden challenges in deploying long-horizon agents for real business",
+      "url": "https://x.com/_akhaliq/status/2112249207969235093",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Benchmark for agents that run multi-day business workflows, plus a taxonomy of where they actually break."
+    },
+    {
+      "title": "DHS bans DeepSeek from US federal civilian agencies",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "category": "policy",
+      "published": "2026-10-19",
+      "summary": "Homeland Security bars federal civilian agencies from using DeepSeek tech, the first government-wide ban on a Chinese AI lab."
+    },
+    {
+      "title": "WhatsApp help pages hid instructions telling AI agents not to name a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "category": "policy",
+      "published": "2026-10-19",
+      "summary": "Visible to humans, invisible on the page, aimed at any agent that read it. A live test of prompt injection in the wild, on a site regulators read."
+    },
+    {
+      "title": "How abliterated models get you pwned",
+      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Stripping the refusal layer also strips the guard on the system prompt, so a locally hosted 'uncensored' model hands over its instructions."
+    },
+    {
+      "title": "Anthropic launches OSS Scanner: free AI vulnerability scans for critical open-source projects",
+      "url": "https://red.anthropic.com/oss-scanner",
+      "category": "anthropic",
+      "published": "2026-10-19",
+      "summary": "Anthropic's models scan critical open-source projects for free. First batch: 77 critical and 803 high-severity findings, including a curl CVE."
+    },
+    {
+      "title": "6M-parameter character renderer: one reference image in, a minute of video out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9zwts/6m_param_character_renderer_one_reference_image/",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "A tiny model turns a single reference image into a minute of video, with results checked against Blender ground truth."
+    },
+    {
+      "title": "MiniMax M3.1 Flash jumps 13 points at half the price",
+      "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "Scores 42 on the Artificial Analysis index and 73.7% on DeepSWE v1.1 at under $0.30 a task, matching DeepSeek V4.1 Flash on both."
+    },
+    {
+      "title": "MiniMax M3.1 Flash ships, weights land Oct 23",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
+      "category": "chinese_ai",
+      "published": "2026-10-19",
+      "summary": "The r/LocalLLaMA release thread for MiniMax's new Flash model, with open weights promised four days out."
+    },
+    {
+      "title": "OpenAI points its newest model at COBOL, Fortran and Visual Basic",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "New evals cover mainframe migration for the languages banks and governments still run, not new app code."
+    }
+  ],
+  "tldrs": {
+    "evening": {
+      "at": "2026-10-21T21:20:00+08:00",
+      "points": [
+        {
+          "text": "Nous Research says image, video and 3D generation are all heading inside Hermes, with a media plugin coming next.",
+          "url": "https://x.com/NousResearch/status/2112613895898849387"
+        },
+        {
+          "text": "A new Hermes plugin turned one request into a playable game, then played it to catch its own crash.",
+          "url": "https://x.com/Teknium/status/2112782970474139927"
+        },
+        {
+          "text": "Local models keep getting cheaper to run: new low-bit builds squeeze Qwen and a 35B agent model onto one graphics card.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b/"
+        },
+        {
+          "text": "Memory chip supply is tight, with 2027 capacity sold out and prices expected to jump.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/"
+        },
+        {
+          "text": "Meta's Muse can leak private details when people share a chat.",
+          "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        }
+      ]
+    }
+  }
+}
