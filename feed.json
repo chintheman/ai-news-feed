@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-10-21T13:15:00+08:00",
+  "updated_at": "2026-10-21T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic got a research Claude to design protein binders against scorpion venom, then published lab results for all 211 designs. Its CEO also spent the night defending the company's safety record in public. OpenAI says its new evaluation tool agrees with senior investors 88.6% of the time. DeepSeek gave away the token encoder behind its API, so self-hosted copies now match the hosted service. Chinese tech giants reportedly ordered more than $35 billion of Nvidia chips.",
+  "tldr": "Nous Research says image, video and 3D generation are all heading inside Hermes, with a media plugin coming next. A new Hermes plugin turned one request into a playable game, then played it to catch its own crash. Local models keep getting cheaper to run: new low-bit builds squeeze Qwen and a 35B agent model onto one graphics card. Memory chip supply is tight, with 2027 capacity sold out and prices expected to jump. Meta's Muse can leak private details when people share a chat.",
   "articles": [
+    {
+      "title": "One prompt to a playable Godot build: Hermes gains a game-dev plugin",
+      "url": "https://x.com/Teknium/status/2112782970474139927",
+      "category": "hermes_nous",
+      "published": "2026-10-21",
+      "summary": "A third-party plugin made sprites, sound, 3D and a Godot build, then played it and caught its own crash, all without core changes."
+    },
+    {
+      "title": "Mistral and NVIDIA team up on AI for industrial engineering",
+      "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "Mistral is building AI-native engineering and simulation workflows on NVIDIA accelerated computing for industrial customers."
+    },
+    {
+      "title": "NVIDIA opens SimReady Central, a free 3D asset library for robot simulation",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "An open library of simulation-ready 3D assets so robotics and AI factory teams stop rebuilding training scenes from scratch."
+    },
+    {
+      "title": "Specter: quantized speculative offloading makes big MoE models faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj6an/paper_specter_fast_moe_inference_via/",
+      "category": "ai_research",
+      "published": "2026-10-21",
+      "summary": "Uses quantization plus multi-step speculation to cut the memory bus bottleneck when expert weights spill to host RAM."
+    },
+    {
+      "title": "Meta's Muse leaks private and business data when users share chats",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "Ars Technica finds shared Muse conversations expose personal and business secrets that were never meant to leave the chat."
+    },
+    {
+      "title": "Samsung sells out all 2027 HBM capacity, GPU prices expected to jump",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "High-bandwidth memory prices are tipped to rise around 200% next year with DRAM up double digits, pushing card costs higher."
+    },
+    {
+      "title": "KRAFTON's Raon-1-mini preview: a 30B MoE built from scratch for Korean",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbh0ev/kraftonraon1minipreview_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "A 30B total, 4B active mixture-of-experts model trained in-house by KRAFTON AI, aimed at Korean chat and agentic tasks."
+    },
+    {
+      "title": "llama.cpp gets fast LoRA so adapters are cheap to train and run",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbekzx/fast_lora_in_llamacpp/",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "New changes make LoRA practical on local models, including adapters that shift Qwen3.8-Flash-Next behaviour."
+    },
+    {
+      "title": "OvisOCR3 is a 0.8B open OCR model with JSON output and table rebuilding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi9h4/ovisocr3_a_08b_ocr_model_with_structured_output/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "Apache 2.0, built on Qwen3.5-0.8B, and adds structured JSON output plus cross-page table reconstruction."
+    },
+    {
+      "title": "Sage-A1.5: an agentic 35B MoE finetune of Qwen3.6, with GGUF builds",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b/",
+      "category": "chinese_ai",
+      "published": "2026-10-21",
+      "summary": "InternScience releases a 35B-A3B agentic model on Qwen3.6 with Q4 and Q8 GGUF quantizations ready to download."
+    },
+    {
+      "title": "Apple Silicon inference engines benchmarked on small Qwen models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "Kapitsa and DFlash2 builds compared on M4 Pro 48GB and M1 Pro 16GB, with MLX and MTP numbers for Qwen3.8 models."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next squeezed under 36GB at 1.66bpw with no offload",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/",
+      "category": "chinese_ai",
+      "published": "2026-10-21",
+      "summary": "A sub-2-bit EXL3 quant runs the whole model inside one RTX 5090 with no offloaded experts and stable output."
+    },
     {
       "title": "Dario Amodei defends Anthropic's safety record in public reply",
       "url": "https://x.com/DarioAmodei/status/2112732230124818891",
@@ -17,6 +101,13 @@
       "category": "industry",
       "published": "2026-10-21",
       "summary": "Reported order of roughly 3 million RTX 5500 Pro cards, aimed at LLM inference and AI video generation."
+    },
+    {
+      "title": "Nous says image, video and 3D generation all land inside Hermes",
+      "url": "https://x.com/NousResearch/status/2112613895898849387",
+      "category": "hermes_nous",
+      "published": "2026-10-20",
+      "summary": "Krea and Fal already route through the Nous Portal tool gateway, Blender ships as a plugin, and a Desktop media plugin is next."
     },
     {
       "title": "Claude designs scorpion-venom binders; 211 lab-tested, data public",
@@ -332,97 +423,33 @@
       "category": "ai_models",
       "published": "2026-10-19",
       "summary": "New evals cover mainframe migration for the languages banks and governments still run, not new app code."
-    },
-    {
-      "title": "Claude Code: ultracode is a toggle, not an effort level",
-      "url": "https://x.com/lydiahallie/status/2112241281602883702",
-      "category": "anthropic",
-      "published": "2026-10-19",
-      "summary": "Anthropic's Claude Code team: run /effort ultracode on medium effort, or just ask for a workflow, instead of paying xhigh on every turn."
-    },
-    {
-      "title": "Mistral releases time-series foundation models",
-      "url": "https://mistral.ai/news/timestral/",
-      "category": "ai_models",
-      "published": "2026-10-19",
-      "summary": "Timestral is Mistral's first family built for forecasting numbers over time rather than text."
-    },
-    {
-      "title": "Kling 4.0 adds stereo audio and 30-second clips",
-      "url": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/",
-      "category": "ai_models",
-      "published": "2026-10-19",
-      "summary": "Ten keyframes, 8,000-token prompts and multilingual lip sync; it holds level with Wan 3.0 and Seedance 2.5 but does not pull ahead."
-    },
-    {
-      "title": "BizBench tests agents on long business jobs",
-      "url": "https://huggingface.co/papers/2610.20424",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "A benchmark for long-horizon agents doing real company work, aimed at the failure modes that break scheduled fleets, not chat demos."
-    },
-    {
-      "title": "New paper maps how AI agent evaluation is changing",
-      "url": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "Covers the methods, open questions and tooling ecosystem for judging agent quality."
-    },
-    {
-      "title": "A bare IPython harness matches production coding agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9vtt9/a_bare_ipython_harness_ties_production_coding/",
-      "category": "agents_tooling",
-      "published": "2026-10-19",
-      "summary": "One-tool harness ties heavy frameworks on Terminal-Bench Lite with Qwen3.5-9B; most run-to-run noise came from the environment."
-    },
-    {
-      "title": "Qwen3.8-27B and Flash-Next ran on consumer hardware, numbers included",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tzf1/qwen3827b_and_flashnext_on_consumer_hardware/",
-      "category": "chinese_ai",
-      "published": "2026-10-19",
-      "summary": "Measured engine list for both Qwen models on 2x RTX 5070 Ti with 96GB of DDR5, plus the cost at 2026 memory prices."
-    },
-    {
-      "title": "inclusionAI's Ming-3.0-audio-flash handles speech and reasoning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yd01/inclusionaiming30audioflash_hugging_face/",
-      "category": "chinese_ai",
-      "published": "2026-10-19",
-      "summary": "A native audio-language model taking audio plus text instructions, doing recognition, spoken Q&A and audio reasoning."
-    },
-    {
-      "title": "llama.cpp adds Cohere model support",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/",
-      "category": "platforms_integration",
-      "published": "2026-10-19",
-      "summary": "Cohere's Nick confirms the request runners asked for, so Command and North models can run locally through llama.cpp."
-    },
-    {
-      "title": "TorchNeuron makes AWS Trainium a simple HF target",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "category": "platforms_integration",
-      "published": "2026-10-19",
-      "summary": "Hugging Face and AWS walk through running Hugging Face models on Trainium chips with less glue code."
-    },
-    {
-      "title": "Stripe says agents are buying things, won't say how much",
-      "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
-      "category": "industry",
-      "published": "2026-10-19",
-      "summary": "Stripe Link is being used by agents to shop for their users, per a report, with no volume figure attached."
-    },
-    {
-      "title": "Garry Tan: agents in a group chat is inevitable",
-      "url": "https://x.com/garrytan/status/2112278352514162834",
-      "category": "industry",
-      "published": "2026-10-19",
-      "summary": "YC's president calls multiplayer agents as group chat a certainty and points at Wabi, his third agent-infra bet this week."
-    },
-    {
-      "title": "Import AI 477: telling the IMF the singularity has begun",
-      "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "Jack Clark's weekly on the policy and research picture, this one framed around what he told the IMF."
     }
-  ]
+  ],
+  "tldrs": {
+    "evening": {
+      "at": "2026-10-21T21:20:00+08:00",
+      "points": [
+        {
+          "text": "Nous Research says image, video and 3D generation are all heading inside Hermes, with a media plugin coming next.",
+          "url": "https://x.com/NousResearch/status/2112613895898849387"
+        },
+        {
+          "text": "A new Hermes plugin turned one request into a playable game, then played it to catch its own crash.",
+          "url": "https://x.com/Teknium/status/2112782970474139927"
+        },
+        {
+          "text": "Local models keep getting cheaper to run: new low-bit builds squeeze Qwen and a 35B agent model onto one graphics card.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b/"
+        },
+        {
+          "text": "Memory chip supply is tight, with 2027 capacity sold out and prices expected to jump.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/"
+        },
+        {
+          "text": "Meta's Muse can leak private details when people share a chat.",
+          "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        }
+      ]
+    }
+  }
 }
