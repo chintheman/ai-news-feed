@@ -1,9 +1,79 @@
 {
-  "updated_at": "2026-10-21T08:15:44+08:00",
+  "updated_at": "2026-10-21T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Mistral released Voxtral 3, a voice stack that lets software listen and talk back in real time across 50-plus languages. Google put its TPU back end for PyTorch on GitHub, so code can run on Google's chips without a rewrite. ElevenLabs shipped two speech models built for live conversation, its top one answering in about half a second. OpenAI is buying Orchestra Bio to sell AI into drug development. OpenAI also says its newest model is far better at old languages like COBOL and Fortran that banks still depend on.",
+  "tldr": "Anthropic got a research Claude to design protein binders against scorpion venom, then published lab results for all 211 designs. Its CEO also spent the night defending the company's safety record in public. OpenAI says its new evaluation tool agrees with senior investors 88.6% of the time. DeepSeek gave away the token encoder behind its API, so self-hosted copies now match the hosted service. Chinese tech giants reportedly ordered more than $35 billion of Nvidia chips.",
   "articles": [
+    {
+      "title": "Dario Amodei defends Anthropic's safety record in public reply",
+      "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+      "category": "anthropic",
+      "published": "2026-10-21",
+      "summary": "Anthropic's CEO conceded some cited examples were mistakes, then listed actions taken at commercial cost and defended the updated RSP."
+    },
+    {
+      "title": "ByteDance, Alibaba, Tencent place over $35B of Nvidia chip orders",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "Reported order of roughly 3 million RTX 5500 Pro cards, aimed at LLM inference and AI video generation."
+    },
+    {
+      "title": "Claude designs scorpion-venom binders; 211 lab-tested, data public",
+      "url": "https://x.com/AnthropicAI/status/2112579251555721573",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "A research Claude generated 300,000+ minibinders against five scorpion toxins in 64 hours; 211 were wet-lab tested and the data released."
+    },
+    {
+      "title": "DeepSeek open-sources the token encoder behind its API",
+      "url": "https://github.com/deepseek-ai/deepseek-recipe",
+      "category": "deepseek",
+      "published": "2026-10-20",
+      "summary": "deepseek-recipe matches the production API's encoding, so self-hosted V4.1-Flash reproduces the same token counts and request behaviour."
+    },
+    {
+      "title": "OpenAI's Terminal X matches senior investor judgment 88.6%",
+      "url": "https://openai.com/index/terminal-x",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Its Eval Agent grades work against a 54-criterion rubric and catches 25% more departures from a fund's mandate with GPT-6.1 Sol."
+    },
+    {
+      "title": "EAGLE-4 ships with a 3.59x decoding speedup on Qwen3.8-27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb6zds/eagle4_released_faster_than_dflash2_dspark/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Beats DFlash2 (2.80x) and DSpark (2.57x) in published benchmarks; only Qwen3.8-27B is supported so far, llama.cpp support pending."
+    },
+    {
+      "title": "Open RK3588 NPU runtime hits ~10 tok/s, 2x faster than vendor SDK",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb45bq/i_built_an_rk3588_npu_runtime_without_any/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Built without Rockchip's proprietary inference libraries: Rust host code and hand-written NPU operators, running Qwen3.5-4B."
+    },
+    {
+      "title": "qev-0.8b: a tiny local decision model claiming SOTA for its size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xazrvd/qev08b_new_sota_tiny_local_decision_model/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "An 0.8B model aimed at on-device decision and routing work, posted with its benchmark numbers and weights."
+    },
+    {
+      "title": "The COUNT: n-gram embeddings scale memory separately from compute",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xat6o7/paper_the_count_counting_ngrams_unlocks_scaling/",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "Paper adds n-gram embedding tables so memory grows independently of compute, giving training-free adaptation and cheaper long context."
+    },
+    {
+      "title": "Intel B65 long-context sweeps for Flash-Next and other models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xavy8t/hardly_any_benchmarks_for_intel_b65_so_i_got_4x/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Four cards tested on a validated vLLM baseline because public B65 benchmarks were scarce; tuning runs to follow."
+    },
     {
       "title": "Mistral launches Voxtral 3, a full real-time voice agent stack",
       "url": "https://mistral.ai/news/voxtral-3/",
@@ -353,76 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-19",
       "summary": "Jack Clark's weekly on the policy and research picture, this one framed around what he told the IMF."
-    },
-    {
-      "title": "Hundreds of AI cloud firms may shrink to seven or ten",
-      "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
-      "category": "industry",
-      "published": "2026-10-19",
-      "summary": "CoreWeave lost a quarter of its market value and Firmus scrapped its IPO. Microsoft pulled out of a 23,000-chip Nscale deal, leaving Nvidia exposed to its own customers."
-    },
-    {
-      "title": "DeepSeek V4.1-Flash-1017 lands on Artificial Analysis",
-      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-      "category": "deepseek",
-      "published": "2026-10-19",
-      "summary": "The independent benchmark table for the new DeepSeek model, 115 points and 38 comments on Hacker News. The outside read on the launch numbers."
-    },
-    {
-      "title": "DeepSeek's own 42% score shrinks to 31.8% on outside tests",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9owju/deepseekv41flash1017_on_aa_vals_index/",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "The model card reports 42.3% on Terminal-Bench 4.0 using the Claude Code harness. Artificial Analysis reports 34%, Vals index 31.82%, likely with a different agent."
-    },
-    {
-      "title": "Labs report benchmark scores 6.4% higher than outside testers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "An open leaderboard matched 611 comparisons across 180 models and 103 benchmarks. Lab-published scores run consistently above independent runs."
-    },
-    {
-      "title": "Kapitsa: an open Metal engine tuned for Apple Silicon",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9pzt0/kapitsa_opensource_apple_silicon_optimized_metal/",
-      "category": "platforms_integration",
-      "published": "2026-10-19",
-      "summary": "Apache 2.0 inference engine built for offline enterprise Macs, with benchmarks for Qwen 27B, Nemotron and eight more on M1 Pro, M4 Pro and M5 Max."
-    },
-    {
-      "title": "llama.cpp moves its default port from 8080 to 9931",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tbg2/llama_servers_default_port_changed_from_8080_to/",
-      "category": "platforms_integration",
-      "published": "2026-10-19",
-      "summary": "From v0.7.0 the llama server listens on 9931. Anyone who never set a port gets a breaking change on upgrade, and tools hardcoding 8080 stop connecting."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next gets a faster decode path",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9rq3r/incoaiqwen38flashnextdflash2/",
-      "category": "chinese_ai",
-      "published": "2026-10-19",
-      "summary": "A build from the original DFlash 2 authors. Their table shows it about 20% faster than MTP at concurrency 1."
-    },
-    {
-      "title": "LTX 2.5 generates video locally on a 48GB MacBook Pro",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9p6cp/ltx_25_running_locally_on_a_48gb_m5_pro_macbook/",
-      "category": "ai_models",
-      "published": "2026-10-19",
-      "summary": "TensorSharp's Video Studio runs the video model on an M5 Pro with an editable timeline and an optional local LLM assistant, no cloud round trip."
-    },
-    {
-      "title": "TempoPFN trains time-series forecasters on synthetic data",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n3qv/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "NeurIPS 2026 paper: a library of synthetic generators and augmentations used to pre-train a linear RNN that forecasts series it has never seen."
-    },
-    {
-      "title": "DeepSeek V4.1-Flash squeezed to 2.6 bits runs on two 3090s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9umtv/deepseek_v41_flash_at_261_bpw_engram_26_ts_on/",
-      "category": "deepseek",
-      "published": "2026-10-19",
-      "summary": "A community quant of the new model using the dsx engine hits 26 tokens a second on two RTX 3090s, with the perplexity table against FP8 and FP4 teachers."
     }
   ]
 }
