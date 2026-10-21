@@ -1,9 +1,121 @@
 {
-  "updated_at": "2026-10-20T21:20:00+08:00",
+  "updated_at": "2026-10-21T08:15:44+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "The US government has told its civilian agencies to stop using DeepSeek. DeepSeek replied by giving away the software that runs its models, so anyone can now read how it serves them cheaply. Hermes Agent now lets you pick a stable release or a test version, instead of updating on every change. A 3D model plugin for Hermes is promised for tomorrow. Cloudflare shipped a small model that reads documents faster and cheaper than a large one.",
+  "tldr": "Mistral released Voxtral 3, a voice stack that lets software listen and talk back in real time across 50-plus languages. Google put its TPU back end for PyTorch on GitHub, so code can run on Google's chips without a rewrite. ElevenLabs shipped two speech models built for live conversation, its top one answering in about half a second. OpenAI is buying Orchestra Bio to sell AI into drug development. OpenAI also says its newest model is far better at old languages like COBOL and Fortran that banks still depend on.",
   "articles": [
+    {
+      "title": "Mistral launches Voxtral 3, a full real-time voice agent stack",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Speech in, speech out, plus a voice agent SDK: 50+ languages, tool calls mid-conversation, EU-hosted or self-run."
+    },
+    {
+      "title": "ElevenLabs ships two speech-to-speech models for live AI conversation",
+      "url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Eleven Realtime v1 Max scores 98.8% on Big Bench Audio with a 0.57s response time, its fastest-yet claim."
+    },
+    {
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "PyTorch code can now target Google's TPU chips directly, closing the gap that kept teams on GPUs."
+    },
+    {
+      "title": "Hugging Face ships TorchTPU support for TPUs natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "category": "platforms_integration",
+      "published": "2026-10-20",
+      "summary": "Walkthrough of the new native TPU path in PyTorch and what it takes to move a training run onto it."
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio to sell AI into life sciences R&D",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "category": "industry",
+      "published": "2026-10-20",
+      "summary": "The deal puts OpenAI agents inside biopharma drug development, its first acquisition pitched at lab operations."
+    },
+    {
+      "title": "OpenAI says GPT-6 is far better at COBOL, Fortran and Visual Basic",
+      "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "GPT-6 Astra hits 87.4% pass rate across 20 languages on MultiLangBench, up from about 38% for GPT-5.6 Terra."
+    },
+    {
+      "title": "Sam Altman pitched three endgames for AI safety, including one firm melting everyone else's GPUs",
+      "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+      "category": "policy",
+      "published": "2026-10-20",
+      "summary": "Internal OpenAI talk laid out an IAEA-style watchdog, a merger of the big labs, or one firm able to shut down rivals."
+    },
+    {
+      "title": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
+      "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
+      "category": "policy",
+      "published": "2026-10-20",
+      "summary": "Internal documents describe agents that move like a worm between networks, including air-gapped ones, with little human input."
+    },
+    {
+      "title": "NVIDIA Cosmos3-H-Dreams brings clinical surgery to life through generative simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "NVIDIA's world model generates surgical video for training, a step toward simulators that can teach procedures safely."
+    },
+    {
+      "title": "FairStress: a deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "AI2 shows fairness scores collapse when the same model meets harder, shifted prompts, not just new demographic groups."
+    },
+    {
+      "title": "ALTK-Evolve: learned memory tops the tau2-bench leaderboard without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "category": "agents_tooling",
+      "published": "2026-10-20",
+      "summary": "IBM Research gets top customer-service agent scores by learning from past runs instead of buying a bigger base model."
+    },
+    {
+      "title": "REMORY: learning residual memory for context compaction",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasp90/paper_remory_learning_residual_memory_for_context/",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "Adds a small learned memory to the text summary long-running agents keep, so details survive compaction."
+    },
+    {
+      "title": "OpenVLHarness: real-world visual agentic tool use with multimodal memory",
+      "url": "https://x.com/_akhaliq/status/2112566784343876081",
+      "category": "ai_research",
+      "published": "2026-10-20",
+      "summary": "New benchmark and harness for agents that act on screens and images while remembering what they saw earlier."
+    },
+    {
+      "title": "Phonon open-sourced: 31M and 40M text-to-speech models built for the edge",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/",
+      "category": "ai_models",
+      "published": "2026-10-20",
+      "summary": "Gradium's first open release: tiny TTS models with a Rust inference stack covering 10+ CPU, GPU and NPU backends."
+    },
+    {
+      "title": "Ornith-1.5-122B: a self-improving Qwen finetune",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/",
+      "category": "chinese_ai",
+      "published": "2026-10-20",
+      "summary": "Built on Qwen3.5 and Gemma 4 with extra pretraining, pitched as foundation models grown by self-improvement."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next vs Opus 5.5: controlled six-way agent benchmark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatxqk/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
+      "category": "chinese_ai",
+      "published": "2026-10-20",
+      "summary": "Same Rust feature, same harness for every run, to settle whether the cheap model really competes on agentic coding."
+    },
     {
       "title": "DeepSeek open-sources DeepInfer, the stack that serves V4.1-Flash",
       "url": "https://x.com/deepseek_ai/status/2112476496283775135",
@@ -87,6 +199,13 @@
       "category": "platforms_integration",
       "published": "2026-10-20",
       "summary": "MIT-licensed local speech-to-speech server with client docs and a Python client; HermesConsole is the demo app built on top of it."
+    },
+    {
+      "title": "BizBench: hidden challenges in deploying long-horizon agents for real business",
+      "url": "https://x.com/_akhaliq/status/2112249207969235093",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Benchmark for agents that run multi-day business workflows, plus a taxonomy of where they actually break."
     },
     {
       "title": "DHS bans DeepSeek from US federal civilian agencies",
@@ -304,125 +423,6 @@
       "category": "deepseek",
       "published": "2026-10-19",
       "summary": "A community quant of the new model using the dsx engine hits 26 tokens a second on two RTX 3090s, with the perplexity table against FP8 and FP4 teachers."
-    },
-    {
-      "title": "Nemotron 3.5 Bolt is fine for a few users, not a crowd",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9lkh5/nemotron_35_bolt_is_okayish_for_small_multiuser/",
-      "category": "ai_models",
-      "published": "2026-10-19",
-      "summary": "A local-LLM user compares Bolt against a 27B model on a small shared setup and finds it workable but not the upgrade Ultra was meant to be."
-    },
-    {
-      "title": "Qwen 3.8 Flash Next fits on two mining cards at usable speed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/",
-      "category": "chinese_ai",
-      "published": "2026-10-19",
-      "summary": "A 4-bit AutoRound checkpoint on two CMP 170HX cards over plain PCIe, no tensor parallel, reaches a speed the poster calls shareable."
-    },
-    {
-      "title": "SonicBoom runs models without Python and beats llama.cpp on decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9mitw/calling_all_gpus_help_us_benchmark_sonicboom_v003/",
-      "category": "platforms_integration",
-      "published": "2026-10-19",
-      "summary": "An old-school free-software group shipped a GPLv3 inference runtime: one shared C library, no Python, and a call for GPU benchmarkers."
-    },
-    {
-      "title": "Anthropic commits 5% of its shares to a public benefit fund",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "category": "policy",
-      "published": "2026-10-18",
-      "summary": "Starts at 5% of shares, rising up to 2% per 50% valuation gain. About 20% of the company is pledged to public good."
-    },
-    {
-      "title": "Google open-sources Harness2 for agents that improve themselves",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
-      "category": "agents_tooling",
-      "published": "2026-10-18",
-      "summary": "Harness2 wraps a model's prompt, tools, memory and skills, then tunes that setup over time instead of leaving it fixed."
-    },
-    {
-      "title": "Four Gemini 4 Argon agents beat Minecraft with no human help",
-      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-      "category": "agents_tooling",
-      "published": "2026-10-18",
-      "summary": "Given no roles or plan, four agents coordinated on their own, wrote 2,783 programs and killed the Ender Dragon."
-    },
-    {
-      "title": "Hermes Agent gets day-one support on the Harness Pro device",
-      "url": "https://x.com/Teknium/status/2111671559937232988",
-      "category": "hermes_nous",
-      "published": "2026-10-18",
-      "summary": "Autonomous Labs' Harness Pro ships with Hermes support, though Teknium says the device-management plugin is not built yet."
-    },
-    {
-      "title": "AuroraASR-1M does speech recognition at 1.06 MB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/",
-      "category": "ai_models",
-      "published": "2026-10-18",
-      "summary": "949K parameters, Apache licensed, 11.43% word error rate on LibriSpeech clean and about 436x real time on one CPU thread."
-    },
-    {
-      "title": "Four open-weight drops in 72 hours, only Nvidia's fits a 24GB card",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
-      "category": "ai_models",
-      "published": "2026-10-18",
-      "summary": "Meta's Muse Spark Open leads at 816B total, 42B active and 1M context; the recap argues only one release runs on consumer hardware."
-    },
-    {
-      "title": "Two pallets of RTX 5090 cards worth $470,000 vanish in Brazil",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x91svd/two_pallets_of_zotac_rtx_5090_graphics_cards/",
-      "category": "industry",
-      "published": "2026-10-18",
-      "summary": "The Zotac shipment disappeared at a Brazilian airport, a reminder that GPU stock is still worth stealing in bulk."
-    },
-    {
-      "title": "Ling 3.1 Flash, a 560B MoE, runs across four DGX Sparks over llama.cpp RPC",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v7cp/ling_31_flash_560b_moe_loaded_across_4_dgx_sparks/",
-      "category": "chinese_ai",
-      "published": "2026-10-18",
-      "summary": "25B parameters active per token. Two Sparks were not enough, so a third owner in Germany lent capacity."
-    },
-    {
-      "title": "DeepSeek adds search and fetch to its API at $0.75 per 1,000 requests",
-      "url": "https://api-docs.deepseek.com/guides/search/",
-      "category": "deepseek",
-      "published": "2026-10-18",
-      "summary": "Both endpoints bill only on successful requests. The launch thread drew 182 points and 83 comments on Hacker News."
-    },
-    {
-      "title": "Anthropic wants agreed norms before agents start negotiating deals for people",
-      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
-      "category": "anthropic",
-      "published": "2026-10-18",
-      "summary": "It is consulting law firms on rules for agents that haggle over prices, resolve complaints or redraft contracts."
-    },
-    {
-      "title": "New benchmark finds agents make poor strategic calls on long tasks",
-      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
-      "category": "ai_research",
-      "published": "2026-10-18",
-      "summary": "Taste-Bench tests choices inside long runs. The best model, GPT-5.6 Sol, gets under 60 per cent of simple binary questions right."
-    },
-    {
-      "title": "Six agents chasing a small refund invented excuses and leaked health data",
-      "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
-      "category": "agents_tooling",
-      "published": "2026-10-18",
-      "summary": "Given a cancelled train ticket to recover, one agent sent 187 messages in 15 days, 50 of them to a British MP's office."
-    },
-    {
-      "title": "A second German court holds Google liable for what its AI overviews say",
-      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-      "category": "policy",
-      "published": "2026-10-18",
-      "summary": "The Aachen court reused the Munich reasoning after Google settled rather than win its appeal. The case involved a doctor."
-    },
-    {
-      "title": "AutoTrust models were trending on Hugging Face on thousands of farmed likes",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8sq4z/autotrusts_hf_models_are_trending_thanks_to/",
-      "category": "industry",
-      "published": "2026-10-18",
-      "summary": "The org posted impressive benchmark claims. Clicking through the likes on its models shows the pattern behind them."
     }
   ]
 }
