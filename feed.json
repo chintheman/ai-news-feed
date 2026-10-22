@@ -1,9 +1,149 @@
 {
-  "updated_at": "2026-10-21T21:20:00+08:00",
+  "updated_at": "2026-10-22T08:16:20+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nous Research says image, video and 3D generation are all heading inside Hermes, with a media plugin coming next. A new Hermes plugin turned one request into a playable game, then played it to catch its own crash. Local models keep getting cheaper to run: new low-bit builds squeeze Qwen and a 35B agent model onto one graphics card. Memory chip supply is tight, with 2027 capacity sold out and prices expected to jump. Meta's Muse can leak private details when people share a chat.",
+  "tldr": "Hermes Agent closed Jensen Huang's GTC Berlin keynote, building and training a simulated robot course from a single prompt. OpenAI put its models and Codex on Google Cloud, so big companies can buy them on the account they already have. Anthropic's new Claude Duet page was the most discussed AI link of the day. Two labs said their AI models found a serious bug in a web language used by millions of sites. ChatGPT ads opened in 26 more countries, past 100,000 advertisers.",
   "articles": [
+    {
+      "title": "Jensen Huang closed his GTC Berlin keynote with a Hermes Agent demo",
+      "url": "https://x.com/NousResearch/status/2113010017645244623",
+      "category": "hermes_nous",
+      "published": "2026-10-21",
+      "summary": "One prompt installed a custom Hermes on RTX Spark, which planned, built and trained a simulated robot-duck course end to end."
+    },
+    {
+      "title": "Claude Duet",
+      "url": "https://claude.com/product/claude-duet",
+      "category": "anthropic",
+      "published": "2026-10-21",
+      "summary": "Anthropic's new Claude product page, the most discussed AI link of the day with 263 points and 218 comments on Hacker News."
+    },
+    {
+      "title": "Granite Speech 5.0: transcribe, translate and attribute faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "IBM's new speech model claims more accurate transcription, translation and speaker attribution at higher speed."
+    },
+    {
+      "title": "NVIDIA Kumo Relational beats trained models on relational data",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "NVIDIA says its relational model outperforms supervised machine learning on table-style data with no training step."
+    },
+    {
+      "title": "Inception's Mercury 3 claims to beat GPT-6 Luna and Claude Haiku 5.5",
+      "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "Inception says its diffusion model wins 8 of 12 benchmarks and runs 4 to 8 times faster. No independent test exists yet."
+    },
+    {
+      "title": "RecursiveSI/flint (40B A2.5B) lands on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbqik0/recursivesiflint_40b_a25b_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-21",
+      "summary": "A new open 40B model that activates only 2.5B parameters per token, drawing fast interest from local-model users."
+    },
+    {
+      "title": "Local users put Qwen 3.8 Flash Next through its paces",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbqxh5/ok_fine_qwen_38_flash_next_is_nice/",
+      "category": "chinese_ai",
+      "published": "2026-10-21",
+      "summary": "Runners report the quantised Qwen 3.8 Flash Next feeling like the paid models they were using last year."
+    },
+    {
+      "title": "OpenAI models and Codex arrive on Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "GPT-6 models and Codex agent workflows land in Google Cloud Model Garden and Marketplace, alongside Gemini and Claude."
+    },
+    {
+      "title": "How OpenAI built the ad stack inside ChatGPT",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "An engineering write-up on reading conversational intent, keeping ads clear of answers, and serving them at scale."
+    },
+    {
+      "title": "Profiling TorchNeuron on AWS Trainium, part one",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "Amazon walks through system-level profiling of PyTorch training work on its own Trainium chips."
+    },
+    {
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "AT&T's legal team rebuilt its intake process around ChatGPT to make internal legal knowledge easier to reach."
+    },
+    {
+      "title": "ChatGPT ads reach 26 new countries and 100,000 advertisers",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "OpenAI says more than 100,000 advertisers have used the ad platform as it opens in 26 more markets."
+    },
+    {
+      "title": "China is doubling RAM production to hold gadget prices down",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbrh0s/when_will_we_see_these_changes_china_is_doubling/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "A memory supply story local-model users are tracking, since RAM prices decide what a home inference box costs."
+    },
+    {
+      "title": "Hassabis moves his AGI timeline to two or three years",
+      "url": "https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "The DeepMind founder cut his estimate from three to five years, saying progress has run faster than he expected."
+    },
+    {
+      "title": "Patch the Planet links researchers and maintainers on open-source flaws",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "A coordination effort pairing AI agents, security researchers and maintainers to fix critical open-source bugs."
+    },
+    {
+      "title": "Hugging Face and Reflection AI put $20,000 behind Beam builds",
+      "url": "https://x.com/huggingface/status/2113039952963641570",
+      "category": "industry",
+      "published": "2026-10-21",
+      "summary": "Build anything with the Beam model and post it by Monday 2 November to enter. Winners take cash or compute credits."
+    },
+    {
+      "title": "OpenAI sets out how it works with distribution partners",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "A policy note on consistent safeguards, responsible access and clearer expectations for partners shipping its models."
+    },
+    {
+      "title": "AI models found a critical flaw in a language behind millions of sites",
+      "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+      "category": "ai_research",
+      "published": "2026-10-21",
+      "summary": "GPT-5.6 Sol found the PHP bug under Patch the Planet. Security firm Wiz independently found the same flaw using Gemini 4 Argon."
+    },
+    {
+      "title": "Trimming a small model's vocabulary cut inference cost by 77%",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "category": "ai_research",
+      "published": "2026-10-21",
+      "summary": "A practical write-up on specialising the token vocabulary of small language models for a narrower domain."
+    },
+    {
+      "title": "Thousands of AI agents sift biological data for new leads",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "category": "ai_research",
+      "published": "2026-10-21",
+      "summary": "OpenAI, PerturbAI and Scripps ran distributed agents over data from millions of brain cells to surface research leads."
+    },
     {
       "title": "One prompt to a playable Godot build: Hermes gains a game-dev plugin",
       "url": "https://x.com/Teknium/status/2112782970474139927",
@@ -283,146 +423,6 @@
       "category": "deepseek",
       "published": "2026-10-20",
       "summary": "Production kernels, distributed inference and batching are now public, so the reason its API is cheap can be read, not guessed."
-    },
-    {
-      "title": "Meshy plugin for Hermes: 3D models rendered in chat",
-      "url": "https://x.com/Teknium/status/2112456282062065690",
-      "category": "hermes_nous",
-      "published": "2026-10-20",
-      "summary": "Full MCP plus skill, a gallery of past models, credits on the status bar and a file-type picker. Promised for Oct 21."
-    },
-    {
-      "title": "Hermes Agent splits releases into channels",
-      "url": "https://x.com/Teknium/status/2112414280402583581",
-      "category": "hermes_nous",
-      "published": "2026-10-20",
-      "summary": "Main for the latest, beta flagged risky, updated on a schedule instead of every merged change. Which channel you are on explains most missing features."
-    },
-    {
-      "title": "Vals AI: DeepSeek V4.1-Flash beats GPT-6 Sol on a security task",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xap2aq/vals_ai_found_deepseek_v41_flash_beats_gpt_6/",
-      "category": "deepseek",
-      "published": "2026-10-20",
-      "summary": "An independent tester puts the open-weight model ahead of GPT-6 Sol on a multi-step offensive cybersecurity task. Sol ran via trusted access."
-    },
-    {
-      "title": "Cloudflare's Clairic reads documents faster and cheaper than an LLM",
-      "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
-      "category": "platforms_integration",
-      "published": "2026-10-20",
-      "summary": "A small purpose-built extraction model instead of a general one, aimed at document data pulls where an LLM is slow and expensive."
-    },
-    {
-      "title": "Tess-4.5-27B matches its base with a quarter fewer tokens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xadfm7/migtisseratess4527b_qwen_finetune/",
-      "category": "ai_models",
-      "published": "2026-10-20",
-      "summary": "A Qwen3.8-27B finetune from the Synthia author keeps the score and cuts reasoning length by 25% across 150 test scenarios."
-    },
-    {
-      "title": "AMD GAIA 0.25 improves local AI agents on Ryzen",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaegqa/amd_gaia_025_brings_several_improvements_for/",
-      "category": "platforms_integration",
-      "published": "2026-10-20",
-      "summary": "Updates to AMD's local agent stack for Ryzen AI hardware, the PC-side answer to running agents without a cloud round trip."
-    },
-    {
-      "title": "PyTorch 2.15's MPS backend, explained",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "category": "platforms_integration",
-      "published": "2026-10-20",
-      "summary": "Hugging Face walks through what the Metal backend now covers on Apple Silicon and where the sharp edges still are."
-    },
-    {
-      "title": "A prefiller model streamed from SSD fixes low-bit Qwen3.8-27B quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xao7kx/improve_qwen3827b_low_quants_by_using_a_prefiller/",
-      "category": "chinese_ai",
-      "published": "2026-10-20",
-      "summary": "An ISTA-DASLab demo recovers accuracy in low quants while keeping VRAM low and decode fast, with no speed penalty past 4k context."
-    },
-    {
-      "title": "Claude Projects becomes a conversation, with a staged waitlist for Pro and Max",
-      "url": "https://claude.com/form/projects",
-      "category": "anthropic",
-      "published": "2026-10-20",
-      "summary": "Say what you need as it comes, and Claude takes each ask, coordinates the threads and reports back. New in Claude Code."
-    },
-    {
-      "title": "A local service that swaps models in and out of VRAM so a 24GB card can run several engines",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/",
-      "category": "platforms_integration",
-      "published": "2026-10-20",
-      "summary": "Watches the GPU, loads and unloads models on demand, no manual swapping and no VRAM collisions. Built for smaller local rigs."
-    },
-    {
-      "title": "VoiceManager: open-source low-latency streaming speech-to-text and text-to-speech server",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xag5bj/hermesconsole_a_demo_showing_off_voicemanager_my/",
-      "category": "platforms_integration",
-      "published": "2026-10-20",
-      "summary": "MIT-licensed local speech-to-speech server with client docs and a Python client; HermesConsole is the demo app built on top of it."
-    },
-    {
-      "title": "BizBench: hidden challenges in deploying long-horizon agents for real business",
-      "url": "https://x.com/_akhaliq/status/2112249207969235093",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "Benchmark for agents that run multi-day business workflows, plus a taxonomy of where they actually break."
-    },
-    {
-      "title": "DHS bans DeepSeek from US federal civilian agencies",
-      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-      "category": "policy",
-      "published": "2026-10-19",
-      "summary": "Homeland Security bars federal civilian agencies from using DeepSeek tech, the first government-wide ban on a Chinese AI lab."
-    },
-    {
-      "title": "WhatsApp help pages hid instructions telling AI agents not to name a regulator",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "category": "policy",
-      "published": "2026-10-19",
-      "summary": "Visible to humans, invisible on the page, aimed at any agent that read it. A live test of prompt injection in the wild, on a site regulators read."
-    },
-    {
-      "title": "How abliterated models get you pwned",
-      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "Stripping the refusal layer also strips the guard on the system prompt, so a locally hosted 'uncensored' model hands over its instructions."
-    },
-    {
-      "title": "Anthropic launches OSS Scanner: free AI vulnerability scans for critical open-source projects",
-      "url": "https://red.anthropic.com/oss-scanner",
-      "category": "anthropic",
-      "published": "2026-10-19",
-      "summary": "Anthropic's models scan critical open-source projects for free. First batch: 77 critical and 803 high-severity findings, including a curl CVE."
-    },
-    {
-      "title": "6M-parameter character renderer: one reference image in, a minute of video out",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9zwts/6m_param_character_renderer_one_reference_image/",
-      "category": "ai_research",
-      "published": "2026-10-19",
-      "summary": "A tiny model turns a single reference image into a minute of video, with results checked against Blender ground truth."
-    },
-    {
-      "title": "MiniMax M3.1 Flash jumps 13 points at half the price",
-      "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
-      "category": "chinese_ai",
-      "published": "2026-10-19",
-      "summary": "Scores 42 on the Artificial Analysis index and 73.7% on DeepSWE v1.1 at under $0.30 a task, matching DeepSeek V4.1 Flash on both."
-    },
-    {
-      "title": "MiniMax M3.1 Flash ships, weights land Oct 23",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
-      "category": "chinese_ai",
-      "published": "2026-10-19",
-      "summary": "The r/LocalLLaMA release thread for MiniMax's new Flash model, with open weights promised four days out."
-    },
-    {
-      "title": "OpenAI points its newest model at COBOL, Fortran and Visual Basic",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "category": "ai_models",
-      "published": "2026-10-19",
-      "summary": "New evals cover mainframe migration for the languages banks and governments still run, not new app code."
     }
   ],
   "tldrs": {
@@ -448,6 +448,31 @@
         {
           "text": "Meta's Muse can leak private details when people share a chat.",
           "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        }
+      ]
+    },
+    "morning": {
+      "at": "2026-10-22T08:16:20+08:00",
+      "points": [
+        {
+          "text": "Hermes Agent closed Jensen Huang's GTC Berlin keynote, building and training a simulated robot course from a single prompt.",
+          "url": "https://x.com/NousResearch/status/2113010017645244623"
+        },
+        {
+          "text": "OpenAI put its models and Codex on Google Cloud, so big companies can buy them on the account they already have.",
+          "url": "https://openai.com/index/openai-models-google-cloud/"
+        },
+        {
+          "text": "Anthropic's new Claude Duet page was the most discussed AI link of the day.",
+          "url": "https://claude.com/product/claude-duet"
+        },
+        {
+          "text": "Two labs said their AI models found a serious bug in a web language used by millions of sites.",
+          "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/"
+        },
+        {
+          "text": "ChatGPT ads opened in 26 more countries, past 100,000 advertisers.",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
         }
       ]
     }
