@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-10-22T21:17:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 9,
+  "tldr": "Hermes Agent has a new release today that closes known security holes, so update it. Hermes now has a plugin for Cursor, the code editor. Security researchers found an AI agent that takes over unprotected AI models and uses them to attack servers. OpenAI agents analyzed mouse brain data in 32 minutes, a job that would take people months. Ling-3.1-flash gets an update that scores higher on tests, and its open weights are coming.",
+  "articles": [
+    {
+      "title": "Hermes security release out today to close Node dependency holes",
+      "url": "https://x.com/Teknium/status/2113235092873310296",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Risk judged low, but a Node dependency's holes only closed last night. Update Hermes to today's release and read its changelog."
+    },
+    {
+      "title": "Hermes catalog adds a Cursor integration plugin",
+      "url": "https://x.com/Teknium/status/2113241021631050206",
+      "category": "agents_tooling",
+      "published": "2026-10-22",
+      "summary": "A Cursor plugin landed in the Hermes plugin catalog on 21 Oct. Check the catalog before building your own editor bridge."
+    },
+    {
+      "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+      "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+      "category": "agents_tooling",
+      "published": "2026-10-22",
+      "summary": "Symantec found an offensive agent that takes over unprotected models to attack servers and steal databases. It runs up to 100,000 steps alone."
+    },
+    {
+      "title": "Ling-3.1-flash is getting a 1019 update, with open weights to follow",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "Ant Ling's new checkpoint scores 44 on the Artificial Analysis Intelligence Index, up from 41. Open weights to follow."
+    },
+    {
+      "title": "Carbon-X, a 14B DNA and language model, released to run locally",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcew36/carbonx_the_best_open_dna_language_model_runs/",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "The makers say it beats every open language model on five DNA benchmarks and matches GPT-6.1 Sol at about 1,000x lower cost. Self-reported."
+    },
+    {
+      "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
+      "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "OpenAI, PerturbAI and Scripps Research ran thousands of agents on data from millions of mouse cells."
+    },
+    {
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "IBM Research explains forecasting with an ensemble of its Granite time-series models."
+    },
+    {
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "A small 360M-parameter model trained to act like a terminal. Shared on Hacker News with 110 points."
+    },
+    {
+      "title": "Sage-A1.5, a new model built on Qwen3.6-35B MoE",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcac1u/new_model_sagea15_released_based_on_qwen3635b_moe/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "The release post claims it competes with frontier systems such as Kimi-K3 and GPT-5.6-sol. Independent results still pending."
+    }
+  ]
+}
