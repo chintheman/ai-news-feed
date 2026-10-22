@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-10-22T13:16:12+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "AI found two critical bugs in PHP, the software most websites run on, and fixes are out now. Anthropic published its yearly report on whether it is living up to its own promises. Hermes Agent now builds 3D models through an official Meshy plugin. Krea 3 image editing landed in Nous Portal, with box-select edits and exact colours. Someone ran DeepSeek's 748B model on a used two-thousand-euro desktop.",
+  "articles": [
+    {
+      "title": "PHP ships emergency patches for two critical PHP2Shell flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "Two remote-code-execution bugs, CVSS 9.2, in the language behind most websites. About 5.1M hosts exposed; AI found them."
+    },
+    {
+      "title": "Hermes Agent adds an official Meshy plugin for 3D models",
+      "url": "https://x.com/NousResearch/status/2113077994315034967",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Ask for a 70k-poly model or turn a photo into something printable. Models render in chat; messaging apps get a preview video."
+    },
+    {
+      "title": "Anthropic publishes its annual Public Benefit Report",
+      "url": "https://www.anthropic.com/public-benefit-charter",
+      "category": "anthropic",
+      "published": "2026-10-21",
+      "summary": "Its yearly account of how it is meeting the five pillars of its public benefit charter, as a Public Benefit Corporation."
+    },
+    {
+      "title": "Krea 3 image editing arrives in Nous Portal",
+      "url": "https://x.com/NousResearch/status/2112950316018647125",
+      "category": "hermes_nous",
+      "published": "2026-10-21",
+      "summary": "Draw a box to edit one region and leave the rest alone, or give a hex code for an exact colour. Fast mode does 2k edits in 8s."
+    },
+    {
+      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "The Harvard experimental physicist and arms-control adviser joins the body that can outrank Anthropic's board on safety."
+    },
+    {
+      "title": "OpenAI lays out a plan to arm cyber defenders with frontier AI",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "Part two of its democratic governance series: stronger safeguards, modernised defences and more resilient institutions."
+    },
+    {
+      "title": "Cloudflare uses OpenAI models to find and fix vulnerabilities",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "Cloudflare runs OpenAI's Daybreak to investigate flaws and propose fixes for review, and Codex to speed up its own code work."
+    },
+    {
+      "title": "Kitten-TTS 2: a 1.58-bit speech model that runs on a CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "Open weights, real-time on CPU alone, with zero-shot voice cloning, several languages and emotion control."
+    },
+    {
+      "title": "Run models bigger than your GPU: 2-bit copy in VRAM, exact weights in RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc55z3/2bit_copy_in_vram_exact_residual_in_system_ram_as/",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "A draft approach that keeps a 2-bit copy on the GPU and the exact residual in system memory as a verifier."
+    },
+    {
+      "title": "Someone ran the 748B DeepSeek-V4.1-Flash on a used 2,000-euro PC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xburkx/tried_running_748b_deepseekv41flash_on_a_2k_pc/",
+      "category": "deepseek",
+      "published": "2026-10-21",
+      "summary": "A 3090 with 128GB of system RAM ran the 1-bit quant at about 7.2 tokens per second, a slow but working local setup."
+    }
+  ]
+}
