@@ -1,9 +1,79 @@
 {
-  "updated_at": "2026-10-22T08:16:20+08:00",
+  "updated_at": "2026-10-22T13:16:12+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Hermes Agent closed Jensen Huang's GTC Berlin keynote, building and training a simulated robot course from a single prompt. OpenAI put its models and Codex on Google Cloud, so big companies can buy them on the account they already have. Anthropic's new Claude Duet page was the most discussed AI link of the day. Two labs said their AI models found a serious bug in a web language used by millions of sites. ChatGPT ads opened in 26 more countries, past 100,000 advertisers.",
+  "tldr": "AI found two critical bugs in PHP, the software most websites run on, and fixes are out now. Anthropic published its yearly report on whether it is living up to its own promises. Hermes Agent now builds 3D models through an official Meshy plugin. Krea 3 image editing landed in Nous Portal, with box-select edits and exact colours. Someone ran DeepSeek's 748B model on a used two-thousand-euro desktop.",
   "articles": [
+    {
+      "title": "Hermes Agent adds an official Meshy plugin for 3D models",
+      "url": "https://x.com/NousResearch/status/2113077994315034967",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Ask for a 70k-poly model or turn a photo into something printable. Models render in chat; messaging apps get a preview video."
+    },
+    {
+      "title": "Kitten-TTS 2: a 1.58-bit speech model that runs on a CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "Open weights, real-time on CPU alone, with zero-shot voice cloning, several languages and emotion control."
+    },
+    {
+      "title": "Run models bigger than your GPU: 2-bit copy in VRAM, exact weights in RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc55z3/2bit_copy_in_vram_exact_residual_in_system_ram_as/",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "A draft approach that keeps a 2-bit copy on the GPU and the exact residual in system memory as a verifier."
+    },
+    {
+      "title": "PHP ships emergency patches for two critical PHP2Shell flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "Two remote-code-execution bugs, CVSS 9.2, in the language behind most websites. About 5.1M hosts exposed; AI found them."
+    },
+    {
+      "title": "Anthropic publishes its annual Public Benefit Report",
+      "url": "https://www.anthropic.com/public-benefit-charter",
+      "category": "anthropic",
+      "published": "2026-10-21",
+      "summary": "Its yearly account of how it is meeting the five pillars of its public benefit charter, as a Public Benefit Corporation."
+    },
+    {
+      "title": "Krea 3 image editing arrives in Nous Portal",
+      "url": "https://x.com/NousResearch/status/2112950316018647125",
+      "category": "hermes_nous",
+      "published": "2026-10-21",
+      "summary": "Draw a box to edit one region and leave the rest alone, or give a hex code for an exact colour. Fast mode does 2k edits in 8s."
+    },
+    {
+      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "The Harvard experimental physicist and arms-control adviser joins the body that can outrank Anthropic's board on safety."
+    },
+    {
+      "title": "OpenAI lays out a plan to arm cyber defenders with frontier AI",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "Part two of its democratic governance series: stronger safeguards, modernised defences and more resilient institutions."
+    },
+    {
+      "title": "Cloudflare uses OpenAI models to find and fix vulnerabilities",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "Cloudflare runs OpenAI's Daybreak to investigate flaws and propose fixes for review, and Codex to speed up its own code work."
+    },
+    {
+      "title": "Someone ran the 748B DeepSeek-V4.1-Flash on a used 2,000-euro PC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xburkx/tried_running_748b_deepseekv41flash_on_a_2k_pc/",
+      "category": "deepseek",
+      "published": "2026-10-21",
+      "summary": "A 3090 with 128GB of system RAM ran the 1-bit quant at about 7.2 tokens per second, a slow but working local setup."
+    },
     {
       "title": "Jensen Huang closed his GTC Berlin keynote with a Hermes Agent demo",
       "url": "https://x.com/NousResearch/status/2113010017645244623",
@@ -353,76 +423,6 @@
       "category": "policy",
       "published": "2026-10-20",
       "summary": "Internal OpenAI talk laid out an IAEA-style watchdog, a merger of the big labs, or one firm able to shut down rivals."
-    },
-    {
-      "title": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
-      "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
-      "category": "policy",
-      "published": "2026-10-20",
-      "summary": "Internal documents describe agents that move like a worm between networks, including air-gapped ones, with little human input."
-    },
-    {
-      "title": "NVIDIA Cosmos3-H-Dreams brings clinical surgery to life through generative simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "category": "ai_research",
-      "published": "2026-10-20",
-      "summary": "NVIDIA's world model generates surgical video for training, a step toward simulators that can teach procedures safely."
-    },
-    {
-      "title": "FairStress: a deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "category": "ai_research",
-      "published": "2026-10-20",
-      "summary": "AI2 shows fairness scores collapse when the same model meets harder, shifted prompts, not just new demographic groups."
-    },
-    {
-      "title": "ALTK-Evolve: learned memory tops the tau2-bench leaderboard without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "category": "agents_tooling",
-      "published": "2026-10-20",
-      "summary": "IBM Research gets top customer-service agent scores by learning from past runs instead of buying a bigger base model."
-    },
-    {
-      "title": "REMORY: learning residual memory for context compaction",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasp90/paper_remory_learning_residual_memory_for_context/",
-      "category": "ai_research",
-      "published": "2026-10-20",
-      "summary": "Adds a small learned memory to the text summary long-running agents keep, so details survive compaction."
-    },
-    {
-      "title": "OpenVLHarness: real-world visual agentic tool use with multimodal memory",
-      "url": "https://x.com/_akhaliq/status/2112566784343876081",
-      "category": "ai_research",
-      "published": "2026-10-20",
-      "summary": "New benchmark and harness for agents that act on screens and images while remembering what they saw earlier."
-    },
-    {
-      "title": "Phonon open-sourced: 31M and 40M text-to-speech models built for the edge",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/",
-      "category": "ai_models",
-      "published": "2026-10-20",
-      "summary": "Gradium's first open release: tiny TTS models with a Rust inference stack covering 10+ CPU, GPU and NPU backends."
-    },
-    {
-      "title": "Ornith-1.5-122B: a self-improving Qwen finetune",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/",
-      "category": "chinese_ai",
-      "published": "2026-10-20",
-      "summary": "Built on Qwen3.5 and Gemma 4 with extra pretraining, pitched as foundation models grown by self-improvement."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next vs Opus 5.5: controlled six-way agent benchmark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatxqk/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
-      "category": "chinese_ai",
-      "published": "2026-10-20",
-      "summary": "Same Rust feature, same harness for every run, to settle whether the cheap model really competes on agentic coding."
-    },
-    {
-      "title": "DeepSeek open-sources DeepInfer, the stack that serves V4.1-Flash",
-      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
-      "category": "deepseek",
-      "published": "2026-10-20",
-      "summary": "Production kernels, distributed inference and batching are now public, so the reason its API is cheap can be read, not guessed."
     }
   ],
   "tldrs": {
@@ -473,6 +473,31 @@
         {
           "text": "ChatGPT ads opened in 26 more countries, past 100,000 advertisers.",
           "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+        }
+      ]
+    },
+    "midday": {
+      "at": "2026-10-22T13:16:12+08:00",
+      "points": [
+        {
+          "text": "AI found two critical bugs in PHP, the software most websites run on, and fixes are out now.",
+          "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
+        },
+        {
+          "text": "Anthropic published its yearly report on whether it is living up to its own promises.",
+          "url": "https://www.anthropic.com/public-benefit-charter"
+        },
+        {
+          "text": "Hermes Agent now builds 3D models through an official Meshy plugin.",
+          "url": "https://x.com/NousResearch/status/2113077994315034967"
+        },
+        {
+          "text": "Krea 3 image editing landed in Nous Portal, with box-select edits and exact colours.",
+          "url": "https://x.com/NousResearch/status/2112950316018647125"
+        },
+        {
+          "text": "Someone ran DeepSeek's 748B model on a used two-thousand-euro desktop.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xburkx/tried_running_748b_deepseekv41flash_on_a_2k_pc/"
         }
       ]
     }
