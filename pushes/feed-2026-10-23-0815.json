@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-10-23T08:17:11+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "Agent Skills, the format for giving AI agents new abilities, is moving to an independent group. DeepSeek put its inference framework online for free. Nous released community plugins for Hermes Agent, but they are experimental. NVIDIA released OpenShell, a runtime meant to keep AI agents safe and private. A new chart shows Meta's big open model scoring 39 while a smaller Qwen model scores 40.",
+  "articles": [
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "Microsoft's ThinkingBox post shows how to turn database answer checks into reward signals for training agents with reinforcement learning."
+    },
+    {
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "ModelCompare reports that different AI models give the same 'controversial' take on humans."
+    },
+    {
+      "title": "Meta's 816B Muse Spark Open scores 39 on Artificial Analysis; Qwen3.8-Flash-Next (180B) scores 40",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "A chart plots 11 open-weight models by size against their score. Muse Spark Open is far bigger but scores slightly lower."
+    },
+    {
+      "title": "NVIDIA/OpenShell: safe, private runtime for autonomous AI agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/",
+      "category": "agents_tooling",
+      "published": "2026-10-23",
+      "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
+    },
+    {
+      "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "InclusionAI announced Ling-3.0-flash-Sante, a 124B model with 5.1B active parameters, built on Ling-3.0-flash."
+    },
+    {
+      "title": "Introducing DeepInfer: DeepSeek open-sources its inference framework",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "category": "deepseek",
+      "published": "2026-10-20",
+      "summary": "DeepSeek open-sourced DeepInfer, the inference framework behind DeepSeek-V4.1-Flash, aimed at lower cost and energy use."
+    },
+    {
+      "title": "Nous releases community plugins for Hermes Agent in a new Hermes Labs Plugins repo",
+      "url": "https://github.com/nousresearch/hermes-labs-plugins",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "The plugins are experimental and may not be maintained, so review one before installing it."
+    },
+    {
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation, next to MCP",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "category": "agents_tooling",
+      "published": "2026-10-22",
+      "summary": "Anthropic donated Agent Skills to the Agentic AI Foundation, which also hosts MCP. The post says 70+ agent platforms have adopted it."
+    },
+    {
+      "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+      "url": "https://huggingface.co/papers/2610.20424",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "A paper finding that long-running agents for real business tasks hit deployment problems that short tests miss."
+    },
+    {
+      "title": "OpenAI says its latest models are stronger at migrating COBOL, Fortran and Visual Basic code",
+      "url": "https://openai.com/index/low-resource-programming-languages/",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "OpenAI says its latest models are better at building and migrating code in legacy languages that banks and governments run on."
+    }
+  ]
+}
