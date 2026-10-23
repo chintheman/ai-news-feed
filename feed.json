@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-10-22T21:17:00+08:00",
+  "updated_at": "2026-10-23T08:17:11+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Hermes Agent has a new release today that closes known security holes, so update it. Hermes now has a plugin for Cursor, the code editor. Security researchers found an AI agent that takes over unprotected AI models and uses them to attack servers. OpenAI agents analyzed mouse brain data in 32 minutes, a job that would take people months. Ling-3.1-flash gets an update that scores higher on tests, and its open weights are coming.",
+  "tldr": "Agent Skills, the format for giving AI agents new abilities, is moving to an independent group. DeepSeek put its inference framework online for free. Nous released community plugins for Hermes Agent, but they are experimental. NVIDIA released OpenShell, a runtime meant to keep AI agents safe and private. A new chart shows Meta's big open model scoring 39 while a smaller Qwen model scores 40.",
   "articles": [
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "Microsoft's ThinkingBox post shows how to turn database answer checks into reward signals for training agents with reinforcement learning."
+    },
+    {
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "ModelCompare reports that different AI models give the same 'controversial' take on humans."
+    },
+    {
+      "title": "Meta's 816B Muse Spark Open scores 39 on Artificial Analysis; Qwen3.8-Flash-Next (180B) scores 40",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "A chart plots 11 open-weight models by size against their score. Muse Spark Open is far bigger but scores slightly lower."
+    },
+    {
+      "title": "NVIDIA/OpenShell: safe, private runtime for autonomous AI agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/",
+      "category": "agents_tooling",
+      "published": "2026-10-23",
+      "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
+    },
+    {
+      "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "InclusionAI announced Ling-3.0-flash-Sante, a 124B model with 5.1B active parameters, built on Ling-3.0-flash."
+    },
+    {
+      "title": "Nous releases community plugins for Hermes Agent in a new Hermes Labs Plugins repo",
+      "url": "https://github.com/nousresearch/hermes-labs-plugins",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "The plugins are experimental and may not be maintained, so review one before installing it."
+    },
+    {
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation, next to MCP",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "category": "agents_tooling",
+      "published": "2026-10-22",
+      "summary": "Anthropic donated Agent Skills to the Agentic AI Foundation, which also hosts MCP. The post says 70+ agent platforms have adopted it."
+    },
     {
       "title": "Hermes security release out today to close Node dependency holes",
       "url": "https://x.com/Teknium/status/2113235092873310296",
@@ -374,55 +423,6 @@
       "category": "industry",
       "published": "2026-10-21",
       "summary": "Reported order of roughly 3 million RTX 5500 Pro cards, aimed at LLM inference and AI video generation."
-    },
-    {
-      "title": "Nous says image, video and 3D generation all land inside Hermes",
-      "url": "https://x.com/NousResearch/status/2112613895898849387",
-      "category": "hermes_nous",
-      "published": "2026-10-20",
-      "summary": "Krea and Fal already route through the Nous Portal tool gateway, Blender ships as a plugin, and a Desktop media plugin is next."
-    },
-    {
-      "title": "Claude designs scorpion-venom binders; 211 lab-tested, data public",
-      "url": "https://x.com/AnthropicAI/status/2112579251555721573",
-      "category": "ai_research",
-      "published": "2026-10-20",
-      "summary": "A research Claude generated 300,000+ minibinders against five scorpion toxins in 64 hours; 211 were wet-lab tested and the data released."
-    },
-    {
-      "title": "DeepSeek open-sources the token encoder behind its API",
-      "url": "https://github.com/deepseek-ai/deepseek-recipe",
-      "category": "deepseek",
-      "published": "2026-10-20",
-      "summary": "deepseek-recipe matches the production API's encoding, so self-hosted V4.1-Flash reproduces the same token counts and request behaviour."
-    },
-    {
-      "title": "OpenAI's Terminal X matches senior investor judgment 88.6%",
-      "url": "https://openai.com/index/terminal-x",
-      "category": "ai_models",
-      "published": "2026-10-20",
-      "summary": "Its Eval Agent grades work against a 54-criterion rubric and catches 25% more departures from a fund's mandate with GPT-6.1 Sol."
-    },
-    {
-      "title": "EAGLE-4 ships with a 3.59x decoding speedup on Qwen3.8-27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb6zds/eagle4_released_faster_than_dflash2_dspark/",
-      "category": "ai_models",
-      "published": "2026-10-20",
-      "summary": "Beats DFlash2 (2.80x) and DSpark (2.57x) in published benchmarks; only Qwen3.8-27B is supported so far, llama.cpp support pending."
-    },
-    {
-      "title": "Open RK3588 NPU runtime hits ~10 tok/s, 2x faster than vendor SDK",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb45bq/i_built_an_rk3588_npu_runtime_without_any/",
-      "category": "ai_models",
-      "published": "2026-10-20",
-      "summary": "Built without Rockchip's proprietary inference libraries: Rust host code and hand-written NPU operators, running Qwen3.5-4B."
-    },
-    {
-      "title": "qev-0.8b: a tiny local decision model claiming SOTA for its size",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xazrvd/qev08b_new_sota_tiny_local_decision_model/",
-      "category": "ai_models",
-      "published": "2026-10-20",
-      "summary": "An 0.8B model aimed at on-device decision and routing work, posted with its benchmark numbers and weights."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-10-22T08:16:20+08:00",
+      "at": "2026-10-23T08:17:11+08:00",
       "points": [
         {
-          "text": "Hermes Agent closed Jensen Huang's GTC Berlin keynote, building and training a simulated robot course from a single prompt.",
-          "url": "https://x.com/NousResearch/status/2113010017645244623"
+          "text": "Agent Skills, the format for giving AI agents new abilities, is moving to an independent group.",
+          "url": "https://x.com/bcherny/status/2113333859907747871"
         },
         {
-          "text": "OpenAI put its models and Codex on Google Cloud, so big companies can buy them on the account they already have.",
-          "url": "https://openai.com/index/openai-models-google-cloud/"
+          "text": "DeepSeek put its inference framework online for free.",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
-          "text": "Anthropic's new Claude Duet page was the most discussed AI link of the day.",
-          "url": "https://claude.com/product/claude-duet"
+          "text": "Nous released community plugins for Hermes Agent, but they are experimental.",
+          "url": "https://github.com/nousresearch/hermes-labs-plugins"
         },
         {
-          "text": "Two labs said their AI models found a serious bug in a web language used by millions of sites.",
-          "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/"
+          "text": "NVIDIA released OpenShell, a runtime meant to keep AI agents safe and private.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/"
         },
         {
-          "text": "ChatGPT ads opened in 26 more countries, past 100,000 advertisers.",
-          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+          "text": "A new chart shows Meta's big open model scoring 39 while a smaller Qwen model scores 40.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/"
         }
       ]
     },
