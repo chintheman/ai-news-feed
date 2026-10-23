@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-10-23T13:16:55+08:00",
+  "updated_at": "2026-10-23T21:17:53+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A local-model tester says Qwen 3.8 Flash Next scored 25 out of 25 on a small test, beating a compressed DeepSeek model at 23. A £300 mini PC can now run a Qwen model at home, at a slow but usable speed. Nous added a plugin that lets a team share one Hermes Agent machine. A new text-to-speech model is small enough to run on a normal CPU, though it slurs hard words.",
+  "tldr": "Hermes Agent now has an official plugin that makes 3D models from a text prompt or a photo. Anthropic had Claude prove that code in 123 open-source libraries is correct, and it caught bugs that testing had missed. OpenAI's models are coming to Google Cloud, and OpenAI is raising up to $30 billion at a lower valuation target. DeepSeek open-sourced DeepInfer, the software that runs its fast model, V4.1 Flash.",
   "articles": [
+    {
+      "title": "Claude proves code correct at scale: 123 open-source libraries",
+      "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+      "category": "anthropic",
+      "published": "2026-10-23",
+      "summary": "Claude generated correctness proofs for code in 123 open-source libraries and caught bugs years of testing missed."
+    },
+    {
+      "title": "Canva launches Craft, its first in-house image model",
+      "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "Canva released Craft, its first image generation model built in-house."
+    },
+    {
+      "title": "Tencent releases WeVisOne-VL, a unified vision-language model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd85ki/tencentwevisonevl4b_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-23",
+      "summary": "Built on Qwen3-VL, it handles both object-level and pixel-level visual perception in one model."
+    },
+    {
+      "title": "PACE: storing recurrent model state at four bits",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd5hwe/paper_pace_periodic_and_channelaligned_encoding/",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "Paper on storing linear-attention model state at four bits, so more sequences fit on one accelerator."
+    },
+    {
+      "title": "Nemotron-3.5 Embed, Parse and Rerank models released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd4mlk/nemotron35embed_parse_and_rerank/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "NVIDIA moved its embed and rerank models from version 3.0 to 3.5, published on Hugging Face."
+    },
+    {
+      "title": "DeepSeek V4.1 (1017) runs on consumer AMD GPUs plus 96GB RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd3p2e/deepseek_v411017_doing_okay_on_rdna23_ddr4/",
+      "category": "deepseek",
+      "published": "2026-10-23",
+      "summary": "Owner's report of DeepSeek V4.1 (1017 build) on two AMD GPUs with 96GB of DDR4 system memory."
+    },
+    {
+      "title": "OpenAI and Poland's NASK partner on AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "OpenAI and Poland's NASK will work on AI safety, security and technical research together."
+    },
+    {
+      "title": "Hugging Face models vanishing mid-download",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
+      "category": "platforms_integration",
+      "published": "2026-10-23",
+      "summary": "Users report models disappearing from Hugging Face during downloads, including an uncensored MiMo-V2.6 build."
+    },
+    {
+      "title": "Qwen3-0.6B converted into a mixture-of-experts model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd87wu/qwen306b_model_converted_into_moe/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "Hobbyist update on converting a small Qwen model into a mixture-of-experts design. Many attempts failed."
+    },
+    {
+      "title": "Next-Concept Modeling: language models that predict concepts, not tokens",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "Paper on generating text by predicting concepts instead of the next token. Explainer thread on r/MachineLearning."
+    },
+    {
+      "title": "OpenAI lowers valuation target, raises up to $30 billion",
+      "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+      "category": "industry",
+      "published": "2026-10-23",
+      "summary": "OpenAI is closing a funding round of up to $30 billion at a lower valuation target than before."
+    },
     {
       "title": "Qwen 3.8 Flash Next (129 GB) is better than 2.6 bpw DeepSeek V4.1 Flash 1017 (187 GB + 203 GB Engram)",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcylhj/qwen_38_flash_next_129_gb_is_better_than_26_bpw/",
@@ -47,21 +124,42 @@
       "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
     },
     {
-      "title": "Q4 flash next for £300/600 - snapdragon mini PC results update",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/",
+      "title": "How does Fable 5.1 hide messages in images?",
+      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "LessWrong post asking how Fable 5.1 hides messages in images. 115 points on Hacker News."
+    },
+    {
+      "title": "Carbon-X: an open 14.8B model trained on DNA and text",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
       "category": "ai_models",
       "published": "2026-10-22",
-      "summary": "Follow-up test on a Snapdragon mini PC: Qwen Flash Next runs at 46 tokens/s reading and 20 generating, per the poster."
+      "summary": "Open decoder model that reads raw DNA in a normal chat and answers in English. Mid-trained on 302B tokens."
+    },
+    {
+      "title": "Open-XTTS-Trainer: add new languages and train XTTS v2 in one click",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/",
+      "category": "platforms_integration",
+      "published": "2026-10-22",
+      "summary": "Community trainer fills the gap left when Coqui AI shut down, so XTTS v2 can learn new language scripts."
     },
     {
       "title": "Hermes Agent adds an official Meshy plugin for 3D models",
       "url": "https://x.com/NousResearch/status/2113077994315034967",
       "category": "hermes_nous",
       "published": "2026-10-22",
-      "summary": "Hermes Agent has an official Meshy plugin: ask for a 3D model, or turn a photo into one you can print. Teknium confirmed it."
+      "summary": "Ask for a 3D model, or turn a photo into one you can print. Teknium confirmed it as the official plugin."
     },
     {
-      "title": "Hermes Agent can share a computer with your team via the trycua Spaces plugin",
+      "title": "Nous opens community plugin repo for Hermes Agent",
+      "url": "https://x.com/Teknium/status/2113278395945779386",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Community plugins live in the Hermes Labs Plugins repo. They are experimental and may go unmaintained, so review before installing."
+    },
+    {
+      "title": "Hermes Agent can share a computer with your team via the trycua plugin",
       "url": "https://x.com/NousResearch/status/2113391397760041329",
       "category": "hermes_nous",
       "published": "2026-10-22",
@@ -72,14 +170,21 @@
       "url": "https://x.com/bcherny/status/2113333859907747871",
       "category": "agents_tooling",
       "published": "2026-10-22",
-      "summary": "Anthropic is donating Agent Skills to the Agentic AI Foundation, next to MCP. 70+ agent platforms have adopted the standard."
+      "summary": "Anthropic is donating Agent Skills to the Agentic AI Foundation. 70+ agent platforms have adopted the standard."
     },
     {
       "title": "Podium passes $150M in AI annual recurring revenue",
       "url": "https://x.com/garrytan/status/2113353678895919196",
       "category": "industry",
       "published": "2026-10-22",
-      "summary": "Garry Tan highlights Podium passing $150M AI annual recurring revenue after rebuilding around AI employees."
+      "summary": "Garry Tan highlights Podium's $150M AI ARR after rebuilding around AI employees."
+    },
+    {
+      "title": "Q4 flash next for £300/600 - snapdragon mini PC results update",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "Follow-up test on a Snapdragon mini PC: Qwen Flash Next runs at 46 tokens/s reading and 20 generating, per the poster."
     },
     {
       "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
@@ -173,11 +278,18 @@
       "summary": "A draft approach that keeps a 2-bit copy on the GPU and the exact residual in system memory as a verifier."
     },
     {
-      "title": "Jensen Huang closed his GTC Berlin keynote with a Hermes Agent demo",
+      "title": "Jensen Huang closes GTC Berlin with a Hermes Agent demo",
       "url": "https://x.com/NousResearch/status/2113010017645244623",
       "category": "hermes_nous",
       "published": "2026-10-21",
-      "summary": "Per Nous, Jensen Huang closed GTC Berlin with a Hermes demo: Hermes planned a robot obstacle course and trained simulated ducks."
+      "summary": "Nous says Hermes planned a robot obstacle course and trained the robot in simulation. Nous's claim, not independently checked."
+    },
+    {
+      "title": "OpenAI models and Codex coming to Google Cloud Model Garden",
+      "url": "https://x.com/OpenAI/status/2112988118471295323",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "Enterprises on Google Cloud will be able to use OpenAI's frontier models and Codex workflows."
     },
     {
       "title": "PHP ships emergency patches for two critical PHP2Shell flaws",
@@ -311,143 +423,27 @@
       "category": "industry",
       "published": "2026-10-21",
       "summary": "A memory supply story local-model users are tracking, since RAM prices decide what a home inference box costs."
-    },
-    {
-      "title": "Hassabis moves his AGI timeline to two or three years",
-      "url": "https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "The DeepMind founder cut his estimate from three to five years, saying progress has run faster than he expected."
-    },
-    {
-      "title": "Patch the Planet links researchers and maintainers on open-source flaws",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "A coordination effort pairing AI agents, security researchers and maintainers to fix critical open-source bugs."
-    },
-    {
-      "title": "Hugging Face and Reflection AI put $20,000 behind Beam builds",
-      "url": "https://x.com/huggingface/status/2113039952963641570",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "Build anything with the Beam model and post it by Monday 2 November to enter. Winners take cash or compute credits."
-    },
-    {
-      "title": "OpenAI sets out how it works with distribution partners",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "category": "policy",
-      "published": "2026-10-21",
-      "summary": "A policy note on consistent safeguards, responsible access and clearer expectations for partners shipping its models."
-    },
-    {
-      "title": "AI models found a critical flaw in a language behind millions of sites",
-      "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
-      "category": "ai_research",
-      "published": "2026-10-21",
-      "summary": "GPT-5.6 Sol found the PHP bug under Patch the Planet. Security firm Wiz independently found the same flaw using Gemini 4 Argon."
-    },
-    {
-      "title": "Trimming a small model's vocabulary cut inference cost by 77%",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "category": "ai_research",
-      "published": "2026-10-21",
-      "summary": "A practical write-up on specialising the token vocabulary of small language models for a narrower domain."
-    },
-    {
-      "title": "Thousands of AI agents sift biological data for new leads",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "category": "ai_research",
-      "published": "2026-10-21",
-      "summary": "OpenAI, PerturbAI and Scripps ran distributed agents over data from millions of brain cells to surface research leads."
-    },
-    {
-      "title": "One prompt to a playable Godot build: Hermes gains a game-dev plugin",
-      "url": "https://x.com/Teknium/status/2112782970474139927",
-      "category": "hermes_nous",
-      "published": "2026-10-21",
-      "summary": "A third-party plugin made sprites, sound, 3D and a Godot build, then played it and caught its own crash, all without core changes."
-    },
-    {
-      "title": "Mistral and NVIDIA team up on AI for industrial engineering",
-      "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "Mistral is building AI-native engineering and simulation workflows on NVIDIA accelerated computing for industrial customers."
-    },
-    {
-      "title": "NVIDIA opens SimReady Central, a free 3D asset library for robot simulation",
-      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "category": "platforms_integration",
-      "published": "2026-10-21",
-      "summary": "An open library of simulation-ready 3D assets so robotics and AI factory teams stop rebuilding training scenes from scratch."
-    },
-    {
-      "title": "Specter: quantized speculative offloading makes big MoE models faster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj6an/paper_specter_fast_moe_inference_via/",
-      "category": "ai_research",
-      "published": "2026-10-21",
-      "summary": "Uses quantization plus multi-step speculation to cut the memory bus bottleneck when expert weights spill to host RAM."
-    },
-    {
-      "title": "Meta's Muse leaks private and business data when users share chats",
-      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "Ars Technica finds shared Muse conversations expose personal and business secrets that were never meant to leave the chat."
-    },
-    {
-      "title": "Samsung sells out all 2027 HBM capacity, GPU prices expected to jump",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "High-bandwidth memory prices are tipped to rise around 200% next year with DRAM up double digits, pushing card costs higher."
-    },
-    {
-      "title": "KRAFTON's Raon-1-mini preview: a 30B MoE built from scratch for Korean",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbh0ev/kraftonraon1minipreview_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-10-21",
-      "summary": "A 30B total, 4B active mixture-of-experts model trained in-house by KRAFTON AI, aimed at Korean chat and agentic tasks."
-    },
-    {
-      "title": "llama.cpp gets fast LoRA so adapters are cheap to train and run",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbekzx/fast_lora_in_llamacpp/",
-      "category": "platforms_integration",
-      "published": "2026-10-21",
-      "summary": "New changes make LoRA practical on local models, including adapters that shift Qwen3.8-Flash-Next behaviour."
-    },
-    {
-      "title": "OvisOCR3 is a 0.8B open OCR model with JSON output and table rebuilding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi9h4/ovisocr3_a_08b_ocr_model_with_structured_output/",
-      "category": "ai_models",
-      "published": "2026-10-21",
-      "summary": "Apache 2.0, built on Qwen3.5-0.8B, and adds structured JSON output plus cross-page table reconstruction."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-10-22T21:17:00+08:00",
+      "at": "2026-10-23T21:17:53+08:00",
       "points": [
         {
-          "text": "Hermes Agent has a new release today that closes known security holes, so update it.",
-          "url": "https://x.com/Teknium/status/2113235092873310296"
+          "text": "Hermes Agent now has an official plugin that makes 3D models from a text prompt or a photo.",
+          "url": "https://x.com/NousResearch/status/2113077994315034967"
         },
         {
-          "text": "Hermes now has a plugin for Cursor, the code editor.",
-          "url": "https://x.com/Teknium/status/2113241021631050206"
+          "text": "Anthropic had Claude prove that code in 123 open-source libraries is correct, and it caught bugs that testing had missed.",
+          "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/"
         },
         {
-          "text": "Security researchers found an AI agent that takes over unprotected AI models and uses them to attack servers.",
-          "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/"
+          "text": "OpenAI's models are coming to Google Cloud, and OpenAI is raising up to $30 billion at a lower valuation target.",
+          "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/"
         },
         {
-          "text": "OpenAI agents analyzed mouse brain data in 32 minutes, a job that would take people months.",
-          "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/"
-        },
-        {
-          "text": "Ling-3.1-flash gets an update that scores higher on tests, and its open weights are coming.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/"
+          "text": "DeepSeek open-sourced DeepInfer, the software that runs its fast model, V4.1 Flash.",
+          "url": "https://x.com/deepseek_ai/status/2112476496283775135"
         }
       ]
     },
