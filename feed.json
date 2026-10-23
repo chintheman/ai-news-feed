@@ -1,9 +1,23 @@
 {
-  "updated_at": "2026-10-23T08:17:11+08:00",
+  "updated_at": "2026-10-23T13:16:55+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Agent Skills, the format for giving AI agents new abilities, is moving to an independent group. DeepSeek put its inference framework online for free. Nous released community plugins for Hermes Agent, but they are experimental. NVIDIA released OpenShell, a runtime meant to keep AI agents safe and private. A new chart shows Meta's big open model scoring 39 while a smaller Qwen model scores 40.",
+  "tldr": "A local-model tester says Qwen 3.8 Flash Next scored 25 out of 25 on a small test, beating a compressed DeepSeek model at 23. A £300 mini PC can now run a Qwen model at home, at a slow but usable speed. Nous added a plugin that lets a team share one Hermes Agent machine. A new text-to-speech model is small enough to run on a normal CPU, though it slurs hard words.",
   "articles": [
+    {
+      "title": "Qwen 3.8 Flash Next (129 GB) is better than 2.6 bpw DeepSeek V4.1 Flash 1017 (187 GB + 203 GB Engram)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcylhj/qwen_38_flash_next_129_gb_is_better_than_26_bpw/",
+      "category": "chinese_ai",
+      "published": "2026-10-23",
+      "summary": "A local-model tester scored Qwen 3.8 Flash Next 25/25 against 23/25 for a 2.6-bit DeepSeek V4.1 Flash. He calls it a small sample."
+    },
+    {
+      "title": "AuroraTTS-100K Releases!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xctcoe/auroratts100k_releases/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "AuroraTTS-100K: an English text-to-speech model under 100K parameters, 127 KB at INT8, about 72x real time on a CPU."
+    },
     {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
@@ -33,6 +47,41 @@
       "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
     },
     {
+      "title": "Q4 flash next for £300/600 - snapdragon mini PC results update",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "Follow-up test on a Snapdragon mini PC: Qwen Flash Next runs at 46 tokens/s reading and 20 generating, per the poster."
+    },
+    {
+      "title": "Hermes Agent adds an official Meshy plugin for 3D models",
+      "url": "https://x.com/NousResearch/status/2113077994315034967",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Hermes Agent has an official Meshy plugin: ask for a 3D model, or turn a photo into one you can print. Teknium confirmed it."
+    },
+    {
+      "title": "Hermes Agent can share a computer with your team via the trycua Spaces plugin",
+      "url": "https://x.com/NousResearch/status/2113391397760041329",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "The trycua plugin gives Hermes a shared Space. Teammates can watch it live, step in, and hand it back while it keeps working."
+    },
+    {
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation, next to MCP",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "category": "agents_tooling",
+      "published": "2026-10-22",
+      "summary": "Anthropic is donating Agent Skills to the Agentic AI Foundation, next to MCP. 70+ agent platforms have adopted the standard."
+    },
+    {
+      "title": "Podium passes $150M in AI annual recurring revenue",
+      "url": "https://x.com/garrytan/status/2113353678895919196",
+      "category": "industry",
+      "published": "2026-10-22",
+      "summary": "Garry Tan highlights Podium passing $150M AI annual recurring revenue after rebuilding around AI employees."
+    },
+    {
       "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
       "category": "ai_models",
@@ -45,13 +94,6 @@
       "category": "hermes_nous",
       "published": "2026-10-22",
       "summary": "The plugins are experimental and may not be maintained, so review one before installing it."
-    },
-    {
-      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation, next to MCP",
-      "url": "https://x.com/bcherny/status/2113333859907747871",
-      "category": "agents_tooling",
-      "published": "2026-10-22",
-      "summary": "Anthropic donated Agent Skills to the Agentic AI Foundation, which also hosts MCP. The post says 70+ agent platforms have adopted it."
     },
     {
       "title": "Hermes security release out today to close Node dependency holes",
@@ -117,13 +159,6 @@
       "summary": "The release post claims it competes with frontier systems such as Kimi-K3 and GPT-5.6-sol. Independent results still pending."
     },
     {
-      "title": "Hermes Agent adds an official Meshy plugin for 3D models",
-      "url": "https://x.com/NousResearch/status/2113077994315034967",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "Ask for a 70k-poly model or turn a photo into something printable. Models render in chat; messaging apps get a preview video."
-    },
-    {
       "title": "Kitten-TTS 2: a 1.58-bit speech model that runs on a CPU",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
       "category": "ai_models",
@@ -136,6 +171,13 @@
       "category": "ai_research",
       "published": "2026-10-22",
       "summary": "A draft approach that keeps a 2-bit copy on the GPU and the exact residual in system memory as a verifier."
+    },
+    {
+      "title": "Jensen Huang closed his GTC Berlin keynote with a Hermes Agent demo",
+      "url": "https://x.com/NousResearch/status/2113010017645244623",
+      "category": "hermes_nous",
+      "published": "2026-10-21",
+      "summary": "Per Nous, Jensen Huang closed GTC Berlin with a Hermes demo: Hermes planned a robot obstacle course and trained simulated ducks."
     },
     {
       "title": "PHP ships emergency patches for two critical PHP2Shell flaws",
@@ -185,13 +227,6 @@
       "category": "deepseek",
       "published": "2026-10-21",
       "summary": "A 3090 with 128GB of system RAM ran the 1-bit quant at about 7.2 tokens per second, a slow but working local setup."
-    },
-    {
-      "title": "Jensen Huang closed his GTC Berlin keynote with a Hermes Agent demo",
-      "url": "https://x.com/NousResearch/status/2113010017645244623",
-      "category": "hermes_nous",
-      "published": "2026-10-21",
-      "summary": "One prompt installed a custom Hermes on RTX Spark, which planned, built and trained a simulated robot-duck course end to end."
     },
     {
       "title": "Claude Duet",
@@ -388,41 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-21",
       "summary": "Apache 2.0, built on Qwen3.5-0.8B, and adds structured JSON output plus cross-page table reconstruction."
-    },
-    {
-      "title": "Sage-A1.5: an agentic 35B MoE finetune of Qwen3.6, with GGUF builds",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b/",
-      "category": "chinese_ai",
-      "published": "2026-10-21",
-      "summary": "InternScience releases a 35B-A3B agentic model on Qwen3.6 with Q4 and Q8 GGUF quantizations ready to download."
-    },
-    {
-      "title": "Apple Silicon inference engines benchmarked on small Qwen models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of/",
-      "category": "ai_models",
-      "published": "2026-10-21",
-      "summary": "Kapitsa and DFlash2 builds compared on M4 Pro 48GB and M1 Pro 16GB, with MLX and MTP numbers for Qwen3.8 models."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next squeezed under 36GB at 1.66bpw with no offload",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/",
-      "category": "chinese_ai",
-      "published": "2026-10-21",
-      "summary": "A sub-2-bit EXL3 quant runs the whole model inside one RTX 5090 with no offloaded experts and stable output."
-    },
-    {
-      "title": "Dario Amodei defends Anthropic's safety record in public reply",
-      "url": "https://x.com/DarioAmodei/status/2112732230124818891",
-      "category": "anthropic",
-      "published": "2026-10-21",
-      "summary": "Anthropic's CEO conceded some cited examples were mistakes, then listed actions taken at commercial cost and defended the updated RSP."
-    },
-    {
-      "title": "ByteDance, Alibaba, Tencent place over $35B of Nvidia chip orders",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "Reported order of roughly 3 million RTX 5500 Pro cards, aimed at LLM inference and AI video generation."
     }
   ],
   "tldrs": {
@@ -477,27 +477,23 @@
       ]
     },
     "midday": {
-      "at": "2026-10-22T13:16:12+08:00",
+      "at": "2026-10-23T13:16:55+08:00",
       "points": [
         {
-          "text": "AI found two critical bugs in PHP, the software most websites run on, and fixes are out now.",
-          "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
+          "text": "A local-model tester says Qwen 3.8 Flash Next scored 25 out of 25 on a small test, beating a compressed DeepSeek model at 23.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcylhj/qwen_38_flash_next_129_gb_is_better_than_26_bpw/"
         },
         {
-          "text": "Anthropic published its yearly report on whether it is living up to its own promises.",
-          "url": "https://www.anthropic.com/public-benefit-charter"
+          "text": "A £300 mini PC can now run a Qwen model at home, at a slow but usable speed.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/"
         },
         {
-          "text": "Hermes Agent now builds 3D models through an official Meshy plugin.",
-          "url": "https://x.com/NousResearch/status/2113077994315034967"
+          "text": "Nous added a plugin that lets a team share one Hermes Agent machine.",
+          "url": "https://x.com/NousResearch/status/2113391397760041329"
         },
         {
-          "text": "Krea 3 image editing landed in Nous Portal, with box-select edits and exact colours.",
-          "url": "https://x.com/NousResearch/status/2112950316018647125"
-        },
-        {
-          "text": "Someone ran DeepSeek's 748B model on a used two-thousand-euro desktop.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xburkx/tried_running_748b_deepseekv41flash_on_a_2k_pc/"
+          "text": "A new text-to-speech model is small enough to run on a normal CPU, though it slurs hard words.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xctcoe/auroratts100k_releases/"
         }
       ]
     }
