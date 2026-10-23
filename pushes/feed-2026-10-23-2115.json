@@ -1,0 +1,183 @@
+{
+  "updated_at": "2026-10-23T21:17:53+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 25,
+  "tldr": "Hermes Agent now has an official plugin that makes 3D models from a text prompt or a photo. Anthropic had Claude prove that code in 123 open-source libraries is correct, and it caught bugs that testing had missed. OpenAI's models are coming to Google Cloud, and OpenAI is raising up to $30 billion at a lower valuation target. DeepSeek open-sourced DeepInfer, the software that runs its fast model, V4.1 Flash.",
+  "articles": [
+    {
+      "title": "Claude proves code correct at scale: 123 open-source libraries",
+      "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+      "category": "anthropic",
+      "published": "2026-10-23",
+      "summary": "Claude generated correctness proofs for code in 123 open-source libraries and caught bugs years of testing missed."
+    },
+    {
+      "title": "Canva launches Craft, its first in-house image model",
+      "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "Canva released Craft, its first image generation model built in-house."
+    },
+    {
+      "title": "Tencent releases WeVisOne-VL, a unified vision-language model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd85ki/tencentwevisonevl4b_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-23",
+      "summary": "Built on Qwen3-VL, it handles both object-level and pixel-level visual perception in one model."
+    },
+    {
+      "title": "PACE: storing recurrent model state at four bits",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd5hwe/paper_pace_periodic_and_channelaligned_encoding/",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "Paper on storing linear-attention model state at four bits, so more sequences fit on one accelerator."
+    },
+    {
+      "title": "How does Fable 5.1 hide messages in images?",
+      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+      "category": "ai_research",
+      "published": "2026-10-22",
+      "summary": "LessWrong post asking how Fable 5.1 hides messages in images. 115 points on Hacker News."
+    },
+    {
+      "title": "Nemotron-3.5 Embed, Parse and Rerank models released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd4mlk/nemotron35embed_parse_and_rerank/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "NVIDIA moved its embed and rerank models from version 3.0 to 3.5, published on Hugging Face."
+    },
+    {
+      "title": "DeepSeek V4.1 (1017) runs on consumer AMD GPUs plus 96GB RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd3p2e/deepseek_v411017_doing_okay_on_rdna23_ddr4/",
+      "category": "deepseek",
+      "published": "2026-10-23",
+      "summary": "Owner's report of DeepSeek V4.1 (1017 build) on two AMD GPUs with 96GB of DDR4 system memory."
+    },
+    {
+      "title": "OpenAI and Poland's NASK partner on AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "OpenAI and Poland's NASK will work on AI safety, security and technical research together."
+    },
+    {
+      "title": "Hugging Face models vanishing mid-download",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
+      "category": "platforms_integration",
+      "published": "2026-10-23",
+      "summary": "Users report models disappearing from Hugging Face during downloads, including an uncensored MiMo-V2.6 build."
+    },
+    {
+      "title": "Qwen3-0.6B converted into a mixture-of-experts model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd87wu/qwen306b_model_converted_into_moe/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "Hobbyist update on converting a small Qwen model into a mixture-of-experts design. Many attempts failed."
+    },
+    {
+      "title": "Next-Concept Modeling: language models that predict concepts, not tokens",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "Paper on generating text by predicting concepts instead of the next token. Explainer thread on r/MachineLearning."
+    },
+    {
+      "title": "Carbon-X: an open 14.8B model trained on DNA and text",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
+      "category": "ai_models",
+      "published": "2026-10-22",
+      "summary": "Open decoder model that reads raw DNA in a normal chat and answers in English. Mid-trained on 302B tokens."
+    },
+    {
+      "title": "Open-XTTS-Trainer: add new languages and train XTTS v2 in one click",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/",
+      "category": "platforms_integration",
+      "published": "2026-10-22",
+      "summary": "Community trainer fills the gap left when Coqui AI shut down, so XTTS v2 can learn new language scripts."
+    },
+    {
+      "title": "OpenAI lowers valuation target, raises up to $30 billion",
+      "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+      "category": "industry",
+      "published": "2026-10-23",
+      "summary": "OpenAI is closing a funding round of up to $30 billion at a lower valuation target than before."
+    },
+    {
+      "title": "Hermes Agent adds an official Meshy plugin for 3D models",
+      "url": "https://x.com/NousResearch/status/2113077994315034967",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Ask for a 3D model, or turn a photo into one you can print. Teknium confirmed it as the official plugin."
+    },
+    {
+      "title": "Jensen Huang closes GTC Berlin with a Hermes Agent demo",
+      "url": "https://x.com/NousResearch/status/2113010017645244623",
+      "category": "hermes_nous",
+      "published": "2026-10-21",
+      "summary": "Nous says Hermes planned a robot obstacle course and trained the robot in simulation. Nous's claim, not independently checked."
+    },
+    {
+      "title": "Nous opens community plugin repo for Hermes Agent",
+      "url": "https://x.com/Teknium/status/2113278395945779386",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Community plugins live in the Hermes Labs Plugins repo. They are experimental and may go unmaintained, so review before installing."
+    },
+    {
+      "title": "Hermes Agent can share a computer with your team via the trycua plugin",
+      "url": "https://x.com/NousResearch/status/2113391397760041329",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "The trycua plugin gives Hermes a shared Space. Teammates can watch it live, step in, and hand it back while it keeps working."
+    },
+    {
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation, next to MCP",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "category": "agents_tooling",
+      "published": "2026-10-22",
+      "summary": "Anthropic is donating Agent Skills to the Agentic AI Foundation. 70+ agent platforms have adopted the standard."
+    },
+    {
+      "title": "OpenAI models and Codex coming to Google Cloud Model Garden",
+      "url": "https://x.com/OpenAI/status/2112988118471295323",
+      "category": "platforms_integration",
+      "published": "2026-10-21",
+      "summary": "Enterprises on Google Cloud will be able to use OpenAI's frontier models and Codex workflows."
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://x.com/OpenAI/status/2112607347688583586",
+      "category": "industry",
+      "published": "2026-10-20",
+      "summary": "Orchestra Bio helps biopharma teams run drug development. OpenAI will build on its Rosalind life-sciences tools."
+    },
+    {
+      "title": "DeepSeek open-sources DeepInfer, its inference framework",
+      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+      "category": "deepseek",
+      "published": "2026-10-20",
+      "summary": "The stack that runs DeepSeek V4.1 Flash is now public on GitHub. Review the repo before any use."
+    },
+    {
+      "title": "OpenAI says its models are better at legacy languages like COBOL",
+      "url": "https://x.com/OpenAI/status/2112310345863930168",
+      "category": "ai_models",
+      "published": "2026-10-19",
+      "summary": "OpenAI claims stronger help migrating COBOL, Fortran and Visual Basic code, which banks and governments still run."
+    },
+    {
+      "title": "BizBench: long-horizon business agents hit problems short tests miss",
+      "url": "https://x.com/_akhaliq/status/2112249207969235093",
+      "category": "ai_research",
+      "published": "2026-10-19",
+      "summary": "Benchmark paper on deploying long-running business agents. Use it as a caution on claims of agent reliability."
+    },
+    {
+      "title": "Podium passes $150M in AI annual recurring revenue",
+      "url": "https://x.com/garrytan/status/2113353678895919196",
+      "category": "industry",
+      "published": "2026-10-22",
+      "summary": "Garry Tan highlights Podium's $150M AI ARR after rebuilding around AI employees."
+    }
+  ]
+}
