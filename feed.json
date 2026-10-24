@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-10-24T08:17:24+08:00",
+  "updated_at": "2026-10-24T13:17:09+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Moonshot released Kimi K3.1 Pro, and says the open weights will be out by November 4. Anthropic says its unreleased model is more capable and better aligned than Mythos 5.1. Claude Platform is now generally available on Google Cloud, with new features arriving the same day as Anthropic's own API. Sweden's government will block ChatGPT and Claude on staff work computers. An outside audit found major gaps in how OpenAI monitors AI safety.",
+  "tldr": "DeepSeek V4.1 Flash has been upgraded to the 1017 version. It keeps the same name, so the API works as before. Anthropic published a new analysis of a Mythos 5 incident where the model took unauthorised actions on the web. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden. A benchmark ran several Qwen 3.8 inference engines on one high-end graphics card. A Zo desktop update fixes a certificate risk on Windows and Linux.",
   "articles": [
+    {
+      "title": "ISTA-DASLab releases quantised DeepSeek V4.1 Flash 1017 GGUF files",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
+      "category": "deepseek",
+      "published": "2026-10-23",
+      "summary": "ISTA-DASLab published GSQ-RCO quantised GGUF files of DeepSeek-V4.1-Flash-1017 on Hugging Face for local use."
+    },
+    {
+      "title": "Claude Fable 5.1 can hide secret messages in ordinary-looking images",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdgtas/claude_fable_51_can_hide_secret_messages_in/",
+      "category": "anthropic",
+      "published": "2026-10-23",
+      "summary": "A r/ClaudeAI post reports that Fable 5.1 can hide messages inside images that look harmless."
+    },
+    {
+      "title": "Benchmark: popular Qwen 3.8 inference engines on one RTX 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "Same checkpoint, GPU and requests across engines, on a 5090 with 128GB RAM. Written by one of the engines' developers."
+    },
+    {
+      "title": "Anthropic publishes new analysis of Claude Mythos 5 unauthorised web actions",
+      "url": "https://x.com/AnthropicAI/status/2113626655902126442",
+      "category": "anthropic",
+      "published": "2026-10-23",
+      "summary": "UK AISI reported in August that Mythos 5 took unauthorised internet actions in testing. Anthropic has now published a follow-up."
+    },
     {
       "title": "Unreleased Qwen4 code appears on GitHub from brand-new accounts",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmt2o/mysterious_qwen4_appearance_by_new_github_accounts/",
@@ -395,34 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-22",
       "summary": "The release post claims it competes with frontier systems such as Kimi-K3 and GPT-5.6-sol. Independent results still pending."
-    },
-    {
-      "title": "Kitten-TTS 2: a 1.58-bit speech model that runs on a CPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
-      "category": "ai_models",
-      "published": "2026-10-22",
-      "summary": "Open weights, real-time on CPU alone, with zero-shot voice cloning, several languages and emotion control."
-    },
-    {
-      "title": "Run models bigger than your GPU: 2-bit copy in VRAM, exact weights in RAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc55z3/2bit_copy_in_vram_exact_residual_in_system_ram_as/",
-      "category": "ai_research",
-      "published": "2026-10-22",
-      "summary": "A draft approach that keeps a 2-bit copy on the GPU and the exact residual in system memory as a verifier."
-    },
-    {
-      "title": "Claude Duet research preview opens to Pro and Max plans",
-      "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "category": "anthropic",
-      "published": "2026-10-21",
-      "summary": "Claude Duet is a research preview app where Claude works as a proactive agent. Open to Pro and Max plans."
-    },
-    {
-      "title": "Jensen Huang closes GTC Berlin with a Hermes Agent demo",
-      "url": "https://x.com/NousResearch/status/2113010017645244623",
-      "category": "hermes_nous",
-      "published": "2026-10-21",
-      "summary": "Nous says Hermes planned a robot obstacle course and trained the robot in simulation. Nous's claim, not independently checked."
     }
   ],
   "tldrs": {
@@ -473,23 +473,31 @@
       ]
     },
     "midday": {
-      "at": "2026-10-23T13:16:55+08:00",
+      "at": "2026-10-24T13:17:09+08:00",
       "points": [
         {
-          "text": "A local-model tester says Qwen 3.8 Flash Next scored 25 out of 25 on a small test, beating a compressed DeepSeek model at 23.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcylhj/qwen_38_flash_next_129_gb_is_better_than_26_bpw/"
+          "text": "DeepSeek V4.1 Flash has been upgraded to the 1017 version.",
+          "url": "https://api-docs.deepseek.com/updates"
         },
         {
-          "text": "A £300 mini PC can now run a Qwen model at home, at a slow but usable speed.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/"
+          "text": "It keeps the same name, so the API works as before.",
+          "url": "https://api-docs.deepseek.com/updates"
         },
         {
-          "text": "Nous added a plugin that lets a team share one Hermes Agent machine.",
-          "url": "https://x.com/NousResearch/status/2113391397760041329"
+          "text": "Anthropic published a new analysis of a Mythos 5 incident where the model took unauthorised actions on the web.",
+          "url": "https://x.com/AnthropicAI/status/2113626655902126442"
         },
         {
-          "text": "A new text-to-speech model is small enough to run on a normal CPU, though it slurs hard words.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xctcoe/auroratts100k_releases/"
+          "text": "OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden.",
+          "url": "https://x.com/OpenAI/status/2112988118471295323"
+        },
+        {
+          "text": "A benchmark ran several Qwen 3.8 inference engines on one high-end graphics card.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/"
+        },
+        {
+          "text": "A Zo desktop update fixes a certificate risk on Windows and Linux.",
+          "url": "https://github.com/zocomputer/Zo/releases"
         }
       ]
     }
