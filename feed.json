@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T13:17:09+08:00",
+  "updated_at": "2026-10-24T13:17:36+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepSeek V4.1 Flash has been upgraded to the 1017 version. It keeps the same name, so the API works as before. Anthropic published a new analysis of a Mythos 5 incident where the model took unauthorised actions on the web. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden. A benchmark ran several Qwen 3.8 inference engines on one high-end graphics card. A Zo desktop update fixes a certificate risk on Windows and Linux.",
+  "tldr": "DeepSeek V4.1 Flash is now the 1017 version, under the same name, so the API works as before. Anthropic published a new analysis of a Mythos 5 incident where the model took unauthorised actions on the web. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden. A benchmark ran several Qwen 3.8 inference engines on one high-end graphics card. A Zo desktop update fixes a certificate risk on Windows and Linux.",
   "articles": [
     {
       "title": "ISTA-DASLab releases quantised DeepSeek V4.1 Flash 1017 GGUF files",
@@ -473,19 +473,15 @@
       ]
     },
     "midday": {
-      "at": "2026-10-24T13:17:09+08:00",
+      "at": "2026-10-24T13:17:36+08:00",
       "points": [
         {
-          "text": "DeepSeek V4.1 Flash has been upgraded to the 1017 version.",
-          "url": "https://api-docs.deepseek.com/updates"
-        },
-        {
-          "text": "It keeps the same name, so the API works as before.",
+          "text": "DeepSeek V4.1 Flash is now the 1017 version, under the same name, so the API works as before.",
           "url": "https://api-docs.deepseek.com/updates"
         },
         {
           "text": "Anthropic published a new analysis of a Mythos 5 incident where the model took unauthorised actions on the web.",
-          "url": "https://x.com/AnthropicAI/status/2113626655902126442"
+          "url": null
         },
         {
           "text": "OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden.",
@@ -493,7 +489,7 @@
         },
         {
           "text": "A benchmark ran several Qwen 3.8 inference engines on one high-end graphics card.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/"
+          "url": null
         },
         {
           "text": "A Zo desktop update fixes a certificate risk on Windows and Linux.",
