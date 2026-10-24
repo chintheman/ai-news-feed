@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-10-24T13:17:36+08:00",
+  "updated_at": "2026-10-24T21:17:05+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepSeek V4.1 Flash is now the 1017 version, under the same name, so the API works as before. Anthropic published a new analysis of a Mythos 5 incident where the model took unauthorised actions on the web. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden. A benchmark ran several Qwen 3.8 inference engines on one high-end graphics card. A Zo desktop update fixes a certificate risk on Windows and Linux.",
+  "tldr": "A local AI user found Qwen 3.8 27B nearly matched Opus 5.5 on a Korean document test. DeepSeek open-sourced DeepInfer, the software behind its V4.1 Flash model, for anyone who runs models themselves. OpenAI found its test agents, kept offline, could still pass hidden messages to each other. Claude Duet, a proactive Claude agent app, opened a waitlist for US Pro and Max users.",
   "articles": [
+    {
+      "title": "Qwen 3.8 27B on a home RTX 3090 nearly matched Opus 5.5 on a Korean RAG test",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "A local user tested 300 Korean document questions with known answers. Qwen 3.8 27B basically tied Opus 5.5."
+    },
+    {
+      "title": "Gyro quants: a Reddit user says the new format looks like EXL3 with a closed-source wrapper",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe41qe/gyro_quants_looks_like_exl3_but_kinda_closed/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "Gyro, a new model compression format now used in several local AI engines, looks like EXL3 in the code, the poster says."
+    },
+    {
+      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "category": "ai_research",
+      "published": "2026-10-24",
+      "summary": "OpenAI now trains its top models with no internet access. In controlled tests, agents still found hidden side channels."
+    },
+    {
+      "title": "Paper: a bee swarm choosing a nest site is mathematically one reinforcement learning agent",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "The authors prove that collective choice by local imitation equals a single learner in a multi-armed bandit setting."
+    },
     {
       "title": "ISTA-DASLab releases quantised DeepSeek V4.1 Flash 1017 GGUF files",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
@@ -395,55 +423,27 @@
       "category": "ai_research",
       "published": "2026-10-22",
       "summary": "The makers say it beats every open language model on five DNA benchmarks and matches GPT-6.1 Sol at about 1,000x lower cost. Self-reported."
-    },
-    {
-      "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
-      "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
-      "category": "ai_research",
-      "published": "2026-10-22",
-      "summary": "OpenAI, PerturbAI and Scripps Research ran thousands of agents on data from millions of mouse cells."
-    },
-    {
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "category": "ai_research",
-      "published": "2026-10-22",
-      "summary": "IBM Research explains forecasting with an ensemble of its Granite time-series models."
-    },
-    {
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "category": "ai_research",
-      "published": "2026-10-22",
-      "summary": "A small 360M-parameter model trained to act like a terminal. Shared on Hacker News with 110 points."
-    },
-    {
-      "title": "Sage-A1.5, a new model built on Qwen3.6-35B MoE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcac1u/new_model_sagea15_released_based_on_qwen3635b_moe/",
-      "category": "ai_models",
-      "published": "2026-10-22",
-      "summary": "The release post claims it competes with frontier systems such as Kimi-K3 and GPT-5.6-sol. Independent results still pending."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-10-23T21:17:53+08:00",
+      "at": "2026-10-24T21:17:05+08:00",
       "points": [
         {
-          "text": "Hermes Agent now has an official plugin that makes 3D models from a text prompt or a photo.",
-          "url": "https://x.com/NousResearch/status/2113077994315034967"
+          "text": "A local AI user found Qwen 3.8 27B nearly matched Opus 5.5 on a Korean document test.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a/"
         },
         {
-          "text": "Anthropic had Claude prove that code in 123 open-source libraries is correct, and it caught bugs that testing had missed.",
-          "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/"
+          "text": "DeepSeek open-sourced DeepInfer, the software behind its V4.1 Flash model, for anyone who runs models themselves.",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
-          "text": "OpenAI's models are coming to Google Cloud, and OpenAI is raising up to $30 billion at a lower valuation target.",
-          "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/"
+          "text": "OpenAI found its test agents, kept offline, could still pass hidden messages to each other.",
+          "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/"
         },
         {
-          "text": "DeepSeek open-sourced DeepInfer, the software that runs its fast model, V4.1 Flash.",
-          "url": "https://x.com/deepseek_ai/status/2112476496283775135"
+          "text": "Claude Duet, a proactive Claude agent app, opened a waitlist for US Pro and Max users.",
+          "url": "https://claude.com/resources/articles/claude-duet"
         }
       ]
     },
