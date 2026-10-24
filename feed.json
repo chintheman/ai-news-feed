@@ -1,9 +1,135 @@
 {
-  "updated_at": "2026-10-23T21:17:53+08:00",
+  "updated_at": "2026-10-24T08:17:24+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Hermes Agent now has an official plugin that makes 3D models from a text prompt or a photo. Anthropic had Claude prove that code in 123 open-source libraries is correct, and it caught bugs that testing had missed. OpenAI's models are coming to Google Cloud, and OpenAI is raising up to $30 billion at a lower valuation target. DeepSeek open-sourced DeepInfer, the software that runs its fast model, V4.1 Flash.",
+  "tldr": "Moonshot released Kimi K3.1 Pro, and says the open weights will be out by November 4. Anthropic says its unreleased model is more capable and better aligned than Mythos 5.1. Claude Platform is now generally available on Google Cloud, with new features arriving the same day as Anthropic's own API. Sweden's government will block ChatGPT and Claude on staff work computers. An outside audit found major gaps in how OpenAI monitors AI safety.",
   "articles": [
+    {
+      "title": "Unreleased Qwen4 code appears on GitHub from brand-new accounts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmt2o/mysterious_qwen4_appearance_by_new_github_accounts/",
+      "category": "chinese_ai",
+      "published": "2026-10-23",
+      "summary": "A pull request adding Qwen4.0-Max support came from accounts under a month old. Trolls or a leak: unconfirmed."
+    },
+    {
+      "title": "llama.cpp pull request for an experimental Qwen build",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/",
+      "category": "platforms_integration",
+      "published": "2026-10-23",
+      "summary": "A llama.cpp pull request for an experimental Qwen build. The post reports gigabytes of GPU memory saved."
+    },
+    {
+      "title": "Explainer: how NVIDIA limits AI speed on consumer RTX cards",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdg0v0/small_post_about_what_are_the_unlocks_for_rtx/",
+      "category": "industry",
+      "published": "2026-10-23",
+      "summary": "Community explainer on how NVIDIA slows some AI math on consumer RTX cards, and which tasks an unlock could fix."
+    },
+    {
+      "title": "Sam Altman: advanced AI will escape its sandbox, so alignment is the real fix",
+      "url": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "Altman says sandboxes are temporary and only alignment, still unsolved, can keep advanced AI safe long term."
+    },
+    {
+      "title": "Google may use Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "Google's updated privacy policy says Gmail and Google Photos data may be used for ad targeting via Personal Intelligence."
+    },
+    {
+      "title": "OpenAI scales ChatGPT storage for over 1 billion users (part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "category": "platforms_integration",
+      "published": "2026-10-23",
+      "summary": "OpenAI's Habitat storage now serves ChatGPT reads 12x faster, using global caching and Azure Cosmos DB."
+    },
+    {
+      "title": "OpenAI secures its frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "OpenAI tightened containment for frontier model training and tests: offline environments and high-compute red-teaming."
+    },
+    {
+      "title": "LitPivot: shaping research ideas against the existing literature",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "category": "ai_research",
+      "published": "2026-10-23",
+      "summary": "AllenAI post on LitPivot, a tool that places a research idea within existing papers as it develops."
+    },
+    {
+      "title": "Block's Dessa: a speech model that listens and talks at once",
+      "url": "https://block.xyz/dessa",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "Dessa is a full-duplex speech model that can listen and talk at the same time. Block says it was trained only on human conversation."
+    },
+    {
+      "title": "Kimi K3.1 Pro: Moonshot's new open-weight model goes live",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "category": "moonshot_ai",
+      "published": "2026-10-23",
+      "summary": "Kimi K3.1 Pro and Highspeed are live on Moonshot's API. Open weights are promised by November 4, 2026."
+    },
+    {
+      "title": "NVIDIA posts Nemotron-3.5-Bolt-E4B, a small 4GB model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-23",
+      "summary": "NVIDIA's Nemotron-3.5-Bolt-E4B is on Hugging Face at about 4GB."
+    },
+    {
+      "title": "A China operation is converting the last RTX 5090 cards for AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlj42/heres_where_the_last_rtx_5090_cards_are_going/",
+      "category": "industry",
+      "published": "2026-10-23",
+      "summary": "A Reddit post says a large operation in China is converting the last RTX 5090 graphics cards for AI use."
+    },
+    {
+      "title": "Anthropic: unreleased model beats Mythos 5.1 on capability and alignment",
+      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+      "category": "anthropic",
+      "published": "2026-10-23",
+      "summary": "Anthropic says its unreleased model is more capable and better aligned than Mythos 5.1. This is the company's own claim."
+    },
+    {
+      "title": "Three-week audit finds major gaps in OpenAI's safety monitoring",
+      "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "An on-site audit lasting three weeks found major gaps in how OpenAI monitors AI safety."
+    },
+    {
+      "title": "Sweden blocks ChatGPT and Claude on government staff computers",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "Swedish government offices will ban ChatGPT and Claude on staff work computers."
+    },
+    {
+      "title": "Hugging Face tool: check whether a model runs on AWS Trainium",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "category": "platforms_integration",
+      "published": "2026-10-23",
+      "summary": "A Hugging Face lookup shows whether a model runs on AWS Trainium chips."
+    },
+    {
+      "title": "Could popular agent tools and inference engines hide backdoors?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdeg0n/probability_of_backdoors_in_popular_harnesses_and/",
+      "category": "agents_tooling",
+      "published": "2026-10-23",
+      "summary": "A community post estimates how likely popular agent tools and inference engines are to contain backdoors."
+    },
+    {
+      "title": "Garry Tan's GBrain: one shared memory for Claude, Codex and Capy",
+      "url": "https://x.com/garrytan/status/2113666998442024989",
+      "category": "agents_tooling",
+      "published": "2026-10-23",
+      "summary": "GBrain is one memory of who you know and how you work, shared across agents. A founder's product pitch."
+    },
     {
       "title": "Claude proves code correct at scale: 123 open-source libraries",
       "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
@@ -122,6 +248,13 @@
       "category": "agents_tooling",
       "published": "2026-10-23",
       "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
+    },
+    {
+      "title": "Claude Platform is generally available on Google Cloud",
+      "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
+      "category": "anthropic",
+      "published": "2026-10-22",
+      "summary": "Claude Platform is generally available on Google Cloud, billed and signed in through Google. New features arrive the same day as the API."
     },
     {
       "title": "How does Fable 5.1 hide messages in images?",
@@ -278,151 +411,18 @@
       "summary": "A draft approach that keeps a 2-bit copy on the GPU and the exact residual in system memory as a verifier."
     },
     {
+      "title": "Claude Duet research preview opens to Pro and Max plans",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "category": "anthropic",
+      "published": "2026-10-21",
+      "summary": "Claude Duet is a research preview app where Claude works as a proactive agent. Open to Pro and Max plans."
+    },
+    {
       "title": "Jensen Huang closes GTC Berlin with a Hermes Agent demo",
       "url": "https://x.com/NousResearch/status/2113010017645244623",
       "category": "hermes_nous",
       "published": "2026-10-21",
       "summary": "Nous says Hermes planned a robot obstacle course and trained the robot in simulation. Nous's claim, not independently checked."
-    },
-    {
-      "title": "OpenAI models and Codex coming to Google Cloud Model Garden",
-      "url": "https://x.com/OpenAI/status/2112988118471295323",
-      "category": "platforms_integration",
-      "published": "2026-10-21",
-      "summary": "Enterprises on Google Cloud will be able to use OpenAI's frontier models and Codex workflows."
-    },
-    {
-      "title": "PHP ships emergency patches for two critical PHP2Shell flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-      "category": "policy",
-      "published": "2026-10-21",
-      "summary": "Two remote-code-execution bugs, CVSS 9.2, in the language behind most websites. About 5.1M hosts exposed; AI found them."
-    },
-    {
-      "title": "Anthropic publishes its annual Public Benefit Report",
-      "url": "https://www.anthropic.com/public-benefit-charter",
-      "category": "anthropic",
-      "published": "2026-10-21",
-      "summary": "Its yearly account of how it is meeting the five pillars of its public benefit charter, as a Public Benefit Corporation."
-    },
-    {
-      "title": "Krea 3 image editing arrives in Nous Portal",
-      "url": "https://x.com/NousResearch/status/2112950316018647125",
-      "category": "hermes_nous",
-      "published": "2026-10-21",
-      "summary": "Draw a box to edit one region and leave the rest alone, or give a hex code for an exact colour. Fast mode does 2k edits in 8s."
-    },
-    {
-      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
-      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-      "category": "policy",
-      "published": "2026-10-21",
-      "summary": "The Harvard experimental physicist and arms-control adviser joins the body that can outrank Anthropic's board on safety."
-    },
-    {
-      "title": "OpenAI lays out a plan to arm cyber defenders with frontier AI",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "category": "policy",
-      "published": "2026-10-21",
-      "summary": "Part two of its democratic governance series: stronger safeguards, modernised defences and more resilient institutions."
-    },
-    {
-      "title": "Cloudflare uses OpenAI models to find and fix vulnerabilities",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "category": "platforms_integration",
-      "published": "2026-10-21",
-      "summary": "Cloudflare runs OpenAI's Daybreak to investigate flaws and propose fixes for review, and Codex to speed up its own code work."
-    },
-    {
-      "title": "Someone ran the 748B DeepSeek-V4.1-Flash on a used 2,000-euro PC",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xburkx/tried_running_748b_deepseekv41flash_on_a_2k_pc/",
-      "category": "deepseek",
-      "published": "2026-10-21",
-      "summary": "A 3090 with 128GB of system RAM ran the 1-bit quant at about 7.2 tokens per second, a slow but working local setup."
-    },
-    {
-      "title": "Claude Duet",
-      "url": "https://claude.com/product/claude-duet",
-      "category": "anthropic",
-      "published": "2026-10-21",
-      "summary": "Anthropic's new Claude product page, the most discussed AI link of the day with 263 points and 218 comments on Hacker News."
-    },
-    {
-      "title": "Granite Speech 5.0: transcribe, translate and attribute faster",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "category": "ai_models",
-      "published": "2026-10-21",
-      "summary": "IBM's new speech model claims more accurate transcription, translation and speaker attribution at higher speed."
-    },
-    {
-      "title": "NVIDIA Kumo Relational beats trained models on relational data",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "category": "ai_models",
-      "published": "2026-10-21",
-      "summary": "NVIDIA says its relational model outperforms supervised machine learning on table-style data with no training step."
-    },
-    {
-      "title": "Inception's Mercury 3 claims to beat GPT-6 Luna and Claude Haiku 5.5",
-      "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
-      "category": "ai_models",
-      "published": "2026-10-21",
-      "summary": "Inception says its diffusion model wins 8 of 12 benchmarks and runs 4 to 8 times faster. No independent test exists yet."
-    },
-    {
-      "title": "RecursiveSI/flint (40B A2.5B) lands on Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbqik0/recursivesiflint_40b_a25b_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-10-21",
-      "summary": "A new open 40B model that activates only 2.5B parameters per token, drawing fast interest from local-model users."
-    },
-    {
-      "title": "Local users put Qwen 3.8 Flash Next through its paces",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbqxh5/ok_fine_qwen_38_flash_next_is_nice/",
-      "category": "chinese_ai",
-      "published": "2026-10-21",
-      "summary": "Runners report the quantised Qwen 3.8 Flash Next feeling like the paid models they were using last year."
-    },
-    {
-      "title": "OpenAI models and Codex arrive on Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "category": "platforms_integration",
-      "published": "2026-10-21",
-      "summary": "GPT-6 models and Codex agent workflows land in Google Cloud Model Garden and Marketplace, alongside Gemini and Claude."
-    },
-    {
-      "title": "How OpenAI built the ad stack inside ChatGPT",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "category": "platforms_integration",
-      "published": "2026-10-21",
-      "summary": "An engineering write-up on reading conversational intent, keeping ads clear of answers, and serving them at scale."
-    },
-    {
-      "title": "Profiling TorchNeuron on AWS Trainium, part one",
-      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "category": "platforms_integration",
-      "published": "2026-10-21",
-      "summary": "Amazon walks through system-level profiling of PyTorch training work on its own Trainium chips."
-    },
-    {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "AT&T's legal team rebuilt its intake process around ChatGPT to make internal legal knowledge easier to reach."
-    },
-    {
-      "title": "ChatGPT ads reach 26 new countries and 100,000 advertisers",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "OpenAI says more than 100,000 advertisers have used the ad platform as it opens in 26 more markets."
-    },
-    {
-      "title": "China is doubling RAM production to hold gadget prices down",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbrh0s/when_will_we_see_these_changes_china_is_doubling/",
-      "category": "industry",
-      "published": "2026-10-21",
-      "summary": "A memory supply story local-model users are tracking, since RAM prices decide what a home inference box costs."
     }
   ],
   "tldrs": {
@@ -448,27 +448,27 @@
       ]
     },
     "morning": {
-      "at": "2026-10-23T08:17:11+08:00",
+      "at": "2026-10-24T08:17:24+08:00",
       "points": [
         {
-          "text": "Agent Skills, the format for giving AI agents new abilities, is moving to an independent group.",
-          "url": "https://x.com/bcherny/status/2113333859907747871"
+          "text": "Moonshot released Kimi K3.1 Pro, and says the open weights will be out by November 4.",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
         },
         {
-          "text": "DeepSeek put its inference framework online for free.",
-          "url": "https://github.com/deepseek-ai/DeepInfer"
+          "text": "Anthropic says its unreleased model is more capable and better aligned than Mythos 5.1.",
+          "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/"
         },
         {
-          "text": "Nous released community plugins for Hermes Agent, but they are experimental.",
-          "url": "https://github.com/nousresearch/hermes-labs-plugins"
+          "text": "Claude Platform is now generally available on Google Cloud, with new features arriving the same day as Anthropic's own API.",
+          "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"
         },
         {
-          "text": "NVIDIA released OpenShell, a runtime meant to keep AI agents safe and private.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/"
+          "text": "Sweden's government will block ChatGPT and Claude on staff work computers.",
+          "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
         },
         {
-          "text": "A new chart shows Meta's big open model scoring 39 while a smaller Qwen model scores 40.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/"
+          "text": "An outside audit found major gaps in how OpenAI monitors AI safety.",
+          "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/"
         }
       ]
     },
