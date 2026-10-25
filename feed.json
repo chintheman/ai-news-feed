@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-10-24T21:17:05+08:00",
+  "updated_at": "2026-10-25T08:16:34+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A local AI user found Qwen 3.8 27B nearly matched Opus 5.5 on a Korean document test. DeepSeek open-sourced DeepInfer, the software behind its V4.1 Flash model, for anyone who runs models themselves. OpenAI found its test agents, kept offline, could still pass hidden messages to each other. Claude Duet, a proactive Claude agent app, opened a waitlist for US Pro and Max users.",
+  "tldr": "Kimi K3.1's open weights reportedly left out cyberattack training data. A coding model from Qwen can now run on an 8 GB graphics card. Three fired OpenAI safety researchers deny leaking confidential information. OpenAI's models are coming to Google Cloud, so companies can use them there too. Apollo finds no clear AI payoff outside tech so far.",
   "articles": [
+    {
+      "title": "Kimi K3.1 removes cyberattack training data from open weight release",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
+      "category": "chinese_ai",
+      "published": "2026-10-24",
+      "summary": "A Reddit post says Kimi K3.1's open weights left out cyberattack training data, citing China's export rules."
+    },
+    {
+      "title": "Qwen-Flash-Next Coder runs 262K context on an 8 GB GPU at about 70 tokens/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "Community setup with llama.cpp: most expert weights in 24 GB RAM, the smallest in 8 GB VRAM, n-gram data on a fast SSD."
+    },
+    {
+      "title": "Three fired OpenAI safety researchers say they were never told what they allegedly leaked",
+      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "category": "policy",
+      "published": "2026-10-24",
+      "summary": "Tomek Korbak, Mikita Balesni and Jasmine Wang deny sharing confidential information and tie it to their AI safety advocacy."
+    },
+    {
+      "title": "AI makes junior patent attorneys better, but may quietly stunt their growth",
+      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+      "category": "ai_research",
+      "published": "2026-10-24",
+      "summary": "A 3-month field test with 133 patent attorneys: juniors gained most with AI, but only seniors kept the gains without it."
+    },
+    {
+      "title": "Block's Dessa speech model is trained on human speech to catch emotion text models miss",
+      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "Dessa works on audio directly, not text, to pick up emotion, sarcasm and pauses. It runs locally on a MacBook Pro M4 Max and is not public."
+    },
+    {
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "category": "industry",
+      "published": "2026-10-24",
+      "summary": "Apollo finds no clear AI payoff outside tech so far. Revenue and margins for the rest of the S&P 493 are flat."
+    },
+    {
+      "title": "M6 Mac Mini (32GB): Qwen3.8-27B now runs on the Apple Neural Engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "ANEMLL Forge 0.2.1 runs Qwen3.8-27B with up to 192K context on a 32GB M6 Mac Mini. Speed depends on the content type."
+    },
     {
       "title": "Qwen 3.8 27B on a home RTX 3090 nearly matched Opus 5.5 on a Korean RAG test",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a/",
@@ -306,6 +355,20 @@
       "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
     },
     {
+      "title": "Jensen Huang closes GTC Berlin 2026 with a Hermes Agent demo",
+      "url": "https://x.com/NousResearch/status/2113010017645244623",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "On NVIDIA RTX Spark, Hermes planned a course and trained simulated ducks for a Hugging Face Microduck robot."
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud's Model Garden",
+      "url": "https://x.com/OpenAI/status/2112988118471295323",
+      "category": "industry",
+      "published": "2026-10-22",
+      "summary": "OpenAI says frontier models and Codex agent workflows will be available in Google Cloud, where enterprises already build."
+    },
+    {
       "title": "Claude Platform is generally available on Google Cloud",
       "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
       "category": "anthropic",
@@ -360,69 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-10-22",
       "summary": "Anthropic is donating Agent Skills to the Agentic AI Foundation. 70+ agent platforms have adopted the standard."
-    },
-    {
-      "title": "Podium passes $150M in AI annual recurring revenue",
-      "url": "https://x.com/garrytan/status/2113353678895919196",
-      "category": "industry",
-      "published": "2026-10-22",
-      "summary": "Garry Tan highlights Podium's $150M AI ARR after rebuilding around AI employees."
-    },
-    {
-      "title": "Q4 flash next for £300/600 - snapdragon mini PC results update",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/",
-      "category": "ai_models",
-      "published": "2026-10-22",
-      "summary": "Follow-up test on a Snapdragon mini PC: Qwen Flash Next runs at 46 tokens/s reading and 20 generating, per the poster."
-    },
-    {
-      "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
-      "category": "ai_models",
-      "published": "2026-10-22",
-      "summary": "InclusionAI announced Ling-3.0-flash-Sante, a 124B model with 5.1B active parameters, built on Ling-3.0-flash."
-    },
-    {
-      "title": "Nous releases community plugins for Hermes Agent in a new Hermes Labs Plugins repo",
-      "url": "https://github.com/nousresearch/hermes-labs-plugins",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "The plugins are experimental and may not be maintained, so review one before installing it."
-    },
-    {
-      "title": "Hermes security release out today to close Node dependency holes",
-      "url": "https://x.com/Teknium/status/2113235092873310296",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "Risk judged low, but a Node dependency's holes only closed last night. Update Hermes to today's release and read its changelog."
-    },
-    {
-      "title": "Hermes catalog adds a Cursor integration plugin",
-      "url": "https://x.com/Teknium/status/2113241021631050206",
-      "category": "agents_tooling",
-      "published": "2026-10-22",
-      "summary": "A Cursor plugin landed in the Hermes plugin catalog on 21 Oct. Check the catalog before building your own editor bridge."
-    },
-    {
-      "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-      "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
-      "category": "agents_tooling",
-      "published": "2026-10-22",
-      "summary": "Symantec found an offensive agent that takes over unprotected models to attack servers and steal databases. It runs up to 100,000 steps alone."
-    },
-    {
-      "title": "Ling-3.1-flash is getting a 1019 update, with open weights to follow",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/",
-      "category": "ai_models",
-      "published": "2026-10-22",
-      "summary": "Ant Ling's new checkpoint scores 44 on the Artificial Analysis Intelligence Index, up from 41. Open weights to follow."
-    },
-    {
-      "title": "Carbon-X, a 14B DNA and language model, released to run locally",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcew36/carbonx_the_best_open_dna_language_model_runs/",
-      "category": "ai_research",
-      "published": "2026-10-22",
-      "summary": "The makers say it beats every open language model on five DNA benchmarks and matches GPT-6.1 Sol at about 1,000x lower cost. Self-reported."
     }
   ],
   "tldrs": {
@@ -448,27 +448,27 @@
       ]
     },
     "morning": {
-      "at": "2026-10-24T08:17:24+08:00",
+      "at": "2026-10-25T08:16:34+08:00",
       "points": [
         {
-          "text": "Moonshot released Kimi K3.1 Pro, and says the open weights will be out by November 4.",
-          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+          "text": "Kimi K3.1's open weights reportedly left out cyberattack training data.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/"
         },
         {
-          "text": "Anthropic says its unreleased model is more capable and better aligned than Mythos 5.1.",
-          "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/"
+          "text": "A coding model from Qwen can now run on an 8 GB graphics card.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/"
         },
         {
-          "text": "Claude Platform is now generally available on Google Cloud, with new features arriving the same day as Anthropic's own API.",
-          "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"
+          "text": "Three fired OpenAI safety researchers deny leaking confidential information.",
+          "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/"
         },
         {
-          "text": "Sweden's government will block ChatGPT and Claude on staff work computers.",
-          "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
+          "text": "OpenAI's models are coming to Google Cloud, so companies can use them there too.",
+          "url": "https://x.com/OpenAI/status/2112988118471295323"
         },
         {
-          "text": "An outside audit found major gaps in how OpenAI monitors AI safety.",
-          "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/"
+          "text": "Apollo finds no clear AI payoff outside tech so far.",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
         }
       ]
     },

@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-10-25T08:16:34+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "Kimi K3.1's open weights reportedly left out cyberattack training data. A coding model from Qwen can now run on an 8 GB graphics card. Three fired OpenAI safety researchers deny leaking confidential information. OpenAI's models are coming to Google Cloud, so companies can use them there too. Apollo finds no clear AI payoff outside tech so far.",
+  "articles": [
+    {
+      "title": "Kimi K3.1 removes cyberattack training data from open weight release",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
+      "category": "chinese_ai",
+      "published": "2026-10-24",
+      "summary": "A Reddit post says Kimi K3.1's open weights left out cyberattack training data, citing China's export rules."
+    },
+    {
+      "title": "Qwen-Flash-Next Coder runs 262K context on an 8 GB GPU at about 70 tokens/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "Community setup with llama.cpp: most expert weights in 24 GB RAM, the smallest in 8 GB VRAM, n-gram data on a fast SSD."
+    },
+    {
+      "title": "Three fired OpenAI safety researchers say they were never told what they allegedly leaked",
+      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "category": "policy",
+      "published": "2026-10-24",
+      "summary": "Tomek Korbak, Mikita Balesni and Jasmine Wang deny sharing confidential information and tie it to their AI safety advocacy."
+    },
+    {
+      "title": "AI makes junior patent attorneys better, but may quietly stunt their growth",
+      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+      "category": "ai_research",
+      "published": "2026-10-24",
+      "summary": "A 3-month field test with 133 patent attorneys: juniors gained most with AI, but only seniors kept the gains without it."
+    },
+    {
+      "title": "Block's Dessa speech model is trained on human speech to catch emotion text models miss",
+      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "Dessa works on audio directly, not text, to pick up emotion, sarcasm and pauses. It runs locally on a MacBook Pro M4 Max and is not public."
+    },
+    {
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "category": "industry",
+      "published": "2026-10-24",
+      "summary": "Apollo finds no clear AI payoff outside tech so far. Revenue and margins for the rest of the S&P 493 are flat."
+    },
+    {
+      "title": "M6 Mac Mini (32GB): Qwen3.8-27B now runs on the Apple Neural Engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "ANEMLL Forge 0.2.1 runs Qwen3.8-27B with up to 192K context on a 32GB M6 Mac Mini. Speed depends on the content type."
+    },
+    {
+      "title": "Jensen Huang closes GTC Berlin 2026 with a Hermes Agent demo",
+      "url": "https://x.com/NousResearch/status/2113010017645244623",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "On NVIDIA RTX Spark, Hermes planned a course and trained simulated ducks for a Hugging Face Microduck robot."
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud's Model Garden",
+      "url": "https://x.com/OpenAI/status/2112988118471295323",
+      "category": "industry",
+      "published": "2026-10-22",
+      "summary": "OpenAI says frontier models and Codex agent workflows will be available in Google Cloud, where enterprises already build."
+    },
+    {
+      "title": "Dario Amodei answers a critic of Anthropic's policy stance",
+      "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+      "category": "anthropic",
+      "published": "2026-10-21",
+      "summary": "Amodei says some criticised examples were mistakes, but the rest follow from Anthropic's long-held theory of change."
+    }
+  ]
+}
