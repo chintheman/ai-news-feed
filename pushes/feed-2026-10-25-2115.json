@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-10-25T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 6,
+  "tldr": "Nvidia released Flora, an open tool that labels robot videos. Nvidia says it costs 72 cents an hour of footage, against $88 with GPT-6 Astra. Nous Research added an official Meshy plugin, so Hermes can make 3D models from a description or a photo. Another Nous plugin gives Hermes its own desktop that a teammate can watch and take over. Anthropic is handing its Agent Skills format to an open, neutral group, so it is less tied to one company.",
+  "articles": [
+    {
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "category": "platforms_integration",
+      "published": "2026-10-25",
+      "summary": "Open data engine Flora labels an hour of robot video for 72 cents, vs $88 with GPT-6 Astra. Built on three fine-tuned Qwen3.5 models. Vendor figures."
+    },
+    {
+      "title": "Hermes Agent gets an official Meshy 3D plugin",
+      "url": "https://x.com/NousResearch/status/2113077994315034967",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Ask Hermes for a low-poly model for Godot or a printable model from a photo. Meshy's API needs a paid plan; first month of Pro is $1."
+    },
+    {
+      "title": "trycua Spaces plugin gives Hermes its own desktop that teammates can watch",
+      "url": "https://x.com/NousResearch/status/2113391397760041329",
+      "category": "hermes_nous",
+      "published": "2026-10-23",
+      "summary": "Hermes gets a Linux, macOS or Windows space on your own hardware. Teammates can watch, step in and hand it back. Check isolation first."
+    },
+    {
+      "title": "Nous opens Hermes Labs Plugins repo for community plugins",
+      "url": "https://x.com/Teknium/status/2113278395945779386",
+      "category": "hermes_nous",
+      "published": "2026-10-22",
+      "summary": "Experimental community plugins at github.com/nousresearch/hermes-labs-plugins. Some are unmaintained; forks are encouraged."
+    },
+    {
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "category": "agents_tooling",
+      "published": "2026-10-23",
+      "summary": "Agent Skills began as a Claude Code experiment. It now sits beside MCP at the Agentic AI Foundation, so skill files are more likely to stay portable."
+    },
+    {
+      "title": "Dario Amodei replies to a critique of Anthropic",
+      "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+      "category": "policy",
+      "published": "2026-10-21",
+      "summary": "Long reply to a critic. Says some criticized examples were mistakes, and defends the rest as part of Anthropic's long-held strategy."
+    }
+  ]
+}

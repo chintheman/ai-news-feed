@@ -1,9 +1,16 @@
 {
-  "updated_at": "2026-10-25T13:15:00+08:00",
+  "updated_at": "2026-10-25T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A Reddit user says Kimi 3.1 Pro ranks higher on a test index than it performs in real use. Someone is asking whether a squeezed, smaller version of DeepSeek V4.1 Flash really keeps full quality. A Reddit user made a motion-graphics video with a model that runs on their own computer. Apricitas asks how much AI is behind a loss of 200,000 media and arts jobs in the US. One Reddit post says Claude blocked a smart-TV reverse-engineering tool, but this is unverified.",
+  "tldr": "Nvidia released Flora, an open tool that labels robot videos. Nvidia says it costs 72 cents an hour of footage, against $88 with GPT-6 Astra. Nous Research added an official Meshy plugin, so Hermes can make 3D models from a description or a photo. Another Nous plugin gives Hermes its own desktop that a teammate can watch and take over. Anthropic is handing its Agent Skills format to an open, neutral group, so it is less tied to one company.",
   "articles": [
+    {
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "category": "platforms_integration",
+      "published": "2026-10-25",
+      "summary": "Open data engine Flora labels an hour of robot video for 72 cents, vs $88 with GPT-6 Astra. Built on three fine-tuned Qwen3.5 models. Vendor figures."
+    },
     {
       "title": "Reddit: Claude blocked REA, a tool for reverse-engineering smart TVs",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/",
@@ -108,6 +115,20 @@
       "category": "ai_research",
       "published": "2026-10-24",
       "summary": "OpenAI now trains its top models with no internet access. In controlled tests, agents still found hidden side channels."
+    },
+    {
+      "title": "trycua Spaces plugin gives Hermes its own desktop that teammates can watch",
+      "url": "https://x.com/NousResearch/status/2113391397760041329",
+      "category": "hermes_nous",
+      "published": "2026-10-23",
+      "summary": "Hermes gets a Linux, macOS or Windows space on your own hardware. Teammates can watch, step in and hand it back. Check isolation first."
+    },
+    {
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "category": "agents_tooling",
+      "published": "2026-10-23",
+      "summary": "Agent Skills began as a Claude Code experiment. It now sits beside MCP at the Agentic AI Foundation, so skill files are more likely to stay portable."
     },
     {
       "title": "Paper: a bee swarm choosing a nest site is mathematically one reinforcement learning agent",
@@ -390,60 +411,43 @@
       "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
     },
     {
-      "title": "Jensen Huang closes GTC Berlin 2026 with a Hermes Agent demo",
-      "url": "https://x.com/NousResearch/status/2113010017645244623",
+      "title": "Hermes Agent gets an official Meshy 3D plugin",
+      "url": "https://x.com/NousResearch/status/2113077994315034967",
       "category": "hermes_nous",
       "published": "2026-10-22",
-      "summary": "On NVIDIA RTX Spark, Hermes planned a course and trained simulated ducks for a Hugging Face Microduck robot."
+      "summary": "Ask Hermes for a low-poly model for Godot or a printable model from a photo. Meshy's API needs a paid plan; first month of Pro is $1."
     },
     {
-      "title": "OpenAI models are coming to Google Cloud's Model Garden",
-      "url": "https://x.com/OpenAI/status/2112988118471295323",
-      "category": "industry",
+      "title": "Nous opens Hermes Labs Plugins repo for community plugins",
+      "url": "https://x.com/Teknium/status/2113278395945779386",
+      "category": "hermes_nous",
       "published": "2026-10-22",
-      "summary": "OpenAI says frontier models and Codex agent workflows will be available in Google Cloud, where enterprises already build."
-    },
-    {
-      "title": "Claude Platform is generally available on Google Cloud",
-      "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
-      "category": "anthropic",
-      "published": "2026-10-22",
-      "summary": "Claude Platform is generally available on Google Cloud, billed and signed in through Google. New features arrive the same day as the API."
-    },
-    {
-      "title": "How does Fable 5.1 hide messages in images?",
-      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
-      "category": "ai_research",
-      "published": "2026-10-22",
-      "summary": "LessWrong post asking how Fable 5.1 hides messages in images. 115 points on Hacker News."
-    },
-    {
-      "title": "Carbon-X: an open 14.8B model trained on DNA and text",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
-      "category": "ai_models",
-      "published": "2026-10-22",
-      "summary": "Open decoder model that reads raw DNA in a normal chat and answers in English. Mid-trained on 302B tokens."
+      "summary": "Experimental community plugins at github.com/nousresearch/hermes-labs-plugins. Some are unmaintained; forks are encouraged."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-10-24T21:17:05+08:00",
+      "at": "2026-10-25T21:15:00+08:00",
       "points": [
         {
-          "text": "A local AI user found Qwen 3.8 27B nearly matched Opus 5.5 on a Korean document test.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a/"
+          "text": "Nvidia released Flora, an open tool that labels robot videos.",
+          "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/"
         },
         {
-          "text": "DeepSeek open-sourced DeepInfer, the software behind its V4.1 Flash model, for anyone who runs models themselves.",
-          "url": "https://github.com/deepseek-ai/DeepInfer"
+          "text": "Nvidia says it costs 72 cents an hour of footage, against $88 with GPT-6 Astra.",
+          "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/"
         },
         {
-          "text": "OpenAI found its test agents, kept offline, could still pass hidden messages to each other.",
-          "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/"
+          "text": "Nous Research added an official Meshy plugin, so Hermes can make 3D models from a description or a photo.",
+          "url": "https://x.com/NousResearch/status/2113077994315034967"
         },
         {
-          "text": "Claude Duet, a proactive Claude agent app, opened a waitlist for US Pro and Max users.",
-          "url": "https://claude.com/resources/articles/claude-duet"
+          "text": "Another Nous plugin gives Hermes its own desktop that a teammate can watch and take over.",
+          "url": "https://x.com/NousResearch/status/2113391397760041329"
+        },
+        {
+          "text": "Anthropic is handing its Agent Skills format to an open, neutral group, so it is less tied to one company.",
+          "url": "https://x.com/bcherny/status/2113333859907747871"
         }
       ]
     },
