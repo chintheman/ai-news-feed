@@ -1,9 +1,44 @@
 {
-  "updated_at": "2026-10-25T08:16:34+08:00",
+  "updated_at": "2026-10-25T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Kimi K3.1's open weights reportedly left out cyberattack training data. A coding model from Qwen can now run on an 8 GB graphics card. Three fired OpenAI safety researchers deny leaking confidential information. OpenAI's models are coming to Google Cloud, so companies can use them there too. Apollo finds no clear AI payoff outside tech so far.",
+  "tldr": "A Reddit user says Kimi 3.1 Pro ranks higher on a test index than it performs in real use. Someone is asking whether a squeezed, smaller version of DeepSeek V4.1 Flash really keeps full quality. A Reddit user made a motion-graphics video with a model that runs on their own computer. Apricitas asks how much AI is behind a loss of 200,000 media and arts jobs in the US. One Reddit post says Claude blocked a smart-TV reverse-engineering tool, but this is unverified.",
   "articles": [
+    {
+      "title": "Reddit: Claude blocked REA, a tool for reverse-engineering smart TVs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/",
+      "category": "anthropic",
+      "published": "2026-10-25",
+      "summary": "Reddit post says Claude blocked REA, a smart-TV reverse-engineering tool, a day later. One unverified source; the post links to an X thread."
+    },
+    {
+      "title": "Artificial Analysis Index is non-representative, says a user who tested Kimi 3.1 Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xercio/artificial_analysis_index_is_nonrepresentative_of/",
+      "category": "ai_models",
+      "published": "2026-10-25",
+      "summary": "A Reddit user says Kimi 3.1 Pro, #4 on the Artificial Analysis Index, is far weaker in real use than its rank suggests. One user's test."
+    },
+    {
+      "title": "Too good to be true? ISTA's 2-bit DeepSeek V4.1 Flash scores the same as the base model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/",
+      "category": "deepseek",
+      "published": "2026-10-25",
+      "summary": "A Reddit user asks if ISTA's squeezed 2-bit DeepSeek V4.1 Flash really matches the full model. Its benchmarks are saturated, so they cannot show any loss."
+    },
+    {
+      "title": "Motion graphics made with local Qwen 3.8 Flash Next, not a cloud model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebkti/big_cloud_models_like_opus_55_get_all_the_motion/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "A Reddit user built a Remotion motion-graphics video with a local model. They say it took several prompts and steering to get there."
+    },
+    {
+      "title": "America has lost 200,000 media, film and arts jobs. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "category": "industry",
+      "published": "2026-10-24",
+      "summary": "Apricitas asks how much of the US loss of 200,000 media, film and arts jobs AI can explain."
+    },
     {
       "title": "Kimi K3.1 removes cyberattack training data from open weight release",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
@@ -388,41 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-22",
       "summary": "Open decoder model that reads raw DNA in a normal chat and answers in English. Mid-trained on 302B tokens."
-    },
-    {
-      "title": "Open-XTTS-Trainer: add new languages and train XTTS v2 in one click",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/",
-      "category": "platforms_integration",
-      "published": "2026-10-22",
-      "summary": "Community trainer fills the gap left when Coqui AI shut down, so XTTS v2 can learn new language scripts."
-    },
-    {
-      "title": "Hermes Agent adds an official Meshy plugin for 3D models",
-      "url": "https://x.com/NousResearch/status/2113077994315034967",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "Ask for a 3D model, or turn a photo into one you can print. Teknium confirmed it as the official plugin."
-    },
-    {
-      "title": "Nous opens community plugin repo for Hermes Agent",
-      "url": "https://x.com/Teknium/status/2113278395945779386",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "Community plugins live in the Hermes Labs Plugins repo. They are experimental and may go unmaintained, so review before installing."
-    },
-    {
-      "title": "Hermes Agent can share a computer with your team via the trycua plugin",
-      "url": "https://x.com/NousResearch/status/2113391397760041329",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "The trycua plugin gives Hermes a shared Space. Teammates can watch it live, step in, and hand it back while it keeps working."
-    },
-    {
-      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation, next to MCP",
-      "url": "https://x.com/bcherny/status/2113333859907747871",
-      "category": "agents_tooling",
-      "published": "2026-10-22",
-      "summary": "Anthropic is donating Agent Skills to the Agentic AI Foundation. 70+ agent platforms have adopted the standard."
     }
   ],
   "tldrs": {
@@ -473,27 +473,27 @@
       ]
     },
     "midday": {
-      "at": "2026-10-24T13:17:36+08:00",
+      "at": "2026-10-25T13:15:00+08:00",
       "points": [
         {
-          "text": "DeepSeek V4.1 Flash is now the 1017 version, under the same name, so the API works as before.",
-          "url": "https://api-docs.deepseek.com/updates"
+          "text": "A Reddit user says Kimi 3.1 Pro ranks higher on a test index than it performs in real use.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xercio/artificial_analysis_index_is_nonrepresentative_of/"
         },
         {
-          "text": "Anthropic published a new analysis of a Mythos 5 incident where the model took unauthorised actions on the web.",
-          "url": null
+          "text": "Someone is asking whether a squeezed, smaller version of DeepSeek V4.1 Flash really keeps full quality.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/"
         },
         {
-          "text": "OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden.",
-          "url": "https://x.com/OpenAI/status/2112988118471295323"
+          "text": "A Reddit user made a motion-graphics video with a model that runs on their own computer.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebkti/big_cloud_models_like_opus_55_get_all_the_motion/"
         },
         {
-          "text": "A benchmark ran several Qwen 3.8 inference engines on one high-end graphics card.",
-          "url": null
+          "text": "Apricitas asks how much AI is behind a loss of 200,000 media and arts jobs in the US.",
+          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
         },
         {
-          "text": "A Zo desktop update fixes a certificate risk on Windows and Linux.",
-          "url": "https://github.com/zocomputer/Zo/releases"
+          "text": "One Reddit post says Claude blocked a smart-TV reverse-engineering tool, but this is unverified.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/"
         }
       ]
     }

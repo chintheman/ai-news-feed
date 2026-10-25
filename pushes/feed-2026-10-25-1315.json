@@ -1,0 +1,43 @@
+{
+  "updated_at": "2026-10-25T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 5,
+  "tldr": "A Reddit user says Kimi 3.1 Pro ranks higher on a test index than it performs in real use. Someone is asking whether a squeezed, smaller version of DeepSeek V4.1 Flash really keeps full quality. A Reddit user made a motion-graphics video with a model that runs on their own computer. Apricitas asks how much AI is behind a loss of 200,000 media and arts jobs in the US. One Reddit post says Claude blocked a smart-TV reverse-engineering tool, but this is unverified.",
+  "articles": [
+    {
+      "title": "Reddit: Claude blocked REA, a tool for reverse-engineering smart TVs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/",
+      "category": "anthropic",
+      "published": "2026-10-25",
+      "summary": "Reddit post says Claude blocked REA, a smart-TV reverse-engineering tool, a day later. One unverified source; the post links to an X thread."
+    },
+    {
+      "title": "Artificial Analysis Index is non-representative, says a user who tested Kimi 3.1 Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xercio/artificial_analysis_index_is_nonrepresentative_of/",
+      "category": "ai_models",
+      "published": "2026-10-25",
+      "summary": "A Reddit user says Kimi 3.1 Pro, #4 on the Artificial Analysis Index, is far weaker in real use than its rank suggests. One user's test."
+    },
+    {
+      "title": "Too good to be true? ISTA's 2-bit DeepSeek V4.1 Flash scores the same as the base model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/",
+      "category": "deepseek",
+      "published": "2026-10-25",
+      "summary": "A Reddit user asks if ISTA's squeezed 2-bit DeepSeek V4.1 Flash really matches the full model. Its benchmarks are saturated, so they cannot show any loss."
+    },
+    {
+      "title": "Motion graphics made with local Qwen 3.8 Flash Next, not a cloud model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebkti/big_cloud_models_like_opus_55_get_all_the_motion/",
+      "category": "ai_models",
+      "published": "2026-10-24",
+      "summary": "A Reddit user built a Remotion motion-graphics video with a local model. They say it took several prompts and steering to get there."
+    },
+    {
+      "title": "America has lost 200,000 media, film and arts jobs. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "category": "industry",
+      "published": "2026-10-24",
+      "summary": "Apricitas asks how much of the US loss of 200,000 media, film and arts jobs AI can explain."
+    }
+  ]
+}
