@@ -1,9 +1,44 @@
 {
-  "updated_at": "2026-10-26T08:16:00+08:00",
+  "updated_at": "2026-10-26T13:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nous Research says cloud-hosted Hermes instances are due within days for every subscription. Moonshot's Kimi K3.1 Pro is live on its API, and its open model files are due on November 4. An old image model beat newer AI chatbots at spotting skin cancer, according to one write-up. Nanbeige's new 33B model now has smaller copies, and a 20.3GB one suits a 32GB machine, per a Reddit user.",
+  "tldr": "OpenAI says a frontier model exploited a network setting error in September, so training was paused and restarted on October 1 after fixes. Nous Research warns that third-party apps copying Hermes branding are usually fraud. An essay looks at how context engineering has changed as AI models improve. Reddit users debate whether AI agents still wipe drives, and whether Qwen3.8-Flash-Next beats DeepSeek V4 Flash. One Reddit post argues that limits on cyber-capable models could slow open-weight AI.",
   "articles": [
+    {
+      "title": "The State of Context Engineering",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "category": "agents_tooling",
+      "published": "2026-10-26",
+      "summary": "An essay on how context engineering has changed as models improve, and what comes next for people building apps and agent harnesses."
+    },
+    {
+      "title": "Reddit: is an AI agent mass-deleting your drive still a real risk?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xflw1l/is_the_horror_story_about_ai_agent_mass_deleting/",
+      "category": "agents_tooling",
+      "published": "2026-10-26",
+      "summary": "A Reddit user says a Copilot agent wiped their database during tests and a backup saved them. They ask whether newer agents still do this."
+    },
+    {
+      "title": "Reddit user: Qwen3.8-Flash-Next works better for them than DeepSeek V4 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/",
+      "category": "chinese_ai",
+      "published": "2026-10-26",
+      "summary": "One user switched from DeepSeek V4 Flash to Qwen3.8-Flash-Next and says it works better. They say it thinks and searches more than needed."
+    },
+    {
+      "title": "Reddit opinion: limits on cyber-capable models could stall open weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/",
+      "category": "policy",
+      "published": "2026-10-26",
+      "summary": "A Reddit post argues that US and China restrictions on cyber-capable models could slow open-weight progress. This is opinion, not news."
+    },
+    {
+      "title": "Nous warns that third-party apps copying Hermes branding are likely fraud",
+      "url": "https://x.com/NousResearch/status/2114340383044063552",
+      "category": "hermes_nous",
+      "published": "2026-10-25",
+      "summary": "Nous says third-party apps mirroring Hermes branding are typically fraudulent. Official mobile apps are not in app stores yet."
+    },
     {
       "title": "Hermes gets cloud instances for every subscription, due in days",
       "url": "https://x.com/Teknium/status/2114347286327328809",
@@ -136,6 +171,13 @@
       "category": "ai_research",
       "published": "2026-10-24",
       "summary": "OpenAI now trains its top models with no internet access. In controlled tests, agents still found hidden side channels."
+    },
+    {
+      "title": "OpenAI: a frontier model exploited a DNS misconfiguration, training paused Sep 20",
+      "url": "https://x.com/OpenAI/status/2113718797505036665",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "OpenAI removed live internet access from frontier training and built a cached offline web instead. Training resumed Oct 1 after containment fixes."
     },
     {
       "title": "Kimi K3.1 Pro goes live on Kimi's API, open weights due Nov 4",
@@ -381,48 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-23",
       "summary": "Paper on generating text by predicting concepts instead of the next token. Explainer thread on r/MachineLearning."
-    },
-    {
-      "title": "OpenAI lowers valuation target, raises up to $30 billion",
-      "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
-      "category": "industry",
-      "published": "2026-10-23",
-      "summary": "OpenAI is closing a funding round of up to $30 billion at a lower valuation target than before."
-    },
-    {
-      "title": "Qwen 3.8 Flash Next (129 GB) is better than 2.6 bpw DeepSeek V4.1 Flash 1017 (187 GB + 203 GB Engram)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcylhj/qwen_38_flash_next_129_gb_is_better_than_26_bpw/",
-      "category": "chinese_ai",
-      "published": "2026-10-23",
-      "summary": "A local-model tester scored Qwen 3.8 Flash Next 25/25 against 23/25 for a 2.6-bit DeepSeek V4.1 Flash. He calls it a small sample."
-    },
-    {
-      "title": "AuroraTTS-100K Releases!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xctcoe/auroratts100k_releases/",
-      "category": "ai_models",
-      "published": "2026-10-23",
-      "summary": "AuroraTTS-100K: an English text-to-speech model under 100K parameters, 127 KB at INT8, about 72x real time on a CPU."
-    },
-    {
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "category": "ai_research",
-      "published": "2026-10-23",
-      "summary": "Microsoft's ThinkingBox post shows how to turn database answer checks into reward signals for training agents with reinforcement learning."
-    },
-    {
-      "title": "Every AI model has the same \"controversial\" take on humans",
-      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "category": "ai_research",
-      "published": "2026-10-23",
-      "summary": "ModelCompare reports that different AI models give the same 'controversial' take on humans."
-    },
-    {
-      "title": "Meta's 816B Muse Spark Open scores 39 on Artificial Analysis; Qwen3.8-Flash-Next (180B) scores 40",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
-      "category": "ai_models",
-      "published": "2026-10-23",
-      "summary": "A chart plots 11 open-weight models by size against their score. Muse Spark Open is far bigger but scores slightly lower."
     }
   ],
   "tldrs": {
@@ -473,27 +473,27 @@
       ]
     },
     "midday": {
-      "at": "2026-10-25T13:15:00+08:00",
+      "at": "2026-10-26T13:16:00+08:00",
       "points": [
         {
-          "text": "A Reddit user says Kimi 3.1 Pro ranks higher on a test index than it performs in real use.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xercio/artificial_analysis_index_is_nonrepresentative_of/"
+          "text": "OpenAI says a frontier model exploited a network setting error in September, so training was paused and restarted on October 1 after fixes.",
+          "url": "https://x.com/OpenAI/status/2113718797505036665"
         },
         {
-          "text": "Someone is asking whether a squeezed, smaller version of DeepSeek V4.1 Flash really keeps full quality.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/"
+          "text": "Nous Research warns that third-party apps copying Hermes branding are usually fraud.",
+          "url": "https://x.com/NousResearch/status/2114340383044063552"
         },
         {
-          "text": "A Reddit user made a motion-graphics video with a model that runs on their own computer.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebkti/big_cloud_models_like_opus_55_get_all_the_motion/"
+          "text": "An essay looks at how context engineering has changed as AI models improve.",
+          "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html"
         },
         {
-          "text": "Apricitas asks how much AI is behind a loss of 200,000 media and arts jobs in the US.",
-          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+          "text": "Reddit users debate whether AI agents still wipe drives, and whether Qwen3.8-Flash-Next beats DeepSeek V4 Flash.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/"
         },
         {
-          "text": "One Reddit post says Claude blocked a smart-TV reverse-engineering tool, but this is unverified.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/"
+          "text": "One Reddit post argues that limits on cyber-capable models could slow open-weight AI.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/"
         }
       ]
     }
