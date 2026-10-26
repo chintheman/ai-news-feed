@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-10-26T08:16:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 4,
+  "tldr": "Nous Research says cloud-hosted Hermes instances are due within days for every subscription. Moonshot's Kimi K3.1 Pro is live on its API, and its open model files are due on November 4. An old image model beat newer AI chatbots at spotting skin cancer, according to one write-up. Nanbeige's new 33B model now has smaller copies, and a 20.3GB one suits a 32GB machine, per a Reddit user.",
+  "articles": [
+    {
+      "title": "Kimi K3.1 Pro goes live on Kimi's API, open weights due Nov 4",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "category": "moonshot_ai",
+      "published": "2026-10-23",
+      "summary": "Kimi K3.1 Pro is live on Kimi's API with 1M-token context and multimodal input. Open weights are due Nov 4, so self-hosting becomes possible then."
+    },
+    {
+      "title": "Hermes gets cloud instances for every subscription, due in days",
+      "url": "https://x.com/Teknium/status/2114347286327328809",
+      "category": "hermes_nous",
+      "published": "2026-10-25",
+      "summary": "Nous says every subscription gets a cloud Hermes with inference, tools and an agent instance. Announced, not shipped yet."
+    },
+    {
+      "title": "A 10-year-old CNN beats frontier LLMs at skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "category": "ai_research",
+      "published": "2026-10-25",
+      "summary": "A 10-year-old CNN image model beat frontier LLMs at diagnosing skin cancer, per a Lynch Lab write-up. Check the write-up for test details."
+    },
+    {
+      "title": "Nanbeige4.3-33B quantised GGUF copies, 13.7GB to 35.2GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfeho8/nanbeige4333b_quantised_gguf/",
+      "category": "ai_models",
+      "published": "2026-10-25",
+      "summary": "Quantised copies of Nanbeige4.3-33B range from 13.7GB to 35.2GB. Per a Reddit user, the 20.3GB copy keeps 92% top-1 agreement with BF16."
+    }
+  ]
+}

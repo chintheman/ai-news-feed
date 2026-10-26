@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-10-25T21:15:00+08:00",
+  "updated_at": "2026-10-26T08:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nvidia released Flora, an open tool that labels robot videos. Nvidia says it costs 72 cents an hour of footage, against $88 with GPT-6 Astra. Nous Research added an official Meshy plugin, so Hermes can make 3D models from a description or a photo. Another Nous plugin gives Hermes its own desktop that a teammate can watch and take over. Anthropic is handing its Agent Skills format to an open, neutral group, so it is less tied to one company.",
+  "tldr": "Nous Research says cloud-hosted Hermes instances are due within days for every subscription. Moonshot's Kimi K3.1 Pro is live on its API, and its open model files are due on November 4. An old image model beat newer AI chatbots at spotting skin cancer, according to one write-up. Nanbeige's new 33B model now has smaller copies, and a 20.3GB one suits a 32GB machine, per a Reddit user.",
   "articles": [
+    {
+      "title": "Hermes gets cloud instances for every subscription, due in days",
+      "url": "https://x.com/Teknium/status/2114347286327328809",
+      "category": "hermes_nous",
+      "published": "2026-10-25",
+      "summary": "Nous says every subscription gets a cloud Hermes with inference, tools and an agent instance. Announced, not shipped yet."
+    },
+    {
+      "title": "A 10-year-old CNN beats frontier LLMs at skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "category": "ai_research",
+      "published": "2026-10-25",
+      "summary": "A 10-year-old CNN image model beat frontier LLMs at diagnosing skin cancer, per a Lynch Lab write-up. Check the write-up for test details."
+    },
+    {
+      "title": "Nanbeige4.3-33B quantised GGUF copies, 13.7GB to 35.2GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfeho8/nanbeige4333b_quantised_gguf/",
+      "category": "ai_models",
+      "published": "2026-10-25",
+      "summary": "Quantised copies of Nanbeige4.3-33B range from 13.7GB to 35.2GB. Per a Reddit user, the 20.3GB copy keeps 92% top-1 agreement with BF16."
+    },
     {
       "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
       "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
@@ -117,6 +138,13 @@
       "summary": "OpenAI now trains its top models with no internet access. In controlled tests, agents still found hidden side channels."
     },
     {
+      "title": "Kimi K3.1 Pro goes live on Kimi's API, open weights due Nov 4",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "category": "moonshot_ai",
+      "published": "2026-10-23",
+      "summary": "Kimi K3.1 Pro is live on Kimi's API with 1M-token context and multimodal input. Open weights are due Nov 4, so self-hosting becomes possible then."
+    },
+    {
       "title": "trycua Spaces plugin gives Hermes its own desktop that teammates can watch",
       "url": "https://x.com/NousResearch/status/2113391397760041329",
       "category": "hermes_nous",
@@ -227,13 +255,6 @@
       "category": "ai_models",
       "published": "2026-10-23",
       "summary": "Dessa is a full-duplex speech model that can listen and talk at the same time. Block says it was trained only on human conversation."
-    },
-    {
-      "title": "Kimi K3.1 Pro: Moonshot's new open-weight model goes live",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "category": "moonshot_ai",
-      "published": "2026-10-23",
-      "summary": "Kimi K3.1 Pro and Highspeed are live on Moonshot's API. Open weights are promised by November 4, 2026."
     },
     {
       "title": "NVIDIA posts Nemotron-3.5-Bolt-E4B, a small 4GB model",
@@ -402,27 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-23",
       "summary": "A chart plots 11 open-weight models by size against their score. Muse Spark Open is far bigger but scores slightly lower."
-    },
-    {
-      "title": "NVIDIA/OpenShell: safe, private runtime for autonomous AI agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/",
-      "category": "agents_tooling",
-      "published": "2026-10-23",
-      "summary": "NVIDIA's OpenShell project is a runtime for autonomous AI agents, pitched as safe and private."
-    },
-    {
-      "title": "Hermes Agent gets an official Meshy 3D plugin",
-      "url": "https://x.com/NousResearch/status/2113077994315034967",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "Ask Hermes for a low-poly model for Godot or a printable model from a photo. Meshy's API needs a paid plan; first month of Pro is $1."
-    },
-    {
-      "title": "Nous opens Hermes Labs Plugins repo for community plugins",
-      "url": "https://x.com/Teknium/status/2113278395945779386",
-      "category": "hermes_nous",
-      "published": "2026-10-22",
-      "summary": "Experimental community plugins at github.com/nousresearch/hermes-labs-plugins. Some are unmaintained; forks are encouraged."
     }
   ],
   "tldrs": {
@@ -452,27 +452,23 @@
       ]
     },
     "morning": {
-      "at": "2026-10-25T08:16:34+08:00",
+      "at": "2026-10-26T08:16:00+08:00",
       "points": [
         {
-          "text": "Kimi K3.1's open weights reportedly left out cyberattack training data.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/"
+          "text": "Nous Research says cloud-hosted Hermes instances are due within days for every subscription.",
+          "url": "https://x.com/Teknium/status/2114347286327328809"
         },
         {
-          "text": "A coding model from Qwen can now run on an 8 GB graphics card.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/"
+          "text": "Moonshot's Kimi K3.1 Pro is live on its API, and its open model files are due on November 4.",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
         },
         {
-          "text": "Three fired OpenAI safety researchers deny leaking confidential information.",
-          "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/"
+          "text": "An old image model beat newer AI chatbots at spotting skin cancer, according to one write-up.",
+          "url": "https://lynchlab.net/llm-skin-cancer"
         },
         {
-          "text": "OpenAI's models are coming to Google Cloud, so companies can use them there too.",
-          "url": "https://x.com/OpenAI/status/2112988118471295323"
-        },
-        {
-          "text": "Apollo finds no clear AI payoff outside tech so far.",
-          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+          "text": "Nanbeige's new 33B model now has smaller copies, and a 20.3GB one suits a 32GB machine, per a Reddit user.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfeho8/nanbeige4333b_quantised_gguf/"
         }
       ]
     },
