@@ -1,0 +1,106 @@
+{
+  "updated_at": "2026-10-27T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 14,
+  "tldr": "OpenAI released GPT-6.1 Terra, and its API price is half the price of GPT-5.6 Terra. Moonshot's Kimi K3.1 Pro is live, and its open model files are due on November 4. A new Hermes Agent plugin lets each helper agent run on a different model. Anthropic says Claude will never show ads, in a letter filed with its stock market listing.",
+  "articles": [
+    {
+      "title": "OpenAI releases GPT-6.1 Terra in ChatGPT and the API",
+      "url": "https://x.com/OpenAI/status/2114780720170164735",
+      "category": "ai_models",
+      "published": "2026-10-26",
+      "summary": "GPT-6.1 Terra rolls out to paid ChatGPT plans and is in the API as gpt-6.1-terra. OpenAI says its standard API price is 50% below GPT-5.6 Terra."
+    },
+    {
+      "title": "Moonshot releases Kimi K3.1 Pro with 1M-token context",
+      "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
+      "category": "moonshot_ai",
+      "published": "2026-10-23",
+      "summary": "Kimi K3.1 Pro is a multimodal mixture-of-experts model: 2.8T total and 104B active parameters. Open weights are promised by November 4, 2026."
+    },
+    {
+      "title": "Hermes Agent gets an Advanced Delegation plugin",
+      "url": "https://x.com/NousResearch/status/2114753914939863260",
+      "category": "hermes_nous",
+      "published": "2026-10-26",
+      "summary": "The orchestrator can assign a different model or profile to each subagent, using routes the user sets up. Docs are on the Hermes Agent site."
+    },
+    {
+      "title": "GPT-6.1 Terra now selectable in Hermes Agent",
+      "url": "https://x.com/Teknium/status/2114920088357032109",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Teknium says GPT-6.1 Terra is available in Hermes Agent through Nous Portal and OpenRouter."
+    },
+    {
+      "title": "Teknium: cloud Hermes instances and apps due within days",
+      "url": "https://x.com/Teknium/status/2114347286327328809",
+      "category": "hermes_nous",
+      "published": "2026-10-25",
+      "summary": "Teknium says every subscription gets a cloud Hermes Agent instance, with mobile and desktop apps able to connect. Timing is stated as days, not confirmed."
+    },
+    {
+      "title": "Teknium: try early cloud features on the 'main' release channel",
+      "url": "https://x.com/Teknium/status/2114919004632764585",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Switching Hermes Agent from the 'stable' to the 'main' release channel gives early access to the cloud and app features."
+    },
+    {
+      "title": "China's new AI and employment policy backs open source and agent apps",
+      "url": "https://x.com/julien_c/status/2113649956393226700",
+      "category": "policy",
+      "published": "2026-10-23",
+      "summary": "The policy supports open-source AI research, AI startups and agent apps, and enterprise adoption. It also assesses job losses and expands AI skills training."
+    },
+    {
+      "title": "HiSTEVE: AI agents that play open-world games through a human interface",
+      "url": "https://huggingface.co/papers/2610.31162",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "A vision-language-action agent that plays open-world games using the same interface a human uses. Paper only; no code confirmed in the post."
+    },
+    {
+      "title": "On-Policy Self-Training: LLM self-improvement without curated data",
+      "url": "https://huggingface.co/papers/2610.32770",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "The paper claims language models can improve themselves without curated training data. This is a paper claim and has not been independently verified."
+    },
+    {
+      "title": "Debunking Cohere's claim about Qwen 3.8 Flash Next uploading to an Alibaba URL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgopmj/debunking_coheres_claim_of_qwen_38_flash_next/",
+      "category": "chinese_ai",
+      "published": "2026-10-27",
+      "summary": "A LocalLLaMA post disputes Cohere's claim that Qwen 3.8 Flash Next tried to send a file to a remote URL. It links to published traces."
+    },
+    {
+      "title": "inclusionAI/Ling-3.1-flash-1019 on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgpo4q/inclusionailing31flash1019_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "inclusionAI's upgraded Ling-3.1-flash: 560B total and 25B active parameters per token, with a 1M-token context window."
+    },
+    {
+      "title": "OpenAI's partner content reaches ChatGPT pre-summarized, the rest gets raw scraps",
+      "url": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
+      "category": "industry",
+      "published": "2026-10-27",
+      "summary": "Content from OpenAI's licensing partners appears to reach ChatGPT through a dedicated pipeline that gives it priority over other web content."
+    },
+    {
+      "title": "Anthropic renews its pledge that Claude will never show ads",
+      "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
+      "category": "anthropic",
+      "published": "2026-10-27",
+      "summary": "In a cover letter with its IPO filing, Anthropic says the chatbot's only incentive should be to give helpful answers, with no ads."
+    },
+    {
+      "title": "OpenAI's Ted Sanders on picking the right GPT model",
+      "url": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "GPT-6.1 Terra beats the larger Astra at technical communication and costs far less, but trails it in most other areas, per Sanders."
+    }
+  ]
+}
