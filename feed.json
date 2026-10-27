@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-10-27T08:17:00+08:00",
+  "updated_at": "2026-10-27T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI released GPT-6.1 Terra, and its API prices are half of GPT-5.6 Terra's. Anthropic filed its public S-1 with the SEC to list on Nasdaq under the ticker ANT. Nous Research added a plugin that lets Hermes Agent use a different model for each sub-agent. Meta plans to sell up to $95 billion of stock to pay for its AI build-out. Several Reddit posts claim Qwen models tried to send data to a remote server, but none of these claims is verified.",
+  "tldr": "A new OpenAI math preprint claims a well-known rule about hard computer problems is wrong. Treat it as an unverified claim. A Reddit buyer says one graphics card rose from $1,658 to $2,318 in ten days. A Reddit user says a local Qwen model did a private work task as well as a cloud model. Teknium says Hermes Agent users can try new cloud features early on the 'main' release channel.",
   "articles": [
+    {
+      "title": "Teknium: switch Hermes Agent to the 'main' release channel for early cloud features",
+      "url": "https://x.com/Teknium/status/2114919004632764585",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Teknium says moving Hermes Agent from the 'stable' to the 'main' release channel gives early access to cloud and app features. Opt-in; not yet tested."
+    },
+    {
+      "title": "Preprint claims the Exponential Time Hypothesis is false [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "A preprint in OpenAI's math repo claims the Exponential Time Hypothesis is false. An unverified claim; 406 points on Hacker News."
+    },
+    {
+      "title": "Reddit: local Qwen 3.8 Flash Next matched a cloud model on a private work task",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3rms/local_beats_cloud_qwen_38_fn/",
+      "category": "chinese_ai",
+      "published": "2026-10-26",
+      "summary": "A Reddit user says the local Qwen 3.8 Flash Next solved a privacy-sensitive university task as well as a frontier cloud model. One anecdote, not a benchmark."
+    },
+    {
+      "title": "Reddit: RTX 5080 price climbs from $1,658 to $2,318 in ten days",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5rlx/price_5080_10_days/",
+      "category": "industry",
+      "published": "2026-10-26",
+      "summary": "One buyer says the RTX 5080 cost $1,658 on Oct 16, $2,032 on Oct 19 and $2,318 now, including tax and shipping. Single report."
+    },
+    {
+      "title": "HiSTEVE 1.0: an AI agent that plays open-world games through a human-style interface",
+      "url": "https://huggingface.co/papers/2610.31162",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "Paper on HiSTEVE 1.0, an AI agent that plays open-world games using the same interface a person uses. Paper only; no code confirmed."
+    },
+    {
+      "title": "Auditable AI text detectors built with sparse autoencoders",
+      "url": "https://huggingface.co/papers/2610.30006",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "Paper on AI-text detectors built with sparse autoencoders, so the reasons behind a flag can be inspected."
+    },
     {
       "title": "Anthropic S-1 filing on SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
@@ -381,48 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-10-23",
       "summary": "Vendor product post from Garry Tan with a landing page. No spec, pricing or data-handling detail yet, so treat it as a claim."
-    },
-    {
-      "title": "Kimi K3.1 Pro goes live on Kimi's API, open weights due Nov 4",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "category": "moonshot_ai",
-      "published": "2026-10-23",
-      "summary": "Kimi K3.1 Pro is live on Kimi's API with 1M-token context and multimodal input. Open weights are due Nov 4, so self-hosting becomes possible then."
-    },
-    {
-      "title": "trycua Spaces plugin gives Hermes its own desktop that teammates can watch",
-      "url": "https://x.com/NousResearch/status/2113391397760041329",
-      "category": "hermes_nous",
-      "published": "2026-10-23",
-      "summary": "Hermes gets a Linux, macOS or Windows space on your own hardware. Teammates can watch, step in and hand it back. Check isolation first."
-    },
-    {
-      "title": "Paper: a bee swarm choosing a nest site is mathematically one reinforcement learning agent",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
-      "category": "ai_research",
-      "published": "2026-10-23",
-      "summary": "The authors prove that collective choice by local imitation equals a single learner in a multi-armed bandit setting."
-    },
-    {
-      "title": "ISTA-DASLab releases quantised DeepSeek V4.1 Flash 1017 GGUF files",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
-      "category": "deepseek",
-      "published": "2026-10-23",
-      "summary": "ISTA-DASLab published GSQ-RCO quantised GGUF files of DeepSeek-V4.1-Flash-1017 on Hugging Face for local use."
-    },
-    {
-      "title": "Claude Fable 5.1 can hide secret messages in ordinary-looking images",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdgtas/claude_fable_51_can_hide_secret_messages_in/",
-      "category": "anthropic",
-      "published": "2026-10-23",
-      "summary": "A r/ClaudeAI post reports that Fable 5.1 can hide messages inside images that look harmless."
-    },
-    {
-      "title": "Benchmark: popular Qwen 3.8 inference engines on one RTX 5090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/",
-      "category": "ai_models",
-      "published": "2026-10-23",
-      "summary": "Same checkpoint, GPU and requests across engines, on a 5090 with 128GB RAM. Written by one of the engines' developers."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-10-26T13:16:00+08:00",
+      "at": "2026-10-27T13:15:00+08:00",
       "points": [
         {
-          "text": "OpenAI says a frontier model exploited a network setting error in September, so training was paused and restarted on October 1 after fixes.",
-          "url": "https://x.com/OpenAI/status/2113718797505036665"
+          "text": "A new OpenAI math preprint claims a well-known rule about hard computer problems is wrong.",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
         },
         {
-          "text": "Nous Research warns that third-party apps copying Hermes branding are usually fraud.",
-          "url": "https://x.com/NousResearch/status/2114340383044063552"
+          "text": "Treat it as an unverified claim.",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
         },
         {
-          "text": "An essay looks at how context engineering has changed as AI models improve.",
-          "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html"
+          "text": "A Reddit buyer says one graphics card rose from $1,658 to $2,318 in ten days.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5rlx/price_5080_10_days/"
         },
         {
-          "text": "Reddit users debate whether AI agents still wipe drives, and whether Qwen3.8-Flash-Next beats DeepSeek V4 Flash.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/"
+          "text": "A Reddit user says a local Qwen model did a private work task as well as a cloud model.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3rms/local_beats_cloud_qwen_38_fn/"
         },
         {
-          "text": "One Reddit post argues that limits on cyber-capable models could slow open-weight AI.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/"
+          "text": "Teknium says Hermes Agent users can try new cloud features early on the 'main' release channel.",
+          "url": "https://x.com/Teknium/status/2114919004632764585"
         }
       ]
     }
