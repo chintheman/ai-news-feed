@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-10-27T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 6,
+  "tldr": "A new OpenAI math preprint claims a well-known rule about hard computer problems is wrong. Treat it as an unverified claim. A Reddit buyer says one graphics card rose from $1,658 to $2,318 in ten days. A Reddit user says a local Qwen model did a private work task as well as a cloud model. Teknium says Hermes Agent users can try new cloud features early on the 'main' release channel.",
+  "articles": [
+    {
+      "title": "Preprint claims the Exponential Time Hypothesis is false [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "A preprint in OpenAI's math repo claims the Exponential Time Hypothesis is false. An unverified claim; 406 points on Hacker News."
+    },
+    {
+      "title": "Reddit: local Qwen 3.8 Flash Next matched a cloud model on a private work task",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3rms/local_beats_cloud_qwen_38_fn/",
+      "category": "chinese_ai",
+      "published": "2026-10-26",
+      "summary": "A Reddit user says the local Qwen 3.8 Flash Next solved a privacy-sensitive university task as well as a frontier cloud model. One anecdote, not a benchmark."
+    },
+    {
+      "title": "Reddit: RTX 5080 price climbs from $1,658 to $2,318 in ten days",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5rlx/price_5080_10_days/",
+      "category": "industry",
+      "published": "2026-10-26",
+      "summary": "One buyer says the RTX 5080 cost $1,658 on Oct 16, $2,032 on Oct 19 and $2,318 now, including tax and shipping. Single report."
+    },
+    {
+      "title": "Teknium: switch Hermes Agent to the 'main' release channel for early cloud features",
+      "url": "https://x.com/Teknium/status/2114919004632764585",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Teknium says moving Hermes Agent from the 'stable' to the 'main' release channel gives early access to cloud and app features. Opt-in; not yet tested."
+    },
+    {
+      "title": "HiSTEVE 1.0: an AI agent that plays open-world games through a human-style interface",
+      "url": "https://huggingface.co/papers/2610.31162",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "Paper on HiSTEVE 1.0, an AI agent that plays open-world games using the same interface a person uses. Paper only; no code confirmed."
+    },
+    {
+      "title": "Auditable AI text detectors built with sparse autoencoders",
+      "url": "https://huggingface.co/papers/2610.30006",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "Paper on AI-text detectors built with sparse autoencoders, so the reasons behind a flag can be inspected."
+    }
+  ]
+}
