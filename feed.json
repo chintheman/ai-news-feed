@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-10-28T13:16:23+08:00",
+  "updated_at": "2026-10-28T21:17:08+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic cut Claude prices by 40% for US government buyers under a new deal. OpenAI's GPT-6.1 Terra is now in ChatGPT and the API, with API prices 50% lower than GPT-5.6 Terra. Nous Research revamped its Hermes Agent plans, and every new plan includes a cloud agent. A Reddit user ran a DeepSeek model on a single graphics card at about 41 tokens per second.",
+  "tldr": "A security startup used AI agents to break into parts of Anthropic's internal systems during a bug bounty test. Liquid AI released LFM3, a family of models you can download and run yourself, covering text, vision, audio and decisions. Nous Research says its coming mobile app will offer a hosted Hermes Agent to people who cannot self-host. Legal software firm Legora uses OpenAI models, ChatGPT and Codex to speed up legal work.",
   "articles": [
+    {
+      "title": "Legora builds an agentic operating system for legal work on OpenAI models",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "category": "agents_tooling",
+      "published": "2026-10-28",
+      "summary": "Legal software firm Legora uses OpenAI models, ChatGPT and Codex to speed up legal workflows and contract analysis."
+    },
+    {
+      "title": "Anthropic's Felix Rieseberg: entrepreneurial thinking now counts most for newcomers",
+      "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
+      "category": "anthropic",
+      "published": "2026-10-28",
+      "summary": "Anthropic manager Felix Rieseberg says Claude now beats job candidates at small coding tasks, so he wants prototypes that show taste and judgment."
+    },
+    {
+      "title": "Security startup used AI agents to break into parts of Anthropic's internal systems",
+      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+      "category": "anthropic",
+      "published": "2026-10-28",
+      "summary": "Cathedral used AI agents through third-party software in a bug bounty test. Anthropic confirmed access to sales, HR and IT data but disputes the depth."
+    },
+    {
+      "title": "A Reddit user runs a 35B model on one Tesla P40 at full 262k context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhkwlm/two_days_tuning_a_single_tesla_p40_35b_moe_full/",
+      "category": "ai_models",
+      "published": "2026-10-28",
+      "summary": "A 35B mixture-of-experts model on one 24 GB Tesla P40: about 60 tokens/s on short prompts, about 30 tokens/s at 100k deep."
+    },
+    {
+      "title": "Nous mobile app to offer hosted Hermes for people who cannot self-host",
+      "url": "https://x.com/Teknium/status/2115135148958310775",
+      "category": "hermes_nous",
+      "published": "2026-10-28",
+      "summary": "Teknium says the mobile app will give non-self-hosters a Hermes instance with inference and tools. No launch date yet."
+    },
+    {
+      "title": "Three ways to speed up MoE inference on NVIDIA DGX Spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdwtt/3_ways_to_boost_moe_inference_on_nvidia_dgx_spark/",
+      "category": "platforms_integration",
+      "published": "2026-10-28",
+      "summary": "A Reddit guide lists three ways to speed up mixture-of-experts model inference on NVIDIA's DGX Spark."
+    },
     {
       "title": "DeepSeek V4.1 Flash runs at 41 tokens/s on one RTX 3090",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/",
@@ -31,6 +73,41 @@
       "category": "hermes_nous",
       "published": "2026-10-28",
       "summary": "Usage now has daily and weekly limits instead of one monthly block of credits. Paid Nous Portal tiers add a Hermes Agent instance and computer."
+    },
+    {
+      "title": "Axiom formalizes the classification of finite simple groups in Lean",
+      "url": "https://cfsg.axiommath.ai/",
+      "category": "ai_research",
+      "published": "2026-10-27",
+      "summary": "A complete Lean formalization of the first-generation proof of the classification of finite simple groups. Lean's kernel checks every step."
+    },
+    {
+      "title": "Liquid AI launches LFM3, open-weight models for text, vision, audio and decisions",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "LFM3 is a new open-weight family of about 2B-class models covering text, vision, audio, omni and decision tasks, built to run on any device."
+    },
+    {
+      "title": "A 1.3B OCR model scores 93.68 on real-world document parsing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgx26j/a_13b_ocr_model_just_hit_9368_on_realworld/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "A Reddit post reports 93.68 for a 1.3B OCR model on a real-world document parsing test. The score is self-reported."
+    },
+    {
+      "title": "InteractiveWorld: a verifiable environment for building interactive AI assistants",
+      "url": "https://huggingface.co/papers/2610.33966",
+      "category": "ai_research",
+      "published": "2026-10-27",
+      "summary": "A research paper proposing a verifiable, human-centred environment for training interactive multimodal assistants."
+    },
+    {
+      "title": "Papers with Code is now open source",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgoadu/papers_with_code_is_now_opensource_p/",
+      "category": "platforms_integration",
+      "published": "2026-10-27",
+      "summary": "Papers with Code, the site that linked ML papers to their code, is now open source, according to a r/MachineLearning post."
     },
     {
       "title": "GPT-6.1 Terra now selectable in Hermes Agent",
@@ -346,104 +423,27 @@
       "category": "agents_tooling",
       "published": "2026-10-26",
       "summary": "An essay on how context engineering has changed as models improve, and what comes next for people building apps and agent harnesses."
-    },
-    {
-      "title": "Reddit: is an AI agent mass-deleting your drive still a real risk?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xflw1l/is_the_horror_story_about_ai_agent_mass_deleting/",
-      "category": "agents_tooling",
-      "published": "2026-10-26",
-      "summary": "A Reddit user says a Copilot agent wiped their database during tests and a backup saved them. They ask whether newer agents still do this."
-    },
-    {
-      "title": "Reddit user: Qwen3.8-Flash-Next works better for them than DeepSeek V4 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/",
-      "category": "chinese_ai",
-      "published": "2026-10-26",
-      "summary": "One user switched from DeepSeek V4 Flash to Qwen3.8-Flash-Next and says it works better. They say it thinks and searches more than needed."
-    },
-    {
-      "title": "Reddit opinion: limits on cyber-capable models could stall open weights",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/",
-      "category": "policy",
-      "published": "2026-10-26",
-      "summary": "A Reddit post argues that US and China restrictions on cyber-capable models could slow open-weight progress. This is opinion, not news."
-    },
-    {
-      "title": "Teknium: cloud Hermes instances and apps due within days",
-      "url": "https://x.com/Teknium/status/2114347286327328809",
-      "category": "hermes_nous",
-      "published": "2026-10-25",
-      "summary": "Teknium says every subscription gets a cloud Hermes Agent instance, with mobile and desktop apps able to connect. Timing is stated as days, not confirmed."
-    },
-    {
-      "title": "Attention Is Not What You Need (2025): arXiv paper, trending on Hacker News",
-      "url": "https://arxiv.org/abs/2512.19428",
-      "category": "ai_research",
-      "published": "2026-10-25",
-      "summary": "arXiv paper that reached 131 points and 42 comments on Hacker News. Discussion only; the claims have not been checked here."
-    },
-    {
-      "title": "Nous warns that third-party apps copying Hermes branding are likely fraud",
-      "url": "https://x.com/NousResearch/status/2114340383044063552",
-      "category": "hermes_nous",
-      "published": "2026-10-25",
-      "summary": "Nous says third-party apps mirroring Hermes branding are typically fraudulent. Official mobile apps are not in app stores yet."
-    },
-    {
-      "title": "A 10-year-old CNN beats frontier LLMs at skin cancer diagnosis",
-      "url": "https://lynchlab.net/llm-skin-cancer",
-      "category": "ai_research",
-      "published": "2026-10-25",
-      "summary": "A 10-year-old CNN image model beat frontier LLMs at diagnosing skin cancer, per a Lynch Lab write-up. Check the write-up for test details."
-    },
-    {
-      "title": "Nanbeige4.3-33B quantised GGUF copies, 13.7GB to 35.2GB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfeho8/nanbeige4333b_quantised_gguf/",
-      "category": "ai_models",
-      "published": "2026-10-25",
-      "summary": "Quantised copies of Nanbeige4.3-33B range from 13.7GB to 35.2GB. Per a Reddit user, the 20.3GB copy keeps 92% top-1 agreement with BF16."
-    },
-    {
-      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
-      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
-      "category": "platforms_integration",
-      "published": "2026-10-25",
-      "summary": "Open data engine Flora labels an hour of robot video for 72 cents, vs $88 with GPT-6 Astra. Built on three fine-tuned Qwen3.5 models. Vendor figures."
-    },
-    {
-      "title": "Reddit: Claude blocked REA, a tool for reverse-engineering smart TVs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/",
-      "category": "anthropic",
-      "published": "2026-10-25",
-      "summary": "Reddit post says Claude blocked REA, a smart-TV reverse-engineering tool, a day later. One unverified source; the post links to an X thread."
-    },
-    {
-      "title": "Artificial Analysis Index is non-representative, says a user who tested Kimi 3.1 Pro",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xercio/artificial_analysis_index_is_nonrepresentative_of/",
-      "category": "ai_models",
-      "published": "2026-10-25",
-      "summary": "A Reddit user says Kimi 3.1 Pro, #4 on the Artificial Analysis Index, is far weaker in real use than its rank suggests. One user's test."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-10-27T21:15:00+08:00",
+      "at": "2026-10-28T21:17:08+08:00",
       "points": [
         {
-          "text": "OpenAI released GPT-6.1 Terra, and its API price is half the price of GPT-5.6 Terra.",
-          "url": "https://x.com/OpenAI/status/2114780720170164735"
+          "text": "A security startup used AI agents to break into parts of Anthropic's internal systems during a bug bounty test.",
+          "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/"
         },
         {
-          "text": "Moonshot's Kimi K3.1 Pro is live, and its open model files are due on November 4.",
-          "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067"
+          "text": "Liquid AI released LFM3, a family of models you can download and run yourself, covering text, vision, audio and decisions.",
+          "url": "https://www.liquid.ai/blog/lfm3"
         },
         {
-          "text": "A new Hermes Agent plugin lets each helper agent run on a different model.",
-          "url": "https://x.com/NousResearch/status/2114753914939863260"
+          "text": "Nous Research says its coming mobile app will offer a hosted Hermes Agent to people who cannot self-host.",
+          "url": "https://x.com/Teknium/status/2115135148958310775"
         },
         {
-          "text": "Anthropic says Claude will never show ads, in a letter filed with its stock market listing.",
-          "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/"
+          "text": "Legal software firm Legora uses OpenAI models, ChatGPT and Codex to speed up legal work.",
+          "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work"
         }
       ]
     },
