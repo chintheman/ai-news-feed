@@ -1,43 +1,71 @@
 {
-  "updated_at": "2026-10-28T08:16:24+08:00",
+  "updated_at": "2026-10-28T13:16:23+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI released GPT-6.1 Terra, and its API price is half the price of GPT-5.6 Terra. Anthropic has started its own drug discovery work with six research partners. Nous Research changed its Hermes Agent plans, and every plan now includes a cloud agent. Liquid AI released small models that run on laptops, covering audio and video captions.",
+  "tldr": "Anthropic cut Claude prices by 40% for US government buyers under a new deal. OpenAI's GPT-6.1 Terra is now in ChatGPT and the API, with API prices 50% lower than GPT-5.6 Terra. Nous Research revamped its Hermes Agent plans, and every new plan includes a cloud agent. A Reddit user ran a DeepSeek model on a single graphics card at about 41 tokens per second.",
   "articles": [
+    {
+      "title": "DeepSeek V4.1 Flash runs at 41 tokens/s on one RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/",
+      "category": "deepseek",
+      "published": "2026-10-28",
+      "summary": "A Reddit user runs a Q2 build of DeepSeek V4.1-Flash-1017 on one RTX 3090 at about 41 tokens/s, and says its output matches DeepSeek's API."
+    },
+    {
+      "title": "Artificial Analysis releases Intelligence Index v5",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/",
+      "category": "ai_models",
+      "published": "2026-10-28",
+      "summary": "Artificial Analysis calls v5 of its Intelligence Index a major upgrade. It widens the gap between open-weight and closed models. Some users doubt it."
+    },
+    {
+      "title": "Anthropic expands US government deal: Claude at 40% off",
+      "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+      "category": "anthropic",
+      "published": "2026-10-28",
+      "summary": "Under a new OneGov agreement, Claude goes to federal, state, local, tribal and territorial governments at 40% off."
+    },
+    {
+      "title": "Hermes Agent plans revamped: every new plan includes a cloud agent",
+      "url": "https://x.com/NousResearch/status/2115120531611787323",
+      "category": "hermes_nous",
+      "published": "2026-10-28",
+      "summary": "Usage now has daily and weekly limits instead of one monthly block of credits. Paid Nous Portal tiers add a Hermes Agent instance and computer."
+    },
+    {
+      "title": "GPT-6.1 Terra now selectable in Hermes Agent",
+      "url": "https://x.com/Teknium/status/2114920088357032109",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Hermes Agent users can pick GPT-6.1 Terra through Nous Portal or OpenRouter."
+    },
+    {
+      "title": "Teknium: try Hermes Agent's 'main' release channel early",
+      "url": "https://x.com/Teknium/status/2114919004632764585",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Teknium invites users to try the 'main' release channel early instead of 'stable'."
+    },
+    {
+      "title": "Garry Tan: agents can run customer replies and CRM notes for founders",
+      "url": "https://x.com/garrytan/status/2115141652344078597",
+      "category": "agents_tooling",
+      "published": "2026-10-27",
+      "summary": "An agent drafts support replies, call recaps and cancellation notes, and manages the CRM and bug filing. The founder reads and sends."
+    },
+    {
+      "title": "StreamVibe: proactive video agents for changing user intent",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "category": "ai_research",
+      "published": "2026-10-27",
+      "summary": "A research paper on video agents that adapt when a user's intent changes."
+    },
     {
       "title": "Anthropic scientists start drug discovery work with six research partners",
       "url": "https://x.com/AnthropicAI/status/2115178675050307942",
       "category": "anthropic",
       "published": "2026-10-27",
       "summary": "Anthropic has research partnerships with six organisations building new medicines, and has started its own drug discovery work."
-    },
-    {
-      "title": "Hermes Agent subscriptions revamped: cloud agent and daily/weekly limits",
-      "url": "https://x.com/NousResearch/status/2115120531611787323",
-      "category": "hermes_nous",
-      "published": "2026-10-27",
-      "summary": "Every new Hermes Agent plan includes a cloud agent. Usage now has daily and weekly limits in place of one monthly block of credits."
-    },
-    {
-      "title": "Teknium: try the Hermes Agent 'main' release channel early",
-      "url": "https://x.com/Teknium/status/2114919004632764585",
-      "category": "hermes_nous",
-      "published": "2026-10-27",
-      "summary": "Teknium invites users to try the Hermes Agent 'main' release channel early instead of 'stable'."
-    },
-    {
-      "title": "Garry Tan: founders can have agents draft customer replies and CRM notes",
-      "url": "https://x.com/garrytan/status/2115141652344078597",
-      "category": "agents_tooling",
-      "published": "2026-10-27",
-      "summary": "Agents can draft support replies, call recaps and cancellation notes, while the founder reads and sends them. Linked skill: gbrain.io/skills/customer-comms."
-    },
-    {
-      "title": "StreamVibe: proactive video agents for evolving user intent",
-      "url": "https://huggingface.co/papers/2610.34662",
-      "category": "ai_research",
-      "published": "2026-10-27",
-      "summary": "Research paper on video agents that adapt when a user's intent changes during a session."
     },
     {
       "title": "New audio model: LFM3-Audio-2B",
@@ -66,13 +94,6 @@
       "category": "platforms_integration",
       "published": "2026-10-27",
       "summary": "A local AI assistant that runs on your own computer and bundles an emergency reference library. Hacker News post; not vetted here."
-    },
-    {
-      "title": "GPT-6.1 Terra now selectable in Hermes Agent",
-      "url": "https://x.com/Teknium/status/2114920088357032109",
-      "category": "hermes_nous",
-      "published": "2026-10-27",
-      "summary": "Teknium says GPT-6.1 Terra is available in Hermes Agent through Nous Portal and OpenRouter."
     },
     {
       "title": "Debunking Cohere's claim about Qwen 3.8 Flash Next uploading to an Alibaba URL",
@@ -110,18 +131,25 @@
       "summary": "GPT-6.1 Terra beats the larger Astra at technical communication and costs far less, but trails it in most other areas, per Sanders."
     },
     {
-      "title": "GPT-6.1 Terra now in ChatGPT and the API",
+      "title": "GPT-6.1 Terra rolls out in ChatGPT and the API",
       "url": "https://x.com/OpenAI/status/2114780720170164735",
       "category": "ai_models",
       "published": "2026-10-26",
-      "summary": "GPT-6.1 Terra rolls out to paid ChatGPT plans and in the API as gpt-6.1-terra. OpenAI says API prices are 50% lower than GPT-5.6 Terra."
+      "summary": "Paid ChatGPT plans and the API get GPT-6.1 Terra as gpt-6.1-terra. OpenAI says standard API prices are 50% lower than GPT-5.6 Terra."
     },
     {
-      "title": "Hermes Agent gets an Advanced Delegation plugin",
+      "title": "Hermes Agent gets an Advanced Delegation modes plugin",
       "url": "https://x.com/NousResearch/status/2114753914939863260",
       "category": "hermes_nous",
       "published": "2026-10-26",
-      "summary": "The new plugin lets Hermes Agent pick a different model or profile for each subagent, using routes the user sets up."
+      "summary": "The plugin lets the Hermes Agent orchestrator pick a different model or profile for each subagent, using routes the user sets up."
+    },
+    {
+      "title": "On-Policy Self-Training: data-free self-improvement for LLMs",
+      "url": "https://x.com/_akhaliq/status/2114730501626015880",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "A research paper on LLMs that improve themselves without labelled data."
     },
     {
       "title": "On-Policy Self-Training: data-free self-improvement in LLMs",
@@ -299,13 +327,6 @@
       "summary": "Meta plans to sell up to $95 billion of new stock to pay for its AI infrastructure build-out."
     },
     {
-      "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
-      "url": "https://x.com/_akhaliq/status/2114730501626015880",
-      "category": "ai_research",
-      "published": "2026-10-26",
-      "summary": "Paper on data-free self-improvement for large language models. Paper link only (huggingface.co/papers/2610.32770), no code in the post."
-    },
-    {
       "title": "Qwen 3.8 Flash Next on 8 GB VRAM: reported faster than Qwen 3.6 35B setup",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xft2ae/have_8_gb_of_vram_and_32_gb_of_ram_you_can_run/",
       "category": "ai_models",
@@ -402,27 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-25",
       "summary": "A Reddit user says Kimi 3.1 Pro, #4 on the Artificial Analysis Index, is far weaker in real use than its rank suggests. One user's test."
-    },
-    {
-      "title": "Too good to be true? ISTA's 2-bit DeepSeek V4.1 Flash scores the same as the base model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/",
-      "category": "deepseek",
-      "published": "2026-10-25",
-      "summary": "A Reddit user asks if ISTA's squeezed 2-bit DeepSeek V4.1 Flash really matches the full model. Its benchmarks are saturated, so they cannot show any loss."
-    },
-    {
-      "title": "Motion graphics made with local Qwen 3.8 Flash Next, not a cloud model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebkti/big_cloud_models_like_opus_55_get_all_the_motion/",
-      "category": "ai_models",
-      "published": "2026-10-24",
-      "summary": "A Reddit user built a Remotion motion-graphics video with a local model. They say it took several prompts and steering to get there."
-    },
-    {
-      "title": "America has lost 200,000 media, film and arts jobs. How much is AI?",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "category": "industry",
-      "published": "2026-10-24",
-      "summary": "Apricitas asks how much of the US loss of 200,000 media, film and arts jobs AI can explain."
     }
   ],
   "tldrs": {
@@ -469,27 +469,23 @@
       ]
     },
     "midday": {
-      "at": "2026-10-27T13:15:00+08:00",
+      "at": "2026-10-28T13:16:23+08:00",
       "points": [
         {
-          "text": "A new OpenAI math preprint claims a well-known rule about hard computer problems is wrong.",
-          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+          "text": "Anthropic cut Claude prices by 40% for US government buyers under a new deal.",
+          "url": "https://x.com/AnthropicAI/status/2115207004293853358"
         },
         {
-          "text": "Treat it as an unverified claim.",
-          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+          "text": "OpenAI's GPT-6.1 Terra is now in ChatGPT and the API, with API prices 50% lower than GPT-5.6 Terra.",
+          "url": "https://x.com/OpenAI/status/2114780720170164735"
         },
         {
-          "text": "A Reddit buyer says one graphics card rose from $1,658 to $2,318 in ten days.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5rlx/price_5080_10_days/"
+          "text": "Nous Research revamped its Hermes Agent plans, and every new plan includes a cloud agent.",
+          "url": "https://x.com/NousResearch/status/2115120531611787323"
         },
         {
-          "text": "A Reddit user says a local Qwen model did a private work task as well as a cloud model.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3rms/local_beats_cloud_qwen_38_fn/"
-        },
-        {
-          "text": "Teknium says Hermes Agent users can try new cloud features early on the 'main' release channel.",
-          "url": "https://x.com/Teknium/status/2114919004632764585"
+          "text": "A Reddit user ran a DeepSeek model on a single graphics card at about 41 tokens per second.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/"
         }
       ]
     }
