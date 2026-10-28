@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-10-28T08:16:24+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 12,
+  "tldr": "OpenAI released GPT-6.1 Terra, and its API price is half the price of GPT-5.6 Terra. Anthropic has started its own drug discovery work with six research partners. Nous Research changed its Hermes Agent plans, and every plan now includes a cloud agent. Liquid AI released small models that run on laptops, covering audio and video captions.",
+  "articles": [
+    {
+      "title": "GPT-6.1 Terra now in ChatGPT and the API",
+      "url": "https://x.com/OpenAI/status/2114780720170164735",
+      "category": "ai_models",
+      "published": "2026-10-26",
+      "summary": "GPT-6.1 Terra rolls out to paid ChatGPT plans and in the API as gpt-6.1-terra. OpenAI says API prices are 50% lower than GPT-5.6 Terra."
+    },
+    {
+      "title": "Anthropic scientists start drug discovery work with six research partners",
+      "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+      "category": "anthropic",
+      "published": "2026-10-27",
+      "summary": "Anthropic has research partnerships with six organisations building new medicines, and has started its own drug discovery work."
+    },
+    {
+      "title": "Hermes Agent subscriptions revamped: cloud agent and daily/weekly limits",
+      "url": "https://x.com/NousResearch/status/2115120531611787323",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Every new Hermes Agent plan includes a cloud agent. Usage now has daily and weekly limits in place of one monthly block of credits."
+    },
+    {
+      "title": "Hermes Agent gets an Advanced Delegation plugin",
+      "url": "https://x.com/NousResearch/status/2114753914939863260",
+      "category": "hermes_nous",
+      "published": "2026-10-26",
+      "summary": "The new plugin lets Hermes Agent pick a different model or profile for each subagent, using routes the user sets up."
+    },
+    {
+      "title": "Teknium: try the Hermes Agent 'main' release channel early",
+      "url": "https://x.com/Teknium/status/2114919004632764585",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Teknium invites users to try the Hermes Agent 'main' release channel early instead of 'stable'."
+    },
+    {
+      "title": "Garry Tan: founders can have agents draft customer replies and CRM notes",
+      "url": "https://x.com/garrytan/status/2115141652344078597",
+      "category": "agents_tooling",
+      "published": "2026-10-27",
+      "summary": "Agents can draft support replies, call recaps and cancellation notes, while the founder reads and sends them. Linked skill: gbrain.io/skills/customer-comms."
+    },
+    {
+      "title": "StreamVibe: proactive video agents for evolving user intent",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "category": "ai_research",
+      "published": "2026-10-27",
+      "summary": "Research paper on video agents that adapt when a user's intent changes during a session."
+    },
+    {
+      "title": "On-Policy Self-Training: data-free self-improvement in LLMs",
+      "url": "https://huggingface.co/papers/2610.32770",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "Paper claims language models can improve themselves without curated training data. Not independently verified."
+    },
+    {
+      "title": "New audio model: LFM3-Audio-2B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh50at/new_audio_model_lfm3audio2b/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "Liquid AI's compact audio model takes text or audio in and replies with text, speech or both. It runs locally on laptops and edge devices."
+    },
+    {
+      "title": "Real-time video captioning with LFM3-VL-2B in the browser on WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh0otf/realtime_video_captioning_with_lfm3vl2b_running/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "Liquid AI's LFM3-VL-2B captions video in real time in the browser, with a public WebGPU demo and model collection on Hugging Face."
+    },
+    {
+      "title": "Qwen3.8 27B GGUFs posted as 'statistically lossless'",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "A Reddit post shares Qwen3.8 27B GGUF builds that the poster calls statistically lossless. The analysis is paywalled, so the claim is unverified."
+    },
+    {
+      "title": "Survival LLM: local AI assistant with an emergency library",
+      "url": "https://www.brangus.io/survival-llm",
+      "category": "platforms_integration",
+      "published": "2026-10-27",
+      "summary": "A local AI assistant that runs on your own computer and bundles an emergency reference library. Hacker News post; not vetted here."
+    }
+  ]
+}
