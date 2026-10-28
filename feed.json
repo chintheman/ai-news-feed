@@ -1,22 +1,78 @@
 {
-  "updated_at": "2026-10-27T21:15:00+08:00",
+  "updated_at": "2026-10-28T08:16:24+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI released GPT-6.1 Terra, and its API price is half the price of GPT-5.6 Terra. Moonshot's Kimi K3.1 Pro is live, and its open model files are due on November 4. A new Hermes Agent plugin lets each helper agent run on a different model. Anthropic says Claude will never show ads, in a letter filed with its stock market listing.",
+  "tldr": "OpenAI released GPT-6.1 Terra, and its API price is half the price of GPT-5.6 Terra. Anthropic has started its own drug discovery work with six research partners. Nous Research changed its Hermes Agent plans, and every plan now includes a cloud agent. Liquid AI released small models that run on laptops, covering audio and video captions.",
   "articles": [
+    {
+      "title": "Anthropic scientists start drug discovery work with six research partners",
+      "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+      "category": "anthropic",
+      "published": "2026-10-27",
+      "summary": "Anthropic has research partnerships with six organisations building new medicines, and has started its own drug discovery work."
+    },
+    {
+      "title": "Hermes Agent subscriptions revamped: cloud agent and daily/weekly limits",
+      "url": "https://x.com/NousResearch/status/2115120531611787323",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Every new Hermes Agent plan includes a cloud agent. Usage now has daily and weekly limits in place of one monthly block of credits."
+    },
+    {
+      "title": "Teknium: try the Hermes Agent 'main' release channel early",
+      "url": "https://x.com/Teknium/status/2114919004632764585",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Teknium invites users to try the Hermes Agent 'main' release channel early instead of 'stable'."
+    },
+    {
+      "title": "Garry Tan: founders can have agents draft customer replies and CRM notes",
+      "url": "https://x.com/garrytan/status/2115141652344078597",
+      "category": "agents_tooling",
+      "published": "2026-10-27",
+      "summary": "Agents can draft support replies, call recaps and cancellation notes, while the founder reads and sends them. Linked skill: gbrain.io/skills/customer-comms."
+    },
+    {
+      "title": "StreamVibe: proactive video agents for evolving user intent",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "category": "ai_research",
+      "published": "2026-10-27",
+      "summary": "Research paper on video agents that adapt when a user's intent changes during a session."
+    },
+    {
+      "title": "New audio model: LFM3-Audio-2B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh50at/new_audio_model_lfm3audio2b/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "Liquid AI's compact audio model takes text or audio in and replies with text, speech or both. It runs locally on laptops and edge devices."
+    },
+    {
+      "title": "Real-time video captioning with LFM3-VL-2B in the browser on WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh0otf/realtime_video_captioning_with_lfm3vl2b_running/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "Liquid AI's LFM3-VL-2B captions video in real time in the browser, with a public WebGPU demo and model collection on Hugging Face."
+    },
+    {
+      "title": "Qwen3.8 27B GGUFs posted as 'statistically lossless'",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
+      "category": "ai_models",
+      "published": "2026-10-27",
+      "summary": "A Reddit post shares Qwen3.8 27B GGUF builds that the poster calls statistically lossless. The analysis is paywalled, so the claim is unverified."
+    },
+    {
+      "title": "Survival LLM: local AI assistant with an emergency library",
+      "url": "https://www.brangus.io/survival-llm",
+      "category": "platforms_integration",
+      "published": "2026-10-27",
+      "summary": "A local AI assistant that runs on your own computer and bundles an emergency reference library. Hacker News post; not vetted here."
+    },
     {
       "title": "GPT-6.1 Terra now selectable in Hermes Agent",
       "url": "https://x.com/Teknium/status/2114920088357032109",
       "category": "hermes_nous",
       "published": "2026-10-27",
       "summary": "Teknium says GPT-6.1 Terra is available in Hermes Agent through Nous Portal and OpenRouter."
-    },
-    {
-      "title": "Teknium: try early cloud features on the 'main' release channel",
-      "url": "https://x.com/Teknium/status/2114919004632764585",
-      "category": "hermes_nous",
-      "published": "2026-10-27",
-      "summary": "Switching Hermes Agent from the 'stable' to the 'main' release channel gives early access to the cloud and app features."
     },
     {
       "title": "Debunking Cohere's claim about Qwen 3.8 Flash Next uploading to an Alibaba URL",
@@ -54,18 +110,25 @@
       "summary": "GPT-6.1 Terra beats the larger Astra at technical communication and costs far less, but trails it in most other areas, per Sanders."
     },
     {
-      "title": "OpenAI releases GPT-6.1 Terra in ChatGPT and the API",
+      "title": "GPT-6.1 Terra now in ChatGPT and the API",
       "url": "https://x.com/OpenAI/status/2114780720170164735",
       "category": "ai_models",
       "published": "2026-10-26",
-      "summary": "GPT-6.1 Terra rolls out to paid ChatGPT plans and is in the API as gpt-6.1-terra. OpenAI says its standard API price is 50% below GPT-5.6 Terra."
+      "summary": "GPT-6.1 Terra rolls out to paid ChatGPT plans and in the API as gpt-6.1-terra. OpenAI says API prices are 50% lower than GPT-5.6 Terra."
     },
     {
       "title": "Hermes Agent gets an Advanced Delegation plugin",
       "url": "https://x.com/NousResearch/status/2114753914939863260",
       "category": "hermes_nous",
       "published": "2026-10-26",
-      "summary": "The orchestrator can assign a different model or profile to each subagent, using routes the user sets up. Docs are on the Hermes Agent site."
+      "summary": "The new plugin lets Hermes Agent pick a different model or profile for each subagent, using routes the user sets up."
+    },
+    {
+      "title": "On-Policy Self-Training: data-free self-improvement in LLMs",
+      "url": "https://huggingface.co/papers/2610.32770",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "Paper claims language models can improve themselves without curated training data. Not independently verified."
     },
     {
       "title": "HiSTEVE: AI agents that play open-world games through a human interface",
@@ -73,13 +136,6 @@
       "category": "ai_research",
       "published": "2026-10-26",
       "summary": "A vision-language-action agent that plays open-world games using the same interface a human uses. Paper only; no code confirmed in the post."
-    },
-    {
-      "title": "On-Policy Self-Training: LLM self-improvement without curated data",
-      "url": "https://huggingface.co/papers/2610.32770",
-      "category": "ai_research",
-      "published": "2026-10-26",
-      "summary": "The paper claims language models can improve themselves without curated training data. This is a paper claim and has not been independently verified."
     },
     {
       "title": "Preprint claims the Exponential Time Hypothesis is false [pdf]",
@@ -367,62 +423,6 @@
       "category": "industry",
       "published": "2026-10-24",
       "summary": "Apricitas asks how much of the US loss of 200,000 media, film and arts jobs AI can explain."
-    },
-    {
-      "title": "Kimi K3.1 removes cyberattack training data from open weight release",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
-      "category": "chinese_ai",
-      "published": "2026-10-24",
-      "summary": "A Reddit post says Kimi K3.1's open weights left out cyberattack training data, citing China's export rules."
-    },
-    {
-      "title": "Qwen-Flash-Next Coder runs 262K context on an 8 GB GPU at about 70 tokens/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/",
-      "category": "ai_models",
-      "published": "2026-10-24",
-      "summary": "Community setup with llama.cpp: most expert weights in 24 GB RAM, the smallest in 8 GB VRAM, n-gram data on a fast SSD."
-    },
-    {
-      "title": "Three fired OpenAI safety researchers say they were never told what they allegedly leaked",
-      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
-      "category": "policy",
-      "published": "2026-10-24",
-      "summary": "Tomek Korbak, Mikita Balesni and Jasmine Wang deny sharing confidential information and tie it to their AI safety advocacy."
-    },
-    {
-      "title": "AI makes junior patent attorneys better, but may quietly stunt their growth",
-      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
-      "category": "ai_research",
-      "published": "2026-10-24",
-      "summary": "A 3-month field test with 133 patent attorneys: juniors gained most with AI, but only seniors kept the gains without it."
-    },
-    {
-      "title": "Block's Dessa speech model is trained on human speech to catch emotion text models miss",
-      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
-      "category": "ai_models",
-      "published": "2026-10-24",
-      "summary": "Dessa works on audio directly, not text, to pick up emotion, sarcasm and pauses. It runs locally on a MacBook Pro M4 Max and is not public."
-    },
-    {
-      "title": "No signs of AI payoff outside the tech sector",
-      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-      "category": "industry",
-      "published": "2026-10-24",
-      "summary": "Apollo finds no clear AI payoff outside tech so far. Revenue and margins for the rest of the S&P 493 are flat."
-    },
-    {
-      "title": "M6 Mac Mini (32GB): Qwen3.8-27B now runs on the Apple Neural Engine",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/",
-      "category": "ai_models",
-      "published": "2026-10-24",
-      "summary": "ANEMLL Forge 0.2.1 runs Qwen3.8-27B with up to 192K context on a 32GB M6 Mac Mini. Speed depends on the content type."
-    },
-    {
-      "title": "Qwen 3.8 27B on a home RTX 3090 nearly matched Opus 5.5 on a Korean RAG test",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a/",
-      "category": "ai_models",
-      "published": "2026-10-24",
-      "summary": "A local user tested 300 Korean document questions with known answers. Qwen 3.8 27B basically tied Opus 5.5."
     }
   ],
   "tldrs": {
@@ -448,27 +448,23 @@
       ]
     },
     "morning": {
-      "at": "2026-10-27T08:17:00+08:00",
+      "at": "2026-10-28T08:16:24+08:00",
       "points": [
         {
-          "text": "OpenAI released GPT-6.1 Terra, and its API prices are half of GPT-5.6 Terra's.",
+          "text": "OpenAI released GPT-6.1 Terra, and its API price is half the price of GPT-5.6 Terra.",
           "url": "https://x.com/OpenAI/status/2114780720170164735"
         },
         {
-          "text": "Anthropic filed its public S-1 with the SEC to list on Nasdaq under the ticker ANT.",
-          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+          "text": "Anthropic has started its own drug discovery work with six research partners.",
+          "url": "https://x.com/AnthropicAI/status/2115178675050307942"
         },
         {
-          "text": "Nous Research added a plugin that lets Hermes Agent use a different model for each sub-agent.",
-          "url": "https://x.com/NousResearch/status/2114753914939863260"
+          "text": "Nous Research changed its Hermes Agent plans, and every plan now includes a cloud agent.",
+          "url": "https://x.com/NousResearch/status/2115120531611787323"
         },
         {
-          "text": "Meta plans to sell up to $95 billion of stock to pay for its AI build-out.",
-          "url": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/"
-        },
-        {
-          "text": "Several Reddit posts claim Qwen models tried to send data to a remote server, but none of these claims is verified.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg78oq/i_now_have_definitive_proofs_that_my_qwen_flash/"
+          "text": "Liquid AI released small models that run on laptops, covering audio and video captions.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh50at/new_audio_model_lfm3audio2b/"
         }
       ]
     },
