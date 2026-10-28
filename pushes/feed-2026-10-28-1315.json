@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-10-28T13:16:23+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 12,
+  "tldr": "Anthropic cut Claude prices by 40% for US government buyers under a new deal. OpenAI's GPT-6.1 Terra is now in ChatGPT and the API, with API prices 50% lower than GPT-5.6 Terra. Nous Research revamped its Hermes Agent plans, and every new plan includes a cloud agent. A Reddit user ran a DeepSeek model on a single graphics card at about 41 tokens per second.",
+  "articles": [
+    {
+      "title": "DeepSeek V4.1 Flash runs at 41 tokens/s on one RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/",
+      "category": "deepseek",
+      "published": "2026-10-28",
+      "summary": "A Reddit user runs a Q2 build of DeepSeek V4.1-Flash-1017 on one RTX 3090 at about 41 tokens/s, and says its output matches DeepSeek's API."
+    },
+    {
+      "title": "Artificial Analysis releases Intelligence Index v5",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/",
+      "category": "ai_models",
+      "published": "2026-10-28",
+      "summary": "Artificial Analysis calls v5 of its Intelligence Index a major upgrade. It widens the gap between open-weight and closed models. Some users doubt it."
+    },
+    {
+      "title": "GPT-6.1 Terra rolls out in ChatGPT and the API",
+      "url": "https://x.com/OpenAI/status/2114780720170164735",
+      "category": "ai_models",
+      "published": "2026-10-26",
+      "summary": "Paid ChatGPT plans and the API get GPT-6.1 Terra as gpt-6.1-terra. OpenAI says standard API prices are 50% lower than GPT-5.6 Terra."
+    },
+    {
+      "title": "Anthropic expands US government deal: Claude at 40% off",
+      "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+      "category": "anthropic",
+      "published": "2026-10-28",
+      "summary": "Under a new OneGov agreement, Claude goes to federal, state, local, tribal and territorial governments at 40% off."
+    },
+    {
+      "title": "Hermes Agent plans revamped: every new plan includes a cloud agent",
+      "url": "https://x.com/NousResearch/status/2115120531611787323",
+      "category": "hermes_nous",
+      "published": "2026-10-28",
+      "summary": "Usage now has daily and weekly limits instead of one monthly block of credits. Paid Nous Portal tiers add a Hermes Agent instance and computer."
+    },
+    {
+      "title": "GPT-6.1 Terra now selectable in Hermes Agent",
+      "url": "https://x.com/Teknium/status/2114920088357032109",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Hermes Agent users can pick GPT-6.1 Terra through Nous Portal or OpenRouter."
+    },
+    {
+      "title": "Hermes Agent gets an Advanced Delegation modes plugin",
+      "url": "https://x.com/NousResearch/status/2114753914939863260",
+      "category": "hermes_nous",
+      "published": "2026-10-26",
+      "summary": "The plugin lets the Hermes Agent orchestrator pick a different model or profile for each subagent, using routes the user sets up."
+    },
+    {
+      "title": "Teknium: try Hermes Agent's 'main' release channel early",
+      "url": "https://x.com/Teknium/status/2114919004632764585",
+      "category": "hermes_nous",
+      "published": "2026-10-27",
+      "summary": "Teknium invites users to try the 'main' release channel early instead of 'stable'."
+    },
+    {
+      "title": "Garry Tan: agents can run customer replies and CRM notes for founders",
+      "url": "https://x.com/garrytan/status/2115141652344078597",
+      "category": "agents_tooling",
+      "published": "2026-10-27",
+      "summary": "An agent drafts support replies, call recaps and cancellation notes, and manages the CRM and bug filing. The founder reads and sends."
+    },
+    {
+      "title": "StreamVibe: proactive video agents for changing user intent",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "category": "ai_research",
+      "published": "2026-10-27",
+      "summary": "A research paper on video agents that adapt when a user's intent changes."
+    },
+    {
+      "title": "On-Policy Self-Training: data-free self-improvement for LLMs",
+      "url": "https://x.com/_akhaliq/status/2114730501626015880",
+      "category": "ai_research",
+      "published": "2026-10-26",
+      "summary": "A research paper on LLMs that improve themselves without labelled data."
+    },
+    {
+      "title": "Anthropic scientists start drug discovery work with six research partners",
+      "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+      "category": "anthropic",
+      "published": "2026-10-27",
+      "summary": "Anthropic has research partnerships with six organisations building new medicines, and has started its own drug discovery work."
+    }
+  ]
+}
