@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-10-29T13:15:38+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 6,
+  "tldr": "Google opened an AI research hub in Singapore and signed on the country's health ministry as a partner. GitHub says agents now start more than four in ten pull requests, up from about one in six in March. One anti-bot script hides fake bioweapon code names to stop AI tools from reading it. A hobbyist rebuilt cheap laptop memory into fast desktop memory as RAM prices keep climbing. Someone got the game Doom running inside a Qwen model's weights, slowly but on screen.",
+  "articles": [
+    {
+      "title": "Google opens an AI research hub in Singapore and puts frontier AI into public health",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/",
+      "category": "policy",
+      "published": "2026-10-29",
+      "summary": "A Google Research hub, a Ministry of Health partnership, open MedGemma in clinics and $7M for Asian health groups."
+    },
+    {
+      "title": "GitHub Octoverse: agents started more than 40% of September pull requests",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "category": "industry",
+      "published": "2026-10-28",
+      "summary": "Up from 17% in March. New repos carrying an agent config file logged eight times the commits of those without one."
+    },
+    {
+      "title": "An anti-bot script hides fake bioweapon code names to stop AI from reading it",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "category": "ai_research",
+      "published": "2026-10-28",
+      "summary": "A crawl of 10,000 sites found a fingerprinting script whose fake function names block AI deobfuscation. GLM-5.3 ignored the trap."
+    },
+    {
+      "title": "Hobbyist reworks a $120 laptop RAM kit into desktop memory to fight the price spike",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/",
+      "category": "industry",
+      "published": "2026-10-28",
+      "summary": "SK hynix chips from DDR5-5600 SODIMMs became DDR5-7800 desktop sticks. Local LLM builders ask whether it is worth copying."
+    },
+    {
+      "title": "Doom now runs inside a Qwen model's weights, slowly but on screen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights/",
+      "category": "chinese_ai",
+      "published": "2026-10-28",
+      "summary": "A follow-up to the project that built a virtual machine inside Qwen's weights. Doom is the first thing anyone runs on it."
+    },
+    {
+      "title": "A small Qwen model rooted an LG TV and stripped its tracking code",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhoeo3/used_qwen_38_flash_next_on_underspeced_pc_to_root/",
+      "category": "chinese_ai",
+      "published": "2026-10-28",
+      "summary": "Qwen 3.8 Flash Next ran unattended on an underspecced PC through an open coding harness and gutted the TV's adware."
+    }
+  ]
+}
