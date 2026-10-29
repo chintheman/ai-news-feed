@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-10-29T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 12,
+  "tldr": "Alibaba's cloud chief says Qwen4 ships next week, and users are already asking what its licence will allow. A new method cuts the computing needed to train a model by about 15 percent with no loss in quality. Google's earnings showed search revenue slowing as its AI answers earn less than the old search ads did. Nvidia's new speech model was shrunk from 67.5 GB to 10 GB without retraining and still transcribes almost as well. Kimi can now read your Gmail, Drive and Calendar through a login you control.",
+  "articles": [
+    {
+      "title": "Dayjob Tax: AI agents scored on 50 real professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "category": "agents_tooling",
+      "published": "2026-10-28",
+      "summary": "Surge benchmarks agents on 50 real tax tasks, a harder test than most agent evals and a useful template for grading professional work."
+    },
+    {
+      "title": "Google's AI search problem shows up in the earnings report",
+      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+      "category": "industry",
+      "published": "2026-10-29",
+      "summary": "Google shares fell up to 10% after cloud doubled to $30.7B while search grew 12%; AI mode earns less per query than old search."
+    },
+    {
+      "title": "StackOverflow now gets fewer than 1,000 questions a month",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "category": "industry",
+      "published": "2026-10-28",
+      "summary": "A live query on the site's own data shows question volume collapsing, the clearest public trace of developers moving to AI assistants."
+    },
+    {
+      "title": "LIMe cuts LLM training compute by 15% with no quality loss",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
+      "category": "ai_research",
+      "published": "2026-10-29",
+      "summary": "T-Tech's LIMe, presented at EMNLP 2026, lets layers share hidden state so models train on roughly 15% less compute at equal quality."
+    },
+    {
+      "title": "Nvidia's 30B speech model pruned from 67.5GB to 10GB with no retraining",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xibujk/pruned_nvidias_new_30b_speech_llm_from_675gb_to/",
+      "category": "ai_models",
+      "published": "2026-10-29",
+      "summary": "Post-training pruning keeps transcription at 5.16% WER against the teacher's 4.12%, a big size cut for a model this capable."
+    },
+    {
+      "title": "Alibaba Cloud CTO: Qwen4 launches next week",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+      "category": "chinese_ai",
+      "published": "2026-10-29",
+      "summary": "A conference attendee at Apsara Amsterdam reports the CTO putting Qwen4 a week out; no model card, price or licence yet."
+    },
+    {
+      "title": "Community worries Qwen4 will keep Alibaba's custom, ambiguous licence",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+      "category": "chinese_ai",
+      "published": "2026-10-29",
+      "summary": "Since Qwen3.8-Flash-Next moved off permissive open-source terms, local users are asking whether fine-tuning rights survive into Qwen4."
+    },
+    {
+      "title": "Claude Code burns 15-20% of your tokens on a 3-word status line",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "category": "anthropic",
+      "published": "2026-10-29",
+      "summary": "A teardown of the status line shows a short label costing a fifth of a session's tokens, a reminder to measure what a custom setup spends."
+    },
+    {
+      "title": "Joint Subspace Sparse Attention for long-context decoding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xidzm4/paper_joint_subspace_sparse_attention_for/",
+      "category": "ai_research",
+      "published": "2026-10-29",
+      "summary": "The paper claims token-level sparse attention with joint query-key subspaces, cutting the cache traffic that slows long-context decoding."
+    },
+    {
+      "title": "Kimi adds Gmail, Google Drive and Calendar plugins with user-held OAuth",
+      "url": "https://x.com/Kimi_Moonshot/status/2115777746639196376",
+      "category": "moonshot_ai",
+      "published": "2026-10-29",
+      "summary": "Moonshot's assistant can summarize mail threads, find Drive files and plan the day in Calendar through OAuth the user controls."
+    },
+    {
+      "title": "MiRL: error-targeted reinforcement learning for terminal agent misbehaviour",
+      "url": "https://x.com/_akhaliq/status/2115117941972684835",
+      "category": "ai_research",
+      "published": "2026-10-27",
+      "summary": "A paper targeting the failure class where CLI agents wander off task, the same shape as a stuck runner in an automated pipeline."
+    },
+    {
+      "title": "OpenBonsai compresses BF16 models into ~2GB ternary GGUFs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xie29o/i_opensourced_openbonsai_compress_your_own_bf16/",
+      "category": "ai_models",
+      "published": "2026-10-29",
+      "summary": "An open tool turns your own fine-tunes into ternary weights around 2GB, built for running models in a browser on WebGPU."
+    }
+  ]
+}
