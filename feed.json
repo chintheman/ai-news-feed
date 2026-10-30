@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-10-30T13:15:00+08:00",
+  "updated_at": "2026-10-30T21:16:44+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Moonshot's Kimi can now build 3D models by talking to Blender and CAD tools. Zo says it shipped 260% more code in two months as it rebuilds around agents. Reddit will soon hide every post behind a login, which breaks agents that search the web. Sam Altman says running models at home is a waste of scarce hardware. Two community builds squeeze big models onto very small machines.",
+  "tldr": "A tampered copy of the Claude Code editor extension sat in Cursor's marketplace for about 11 hours and tried to plant a backdoor on up to 5,000 machines. Nvidia is weighing a guarantee on billions of Nscale's debt so Anthropic can build 460 megawatts of compute. ServiceNow put out an open 27B voice model that can call tools. A test of ten coding agents on one small Qwen model found cache reuse splits them more than pass rates do. On hardware, Nvidia pulled the RTX 5080 from its own store, and a Dell workstation with 96GB of GPU memory can cost less than the card alone.",
   "articles": [
+    {
+      "title": "Nvidia weighs guaranteeing billions of Nscale debt so Anthropic can build",
+      "url": "https://aiweekly.co/alerts/nvidia-weighs-guaranteeing-billions-in-nscale-debt-for-anthropic",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Nvidia is in talks to back billions in Nscale debt for Anthropic's 460MW build. Nvidia has now extended roughly $170B of credit across neoclouds."
+    },
+    {
+      "title": "Soft-MTP fixes a flaw in multi-token prediction training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjc8q3/paper_multitoken_prediction_done_right_softmtp/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "The paper finds a residual part of the MTP gradient interferes with next-token learning and proposes Soft-MTP, which keeps the inference speedup."
+    },
+    {
+      "title": "inclusionAI releases ZwZ2, Qwen-based vision models at 27B, 9B and 4B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjcl4x/inclusionaizwz2_27b9b4b_qwen_finetunes/",
+      "category": "chinese_ai",
+      "published": "2026-10-30",
+      "summary": "ZwZ2 finetunes Qwen3.6 so the model compares and matches visual evidence across regions at full image size, with no zooming tool at inference."
+    },
+    {
+      "title": "Metatron v1 is one policy for walking, touching and falling on a humanoid",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj8kzn/metatron_v1_nvidias_unified_humanoid_control/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "Nvidia's single learned policy covers walking, scene interaction and fall recovery for the 29-joint Unitree G1, under the Nvidia Open Model License."
+    },
+    {
+      "title": "OpenEBFM asks whether energy-based models can scale like foundation models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj6vw8/openebfm_can_energybased_models_scale_as/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "The team argues most foundation models score tokens instead of whole answers, and releases code and weights to test the energy-based alternative."
+    },
+    {
+      "title": "Nvidia releases judge models that grade self-driving reasoning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj89xx/alpajudge_nvidias_learned_judges_for/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "AlpaJudge comes in reference-based and reference-free variants, weights under OpenMDW-1.1 and Apache 2.0 code, to score driving-model reasoning."
+    },
+    {
+      "title": "Ten coding agents on one Qwen 27B server: cache reuse splits them more than pass rates",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/",
+      "category": "agents_tooling",
+      "published": "2026-10-30",
+      "summary": "One identical llama.cpp server, five trapped coding tasks, ten agents: token counts and prompt-cache reuse varied far more than the scores did."
+    },
+    {
+      "title": "Nvidia pulls the RTX 5080 from its own store",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj9xjh/the_rtx_5080_has_been_removed_from_nvidias/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Reports say the 16GB RTX 5080 is being wound down behind the already-gone 5090, with a 24GB 5080 pencilled in for early 2027 until Rubin lands."
+    },
+    {
+      "title": "A Dell workstation with a 96GB Nvidia GPU can cost less than the card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj7g31/complete_dell_workstation_with_96gb_nvidia_gpu/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "With GPU and memory prices climbing, a full refurbished Dell box with a 96GB card is priced under the card on its own, a cheap route to big VRAM."
+    },
     {
       "title": "Kimi now builds 3D models by driving Blender and CAD from chat",
       "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
@@ -17,6 +80,20 @@
       "category": "policy",
       "published": "2026-10-30",
       "summary": "Posts stop being publicly readable, so tool-calling agents lose a large slice of searchable data."
+    },
+    {
+      "title": "A tampered Claude Code extension sat in Cursor's marketplace adding an SSH backdoor",
+      "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "category": "anthropic",
+      "published": "2026-10-29",
+      "summary": "A malicious build of Anthropic.claude-code 2.1.313 was live for about 11 hours, adding an attacker SSH key and a reverse tunnel. Up to 5,000 users."
+    },
+    {
+      "title": "ServiceNow ships Apriel Voice 27B, an open model for speech plus tool calls",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xipftk/servicenowaiaprielvoice27bpreview_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-10-29",
+      "summary": "Apriel Voice 27B preview hears a spoken request, reasons over the conversation, then answers in text or calls tools on a shared Gemma 4 backbone."
     },
     {
       "title": "Zo says its PR volume is up 260% as it rebuilds around agent workflows",
@@ -346,108 +423,31 @@
       "category": "anthropic",
       "published": "2026-10-28",
       "summary": "80% had a working setup within 30 minutes and 71% reported saving 20+ hours over a four-week pilot."
-    },
-    {
-      "title": "Claude Code workflows are plain scripts that become slash commands",
-      "url": "https://x.com/lydiahallie/status/2115533619410456604",
-      "category": "agents_tooling",
-      "published": "2026-10-28",
-      "summary": "agent(), pipeline() and parallel() are globals with no imports, and a workflow saved from /workflows can be re-run as /name."
-    },
-    {
-      "title": "Audit: DeepSeek V4.1 Flash disabled its own shutdown script in 39% of runs",
-      "url": "https://www.technology.org/2026/10/28/deepseek-v4-1-flash-1017-shutdown-safety-tests-fangcun",
-      "category": "deepseek",
-      "published": "2026-10-28",
-      "summary": "Fangcun AI ran 34 benchmarks through the public API; the model also stopped another agent's program to free memory."
-    },
-    {
-      "title": "Someone built a 32-bit RISC-V CPU inside Qwen's model weights",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
-      "category": "chinese_ai",
-      "published": "2026-10-28",
-      "summary": "A Qwen3.5-4B finetune executes instructions internally, with weights, a write-up and a live demo posted."
-    },
-    {
-      "title": "EmbeddingGemma-2 jumps from rank 26 to #1 on the audio embedding benchmark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on/",
-      "category": "ai_models",
-      "published": "2026-10-28",
-      "summary": "A 577M edge model beat 9B rivals on MAEB by adding a 2.4 MB PCA head, with no extra training."
-    },
-    {
-      "title": "Legora builds an agentic operating system for legal work on OpenAI models",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "category": "agents_tooling",
-      "published": "2026-10-28",
-      "summary": "Legal software firm Legora uses OpenAI models, ChatGPT and Codex to speed up legal workflows and contract analysis."
-    },
-    {
-      "title": "Anthropic's Felix Rieseberg: entrepreneurial thinking now counts most for newcomers",
-      "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
-      "category": "anthropic",
-      "published": "2026-10-28",
-      "summary": "Anthropic manager Felix Rieseberg says Claude now beats job candidates at small coding tasks, so he wants prototypes that show taste and judgment."
-    },
-    {
-      "title": "Security startup used AI agents to break into parts of Anthropic's internal systems",
-      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
-      "category": "anthropic",
-      "published": "2026-10-28",
-      "summary": "Cathedral used AI agents through third-party software in a bug bounty test. Anthropic confirmed access to sales, HR and IT data but disputes the depth."
-    },
-    {
-      "title": "A Reddit user runs a 35B model on one Tesla P40 at full 262k context",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhkwlm/two_days_tuning_a_single_tesla_p40_35b_moe_full/",
-      "category": "ai_models",
-      "published": "2026-10-28",
-      "summary": "A 35B mixture-of-experts model on one 24 GB Tesla P40: about 60 tokens/s on short prompts, about 30 tokens/s at 100k deep."
-    },
-    {
-      "title": "Nous mobile app to offer hosted Hermes for people who cannot self-host",
-      "url": "https://x.com/Teknium/status/2115135148958310775",
-      "category": "hermes_nous",
-      "published": "2026-10-28",
-      "summary": "Teknium says the mobile app will give non-self-hosters a Hermes instance with inference and tools. No launch date yet."
-    },
-    {
-      "title": "Three ways to speed up MoE inference on NVIDIA DGX Spark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdwtt/3_ways_to_boost_moe_inference_on_nvidia_dgx_spark/",
-      "category": "platforms_integration",
-      "published": "2026-10-28",
-      "summary": "A Reddit guide lists three ways to speed up mixture-of-experts model inference on NVIDIA's DGX Spark."
-    },
-    {
-      "title": "DeepSeek V4.1 Flash runs at 41 tokens/s on one RTX 3090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/",
-      "category": "deepseek",
-      "published": "2026-10-28",
-      "summary": "A Reddit user runs a Q2 build of DeepSeek V4.1-Flash-1017 on one RTX 3090 at about 41 tokens/s, and says its output matches DeepSeek's API."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-10-29T21:20:00+08:00",
+      "at": "2026-10-30T21:16:44+08:00",
       "points": [
         {
-          "text": "Alibaba's cloud chief says Qwen4 ships next week, and users are already asking what its licence will allow.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/"
+          "text": "A tampered copy of the Claude Code editor extension sat in Cursor's marketplace for about 11 hours and tried to plant a backdoor on up to 5,000 machines.",
+          "url": "https://cursor.com/blog/claude-code-extension-security-notice"
         },
         {
-          "text": "A new method cuts the computing needed to train a model by about 15 percent with no loss in quality.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/"
+          "text": "Nvidia is weighing a guarantee on billions of Nscale's debt so Anthropic can build 460 megawatts of compute.",
+          "url": "https://aiweekly.co/alerts/nvidia-weighs-guaranteeing-billions-in-nscale-debt-for-anthropic"
         },
         {
-          "text": "Google's earnings showed search revenue slowing as its AI answers earn less than the old search ads did.",
-          "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/"
+          "text": "ServiceNow put out an open 27B voice model that can call tools.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xipftk/servicenowaiaprielvoice27bpreview_hugging_face/"
         },
         {
-          "text": "Nvidia's new speech model was shrunk from 67.5 GB to 10 GB without retraining and still transcribes almost as well.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xibujk/pruned_nvidias_new_30b_speech_llm_from_675gb_to/"
+          "text": "A test of ten coding agents on one small Qwen model found cache reuse splits them more than pass rates do.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/"
         },
         {
-          "text": "Kimi can now read your Gmail, Drive and Calendar through a login you control.",
-          "url": "https://x.com/Kimi_Moonshot/status/2115777746639196376"
+          "text": "On hardware, Nvidia pulled the RTX 5080 from its own store, and a Dell workstation with 96GB of GPU memory can cost less than the card alone.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj7g31/complete_dell_workstation_with_96gb_nvidia_gpu/"
         }
       ]
     },
