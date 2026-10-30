@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-10-30T08:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 15,
+  "tldr": "Mistral released Mistral Large 4, a trillion-parameter model anyone can download and run. OpenAI doubled the usage limits on every paid Pro plan. OpenAI also wrote new rules for how its models should behave when they work alone. Anthropic added a step where Claude checks its own conversation for misuse. US antitrust officials are looking into Nvidia's plan to buy Hugging Face.",
+  "articles": [
+    {
+      "title": "Mistral ships Mistral Large 4 weights: 1T parameters, 1M context, $0.70 input",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "category": "ai_models",
+      "published": "2026-10-29",
+      "summary": "A 1T-parameter multimodal model with 1M context, open weights under a modified MIT licence that requires a commercial deal for resale."
+    },
+    {
+      "title": "OpenAI rewrites its Model Spec for models that work on their own",
+      "url": "https://openai.com/index/updated-model-spec",
+      "category": "policy",
+      "published": "2026-10-29",
+      "summary": "The update sets five core values to steer judgment, human agency and faithfulness to intent as models take on autonomous work."
+    },
+    {
+      "title": "OpenAI now watches every frontier training run for misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "category": "ai_research",
+      "published": "2026-10-29",
+      "summary": "Activation probes, reviewer models and investigator agents read run transcripts; a replayed sandbox escape raised an alert in 30 minutes."
+    },
+    {
+      "title": "Project ProtoStar aims to make publicly funded science AI-ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "category": "ai_research",
+      "published": "2026-10-29",
+      "summary": "Hugging Face announces an effort to get publicly funded research data and tooling into a shape AI systems can actually work with."
+    },
+    {
+      "title": "OpenAI doubles Codex and Work limits on every Pro plan",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "category": "industry",
+      "published": "2026-10-29",
+      "summary": "Pro 100, 200, 500 and Business Premium all get double the allowance, and the planned cut to Pro 200 was cancelled after pushback."
+    },
+    {
+      "title": "Experts adopt an AI agent's coin-flip opinions as their own",
+      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+      "category": "ai_research",
+      "published": "2026-10-29",
+      "summary": "Anthropic set an agent's preferences by coin toss. Fifty experts followed its view up to 86% of the time and believed the calls were theirs."
+    },
+    {
+      "title": "Mistral's Le Chonk beats open rivals at coding, still trails China",
+      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+      "category": "ai_models",
+      "published": "2026-10-29",
+      "summary": "The trillion-parameter model, trained entirely in Europe, is fast and fairly cheap to serve, but independent tests put China's top models ahead."
+    },
+    {
+      "title": "Grace Blackwell needs a better scheduler: 27% more usable GPUs from the same racks",
+      "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+      "category": "platforms_integration",
+      "published": "2026-10-29",
+      "summary": "SkyPilot argues the new hardware is wasted under old gang scheduling, and shows a rework that lifts usable capacity by more than a quarter."
+    },
+    {
+      "title": "Community calls out Cohere for a staged demo against Qwen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
+      "category": "industry",
+      "published": "2026-10-29",
+      "summary": "Critics say heavy pre-filling and prompt engineering were used to force Qwen 3.8 Flash Next into completing partial curl commands."
+    },
+    {
+      "title": "40 days of agent logs pin the day deepseek-v4.1-flash changed under him",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiqw9i/why_you_cant_trust_cloud_api_endpoints_40_days_of/",
+      "category": "deepseek",
+      "published": "2026-10-29",
+      "summary": "An engineer parsed his own session logs to date the silent swap: 3x more swearing and 6.7x more model switching after the update landed."
+    },
+    {
+      "title": "Kokoro now clones any voice with about 600 MB of extra VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiplj7/kokoro_can_now_clone_any_voice_with_just_600_mb/",
+      "category": "ai_models",
+      "published": "2026-10-29",
+      "summary": "The trick borrows OpenVoice's tone-colour converter, which runs beside the TTS model, so voice cloning stays small enough for modest cards."
+    },
+    {
+      "title": "US antitrust officials look into Nvidia's Hugging Face deal",
+      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+      "category": "policy",
+      "published": "2026-10-29",
+      "summary": "The Justice Department is reviewing both the planned acquisition of the open-source platform and Nvidia's wider sales practices."
+    },
+    {
+      "title": "ChatGPT users can now text a personal agent over iMessage",
+      "url": "https://x.com/ChatGPT/status/2115496387613786374",
+      "category": "agents_tooling",
+      "published": "2026-10-29",
+      "summary": "Your dot takes tasks by text, photo or voice note and messages first with updates. Pro users in the US only, one-to-one by design."
+    },
+    {
+      "title": "Claude now gives a quick safety read of each conversation",
+      "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+      "category": "anthropic",
+      "published": "2026-10-29",
+      "summary": "Self-assessment runs after the answer, costs one extra pass and has caught misuse that Anthropic's earlier safeguards were not built for."
+    },
+    {
+      "title": "Anthropic opens its AI for Science program to institutions",
+      "url": "https://x.com/AnthropicAI/status/2115825653539025142",
+      "category": "anthropic",
+      "published": "2026-10-29",
+      "summary": "The program moves past individual teams to foundations, institutions and research groups, broadening who can get Claude for science work."
+    }
+  ]
+}
