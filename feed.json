@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-10-30T08:20:00+08:00",
+  "updated_at": "2026-10-30T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Mistral released Mistral Large 4, a trillion-parameter model anyone can download and run. OpenAI doubled the usage limits on every paid Pro plan. OpenAI also wrote new rules for how its models should behave when they work alone. Anthropic added a step where Claude checks its own conversation for misuse. US antitrust officials are looking into Nvidia's plan to buy Hugging Face.",
+  "tldr": "Moonshot's Kimi can now build 3D models by talking to Blender and CAD tools. Zo says it shipped 260% more code in two months as it rebuilds around agents. Reddit will soon hide every post behind a login, which breaks agents that search the web. Sam Altman says running models at home is a waste of scarce hardware. Two community builds squeeze big models onto very small machines.",
   "articles": [
+    {
+      "title": "Kimi now builds 3D models by driving Blender and CAD from chat",
+      "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
+      "category": "moonshot_ai",
+      "published": "2026-10-30",
+      "summary": "3D Make in Kimi connects to Blender and CAD tools to model, assemble scenes and build games."
+    },
+    {
+      "title": "Reddit going login-only will break agents that search the web",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "Posts stop being publicly readable, so tool-calling agents lose a large slice of searchable data."
+    },
+    {
+      "title": "Zo says its PR volume is up 260% as it rebuilds around agent workflows",
+      "url": "https://x.com/dannycosson/status/2115947785770107097",
+      "category": "zo_computer",
+      "published": "2026-10-29",
+      "summary": "Zo's CTO says the platform is being retooled into closed-loop agent factories for any team."
+    },
+    {
+      "title": "Y Combinator ran AI agent swarms inside Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "category": "agents_tooling",
+      "published": "2026-10-29",
+      "summary": "YC Labs put multiple cooperating agents into open-world games to test how they plan and split work."
+    },
+    {
+      "title": "A tiny world model runs a game on a $5 Raspberry Pi Pico 2 W",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "category": "ai_research",
+      "published": "2026-10-29",
+      "summary": "An open repo shows a world model small enough to run on a microcontroller, no GPU involved."
+    },
+    {
+      "title": "Sam Altman calls local inference a terrible use of scarce compute",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
+      "category": "industry",
+      "published": "2026-10-29",
+      "summary": "The OpenAI chief argues open weights do not make running models at home a good trade."
+    },
+    {
+      "title": "UkisAI cuts reasoning tokens 57.7% with under 1% accuracy loss",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xisqge/ukisai_swift_glm53_gsqrco_swift_ornith_9b_577/",
+      "category": "ai_models",
+      "published": "2026-10-29",
+      "summary": "Swift GLM-5.3 and Ornith 9B penalise the tokens linked to overthinking on long reasoning runs."
+    },
+    {
+      "title": "Martin Fowler on what happens to writing voice when a model writes it",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "category": "ai_research",
+      "published": "2026-10-29",
+      "summary": "An essay on how model-assisted writing flattens or preserves the author's own voice."
+    },
+    {
+      "title": "Free web search for agents is drying up as providers turn to paid tiers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xis2qz/free_web_search_for_my_local_agent_stopped/",
+      "category": "platforms_integration",
+      "published": "2026-10-29",
+      "summary": "Self-hosted search boxes keep getting captcha-blocked, pushing builders toward paid search APIs."
+    },
     {
       "title": "Mistral ships Mistral Large 4 weights: 1T parameters, 1M context, $0.70 input",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
@@ -360,69 +423,6 @@
       "category": "deepseek",
       "published": "2026-10-28",
       "summary": "A Reddit user runs a Q2 build of DeepSeek V4.1-Flash-1017 on one RTX 3090 at about 41 tokens/s, and says its output matches DeepSeek's API."
-    },
-    {
-      "title": "Artificial Analysis releases Intelligence Index v5",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/",
-      "category": "ai_models",
-      "published": "2026-10-28",
-      "summary": "Artificial Analysis calls v5 of its Intelligence Index a major upgrade. It widens the gap between open-weight and closed models. Some users doubt it."
-    },
-    {
-      "title": "Anthropic expands US government deal: Claude at 40% off",
-      "url": "https://x.com/AnthropicAI/status/2115207004293853358",
-      "category": "anthropic",
-      "published": "2026-10-28",
-      "summary": "Under a new OneGov agreement, Claude goes to federal, state, local, tribal and territorial governments at 40% off."
-    },
-    {
-      "title": "Hermes Agent plans revamped: every new plan includes a cloud agent",
-      "url": "https://x.com/NousResearch/status/2115120531611787323",
-      "category": "hermes_nous",
-      "published": "2026-10-28",
-      "summary": "Usage now has daily and weekly limits instead of one monthly block of credits. Paid Nous Portal tiers add a Hermes Agent instance and computer."
-    },
-    {
-      "title": "MiRL: error-targeted reinforcement learning for terminal agent misbehaviour",
-      "url": "https://x.com/_akhaliq/status/2115117941972684835",
-      "category": "ai_research",
-      "published": "2026-10-27",
-      "summary": "A paper targeting the failure class where CLI agents wander off task, the same shape as a stuck runner in an automated pipeline."
-    },
-    {
-      "title": "Google DeepMind's Genie 4 turns prompts into playable worlds",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "category": "ai_research",
-      "published": "2026-10-27",
-      "summary": "The new generation of DeepMind's world model drew 954 points on Hacker News, with interactive scenes generated on the fly."
-    },
-    {
-      "title": "Axiom formalizes the classification of finite simple groups in Lean",
-      "url": "https://cfsg.axiommath.ai/",
-      "category": "ai_research",
-      "published": "2026-10-27",
-      "summary": "A complete Lean formalization of the first-generation proof of the classification of finite simple groups. Lean's kernel checks every step."
-    },
-    {
-      "title": "Liquid AI launches LFM3, open-weight models for text, vision, audio and decisions",
-      "url": "https://www.liquid.ai/blog/lfm3",
-      "category": "ai_models",
-      "published": "2026-10-27",
-      "summary": "LFM3 is a new open-weight family of about 2B-class models covering text, vision, audio, omni and decision tasks, built to run on any device."
-    },
-    {
-      "title": "A 1.3B OCR model scores 93.68 on real-world document parsing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgx26j/a_13b_ocr_model_just_hit_9368_on_realworld/",
-      "category": "ai_models",
-      "published": "2026-10-27",
-      "summary": "A Reddit post reports 93.68 for a 1.3B OCR model on a real-world document parsing test. The score is self-reported."
-    },
-    {
-      "title": "InteractiveWorld: a verifiable environment for building interactive AI assistants",
-      "url": "https://huggingface.co/papers/2610.33966",
-      "category": "ai_research",
-      "published": "2026-10-27",
-      "summary": "A research paper proposing a verifiable, human-centred environment for training interactive multimodal assistants."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-10-29T13:15:38+08:00",
+      "at": "2026-10-30T13:15:00+08:00",
       "points": [
         {
-          "text": "Google opened an AI research hub in Singapore and signed on the country's health ministry as a partner.",
-          "url": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/"
+          "text": "Moonshot's Kimi can now build 3D models by talking to Blender and CAD tools.",
+          "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570"
         },
         {
-          "text": "GitHub says agents now start more than four in ten pull requests, up from about one in six in March.",
-          "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
+          "text": "Zo says it shipped 260% more code in two months as it rebuilds around agents.",
+          "url": "https://x.com/dannycosson/status/2115947785770107097"
         },
         {
-          "text": "One anti-bot script hides fake bioweapon code names to stop AI tools from reading it.",
-          "url": "https://nullpt.rs/fingerprinting-bioweapons"
+          "text": "Reddit will soon hide every post behind a login, which breaks agents that search the web.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/"
         },
         {
-          "text": "A hobbyist rebuilt cheap laptop memory into fast desktop memory as RAM prices keep climbing.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/"
+          "text": "Sam Altman says running models at home is a waste of scarce hardware.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/"
         },
         {
-          "text": "Someone got the game Doom running inside a Qwen model's weights, slowly but on screen.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights/"
+          "text": "Two community builds squeeze big models onto very small machines.",
+          "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570"
         }
       ]
     }
