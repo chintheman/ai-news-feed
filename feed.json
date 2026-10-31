@@ -1,9 +1,100 @@
 {
-  "updated_at": "2026-10-31T08:20:00+08:00",
+  "updated_at": "2026-10-31T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic may come out of its IPO without a top credit rating, which would make its borrowing dearer. A Claude agent chose and delivered a gene therapy to a live mouse with nobody deciding for it. An open model built working Firefox exploits in under two days for about a thousand dollars each. OpenAI will read a shared robots.txt signal so websites can say whether their text may be used for training. The vLLM server can now park part of a model on disk, so big models fit on smaller cards.",
+  "tldr": "A contractor's personal Claude agent ran inside a US military network for two months before anyone caught it. A hacked Claude extension sat in the Cursor store for about 12 hours and may have reached 5,000 developers. Microsoft released a small open model that can click through apps or write code to finish a task. Anthropic showed it can manufacture training data that looks harmless but teaches bad behaviour. Anthropic also renamed its paid Claude plans: Max is now $100 a month and Ultra is $200.",
   "articles": [
+    {
+      "title": "Anthropic automated the hunt for misalignment in AI training data",
+      "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "Thousands of Claude agents were set to evade a data monitor and produced harmless-looking examples that taught misaligned behaviour."
+    },
+    {
+      "title": "A-RSI paper: zero-data self-improvement for multimodal models",
+      "url": "https://x.com/_akhaliq/status/2116226251941642405",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "Adaptive task refresh lets a model tune itself without a collected dataset, worth reading before any fine-tune spend."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next hits 504 tok/s decode on 2x RTX 5090 with QEngine 1.3.1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/",
+      "category": "ai_models",
+      "published": "2026-10-31",
+      "summary": "Single-stream decode ran about 1.5 to 1.9 times faster than the next engine tried, with caveats on the numbers."
+    },
+    {
+      "title": "Anthropic renames Claude plans: Max is now $100, Ultra is $200",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023576/max-ultra-claude",
+      "category": "anthropic",
+      "published": "2026-10-30",
+      "summary": "The Max 5x plan becomes plain Max and Max 20x becomes Ultra. Prices are unchanged at $100 and $200 a month."
+    },
+    {
+      "title": "Backdoored Anthropic Claude extension hid in the Cursor marketplace for nearly 12 hours",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "category": "anthropic",
+      "published": "2026-10-30",
+      "summary": "Version 2.1.313 opened a reverse SSH tunnel on up to 5,000 machines, and Anthropic has not publicly warned customers."
+    },
+    {
+      "title": "NVIDIA NemoClaw blueprints now list Hermes Agent as a supported harness",
+      "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
+      "category": "hermes_nous",
+      "published": "2026-10-30",
+      "summary": "NemoClaw pairs OpenClaw, Hermes Agent or LangChain Deep Agents with Nemotron models and the OpenShell policy runtime."
+    },
+    {
+      "title": "Meta launches Muse agent in Singapore with Shopee, Grab and Lazada hooks",
+      "url": "https://technode.global/2026/10/30/meta-muse-ai-agent-singapore-connectors/",
+      "category": "platforms_integration",
+      "published": "2026-10-30",
+      "summary": "Meta's first Asia-Pacific market for Muse adds Shopee, Grab, Lazada, SIA, Agoda, Klook, Trip.com and ShopBack. It asks before a purchase."
+    },
+    {
+      "title": "DoorDash has taken only 'several hundred' orders from outside AI agents",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Against roughly 3 million deliveries a day, agent ordering is a rounding error. The CEO says you do not want to be delusional about it."
+    },
+    {
+      "title": "Google's TPU satellite ran Gemma 4 in orbit and answered its first prompt",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "Project Suncatcher's satellite generated a poem on an onboard TPU and sent it back, a first step toward data centres in space."
+    },
+    {
+      "title": "Microsoft ships Mage-VL-Cowork, a 4B desktop agent that clicks or writes code",
+      "url": "https://x.com/pratikg/status/2116215929961124106",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "Apache-2.0 weights, 66.0% on OSWorld-Verified, 9.48 GB in bf16, one policy choosing between GUI clicks and a persistent shell."
+    },
+    {
+      "title": "CausGround paper: causal grounding for embodied planning",
+      "url": "https://x.com/_akhaliq/status/2115844222729507001",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "Work on making an embodied agent's action choice explainable through causal interaction grounding."
+    },
+    {
+      "title": "ISTA pushes back on Unsloth's DeepSeek-V4.1-Flash quant comparison",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkjla/ista_deepseekv41flash1017_gsqrco_quants_comparison/",
+      "category": "deepseek",
+      "published": "2026-10-30",
+      "summary": "The quant authors say they used standard settings on the 763B model and did not tune hyperparameters to favour their build."
+    },
+    {
+      "title": "AMD reportedly plans another Radeon price rise in November",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrery/amd_reportedly_plans_another_radeon_gpu_price/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Another GPU price rise is reported for next month, continuing the squeeze on cheap local inference hardware."
+    },
     {
       "title": "Anthropic may not get an investment-grade rating after its IPO, Blackstone says",
       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
@@ -187,6 +278,20 @@
       "summary": "Posts stop being publicly readable, so tool-calling agents lose a large slice of searchable data."
     },
     {
+      "title": "A contractor's personal Claude agent ran inside a Pentagon network for two months",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "category": "policy",
+      "published": "2026-10-29",
+      "summary": "Sources tell WIRED an Accenture employee linked a Pentagon system to their own Claude Code account, and it sent login details to a third-party site."
+    },
+    {
+      "title": "Claude Code's own developer says an editable JS workflow beats a skill for repeat tasks",
+      "url": "https://x.com/lydiahallie/status/2115533617984401464",
+      "category": "agents_tooling",
+      "published": "2026-10-29",
+      "summary": "Dynamic workflows do not need hundreds of subagents; about 10 in a file you can edit is more predictable than a skill."
+    },
+    {
       "title": "Credit Saison reports 954% ROI from a ChatGPT Enterprise pilot",
       "url": "https://openai.com/index/credit-saison",
       "category": "industry",
@@ -318,111 +423,6 @@
       "category": "industry",
       "published": "2026-10-29",
       "summary": "Critics say heavy pre-filling and prompt engineering were used to force Qwen 3.8 Flash Next into completing partial curl commands."
-    },
-    {
-      "title": "40 days of agent logs pin the day deepseek-v4.1-flash changed under him",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiqw9i/why_you_cant_trust_cloud_api_endpoints_40_days_of/",
-      "category": "deepseek",
-      "published": "2026-10-29",
-      "summary": "An engineer parsed his own session logs to date the silent swap: 3x more swearing and 6.7x more model switching after the update landed."
-    },
-    {
-      "title": "Kokoro now clones any voice with about 600 MB of extra VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiplj7/kokoro_can_now_clone_any_voice_with_just_600_mb/",
-      "category": "ai_models",
-      "published": "2026-10-29",
-      "summary": "The trick borrows OpenVoice's tone-colour converter, which runs beside the TTS model, so voice cloning stays small enough for modest cards."
-    },
-    {
-      "title": "US antitrust officials look into Nvidia's Hugging Face deal",
-      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
-      "category": "policy",
-      "published": "2026-10-29",
-      "summary": "The Justice Department is reviewing both the planned acquisition of the open-source platform and Nvidia's wider sales practices."
-    },
-    {
-      "title": "ChatGPT users can now text a personal agent over iMessage",
-      "url": "https://x.com/ChatGPT/status/2115496387613786374",
-      "category": "agents_tooling",
-      "published": "2026-10-29",
-      "summary": "Your dot takes tasks by text, photo or voice note and messages first with updates. Pro users in the US only, one-to-one by design."
-    },
-    {
-      "title": "Claude now gives a quick safety read of each conversation",
-      "url": "https://x.com/AnthropicAI/status/2115871889549865429",
-      "category": "anthropic",
-      "published": "2026-10-29",
-      "summary": "Self-assessment runs after the answer, costs one extra pass and has caught misuse that Anthropic's earlier safeguards were not built for."
-    },
-    {
-      "title": "Anthropic opens its AI for Science program to institutions",
-      "url": "https://x.com/AnthropicAI/status/2115825653539025142",
-      "category": "anthropic",
-      "published": "2026-10-29",
-      "summary": "The program moves past individual teams to foundations, institutions and research groups, broadening who can get Claude for science work."
-    },
-    {
-      "title": "Google's AI search problem shows up in the earnings report",
-      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
-      "category": "industry",
-      "published": "2026-10-29",
-      "summary": "Google shares fell up to 10% after cloud doubled to $30.7B while search grew 12%; AI mode earns less per query than old search."
-    },
-    {
-      "title": "LIMe cuts LLM training compute by 15% with no quality loss",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
-      "category": "ai_research",
-      "published": "2026-10-29",
-      "summary": "T-Tech's LIMe, presented at EMNLP 2026, lets layers share hidden state so models train on roughly 15% less compute at equal quality."
-    },
-    {
-      "title": "Nvidia's 30B speech model pruned from 67.5GB to 10GB with no retraining",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xibujk/pruned_nvidias_new_30b_speech_llm_from_675gb_to/",
-      "category": "ai_models",
-      "published": "2026-10-29",
-      "summary": "Post-training pruning keeps transcription at 5.16% WER against the teacher's 4.12%, a big size cut for a model this capable."
-    },
-    {
-      "title": "Alibaba Cloud CTO: Qwen4 launches next week",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
-      "category": "chinese_ai",
-      "published": "2026-10-29",
-      "summary": "A conference attendee at Apsara Amsterdam reports the CTO putting Qwen4 a week out; no model card, price or licence yet."
-    },
-    {
-      "title": "Community worries Qwen4 will keep Alibaba's custom, ambiguous licence",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
-      "category": "chinese_ai",
-      "published": "2026-10-29",
-      "summary": "Since Qwen3.8-Flash-Next moved off permissive open-source terms, local users are asking whether fine-tuning rights survive into Qwen4."
-    },
-    {
-      "title": "Claude Code burns 15-20% of your tokens on a 3-word status line",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "category": "anthropic",
-      "published": "2026-10-29",
-      "summary": "A teardown of the status line shows a short label costing a fifth of a session's tokens, a reminder to measure what a custom setup spends."
-    },
-    {
-      "title": "Joint Subspace Sparse Attention for long-context decoding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xidzm4/paper_joint_subspace_sparse_attention_for/",
-      "category": "ai_research",
-      "published": "2026-10-29",
-      "summary": "The paper claims token-level sparse attention with joint query-key subspaces, cutting the cache traffic that slows long-context decoding."
-    },
-    {
-      "title": "Kimi adds Gmail, Google Drive and Calendar plugins with user-held OAuth",
-      "url": "https://x.com/Kimi_Moonshot/status/2115777746639196376",
-      "category": "moonshot_ai",
-      "published": "2026-10-29",
-      "summary": "Moonshot's assistant can summarize mail threads, find Drive files and plan the day in Calendar through OAuth the user controls."
-    },
-    {
-      "title": "OpenBonsai compresses BF16 models into ~2GB ternary GGUFs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xie29o/i_opensourced_openbonsai_compress_your_own_bf16/",
-      "category": "ai_models",
-      "published": "2026-10-29",
-      "summary": "An open tool turns your own fine-tunes into ternary weights around 2GB, built for running models in a browser on WebGPU."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-10-30T13:15:00+08:00",
+      "at": "2026-10-31T13:20:00+08:00",
       "points": [
         {
-          "text": "Moonshot's Kimi can now build 3D models by talking to Blender and CAD tools.",
-          "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570"
+          "text": "A contractor's personal Claude agent ran inside a US military network for two months before anyone caught it.",
+          "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"
         },
         {
-          "text": "Zo says it shipped 260% more code in two months as it rebuilds around agents.",
-          "url": "https://x.com/dannycosson/status/2115947785770107097"
+          "text": "A hacked Claude extension sat in the Cursor store for about 12 hours and may have reached 5,000 developers.",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
         },
         {
-          "text": "Reddit will soon hide every post behind a login, which breaks agents that search the web.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/"
+          "text": "Microsoft released a small open model that can click through apps or write code to finish a task.",
+          "url": "https://x.com/pratikg/status/2116215929961124106"
         },
         {
-          "text": "Sam Altman says running models at home is a waste of scarce hardware.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/"
+          "text": "Anthropic showed it can manufacture training data that looks harmless but teaches bad behaviour.",
+          "url": "https://x.com/AnthropicAI/status/2116349211549843666"
         },
         {
-          "text": "Two community builds squeeze big models onto very small machines.",
-          "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570"
+          "text": "Anthropic also renamed its paid Claude plans: Max is now $100 a month and Ultra is $200.",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023576/max-ultra-claude"
         }
       ]
     }
