@@ -1,0 +1,106 @@
+{
+  "updated_at": "2026-10-31T21:16:59+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 14,
+  "tldr": "OpenAI raised only 11 billion dollars of the 30 billion it was chasing. Rock Matrix put out a small open model that holds long context on modest hardware. Microsoft offered a quarter of its staff a way out, and shielded the AI teams. A small 8 billion model beat doctors at reading medical scans in a Nature paper. Kimi can now read your Gmail, Drive and Calendar with your permission.",
+  "articles": [
+    {
+      "title": "OpenAI raises just $11 billion of its $30 billion target",
+      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "OpenAI closed about $11B of the $30B it sought, valuing it at $1.25T, as big investors cooled on AI."
+    },
+    {
+      "title": "AI boom triggers a PCB shortage with orders booked to 2030",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk17m0/first_memory_storage_and_now_pcbsss_ai_boom/",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "After memory and storage, printed circuit boards are the next AI-driven shortage, straining device makers."
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash hits 2,600 tok/s prefill on two DGX Sparks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk20x5/lawyer_with_too_many_gpus_part_3_deepseekv41flash/",
+      "category": "deepseek",
+      "published": "2026-10-31",
+      "summary": "A home rig of two DGX Sparks plus a 3090 pushes 256K context prefill at 2,600 tok/s, with raw data shared."
+    },
+    {
+      "title": "Show HN: A working Nintendo in about 1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "A developer built a model that runs NES games from roughly 1GB of Qwen weights; code is on GitHub."
+    },
+    {
+      "title": "What Cohere didn't test on Qwen3.8-Flash-Next",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx36m/the_multidimensional_butterfly_effect_what_cohere/",
+      "category": "chinese_ai",
+      "published": "2026-10-31",
+      "summary": "A detailed critique argues Cohere's Qwen3.8-Flash-Next benchmarks miss how the model behaves in real use."
+    },
+    {
+      "title": "8B clinical model beats clinicians at reading scans, in Nature",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk3pom/8b_parameter_model_evlffm_surpasses_clinicians_in/",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "EVLF-FM, an 8B multimodal model, outperformed clinicians on medical image understanding in a Nature paper."
+    },
+    {
+      "title": "Video grep: search footage by description, from the terminal",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk4tx7/video_grep_in_terminal_for_agents/",
+      "category": "agents_tooling",
+      "published": "2026-10-31",
+      "summary": "A CLI that finds moments in video from a plain description, built so agents can query footage directly."
+    },
+    {
+      "title": "Benchmarks are an unreliable measure of difficulty",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjr3th/benchmarks_are_an_unreliable_measure_of_difficulty/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "A paper finds benchmark scores overstate progress because framing and question difficulty skew the measure."
+    },
+    {
+      "title": "Microsoft offers a quarter of its staff voluntary severance, shields AI teams",
+      "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "About 60,000 Microsoft staff got a second voluntary exit offer this year while AI-critical teams were protected."
+    },
+    {
+      "title": "Google DeepMind maps Earth's forests with satellites and AI",
+      "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "DeepMind and the World Resources Institute released ForTy, which sorts land into six forest categories."
+    },
+    {
+      "title": "Cisco gave one junior engineer unlimited AI tokens to rewrite old code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Cisco's president on handing a 27-year-old engineer unlimited AI tokens to modernise legacy systems."
+    },
+    {
+      "title": "EdgeRock-4B brings constant-KV long context to small machines",
+      "url": "https://x.com/testingcatalog/status/2116500794715320616",
+      "category": "ai_models",
+      "published": "2026-10-31",
+      "summary": "Rock Matrix's first open model keeps KV cache at 72 MiB per sequence at 128K, with NF4, INT8 and FP8 builds out."
+    },
+    {
+      "title": "Kimi now connects to Gmail, Drive and Calendar",
+      "url": "https://x.com/Kimi_Moonshot/status/2115777746639196376",
+      "category": "moonshot_ai",
+      "published": "2026-10-29",
+      "summary": "Kimi added OAuth-scoped Gmail, Drive and Calendar connectors so it can read threads, find files and plan a day."
+    },
+    {
+      "title": "DFlash2 speedup for Qwen3.8-Flash-Next now works in llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjlgm4/psa_upgrade_flash_next_to_dflash2_if_you_havent/",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "The DFlash2 drafter now runs in llama.cpp with prebuilt GGUFs, giving about 17% faster generation on average."
+    }
+  ]
+}

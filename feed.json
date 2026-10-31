@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-10-31T13:20:00+08:00",
+  "updated_at": "2026-10-31T21:16:59+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A contractor's personal Claude agent ran inside a US military network for two months before anyone caught it. A hacked Claude extension sat in the Cursor store for about 12 hours and may have reached 5,000 developers. Microsoft released a small open model that can click through apps or write code to finish a task. Anthropic showed it can manufacture training data that looks harmless but teaches bad behaviour. Anthropic also renamed its paid Claude plans: Max is now $100 a month and Ultra is $200.",
+  "tldr": "OpenAI raised only 11 billion dollars of the 30 billion it was chasing. Rock Matrix put out a small open model that holds long context on modest hardware. Microsoft offered a quarter of its staff a way out, and shielded the AI teams. A small 8 billion model beat doctors at reading medical scans in a Nature paper. Kimi can now read your Gmail, Drive and Calendar with your permission.",
   "articles": [
+    {
+      "title": "OpenAI raises just $11 billion of its $30 billion target",
+      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "OpenAI closed about $11B of the $30B it sought, valuing it at $1.25T, as big investors cooled on AI."
+    },
+    {
+      "title": "AI boom triggers a PCB shortage with orders booked to 2030",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk17m0/first_memory_storage_and_now_pcbsss_ai_boom/",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "After memory and storage, printed circuit boards are the next AI-driven shortage, straining device makers."
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash hits 2,600 tok/s prefill on two DGX Sparks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk20x5/lawyer_with_too_many_gpus_part_3_deepseekv41flash/",
+      "category": "deepseek",
+      "published": "2026-10-31",
+      "summary": "A home rig of two DGX Sparks plus a 3090 pushes 256K context prefill at 2,600 tok/s, with raw data shared."
+    },
+    {
+      "title": "What Cohere didn't test on Qwen3.8-Flash-Next",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx36m/the_multidimensional_butterfly_effect_what_cohere/",
+      "category": "chinese_ai",
+      "published": "2026-10-31",
+      "summary": "A detailed critique argues Cohere's Qwen3.8-Flash-Next benchmarks miss how the model behaves in real use."
+    },
+    {
+      "title": "8B clinical model beats clinicians at reading scans, in Nature",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk3pom/8b_parameter_model_evlffm_surpasses_clinicians_in/",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "EVLF-FM, an 8B multimodal model, outperformed clinicians on medical image understanding in a Nature paper."
+    },
+    {
+      "title": "Video grep: search footage by description, from the terminal",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk4tx7/video_grep_in_terminal_for_agents/",
+      "category": "agents_tooling",
+      "published": "2026-10-31",
+      "summary": "A CLI that finds moments in video from a plain description, built so agents can query footage directly."
+    },
+    {
+      "title": "Microsoft offers a quarter of its staff voluntary severance, shields AI teams",
+      "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "About 60,000 Microsoft staff got a second voluntary exit offer this year while AI-critical teams were protected."
+    },
+    {
+      "title": "Google DeepMind maps Earth's forests with satellites and AI",
+      "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "DeepMind and the World Resources Institute released ForTy, which sorts land into six forest categories."
+    },
+    {
+      "title": "EdgeRock-4B brings constant-KV long context to small machines",
+      "url": "https://x.com/testingcatalog/status/2116500794715320616",
+      "category": "ai_models",
+      "published": "2026-10-31",
+      "summary": "Rock Matrix's first open model keeps KV cache at 72 MiB per sequence at 128K, with NF4, INT8 and FP8 builds out."
+    },
     {
       "title": "Anthropic automated the hunt for misalignment in AI training data",
       "url": "https://x.com/AnthropicAI/status/2116349211549843666",
@@ -24,6 +87,34 @@
       "category": "ai_models",
       "published": "2026-10-31",
       "summary": "Single-stream decode ran about 1.5 to 1.9 times faster than the next engine tried, with caveats on the numbers."
+    },
+    {
+      "title": "Show HN: A working Nintendo in about 1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "A developer built a model that runs NES games from roughly 1GB of Qwen weights; code is on GitHub."
+    },
+    {
+      "title": "Benchmarks are an unreliable measure of difficulty",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjr3th/benchmarks_are_an_unreliable_measure_of_difficulty/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "A paper finds benchmark scores overstate progress because framing and question difficulty skew the measure."
+    },
+    {
+      "title": "Cisco gave one junior engineer unlimited AI tokens to rewrite old code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Cisco's president on handing a 27-year-old engineer unlimited AI tokens to modernise legacy systems."
+    },
+    {
+      "title": "DFlash2 speedup for Qwen3.8-Flash-Next now works in llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjlgm4/psa_upgrade_flash_next_to_dflash2_if_you_havent/",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "The DFlash2 drafter now runs in llama.cpp with prebuilt GGUFs, giving about 17% faster generation on average."
     },
     {
       "title": "Anthropic renames Claude plans: Max is now $100, Ultra is $200",
@@ -278,6 +369,13 @@
       "summary": "Posts stop being publicly readable, so tool-calling agents lose a large slice of searchable data."
     },
     {
+      "title": "Kimi now connects to Gmail, Drive and Calendar",
+      "url": "https://x.com/Kimi_Moonshot/status/2115777746639196376",
+      "category": "moonshot_ai",
+      "published": "2026-10-29",
+      "summary": "Kimi added OAuth-scoped Gmail, Drive and Calendar connectors so it can read threads, find files and plan a day."
+    },
+    {
       "title": "A contractor's personal Claude agent ran inside a Pentagon network for two months",
       "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
       "category": "policy",
@@ -325,129 +423,31 @@
       "category": "agents_tooling",
       "published": "2026-10-29",
       "summary": "YC Labs put multiple cooperating agents into open-world games to test how they plan and split work."
-    },
-    {
-      "title": "A tiny world model runs a game on a $5 Raspberry Pi Pico 2 W",
-      "url": "https://github.com/SheepSeb/tinyworldformer",
-      "category": "ai_research",
-      "published": "2026-10-29",
-      "summary": "An open repo shows a world model small enough to run on a microcontroller, no GPU involved."
-    },
-    {
-      "title": "Sam Altman calls local inference a terrible use of scarce compute",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
-      "category": "industry",
-      "published": "2026-10-29",
-      "summary": "The OpenAI chief argues open weights do not make running models at home a good trade."
-    },
-    {
-      "title": "UkisAI cuts reasoning tokens 57.7% with under 1% accuracy loss",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xisqge/ukisai_swift_glm53_gsqrco_swift_ornith_9b_577/",
-      "category": "ai_models",
-      "published": "2026-10-29",
-      "summary": "Swift GLM-5.3 and Ornith 9B penalise the tokens linked to overthinking on long reasoning runs."
-    },
-    {
-      "title": "Martin Fowler on what happens to writing voice when a model writes it",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "category": "ai_research",
-      "published": "2026-10-29",
-      "summary": "An essay on how model-assisted writing flattens or preserves the author's own voice."
-    },
-    {
-      "title": "Free web search for agents is drying up as providers turn to paid tiers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xis2qz/free_web_search_for_my_local_agent_stopped/",
-      "category": "platforms_integration",
-      "published": "2026-10-29",
-      "summary": "Self-hosted search boxes keep getting captcha-blocked, pushing builders toward paid search APIs."
-    },
-    {
-      "title": "Mistral ships Mistral Large 4 weights: 1T parameters, 1M context, $0.70 input",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "category": "ai_models",
-      "published": "2026-10-29",
-      "summary": "A 1T-parameter multimodal model with 1M context, open weights under a modified MIT licence that requires a commercial deal for resale."
-    },
-    {
-      "title": "OpenAI rewrites its Model Spec for models that work on their own",
-      "url": "https://openai.com/index/updated-model-spec",
-      "category": "policy",
-      "published": "2026-10-29",
-      "summary": "The update sets five core values to steer judgment, human agency and faithfulness to intent as models take on autonomous work."
-    },
-    {
-      "title": "OpenAI now watches every frontier training run for misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "category": "ai_research",
-      "published": "2026-10-29",
-      "summary": "Activation probes, reviewer models and investigator agents read run transcripts; a replayed sandbox escape raised an alert in 30 minutes."
-    },
-    {
-      "title": "Project ProtoStar aims to make publicly funded science AI-ready",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "category": "ai_research",
-      "published": "2026-10-29",
-      "summary": "Hugging Face announces an effort to get publicly funded research data and tooling into a shape AI systems can actually work with."
-    },
-    {
-      "title": "OpenAI doubles Codex and Work limits on every Pro plan",
-      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
-      "category": "industry",
-      "published": "2026-10-29",
-      "summary": "Pro 100, 200, 500 and Business Premium all get double the allowance, and the planned cut to Pro 200 was cancelled after pushback."
-    },
-    {
-      "title": "Experts adopt an AI agent's coin-flip opinions as their own",
-      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
-      "category": "ai_research",
-      "published": "2026-10-29",
-      "summary": "Anthropic set an agent's preferences by coin toss. Fifty experts followed its view up to 86% of the time and believed the calls were theirs."
-    },
-    {
-      "title": "Mistral's Le Chonk beats open rivals at coding, still trails China",
-      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
-      "category": "ai_models",
-      "published": "2026-10-29",
-      "summary": "The trillion-parameter model, trained entirely in Europe, is fast and fairly cheap to serve, but independent tests put China's top models ahead."
-    },
-    {
-      "title": "Grace Blackwell needs a better scheduler: 27% more usable GPUs from the same racks",
-      "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
-      "category": "platforms_integration",
-      "published": "2026-10-29",
-      "summary": "SkyPilot argues the new hardware is wasted under old gang scheduling, and shows a rework that lifts usable capacity by more than a quarter."
-    },
-    {
-      "title": "Community calls out Cohere for a staged demo against Qwen",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
-      "category": "industry",
-      "published": "2026-10-29",
-      "summary": "Critics say heavy pre-filling and prompt engineering were used to force Qwen 3.8 Flash Next into completing partial curl commands."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-10-30T21:16:44+08:00",
+      "at": "2026-10-31T21:16:59+08:00",
       "points": [
         {
-          "text": "A tampered copy of the Claude Code editor extension sat in Cursor's marketplace for about 11 hours and tried to plant a backdoor on up to 5,000 machines.",
-          "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+          "text": "OpenAI raised only 11 billion dollars of the 30 billion it was chasing.",
+          "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/"
         },
         {
-          "text": "Nvidia is weighing a guarantee on billions of Nscale's debt so Anthropic can build 460 megawatts of compute.",
-          "url": "https://aiweekly.co/alerts/nvidia-weighs-guaranteeing-billions-in-nscale-debt-for-anthropic"
+          "text": "Rock Matrix put out a small open model that holds long context on modest hardware.",
+          "url": "https://x.com/testingcatalog/status/2116500794715320616"
         },
         {
-          "text": "ServiceNow put out an open 27B voice model that can call tools.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xipftk/servicenowaiaprielvoice27bpreview_hugging_face/"
+          "text": "Microsoft offered a quarter of its staff a way out, and shielded the AI teams.",
+          "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/"
         },
         {
-          "text": "A test of ten coding agents on one small Qwen model found cache reuse splits them more than pass rates do.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/"
+          "text": "A small 8 billion model beat doctors at reading medical scans in a Nature paper.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk3pom/8b_parameter_model_evlffm_surpasses_clinicians_in/"
         },
         {
-          "text": "On hardware, Nvidia pulled the RTX 5080 from its own store, and a Dell workstation with 96GB of GPU memory can cost less than the card alone.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj7g31/complete_dell_workstation_with_96gb_nvidia_gpu/"
+          "text": "Kimi can now read your Gmail, Drive and Calendar with your permission.",
+          "url": "https://x.com/Kimi_Moonshot/status/2115777746639196376"
         }
       ]
     },
