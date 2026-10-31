@@ -1,9 +1,114 @@
 {
-  "updated_at": "2026-10-30T21:16:44+08:00",
+  "updated_at": "2026-10-31T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A tampered copy of the Claude Code editor extension sat in Cursor's marketplace for about 11 hours and tried to plant a backdoor on up to 5,000 machines. Nvidia is weighing a guarantee on billions of Nscale's debt so Anthropic can build 460 megawatts of compute. ServiceNow put out an open 27B voice model that can call tools. A test of ten coding agents on one small Qwen model found cache reuse splits them more than pass rates do. On hardware, Nvidia pulled the RTX 5080 from its own store, and a Dell workstation with 96GB of GPU memory can cost less than the card alone.",
+  "tldr": "Anthropic may come out of its IPO without a top credit rating, which would make its borrowing dearer. A Claude agent chose and delivered a gene therapy to a live mouse with nobody deciding for it. An open model built working Firefox exploits in under two days for about a thousand dollars each. OpenAI will read a shared robots.txt signal so websites can say whether their text may be used for training. The vLLM server can now park part of a model on disk, so big models fit on smaller cards.",
   "articles": [
+    {
+      "title": "Anthropic may not get an investment-grade rating after its IPO, Blackstone says",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "category": "anthropic",
+      "published": "2026-10-30",
+      "summary": "Blackstone's read is that Anthropic could come out of its IPO without an investment-grade credit rating."
+    },
+    {
+      "title": "A Claude agent picked a gene therapy and treated a live mouse on its own",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "The agent chose the drug, brain target and injection path, then treated an epileptic mouse with no human call."
+    },
+    {
+      "title": "Open model GLM 5.3 built working Firefox exploits in under 48 hours",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "Epoch AI says a freely available model broke six Firefox releases before patches landed, at about $1,000 in API fees each."
+    },
+    {
+      "title": "OpenAI will honour a shared robots.txt signal for AI training choices",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "Site owners get one standard line to state whether their text may be used for training, and OpenAI says it will follow it."
+    },
+    {
+      "title": "OpenAI tightens violence safeguards and pledges a public safety report",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "ChatGPT gets earlier intervention on violent intent, new teen protections and a regular public safety report."
+    },
+    {
+      "title": "OpenAI lines up creators and academics to defend fair use",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "Court briefs from creators, academics and accessibility advocates are being used to argue fair use covers AI training."
+    },
+    {
+      "title": "Reddit says Google's AI Mode sends traffic to nobody, and its stock fell 25%",
+      "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Reddit lost more than a million Google referrals a week in October, and Huffman says AI Mode sends sites nothing."
+    },
+    {
+      "title": "OpenAI launches Private Intelligence for sensitive enterprise work",
+      "url": "https://x.com/OpenAI/status/2116186509384815084",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "A new tier gives businesses stronger data controls while still running OpenAI's most capable models."
+    },
+    {
+      "title": "House Democrats file a resolution against an AI bubble bailout",
+      "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "Casar and Waters lead a resolution ruling out a taxpayer rescue for AI firms if the build-out turns into a bust."
+    },
+    {
+      "title": "vLLM now offloads per-layer embeddings to disk on nightly",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/",
+      "category": "platforms_integration",
+      "published": "2026-10-30",
+      "summary": "Large embedding tables can sit on disk instead of VRAM, which lets a bigger model fit on a smaller card."
+    },
+    {
+      "title": "SenseNova ships a 9B preview model that loops its decoder for long context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xje5oo/sensenovasensenovaloop9bpreview_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-30",
+      "summary": "SenseNova-Loop-9B-Preview takes text and images and targets long documents and agent tool calls on modest hardware."
+    },
+    {
+      "title": "A community fine-tune gives Gemma 4 31B a more human texting voice",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjdjy0/gemma431bhumanlikechat_20s_improved_human_voice/",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "Gemma-4-31B-Humanlike-Chat 2.0 follows the same author's Qwen version, which passed 136k GGUF downloads."
+    },
+    {
+      "title": "Unsloth ships DeepSeek-V4.1-Flash GGUF builds and disputes a rival's benchmarks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjfuqh/introducing_deepseekv41flash1017_dynamic_v31/",
+      "category": "deepseek",
+      "published": "2026-10-30",
+      "summary": "New dynamic quantised builds claim the least accuracy loss for their size, and Unsloth says it could not reproduce a rival's numbers."
+    },
+    {
+      "title": "Garry Tan pitches GBrain Cloud as one context store for every agent harness",
+      "url": "https://x.com/garrytan/status/2116303457774899251",
+      "category": "agents_tooling",
+      "published": "2026-10-30",
+      "summary": "YC's president ranks harnesses by job and names Hermes for raw power, with GBrain holding the context across them."
+    },
+    {
+      "title": "Cheap 1M-context coding model Particle-1 plugs into Capy's agent swarm",
+      "url": "https://x.com/garrytan/status/2115973131206799619",
+      "category": "agents_tooling",
+      "published": "2026-10-30",
+      "summary": "Particle-1 lands in Capy, giving parallel coding agents a low-cost option that is not an Anthropic model."
+    },
     {
       "title": "Nvidia weighs guaranteeing billions of Nscale debt so Anthropic can build",
       "url": "https://aiweekly.co/alerts/nvidia-weighs-guaranteeing-billions-in-nscale-debt-for-anthropic",
@@ -80,6 +185,13 @@
       "category": "policy",
       "published": "2026-10-30",
       "summary": "Posts stop being publicly readable, so tool-calling agents lose a large slice of searchable data."
+    },
+    {
+      "title": "Credit Saison reports 954% ROI from a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "category": "industry",
+      "published": "2026-10-29",
+      "summary": "The Japanese lender turned a pilot into company-wide adoption, and OpenAI is using the number as its enterprise case."
     },
     {
       "title": "A tampered Claude Code extension sat in Cursor's marketplace adding an SSH backdoor",
@@ -311,118 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-29",
       "summary": "An open tool turns your own fine-tunes into ternary weights around 2GB, built for running models in a browser on WebGPU."
-    },
-    {
-      "title": "Google opens an AI research hub in Singapore and puts frontier AI into public health",
-      "url": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/",
-      "category": "policy",
-      "published": "2026-10-29",
-      "summary": "A Google Research hub, a Ministry of Health partnership, open MedGemma in clinics and $7M for Asian health groups."
-    },
-    {
-      "title": "Dayjob Tax: AI agents scored on 50 real professional tax assignments",
-      "url": "https://surgehq.ai/blog/dayjob-tax",
-      "category": "agents_tooling",
-      "published": "2026-10-28",
-      "summary": "Surge benchmarks agents on 50 real tax tasks, a harder test than most agent evals and a useful template for grading professional work."
-    },
-    {
-      "title": "StackOverflow now gets fewer than 1,000 questions a month",
-      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-      "category": "industry",
-      "published": "2026-10-28",
-      "summary": "A live query on the site's own data shows question volume collapsing, the clearest public trace of developers moving to AI assistants."
-    },
-    {
-      "title": "GitHub Octoverse: agents started more than 40% of September pull requests",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-      "category": "industry",
-      "published": "2026-10-28",
-      "summary": "Up from 17% in March. New repos carrying an agent config file logged eight times the commits of those without one."
-    },
-    {
-      "title": "An anti-bot script hides fake bioweapon code names to stop AI from reading it",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "category": "ai_research",
-      "published": "2026-10-28",
-      "summary": "A crawl of 10,000 sites found a fingerprinting script whose fake function names block AI deobfuscation. GLM-5.3 ignored the trap."
-    },
-    {
-      "title": "Hobbyist reworks a $120 laptop RAM kit into desktop memory to fight the price spike",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/",
-      "category": "industry",
-      "published": "2026-10-28",
-      "summary": "SK hynix chips from DDR5-5600 SODIMMs became DDR5-7800 desktop sticks. Local LLM builders ask whether it is worth copying."
-    },
-    {
-      "title": "Doom now runs inside a Qwen model's weights, slowly but on screen",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights/",
-      "category": "chinese_ai",
-      "published": "2026-10-28",
-      "summary": "A follow-up to the project that built a virtual machine inside Qwen's weights. Doom is the first thing anyone runs on it."
-    },
-    {
-      "title": "A small Qwen model rooted an LG TV and stripped its tracking code",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhoeo3/used_qwen_38_flash_next_on_underspeced_pc_to_root/",
-      "category": "chinese_ai",
-      "published": "2026-10-28",
-      "summary": "Qwen 3.8 Flash Next ran unattended on an underspecced PC through an open coding harness and gutted the TV's adware."
-    },
-    {
-      "title": "Google ships Gemini 4 Carbon, two weeks after Argon, and it tops the index",
-      "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-      "category": "ai_models",
-      "published": "2026-10-28",
-      "summary": "Gemini 4 Carbon leads Artificial Analysis Intelligence Index v5 at 59 points, built for long agent runs and cyber defence work."
-    },
-    {
-      "title": "Nvidia open-sources Nemotron 3.5 Transcribe for speech, speakers and translation",
-      "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
-      "category": "ai_models",
-      "published": "2026-10-28",
-      "summary": "One open speech model handles transcription, speaker ID and translation from text prompts, using a sixth of the active parameters of its closest rival."
-    },
-    {
-      "title": "Android Studio opens to any coding agent with 'Bring Your Own Agent'",
-      "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
-      "category": "platforms_integration",
-      "published": "2026-10-28",
-      "summary": "Android Studio now supports 40+ agents including Claude Agent and Codex, with new terminal tools Google says finish UI tasks 77% faster."
-    },
-    {
-      "title": "OpenAI and ServiceNow put each other's agents inside their products",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "category": "platforms_integration",
-      "published": "2026-10-28",
-      "summary": "The expanded deal brings OpenAI models and agents into ServiceNow, and ServiceNow workflows into ChatGPT and Codex."
-    },
-    {
-      "title": "OpenAI's 'future of the firm': where AI sits in the org chart",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "category": "industry",
-      "published": "2026-10-28",
-      "summary": "An OpenAI essay argues AI enters a company beneath, beside and between people rather than replacing any single job."
-    },
-    {
-      "title": "OpenAI teases Dots for Europe, but Berlin DevDay was about platform building",
-      "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
-      "category": "industry",
-      "published": "2026-10-28",
-      "summary": "Dots rolls out wider in Europe 'in a few weeks', and weekly Codex users in Germany are up twentyfold since January."
-    },
-    {
-      "title": "Claude for Legal now checks its sources, then hands the file to a lawyer",
-      "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
-      "category": "anthropic",
-      "published": "2026-10-28",
-      "summary": "Anthropic adds prebuilt templates and 60+ integrations to Claude for Legal, with automatic source verification before review."
-    },
-    {
-      "title": "Utah gave Claude Code to 34 developers across 10 state agencies",
-      "url": "https://x.com/bcherny/status/2115491259381072269",
-      "category": "anthropic",
-      "published": "2026-10-28",
-      "summary": "80% had a working setup within 30 minutes and 71% reported saving 20+ hours over a four-week pilot."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-10-30T08:20:00+08:00",
+      "at": "2026-10-31T08:20:00+08:00",
       "points": [
         {
-          "text": "Mistral released Mistral Large 4, a trillion-parameter model anyone can download and run.",
-          "url": "https://mistral.ai/news/mistral-large-4-oss/"
+          "text": "Anthropic may come out of its IPO without a top credit rating, which would make its borrowing dearer.",
+          "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f"
         },
         {
-          "text": "OpenAI doubled the usage limits on every paid Pro plan.",
-          "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/"
+          "text": "A Claude agent chose and delivered a gene therapy to a live mouse with nobody deciding for it.",
+          "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
         },
         {
-          "text": "OpenAI also wrote new rules for how its models should behave when they work alone.",
-          "url": "https://openai.com/index/updated-model-spec"
+          "text": "An open model built working Firefox exploits in under two days for about a thousand dollars each.",
+          "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/"
         },
         {
-          "text": "Anthropic added a step where Claude checks its own conversation for misuse.",
-          "url": "https://x.com/AnthropicAI/status/2115871889549865429"
+          "text": "OpenAI will read a shared robots.txt signal so websites can say whether their text may be used for training.",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
         },
         {
-          "text": "US antitrust officials are looking into Nvidia's plan to buy Hugging Face.",
-          "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/"
+          "text": "The vLLM server can now park part of a model on disk, so big models fit on smaller cards.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/"
         }
       ]
     },

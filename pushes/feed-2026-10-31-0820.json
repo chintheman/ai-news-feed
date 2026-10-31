@@ -1,0 +1,120 @@
+{
+  "updated_at": "2026-10-31T08:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 16,
+  "tldr": "Anthropic may come out of its IPO without a top credit rating, which would make its borrowing dearer. A Claude agent chose and delivered a gene therapy to a live mouse with nobody deciding for it. An open model built working Firefox exploits in under two days for about a thousand dollars each. OpenAI will read a shared robots.txt signal so websites can say whether their text may be used for training. The vLLM server can now park part of a model on disk, so big models fit on smaller cards.",
+  "articles": [
+    {
+      "title": "Anthropic may not get an investment-grade rating after its IPO, Blackstone says",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "category": "anthropic",
+      "published": "2026-10-30",
+      "summary": "Blackstone's read is that Anthropic could come out of its IPO without an investment-grade credit rating."
+    },
+    {
+      "title": "A Claude agent picked a gene therapy and treated a live mouse on its own",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "The agent chose the drug, brain target and injection path, then treated an epileptic mouse with no human call."
+    },
+    {
+      "title": "Open model GLM 5.3 built working Firefox exploits in under 48 hours",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+      "category": "ai_research",
+      "published": "2026-10-30",
+      "summary": "Epoch AI says a freely available model broke six Firefox releases before patches landed, at about $1,000 in API fees each."
+    },
+    {
+      "title": "OpenAI will honour a shared robots.txt signal for AI training choices",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "Site owners get one standard line to state whether their text may be used for training, and OpenAI says it will follow it."
+    },
+    {
+      "title": "OpenAI tightens violence safeguards and pledges a public safety report",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "ChatGPT gets earlier intervention on violent intent, new teen protections and a regular public safety report."
+    },
+    {
+      "title": "OpenAI lines up creators and academics to defend fair use",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "Court briefs from creators, academics and accessibility advocates are being used to argue fair use covers AI training."
+    },
+    {
+      "title": "Reddit says Google's AI Mode sends traffic to nobody, and its stock fell 25%",
+      "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "Reddit lost more than a million Google referrals a week in October, and Huffman says AI Mode sends sites nothing."
+    },
+    {
+      "title": "Credit Saison reports 954% ROI from a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "category": "industry",
+      "published": "2026-10-29",
+      "summary": "The Japanese lender turned a pilot into company-wide adoption, and OpenAI is using the number as its enterprise case."
+    },
+    {
+      "title": "OpenAI launches Private Intelligence for sensitive enterprise work",
+      "url": "https://x.com/OpenAI/status/2116186509384815084",
+      "category": "industry",
+      "published": "2026-10-30",
+      "summary": "A new tier gives businesses stronger data controls while still running OpenAI's most capable models."
+    },
+    {
+      "title": "House Democrats file a resolution against an AI bubble bailout",
+      "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "category": "policy",
+      "published": "2026-10-30",
+      "summary": "Casar and Waters lead a resolution ruling out a taxpayer rescue for AI firms if the build-out turns into a bust."
+    },
+    {
+      "title": "vLLM now offloads per-layer embeddings to disk on nightly",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/",
+      "category": "platforms_integration",
+      "published": "2026-10-30",
+      "summary": "Large embedding tables can sit on disk instead of VRAM, which lets a bigger model fit on a smaller card."
+    },
+    {
+      "title": "SenseNova ships a 9B preview model that loops its decoder for long context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xje5oo/sensenovasensenovaloop9bpreview_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-10-30",
+      "summary": "SenseNova-Loop-9B-Preview takes text and images and targets long documents and agent tool calls on modest hardware."
+    },
+    {
+      "title": "A community fine-tune gives Gemma 4 31B a more human texting voice",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjdjy0/gemma431bhumanlikechat_20s_improved_human_voice/",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "Gemma-4-31B-Humanlike-Chat 2.0 follows the same author's Qwen version, which passed 136k GGUF downloads."
+    },
+    {
+      "title": "Unsloth ships DeepSeek-V4.1-Flash GGUF builds and disputes a rival's benchmarks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjfuqh/introducing_deepseekv41flash1017_dynamic_v31/",
+      "category": "deepseek",
+      "published": "2026-10-30",
+      "summary": "New dynamic quantised builds claim the least accuracy loss for their size, and Unsloth says it could not reproduce a rival's numbers."
+    },
+    {
+      "title": "Garry Tan pitches GBrain Cloud as one context store for every agent harness",
+      "url": "https://x.com/garrytan/status/2116303457774899251",
+      "category": "agents_tooling",
+      "published": "2026-10-30",
+      "summary": "YC's president ranks harnesses by job and names Hermes for raw power, with GBrain holding the context across them."
+    },
+    {
+      "title": "Cheap 1M-context coding model Particle-1 plugs into Capy's agent swarm",
+      "url": "https://x.com/garrytan/status/2115973131206799619",
+      "category": "agents_tooling",
+      "published": "2026-10-30",
+      "summary": "Particle-1 lands in Capy, giving parallel coding agents a low-cost option that is not an Anthropic model."
+    }
+  ]
+}
