@@ -1,9 +1,100 @@
 {
-  "updated_at": "2026-10-31T21:16:59+08:00",
+  "updated_at": "2026-11-01T08:16:56+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI raised only 11 billion dollars of the 30 billion it was chasing. Rock Matrix put out a small open model that holds long context on modest hardware. Microsoft offered a quarter of its staff a way out, and shielded the AI teams. A small 8 billion model beat doctors at reading medical scans in a Nature paper. Kimi can now read your Gmail, Drive and Calendar with your permission.",
+  "tldr": "DeepSeek published free code for an AI agent that picks up work from GitHub and answers with a pull request. A security firm says one shared ChatGPT link let it read other people's private chats, and OpenAI fixed it on October 26. Anthropic is adding hidden watermarks to four more Claude models, but one setting turns it off on two older ones. OpenAI will train on some people's data from November 29, even those who switched training off. NVIDIA released a tiny 38 megabyte model that cleans up noisy audio before transcription.",
   "articles": [
+    {
+      "title": "DeepSeek's free server-side Search and Fetch window closed, billing has started",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "category": "deepseek",
+      "published": "2026-11-01",
+      "summary": "Calls made by DeepSeek Harness, Claude Code and Codex now cost $0.75 per 1,000 successful requests, from 00:00 Beijing time."
+    },
+    {
+      "title": "DeepSeek open-sources an MIT router plus worker agent that works GitHub issues",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "category": "deepseek",
+      "published": "2026-10-31",
+      "summary": "A resident router plus parallel worker sessions that open a work item, do it and reply with a PR. Research code, not a product."
+    },
+    {
+      "title": "Meta built a humanoid prototype with Shanghai's Fourier in about three months",
+      "url": "https://www.streetinsider.com/Reuters/Meta+builds+humanoid+robot+with+Chinese+startup+Fourier%2C+The+Information+says/27267532.html",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "The Information reports a 48 kg, 1.5 m prototype codenamed Max, with a second version under way. Meta and Fourier published no specs."
+    },
+    {
+      "title": "AWS agentic AI call for proposals: about $70,000 plus credits, closes Nov 11",
+      "url": "https://www.amazon.science/research-awards/call-for-proposals/aws-agentic-ai-call-for-proposals-fall-2026",
+      "category": "industry",
+      "published": "2026-10-31",
+      "summary": "Amazon's Fall 2026 round funds agent research and open tools, up to $70k cash plus $50k AWS credits, with no IP claim."
+    },
+    {
+      "title": "OpenCode-Demul puts an Android emulator inside the coding agent",
+      "url": "https://x.com/markfenner/status/2116582007748935704",
+      "category": "agents_tooling",
+      "published": "2026-10-31",
+      "summary": "The agent can inspect screens, launch apps, type and take screenshots from inside the editor, so mobile testing needs no device farm."
+    },
+    {
+      "title": "One shared ChatGPT link was enough to take over a signed-in account",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "category": "policy",
+      "published": "2026-10-31",
+      "summary": "Parameter found a public share could run code as chatgpt.com and read private chats. OpenAI fixed it on 26 Oct and paid $5,000."
+    },
+    {
+      "title": "Anthropic watermarks four more Claude models, and one setting undoes it",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "category": "anthropic",
+      "published": "2026-10-31",
+      "summary": "Anthropic is expanding its text watermark to meet the EU's December deadline. On Opus 4.6 and Sonnet 4.6 a sampling change removes it."
+    },
+    {
+      "title": "OpenAI will train on Daybreak Blue session data that was off-limits",
+      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+      "category": "policy",
+      "published": "2026-10-31",
+      "summary": "From 29 November, data from Daybreak Blue sessions can train models even where users turned training off. A follow-up email added an opt-out."
+    },
+    {
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "category": "ai_models",
+      "published": "2026-10-31",
+      "summary": "The write-up says the model played Factorio through in peaceful mode, a long-horizon planning test agents have struggled with."
+    },
+    {
+      "title": "Someone ran an LLM inside an LLM: Karpathy's micro-stories inside Qwen weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "An NPU compiled into Qwen 3.5-4B's weights runs Karpathy's stories260k. The same builder put a RISC-V CPU inside Qwen earlier."
+    },
+    {
+      "title": "Karpathy's HackerTube turns 19 years of HN comments into a YouTube",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "category": "platforms_integration",
+      "published": "2026-10-31",
+      "summary": "A YouTube-style player over 6,454 videos drawn from 39,834 Hacker News comments since 2007."
+    },
+    {
+      "title": "CrowdGPT v2.6 trains a model on strangers' GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "A collaborative LLM project aiming to train without datacentres, now at v2.6 with a larger volunteer contribution."
+    },
+    {
+      "title": "Researcher says Anthropic blocked him for 'training a competitor'",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkm5gz/jiahao_shao_on_x_shame_on_darioamodei_anthropic_i/",
+      "category": "anthropic",
+      "published": "2026-10-31",
+      "summary": "Jiahao Shao says his rollouts came from an open-source model and Claude only ran the jobs, yet RFT, SFT and larger-model training block him."
+    },
     {
       "title": "OpenAI raises just $11 billion of its $30 billion target",
       "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
@@ -87,6 +178,13 @@
       "category": "ai_models",
       "published": "2026-10-31",
       "summary": "Single-stream decode ran about 1.5 to 1.9 times faster than the next engine tried, with caveats on the numbers."
+    },
+    {
+      "title": "NVIDIA 38 MB speech cleaner lifts recognition accuracy 8 points on noisy audio",
+      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE",
+      "category": "ai_models",
+      "published": "2026-10-30",
+      "summary": "RE-USE is a 9.6M-parameter open-weights model that strips noise, reverb and clipping before transcription. Commercial use allowed."
     },
     {
       "title": "Show HN: A working Nintendo in about 1GB of Qwen weights",
@@ -325,104 +423,6 @@
       "category": "ai_research",
       "published": "2026-10-30",
       "summary": "The team argues most foundation models score tokens instead of whole answers, and releases code and weights to test the energy-based alternative."
-    },
-    {
-      "title": "Nvidia releases judge models that grade self-driving reasoning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj89xx/alpajudge_nvidias_learned_judges_for/",
-      "category": "ai_research",
-      "published": "2026-10-30",
-      "summary": "AlpaJudge comes in reference-based and reference-free variants, weights under OpenMDW-1.1 and Apache 2.0 code, to score driving-model reasoning."
-    },
-    {
-      "title": "Ten coding agents on one Qwen 27B server: cache reuse splits them more than pass rates",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/",
-      "category": "agents_tooling",
-      "published": "2026-10-30",
-      "summary": "One identical llama.cpp server, five trapped coding tasks, ten agents: token counts and prompt-cache reuse varied far more than the scores did."
-    },
-    {
-      "title": "Nvidia pulls the RTX 5080 from its own store",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj9xjh/the_rtx_5080_has_been_removed_from_nvidias/",
-      "category": "industry",
-      "published": "2026-10-30",
-      "summary": "Reports say the 16GB RTX 5080 is being wound down behind the already-gone 5090, with a 24GB 5080 pencilled in for early 2027 until Rubin lands."
-    },
-    {
-      "title": "A Dell workstation with a 96GB Nvidia GPU can cost less than the card",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj7g31/complete_dell_workstation_with_96gb_nvidia_gpu/",
-      "category": "industry",
-      "published": "2026-10-30",
-      "summary": "With GPU and memory prices climbing, a full refurbished Dell box with a 96GB card is priced under the card on its own, a cheap route to big VRAM."
-    },
-    {
-      "title": "Kimi now builds 3D models by driving Blender and CAD from chat",
-      "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
-      "category": "moonshot_ai",
-      "published": "2026-10-30",
-      "summary": "3D Make in Kimi connects to Blender and CAD tools to model, assemble scenes and build games."
-    },
-    {
-      "title": "Reddit going login-only will break agents that search the web",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/",
-      "category": "policy",
-      "published": "2026-10-30",
-      "summary": "Posts stop being publicly readable, so tool-calling agents lose a large slice of searchable data."
-    },
-    {
-      "title": "Kimi now connects to Gmail, Drive and Calendar",
-      "url": "https://x.com/Kimi_Moonshot/status/2115777746639196376",
-      "category": "moonshot_ai",
-      "published": "2026-10-29",
-      "summary": "Kimi added OAuth-scoped Gmail, Drive and Calendar connectors so it can read threads, find files and plan a day."
-    },
-    {
-      "title": "A contractor's personal Claude agent ran inside a Pentagon network for two months",
-      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-      "category": "policy",
-      "published": "2026-10-29",
-      "summary": "Sources tell WIRED an Accenture employee linked a Pentagon system to their own Claude Code account, and it sent login details to a third-party site."
-    },
-    {
-      "title": "Claude Code's own developer says an editable JS workflow beats a skill for repeat tasks",
-      "url": "https://x.com/lydiahallie/status/2115533617984401464",
-      "category": "agents_tooling",
-      "published": "2026-10-29",
-      "summary": "Dynamic workflows do not need hundreds of subagents; about 10 in a file you can edit is more predictable than a skill."
-    },
-    {
-      "title": "Credit Saison reports 954% ROI from a ChatGPT Enterprise pilot",
-      "url": "https://openai.com/index/credit-saison",
-      "category": "industry",
-      "published": "2026-10-29",
-      "summary": "The Japanese lender turned a pilot into company-wide adoption, and OpenAI is using the number as its enterprise case."
-    },
-    {
-      "title": "A tampered Claude Code extension sat in Cursor's marketplace adding an SSH backdoor",
-      "url": "https://cursor.com/blog/claude-code-extension-security-notice",
-      "category": "anthropic",
-      "published": "2026-10-29",
-      "summary": "A malicious build of Anthropic.claude-code 2.1.313 was live for about 11 hours, adding an attacker SSH key and a reverse tunnel. Up to 5,000 users."
-    },
-    {
-      "title": "ServiceNow ships Apriel Voice 27B, an open model for speech plus tool calls",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xipftk/servicenowaiaprielvoice27bpreview_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-10-29",
-      "summary": "Apriel Voice 27B preview hears a spoken request, reasons over the conversation, then answers in text or calls tools on a shared Gemma 4 backbone."
-    },
-    {
-      "title": "Zo says its PR volume is up 260% as it rebuilds around agent workflows",
-      "url": "https://x.com/dannycosson/status/2115947785770107097",
-      "category": "zo_computer",
-      "published": "2026-10-29",
-      "summary": "Zo's CTO says the platform is being retooled into closed-loop agent factories for any team."
-    },
-    {
-      "title": "Y Combinator ran AI agent swarms inside Minecraft and Mindustry",
-      "url": "https://labs.ycombinator.com/projects/games/index.html",
-      "category": "agents_tooling",
-      "published": "2026-10-29",
-      "summary": "YC Labs put multiple cooperating agents into open-world games to test how they plan and split work."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-10-31T08:20:00+08:00",
+      "at": "2026-11-01T08:16:56+08:00",
       "points": [
         {
-          "text": "Anthropic may come out of its IPO without a top credit rating, which would make its borrowing dearer.",
-          "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f"
+          "text": "DeepSeek published free code for an AI agent that picks up work from GitHub and answers with a pull request.",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
-          "text": "A Claude agent chose and delivered a gene therapy to a live mouse with nobody deciding for it.",
-          "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
+          "text": "A security firm says one shared ChatGPT link let it read other people's private chats, and OpenAI fixed it on October 26.",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
         },
         {
-          "text": "An open model built working Firefox exploits in under two days for about a thousand dollars each.",
-          "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/"
+          "text": "Anthropic is adding hidden watermarks to four more Claude models, but one setting turns it off on two older ones.",
+          "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/"
         },
         {
-          "text": "OpenAI will read a shared robots.txt signal so websites can say whether their text may be used for training.",
-          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+          "text": "OpenAI will train on some people's data from November 29, even those who switched training off.",
+          "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/"
         },
         {
-          "text": "The vLLM server can now park part of a model on disk, so big models fit on smaller cards.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/"
+          "text": "NVIDIA released a tiny 38 megabyte model that cleans up noisy audio before transcription.",
+          "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE"
         }
       ]
     },
