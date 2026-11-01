@@ -1,15 +1,50 @@
 {
-  "updated_at": "2026-11-01T08:16:56+08:00",
+  "updated_at": "2026-11-01T13:16:31+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepSeek published free code for an AI agent that picks up work from GitHub and answers with a pull request. A security firm says one shared ChatGPT link let it read other people's private chats, and OpenAI fixed it on October 26. Anthropic is adding hidden watermarks to four more Claude models, but one setting turns it off on two older ones. OpenAI will train on some people's data from November 29, even those who switched training off. NVIDIA released a tiny 38 megabyte model that cleans up noisy audio before transcription.",
+  "tldr": "Anthropic renamed its two paid Claude plans on 30 October: Max 5x is now Max and Max 20x is now Ultra, at the same prices. Verified Ultra accounts no longer hit the five-hour limit, though the weekly budget has not changed. Google made its Computer Use tool generally available, so an agent can drive a browser through a stable API. Vercel Labs released a small toolkit that lets an agent drive desktop apps by reading screen elements instead of looking at pixels. A new open model family called Groot claims the best score under 500 billion parameters, and users posted new tests of how a coding engine can quietly weaken the model it serves.",
   "articles": [
+    {
+      "title": "Grok 4.20 spent 700 turns stuck in one house in Pokemon Red",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkr521/grok_420_spent_700_turns_stuck_in_reds_house_in/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "On PokeBench, a benchmark where vision models play the game, it left the house at turn 36 and got no starter until turn 755 while noticing the loop."
+    },
     {
       "title": "DeepSeek's free server-side Search and Fetch window closed, billing has started",
       "url": "https://api-docs.deepseek.com/quick_start/pricing",
       "category": "deepseek",
       "published": "2026-11-01",
       "summary": "Calls made by DeepSeek Harness, Claude Code and Codex now cost $0.75 per 1,000 successful requests, from 00:00 Beijing time."
+    },
+    {
+      "title": "Groot-280B-A16B claims the best result under 500B parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkge1s/im_groot/",
+      "category": "ai_models",
+      "published": "2026-10-31",
+      "summary": "Open weights land as a 280B mixture of experts plus a 19B sibling the poster says beats Qwen3.6-35B-A3B and Gemma-4-26B-A4B."
+    },
+    {
+      "title": "A user measured whether inference engines blunt the model they serve",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkbbqi/is_your_engine_lobotomizing_your_model_kinda_and/",
+      "category": "ai_models",
+      "published": "2026-10-31",
+      "summary": "Tests double quantisation and performance flags switched on by default, the two ways an engine can quietly degrade output."
+    },
+    {
+      "title": "It's the memory latency, stupid",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "category": "ai_research",
+      "published": "2026-10-31",
+      "summary": "A front-page argument that memory latency, not raw bandwidth, is what limits model serving on today's hardware."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next is good at code and loses the thread on open research",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkjrdl/please_tell_me_qwen38flashnext_can_be_made_to_be/",
+      "category": "chinese_ai",
+      "published": "2026-10-31",
+      "summary": "A user reports it evaluates repos and runs models well, but gets lost in its own reasoning on broader research tasks."
     },
     {
       "title": "DeepSeek open-sources an MIT router plus worker agent that works GitHub issues",
@@ -178,6 +213,27 @@
       "category": "ai_models",
       "published": "2026-10-31",
       "summary": "Single-stream decode ran about 1.5 to 1.9 times faster than the next engine tried, with caveats on the numbers."
+    },
+    {
+      "title": "Claude Max 20x becomes Ultra, and verified accounts lose the five-hour cap",
+      "url": "https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html",
+      "category": "anthropic",
+      "published": "2026-10-30",
+      "summary": "Same $100 and $200 prices, new names. Verified Ultra accounts skip the five-hour limit, but the weekly budget stays at 10x Pro."
+    },
+    {
+      "title": "Gemini Computer Use reaches general availability, with a zero-install CLI",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "category": "platforms_integration",
+      "published": "2026-10-30",
+      "summary": "Google's changelog puts Computer Use in both APIs and ships gemini-api, a stateless command-line client aimed at coding agents and CI."
+    },
+    {
+      "title": "Vercel Labs releases agent-desktop to drive desktop apps by accessibility tree",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "category": "agents_tooling",
+      "published": "2026-10-30",
+      "summary": "Apache-2.0 Rust CLI and C library, about 60 commands, macOS, Windows and Linux. Element refs stay stable, so actions can be retried."
     },
     {
       "title": "NVIDIA 38 MB speech cleaner lifts recognition accuracy 8 points on noisy audio",
@@ -367,62 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-30",
       "summary": "Gemma-4-31B-Humanlike-Chat 2.0 follows the same author's Qwen version, which passed 136k GGUF downloads."
-    },
-    {
-      "title": "Unsloth ships DeepSeek-V4.1-Flash GGUF builds and disputes a rival's benchmarks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjfuqh/introducing_deepseekv41flash1017_dynamic_v31/",
-      "category": "deepseek",
-      "published": "2026-10-30",
-      "summary": "New dynamic quantised builds claim the least accuracy loss for their size, and Unsloth says it could not reproduce a rival's numbers."
-    },
-    {
-      "title": "Garry Tan pitches GBrain Cloud as one context store for every agent harness",
-      "url": "https://x.com/garrytan/status/2116303457774899251",
-      "category": "agents_tooling",
-      "published": "2026-10-30",
-      "summary": "YC's president ranks harnesses by job and names Hermes for raw power, with GBrain holding the context across them."
-    },
-    {
-      "title": "Cheap 1M-context coding model Particle-1 plugs into Capy's agent swarm",
-      "url": "https://x.com/garrytan/status/2115973131206799619",
-      "category": "agents_tooling",
-      "published": "2026-10-30",
-      "summary": "Particle-1 lands in Capy, giving parallel coding agents a low-cost option that is not an Anthropic model."
-    },
-    {
-      "title": "Nvidia weighs guaranteeing billions of Nscale debt so Anthropic can build",
-      "url": "https://aiweekly.co/alerts/nvidia-weighs-guaranteeing-billions-in-nscale-debt-for-anthropic",
-      "category": "industry",
-      "published": "2026-10-30",
-      "summary": "Nvidia is in talks to back billions in Nscale debt for Anthropic's 460MW build. Nvidia has now extended roughly $170B of credit across neoclouds."
-    },
-    {
-      "title": "Soft-MTP fixes a flaw in multi-token prediction training",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjc8q3/paper_multitoken_prediction_done_right_softmtp/",
-      "category": "ai_research",
-      "published": "2026-10-30",
-      "summary": "The paper finds a residual part of the MTP gradient interferes with next-token learning and proposes Soft-MTP, which keeps the inference speedup."
-    },
-    {
-      "title": "inclusionAI releases ZwZ2, Qwen-based vision models at 27B, 9B and 4B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjcl4x/inclusionaizwz2_27b9b4b_qwen_finetunes/",
-      "category": "chinese_ai",
-      "published": "2026-10-30",
-      "summary": "ZwZ2 finetunes Qwen3.6 so the model compares and matches visual evidence across regions at full image size, with no zooming tool at inference."
-    },
-    {
-      "title": "Metatron v1 is one policy for walking, touching and falling on a humanoid",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj8kzn/metatron_v1_nvidias_unified_humanoid_control/",
-      "category": "ai_research",
-      "published": "2026-10-30",
-      "summary": "Nvidia's single learned policy covers walking, scene interaction and fall recovery for the 29-joint Unitree G1, under the Nvidia Open Model License."
-    },
-    {
-      "title": "OpenEBFM asks whether energy-based models can scale like foundation models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj6vw8/openebfm_can_energybased_models_scale_as/",
-      "category": "ai_research",
-      "published": "2026-10-30",
-      "summary": "The team argues most foundation models score tokens instead of whole answers, and releases code and weights to test the energy-based alternative."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-10-31T13:20:00+08:00",
+      "at": "2026-11-01T13:16:31+08:00",
       "points": [
         {
-          "text": "A contractor's personal Claude agent ran inside a US military network for two months before anyone caught it.",
-          "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"
+          "text": "Anthropic renamed its two paid Claude plans on 30 October: Max 5x is now Max and Max 20x is now Ultra, at the same prices.",
+          "url": "https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html"
         },
         {
-          "text": "A hacked Claude extension sat in the Cursor store for about 12 hours and may have reached 5,000 developers.",
-          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+          "text": "Verified Ultra accounts no longer hit the five-hour limit, though the weekly budget has not changed.",
+          "url": "https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html"
         },
         {
-          "text": "Microsoft released a small open model that can click through apps or write code to finish a task.",
-          "url": "https://x.com/pratikg/status/2116215929961124106"
+          "text": "Google made its Computer Use tool generally available, so an agent can drive a browser through a stable API.",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog"
         },
         {
-          "text": "Anthropic showed it can manufacture training data that looks harmless but teaches bad behaviour.",
-          "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+          "text": "Vercel Labs released a small toolkit that lets an agent drive desktop apps by reading screen elements instead of looking at pixels.",
+          "url": "https://github.com/vercel-labs/agent-desktop"
         },
         {
-          "text": "Anthropic also renamed its paid Claude plans: Max is now $100 a month and Ultra is $200.",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1023576/max-ultra-claude"
+          "text": "A new open model family called Groot claims the best score under 500 billion parameters, and users posted new tests of how a coding engine can quietly weaken the model it serves.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkge1s/im_groot/"
         }
       ]
     }
