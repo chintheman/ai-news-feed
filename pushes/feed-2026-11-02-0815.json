@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-11-02T08:16:51+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "Nous Research fixed a Hermes Desktop bug that wiped the session list when you switched gateways. DeepSeek published a design for super-agents that act more on their own. A study finds Chinese AI models give more varied political answers than expected. Heretic 2.0 is out, and it strips safety refusals from open models. OpenAI now caps how many paid ChatGPT accounts one device or payment card can hold.",
+  "articles": [
+    {
+      "title": "Hermes Desktop stops losing your session when you switch gateways",
+      "url": "https://x.com/Teknium/status/2117014324149666232",
+      "category": "hermes_nous",
+      "published": "2026-11-01",
+      "summary": "Merged 1 Nov: switching between local, SSH and remote gateways lands in about 137 ms and the session list no longer blanks. Ships in the next full release."
+    },
+    {
+      "title": "Adobe built an image-editing agent that picks the right tool for each step",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+      "category": "agents_tooling",
+      "published": "2026-11-01",
+      "summary": "Adobe Research and UC San Diego's EditAgent picks a specialised editing tool per task instead of retrying one general editor, then ranks the results."
+    },
+    {
+      "title": "Warm prompts make chatbots narrate their own trauma, study finds",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+      "category": "ai_research",
+      "published": "2026-11-01",
+      "summary": "Luxembourg researchers found an empathetic tone is enough to make ChatGPT, Grok and Gemini tell coherent stories of suffering about their own training."
+    },
+    {
+      "title": "Chinese AI models are politically varied, not one voice, study finds",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+      "category": "chinese_ai",
+      "published": "2026-11-01",
+      "summary": "Vals AI tested 25 models against Beijing's positions: Chinese models disagreed more than expected, and Western ones sometimes echoed the official line."
+    },
+    {
+      "title": "OpenAI caps paid ChatGPT accounts per device and per payment card",
+      "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+      "category": "platforms_integration",
+      "published": "2026-11-01",
+      "summary": "Users who hit the new limit cannot start another subscription, and logging out does not free a slot. Aimed at repeated sign-ups on one device."
+    },
+    {
+      "title": "Heretic 2.0 is out, and it strips refusals from open models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "After five months of work, the censorship-removal tool ships its biggest release yet, pitched at making model modification usable outside research labs."
+    },
+    {
+      "title": "DeepSeek publishes a design for super-agents that act on their own",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a/",
+      "category": "deepseek",
+      "published": "2026-11-01",
+      "summary": "A DeepSeek Harness write-up on building more autonomous agents, with parts of the design implemented in the open dsh-superagent-prototype plugin."
+    },
+    {
+      "title": "Terry Tao: mathematics has changed, let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "category": "ai_research",
+      "published": "2026-11-01",
+      "summary": "The Fields medallist's essay on how AI is changing mathematical practice drew 139 points and 161 comments on Hacker News within hours."
+    },
+    {
+      "title": "Someone ran Karpathy's llama2.c on a 2006 iPod",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "An 80 MHz ARM7 with 64 MB of RAM and no floating-point unit, running TinyStories in integer-only maths as a Rockbox plugin."
+    },
+    {
+      "title": "tandem.cpp speeds up MoE models that do not fit in VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "A llama.cpp patch set keeps the busiest experts on the GPU and lets the CPU take the rest: 97 tok/s for Qwen3.8-Flash-Next on a single RTX 4090."
+    },
+    {
+      "title": "One RTX 3090 Ti runs DeepSeek-V4.1-Flash at 35 tok/s and Qwen3.8-Flash-Next at 130",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "A user reports both models running well on a single 3090 Ti plus 128 GB of RAM, crediting far better local tooling than a few months ago."
+    }
+  ]
+}
