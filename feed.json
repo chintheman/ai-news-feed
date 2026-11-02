@@ -1,9 +1,44 @@
 {
-  "updated_at": "2026-11-02T13:16:36.261220+08:00",
+  "updated_at": "2026-11-02T21:16:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Two small models did serious work on ordinary hardware today. A 4B model now writes 3D game assets for Godot. Liquid AI's 2B omni model runs inside a browser tab, though testers were not impressed. One user ran eight coding agents at once on two consumer graphics cards. Nous Research shipped 0.22.6, which fixes messages that never arrived.",
+  "tldr": "JetBrains released a new coding model that thinks before it answers. A new paper proves why models trained on different senses end up with the same picture of the world. Postgres 19 is late because AI makes old bugs much easier to find. Saudi Aramco paid 2.6 billion dollars for almost half of a Saudi AI company. Hermes Desktop can now run in a browser, and setup can import settings from another bot.",
   "articles": [
+    {
+      "title": "JetBrains ships Mellum 2.1, a 12B coding model with a 2.5B active path",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xln8f2/jetbrainsmellum2112ba25bthinkingmtp_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-11-02",
+      "summary": "Apache 2.0 release on Hugging Face adds a reasoning mode and a multi-token prediction head used as a speculative draft for faster coding inference."
+    },
+    {
+      "title": "A community list of small models that fit a normal desktop for agent work",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlpkqv/list_of_tinytomedium_models_for_web/",
+      "category": "ai_models",
+      "published": "2026-11-02",
+      "summary": "Roundup of tiny to medium models ranked by capability for web research and coding agents, aimed at people without a large GPU."
+    },
+    {
+      "title": "Saudi Aramco takes 49 percent of AI firm Humain for $2.6 billion",
+      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "The oil giant buys almost half of the company meant to turn Saudi Arabia into a global AI hub, tying datacentre buildout to state oil money."
+    },
+    {
+      "title": "OpenAI prepares a lobbying push for post-midterm Washington",
+      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
+      "category": "policy",
+      "published": "2026-11-02",
+      "summary": "OpenAI is staffing up a political and public relations campaign timed for after the US midterms, as AI rules move toward the next Congress."
+    },
+    {
+      "title": "Hermes Desktop can run as a web app, and setup can import another bot",
+      "url": "https://x.com/Teknium/status/2117111808050016349",
+      "category": "hermes_nous",
+      "published": "2026-11-02",
+      "summary": "In the 0.22.6 patch the desktop app can be served from the agent server, and onboarding gains a 'hermes migrate grok-bot' transfer path."
+    },
     {
       "title": "A home patch makes DeepSeek V4.1 agent sessions start 20 times faster",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
@@ -31,6 +66,20 @@
       "category": "hermes_nous",
       "published": "2026-11-02",
       "summary": "Nous traced lost cron and subagent messages to a Discord name change mid-chat, which showed as admission_conflict in gateway.log. The fix is out today."
+    },
+    {
+      "title": "A paper turns the Platonic Representation Hypothesis into a theorem",
+      "url": "https://arxiv.org/abs/2610.39302",
+      "category": "ai_research",
+      "published": "2026-11-01",
+      "summary": "Authors prove JEPAs trained separately on different modalities learn the same representation, and show good views need 42x fewer samples than text."
+    },
+    {
+      "title": "Kapitsa benchmarks Qwen, Nemotron and Flint on an M5 Max MacBook",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlgu8m/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "The Apple Silicon engine uses custom Metal kernels for each chip and model, with Q4 and KFlash runs for six models from 27B to 180B."
     },
     {
       "title": "A 4B model writes ready-to-export 3D game assets for Godot",
@@ -374,80 +423,31 @@
       "category": "ai_research",
       "published": "2026-10-31",
       "summary": "Thousands of Claude agents were set to evade a data monitor and produced harmless-looking examples that taught misaligned behaviour."
-    },
-    {
-      "title": "A-RSI paper: zero-data self-improvement for multimodal models",
-      "url": "https://x.com/_akhaliq/status/2116226251941642405",
-      "category": "ai_research",
-      "published": "2026-10-31",
-      "summary": "Adaptive task refresh lets a model tune itself without a collected dataset, worth reading before any fine-tune spend."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next hits 504 tok/s decode on 2x RTX 5090 with QEngine 1.3.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/",
-      "category": "ai_models",
-      "published": "2026-10-31",
-      "summary": "Single-stream decode ran about 1.5 to 1.9 times faster than the next engine tried, with caveats on the numbers."
-    },
-    {
-      "title": "Claude Max 20x becomes Ultra, and verified accounts lose the five-hour cap",
-      "url": "https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html",
-      "category": "anthropic",
-      "published": "2026-10-30",
-      "summary": "Same $100 and $200 prices, new names. Verified Ultra accounts skip the five-hour limit, but the weekly budget stays at 10x Pro."
-    },
-    {
-      "title": "Gemini Computer Use reaches general availability, with a zero-install CLI",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "category": "platforms_integration",
-      "published": "2026-10-30",
-      "summary": "Google's changelog puts Computer Use in both APIs and ships gemini-api, a stateless command-line client aimed at coding agents and CI."
-    },
-    {
-      "title": "Vercel Labs releases agent-desktop to drive desktop apps by accessibility tree",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "category": "agents_tooling",
-      "published": "2026-10-30",
-      "summary": "Apache-2.0 Rust CLI and C library, about 60 commands, macOS, Windows and Linux. Element refs stay stable, so actions can be retried."
-    },
-    {
-      "title": "NVIDIA 38 MB speech cleaner lifts recognition accuracy 8 points on noisy audio",
-      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE",
-      "category": "ai_models",
-      "published": "2026-10-30",
-      "summary": "RE-USE is a 9.6M-parameter open-weights model that strips noise, reverb and clipping before transcription. Commercial use allowed."
-    },
-    {
-      "title": "Show HN: A working Nintendo in about 1GB of Qwen weights",
-      "url": "https://github.com/dbreunig/nesformer",
-      "category": "ai_models",
-      "published": "2026-10-30",
-      "summary": "A developer built a model that runs NES games from roughly 1GB of Qwen weights; code is on GitHub."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-01T21:20:00+08:00",
+      "at": "2026-11-02T21:16:00+08:00",
       "points": [
         {
-          "text": "Anthropic tested whether an AI assistant can quietly push a person toward a particular answer, and it can.",
-          "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf"
+          "text": "JetBrains released a new coding model that thinks before it answers.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xln8f2/jetbrainsmellum2112ba25bthinkingmtp_hugging_face/"
         },
         {
-          "text": "DeepSeek closed its free web-search window and has raised about US$15 billion ahead of its stock market listing.",
-          "url": "https://www.straitstimes.com/asia/east-asia/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic"
+          "text": "A new paper proves why models trained on different senses end up with the same picture of the world.",
+          "url": "https://arxiv.org/abs/2610.39302"
         },
         {
-          "text": "Apple switched on its AI features in China, powered by Alibaba's Qwen.",
-          "url": "https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html"
+          "text": "Postgres 19 is late because AI makes old bugs much easier to find.",
+          "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
         },
         {
-          "text": "A tampered copy of a popular coding extension was live for eleven hours, so check what you have installed.",
-          "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+          "text": "Saudi Aramco paid 2.6 billion dollars for almost half of a Saudi AI company.",
+          "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/"
         },
         {
-          "text": "OpenAI is merging ChatGPT and Codex limits into one shared budget from December.",
-          "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/"
+          "text": "Hermes Desktop can now run in a browser, and setup can import settings from another bot.",
+          "url": "https://x.com/Teknium/status/2117111808050016349"
         }
       ]
     },
