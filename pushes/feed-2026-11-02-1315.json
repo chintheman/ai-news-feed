@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-11-02T13:16:36.261220+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 6,
+  "tldr": "Two small models did serious work on ordinary hardware today. A 4B model now writes 3D game assets for Godot. Liquid AI's 2B omni model runs inside a browser tab, though testers were not impressed. One user ran eight coding agents at once on two consumer graphics cards. Nous Research shipped 0.22.6, which fixes messages that never arrived.",
+  "articles": [
+    {
+      "title": "A 4B model writes ready-to-export 3D game assets for Godot",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "GLB-3D-Coder turns a text prompt into a Three.js scene with GLB export, so the props drop straight into Godot or another game engine."
+    },
+    {
+      "title": "A home patch makes DeepSeek V4.1 agent sessions start 20 times faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
+      "category": "ai_models",
+      "published": "2026-11-02",
+      "summary": "Answering Sam Altman's line that home DRAM is wasted, a developer patched Strata so long agent sessions open far faster on an ordinary gaming GPU."
+    },
+    {
+      "title": "Liquid AI's LFM3 Omni 2B runs in a browser tab, and testers are unimpressed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/",
+      "category": "ai_models",
+      "published": "2026-11-02",
+      "summary": "The 2B omni model runs on WebGPU with nothing to install. The poster was being sarcastic about the quality of its answers in the demo video."
+    },
+    {
+      "title": "Eight agents with 250K context each, all at once, on two RTX 3090s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/",
+      "category": "agents_tooling",
+      "published": "2026-11-02",
+      "summary": "Built on the TokenGate paper's idea of pruning long context, the setup runs eight agents in parallel and reports about 600 tokens per second in total."
+    },
+    {
+      "title": "Is Gemma 4 E4B still the best small model for a local tool-calling assistant?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xle3ul/is_gemma_4_e4b_still_the_best_small_model_for_a/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "Someone running an assistant on a 24 GB Mac wants steady tool calls across mail, calendar and notes, and asks which newer small models do better."
+    },
+    {
+      "title": "Hermes 0.22.6 fixes background results that silently never arrived",
+      "url": "https://x.com/Teknium/status/2117053728725610662",
+      "category": "hermes_nous",
+      "published": "2026-11-02",
+      "summary": "Nous traced lost cron and subagent messages to a Discord name change mid-chat, which showed as admission_conflict in gateway.log. The fix is out today."
+    }
+  ]
+}

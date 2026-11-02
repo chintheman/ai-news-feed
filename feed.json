@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-11-02T08:16:51+08:00",
+  "updated_at": "2026-11-02T13:16:36.261220+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nous Research fixed a Hermes Desktop bug that wiped the session list when you switched gateways. DeepSeek published a design for super-agents that act more on their own. A study finds Chinese AI models give more varied political answers than expected. Heretic 2.0 is out, and it strips safety refusals from open models. OpenAI now caps how many paid ChatGPT accounts one device or payment card can hold.",
+  "tldr": "Two small models did serious work on ordinary hardware today. A 4B model now writes 3D game assets for Godot. Liquid AI's 2B omni model runs inside a browser tab, though testers were not impressed. One user ran eight coding agents at once on two consumer graphics cards. Nous Research shipped 0.22.6, which fixes messages that never arrived.",
   "articles": [
+    {
+      "title": "A home patch makes DeepSeek V4.1 agent sessions start 20 times faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
+      "category": "ai_models",
+      "published": "2026-11-02",
+      "summary": "Answering Sam Altman's line that home DRAM is wasted, a developer patched Strata so long agent sessions open far faster on an ordinary gaming GPU."
+    },
+    {
+      "title": "Liquid AI's LFM3 Omni 2B runs in a browser tab, and testers are unimpressed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/",
+      "category": "ai_models",
+      "published": "2026-11-02",
+      "summary": "The 2B omni model runs on WebGPU with nothing to install. The poster was being sarcastic about the quality of its answers in the demo video."
+    },
+    {
+      "title": "Eight agents with 250K context each, all at once, on two RTX 3090s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/",
+      "category": "agents_tooling",
+      "published": "2026-11-02",
+      "summary": "Built on the TokenGate paper's idea of pruning long context, the setup runs eight agents in parallel and reports about 600 tokens per second in total."
+    },
+    {
+      "title": "Hermes 0.22.6 fixes background results that silently never arrived",
+      "url": "https://x.com/Teknium/status/2117053728725610662",
+      "category": "hermes_nous",
+      "published": "2026-11-02",
+      "summary": "Nous traced lost cron and subagent messages to a Discord name change mid-chat, which showed as admission_conflict in gateway.log. The fix is out today."
+    },
+    {
+      "title": "A 4B model writes ready-to-export 3D game assets for Godot",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "GLB-3D-Coder turns a text prompt into a Three.js scene with GLB export, so the props drop straight into Godot or another game engine."
+    },
+    {
+      "title": "Is Gemma 4 E4B still the best small model for a local tool-calling assistant?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xle3ul/is_gemma_4_e4b_still_the_best_small_model_for_a/",
+      "category": "ai_models",
+      "published": "2026-11-01",
+      "summary": "Someone running an assistant on a 24 GB Mac wants steady tool calls across mail, calendar and notes, and asks which newer small models do better."
+    },
     {
       "title": "Hermes Desktop stops losing your session when you switch gateways",
       "url": "https://x.com/Teknium/status/2117014324149666232",
@@ -381,48 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-30",
       "summary": "A developer built a model that runs NES games from roughly 1GB of Qwen weights; code is on GitHub."
-    },
-    {
-      "title": "Benchmarks are an unreliable measure of difficulty",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjr3th/benchmarks_are_an_unreliable_measure_of_difficulty/",
-      "category": "ai_research",
-      "published": "2026-10-30",
-      "summary": "A paper finds benchmark scores overstate progress because framing and question difficulty skew the measure."
-    },
-    {
-      "title": "Cisco gave one junior engineer unlimited AI tokens to rewrite old code",
-      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-      "category": "industry",
-      "published": "2026-10-30",
-      "summary": "Cisco's president on handing a 27-year-old engineer unlimited AI tokens to modernise legacy systems."
-    },
-    {
-      "title": "DFlash2 speedup for Qwen3.8-Flash-Next now works in llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjlgm4/psa_upgrade_flash_next_to_dflash2_if_you_havent/",
-      "category": "ai_models",
-      "published": "2026-10-30",
-      "summary": "The DFlash2 drafter now runs in llama.cpp with prebuilt GGUFs, giving about 17% faster generation on average."
-    },
-    {
-      "title": "Anthropic renames Claude plans: Max is now $100, Ultra is $200",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023576/max-ultra-claude",
-      "category": "anthropic",
-      "published": "2026-10-30",
-      "summary": "The Max 5x plan becomes plain Max and Max 20x becomes Ultra. Prices are unchanged at $100 and $200 a month."
-    },
-    {
-      "title": "Backdoored Anthropic Claude extension hid in the Cursor marketplace for nearly 12 hours",
-      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-      "category": "anthropic",
-      "published": "2026-10-30",
-      "summary": "Version 2.1.313 opened a reverse SSH tunnel on up to 5,000 machines, and Anthropic has not publicly warned customers."
-    },
-    {
-      "title": "NVIDIA NemoClaw blueprints now list Hermes Agent as a supported harness",
-      "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
-      "category": "hermes_nous",
-      "published": "2026-10-30",
-      "summary": "NemoClaw pairs OpenClaw, Hermes Agent or LangChain Deep Agents with Nemotron models and the OpenShell policy runtime."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-01T13:16:31+08:00",
+      "at": "2026-11-02T13:16:36.261220+08:00",
       "points": [
         {
-          "text": "Anthropic renamed its two paid Claude plans on 30 October: Max 5x is now Max and Max 20x is now Ultra, at the same prices.",
-          "url": "https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html"
+          "text": "Two small models did serious work on ordinary hardware today.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xle3ul/is_gemma_4_e4b_still_the_best_small_model_for_a/"
         },
         {
-          "text": "Verified Ultra accounts no longer hit the five-hour limit, though the weekly budget has not changed.",
-          "url": "https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html"
+          "text": "A 4B model now writes 3D game assets for Godot.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/"
         },
         {
-          "text": "Google made its Computer Use tool generally available, so an agent can drive a browser through a stable API.",
-          "url": "https://ai.google.dev/gemini-api/docs/changelog"
+          "text": "Liquid AI's 2B omni model runs inside a browser tab, though testers were not impressed.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/"
         },
         {
-          "text": "Vercel Labs released a small toolkit that lets an agent drive desktop apps by reading screen elements instead of looking at pixels.",
-          "url": "https://github.com/vercel-labs/agent-desktop"
+          "text": "One user ran eight coding agents at once on two consumer graphics cards.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/"
         },
         {
-          "text": "A new open model family called Groot claims the best score under 500 billion parameters, and users posted new tests of how a coding engine can quietly weaken the model it serves.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkge1s/im_groot/"
+          "text": "Nous Research shipped 0.22.6, which fixes messages that never arrived.",
+          "url": "https://x.com/Teknium/status/2117053728725610662"
         }
       ]
     }
