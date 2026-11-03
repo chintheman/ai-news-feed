@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-11-02T21:16:00+08:00",
+  "updated_at": "2026-11-03T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "JetBrains released a new coding model that thinks before it answers. A new paper proves why models trained on different senses end up with the same picture of the world. Postgres 19 is late because AI makes old bugs much easier to find. Saudi Aramco paid 2.6 billion dollars for almost half of a Saudi AI company. Hermes Desktop can now run in a browser, and setup can import settings from another bot.",
+  "tldr": "Anthropic opened a paid research residency paying up to $500,000 a year, with applications closing on 22 November. A new paper shows one model can rewrite another model's weights directly, lifting a maths score from 7.9 to 48.1 percent. Qwen says its models will stay open source after rumours it planned to go API-only. Anthropic's revenue grew twelvefold, but it still lost $23 billion ahead of its IPO. Goldman Sachs has stopped letting bankers and traders use AI coding tools.",
   "articles": [
+    {
+      "title": "Anthropic opens a paid research residency, applications close 22 November",
+      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+      "category": "anthropic",
+      "published": "2026-11-02",
+      "summary": "Six weeks to six months at $350,000 to $500,000 a year for quantitative professors, founders and senior engineers. No ML background needed."
+    },
+    {
+      "title": "OpenAI's LifeVal scores agents on real errands, not exam questions",
+      "url": "https://openai.com/index/lifeval",
+      "category": "ai_research",
+      "published": "2026-11-02",
+      "summary": "Built from time-use surveys and 3,995 respondents. GPT-6 Astra tops several tasks: booking a class, ordering halal groceries, replacing a lost ring."
+    },
+    {
+      "title": "A model that edits another model's weights lifts MATH-500 from 7.9 to 48.1 percent",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "category": "ai_research",
+      "published": "2026-11-02",
+      "summary": "Researchers let GPT-6 Astra read and write Qwen's weights directly instead of prompting it. The edit raised a maths benchmark sharply."
+    },
+    {
+      "title": "Anthropic grows revenue twelvefold and still posts a $23 billion loss",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+      "category": "anthropic",
+      "published": "2026-11-02",
+      "summary": "Revenue is up sharply, but operating costs push the company back into the red weeks before its planned blockbuster IPO."
+    },
+    {
+      "title": "Qwen says its models stay open source after API-only rumours",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+      "category": "chinese_ai",
+      "published": "2026-11-02",
+      "summary": "Qwen lead Liu Dayi Heng stated future releases stay open weight, contradicting talk that Qwen4 would be the last open series."
+    },
+    {
+      "title": "A 763B DeepSeek coder squashed to about one bit per parameter",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
+      "category": "deepseek",
+      "published": "2026-11-02",
+      "summary": "ISTA released a coder build of DeepSeek-V4.1-Flash with half its routed experts removed and heavy weight quantisation on top."
+    },
+    {
+      "title": "Goldman Sachs pulls Claude Code and Copilot from bankers and traders",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "Access is now limited to engineers. The bank cites productivity and risk management months after its CIO praised staff vibe coding."
+    },
+    {
+      "title": "Amazon reportedly cancels GPU orders and closes some buyer accounts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "Hardware buyers, including Tim Sweeney, say orders were cancelled or accounts shut without explanation as supply tightens."
+    },
+    {
+      "title": "OpenAI launches Grid Protectors to stop AI data centres straining power grids",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "The program works with utilities so future compute campuses support grid reliability and do not push up household electricity bills."
+    },
+    {
+      "title": "Qodo plugs company coding standards into Codex code review",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "category": "platforms_integration",
+      "published": "2026-11-02",
+      "summary": "A Codex plugin that feeds Qodo's repo context into review, so P0 issues get caught before a pull request is opened."
+    },
+    {
+      "title": "50 AI agents in Minecraft invented a Fertilizer Officer and fishing shifts",
+      "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+      "category": "agents_tooling",
+      "published": "2026-11-02",
+      "summary": "In a YC Labs test, GPT-6.1 Sol agents froze into bureaucracy building a peaceful society, then organised fast when a harsh night hit."
+    },
+    {
+      "title": "xAI halves Grok Bot quotas two weeks after Musk called it fastest growing",
+      "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "Musk wrote the agent's running costs were unsustainably high against revenue. OpenAI and Anthropic are also tightening flat-rate plans."
+    },
     {
       "title": "JetBrains ships Mellum 2.1, a 12B coding model with a 2.5B active path",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xln8f2/jetbrainsmellum2112ba25bthinkingmtp_hugging_face/",
@@ -339,90 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-10-31",
       "summary": "A YouTube-style player over 6,454 videos drawn from 39,834 Hacker News comments since 2007."
-    },
-    {
-      "title": "CrowdGPT v2.6 trains a model on strangers' GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/",
-      "category": "ai_research",
-      "published": "2026-10-31",
-      "summary": "A collaborative LLM project aiming to train without datacentres, now at v2.6 with a larger volunteer contribution."
-    },
-    {
-      "title": "Researcher says Anthropic blocked him for 'training a competitor'",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkm5gz/jiahao_shao_on_x_shame_on_darioamodei_anthropic_i/",
-      "category": "anthropic",
-      "published": "2026-10-31",
-      "summary": "Jiahao Shao says his rollouts came from an open-source model and Claude only ran the jobs, yet RFT, SFT and larger-model training block him."
-    },
-    {
-      "title": "OpenAI raises just $11 billion of its $30 billion target",
-      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
-      "category": "industry",
-      "published": "2026-10-31",
-      "summary": "OpenAI closed about $11B of the $30B it sought, valuing it at $1.25T, as big investors cooled on AI."
-    },
-    {
-      "title": "AI boom triggers a PCB shortage with orders booked to 2030",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk17m0/first_memory_storage_and_now_pcbsss_ai_boom/",
-      "category": "industry",
-      "published": "2026-10-31",
-      "summary": "After memory and storage, printed circuit boards are the next AI-driven shortage, straining device makers."
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash hits 2,600 tok/s prefill on two DGX Sparks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk20x5/lawyer_with_too_many_gpus_part_3_deepseekv41flash/",
-      "category": "deepseek",
-      "published": "2026-10-31",
-      "summary": "A home rig of two DGX Sparks plus a 3090 pushes 256K context prefill at 2,600 tok/s, with raw data shared."
-    },
-    {
-      "title": "What Cohere didn't test on Qwen3.8-Flash-Next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx36m/the_multidimensional_butterfly_effect_what_cohere/",
-      "category": "chinese_ai",
-      "published": "2026-10-31",
-      "summary": "A detailed critique argues Cohere's Qwen3.8-Flash-Next benchmarks miss how the model behaves in real use."
-    },
-    {
-      "title": "8B clinical model beats clinicians at reading scans, in Nature",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk3pom/8b_parameter_model_evlffm_surpasses_clinicians_in/",
-      "category": "ai_research",
-      "published": "2026-10-31",
-      "summary": "EVLF-FM, an 8B multimodal model, outperformed clinicians on medical image understanding in a Nature paper."
-    },
-    {
-      "title": "Video grep: search footage by description, from the terminal",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk4tx7/video_grep_in_terminal_for_agents/",
-      "category": "agents_tooling",
-      "published": "2026-10-31",
-      "summary": "A CLI that finds moments in video from a plain description, built so agents can query footage directly."
-    },
-    {
-      "title": "Microsoft offers a quarter of its staff voluntary severance, shields AI teams",
-      "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
-      "category": "industry",
-      "published": "2026-10-31",
-      "summary": "About 60,000 Microsoft staff got a second voluntary exit offer this year while AI-critical teams were protected."
-    },
-    {
-      "title": "Google DeepMind maps Earth's forests with satellites and AI",
-      "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
-      "category": "ai_research",
-      "published": "2026-10-31",
-      "summary": "DeepMind and the World Resources Institute released ForTy, which sorts land into six forest categories."
-    },
-    {
-      "title": "EdgeRock-4B brings constant-KV long context to small machines",
-      "url": "https://x.com/testingcatalog/status/2116500794715320616",
-      "category": "ai_models",
-      "published": "2026-10-31",
-      "summary": "Rock Matrix's first open model keeps KV cache at 72 MiB per sequence at 128K, with NF4, INT8 and FP8 builds out."
-    },
-    {
-      "title": "Anthropic automated the hunt for misalignment in AI training data",
-      "url": "https://x.com/AnthropicAI/status/2116349211549843666",
-      "category": "ai_research",
-      "published": "2026-10-31",
-      "summary": "Thousands of Claude agents were set to evade a data monitor and produced harmless-looking examples that taught misaligned behaviour."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-02T08:16:51+08:00",
+      "at": "2026-11-03T08:20:00+08:00",
       "points": [
         {
-          "text": "Nous Research fixed a Hermes Desktop bug that wiped the session list when you switched gateways.",
-          "url": "https://x.com/Teknium/status/2117014324149666232"
+          "text": "Anthropic opened a paid research residency paying up to $500,000 a year, with applications closing on 22 November.",
+          "url": "https://x.com/AnthropicAI/status/2117343929960112486"
         },
         {
-          "text": "DeepSeek published a design for super-agents that act more on their own.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a/"
+          "text": "A new paper shows one model can rewrite another model's weights directly, lifting a maths score from 7.9 to 48.1 percent.",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
         },
         {
-          "text": "A study finds Chinese AI models give more varied political answers than expected.",
-          "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/"
+          "text": "Qwen says its models will stay open source after rumours it planned to go API-only.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
         },
         {
-          "text": "Heretic 2.0 is out, and it strips safety refusals from open models.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/"
+          "text": "Anthropic's revenue grew twelvefold, but it still lost $23 billion ahead of its IPO.",
+          "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
         },
         {
-          "text": "OpenAI now caps how many paid ChatGPT accounts one device or payment card can hold.",
-          "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/"
+          "text": "Goldman Sachs has stopped letting bankers and traders use AI coding tools.",
+          "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/"
         }
       ]
     },
