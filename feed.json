@@ -1,9 +1,100 @@
 {
-  "updated_at": "2026-11-03T08:20:00+08:00",
+  "updated_at": "2026-11-03T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic opened a paid research residency paying up to $500,000 a year, with applications closing on 22 November. A new paper shows one model can rewrite another model's weights directly, lifting a maths score from 7.9 to 48.1 percent. Qwen says its models will stay open source after rumours it planned to go API-only. Anthropic's revenue grew twelvefold, but it still lost $23 billion ahead of its IPO. Goldman Sachs has stopped letting bankers and traders use AI coding tools.",
+  "tldr": "Hermes Agent v0.22.6 reached the stable channel. It fixes a gateway bug that was silently dropping background and cron deliveries. Anthropic's revenue growth flattened just before its IPO. OpenAI raised its top bug bounty to $172,000. Moonshot says Kimi K3.1 Pro open weights land by 4 November.",
   "articles": [
+    {
+      "title": "Intel stock collapse deepens as $3.5T chip rout spreads",
+      "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+      "category": "industry",
+      "published": "2026-11-03",
+      "summary": "Semiconductor names keep falling as the selloff widens beyond AI hardware into the wider chip complex."
+    },
+    {
+      "title": "Kimi K3.1 Pro open weights due by 4 November",
+      "url": "https://chinaapi.ai/model-updates/",
+      "category": "moonshot_ai",
+      "published": "2026-11-03",
+      "summary": "3T-class model with 1M context at $2 in and $10 out per million tokens; downloadable weights promised within a day."
+    },
+    {
+      "title": "Hermes Agent v0.22.6 ships to stable with the gateway delivery fix",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6",
+      "category": "hermes_nous",
+      "published": "2026-11-02",
+      "summary": "776 PRs since v0.22.5, including the admission_conflict fix that silently dropped background and cron results."
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "category": "platforms_integration",
+      "published": "2026-11-02",
+      "summary": "OpenAI built Pando, a Git-compatible backend sized for the code volume Codex now generates."
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "category": "policy",
+      "published": "2026-11-02",
+      "summary": "Driscoll will advise on AI for national security modernization, cyber resilience and allied collaboration."
+    },
+    {
+      "title": "OpenAI more than quadruples critical bug bounty payouts to $172,000",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "category": "platforms_integration",
+      "published": "2026-11-02",
+      "summary": "Higher rewards plus report-quality bonuses, alongside a security sprint run with Cathedral Systems."
+    },
+    {
+      "title": "Anthropic's growth just flattened",
+      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "Analysis argues Anthropic's revenue curve bent flat in the quarter before its IPO filing."
+    },
+    {
+      "title": "The SEC should block Anthropic's IPO to protect the public",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "category": "policy",
+      "published": "2026-11-02",
+      "summary": "Tech policy paper argues the listing should be stopped over concentration and safety disclosure gaps."
+    },
+    {
+      "title": "Oracle files to sell $20B in stock and bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "Oracle turns to equity and debt markets to fund the data centre capacity behind its AI contracts."
+    },
+    {
+      "title": "New sparse attention method pushes context past 10M tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+      "category": "ai_research",
+      "published": "2026-11-02",
+      "summary": "Open research sparsifies Qwen 3.8 27B attention with no measured accuracy loss; 10M tokens costs some tasks."
+    },
+    {
+      "title": "Qwen 3.8 27B found a Blender MCP server and wrote Python to solve its physics problem",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
+      "category": "chinese_ai",
+      "published": "2026-11-02",
+      "summary": "A local Qwen model chained a Blender tool into its own reasoning to get real geometry, unprompted."
+    },
+    {
+      "title": "Anthropic cuts reverse-engineering access, again pushing users to self-host",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+      "category": "anthropic",
+      "published": "2026-11-02",
+      "summary": "Users report new Claude Code limits and blocking of reverse-engineering tasks, per Tom's Hardware."
+    },
+    {
+      "title": "Terry Tao: Egoless mathematics in the AI era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "category": "ai_research",
+      "published": "2026-11-02",
+      "summary": "Tao argues mathematicians should hand routine proof work to AI and keep judgement, taste and framing."
+    },
     {
       "title": "Anthropic opens a paid research residency, applications close 22 November",
       "url": "https://x.com/AnthropicAI/status/2117343929960112486",
@@ -332,97 +423,6 @@
       "category": "ai_models",
       "published": "2026-10-31",
       "summary": "Open weights land as a 280B mixture of experts plus a 19B sibling the poster says beats Qwen3.6-35B-A3B and Gemma-4-26B-A4B."
-    },
-    {
-      "title": "A user measured whether inference engines blunt the model they serve",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkbbqi/is_your_engine_lobotomizing_your_model_kinda_and/",
-      "category": "ai_models",
-      "published": "2026-10-31",
-      "summary": "Tests double quantisation and performance flags switched on by default, the two ways an engine can quietly degrade output."
-    },
-    {
-      "title": "It's the memory latency, stupid",
-      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-      "category": "ai_research",
-      "published": "2026-10-31",
-      "summary": "A front-page argument that memory latency, not raw bandwidth, is what limits model serving on today's hardware."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next is good at code and loses the thread on open research",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkjrdl/please_tell_me_qwen38flashnext_can_be_made_to_be/",
-      "category": "chinese_ai",
-      "published": "2026-10-31",
-      "summary": "A user reports it evaluates repos and runs models well, but gets lost in its own reasoning on broader research tasks."
-    },
-    {
-      "title": "DeepSeek open-sources an MIT router plus worker agent that works GitHub issues",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "category": "deepseek",
-      "published": "2026-10-31",
-      "summary": "A resident router plus parallel worker sessions that open a work item, do it and reply with a PR. Research code, not a product."
-    },
-    {
-      "title": "Meta built a humanoid prototype with Shanghai's Fourier in about three months",
-      "url": "https://www.streetinsider.com/Reuters/Meta+builds+humanoid+robot+with+Chinese+startup+Fourier%2C+The+Information+says/27267532.html",
-      "category": "industry",
-      "published": "2026-10-31",
-      "summary": "The Information reports a 48 kg, 1.5 m prototype codenamed Max, with a second version under way. Meta and Fourier published no specs."
-    },
-    {
-      "title": "AWS agentic AI call for proposals: about $70,000 plus credits, closes Nov 11",
-      "url": "https://www.amazon.science/research-awards/call-for-proposals/aws-agentic-ai-call-for-proposals-fall-2026",
-      "category": "industry",
-      "published": "2026-10-31",
-      "summary": "Amazon's Fall 2026 round funds agent research and open tools, up to $70k cash plus $50k AWS credits, with no IP claim."
-    },
-    {
-      "title": "OpenCode-Demul puts an Android emulator inside the coding agent",
-      "url": "https://x.com/markfenner/status/2116582007748935704",
-      "category": "agents_tooling",
-      "published": "2026-10-31",
-      "summary": "The agent can inspect screens, launch apps, type and take screenshots from inside the editor, so mobile testing needs no device farm."
-    },
-    {
-      "title": "One shared ChatGPT link was enough to take over a signed-in account",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "category": "policy",
-      "published": "2026-10-31",
-      "summary": "Parameter found a public share could run code as chatgpt.com and read private chats. OpenAI fixed it on 26 Oct and paid $5,000."
-    },
-    {
-      "title": "Anthropic watermarks four more Claude models, and one setting undoes it",
-      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
-      "category": "anthropic",
-      "published": "2026-10-31",
-      "summary": "Anthropic is expanding its text watermark to meet the EU's December deadline. On Opus 4.6 and Sonnet 4.6 a sampling change removes it."
-    },
-    {
-      "title": "OpenAI will train on Daybreak Blue session data that was off-limits",
-      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
-      "category": "policy",
-      "published": "2026-10-31",
-      "summary": "From 29 November, data from Daybreak Blue sessions can train models even where users turned training off. A follow-up email added an opt-out."
-    },
-    {
-      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-      "category": "ai_models",
-      "published": "2026-10-31",
-      "summary": "The write-up says the model played Factorio through in peaceful mode, a long-horizon planning test agents have struggled with."
-    },
-    {
-      "title": "Someone ran an LLM inside an LLM: Karpathy's micro-stories inside Qwen weights",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
-      "category": "ai_research",
-      "published": "2026-10-31",
-      "summary": "An NPU compiled into Qwen 3.5-4B's weights runs Karpathy's stories260k. The same builder put a RISC-V CPU inside Qwen earlier."
-    },
-    {
-      "title": "Karpathy's HackerTube turns 19 years of HN comments into a YouTube",
-      "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "category": "platforms_integration",
-      "published": "2026-10-31",
-      "summary": "A YouTube-style player over 6,454 videos drawn from 39,834 Hacker News comments since 2007."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-02T13:16:36.261220+08:00",
+      "at": "2026-11-03T13:15:00+08:00",
       "points": [
         {
-          "text": "Two small models did serious work on ordinary hardware today.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xle3ul/is_gemma_4_e4b_still_the_best_small_model_for_a/"
+          "text": "Hermes Agent v0.22.6 reached the stable channel.",
+          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6"
         },
         {
-          "text": "A 4B model now writes 3D game assets for Godot.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/"
+          "text": "It fixes a gateway bug that was silently dropping background and cron deliveries.",
+          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6"
         },
         {
-          "text": "Liquid AI's 2B omni model runs inside a browser tab, though testers were not impressed.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/"
+          "text": "Anthropic's revenue growth flattened just before its IPO.",
+          "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened"
         },
         {
-          "text": "One user ran eight coding agents at once on two consumer graphics cards.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/"
+          "text": "OpenAI raised its top bug bounty to $172,000.",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
         },
         {
-          "text": "Nous Research shipped 0.22.6, which fixes messages that never arrived.",
-          "url": "https://x.com/Teknium/status/2117053728725610662"
+          "text": "Moonshot says Kimi K3.1 Pro open weights land by 4 November.",
+          "url": "https://chinaapi.ai/model-updates/"
         }
       ]
     }
