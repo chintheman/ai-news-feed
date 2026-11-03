@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-03T13:15:00+08:00",
+  "updated_at": "2026-11-03T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Hermes Agent v0.22.6 reached the stable channel. It fixes a gateway bug that was silently dropping background and cron deliveries. Anthropic's revenue growth flattened just before its IPO. OpenAI raised its top bug bounty to $172,000. Moonshot says Kimi K3.1 Pro open weights land by 4 November.",
+  "tldr": "Alibaba's coding tool repository leaked the names of four unreleased Qwen4 models. DeepSeek's next model is reported to be trained on Huawei chips instead of Nvidia ones. Anthropic now blocks Claude Code from recreating existing video games. Huawei is telling customers to find their own memory chips, which pushes some buying to the black market. Nvidia's RTX 5090 is reported to be coming in 64GB and 96GB versions.",
   "articles": [
+    {
+      "title": "Alibaba's Qwen Code repo leaks qwen4-max, qwen4-coder-plus and qwen4-omni-120b",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+      "category": "chinese_ai",
+      "published": "2026-11-03",
+      "summary": "Pull requests in QwenLM/qwen-code name four unreleased models, all resolving to a 262K context, before any announcement."
+    },
+    {
+      "title": "DeepSeek V5 is planned to be pre-trained on Huawei Ascend chips",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/",
+      "category": "deepseek",
+      "published": "2026-11-03",
+      "summary": "Supply-chain sources tell STAR Market Daily that DeepSeek's next base model moves off Nvidia accelerators and onto Ascend."
+    },
+    {
+      "title": "Anthropic blocks Claude Code from cloning existing video games",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/",
+      "category": "anthropic",
+      "published": "2026-11-03",
+      "summary": "After a wave of AI-built knockoffs, Claude Code now refuses to rebuild existing games, a new limit on coding agents."
+    },
+    {
+      "title": "Huawei tells AI chip customers to source their own HBM memory",
+      "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
+      "category": "chinese_ai",
+      "published": "2026-11-03",
+      "summary": "Smugglers bundle memory with low-end processors through Hong Kong, exploiting a US export loophole as Huawei steps back."
+    },
+    {
+      "title": "RTX 5090 with 64GB and 96GB VRAM 'confirmed' by a US GPU repair tech",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/",
+      "category": "ai_models",
+      "published": "2026-11-03",
+      "summary": "A repair shop claims it has seen high-memory 5090 boards, which would put 70B-class local models on one consumer card."
+    },
+    {
+      "title": "NVIDIA ships NemotronLabs RE-USE, a 9.6M-parameter speech cleanup model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmorim/nvidianvidianemotronlabsreuse_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-11-03",
+      "summary": "A tiny multilingual model that restores degraded speech across noise types, small enough to run on an edge device."
+    },
+    {
+      "title": "109,000 ML papers collapsed into 1,260 topic pages of results and ablations",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
+      "category": "ai_research",
+      "published": "2026-11-03",
+      "summary": "Every accepted ICML, NeurIPS, ICLR, CVPR and AAAI paper since 2016, grouped by topic with benchmark records."
+    },
+    {
+      "title": "Olla v0.1.0, an open-source LLM proxy for homelabs and on-prem inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmq913/olla_v010_lightweight_opensource_llm_proxy_for/",
+      "category": "agents_tooling",
+      "published": "2026-11-03",
+      "summary": "One endpoint in front of Ollama, vLLM, SGLang, llama.cpp and oMLX, with failover, sticky sessions and load balancing."
+    },
+    {
+      "title": "LFM3-1.7B quantized to 3.6GB VRAM with no measured loss",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xme6c5/lfm317b_quantization_report_36_gb_vram_lossless/",
+      "category": "ai_models",
+      "published": "2026-11-03",
+      "summary": "Community report: half the VRAM of a quasi-lossless MiniCPM5-2B, double the context, higher scores on Liquid AI's own benchmarks."
+    },
     {
       "title": "Intel stock collapse deepens as $3.5T chip rout spreads",
       "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
@@ -17,6 +80,13 @@
       "category": "moonshot_ai",
       "published": "2026-11-03",
       "summary": "3T-class model with 1M context at $2 in and $10 out per million tokens; downloadable weights promised within a day."
+    },
+    {
+      "title": "Bear Huddleston joins Nous Research as software engineer, product",
+      "url": "https://x.com/Teknium/status/2117338486869299564",
+      "category": "hermes_nous",
+      "published": "2026-11-02",
+      "summary": "Announced the evening Hermes Agent v0.22.6 shipped. He wrote the hermes webapp pull request that landed in that release."
     },
     {
       "title": "Hermes Agent v0.22.6 ships to stable with the gateway delivery fix",
@@ -353,101 +423,31 @@
       "category": "deepseek",
       "published": "2026-11-01",
       "summary": "Bloomberg reports roughly 100 billion yuan raised. US civilian federal agencies were told last month to remove DeepSeek."
-    },
-    {
-      "title": "OpenAI merges ChatGPT and Codex usage limits into one shared budget",
-      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
-      "category": "platforms_integration",
-      "published": "2026-11-01",
-      "summary": "From December, Plus, Pro and Business plans draw on one token quota. Complex models burn more of it than simple chats."
-    },
-    {
-      "title": "FineDNA releases the training data behind a DNA-focused Qwen model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
-      "category": "ai_research",
-      "published": "2026-11-01",
-      "summary": "300 billion tokens of pre-training, about 200,000 fine-tuning conversations and 98,000 practice tasks, plus the recipe."
-    },
-    {
-      "title": "Google built a video agent that only speaks up when you need help",
-      "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
-      "category": "ai_research",
-      "published": "2026-11-01",
-      "summary": "StreamVibe watches you cook or assemble furniture. A new benchmark finds no tested model reliably picks the right moment."
-    },
-    {
-      "title": "Brazilian court sanctions lawyers for a prompt injection in a court filing",
-      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-      "category": "policy",
-      "published": "2026-11-01",
-      "summary": "Lawyers hid instructions aimed at AI tools inside a court document, and the court penalised them for it."
-    },
-    {
-      "title": "Grok 4.20 spent 700 turns stuck in one house in Pokemon Red",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkr521/grok_420_spent_700_turns_stuck_in_reds_house_in/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "On PokeBench, a benchmark where vision models play the game, it left the house at turn 36 and got no starter until turn 755 while noticing the loop."
-    },
-    {
-      "title": "DeepSeek's free server-side Search and Fetch window closed, billing has started",
-      "url": "https://api-docs.deepseek.com/quick_start/pricing",
-      "category": "deepseek",
-      "published": "2026-11-01",
-      "summary": "Calls made by DeepSeek Harness, Claude Code and Codex now cost $0.75 per 1,000 successful requests, from 00:00 Beijing time."
-    },
-    {
-      "title": "Apple Intelligence goes live in China with Alibaba's Qwen inside Siri",
-      "url": "https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html",
-      "category": "chinese_ai",
-      "published": "2026-10-31",
-      "summary": "First beta lands Nov 4 in the iOS 27.3 developer build, public release in December. Qwen handles text and image understanding."
-    },
-    {
-      "title": "Anthropic flagged a researcher's account for 'training a competitor'",
-      "url": "https://news.ycombinator.com/item?id=50319358",
-      "category": "anthropic",
-      "published": "2026-10-31",
-      "summary": "Jiahao Shao says fine-tuning and training work got blocked and his access dropped a tier. Anthropic has not commented."
-    },
-    {
-      "title": "A team of five small Qwen models beats a frontier model on a coding benchmark",
-      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-      "category": "agents_tooling",
-      "published": "2026-10-31",
-      "summary": "Memdoor's team-solve workflow combines five Qwen3.8-27B models and claims a win on LiveCodeBench Hard."
-    },
-    {
-      "title": "Groot-280B-A16B claims the best result under 500B parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkge1s/im_groot/",
-      "category": "ai_models",
-      "published": "2026-10-31",
-      "summary": "Open weights land as a 280B mixture of experts plus a 19B sibling the poster says beats Qwen3.6-35B-A3B and Gemma-4-26B-A4B."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-02T21:16:00+08:00",
+      "at": "2026-11-03T21:15:00+08:00",
       "points": [
         {
-          "text": "JetBrains released a new coding model that thinks before it answers.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xln8f2/jetbrainsmellum2112ba25bthinkingmtp_hugging_face/"
+          "text": "Alibaba's coding tool repository leaked the names of four unreleased Qwen4 models.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/"
         },
         {
-          "text": "A new paper proves why models trained on different senses end up with the same picture of the world.",
-          "url": "https://arxiv.org/abs/2610.39302"
+          "text": "DeepSeek's next model is reported to be trained on Huawei chips instead of Nvidia ones.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/"
         },
         {
-          "text": "Postgres 19 is late because AI makes old bugs much easier to find.",
-          "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
+          "text": "Anthropic now blocks Claude Code from recreating existing video games.",
+          "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/"
         },
         {
-          "text": "Saudi Aramco paid 2.6 billion dollars for almost half of a Saudi AI company.",
-          "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/"
+          "text": "Huawei is telling customers to find their own memory chips, which pushes some buying to the black market.",
+          "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/"
         },
         {
-          "text": "Hermes Desktop can now run in a browser, and setup can import settings from another bot.",
-          "url": "https://x.com/Teknium/status/2117111808050016349"
+          "text": "Nvidia's RTX 5090 is reported to be coming in 64GB and 96GB versions.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/"
         }
       ]
     },
