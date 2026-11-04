@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-04T13:20:00+08:00",
+  "updated_at": "2026-11-04T21:22:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Big tech's hidden AI debt grew 90 percent in six months, to 3.2 trillion dollars. Two hobbyists won 50,000 dollars for reading writing inside a scroll buried by Vesuvius. A Y Combinator partner says checking AI code with a second model no longer pays off. The Hermes mobile app is taking waitlist signups, and the agent still runs on your own machine. A local engine now runs Qwen at 300 tokens a second on two consumer graphics cards.",
+  "tldr": "Voters in Texas elected a governor who wants to pause new data centres, and about a quarter of America's planned capacity sits in that state. Tencent released Hy4, a very large model that can now look at screens and operate a computer, and says the free download is still coming. OpenAI said it will buy Pierre Computer, a small company that stores code, and fold it into Codex. AMD set aside 1.07 billion dollars to cover share deals it handed to OpenAI and Meta. Anthropic's filing shows 16.96 billion dollars of sales in three months, against nearly 900 billion dollars of future spending it has already signed up for.",
   "articles": [
+    {
+      "title": "Texas elects a governor who wants a data centre pause, and 27% of US capacity sits there",
+      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "category": "policy",
+      "published": "2026-11-04",
+      "summary": "Gina Hinojosa, who campaigned to pause data centre building, beat Greg Abbott. Wells Fargo puts 27% of planned US gigawatts in Texas."
+    },
+    {
+      "title": "Tencent ships Hy4 with vision and computer use, weights still to come",
+      "url": "https://technode.com/2026/11/04/tencent-launches-hy4-with-vision-and-computer-use-capabilities/",
+      "category": "chinese_ai",
+      "published": "2026-11-04",
+      "summary": "The 770B flagship adds vision and computer use. Weights and a system card are promised in the coming days, so today it is hosted only."
+    },
+    {
+      "title": "OpenAI to buy Pierre Computer and fold its code storage into Codex",
+      "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github",
+      "category": "industry",
+      "published": "2026-11-04",
+      "summary": "Pierre's Code Storage already sits inside Codex. Buying it puts OpenAI's own code hosting up against Microsoft's GitHub."
+    },
+    {
+      "title": "AMD books a 1.07 billion dollar charge for OpenAI and Meta chip warrants",
+      "url": "https://www.reuters.com/legal/transactional/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-2026-11-04/",
+      "category": "industry",
+      "published": "2026-11-04",
+      "summary": "The non-cash charge is 66 cents a share for the quarter, against warrants handed over for chip orders that are now shipping."
+    },
+    {
+      "title": "Nvidia's encrypted RTX Spark firmware cuts Linux inference to 35% of speed",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "Encrypted firmware on the laptop chip reportedly drags local inference down to about a third of native speed, with no vendor fix offered."
+    },
+    {
+      "title": "Exit polls put AI last among voter priorities in the 2026 midterms",
+      "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/",
+      "category": "policy",
+      "published": "2026-11-04",
+      "summary": "Only 56% of NBC exit poll respondents called AI and data centres important. Corruption and living costs led at 90% and 89%."
+    },
+    {
+      "title": "Google will cut schools off Search if they turn its AI off",
+      "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/",
+      "category": "platforms_integration",
+      "published": "2026-11-04",
+      "summary": "From 2027 Google switches AI features off by default in school products. Schools that block AI outright also lose Search, since the two are one system."
+    },
+    {
+      "title": "DeepSeek V4.1 Flash holds 524k context on four consumer GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnkr5q/deepseek_v41_flash_1017_on_4rtx3090_256ddr4_maya/",
+      "category": "deepseek",
+      "published": "2026-11-04",
+      "summary": "A tester runs the 256GB quantised build on four RTX 3090s at 400 to 600 tokens a second of prefill and 30 to 40 of decode."
+    },
+    {
+      "title": "Axion 1.0 35B is a fully open agent model trained in three stages",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "The recipe is two supervised fine-tuning passes then reinforcement learning, with weights out and no bespoke trick claimed."
+    },
     {
       "title": "Hermes app appears to have iOS Shortcuts support, unconfirmed by Nous",
       "url": "https://x.com/itsabara/status/2117833248130904574",
@@ -236,6 +299,20 @@
       "summary": "3T-class model with 1M context at $2 in and $10 out per million tokens; downloadable weights promised within a day."
     },
     {
+      "title": "Anthropic's amended S-1 shows 16.96 billion dollars in quarterly revenue",
+      "url": "https://stockanalysis.com/news/anthropic-third-quarter-revenue-17-billion-ipo-filing/",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "The filing also shows 895 billion dollars of committed spend, mostly on compute, ahead of a Nasdaq listing under the symbol ANT."
+    },
+    {
+      "title": "Fujifilm lifts tape production fivefold as AI drives archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "category": "industry",
+      "published": "2026-11-02",
+      "summary": "The company will raise magnetic tape output fivefold, betting that long-term AI archiving keeps tape far cheaper than disks."
+    },
+    {
       "title": "Ink found in a Vesuvius scroll, the first writing read in 2,000 years",
       "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
       "category": "ai_research",
@@ -346,108 +423,31 @@
       "category": "anthropic",
       "published": "2026-11-02",
       "summary": "Six weeks to six months at $350,000 to $500,000 a year for quantitative professors, founders and senior engineers. No ML background needed."
-    },
-    {
-      "title": "OpenAI's LifeVal scores agents on real errands, not exam questions",
-      "url": "https://openai.com/index/lifeval",
-      "category": "ai_research",
-      "published": "2026-11-02",
-      "summary": "Built from time-use surveys and 3,995 respondents. GPT-6 Astra tops several tasks: booking a class, ordering halal groceries, replacing a lost ring."
-    },
-    {
-      "title": "A model that edits another model's weights lifts MATH-500 from 7.9 to 48.1 percent",
-      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "category": "ai_research",
-      "published": "2026-11-02",
-      "summary": "Researchers let GPT-6 Astra read and write Qwen's weights directly instead of prompting it. The edit raised a maths benchmark sharply."
-    },
-    {
-      "title": "Anthropic grows revenue twelvefold and still posts a $23 billion loss",
-      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
-      "category": "anthropic",
-      "published": "2026-11-02",
-      "summary": "Revenue is up sharply, but operating costs push the company back into the red weeks before its planned blockbuster IPO."
-    },
-    {
-      "title": "Qwen says its models stay open source after API-only rumours",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
-      "category": "chinese_ai",
-      "published": "2026-11-02",
-      "summary": "Qwen lead Liu Dayi Heng stated future releases stay open weight, contradicting talk that Qwen4 would be the last open series."
-    },
-    {
-      "title": "A 763B DeepSeek coder squashed to about one bit per parameter",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
-      "category": "deepseek",
-      "published": "2026-11-02",
-      "summary": "ISTA released a coder build of DeepSeek-V4.1-Flash with half its routed experts removed and heavy weight quantisation on top."
-    },
-    {
-      "title": "Goldman Sachs pulls Claude Code and Copilot from bankers and traders",
-      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "Access is now limited to engineers. The bank cites productivity and risk management months after its CIO praised staff vibe coding."
-    },
-    {
-      "title": "Amazon reportedly cancels GPU orders and closes some buyer accounts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "Hardware buyers, including Tim Sweeney, say orders were cancelled or accounts shut without explanation as supply tightens."
-    },
-    {
-      "title": "OpenAI launches Grid Protectors to stop AI data centres straining power grids",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "The program works with utilities so future compute campuses support grid reliability and do not push up household electricity bills."
-    },
-    {
-      "title": "Qodo plugs company coding standards into Codex code review",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "category": "platforms_integration",
-      "published": "2026-11-02",
-      "summary": "A Codex plugin that feeds Qodo's repo context into review, so P0 issues get caught before a pull request is opened."
-    },
-    {
-      "title": "50 AI agents in Minecraft invented a Fertilizer Officer and fishing shifts",
-      "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
-      "category": "agents_tooling",
-      "published": "2026-11-02",
-      "summary": "In a YC Labs test, GPT-6.1 Sol agents froze into bureaucracy building a peaceful society, then organised fast when a harsh night hit."
-    },
-    {
-      "title": "xAI halves Grok Bot quotas two weeks after Musk called it fastest growing",
-      "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "Musk wrote the agent's running costs were unsustainably high against revenue. OpenAI and Anthropic are also tightening flat-rate plans."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-03T21:15:00+08:00",
+      "at": "2026-11-04T21:22:00+08:00",
       "points": [
         {
-          "text": "Alibaba's coding tool repository leaked the names of four unreleased Qwen4 models.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/"
+          "text": "Voters in Texas elected a governor who wants to pause new data centres, and about a quarter of America's planned capacity sits in that state.",
+          "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
         },
         {
-          "text": "DeepSeek's next model is reported to be trained on Huawei chips instead of Nvidia ones.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/"
+          "text": "Tencent released Hy4, a very large model that can now look at screens and operate a computer, and says the free download is still coming.",
+          "url": "https://technode.com/2026/11/04/tencent-launches-hy4-with-vision-and-computer-use-capabilities/"
         },
         {
-          "text": "Anthropic now blocks Claude Code from recreating existing video games.",
-          "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/"
+          "text": "OpenAI said it will buy Pierre Computer, a small company that stores code, and fold it into Codex.",
+          "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github"
         },
         {
-          "text": "Huawei is telling customers to find their own memory chips, which pushes some buying to the black market.",
-          "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/"
+          "text": "AMD set aside 1.07 billion dollars to cover share deals it handed to OpenAI and Meta.",
+          "url": "https://www.reuters.com/legal/transactional/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-2026-11-04/"
         },
         {
-          "text": "Nvidia's RTX 5090 is reported to be coming in 64GB and 96GB versions.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/"
+          "text": "Anthropic's filing shows 16.96 billion dollars of sales in three months, against nearly 900 billion dollars of future spending it has already signed up for.",
+          "url": "https://stockanalysis.com/news/anthropic-third-quarter-revenue-17-billion-ipo-filing/"
         }
       ]
     },
