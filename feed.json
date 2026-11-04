@@ -1,15 +1,64 @@
 {
-  "updated_at": "2026-11-04T08:15:44+08:00",
+  "updated_at": "2026-11-04T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic released a way to prove which model actually answered a request, and published the code. Hermes Agent shipped version 0.22.7, about a day after the last one, with scheduled jobs now able to post into group chats. Meituan's new LongCat model is huge and only available through an API, with no weights to download. Kimi's promised open weights had still not appeared on Hugging Face on the day they were due. Revolut cut its AI coding bill by about 90 percent after moving off a commercial model to one it hosts itself.",
+  "tldr": "Big tech's hidden AI debt grew 90 percent in six months, to 3.2 trillion dollars. Two hobbyists won 50,000 dollars for reading writing inside a scroll buried by Vesuvius. A Y Combinator partner says checking AI code with a second model no longer pays off. The Hermes mobile app is taking waitlist signups, and the agent still runs on your own machine. A local engine now runs Qwen at 300 tokens a second on two consumer graphics cards.",
   "articles": [
+    {
+      "title": "Hermes app appears to have iOS Shortcuts support, unconfirmed by Nous",
+      "url": "https://x.com/itsabara/status/2117833248130904574",
+      "category": "hermes_nous",
+      "published": "2026-11-04",
+      "summary": "Screenshots from one user suggest phone events such as location and time could trigger agent actions. No official confirmation yet."
+    },
     {
       "title": "Kimi K3.1 Pro weights still missing on their promised release date",
       "url": "https://huggingface.co/moonshotai",
       "category": "moonshot_ai",
       "published": "2026-11-04",
       "summary": "Hugging Face lists Kimi-K3 as the newest Moonshot repo, no K3.1 and no licence announced. K3 alone is 1.56 TB across 96 files."
+    },
+    {
+      "title": "Big tech's hidden AI debt swells 90% to $3.2 trillion in six months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "category": "industry",
+      "published": "2026-11-03",
+      "summary": "Nikkei finds off-balance-sheet AI commitments at US tech giants grew 90 percent in half a year. It drew 235 points on Hacker News."
+    },
+    {
+      "title": "The Little Book of Generative AI Foundations, a derivation-first primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "category": "ai_research",
+      "published": "2026-11-03",
+      "summary": "Tianhua Chen works from PCA and VAEs through diffusion, normalising flows and GANs, deriving the maths instead of stating it."
+    },
+    {
+      "title": "Basalt 0.2.0 runs Qwen 3.8 Flash Next at 300 tokens a second on two cards",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose/",
+      "category": "ai_models",
+      "published": "2026-11-03",
+      "summary": "A Blackwell-only local inference engine hits 300 t/s prose and 600 t/s structured output on a 5090, a 5060 Ti and 128GB of RAM."
+    },
+    {
+      "title": "DeepSeek V4.1 Flash can read a small network's weights too, a tester finds",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2i0n/deepseek_v41_flash_1017_can_also_do_weightspace/",
+      "category": "deepseek",
+      "published": "2026-11-03",
+      "summary": "Four anonymised 51k-parameter checkpoints handed over as raw text, with no metadata or code, and the model worked out what each does."
+    },
+    {
+      "title": "YC's Garry Tan: cross-model code review has stopped being worth the tokens",
+      "url": "https://x.com/garrytan/status/2117661001332240434",
+      "category": "agents_tooling",
+      "published": "2026-11-03",
+      "summary": "Amplifying Lauren Tan, he argues agents now get lost in nitpicks, and that empirical testing plus formal verification is the better spend."
+    },
+    {
+      "title": "Hermes Mobile beta opens a public waitlist after NousCon",
+      "url": "https://x.com/NousResearch/status/2117696344756252822",
+      "category": "hermes_nous",
+      "published": "2026-11-03",
+      "summary": "Nous says the beta filled up fast and more seats are coming. The app is a client to your gateway, not an agent running on the phone."
     },
     {
       "title": "Anthropic open-sources FlashProve, a proof of which model answered a request",
@@ -187,6 +236,20 @@
       "summary": "3T-class model with 1M context at $2 in and $10 out per million tokens; downloadable weights promised within a day."
     },
     {
+      "title": "Ink found in a Vesuvius scroll, the first writing read in 2,000 years",
+      "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+      "category": "ai_research",
+      "published": "2026-11-02",
+      "summary": "Two entrants recovered 10 readable characters from PHerc. 306B using micro-CT scans and ML, earning the $50,000 First Letters Prize."
+    },
+    {
+      "title": "Garry Tan's evals put Particle-1 level with bigger models at 1/23 the price",
+      "url": "https://x.com/garrytan/status/2117137390016073977",
+      "category": "ai_models",
+      "published": "2026-11-02",
+      "summary": "Internal LongMemEval results for agentic retrieval, published with the eval harness. These are vendor-adjacent numbers with no outside check."
+    },
+    {
       "title": "Meituan releases LongCat-2.5, a 1.6T agentic model with no open weights",
       "url": "https://x.com/Meituan_LongCat/status/2117264311714537633",
       "category": "chinese_ai",
@@ -360,69 +423,6 @@
       "category": "industry",
       "published": "2026-11-02",
       "summary": "Musk wrote the agent's running costs were unsustainably high against revenue. OpenAI and Anthropic are also tightening flat-rate plans."
-    },
-    {
-      "title": "JetBrains ships Mellum 2.1, a 12B coding model with a 2.5B active path",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xln8f2/jetbrainsmellum2112ba25bthinkingmtp_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-11-02",
-      "summary": "Apache 2.0 release on Hugging Face adds a reasoning mode and a multi-token prediction head used as a speculative draft for faster coding inference."
-    },
-    {
-      "title": "A community list of small models that fit a normal desktop for agent work",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlpkqv/list_of_tinytomedium_models_for_web/",
-      "category": "ai_models",
-      "published": "2026-11-02",
-      "summary": "Roundup of tiny to medium models ranked by capability for web research and coding agents, aimed at people without a large GPU."
-    },
-    {
-      "title": "Saudi Aramco takes 49 percent of AI firm Humain for $2.6 billion",
-      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "The oil giant buys almost half of the company meant to turn Saudi Arabia into a global AI hub, tying datacentre buildout to state oil money."
-    },
-    {
-      "title": "OpenAI prepares a lobbying push for post-midterm Washington",
-      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
-      "category": "policy",
-      "published": "2026-11-02",
-      "summary": "OpenAI is staffing up a political and public relations campaign timed for after the US midterms, as AI rules move toward the next Congress."
-    },
-    {
-      "title": "Hermes Desktop can run as a web app, and setup can import another bot",
-      "url": "https://x.com/Teknium/status/2117111808050016349",
-      "category": "hermes_nous",
-      "published": "2026-11-02",
-      "summary": "In the 0.22.6 patch the desktop app can be served from the agent server, and onboarding gains a 'hermes migrate grok-bot' transfer path."
-    },
-    {
-      "title": "A home patch makes DeepSeek V4.1 agent sessions start 20 times faster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
-      "category": "ai_models",
-      "published": "2026-11-02",
-      "summary": "Answering Sam Altman's line that home DRAM is wasted, a developer patched Strata so long agent sessions open far faster on an ordinary gaming GPU."
-    },
-    {
-      "title": "Liquid AI's LFM3 Omni 2B runs in a browser tab, and testers are unimpressed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/",
-      "category": "ai_models",
-      "published": "2026-11-02",
-      "summary": "The 2B omni model runs on WebGPU with nothing to install. The poster was being sarcastic about the quality of its answers in the demo video."
-    },
-    {
-      "title": "Eight agents with 250K context each, all at once, on two RTX 3090s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/",
-      "category": "agents_tooling",
-      "published": "2026-11-02",
-      "summary": "Built on the TokenGate paper's idea of pruning long context, the setup runs eight agents in parallel and reports about 600 tokens per second in total."
-    },
-    {
-      "title": "Hermes 0.22.6 fixes background results that silently never arrived",
-      "url": "https://x.com/Teknium/status/2117053728725610662",
-      "category": "hermes_nous",
-      "published": "2026-11-02",
-      "summary": "Nous traced lost cron and subagent messages to a Discord name change mid-chat, which showed as admission_conflict in gateway.log. The fix is out today."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-03T13:15:00+08:00",
+      "at": "2026-11-04T13:20:00+08:00",
       "points": [
         {
-          "text": "Hermes Agent v0.22.6 reached the stable channel.",
-          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6"
+          "text": "Big tech's hidden AI debt grew 90 percent in six months, to 3.2 trillion dollars.",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
         },
         {
-          "text": "It fixes a gateway bug that was silently dropping background and cron deliveries.",
-          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6"
+          "text": "Two hobbyists won 50,000 dollars for reading writing inside a scroll buried by Vesuvius.",
+          "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the"
         },
         {
-          "text": "Anthropic's revenue growth flattened just before its IPO.",
-          "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened"
+          "text": "A Y Combinator partner says checking AI code with a second model no longer pays off.",
+          "url": "https://x.com/garrytan/status/2117661001332240434"
         },
         {
-          "text": "OpenAI raised its top bug bounty to $172,000.",
-          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+          "text": "The Hermes mobile app is taking waitlist signups, and the agent still runs on your own machine.",
+          "url": "https://x.com/NousResearch/status/2117696344756252822"
         },
         {
-          "text": "Moonshot says Kimi K3.1 Pro open weights land by 4 November.",
-          "url": "https://chinaapi.ai/model-updates/"
+          "text": "A local engine now runs Qwen at 300 tokens a second on two consumer graphics cards.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose/"
         }
       ]
     }
