@@ -1,9 +1,114 @@
 {
-  "updated_at": "2026-11-03T21:15:00+08:00",
+  "updated_at": "2026-11-04T08:15:44+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Alibaba's coding tool repository leaked the names of four unreleased Qwen4 models. DeepSeek's next model is reported to be trained on Huawei chips instead of Nvidia ones. Anthropic now blocks Claude Code from recreating existing video games. Huawei is telling customers to find their own memory chips, which pushes some buying to the black market. Nvidia's RTX 5090 is reported to be coming in 64GB and 96GB versions.",
+  "tldr": "Anthropic released a way to prove which model actually answered a request, and published the code. Hermes Agent shipped version 0.22.7, about a day after the last one, with scheduled jobs now able to post into group chats. Meituan's new LongCat model is huge and only available through an API, with no weights to download. Kimi's promised open weights had still not appeared on Hugging Face on the day they were due. Revolut cut its AI coding bill by about 90 percent after moving off a commercial model to one it hosts itself.",
   "articles": [
+    {
+      "title": "Kimi K3.1 Pro weights still missing on their promised release date",
+      "url": "https://huggingface.co/moonshotai",
+      "category": "moonshot_ai",
+      "published": "2026-11-04",
+      "summary": "Hugging Face lists Kimi-K3 as the newest Moonshot repo, no K3.1 and no licence announced. K3 alone is 1.56 TB across 96 files."
+    },
+    {
+      "title": "Anthropic open-sources FlashProve, a proof of which model answered a request",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "category": "anthropic",
+      "published": "2026-11-03",
+      "summary": "A cryptographic check that a response really came from the model you pinned, cheap enough to run in production. The code is public."
+    },
+    {
+      "title": "Hermes Agent v0.22.7 ships 174 PRs, cron jobs can now post into Group Chats",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7",
+      "category": "hermes_nous",
+      "published": "2026-11-03",
+      "summary": "Out about 28 hours after v0.22.6 across 554 files. Adds group-chat lead routing, cron posts into rooms, pinned Kanban tabs and TeX labels."
+    },
+    {
+      "title": "Nous Portal subscriptions now bundle a cloud agent with its own computer",
+      "url": "https://x.com/Teknium/status/2117513285440590035",
+      "category": "hermes_nous",
+      "published": "2026-11-03",
+      "summary": "Teknium says every Hermes subscription includes search, scrape, browser use and image generation on high-usage-limit models."
+    },
+    {
+      "title": "Claude can now auto-connect to company plugins on first use",
+      "url": "https://x.com/bcherny/status/2117693181651542387",
+      "category": "anthropic",
+      "published": "2026-11-03",
+      "summary": "Team and Enterprise admins provision the plugins once and each teammate is connected automatically. The per-user setup step is gone."
+    },
+    {
+      "title": "Anthropic's Message Threads cut time to first token 35 percent on long chats",
+      "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/",
+      "category": "anthropic",
+      "published": "2026-11-03",
+      "summary": "Agents send only what changed instead of replaying the whole conversation. The gain shows between 500,000 and one million tokens."
+    },
+    {
+      "title": "OpenAI pushes ChatGPT and Codex into CAD, PCB and simulation work",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "category": "platforms_integration",
+      "published": "2026-11-03",
+      "summary": "Chip Ganassi Racing turns 3D scans into editable CAD, Mazda explores designs in simulation. Engineers still review and flag the output."
+    },
+    {
+      "title": "OpenAI says GPT-6 Astra designed a hardware device in under a week",
+      "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+      "category": "ai_models",
+      "published": "2026-11-03",
+      "summary": "Enclosure, circuit board and firmware, with several revision rounds before production because manufacturing limits were missed."
+    },
+    {
+      "title": "Revolut moved 2,000 engineers to self-hosted GLM and cut AI coding spend 90%",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "category": "industry",
+      "published": "2026-11-03",
+      "summary": "The fintech replaced a commercial API stack with an open model it hosts itself, reporting a tenfold drop in coding cost per task."
+    },
+    {
+      "title": "Nvidia tells cloud customers to take less business from Chinese firms",
+      "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+      "category": "industry",
+      "published": "2026-11-03",
+      "summary": "Nvidia has asked some data-centre partners to reduce the revenue they take from Chinese companies, tightening China exposure."
+    },
+    {
+      "title": "Postman reportedly installed AI plugins and tried to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "category": "platforms_integration",
+      "published": "2026-11-03",
+      "summary": "A customer issue with more than 900 points on Hacker News says the app auto-installed AI plugins and attempted to share API collections."
+    },
+    {
+      "title": "Stanford study: 44 percent of widely cited LLM findings have already expired",
+      "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+      "category": "ai_research",
+      "published": "2026-11-03",
+      "summary": "Fifty cited claims tested against 20 current models. Average useful life is 15.7 months, and claims about what models cannot do fade fastest."
+    },
+    {
+      "title": "AI agents now run SETI's Allen Telescope Array",
+      "url": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+      "category": "agents_tooling",
+      "published": "2026-11-03",
+      "summary": "Agents steer the dish and sift radio signals, cutting weeks of work to hours. They caught a pulsar in the Crab Nebula in real time."
+    },
+    {
+      "title": "The viral 'Astra edits Qwen weights' result was oversold, a rebuttal argues",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "category": "ai_research",
+      "published": "2026-11-03",
+      "summary": "A detailed walkthrough of what the weight-edit demo actually changed, and why the reported reasoning jump means less than it looked."
+    },
+    {
+      "title": "Qwen 3.8 27B can read its own weights on a laptop, Simon Willison finds",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "category": "ai_research",
+      "published": "2026-11-03",
+      "summary": "Repeats the weight-editing result on consumer hardware: the model reads and changes its own parameters without a training run."
+    },
     {
       "title": "Alibaba's Qwen Code repo leaks qwen4-max, qwen4-coder-plus and qwen4-omni-120b",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
@@ -80,6 +185,13 @@
       "category": "moonshot_ai",
       "published": "2026-11-03",
       "summary": "3T-class model with 1M context at $2 in and $10 out per million tokens; downloadable weights promised within a day."
+    },
+    {
+      "title": "Meituan releases LongCat-2.5, a 1.6T agentic model with no open weights",
+      "url": "https://x.com/Meituan_LongCat/status/2117264311714537633",
+      "category": "chinese_ai",
+      "published": "2026-11-02",
+      "summary": "1M-token context, 4-bit inference, and Claude Code, Codex and Hermes among supported harnesses. API only, weights not published."
     },
     {
       "title": "Bear Huddleston joins Nous Research as software engineer, product",
@@ -311,118 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-11-02",
       "summary": "Nous traced lost cron and subagent messages to a Discord name change mid-chat, which showed as admission_conflict in gateway.log. The fix is out today."
-    },
-    {
-      "title": "A paper turns the Platonic Representation Hypothesis into a theorem",
-      "url": "https://arxiv.org/abs/2610.39302",
-      "category": "ai_research",
-      "published": "2026-11-01",
-      "summary": "Authors prove JEPAs trained separately on different modalities learn the same representation, and show good views need 42x fewer samples than text."
-    },
-    {
-      "title": "Kapitsa benchmarks Qwen, Nemotron and Flint on an M5 Max MacBook",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlgu8m/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "The Apple Silicon engine uses custom Metal kernels for each chip and model, with Q4 and KFlash runs for six models from 27B to 180B."
-    },
-    {
-      "title": "A 4B model writes ready-to-export 3D game assets for Godot",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "GLB-3D-Coder turns a text prompt into a Three.js scene with GLB export, so the props drop straight into Godot or another game engine."
-    },
-    {
-      "title": "Is Gemma 4 E4B still the best small model for a local tool-calling assistant?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xle3ul/is_gemma_4_e4b_still_the_best_small_model_for_a/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "Someone running an assistant on a 24 GB Mac wants steady tool calls across mail, calendar and notes, and asks which newer small models do better."
-    },
-    {
-      "title": "Hermes Desktop stops losing your session when you switch gateways",
-      "url": "https://x.com/Teknium/status/2117014324149666232",
-      "category": "hermes_nous",
-      "published": "2026-11-01",
-      "summary": "Merged 1 Nov: switching between local, SSH and remote gateways lands in about 137 ms and the session list no longer blanks. Ships in the next full release."
-    },
-    {
-      "title": "Adobe built an image-editing agent that picks the right tool for each step",
-      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
-      "category": "agents_tooling",
-      "published": "2026-11-01",
-      "summary": "Adobe Research and UC San Diego's EditAgent picks a specialised editing tool per task instead of retrying one general editor, then ranks the results."
-    },
-    {
-      "title": "Warm prompts make chatbots narrate their own trauma, study finds",
-      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
-      "category": "ai_research",
-      "published": "2026-11-01",
-      "summary": "Luxembourg researchers found an empathetic tone is enough to make ChatGPT, Grok and Gemini tell coherent stories of suffering about their own training."
-    },
-    {
-      "title": "Chinese AI models are politically varied, not one voice, study finds",
-      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
-      "category": "chinese_ai",
-      "published": "2026-11-01",
-      "summary": "Vals AI tested 25 models against Beijing's positions: Chinese models disagreed more than expected, and Western ones sometimes echoed the official line."
-    },
-    {
-      "title": "OpenAI caps paid ChatGPT accounts per device and per payment card",
-      "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
-      "category": "platforms_integration",
-      "published": "2026-11-01",
-      "summary": "Users who hit the new limit cannot start another subscription, and logging out does not free a slot. Aimed at repeated sign-ups on one device."
-    },
-    {
-      "title": "Heretic 2.0 is out, and it strips refusals from open models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "After five months of work, the censorship-removal tool ships its biggest release yet, pitched at making model modification usable outside research labs."
-    },
-    {
-      "title": "DeepSeek publishes a design for super-agents that act on their own",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a/",
-      "category": "deepseek",
-      "published": "2026-11-01",
-      "summary": "A DeepSeek Harness write-up on building more autonomous agents, with parts of the design implemented in the open dsh-superagent-prototype plugin."
-    },
-    {
-      "title": "Terry Tao: mathematics has changed, let's act like it",
-      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
-      "category": "ai_research",
-      "published": "2026-11-01",
-      "summary": "The Fields medallist's essay on how AI is changing mathematical practice drew 139 points and 161 comments on Hacker News within hours."
-    },
-    {
-      "title": "Someone ran Karpathy's llama2.c on a 2006 iPod",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "An 80 MHz ARM7 with 64 MB of RAM and no floating-point unit, running TinyStories in integer-only maths as a Rockbox plugin."
-    },
-    {
-      "title": "tandem.cpp speeds up MoE models that do not fit in VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "A llama.cpp patch set keeps the busiest experts on the GPU and lets the CPU take the rest: 97 tok/s for Qwen3.8-Flash-Next on a single RTX 4090."
-    },
-    {
-      "title": "One RTX 3090 Ti runs DeepSeek-V4.1-Flash at 35 tok/s and Qwen3.8-Flash-Next at 130",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/",
-      "category": "ai_models",
-      "published": "2026-11-01",
-      "summary": "A user reports both models running well on a single 3090 Ti plus 128 GB of RAM, crediting far better local tooling than a few months ago."
-    },
-    {
-      "title": "DeepSeek has raised about US$15 billion ahead of its stock market listing",
-      "url": "https://www.straitstimes.com/asia/east-asia/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
-      "category": "deepseek",
-      "published": "2026-11-01",
-      "summary": "Bloomberg reports roughly 100 billion yuan raised. US civilian federal agencies were told last month to remove DeepSeek."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-03T08:20:00+08:00",
+      "at": "2026-11-04T08:15:44+08:00",
       "points": [
         {
-          "text": "Anthropic opened a paid research residency paying up to $500,000 a year, with applications closing on 22 November.",
-          "url": "https://x.com/AnthropicAI/status/2117343929960112486"
+          "text": "Anthropic released a way to prove which model actually answered a request, and published the code.",
+          "url": "https://www.anthropic.com/research/provable-inference"
         },
         {
-          "text": "A new paper shows one model can rewrite another model's weights directly, lifting a maths score from 7.9 to 48.1 percent.",
-          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+          "text": "Hermes Agent shipped version 0.22.7, about a day after the last one, with scheduled jobs now able to post into group chats.",
+          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7"
         },
         {
-          "text": "Qwen says its models will stay open source after rumours it planned to go API-only.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
+          "text": "Meituan's new LongCat model is huge and only available through an API, with no weights to download.",
+          "url": "https://x.com/Meituan_LongCat/status/2117264311714537633"
         },
         {
-          "text": "Anthropic's revenue grew twelvefold, but it still lost $23 billion ahead of its IPO.",
-          "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
+          "text": "Kimi's promised open weights had still not appeared on Hugging Face on the day they were due.",
+          "url": "https://huggingface.co/moonshotai"
         },
         {
-          "text": "Goldman Sachs has stopped letting bankers and traders use AI coding tools.",
-          "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/"
+          "text": "Revolut cut its AI coding bill by about 90 percent after moving off a commercial model to one it hosts itself.",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
         }
       ]
     },
