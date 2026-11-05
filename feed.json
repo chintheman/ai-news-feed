@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-11-04T21:22:00+08:00",
+  "updated_at": "2026-11-05T08:16:35+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Voters in Texas elected a governor who wants to pause new data centres, and about a quarter of America's planned capacity sits in that state. Tencent released Hy4, a very large model that can now look at screens and operate a computer, and says the free download is still coming. OpenAI said it will buy Pierre Computer, a small company that stores code, and fold it into Codex. AMD set aside 1.07 billion dollars to cover share deals it handed to OpenAI and Meta. Anthropic's filing shows 16.96 billion dollars of sales in three months, against nearly 900 billion dollars of future spending it has already signed up for.",
+  "tldr": "OpenAI built a system that found 948 serious Linux security holes and wrote the fixes for them. Anthropic showed a way to prove which AI model actually answered a request. Claude helped map the shape of a tiny protein structure that had been a mystery since 1986. Kimi K3.1 Pro's open weights finally landed, and DeepSeek now carries more than half of all traffic on OpenRouter. Nous put every Hermes plugin, connector and skill into one browsable shop.",
   "articles": [
+    {
+      "title": "Claude maps the first bacterial vault particle structure",
+      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+      "category": "anthropic",
+      "published": "2026-11-05",
+      "summary": "A structure that would have taken weeks took days, with Anthropic documenting the mistakes Claude made and how researchers caught them."
+    },
+    {
+      "title": "Nous unifies Hermes plugins, connectors and skills in one marketplace",
+      "url": "https://hermes-agent.nousresearch.com/marketplace",
+      "category": "hermes_nous",
+      "published": "2026-11-05",
+      "summary": "976 extensions with one-line installs, covering Memory Wiki, Blender and TouchDesigner, instead of hunting repos by hand."
+    },
+    {
+      "title": "Kimi K3.1 Pro open weights actually land on Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "category": "moonshot_ai",
+      "published": "2026-11-05",
+      "summary": "After missing its promised date, Moonshot uploaded K3.1 Pro: a 2.8T-parameter mixture-of-experts model with 1M context."
+    },
+    {
+      "title": "Think Less, Locally: preference learning that compresses reasoning",
+      "url": "https://huggingface.co/papers/2611.04814",
+      "category": "ai_research",
+      "published": "2026-11-05",
+      "summary": "A local method for cutting reasoning-token spend, which is the lever that moves a metered API bill."
+    },
+    {
+      "title": "OpenAI's automated pipeline found 948 Linux privilege-escalation bugs",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "category": "ai_research",
+      "published": "2026-11-04",
+      "summary": "OpenAI's agents audited 7% of the Linux kernel, reproduced 1,724 bugs and produced 948 working exploits with patches for $1.2M."
+    },
+    {
+      "title": "DeepSeek carries 53% of all OpenRouter traffic as open weights pass 75%",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnz8ct/deepseek_alone_accounted_for_53_of_all_27/",
+      "category": "deepseek",
+      "published": "2026-11-04",
+      "summary": "Of 27 trillion tokens served in a day, DeepSeek alone took more than half, and open-weight labs together took over three quarters."
+    },
+    {
+      "title": "Unsloth ships Qwen3.8-Flash-Next GGUFs v3.1 with 15% higher accuracy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
+      "category": "chinese_ai",
+      "published": "2026-11-04",
+      "summary": "Fresh quantised builds of Qwen's fast model for local machines, with the accuracy claim taken from Unsloth's own docs."
+    },
+    {
+      "title": "CloudOpsBench finds reasoning, not tooling, is the AI ops bottleneck",
+      "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/",
+      "category": "ai_research",
+      "published": "2026-11-04",
+      "summary": "The best agent solves about 60% of real AWS operations tasks; the failures trace to reasoning rather than missing integrations."
+    },
+    {
+      "title": "OpenAI's Daybreak Red reaches AWS GovCloud US-East",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "category": "platforms_integration",
+      "published": "2026-11-04",
+      "summary": "Government customers can now run the model inside their own AWS region rather than through the public API."
+    },
+    {
+      "title": "ChatGPT turns prompts and photos into animated GIFs",
+      "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+      "category": "platforms_integration",
+      "published": "2026-11-04",
+      "summary": "OpenAI's Images 2.6 model adds short looping animation output straight from a text prompt or an uploaded picture."
+    },
+    {
+      "title": "DevRev puts GPT-6.1 Sol behind enterprise self-service",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "category": "platforms_integration",
+      "published": "2026-11-04",
+      "summary": "A customer case for the newest GPT model, pitched on the trade-off between reasoning depth, latency and cost."
+    },
     {
       "title": "Texas elects a governor who wants a data centre pause, and 27% of US capacity sits there",
       "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
@@ -346,83 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-11-02",
       "summary": "776 PRs since v0.22.5, including the admission_conflict fix that silently dropped background and cron results."
-    },
-    {
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "category": "platforms_integration",
-      "published": "2026-11-02",
-      "summary": "OpenAI built Pando, a Git-compatible backend sized for the code volume Codex now generates."
-    },
-    {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "category": "policy",
-      "published": "2026-11-02",
-      "summary": "Driscoll will advise on AI for national security modernization, cyber resilience and allied collaboration."
-    },
-    {
-      "title": "OpenAI more than quadruples critical bug bounty payouts to $172,000",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "category": "platforms_integration",
-      "published": "2026-11-02",
-      "summary": "Higher rewards plus report-quality bonuses, alongside a security sprint run with Cathedral Systems."
-    },
-    {
-      "title": "Anthropic's growth just flattened",
-      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "Analysis argues Anthropic's revenue curve bent flat in the quarter before its IPO filing."
-    },
-    {
-      "title": "The SEC should block Anthropic's IPO to protect the public",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-      "category": "policy",
-      "published": "2026-11-02",
-      "summary": "Tech policy paper argues the listing should be stopped over concentration and safety disclosure gaps."
-    },
-    {
-      "title": "Oracle files to sell $20B in stock and bonds to finance AI buildout",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "Oracle turns to equity and debt markets to fund the data centre capacity behind its AI contracts."
-    },
-    {
-      "title": "New sparse attention method pushes context past 10M tokens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
-      "category": "ai_research",
-      "published": "2026-11-02",
-      "summary": "Open research sparsifies Qwen 3.8 27B attention with no measured accuracy loss; 10M tokens costs some tasks."
-    },
-    {
-      "title": "Qwen 3.8 27B found a Blender MCP server and wrote Python to solve its physics problem",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
-      "category": "chinese_ai",
-      "published": "2026-11-02",
-      "summary": "A local Qwen model chained a Blender tool into its own reasoning to get real geometry, unprompted."
-    },
-    {
-      "title": "Anthropic cuts reverse-engineering access, again pushing users to self-host",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
-      "category": "anthropic",
-      "published": "2026-11-02",
-      "summary": "Users report new Claude Code limits and blocking of reverse-engineering tasks, per Tom's Hardware."
-    },
-    {
-      "title": "Terry Tao: Egoless mathematics in the AI era",
-      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-      "category": "ai_research",
-      "published": "2026-11-02",
-      "summary": "Tao argues mathematicians should hand routine proof work to AI and keep judgement, taste and framing."
-    },
-    {
-      "title": "Anthropic opens a paid research residency, applications close 22 November",
-      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
-      "category": "anthropic",
-      "published": "2026-11-02",
-      "summary": "Six weeks to six months at $350,000 to $500,000 a year for quantitative professors, founders and senior engineers. No ML background needed."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-04T08:15:44+08:00",
+      "at": "2026-11-05T08:16:35+08:00",
       "points": [
         {
-          "text": "Anthropic released a way to prove which model actually answered a request, and published the code.",
-          "url": "https://www.anthropic.com/research/provable-inference"
+          "text": "OpenAI built a system that found 948 serious Linux security holes and wrote the fixes for them.",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
         },
         {
-          "text": "Hermes Agent shipped version 0.22.7, about a day after the last one, with scheduled jobs now able to post into group chats.",
-          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7"
+          "text": "Anthropic showed a way to prove which AI model actually answered a request.",
+          "url": null
         },
         {
-          "text": "Meituan's new LongCat model is huge and only available through an API, with no weights to download.",
-          "url": "https://x.com/Meituan_LongCat/status/2117264311714537633"
+          "text": "Claude helped map the shape of a tiny protein structure that had been a mystery since 1986.",
+          "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
         },
         {
-          "text": "Kimi's promised open weights had still not appeared on Hugging Face on the day they were due.",
-          "url": "https://huggingface.co/moonshotai"
+          "text": "Kimi K3.1 Pro's open weights finally landed, and DeepSeek now carries more than half of all traffic on OpenRouter.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnz8ct/deepseek_alone_accounted_for_53_of_all_27/"
         },
         {
-          "text": "Revolut cut its AI coding bill by about 90 percent after moving off a commercial model to one it hosts itself.",
-          "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+          "text": "Nous put every Hermes plugin, connector and skill into one browsable shop.",
+          "url": "https://hermes-agent.nousresearch.com/marketplace"
         }
       ]
     },
