@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-11-05T13:15:00+08:00",
+  "updated_at": "2026-11-05T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nous is running a seven-day plugin contest with $20,000 in prizes, and entries close at 6am Singapore time on 12 November. The Claude desktop app can now show how much disk space it uses and clear out old work. A new open model called Ripple 65B landed and looks strong for its size. A tiny 2B model now runs entirely on an iPhone with no internet, fast enough for live use. Machine learning researchers are asking top conferences to reject papers the authors cannot explain.",
+  "tldr": "Baidu released the weights of a big new model called ERNIE 5.5 Flash. It has 280 billion parameters in total but only uses 14 billion at a time, which keeps it cheaper to run. A small text to speech model called Phonon now runs on your own device and sits at the top of the open leaderboard. Hugging Face helped open a robot testing ground with more than a hundred real machines and free test hours. Tencent's new Hy4 model is 80 percent off on Nous Portal for one week.",
   "articles": [
+    {
+      "title": "Baidu publishes ERNIE 5.5 Flash Base weights: 280B total, 14B active",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+      "category": "chinese_ai",
+      "published": "2026-11-05",
+      "summary": "A pre-training checkpoint trained on 33.5T tokens with 128K context (1M at inference), with DeepSeek V4 Flash Base in its comparison table."
+    },
+    {
+      "title": "Phonon TTS tops the open voice leaderboard while running on device",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "category": "ai_models",
+      "published": "2026-11-05",
+      "summary": "Gradium's text to speech needs no server and no network. The 31M model is Apache 2.0, so commercial use is free."
+    },
+    {
+      "title": "Tencent Hy4 is 80 percent off in Nous Portal for one week",
+      "url": "https://x.com/NousResearch/status/2118136505046904891",
+      "category": "hermes_nous",
+      "published": "2026-11-05",
+      "summary": "Hy4 adds image input and computer use, and edits Word, Excel and PowerPoint files. The discount runs for a week."
+    },
+    {
+      "title": "GLB-3D-Coder 4B turns a text prompt into a full Three.js scene",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "category": "ai_models",
+      "published": "2026-11-05",
+      "summary": "A full fine-tune of Qwen3.5-4B that writes reusable 3D assets as single-file Three.js pages. Safetensors weights are out."
+    },
+    {
+      "title": "Int8-vllm fork adds Nemotron 3.5 Bolt 74B to int8 serving",
+      "url": "https://github.com/curvedinf/int8-vllm",
+      "category": "platforms_integration",
+      "published": "2026-11-05",
+      "summary": "A fork that rewrites most of the vLLM serving stack for int8, built around a 4x MI100 box and open for anyone to run."
+    },
+    {
+      "title": "Hugging Face runs a free quantization workshop on 10 November",
+      "url": "https://x.com/huggingface/status/2118306577203822976",
+      "category": "platforms_integration",
+      "published": "2026-11-05",
+      "summary": "Maxime Labonne and the llama.cpp and vLLM crowd explain how to shrink a model to fit a laptop. Streams on X and YouTube."
+    },
+    {
+      "title": "OpenAI publishes a blueprint for how data centres win local support",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "category": "policy",
+      "published": "2026-11-05",
+      "summary": "The National Community Compact and Compute Campus Policy Blueprint trade jobs and resource promises for faster approval."
+    },
     {
       "title": "Nous opens a $20,000 Hermes plugin hackathon, entries close 12 Nov",
       "url": "https://x.com/NousResearch/status/2118094256438936062",
@@ -45,6 +94,13 @@
       "category": "ai_research",
       "published": "2026-11-05",
       "summary": "A local method for cutting reasoning-token spend, which is the lever that moves a metered API bill."
+    },
+    {
+      "title": "RoboColosseum opens a real-world robot benchmark with 100+ machines",
+      "url": "https://robocolosseum.ai",
+      "category": "ai_research",
+      "published": "2026-11-04",
+      "summary": "Hugging Face is a founding partner. Every rollout, failures included, is public, plus 10,000 free evaluation hours."
     },
     {
       "title": "Ricursive releases Ripple-65B preview, a dense US open-weights model",
@@ -367,87 +423,31 @@
       "category": "anthropic",
       "published": "2026-11-03",
       "summary": "After a wave of AI-built knockoffs, Claude Code now refuses to rebuild existing games, a new limit on coding agents."
-    },
-    {
-      "title": "Huawei tells AI chip customers to source their own HBM memory",
-      "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
-      "category": "chinese_ai",
-      "published": "2026-11-03",
-      "summary": "Smugglers bundle memory with low-end processors through Hong Kong, exploiting a US export loophole as Huawei steps back."
-    },
-    {
-      "title": "RTX 5090 with 64GB and 96GB VRAM 'confirmed' by a US GPU repair tech",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/",
-      "category": "ai_models",
-      "published": "2026-11-03",
-      "summary": "A repair shop claims it has seen high-memory 5090 boards, which would put 70B-class local models on one consumer card."
-    },
-    {
-      "title": "NVIDIA ships NemotronLabs RE-USE, a 9.6M-parameter speech cleanup model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmorim/nvidianvidianemotronlabsreuse_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-11-03",
-      "summary": "A tiny multilingual model that restores degraded speech across noise types, small enough to run on an edge device."
-    },
-    {
-      "title": "109,000 ML papers collapsed into 1,260 topic pages of results and ablations",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
-      "category": "ai_research",
-      "published": "2026-11-03",
-      "summary": "Every accepted ICML, NeurIPS, ICLR, CVPR and AAAI paper since 2016, grouped by topic with benchmark records."
-    },
-    {
-      "title": "Olla v0.1.0, an open-source LLM proxy for homelabs and on-prem inference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmq913/olla_v010_lightweight_opensource_llm_proxy_for/",
-      "category": "agents_tooling",
-      "published": "2026-11-03",
-      "summary": "One endpoint in front of Ollama, vLLM, SGLang, llama.cpp and oMLX, with failover, sticky sessions and load balancing."
-    },
-    {
-      "title": "LFM3-1.7B quantized to 3.6GB VRAM with no measured loss",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xme6c5/lfm317b_quantization_report_36_gb_vram_lossless/",
-      "category": "ai_models",
-      "published": "2026-11-03",
-      "summary": "Community report: half the VRAM of a quasi-lossless MiniCPM5-2B, double the context, higher scores on Liquid AI's own benchmarks."
-    },
-    {
-      "title": "Intel stock collapse deepens as $3.5T chip rout spreads",
-      "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
-      "category": "industry",
-      "published": "2026-11-03",
-      "summary": "Semiconductor names keep falling as the selloff widens beyond AI hardware into the wider chip complex."
-    },
-    {
-      "title": "Kimi K3.1 Pro open weights due by 4 November",
-      "url": "https://chinaapi.ai/model-updates/",
-      "category": "moonshot_ai",
-      "published": "2026-11-03",
-      "summary": "3T-class model with 1M context at $2 in and $10 out per million tokens; downloadable weights promised within a day."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-04T21:22:00+08:00",
+      "at": "2026-11-05T21:15:00+08:00",
       "points": [
         {
-          "text": "Voters in Texas elected a governor who wants to pause new data centres, and about a quarter of America's planned capacity sits in that state.",
-          "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+          "text": "Baidu released the weights of a big new model called ERNIE 5.5 Flash.",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
         },
         {
-          "text": "Tencent released Hy4, a very large model that can now look at screens and operate a computer, and says the free download is still coming.",
-          "url": "https://technode.com/2026/11/04/tencent-launches-hy4-with-vision-and-computer-use-capabilities/"
+          "text": "It has 280 billion parameters in total but only uses 14 billion at a time, which keeps it cheaper to run.",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
         },
         {
-          "text": "OpenAI said it will buy Pierre Computer, a small company that stores code, and fold it into Codex.",
-          "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github"
+          "text": "A small text to speech model called Phonon now runs on your own device and sits at the top of the open leaderboard.",
+          "url": "https://huggingface.co/blog/phonon-tts"
         },
         {
-          "text": "AMD set aside 1.07 billion dollars to cover share deals it handed to OpenAI and Meta.",
-          "url": "https://www.reuters.com/legal/transactional/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-2026-11-04/"
+          "text": "Hugging Face helped open a robot testing ground with more than a hundred real machines and free test hours.",
+          "url": "https://robocolosseum.ai"
         },
         {
-          "text": "Anthropic's filing shows 16.96 billion dollars of sales in three months, against nearly 900 billion dollars of future spending it has already signed up for.",
-          "url": "https://stockanalysis.com/news/anthropic-third-quarter-revenue-17-billion-ipo-filing/"
+          "text": "Tencent's new Hy4 model is 80 percent off on Nous Portal for one week.",
+          "url": "https://x.com/NousResearch/status/2118136505046904891"
         }
       ]
     },
