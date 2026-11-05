@@ -1,9 +1,23 @@
 {
-  "updated_at": "2026-11-05T08:16:35+08:00",
+  "updated_at": "2026-11-05T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI built a system that found 948 serious Linux security holes and wrote the fixes for them. Anthropic showed a way to prove which AI model actually answered a request. Claude helped map the shape of a tiny protein structure that had been a mystery since 1986. Kimi K3.1 Pro's open weights finally landed, and DeepSeek now carries more than half of all traffic on OpenRouter. Nous put every Hermes plugin, connector and skill into one browsable shop.",
+  "tldr": "Nous is running a seven-day plugin contest with $20,000 in prizes, and entries close at 6am Singapore time on 12 November. The Claude desktop app can now show how much disk space it uses and clear out old work. A new open model called Ripple 65B landed and looks strong for its size. A tiny 2B model now runs entirely on an iPhone with no internet, fast enough for live use. Machine learning researchers are asking top conferences to reject papers the authors cannot explain.",
   "articles": [
+    {
+      "title": "Nous opens a $20,000 Hermes plugin hackathon, entries close 12 Nov",
+      "url": "https://x.com/NousResearch/status/2118094256438936062",
+      "category": "hermes_nous",
+      "published": "2026-11-05",
+      "summary": "Seven days, $10,000 first prize. Needs a catalog pull request, a demo under 90 seconds and a typeform entry by 6am SGT on 12 Nov."
+    },
+    {
+      "title": "Claude desktop app adds /storage to show and clear its own disk use",
+      "url": "https://x.com/lydiahallie/status/2118045439803195567",
+      "category": "anthropic",
+      "published": "2026-11-05",
+      "summary": "One command shows how much space Claude uses locally and clears inactive tasks and unused worktrees."
+    },
     {
       "title": "Claude maps the first bacterial vault particle structure",
       "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
@@ -31,6 +45,34 @@
       "category": "ai_research",
       "published": "2026-11-05",
       "summary": "A local method for cutting reasoning-token spend, which is the lever that moves a metered API bill."
+    },
+    {
+      "title": "Ricursive releases Ripple-65B preview, a dense US open-weights model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "A dense 65B preview whose posted benchmarks put it near the front of American open-weight models at any size."
+    },
+    {
+      "title": "LFM3-Omni-2B runs fully offline on an iPhone at about 80 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "Custom WebGPU kernels in a React Native app give a 2B multimodal model phone-speed inference with no network."
+    },
+    {
+      "title": "Qualcomm ships a 150W Cloud AI 100 Ultra card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "A low-power inference card built around 128GB of memory, aimed at models that do not fit on a standard GPU."
+    },
+    {
+      "title": "ML researchers ask top conferences to desk-reject AI-written papers",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+      "category": "ai_research",
+      "published": "2026-11-04",
+      "summary": "A poster at two A* venues says authors could not answer basic questions about their own papers."
     },
     {
       "title": "OpenAI's automated pipeline found 948 Linux privilege-escalation bugs",
@@ -157,6 +199,13 @@
       "category": "moonshot_ai",
       "published": "2026-11-04",
       "summary": "Hugging Face lists Kimi-K3 as the newest Moonshot repo, no K3.1 and no licence announced. K3 alone is 1.56 TB across 96 files."
+    },
+    {
+      "title": "Anthropic Residency opens: paid, fixed-term, no ML background needed",
+      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+      "category": "anthropic",
+      "published": "2026-11-03",
+      "summary": "Applications close 22 November, open to academics, technical founders and staff-level engineers."
     },
     {
       "title": "Big tech's hidden AI debt swells 90% to $3.2 trillion in six months",
@@ -374,55 +423,6 @@
       "category": "moonshot_ai",
       "published": "2026-11-03",
       "summary": "3T-class model with 1M context at $2 in and $10 out per million tokens; downloadable weights promised within a day."
-    },
-    {
-      "title": "Anthropic's amended S-1 shows 16.96 billion dollars in quarterly revenue",
-      "url": "https://stockanalysis.com/news/anthropic-third-quarter-revenue-17-billion-ipo-filing/",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "The filing also shows 895 billion dollars of committed spend, mostly on compute, ahead of a Nasdaq listing under the symbol ANT."
-    },
-    {
-      "title": "Fujifilm lifts tape production fivefold as AI drives archiving demand",
-      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-      "category": "industry",
-      "published": "2026-11-02",
-      "summary": "The company will raise magnetic tape output fivefold, betting that long-term AI archiving keeps tape far cheaper than disks."
-    },
-    {
-      "title": "Ink found in a Vesuvius scroll, the first writing read in 2,000 years",
-      "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
-      "category": "ai_research",
-      "published": "2026-11-02",
-      "summary": "Two entrants recovered 10 readable characters from PHerc. 306B using micro-CT scans and ML, earning the $50,000 First Letters Prize."
-    },
-    {
-      "title": "Garry Tan's evals put Particle-1 level with bigger models at 1/23 the price",
-      "url": "https://x.com/garrytan/status/2117137390016073977",
-      "category": "ai_models",
-      "published": "2026-11-02",
-      "summary": "Internal LongMemEval results for agentic retrieval, published with the eval harness. These are vendor-adjacent numbers with no outside check."
-    },
-    {
-      "title": "Meituan releases LongCat-2.5, a 1.6T agentic model with no open weights",
-      "url": "https://x.com/Meituan_LongCat/status/2117264311714537633",
-      "category": "chinese_ai",
-      "published": "2026-11-02",
-      "summary": "1M-token context, 4-bit inference, and Claude Code, Codex and Hermes among supported harnesses. API only, weights not published."
-    },
-    {
-      "title": "Bear Huddleston joins Nous Research as software engineer, product",
-      "url": "https://x.com/Teknium/status/2117338486869299564",
-      "category": "hermes_nous",
-      "published": "2026-11-02",
-      "summary": "Announced the evening Hermes Agent v0.22.6 shipped. He wrote the hermes webapp pull request that landed in that release."
-    },
-    {
-      "title": "Hermes Agent v0.22.6 ships to stable with the gateway delivery fix",
-      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6",
-      "category": "hermes_nous",
-      "published": "2026-11-02",
-      "summary": "776 PRs since v0.22.5, including the admission_conflict fix that silently dropped background and cron results."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-04T13:20:00+08:00",
+      "at": "2026-11-05T13:15:00+08:00",
       "points": [
         {
-          "text": "Big tech's hidden AI debt grew 90 percent in six months, to 3.2 trillion dollars.",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+          "text": "Nous is running a seven-day plugin contest with $20,000 in prizes, and entries close at 6am Singapore time on 12 November.",
+          "url": "https://x.com/NousResearch/status/2118094256438936062"
         },
         {
-          "text": "Two hobbyists won 50,000 dollars for reading writing inside a scroll buried by Vesuvius.",
-          "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the"
+          "text": "The Claude desktop app can now show how much disk space it uses and clear out old work.",
+          "url": "https://x.com/lydiahallie/status/2118045439803195567"
         },
         {
-          "text": "A Y Combinator partner says checking AI code with a second model no longer pays off.",
-          "url": "https://x.com/garrytan/status/2117661001332240434"
+          "text": "A new open model called Ripple 65B landed and looks strong for its size.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
         },
         {
-          "text": "The Hermes mobile app is taking waitlist signups, and the agent still runs on your own machine.",
-          "url": "https://x.com/NousResearch/status/2117696344756252822"
+          "text": "A tiny 2B model now runs entirely on an iPhone with no internet, fast enough for live use.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/"
         },
         {
-          "text": "A local engine now runs Qwen at 300 tokens a second on two consumer graphics cards.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose/"
+          "text": "Machine learning researchers are asking top conferences to reject papers the authors cannot explain.",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/"
         }
       ]
     }
