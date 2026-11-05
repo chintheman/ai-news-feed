@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-11-05T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 7,
+  "tldr": "Nous is running a seven-day plugin contest with $20,000 in prizes, and entries close at 6am Singapore time on 12 November. The Claude desktop app can now show how much disk space it uses and clear out old work. A new open model called Ripple 65B landed and looks strong for its size. A tiny 2B model now runs entirely on an iPhone with no internet, fast enough for live use. Machine learning researchers are asking top conferences to reject papers the authors cannot explain.",
+  "articles": [
+    {
+      "title": "Nous opens a $20,000 Hermes plugin hackathon, entries close 12 Nov",
+      "url": "https://x.com/NousResearch/status/2118094256438936062",
+      "category": "hermes_nous",
+      "published": "2026-11-05",
+      "summary": "Seven days, $10,000 first prize. Needs a catalog pull request, a demo under 90 seconds and a typeform entry by 6am SGT on 12 Nov."
+    },
+    {
+      "title": "Claude desktop app adds /storage to show and clear its own disk use",
+      "url": "https://x.com/lydiahallie/status/2118045439803195567",
+      "category": "anthropic",
+      "published": "2026-11-05",
+      "summary": "One command shows how much space Claude uses locally and clears inactive tasks and unused worktrees."
+    },
+    {
+      "title": "Anthropic Residency opens: paid, fixed-term, no ML background needed",
+      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+      "category": "anthropic",
+      "published": "2026-11-03",
+      "summary": "Applications close 22 November, open to academics, technical founders and staff-level engineers."
+    },
+    {
+      "title": "Ricursive releases Ripple-65B preview, a dense US open-weights model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "A dense 65B preview whose posted benchmarks put it near the front of American open-weight models at any size."
+    },
+    {
+      "title": "LFM3-Omni-2B runs fully offline on an iPhone at about 80 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "Custom WebGPU kernels in a React Native app give a 2B multimodal model phone-speed inference with no network."
+    },
+    {
+      "title": "Qualcomm ships a 150W Cloud AI 100 Ultra card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "category": "ai_models",
+      "published": "2026-11-04",
+      "summary": "A low-power inference card built around 128GB of memory, aimed at models that do not fit on a standard GPU."
+    },
+    {
+      "title": "ML researchers ask top conferences to desk-reject AI-written papers",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+      "category": "ai_research",
+      "published": "2026-11-04",
+      "summary": "A poster at two A* venues says authors could not answer basic questions about their own papers."
+    }
+  ]
+}
