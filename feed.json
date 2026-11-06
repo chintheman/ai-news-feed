@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-11-06T13:20:00+08:00",
+  "updated_at": "2026-11-06T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic paid a news publisher for its content for the first time, just before the US midterms. A Claude Code user found the tool hands his email address to every website it searches. OpenAI says its new model scored about 40 percent worse on safety work after it invented its own obstacles. Thinking Machines shipped a new model and will release its weights next week. Apple is cutting its internal AI budget, and Mark Cuban says Facebook still runs fake AI ads.",
+  "tldr": "Investors are pushing back on Anthropic's plan to list at a 1.5 trillion dollar value, and the wider AI trade sold off. Claude can now connect to your bank and card accounts in the US, read only, and answer money questions. A new benchmark sets 21 real private equity and banking tasks that take an expert 20 to 40 hours each. Hugging Face turned its ML Intern into a Slack bot that can test and train models on request. Two new Chinese open models, Kimi K3.1 and Tencent's Hy4, have had their security and reverse-engineering skills removed.",
   "articles": [
+    {
+      "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk",
+      "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+      "category": "industry",
+      "published": "2026-11-06",
+      "summary": "Investors are pushing back on the $1.5 trillion valuation as the wider AI trade sells off, putting Anthropic's listing plan in doubt."
+    },
+    {
+      "title": "Claude can now connect to your bank accounts, read only",
+      "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
+      "category": "anthropic",
+      "published": "2026-11-06",
+      "summary": "Claude links bank and card accounts in a US beta, then answers money questions from real balances. Access is read-only and cannot move money."
+    },
+    {
+      "title": "Kimi K3.1 and Tencent's Hy4 ship with security skills stripped out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/",
+      "category": "chinese_ai",
+      "published": "2026-11-06",
+      "summary": "Both new open models drop cyber, reverse-engineering and patching ability. LocalLLaMA posters call it a pattern across Chinese open-weight releases."
+    },
+    {
+      "title": "DeepFinance: 21 real PE and banking tasks that take a human 20 to 40 hours",
+      "url": "https://x.com/garrytan/status/2118527182092071179",
+      "category": "ai_research",
+      "published": "2026-11-06",
+      "summary": "A new benchmark built on real deal data, made by people from Evercore, JPM and UBS. It grades long messy work, not document Q&A, and has a leaderboard."
+    },
+    {
+      "title": "Hugging Face ships its ML Intern as a Slack bot",
+      "url": "https://x.com/huggingface/status/2118430862949945612",
+      "category": "platforms_integration",
+      "published": "2026-11-06",
+      "summary": "Install it in your own workspace and it evaluates models, builds datasets and starts fine-tunes from a Slack thread."
+    },
+    {
+      "title": "A local model runs Blender rigging through MCP on 8GB of VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8sjd/cybertiel35ba3b_working_on_blender_rigging_via/",
+      "category": "agents_tooling",
+      "published": "2026-11-06",
+      "summary": "A 35B model drives Blender rigging over MCP on 8GB of VRAM with llama.cpp, showing agent tool use on ordinary consumer hardware."
+    },
+    {
+      "title": "Qwen3.8-27B tested across six inference engines at 256K context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoxx4a/qwen3827b_benchmark_6_inference_engines_gguf_vs/",
+      "category": "chinese_ai",
+      "published": "2026-11-06",
+      "summary": "One 27B Qwen model run on six engines, GGUF against NInfer and others, with speed and memory numbers for each at the full 256K context."
+    },
     {
       "title": "Garry Tan pushes Congress to open AI markets for small startups",
       "url": "https://x.com/garrytan/status/2118557763156733984",
@@ -31,6 +80,13 @@
       "category": "ai_research",
       "published": "2026-11-06",
       "summary": "A new paper trains policies to act directly from screen pixels instead of a separate perception and planning layer."
+    },
+    {
+      "title": "Claude Code background subagents now cost about 99% less per update",
+      "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+      "category": "anthropic",
+      "published": "2026-11-05",
+      "summary": "Each 30-second status refresh used to re-read the subagent's whole conversation. A short Haiku-written note replaces it, cutting the cost of that step by 99%."
     },
     {
       "title": "Claude Code sends your email address to every site it visits, bug report says",
@@ -367,87 +423,31 @@
       "category": "platforms_integration",
       "published": "2026-11-04",
       "summary": "From 2027 Google switches AI features off by default in school products. Schools that block AI outright also lose Search, since the two are one system."
-    },
-    {
-      "title": "DeepSeek V4.1 Flash holds 524k context on four consumer GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnkr5q/deepseek_v41_flash_1017_on_4rtx3090_256ddr4_maya/",
-      "category": "deepseek",
-      "published": "2026-11-04",
-      "summary": "A tester runs the 256GB quantised build on four RTX 3090s at 400 to 600 tokens a second of prefill and 30 to 40 of decode."
-    },
-    {
-      "title": "Axion 1.0 35B is a fully open agent model trained in three stages",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-11-04",
-      "summary": "The recipe is two supervised fine-tuning passes then reinforcement learning, with weights out and no bespoke trick claimed."
-    },
-    {
-      "title": "Hermes app appears to have iOS Shortcuts support, unconfirmed by Nous",
-      "url": "https://x.com/itsabara/status/2117833248130904574",
-      "category": "hermes_nous",
-      "published": "2026-11-04",
-      "summary": "Screenshots from one user suggest phone events such as location and time could trigger agent actions. No official confirmation yet."
-    },
-    {
-      "title": "Kimi K3.1 Pro weights still missing on their promised release date",
-      "url": "https://huggingface.co/moonshotai",
-      "category": "moonshot_ai",
-      "published": "2026-11-04",
-      "summary": "Hugging Face lists Kimi-K3 as the newest Moonshot repo, no K3.1 and no licence announced. K3 alone is 1.56 TB across 96 files."
-    },
-    {
-      "title": "Anthropic Residency opens: paid, fixed-term, no ML background needed",
-      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
-      "category": "anthropic",
-      "published": "2026-11-03",
-      "summary": "Applications close 22 November, open to academics, technical founders and staff-level engineers."
-    },
-    {
-      "title": "Big tech's hidden AI debt swells 90% to $3.2 trillion in six months",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-      "category": "industry",
-      "published": "2026-11-03",
-      "summary": "Nikkei finds off-balance-sheet AI commitments at US tech giants grew 90 percent in half a year. It drew 235 points on Hacker News."
-    },
-    {
-      "title": "The Little Book of Generative AI Foundations, a derivation-first primer",
-      "url": "https://arxiv.org/abs/2605.29713",
-      "category": "ai_research",
-      "published": "2026-11-03",
-      "summary": "Tianhua Chen works from PCA and VAEs through diffusion, normalising flows and GANs, deriving the maths instead of stating it."
-    },
-    {
-      "title": "Basalt 0.2.0 runs Qwen 3.8 Flash Next at 300 tokens a second on two cards",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose/",
-      "category": "ai_models",
-      "published": "2026-11-03",
-      "summary": "A Blackwell-only local inference engine hits 300 t/s prose and 600 t/s structured output on a 5090, a 5060 Ti and 128GB of RAM."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-05T21:15:00+08:00",
+      "at": "2026-11-06T21:20:00+08:00",
       "points": [
         {
-          "text": "Baidu released the weights of a big new model called ERNIE 5.5 Flash.",
-          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+          "text": "Investors are pushing back on Anthropic's plan to list at a 1.5 trillion dollar value, and the wider AI trade sold off.",
+          "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/"
         },
         {
-          "text": "It has 280 billion parameters in total but only uses 14 billion at a time, which keeps it cheaper to run.",
-          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+          "text": "Claude can now connect to your bank and card accounts in the US, read only, and answer money questions.",
+          "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/"
         },
         {
-          "text": "A small text to speech model called Phonon now runs on your own device and sits at the top of the open leaderboard.",
-          "url": "https://huggingface.co/blog/phonon-tts"
+          "text": "A new benchmark sets 21 real private equity and banking tasks that take an expert 20 to 40 hours each.",
+          "url": "https://x.com/garrytan/status/2118527182092071179"
         },
         {
-          "text": "Hugging Face helped open a robot testing ground with more than a hundred real machines and free test hours.",
-          "url": "https://robocolosseum.ai"
+          "text": "Hugging Face turned its ML Intern into a Slack bot that can test and train models on request.",
+          "url": "https://x.com/huggingface/status/2118430862949945612"
         },
         {
-          "text": "Tencent's new Hy4 model is 80 percent off on Nous Portal for one week.",
-          "url": "https://x.com/NousResearch/status/2118136505046904891"
+          "text": "Two new Chinese open models, Kimi K3.1 and Tencent's Hy4, have had their security and reverse-engineering skills removed.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/"
         }
       ]
     },
