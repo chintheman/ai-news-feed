@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-11-06T08:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "OpenAI released a model built to find and fix security bugs, and says it found 81 new flaws in Firefox. Nous Research shipped Hermes Agent 0.23.0, which lets you reach your desktop agent from a browser tab. Google's new video model makes 15-second clips and costs 30 percent less. Meta is buying Conductor, a startup that helps people run several coding agents at once. A new test of real work found no AI agent scores above 12 percent.",
+  "articles": [
+    {
+      "title": "Hermes Agent v0.23.0 Hearth serves the desktop workspace in a browser tab",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+      "category": "hermes_nous",
+      "published": "2026-11-06",
+      "summary": "Hearth adds a browser-served desktop, one gateway owning every chat, /Rewind, group chats and paid MCP price caps."
+    },
+    {
+      "title": "OpenAI ships GPT-6 Cyber, a model that breaks into systems and writes the fixes",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "category": "ai_models",
+      "published": "2026-11-05",
+      "summary": "Built to find exploitable bugs and patch them; OpenAI says it found 81 new Firefox flaws and 948 Linux exploits."
+    },
+    {
+      "title": "Meta buys coding agent startup Conductor as the developer tool land rush speeds up",
+      "url": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/",
+      "category": "industry",
+      "published": "2026-11-05",
+      "summary": "Conductor runs several coding agents at once. The deal lands the same day OpenAI moved on Pierre Computer."
+    },
+    {
+      "title": "SemiAnalysis GDPx: no AI agent clears 12 percent on real-world knowledge work",
+      "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/",
+      "category": "ai_research",
+      "published": "2026-11-05",
+      "summary": "Tasks span chip design to quant trading. Claude Opus 5.5 leads narrowly over Gemini 4 Carbon, but all score low."
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash makes 15-second clips and cuts the price 30 percent",
+      "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+      "category": "ai_models",
+      "published": "2026-11-05",
+      "summary": "Clips now run to 15 seconds, edits happen by conversation, and 720p video costs 7 cents a second."
+    },
+    {
+      "title": "Z.ai's Jie Tang shows the GLM-5.5 training pipeline: 32B, 122B and 256B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/",
+      "category": "chinese_ai",
+      "published": "2026-11-05",
+      "summary": "The next GLM generation finally includes a small 32B variant, which matters for anyone running models locally."
+    },
+    {
+      "title": "NVIDIA opens Cosmos 3 world models for interactive simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "category": "ai_models",
+      "published": "2026-11-05",
+      "summary": "Three open models generate physically plausible scenes you can step through, aimed at robotics and synthetic data."
+    },
+    {
+      "title": "Mistral pairs Le Chonk with Studio for building enterprise agents",
+      "url": "https://mistral.ai/news/build-with-studio/",
+      "category": "platforms_integration",
+      "published": "2026-11-05",
+      "summary": "Studio builds and deploys agents, workflows and apps while keeping models, data and infrastructure in your control."
+    },
+    {
+      "title": "Delta Inference Engine 0.93 runs DeepSeek V4.1 Flash on a single RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoq4vq/deepseekv41flash1017_on_one_rtx_3090_big_updates/",
+      "category": "deepseek",
+      "published": "2026-11-05",
+      "summary": "Holds 41 tokens a second from 64GB of RAM, first token about 40 percent sooner, now with multi-GPU and public CI."
+    },
+    {
+      "title": "Pixels to Actions: vision-language-action policies that skip the perception stack",
+      "url": "https://huggingface.co/papers/2611.06918",
+      "category": "ai_research",
+      "published": "2026-11-06",
+      "summary": "A new paper trains policies to act directly from screen pixels instead of a separate perception and planning layer."
+    }
+  ]
+}
