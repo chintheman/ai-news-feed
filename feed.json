@@ -1,9 +1,79 @@
 {
-  "updated_at": "2026-11-06T21:20:00+08:00",
+  "updated_at": "2026-11-07T08:17:05+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Investors are pushing back on Anthropic's plan to list at a 1.5 trillion dollar value, and the wider AI trade sold off. Claude can now connect to your bank and card accounts in the US, read only, and answer money questions. A new benchmark sets 21 real private equity and banking tasks that take an expert 20 to 40 hours each. Hugging Face turned its ML Intern into a Slack bot that can test and train models on request. Two new Chinese open models, Kimi K3.1 and Tencent's Hy4, have had their security and reverse-engineering skills removed.",
+  "tldr": "A safety nonprofit spent 11 weeks inside Anthropic's research data and found the company may have already passed its own speed limit for building AI. Anthropic explained how Claude organises what it has learned, a process it calls dreaming, and showed AI writing and revising scientific models as code. OpenAI published a 100-task test of how well agents do everyday lab work, and brought in a security firm to attack its own systems. Perplexity now sells always-on agents that work on their own computer for 200 dollars a month. Nous released a retrained Qwen model whose rate of repeating Chinese state talking points fell from 22 percent to 1 percent.",
   "articles": [
+    {
+      "title": "Anthropic explains 'dreaming', how Claude tidies what it has learned",
+      "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+      "category": "anthropic",
+      "published": "2026-11-07",
+      "summary": "A new engineering post covers how Claude organises past experience, corrects its mistakes and finds what it needs more easily next time."
+    },
+    {
+      "title": "Anthropic shows AI writing, running and revising scientific models as code",
+      "url": "https://x.com/AnthropicAI/status/2118792930211107115",
+      "category": "ai_research",
+      "published": "2026-11-07",
+      "summary": "A Science Blog guest post has an AI build many candidate models and test which explanation the data actually supports."
+    },
+    {
+      "title": "Nous retrains Qwen as Arete-27B, cutting state-line output from 22% to 1%",
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "category": "hermes_nous",
+      "published": "2026-11-07",
+      "summary": "About 53 million tokens of fine-tuning, measured on an 803-prompt eval across seven value categories. Weights and training data are published."
+    },
+    {
+      "title": "Audit finds Anthropic may have crossed its own AI speed warning line in July",
+      "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
+      "category": "anthropic",
+      "published": "2026-11-06",
+      "summary": "METR spent 11 weeks in Anthropic's internal research data and found the pace of model work roughly doubled, 80 percent of it from AI-assisted work."
+    },
+    {
+      "title": "OpenAI's BioBasicsBench tests agents on everyday wet-lab work",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "category": "ai_research",
+      "published": "2026-11-06",
+      "summary": "100 tasks measuring whether an agent can read raw experimental data and do routine bench science, not just answer questions about it."
+    },
+    {
+      "title": "OpenAI brings in Hacktron to attack its own systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "category": "platforms_integration",
+      "published": "2026-11-06",
+      "summary": "The security firm hunts for vulnerabilities and tests OpenAI's links to outside services, with frontier models used on defence."
+    },
+    {
+      "title": "Perplexity sells always-on agents that run on their own computer",
+      "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
+      "category": "agents_tooling",
+      "published": "2026-11-06",
+      "summary": "Teammates work through long projects on their own virtual machines. It needs the 200 dollar Max plan, more than OpenAI or Anthropic charge."
+    },
+    {
+      "title": "Qwen 4 shows up in a quiet Alibaba post, and local users read the sizes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
+      "category": "chinese_ai",
+      "published": "2026-11-06",
+      "summary": "A stealth announcement from AlibabaQwen points at the next Qwen generation. r/LocalLLaMA is already arguing over what the sizes mean."
+    },
+    {
+      "title": "China Telecom's Xing4.0 29B mixture-of-experts model gets GGUF builds",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xplkdu/bartowskixingchenagi_xing4029ba4bgguf_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-11-06",
+      "summary": "bartowski posted local builds of Xing4.0-29B-A4B, from the lab formerly known as TeleChat. Aimed at machines that cannot hold a big model."
+    },
+    {
+      "title": "Mirage: a 22 MB vision model for phones, wearables and robots",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpm8mw/mirage_a_22_mb_visuallanguage_model_that_runs/",
+      "category": "ai_models",
+      "published": "2026-11-06",
+      "summary": "One pass does scene description, object detection, OCR, segmentation and decisions, with weights small enough to sit on a device."
+    },
     {
       "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk",
       "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
@@ -353,76 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-04",
       "summary": "The best agent solves about 60% of real AWS operations tasks; the failures trace to reasoning rather than missing integrations."
-    },
-    {
-      "title": "OpenAI's Daybreak Red reaches AWS GovCloud US-East",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "category": "platforms_integration",
-      "published": "2026-11-04",
-      "summary": "Government customers can now run the model inside their own AWS region rather than through the public API."
-    },
-    {
-      "title": "ChatGPT turns prompts and photos into animated GIFs",
-      "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
-      "category": "platforms_integration",
-      "published": "2026-11-04",
-      "summary": "OpenAI's Images 2.6 model adds short looping animation output straight from a text prompt or an uploaded picture."
-    },
-    {
-      "title": "DevRev puts GPT-6.1 Sol behind enterprise self-service",
-      "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "category": "platforms_integration",
-      "published": "2026-11-04",
-      "summary": "A customer case for the newest GPT model, pitched on the trade-off between reasoning depth, latency and cost."
-    },
-    {
-      "title": "Texas elects a governor who wants a data centre pause, and 27% of US capacity sits there",
-      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
-      "category": "policy",
-      "published": "2026-11-04",
-      "summary": "Gina Hinojosa, who campaigned to pause data centre building, beat Greg Abbott. Wells Fargo puts 27% of planned US gigawatts in Texas."
-    },
-    {
-      "title": "Tencent ships Hy4 with vision and computer use, weights still to come",
-      "url": "https://technode.com/2026/11/04/tencent-launches-hy4-with-vision-and-computer-use-capabilities/",
-      "category": "chinese_ai",
-      "published": "2026-11-04",
-      "summary": "The 770B flagship adds vision and computer use. Weights and a system card are promised in the coming days, so today it is hosted only."
-    },
-    {
-      "title": "OpenAI to buy Pierre Computer and fold its code storage into Codex",
-      "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github",
-      "category": "industry",
-      "published": "2026-11-04",
-      "summary": "Pierre's Code Storage already sits inside Codex. Buying it puts OpenAI's own code hosting up against Microsoft's GitHub."
-    },
-    {
-      "title": "AMD books a 1.07 billion dollar charge for OpenAI and Meta chip warrants",
-      "url": "https://www.reuters.com/legal/transactional/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-2026-11-04/",
-      "category": "industry",
-      "published": "2026-11-04",
-      "summary": "The non-cash charge is 66 cents a share for the quarter, against warrants handed over for chip orders that are now shipping."
-    },
-    {
-      "title": "Nvidia's encrypted RTX Spark firmware cuts Linux inference to 35% of speed",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "category": "ai_models",
-      "published": "2026-11-04",
-      "summary": "Encrypted firmware on the laptop chip reportedly drags local inference down to about a third of native speed, with no vendor fix offered."
-    },
-    {
-      "title": "Exit polls put AI last among voter priorities in the 2026 midterms",
-      "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/",
-      "category": "policy",
-      "published": "2026-11-04",
-      "summary": "Only 56% of NBC exit poll respondents called AI and data centres important. Corruption and living costs led at 90% and 89%."
-    },
-    {
-      "title": "Google will cut schools off Search if they turn its AI off",
-      "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/",
-      "category": "platforms_integration",
-      "published": "2026-11-04",
-      "summary": "From 2027 Google switches AI features off by default in school products. Schools that block AI outright also lose Search, since the two are one system."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-06T08:20:00+08:00",
+      "at": "2026-11-07T08:17:05+08:00",
       "points": [
         {
-          "text": "OpenAI released a model built to find and fix security bugs, and says it found 81 new flaws in Firefox.",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber"
+          "text": "A safety nonprofit spent 11 weeks inside Anthropic's research data and found the company may have already passed its own speed limit for building AI.",
+          "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/"
         },
         {
-          "text": "Nous Research shipped Hermes Agent 0.23.0, which lets you reach your desktop agent from a browser tab.",
-          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0"
+          "text": "Anthropic explained how Claude organises what it has learned, a process it calls dreaming, and showed AI writing and revising scientific models as code.",
+          "url": "https://x.com/AnthropicAI/status/2118814753154064501"
         },
         {
-          "text": "Google's new video model makes 15-second clips and costs 30 percent less.",
-          "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/"
+          "text": "OpenAI published a 100-task test of how well agents do everyday lab work, and brought in a security firm to attack its own systems.",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
         },
         {
-          "text": "Meta is buying Conductor, a startup that helps people run several coding agents at once.",
-          "url": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/"
+          "text": "Perplexity now sells always-on agents that work on their own computer for 200 dollars a month.",
+          "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/"
         },
         {
-          "text": "A new test of real work found no AI agent scores above 12 percent.",
-          "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/"
+          "text": "Nous released a retrained Qwen model whose rate of repeating Chinese state talking points fell from 22 percent to 1 percent.",
+          "url": "https://x.com/NousResearch/status/2118822925445050435"
         }
       ]
     },
