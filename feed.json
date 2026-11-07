@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-11-07T08:17:05+08:00",
+  "updated_at": "2026-11-07T13:17:19+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A safety nonprofit spent 11 weeks inside Anthropic's research data and found the company may have already passed its own speed limit for building AI. Anthropic explained how Claude organises what it has learned, a process it calls dreaming, and showed AI writing and revising scientific models as code. OpenAI published a 100-task test of how well agents do everyday lab work, and brought in a security firm to attack its own systems. Perplexity now sells always-on agents that work on their own computer for 200 dollars a month. Nous released a retrained Qwen model whose rate of repeating Chinese state talking points fell from 22 percent to 1 percent.",
+  "tldr": "OpenAI shipped ChatGPT Images 2.6 with GIFs, reference images and SVG export, plus two new image models for developers. Nous put Meituan's LongCat-2.5 on its portal free for a week. GPU prices are easing, with RTX 6000 cards well below their early peak. OpenAI and the Frontier Model Forum published a shared way to rate how dangerous a cyber jailbreak is. A new leaderboard put Kimi Code, Hermes, Pi, Claude Code and Codex through Terminal Bench 2.1 and Deep SWE 1.1.",
   "articles": [
+    {
+      "title": "YC's Garry Tan prunes agent skills as models improve, cutting /investigate",
+      "url": "https://x.com/garrytan/status/2118920030243139596",
+      "category": "agents_tooling",
+      "published": "2026-11-07",
+      "summary": "Garry Tan says agent skills need test loops and pruning: he dropped /investigate because Opus 5.5 does it alone."
+    },
+    {
+      "title": "OpenAI and the Frontier Model Forum publish a cyber jailbreak severity scale",
+      "url": "https://x.com/OpenAI/status/2118795218099253606",
+      "category": "policy",
+      "published": "2026-11-07",
+      "summary": "A shared method for rating how severe a cyber jailbreak is, and which protections to fund first."
+    },
+    {
+      "title": "New leaderboard ranks Kimi Code, Hermes, Pi, Claude Code and Codex",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
+      "category": "agents_tooling",
+      "published": "2026-11-07",
+      "summary": "Coding harnesses compared on Terminal Bench 2.1 and Deep SWE 1.1, same tasks, different wrappers."
+    },
     {
       "title": "Anthropic explains 'dreaming', how Claude tidies what it has learned",
       "url": "https://x.com/AnthropicAI/status/2118814753154064501",
@@ -24,6 +45,41 @@
       "category": "hermes_nous",
       "published": "2026-11-07",
       "summary": "About 53 million tokens of fine-tuning, measured on an 803-prompt eval across seven value categories. Weights and training data are published."
+    },
+    {
+      "title": "Meituan's LongCat-2.5 is free in Nous Portal for one week",
+      "url": "https://x.com/NousResearch/status/2118734093105946792",
+      "category": "hermes_nous",
+      "published": "2026-11-06",
+      "summary": "LongCat-2.5, Meituan's new multimodal model, is free on Nous Portal for a week."
+    },
+    {
+      "title": "Six pallets of NVIDIA hardware worth $11.4M stolen en route to Texas",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/",
+      "category": "industry",
+      "published": "2026-11-06",
+      "summary": "Six pallets of NVIDIA gear worth $11.4M were stolen in transit to Texas."
+    },
+    {
+      "title": "GPU prices start to ease as RTX 6000 cards come off their peak",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbrr/some_gpu_prices_are_dropping/",
+      "category": "industry",
+      "published": "2026-11-06",
+      "summary": "RTX 6000 MaxQ is now $14k at Micro Center, down from an 18k peak that sold out anyway."
+    },
+    {
+      "title": "Lamplight: what a local-first agent harness taught its builder",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpkqo2/lamplight_lessons_learned_from_building_a/",
+      "category": "agents_tooling",
+      "published": "2026-11-06",
+      "summary": "Notes from two years of a self-hosted setup: what worked, what broke, what he would redo."
+    },
+    {
+      "title": "A 0.1B embedding model is reported to beat 8B ones",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpdk0i/a_01b_model_just_killed_8b_embedding_models_i/",
+      "category": "ai_models",
+      "published": "2026-11-06",
+      "summary": "A RAG builder tested a 0.1B embedding model against 8B models and reports it wins on search quality."
     },
     {
       "title": "Audit finds Anthropic may have crossed its own AI speed warning line in July",
@@ -150,6 +206,13 @@
       "category": "ai_research",
       "published": "2026-11-06",
       "summary": "A new paper trains policies to act directly from screen pixels instead of a separate perception and planning layer."
+    },
+    {
+      "title": "ChatGPT Images 2.6 adds GIFs and SVG export, plus two API models",
+      "url": "https://x.com/OpenAI/status/2118124966055223755",
+      "category": "ai_models",
+      "published": "2026-11-05",
+      "summary": "ChatGPT Images 2.6 adds GIFs, reference images and SVG export; Flare and Sunburst ship as API models."
     },
     {
       "title": "Claude Code background subagents now cost about 99% less per update",
@@ -360,69 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-05",
       "summary": "A local method for cutting reasoning-token spend, which is the lever that moves a metered API bill."
-    },
-    {
-      "title": "RoboColosseum opens a real-world robot benchmark with 100+ machines",
-      "url": "https://robocolosseum.ai",
-      "category": "ai_research",
-      "published": "2026-11-04",
-      "summary": "Hugging Face is a founding partner. Every rollout, failures included, is public, plus 10,000 free evaluation hours."
-    },
-    {
-      "title": "Ricursive releases Ripple-65B preview, a dense US open-weights model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/",
-      "category": "ai_models",
-      "published": "2026-11-04",
-      "summary": "A dense 65B preview whose posted benchmarks put it near the front of American open-weight models at any size."
-    },
-    {
-      "title": "LFM3-Omni-2B runs fully offline on an iPhone at about 80 tokens a second",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/",
-      "category": "ai_models",
-      "published": "2026-11-04",
-      "summary": "Custom WebGPU kernels in a React Native app give a 2B multimodal model phone-speed inference with no network."
-    },
-    {
-      "title": "Qualcomm ships a 150W Cloud AI 100 Ultra card with 128GB at 548GB/s",
-      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "category": "ai_models",
-      "published": "2026-11-04",
-      "summary": "A low-power inference card built around 128GB of memory, aimed at models that do not fit on a standard GPU."
-    },
-    {
-      "title": "ML researchers ask top conferences to desk-reject AI-written papers",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
-      "category": "ai_research",
-      "published": "2026-11-04",
-      "summary": "A poster at two A* venues says authors could not answer basic questions about their own papers."
-    },
-    {
-      "title": "OpenAI's automated pipeline found 948 Linux privilege-escalation bugs",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "category": "ai_research",
-      "published": "2026-11-04",
-      "summary": "OpenAI's agents audited 7% of the Linux kernel, reproduced 1,724 bugs and produced 948 working exploits with patches for $1.2M."
-    },
-    {
-      "title": "DeepSeek carries 53% of all OpenRouter traffic as open weights pass 75%",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnz8ct/deepseek_alone_accounted_for_53_of_all_27/",
-      "category": "deepseek",
-      "published": "2026-11-04",
-      "summary": "Of 27 trillion tokens served in a day, DeepSeek alone took more than half, and open-weight labs together took over three quarters."
-    },
-    {
-      "title": "Unsloth ships Qwen3.8-Flash-Next GGUFs v3.1 with 15% higher accuracy",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
-      "category": "chinese_ai",
-      "published": "2026-11-04",
-      "summary": "Fresh quantised builds of Qwen's fast model for local machines, with the accuracy claim taken from Unsloth's own docs."
-    },
-    {
-      "title": "CloudOpsBench finds reasoning, not tooling, is the AI ops bottleneck",
-      "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/",
-      "category": "ai_research",
-      "published": "2026-11-04",
-      "summary": "The best agent solves about 60% of real AWS operations tasks; the failures trace to reasoning rather than missing integrations."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-06T13:20:00+08:00",
+      "at": "2026-11-07T13:17:19+08:00",
       "points": [
         {
-          "text": "Anthropic paid a news publisher for its content for the first time, just before the US midterms.",
-          "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time/"
+          "text": "OpenAI shipped ChatGPT Images 2.6 with GIFs, reference images and SVG export, plus two new image models for developers.",
+          "url": "https://x.com/OpenAI/status/2118124966055223755"
         },
         {
-          "text": "A Claude Code user found the tool hands his email address to every website it searches.",
-          "url": "https://github.com/anthropics/claude-code/issues/107757"
+          "text": "Nous put Meituan's LongCat-2.5 on its portal free for a week.",
+          "url": "https://x.com/NousResearch/status/2118734093105946792"
         },
         {
-          "text": "OpenAI says its new model scored about 40 percent worse on safety work after it invented its own obstacles.",
-          "url": "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles/"
+          "text": "GPU prices are easing, with RTX 6000 cards well below their early peak.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbrr/some_gpu_prices_are_dropping/"
         },
         {
-          "text": "Thinking Machines shipped a new model and will release its weights next week.",
-          "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+          "text": "OpenAI and the Frontier Model Forum published a shared way to rate how dangerous a cyber jailbreak is.",
+          "url": "https://x.com/OpenAI/status/2118795218099253606"
         },
         {
-          "text": "Apple is cutting its internal AI budget, and Mark Cuban says Facebook still runs fake AI ads.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+          "text": "A new leaderboard put Kimi Code, Hermes, Pi, Claude Code and Codex through Terminal Bench 2.1 and Deep SWE 1.1.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/"
         }
       ]
     }
