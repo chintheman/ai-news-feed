@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-11-07T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "OpenAI raised another 11 billion dollars, at a company value of 1.25 trillion. Investors are getting choosier, so it is now asking wealthy individuals for the rest. Google built AI that spots high blood pressure from a normal smartwatch, with no cuff. A test of nine AI research agents found none could produce work that passed expert review. Two small open models stood out today: a 0.8B translation model and a tuning of Qwen that runs fast on a laptop.",
+  "articles": [
+    {
+      "title": "OpenAI raises $11B at a $1.25T value and turns to dentists for more",
+      "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+      "category": "industry",
+      "published": "2026-11-07",
+      "summary": "$11B first tranche of a round valuing OpenAI at $1.25T, with up to $20B total. The hunt for private investors hints at a cooler capital market."
+    },
+    {
+      "title": "Google AI reads high blood pressure from a plain smartwatch, no cuff",
+      "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+      "category": "ai_research",
+      "published": "2026-11-07",
+      "summary": "Pulse and motion sensors only. In a 196-person study it caught 65.8 percent of cases, beating an in-clinic measurement, and it is already in the Fitbit app."
+    },
+    {
+      "title": "Nine AI agents wrote 135 lab research papers and none cleared review",
+      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+      "category": "ai_research",
+      "published": "2026-11-07",
+      "summary": "The Into the Unknown benchmark gave agents open questions from US national labs. 114 of 135 papers failed the integrity check, some claiming experiments never run."
+    },
+    {
+      "title": "PLaMo 3 Translate ships 0.8B to 31B, smallest beats 30x bigger models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "Preferred Networks released weights for a translation-only LLM in four sizes on Hugging Face. Even the 0.8B beats translation models with 30x the parameters."
+    },
+    {
+      "title": "Qwen Flash Next runs locally on a 64GB MacBook and holds up",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqa3e/qwen_flash_next_on_strata_is_unreal/",
+      "category": "chinese_ai",
+      "published": "2026-11-07",
+      "summary": "A user who tested most local models on an M1 Max says Qwen Flash Next on the Strata runtime finally replaced paid subscriptions for everyday tasks."
+    },
+    {
+      "title": "Qwen3.8-27B hits 6,645 tokens a second prefill on a new engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpicjz/qwen38_27b_hitting_6645_toks_on_prefill_and_316/",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "Saber, a solo-built inference engine, claims 6,645 tok/s prefill and 316 tok/s decode on the 27B model. Its author says it takes a different approach."
+    },
+    {
+      "title": "Scylla's Band v4 is open-source TTS built to run on a phone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpq3l0/scyllas_band_v4_open_source_tts_with_code_to_run/",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "A solo, near year-long build of a multilingual TTS model that is small, fast and runs everywhere, released with the code to deploy it."
+    },
+    {
+      "title": "D3D paper breaks the wait between diffusion drafting and verification",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
+      "category": "ai_research",
+      "published": "2026-11-07",
+      "summary": "Speculative decoding drafters predict whole blocks in one pass but still wait on target hidden states. D3D decouples the two to keep the speedup."
+    },
+    {
+      "title": "AMD calls itself a data centre company, and cheap GPUs dry up",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
+      "category": "industry",
+      "published": "2026-11-07",
+      "summary": "AMD's CEO says supply goes to data centres first, so consumer cards stay scarce and pricey. Local-AI users read it as the end of the cheap GPU era."
+    },
+    {
+      "title": "Every Mac carries an undocumented Apple Intelligence classifier",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "A deep dive into the on-device personal knowledge graph behind Apple Intelligence, including a family-member classifier nobody documented."
+    },
+    {
+      "title": "A tour of Unitree's factory, and why the author backs the West",
+      "url": "https://josef.cn/blog/unitree",
+      "category": "industry",
+      "published": "2026-11-07",
+      "summary": "First-hand notes from inside the Chinese humanoid robot maker, arguing its cost edge hides weak process and thin software next to Western shops."
+    }
+  ]
+}

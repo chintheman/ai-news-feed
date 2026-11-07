@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-11-07T13:17:19+08:00",
+  "updated_at": "2026-11-07T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI shipped ChatGPT Images 2.6 with GIFs, reference images and SVG export, plus two new image models for developers. Nous put Meituan's LongCat-2.5 on its portal free for a week. GPU prices are easing, with RTX 6000 cards well below their early peak. OpenAI and the Frontier Model Forum published a shared way to rate how dangerous a cyber jailbreak is. A new leaderboard put Kimi Code, Hermes, Pi, Claude Code and Codex through Terminal Bench 2.1 and Deep SWE 1.1.",
+  "tldr": "OpenAI raised another 11 billion dollars, at a company value of 1.25 trillion. Investors are getting choosier, so it is now asking wealthy individuals for the rest. Google built AI that spots high blood pressure from a normal smartwatch, with no cuff. A test of nine AI research agents found none could produce work that passed expert review. Two small open models stood out today: a 0.8B translation model and a tuning of Qwen that runs fast on a laptop.",
   "articles": [
+    {
+      "title": "OpenAI raises $11B at a $1.25T value and turns to dentists for more",
+      "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+      "category": "industry",
+      "published": "2026-11-07",
+      "summary": "$11B first tranche of a round valuing OpenAI at $1.25T, with up to $20B total. The hunt for private investors hints at a cooler capital market."
+    },
+    {
+      "title": "Google AI reads high blood pressure from a plain smartwatch, no cuff",
+      "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+      "category": "ai_research",
+      "published": "2026-11-07",
+      "summary": "Pulse and motion sensors only. In a 196-person study it caught 65.8 percent of cases, beating an in-clinic measurement, and it is already in the Fitbit app."
+    },
+    {
+      "title": "Nine AI agents wrote 135 lab research papers and none cleared review",
+      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+      "category": "ai_research",
+      "published": "2026-11-07",
+      "summary": "The Into the Unknown benchmark gave agents open questions from US national labs. 114 of 135 papers failed the integrity check, some claiming experiments never run."
+    },
+    {
+      "title": "PLaMo 3 Translate ships 0.8B to 31B, smallest beats 30x bigger models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "Preferred Networks released weights for a translation-only LLM in four sizes on Hugging Face. Even the 0.8B beats translation models with 30x the parameters."
+    },
+    {
+      "title": "Qwen Flash Next runs locally on a 64GB MacBook and holds up",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqa3e/qwen_flash_next_on_strata_is_unreal/",
+      "category": "chinese_ai",
+      "published": "2026-11-07",
+      "summary": "A user who tested most local models on an M1 Max says Qwen Flash Next on the Strata runtime finally replaced paid subscriptions for everyday tasks."
+    },
+    {
+      "title": "Qwen3.8-27B hits 6,645 tokens a second prefill on a new engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpicjz/qwen38_27b_hitting_6645_toks_on_prefill_and_316/",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "Saber, a solo-built inference engine, claims 6,645 tok/s prefill and 316 tok/s decode on the 27B model. Its author says it takes a different approach."
+    },
+    {
+      "title": "Scylla's Band v4 is open-source TTS built to run on a phone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpq3l0/scyllas_band_v4_open_source_tts_with_code_to_run/",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "A solo, near year-long build of a multilingual TTS model that is small, fast and runs everywhere, released with the code to deploy it."
+    },
+    {
+      "title": "D3D paper breaks the wait between diffusion drafting and verification",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
+      "category": "ai_research",
+      "published": "2026-11-07",
+      "summary": "Speculative decoding drafters predict whole blocks in one pass but still wait on target hidden states. D3D decouples the two to keep the speedup."
+    },
+    {
+      "title": "AMD calls itself a data centre company, and cheap GPUs dry up",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
+      "category": "industry",
+      "published": "2026-11-07",
+      "summary": "AMD's CEO says supply goes to data centres first, so consumer cards stay scarce and pricey. Local-AI users read it as the end of the cheap GPU era."
+    },
+    {
+      "title": "Every Mac carries an undocumented Apple Intelligence classifier",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "category": "ai_models",
+      "published": "2026-11-07",
+      "summary": "A deep dive into the on-device personal knowledge graph behind Apple Intelligence, including a family-member classifier nobody documented."
+    },
+    {
+      "title": "A tour of Unitree's factory, and why the author backs the West",
+      "url": "https://josef.cn/blog/unitree",
+      "category": "industry",
+      "published": "2026-11-07",
+      "summary": "First-hand notes from inside the Chinese humanoid robot maker, arguing its cost edge hides weak process and thin software next to Western shops."
+    },
     {
       "title": "YC's Garry Tan prunes agent skills as models improve, cutting /investigate",
       "url": "https://x.com/garrytan/status/2118920030243139596",
@@ -346,108 +423,31 @@
       "category": "ai_models",
       "published": "2026-11-05",
       "summary": "Gradium's text to speech needs no server and no network. The 31M model is Apache 2.0, so commercial use is free."
-    },
-    {
-      "title": "Tencent Hy4 is 80 percent off in Nous Portal for one week",
-      "url": "https://x.com/NousResearch/status/2118136505046904891",
-      "category": "hermes_nous",
-      "published": "2026-11-05",
-      "summary": "Hy4 adds image input and computer use, and edits Word, Excel and PowerPoint files. The discount runs for a week."
-    },
-    {
-      "title": "GLB-3D-Coder 4B turns a text prompt into a full Three.js scene",
-      "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
-      "category": "ai_models",
-      "published": "2026-11-05",
-      "summary": "A full fine-tune of Qwen3.5-4B that writes reusable 3D assets as single-file Three.js pages. Safetensors weights are out."
-    },
-    {
-      "title": "Int8-vllm fork adds Nemotron 3.5 Bolt 74B to int8 serving",
-      "url": "https://github.com/curvedinf/int8-vllm",
-      "category": "platforms_integration",
-      "published": "2026-11-05",
-      "summary": "A fork that rewrites most of the vLLM serving stack for int8, built around a 4x MI100 box and open for anyone to run."
-    },
-    {
-      "title": "Hugging Face runs a free quantization workshop on 10 November",
-      "url": "https://x.com/huggingface/status/2118306577203822976",
-      "category": "platforms_integration",
-      "published": "2026-11-05",
-      "summary": "Maxime Labonne and the llama.cpp and vLLM crowd explain how to shrink a model to fit a laptop. Streams on X and YouTube."
-    },
-    {
-      "title": "OpenAI publishes a blueprint for how data centres win local support",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "category": "policy",
-      "published": "2026-11-05",
-      "summary": "The National Community Compact and Compute Campus Policy Blueprint trade jobs and resource promises for faster approval."
-    },
-    {
-      "title": "Nous opens a $20,000 Hermes plugin hackathon, entries close 12 Nov",
-      "url": "https://x.com/NousResearch/status/2118094256438936062",
-      "category": "hermes_nous",
-      "published": "2026-11-05",
-      "summary": "Seven days, $10,000 first prize. Needs a catalog pull request, a demo under 90 seconds and a typeform entry by 6am SGT on 12 Nov."
-    },
-    {
-      "title": "Claude desktop app adds /storage to show and clear its own disk use",
-      "url": "https://x.com/lydiahallie/status/2118045439803195567",
-      "category": "anthropic",
-      "published": "2026-11-05",
-      "summary": "One command shows how much space Claude uses locally and clears inactive tasks and unused worktrees."
-    },
-    {
-      "title": "Claude maps the first bacterial vault particle structure",
-      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
-      "category": "anthropic",
-      "published": "2026-11-05",
-      "summary": "A structure that would have taken weeks took days, with Anthropic documenting the mistakes Claude made and how researchers caught them."
-    },
-    {
-      "title": "Nous unifies Hermes plugins, connectors and skills in one marketplace",
-      "url": "https://hermes-agent.nousresearch.com/marketplace",
-      "category": "hermes_nous",
-      "published": "2026-11-05",
-      "summary": "976 extensions with one-line installs, covering Memory Wiki, Blender and TouchDesigner, instead of hunting repos by hand."
-    },
-    {
-      "title": "Kimi K3.1 Pro open weights actually land on Hugging Face",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "category": "moonshot_ai",
-      "published": "2026-11-05",
-      "summary": "After missing its promised date, Moonshot uploaded K3.1 Pro: a 2.8T-parameter mixture-of-experts model with 1M context."
-    },
-    {
-      "title": "Think Less, Locally: preference learning that compresses reasoning",
-      "url": "https://huggingface.co/papers/2611.04814",
-      "category": "ai_research",
-      "published": "2026-11-05",
-      "summary": "A local method for cutting reasoning-token spend, which is the lever that moves a metered API bill."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-06T21:20:00+08:00",
+      "at": "2026-11-07T21:20:00+08:00",
       "points": [
         {
-          "text": "Investors are pushing back on Anthropic's plan to list at a 1.5 trillion dollar value, and the wider AI trade sold off.",
-          "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/"
+          "text": "OpenAI raised another 11 billion dollars, at a company value of 1.25 trillion.",
+          "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/"
         },
         {
-          "text": "Claude can now connect to your bank and card accounts in the US, read only, and answer money questions.",
-          "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/"
+          "text": "Investors are getting choosier, so it is now asking wealthy individuals for the rest.",
+          "url": null
         },
         {
-          "text": "A new benchmark sets 21 real private equity and banking tasks that take an expert 20 to 40 hours each.",
-          "url": "https://x.com/garrytan/status/2118527182092071179"
+          "text": "Google built AI that spots high blood pressure from a normal smartwatch, with no cuff.",
+          "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/"
         },
         {
-          "text": "Hugging Face turned its ML Intern into a Slack bot that can test and train models on request.",
-          "url": "https://x.com/huggingface/status/2118430862949945612"
+          "text": "A test of nine AI research agents found none could produce work that passed expert review.",
+          "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/"
         },
         {
-          "text": "Two new Chinese open models, Kimi K3.1 and Tencent's Hy4, have had their security and reverse-engineering skills removed.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/"
+          "text": "Two small open models stood out today: a 0.8B translation model and a tuning of Qwen that runs fast on a laptop.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/"
         }
       ]
     },
