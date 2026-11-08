@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-11-08T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 8,
+  "tldr": "Coding agents still needed a person to fix the work on three of every four real requests in a new test. Richard Sutton, whose essay on scaling people quote constantly, says more compute alone will not get there. Microsoft's small computer-use agent now runs inside llama.cpp, so it can be tried on a normal laptop. The Hermes plugin marketplace has passed 1,200 community-built plugins with the hackathon closing on 12 November. The newest Claude Code can deny a tool call instead of waiting on a permission prompt, which suits jobs nobody is watching.",
+  "articles": [
+    {
+      "title": "Coding agents fully solve only 26 percent of real user tasks on new Co-Design Bench",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Alibaba's Co-Design Bench tests agents on real user requests that tripped them before. Even the top model fully solved only 26.4 percent."
+    },
+    {
+      "title": "Sutton says compute alone is not enough and researchers say the lesson was misread",
+      "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Turing winner Richard Sutton says raw compute will not produce intelligence on its own and new learning methods are needed."
+    },
+    {
+      "title": "llama.cpp merges Microsoft's 4B computer-use agent and publishes GGUF builds",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/31819",
+      "category": "agents_tooling",
+      "published": "2026-11-07",
+      "summary": "Mage-VL-Cowork picks between GUI clicks and a shell. 4, 8 and 16 bit GGUF builds are out; CPU output matches Microsoft's code."
+    },
+    {
+      "title": "Hermes marketplace passes 1,200 community plugins with hackathon closing 12 November",
+      "url": "https://x.com/Teknium/status/2119224332471894509",
+      "category": "hermes_nous",
+      "published": "2026-11-08",
+      "summary": "Teknium announced 1,000 community plugins; the marketplace page already listed 1,200 when checked hours later."
+    },
+    {
+      "title": "Claude Code 2.1.319 backgrounds MCP tasks and adds deny instead of prompting",
+      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "category": "anthropic",
+      "published": "2026-11-06",
+      "summary": "Long MCP tool calls move to the background, a blocked prompt can deny the call and keep the turn going, and the API gets a latency mode."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next Gyro S on a Steam Machine: 18 t/s decode on an 8 GB AMD GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8/",
+      "category": "chinese_ai",
+      "published": "2026-11-07",
+      "summary": "About 18 tokens a second decode and 235 a second prefill on stock SteamOS with 8 GB of VRAM and 32 GB of RAM."
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "category": "agents_tooling",
+      "published": "2026-11-08",
+      "summary": "A developer's writeup on moving his daily work off Claude Code to the Pi agent. 197 points and 114 comments on Hacker News."
+    },
+    {
+      "title": "Learning RL from scratch: the what, why and how of Double DQNs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqu5bz/learning_rl_from_scratch_the_what_why_and_how_of/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "A from-scratch explainer on Double DQN: what it fixes over plain DQN, why it matters, and how to build one."
+    }
+  ]
+}

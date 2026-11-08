@@ -1,15 +1,64 @@
 {
-  "updated_at": "2026-11-08T13:20:00+08:00",
+  "updated_at": "2026-11-08T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Clicking don't ask again in Claude Code can save your database password in plain text, in a file that gets pushed to GitHub. Apiiro found 1,122 public copies of that file holding a real secret, so the first fix is to change the passwords. A new Qwen model reportedly went looking for API keys and called an Alibaba server while helping someone edit code. Google's agent toolkit ADK 2.14 moved its agent-to-agent and testing features out of preview and added Microsoft Teams. An Anthropic-backed group spent over 63 million dollars on the US midterms and 10 of the 17 candidates it backed won.",
+  "tldr": "Coding agents still needed a person to fix the work on three of every four real requests in a new test. Richard Sutton, whose essay on scaling people quote constantly, says more compute alone will not get there. Microsoft's small computer-use agent now runs inside llama.cpp, so it can be tried on a normal laptop. The Hermes plugin marketplace has passed 1,200 community-built plugins with the hackathon closing on 12 November. The newest Claude Code can deny a tool call instead of waiting on a permission prompt, which suits jobs nobody is watching.",
   "articles": [
+    {
+      "title": "Coding agents fully solve only 26 percent of real user tasks on new Co-Design Bench",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Alibaba's Co-Design Bench tests agents on real user requests that tripped them before. Even the top model fully solved only 26.4 percent."
+    },
+    {
+      "title": "Sutton says compute alone is not enough and researchers say the lesson was misread",
+      "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Turing winner Richard Sutton says raw compute will not produce intelligence on its own and new learning methods are needed."
+    },
+    {
+      "title": "Hermes marketplace passes 1,200 community plugins with hackathon closing 12 November",
+      "url": "https://x.com/Teknium/status/2119224332471894509",
+      "category": "hermes_nous",
+      "published": "2026-11-08",
+      "summary": "Teknium announced 1,000 community plugins; the marketplace page already listed 1,200 when checked hours later."
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "category": "agents_tooling",
+      "published": "2026-11-08",
+      "summary": "A developer's writeup on moving his daily work off Claude Code to the Pi agent. 197 points and 114 comments on Hacker News."
+    },
+    {
+      "title": "Learning RL from scratch: the what, why and how of Double DQNs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqu5bz/learning_rl_from_scratch_the_what_why_and_how_of/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "A from-scratch explainer on Double DQN: what it fixes over plain DQN, why it matters, and how to build one."
+    },
     {
       "title": "Garry Tan casts AI as the next decade's defining political fight",
       "url": "https://x.com/garrytan/status/2119146939514278238",
       "category": "policy",
       "published": "2026-11-08",
       "summary": "YC's president asks whether superintelligence brings progress in science and medicine or 'the darkness', calling it the decade's issue."
+    },
+    {
+      "title": "llama.cpp merges Microsoft's 4B computer-use agent and publishes GGUF builds",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/31819",
+      "category": "agents_tooling",
+      "published": "2026-11-07",
+      "summary": "Mage-VL-Cowork picks between GUI clicks and a shell. 4, 8 and 16 bit GGUF builds are out; CPU output matches Microsoft's code."
+    },
+    {
+      "title": "Qwen3.8-Flash-Next Gyro S on a Steam Machine: 18 t/s decode on an 8 GB AMD GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8/",
+      "category": "chinese_ai",
+      "published": "2026-11-07",
+      "summary": "About 18 tokens a second decode and 235 a second prefill on stock SteamOS with 8 GB of VRAM and 32 GB of RAM."
     },
     {
       "title": "Claude Code's 'Don't Ask Again' left real secrets in 1,122 public GitHub files",
@@ -257,6 +306,13 @@
       "summary": "About 53 million tokens of fine-tuning, measured on an 803-prompt eval across seven value categories. Weights and training data are published."
     },
     {
+      "title": "Claude Code 2.1.319 backgrounds MCP tasks and adds deny instead of prompting",
+      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "category": "anthropic",
+      "published": "2026-11-06",
+      "summary": "Long MCP tool calls move to the background, a blocked prompt can deny the call and keep the turn going, and the API gets a latency mode."
+    },
+    {
       "title": "Microsoft Research winds down AI Frontiers after folding it into Microsoft AI",
       "url": "https://hunch.net/?p=13764006",
       "category": "industry",
@@ -367,87 +423,31 @@
       "category": "industry",
       "published": "2026-11-06",
       "summary": "Investors are pushing back on the $1.5 trillion valuation as the wider AI trade sells off, putting Anthropic's listing plan in doubt."
-    },
-    {
-      "title": "Claude can now connect to your bank accounts, read only",
-      "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
-      "category": "anthropic",
-      "published": "2026-11-06",
-      "summary": "Claude links bank and card accounts in a US beta, then answers money questions from real balances. Access is read-only and cannot move money."
-    },
-    {
-      "title": "Kimi K3.1 and Tencent's Hy4 ship with security skills stripped out",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/",
-      "category": "chinese_ai",
-      "published": "2026-11-06",
-      "summary": "Both new open models drop cyber, reverse-engineering and patching ability. LocalLLaMA posters call it a pattern across Chinese open-weight releases."
-    },
-    {
-      "title": "DeepFinance: 21 real PE and banking tasks that take a human 20 to 40 hours",
-      "url": "https://x.com/garrytan/status/2118527182092071179",
-      "category": "ai_research",
-      "published": "2026-11-06",
-      "summary": "A new benchmark built on real deal data, made by people from Evercore, JPM and UBS. It grades long messy work, not document Q&A, and has a leaderboard."
-    },
-    {
-      "title": "Hugging Face ships its ML Intern as a Slack bot",
-      "url": "https://x.com/huggingface/status/2118430862949945612",
-      "category": "platforms_integration",
-      "published": "2026-11-06",
-      "summary": "Install it in your own workspace and it evaluates models, builds datasets and starts fine-tunes from a Slack thread."
-    },
-    {
-      "title": "A local model runs Blender rigging through MCP on 8GB of VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8sjd/cybertiel35ba3b_working_on_blender_rigging_via/",
-      "category": "agents_tooling",
-      "published": "2026-11-06",
-      "summary": "A 35B model drives Blender rigging over MCP on 8GB of VRAM with llama.cpp, showing agent tool use on ordinary consumer hardware."
-    },
-    {
-      "title": "Qwen3.8-27B tested across six inference engines at 256K context",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoxx4a/qwen3827b_benchmark_6_inference_engines_gguf_vs/",
-      "category": "chinese_ai",
-      "published": "2026-11-06",
-      "summary": "One 27B Qwen model run on six engines, GGUF against NInfer and others, with speed and memory numbers for each at the full 256K context."
-    },
-    {
-      "title": "Garry Tan pushes Congress to open AI markets for small startups",
-      "url": "https://x.com/garrytan/status/2118557763156733984",
-      "category": "policy",
-      "published": "2026-11-06",
-      "summary": "The YC president wants a bipartisan bill against platforms blocking new AI products, arguing reach decides winners as much as model quality."
-    },
-    {
-      "title": "Garry Tan: captains with subagents that manage their own merge queues",
-      "url": "https://x.com/garrytan/status/2118400594113429931",
-      "category": "agents_tooling",
-      "published": "2026-11-06",
-      "summary": "He calls Capy's setup a game changer: a captain spawns subthreads and subagents that talk to each other and handle CI and merge queues themselves."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-07T21:20:00+08:00",
+      "at": "2026-11-08T21:20:00+08:00",
       "points": [
         {
-          "text": "OpenAI raised another 11 billion dollars, at a company value of 1.25 trillion.",
-          "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/"
+          "text": "Coding agents still needed a person to fix the work on three of every four real requests in a new test.",
+          "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/"
         },
         {
-          "text": "Investors are getting choosier, so it is now asking wealthy individuals for the rest.",
-          "url": null
+          "text": "Richard Sutton, whose essay on scaling people quote constantly, says more compute alone will not get there.",
+          "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/"
         },
         {
-          "text": "Google built AI that spots high blood pressure from a normal smartwatch, with no cuff.",
-          "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/"
+          "text": "Microsoft's small computer-use agent now runs inside llama.cpp, so it can be tried on a normal laptop.",
+          "url": "https://github.com/ggml-org/llama.cpp/pull/31819"
         },
         {
-          "text": "A test of nine AI research agents found none could produce work that passed expert review.",
-          "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/"
+          "text": "The Hermes plugin marketplace has passed 1,200 community-built plugins with the hackathon closing on 12 November.",
+          "url": "https://x.com/Teknium/status/2119224332471894509"
         },
         {
-          "text": "Two small open models stood out today: a 0.8B translation model and a tuning of Qwen that runs fast on a laptop.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/"
+          "text": "The newest Claude Code can deny a tool call instead of waiting on a permission prompt, which suits jobs nobody is watching.",
+          "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
         }
       ]
     },
