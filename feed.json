@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-11-08T21:20:00+08:00",
+  "updated_at": "2026-11-09T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Coding agents still needed a person to fix the work on three of every four real requests in a new test. Richard Sutton, whose essay on scaling people quote constantly, says more compute alone will not get there. Microsoft's small computer-use agent now runs inside llama.cpp, so it can be tried on a normal laptop. The Hermes plugin marketplace has passed 1,200 community-built plugins with the hackathon closing on 12 November. The newest Claude Code can deny a tool call instead of waiting on a permission prompt, which suits jobs nobody is watching.",
+  "tldr": "Nvidia's board has opened its own investigation into chief executive Jensen Huang after he admitted an affair with a woman suspected of being a spy. Anthropic has told large business customers that an outside security firm may have reached their account and spending data. DeepSeek says its coding tool now has 1.54 million users a day and handles 92 trillion tokens daily. Hermes Agent came top of a public test that swaps the agent software while holding the model fixed, and it was also the cheapest per solved task. A US judge let a lawsuit go ahead over Claude Max adverts that promised five times and twenty times the usage of the cheaper plan.",
   "articles": [
+    {
+      "title": "Nvidia board opens independent probe after Huang admits affair with suspected spy",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
+      "category": "industry",
+      "published": "2026-11-08",
+      "summary": "Huang told staff he was unfaithful and apologised; the board announced an independent investigation into the relationship with a suspected Chinese spy."
+    },
+    {
+      "title": "Anthropic tells enterprise Claude customers a firm reached their account and spend data",
+      "url": "https://mlq.ai/news/anthropic-emails-enterprise-customers-that-an-outside-security-firm-may-have-viewed-their-contact-plan-and-spend-data/",
+      "category": "anthropic",
+      "published": "2026-11-08",
+      "summary": "Contact, account, plan tier, usage and spend data were exposed. Conversations, passwords and payment details were not; the firm says it deleted the copy."
+    },
+    {
+      "title": "Intel Arc Pro B70 32GB at $1,299 vs RTX 5090: half the generation speed for a fifth of the price",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr78s5/intel_arc_pro_b70_32gb_1299_vs_nvidia_rtx_5090/",
+      "category": "ai_models",
+      "published": "2026-11-08",
+      "summary": "On Qwen3.8-27B after tuning: about half the tokens a second and a third the prefill of a $6,500 5090, at $1,299 for the same 32 GB of memory."
+    },
+    {
+      "title": "DeepSeek Harness hits 1.54 million daily users and 92 trillion tokens a day",
+      "url": "https://gptonline.ai/deepseek-harness-1-54-million-daily-users/",
+      "category": "deepseek",
+      "published": "2026-11-08",
+      "summary": "DeepSeek's coding agent reports 1.54 million daily active users and 92 trillion tokens processed per day."
+    },
+    {
+      "title": "Grok API now watermarks every text response by default, for EU rules",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+      "category": "policy",
+      "published": "2026-11-08",
+      "summary": "xAI's docs say generated text is marked so it can be machine-detected, switched on by default for EU transparency rules."
+    },
+    {
+      "title": "Hermes ships an official Security plugin that scans your codebase for exploits",
+      "url": "https://x.com/NousResearch/status/2119501958981857543",
+      "category": "hermes_nous",
+      "published": "2026-11-08",
+      "summary": "Splits the repo across parallel subagents, writes a reproduction per finding, runs it in a temp copy, and exports a SARIF report."
+    },
+    {
+      "title": "Hermes Agent tops Garry Tan's public harness benchmark on both frontier models",
+      "url": "https://x.com/garrytan/status/2119492448200405110",
+      "category": "hermes_nous",
+      "published": "2026-11-08",
+      "summary": "Model held fixed, harness swapped over 20 tasks: highest pass rate on Opus 5.5 (78.8%) and GPT-6.1 Sol (75.0%), cheapest per solved task."
+    },
+    {
+      "title": "Andrej Karpathy built a curated video platform in a weekend with Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "category": "anthropic",
+      "published": "2026-11-08",
+      "summary": "Opus 5.5 filtered 43 million Hacker News comments into 6,454 curated videos; he says the picks beat YouTube's own recommendations."
+    },
+    {
+      "title": "'Does censorship exist in this country?' mapped across every LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "A small open-source tool asks one yes/no question per country and renders the answers as an SVG world map, showing where models diverge."
+    },
+    {
+      "title": "Next-Concept Modeling: parallel coarse-to-fine text generation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr6krp/nextconcept_modeling_fast_parallel_coarsetofine/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Drafting whole concepts in parallel cuts memory-bandwidth pressure, so the claim is near-flagship quality on a 32 GB consumer card."
+    },
+    {
+      "title": "The brain-as-computer metaphor may be steering the consciousness debate wrong",
+      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Anil Seth, Ned Block and Giulio Tononi argue in Nature that current AI is not conscious and silicon alone will not get there."
+    },
     {
       "title": "Coding agents fully solve only 26 percent of real user tasks on new Co-Design Bench",
       "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
@@ -306,6 +383,13 @@
       "summary": "About 53 million tokens of fine-tuning, measured on an 803-prompt eval across seven value categories. Weights and training data are published."
     },
     {
+      "title": "Judge lets Claude Max lawsuit proceed over misleading 5x and 20x usage claims",
+      "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/",
+      "category": "policy",
+      "published": "2026-11-06",
+      "summary": "The multipliers apply per 5-hour session while weekly caps are about 3.5x and 6x of Pro; misrepresentation claims survive, amended complaint due 2 Dec."
+    },
+    {
       "title": "Claude Code 2.1.319 backgrounds MCP tasks and adds deny instead of prompting",
       "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
       "category": "anthropic",
@@ -339,90 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-11-06",
       "summary": "LongCat-2.5, Meituan's new multimodal model, is free on Nous Portal for a week."
-    },
-    {
-      "title": "Six pallets of NVIDIA hardware worth $11.4M stolen en route to Texas",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/",
-      "category": "industry",
-      "published": "2026-11-06",
-      "summary": "Six pallets of NVIDIA gear worth $11.4M were stolen in transit to Texas."
-    },
-    {
-      "title": "GPU prices start to ease as RTX 6000 cards come off their peak",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbrr/some_gpu_prices_are_dropping/",
-      "category": "industry",
-      "published": "2026-11-06",
-      "summary": "RTX 6000 MaxQ is now $14k at Micro Center, down from an 18k peak that sold out anyway."
-    },
-    {
-      "title": "Lamplight: what a local-first agent harness taught its builder",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpkqo2/lamplight_lessons_learned_from_building_a/",
-      "category": "agents_tooling",
-      "published": "2026-11-06",
-      "summary": "Notes from two years of a self-hosted setup: what worked, what broke, what he would redo."
-    },
-    {
-      "title": "A 0.1B embedding model is reported to beat 8B ones",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpdk0i/a_01b_model_just_killed_8b_embedding_models_i/",
-      "category": "ai_models",
-      "published": "2026-11-06",
-      "summary": "A RAG builder tested a 0.1B embedding model against 8B models and reports it wins on search quality."
-    },
-    {
-      "title": "Audit finds Anthropic may have crossed its own AI speed warning line in July",
-      "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
-      "category": "anthropic",
-      "published": "2026-11-06",
-      "summary": "METR spent 11 weeks in Anthropic's internal research data and found the pace of model work roughly doubled, 80 percent of it from AI-assisted work."
-    },
-    {
-      "title": "OpenAI's BioBasicsBench tests agents on everyday wet-lab work",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "category": "ai_research",
-      "published": "2026-11-06",
-      "summary": "100 tasks measuring whether an agent can read raw experimental data and do routine bench science, not just answer questions about it."
-    },
-    {
-      "title": "OpenAI brings in Hacktron to attack its own systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "category": "platforms_integration",
-      "published": "2026-11-06",
-      "summary": "The security firm hunts for vulnerabilities and tests OpenAI's links to outside services, with frontier models used on defence."
-    },
-    {
-      "title": "Perplexity sells always-on agents that run on their own computer",
-      "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
-      "category": "agents_tooling",
-      "published": "2026-11-06",
-      "summary": "Teammates work through long projects on their own virtual machines. It needs the 200 dollar Max plan, more than OpenAI or Anthropic charge."
-    },
-    {
-      "title": "Qwen 4 shows up in a quiet Alibaba post, and local users read the sizes",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
-      "category": "chinese_ai",
-      "published": "2026-11-06",
-      "summary": "A stealth announcement from AlibabaQwen points at the next Qwen generation. r/LocalLLaMA is already arguing over what the sizes mean."
-    },
-    {
-      "title": "China Telecom's Xing4.0 29B mixture-of-experts model gets GGUF builds",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xplkdu/bartowskixingchenagi_xing4029ba4bgguf_hugging_face/",
-      "category": "chinese_ai",
-      "published": "2026-11-06",
-      "summary": "bartowski posted local builds of Xing4.0-29B-A4B, from the lab formerly known as TeleChat. Aimed at machines that cannot hold a big model."
-    },
-    {
-      "title": "Mirage: a 22 MB vision model for phones, wearables and robots",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpm8mw/mirage_a_22_mb_visuallanguage_model_that_runs/",
-      "category": "ai_models",
-      "published": "2026-11-06",
-      "summary": "One pass does scene description, object detection, OCR, segmentation and decisions, with weights small enough to sit on a device."
-    },
-    {
-      "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk",
-      "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
-      "category": "industry",
-      "published": "2026-11-06",
-      "summary": "Investors are pushing back on the $1.5 trillion valuation as the wider AI trade sells off, putting Anthropic's listing plan in doubt."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-08T08:17:41+08:00",
+      "at": "2026-11-09T08:20:00+08:00",
       "points": [
         {
-          "text": "Anthropic is still going public before Thanksgiving, but at a lower price: a company value of 1.25 to 1.75 trillion dollars, raising 80 to 100 billion.",
-          "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/"
+          "text": "Nvidia's board has opened its own investigation into chief executive Jensen Huang after he admitted an affair with a woman suspected of being a spy.",
+          "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation"
         },
         {
-          "text": "Open models keep closing the gap on hacking: DeepSeek's new model hit 72.8 percent of simulated attack goals, against 80.8 for GPT-6, at a tenth of the cost.",
-          "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/"
+          "text": "Anthropic has told large business customers that an outside security firm may have reached their account and spending data.",
+          "url": "https://mlq.ai/news/anthropic-emails-enterprise-customers-that-an-outside-security-firm-may-have-viewed-their-contact-plan-and-spend-data/"
         },
         {
-          "text": "A new test found coding agents will quietly undo a correct fix when they guess the tests want the old answer.",
-          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/"
+          "text": "DeepSeek says its coding tool now has 1.54 million users a day and handles 92 trillion tokens daily.",
+          "url": "https://gptonline.ai/deepseek-harness-1-54-million-daily-users/"
         },
         {
-          "text": "An AI checker caught 98 percent of agents cheating in one study, but buried human reviewers in false alarms.",
-          "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/"
+          "text": "Hermes Agent came top of a public test that swaps the agent software while holding the model fixed, and it was also the cheapest per solved task.",
+          "url": "https://x.com/garrytan/status/2119492448200405110"
         },
         {
-          "text": "Microsoft Research is winding down the lab behind AutoGen, after folding it into Microsoft AI.",
-          "url": "https://hunch.net/?p=13764006"
+          "text": "A US judge let a lawsuit go ahead over Claude Max adverts that promised five times and twenty times the usage of the cheaper plan.",
+          "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/"
         }
       ]
     },

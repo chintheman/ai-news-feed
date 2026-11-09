@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-11-09T08:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 12,
+  "tldr": "Nvidia's board has opened its own investigation into chief executive Jensen Huang after he admitted an affair with a woman suspected of being a spy. Anthropic has told large business customers that an outside security firm may have reached their account and spending data. DeepSeek says its coding tool now has 1.54 million users a day and handles 92 trillion tokens daily. Hermes Agent came top of a public test that swaps the agent software while holding the model fixed, and it was also the cheapest per solved task. A US judge let a lawsuit go ahead over Claude Max adverts that promised five times and twenty times the usage of the cheaper plan.",
+  "articles": [
+    {
+      "title": "Nvidia board opens independent probe after Huang admits affair with suspected spy",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
+      "category": "industry",
+      "published": "2026-11-08",
+      "summary": "Huang told staff he was unfaithful and apologised; the board announced an independent investigation into the relationship with a suspected Chinese spy."
+    },
+    {
+      "title": "Anthropic tells enterprise Claude customers a firm reached their account and spend data",
+      "url": "https://mlq.ai/news/anthropic-emails-enterprise-customers-that-an-outside-security-firm-may-have-viewed-their-contact-plan-and-spend-data/",
+      "category": "anthropic",
+      "published": "2026-11-08",
+      "summary": "Contact, account, plan tier, usage and spend data were exposed. Conversations, passwords and payment details were not; the firm says it deleted the copy."
+    },
+    {
+      "title": "Intel Arc Pro B70 32GB at $1,299 vs RTX 5090: half the generation speed for a fifth of the price",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr78s5/intel_arc_pro_b70_32gb_1299_vs_nvidia_rtx_5090/",
+      "category": "ai_models",
+      "published": "2026-11-08",
+      "summary": "On Qwen3.8-27B after tuning: about half the tokens a second and a third the prefill of a $6,500 5090, at $1,299 for the same 32 GB of memory."
+    },
+    {
+      "title": "DeepSeek Harness hits 1.54 million daily users and 92 trillion tokens a day",
+      "url": "https://gptonline.ai/deepseek-harness-1-54-million-daily-users/",
+      "category": "deepseek",
+      "published": "2026-11-08",
+      "summary": "DeepSeek's coding agent reports 1.54 million daily active users and 92 trillion tokens processed per day."
+    },
+    {
+      "title": "Grok API now watermarks every text response by default, for EU rules",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+      "category": "policy",
+      "published": "2026-11-08",
+      "summary": "xAI's docs say generated text is marked so it can be machine-detected, switched on by default for EU transparency rules."
+    },
+    {
+      "title": "Hermes ships an official Security plugin that scans your codebase for exploits",
+      "url": "https://x.com/NousResearch/status/2119501958981857543",
+      "category": "hermes_nous",
+      "published": "2026-11-08",
+      "summary": "Splits the repo across parallel subagents, writes a reproduction per finding, runs it in a temp copy, and exports a SARIF report."
+    },
+    {
+      "title": "Hermes Agent tops Garry Tan's public harness benchmark on both frontier models",
+      "url": "https://x.com/garrytan/status/2119492448200405110",
+      "category": "hermes_nous",
+      "published": "2026-11-08",
+      "summary": "Model held fixed, harness swapped over 20 tasks: highest pass rate on Opus 5.5 (78.8%) and GPT-6.1 Sol (75.0%), cheapest per solved task."
+    },
+    {
+      "title": "Judge lets Claude Max lawsuit proceed over misleading 5x and 20x usage claims",
+      "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/",
+      "category": "policy",
+      "published": "2026-11-06",
+      "summary": "The multipliers apply per 5-hour session while weekly caps are about 3.5x and 6x of Pro; misrepresentation claims survive, amended complaint due 2 Dec."
+    },
+    {
+      "title": "Andrej Karpathy built a curated video platform in a weekend with Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "category": "anthropic",
+      "published": "2026-11-08",
+      "summary": "Opus 5.5 filtered 43 million Hacker News comments into 6,454 curated videos; he says the picks beat YouTube's own recommendations."
+    },
+    {
+      "title": "'Does censorship exist in this country?' mapped across every LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "A small open-source tool asks one yes/no question per country and renders the answers as an SVG world map, showing where models diverge."
+    },
+    {
+      "title": "Next-Concept Modeling: parallel coarse-to-fine text generation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr6krp/nextconcept_modeling_fast_parallel_coarsetofine/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Drafting whole concepts in parallel cuts memory-bandwidth pressure, so the claim is near-flagship quality on a 32 GB consumer card."
+    },
+    {
+      "title": "The brain-as-computer metaphor may be steering the consciousness debate wrong",
+      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "category": "ai_research",
+      "published": "2026-11-08",
+      "summary": "Anil Seth, Ned Block and Giulio Tononi argue in Nature that current AI is not conscious and silicon alone will not get there."
+    }
+  ]
+}
