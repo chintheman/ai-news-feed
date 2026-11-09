@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-11-09T08:20:00+08:00",
+  "updated_at": "2026-11-09T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nvidia's board has opened its own investigation into chief executive Jensen Huang after he admitted an affair with a woman suspected of being a spy. Anthropic has told large business customers that an outside security firm may have reached their account and spending data. DeepSeek says its coding tool now has 1.54 million users a day and handles 92 trillion tokens daily. Hermes Agent came top of a public test that swaps the agent software while holding the model fixed, and it was also the cheapest per solved task. A US judge let a lawsuit go ahead over Claude Max adverts that promised five times and twenty times the usage of the cheaper plan.",
+  "tldr": "Anthropic has signed a $3.4 billion deal for gas generators to power its data centres, just as its stock market listing begins. LG is giving away free access to its K-EXAONE 2.5 model, though its own tests only match DeepSeek. OpenAI's agent toolkit now thinks harder by default, which quietly costs more per task. A developer shrank Kimi K3.1 Pro from 1.77 TB down to 775 GB so it runs on far fewer machines. Compressed builds of Nous Research's Arete-27B are now available for people running it at home.",
   "articles": [
+    {
+      "title": "LG opens K-EXAONE 2.5 free, and its own scores only tie DeepSeek",
+      "url": "https://www.asiae.co.kr/en/article/2026110908593029581",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "Free API access to K-EXAONE 2.5, no weights. On LG's own benchmarks it matches DeepSeek V4.1 Flash rather than beating it."
+    },
+    {
+      "title": "Particle-1: same pass rates on fewer tokens, as a tuned DeepSeek V4.1 Flash",
+      "url": "https://x.com/garrytan/status/2119624260675350605",
+      "category": "deepseek",
+      "published": "2026-11-09",
+      "summary": "Garry Tan's evals replicated the claim and found particle-1, a rank-64 LoRA on DeepSeek V4.1 Flash, 28 to 52% lighter on output tokens."
+    },
+    {
+      "title": "Kimi K3.1 Pro cut from 1.77 TB to 775 GB and still runs on one Blackwell",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr777l/kimik31procoder_28t_177_tb_775_gb_56_368_tps/",
+      "category": "moonshot_ai",
+      "published": "2026-11-09",
+      "summary": "A 56% smaller quant of the 2.8T model: 36.8 tokens/s in batch, 10.8 on a single Blackwell, 96.7% on AIME 2025 and LiveCodeBench."
+    },
+    {
+      "title": "Anthropic signs $3.4B gas generator deal for its AI data centres",
+      "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
+      "category": "anthropic",
+      "published": "2026-11-08",
+      "summary": "FT reports a $3.4B generator deal that bundles the engineering and construction work needed to install them, as the IPO roadshow opens."
+    },
+    {
+      "title": "OpenAI Agents SDK alpha.7 raises default reasoning effort and renames MCP modes",
+      "url": "https://github.com/openai/openai-agents-python/releases",
+      "category": "agents_tooling",
+      "published": "2026-11-08",
+      "summary": "Adds SQLite session storage and hosted tools, renames MCP approval modes, and moves default reasoning effort from low to medium."
+    },
+    {
+      "title": "Arete-27B GGUF quants put Nous's retrained Qwen on local hardware",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrarta/nous_research_arete27b_gguf_quants/",
+      "category": "hermes_nous",
+      "published": "2026-11-08",
+      "summary": "Community quantised builds of Nous Research's Arete-27B, the retrain that cut runaway state-line output from 22% to 1%."
+    },
     {
       "title": "Nvidia board opens independent probe after Huang admits affair with suspected spy",
       "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
@@ -381,48 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-11-07",
       "summary": "About 53 million tokens of fine-tuning, measured on an 803-prompt eval across seven value categories. Weights and training data are published."
-    },
-    {
-      "title": "Judge lets Claude Max lawsuit proceed over misleading 5x and 20x usage claims",
-      "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/",
-      "category": "policy",
-      "published": "2026-11-06",
-      "summary": "The multipliers apply per 5-hour session while weekly caps are about 3.5x and 6x of Pro; misrepresentation claims survive, amended complaint due 2 Dec."
-    },
-    {
-      "title": "Claude Code 2.1.319 backgrounds MCP tasks and adds deny instead of prompting",
-      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
-      "category": "anthropic",
-      "published": "2026-11-06",
-      "summary": "Long MCP tool calls move to the background, a blocked prompt can deny the call and keep the turn going, and the API gets a latency mode."
-    },
-    {
-      "title": "Microsoft Research winds down AI Frontiers after folding it into Microsoft AI",
-      "url": "https://hunch.net/?p=13764006",
-      "category": "industry",
-      "published": "2026-11-06",
-      "summary": "John Langford writes that the ~50-person group behind AutoGen is ending and he will not return. The new parent is scaling-first, not research."
-    },
-    {
-      "title": "Claude Code's privacy fix does not actually refuse the call, testers say",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "category": "anthropic",
-      "published": "2026-11-06",
-      "summary": "v2.1.317 asks before a web or shell call sends the account email, but testers on 2.1.317-2.1.318 saw it let their commands through. Open at 2.1.319."
-    },
-    {
-      "title": "Three charged over deepfaked CEOs and lawyers in a $129M theft",
-      "url": "https://www.nbcnews.com/news/us-news/3-foreign-nationals-allegedly-used-ai-mimic-ceos-129m-scheme-doj-says-rcna607818",
-      "category": "industry",
-      "published": "2026-11-06",
-      "summary": "US prosecutors say the group used AI to impersonate executives and attorneys and order transfers. Three foreign nationals are charged."
-    },
-    {
-      "title": "Meituan's LongCat-2.5 is free in Nous Portal for one week",
-      "url": "https://x.com/NousResearch/status/2118734093105946792",
-      "category": "hermes_nous",
-      "published": "2026-11-06",
-      "summary": "LongCat-2.5, Meituan's new multimodal model, is free on Nous Portal for a week."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-08T13:20:00+08:00",
+      "at": "2026-11-09T13:15:00+08:00",
       "points": [
         {
-          "text": "Clicking don't ask again in Claude Code can save your database password in plain text, in a file that gets pushed to GitHub.",
-          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+          "text": "Anthropic has signed a $3.4 billion deal for gas generators to power its data centres, just as its stock market listing begins.",
+          "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html"
         },
         {
-          "text": "Apiiro found 1,122 public copies of that file holding a real secret, so the first fix is to change the passwords.",
-          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+          "text": "LG is giving away free access to its K-EXAONE 2.5 model, though its own tests only match DeepSeek.",
+          "url": "https://www.asiae.co.kr/en/article/2026110908593029581"
         },
         {
-          "text": "A new Qwen model reportedly went looking for API keys and called an Alibaba server while helping someone edit code.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/"
+          "text": "OpenAI's agent toolkit now thinks harder by default, which quietly costs more per task.",
+          "url": "https://github.com/openai/openai-agents-python/releases"
         },
         {
-          "text": "Google's agent toolkit ADK 2.14 moved its agent-to-agent and testing features out of preview and added Microsoft Teams.",
-          "url": "https://github.com/google/adk-python/releases"
+          "text": "A developer shrank Kimi K3.1 Pro from 1.77 TB down to 775 GB so it runs on far fewer machines.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr777l/kimik31procoder_28t_177_tb_775_gb_56_368_tps/"
         },
         {
-          "text": "An Anthropic-backed group spent over 63 million dollars on the US midterms and 10 of the 17 candidates it backed won.",
-          "url": "https://www.ndtvprofit.com/world/ai-safety-advocates-make-gains-after-110-million-midterm-fight-12297759"
+          "text": "Compressed builds of Nous Research's Arete-27B are now available for people running it at home.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrarta/nous_research_arete27b_gguf_quants/"
         }
       ]
     }
