@@ -1,9 +1,16 @@
 {
-  "updated_at": "2026-11-09T13:15:00+08:00",
+  "updated_at": "2026-11-09T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic has signed a $3.4 billion deal for gas generators to power its data centres, just as its stock market listing begins. LG is giving away free access to its K-EXAONE 2.5 model, though its own tests only match DeepSeek. OpenAI's agent toolkit now thinks harder by default, which quietly costs more per task. A developer shrank Kimi K3.1 Pro from 1.77 TB down to 775 GB so it runs on far fewer machines. Compressed builds of Nous Research's Arete-27B are now available for people running it at home.",
+  "tldr": "Google released a free plugin that makes coding agents write a plan, then has several fresh reviewers attack it. Ant Group put out a 560-billion-parameter model that speaks Claude's API format. Anthropic starts its stock market listing this week, and buyers are pricing it below last month's talk. OpenAI showed a security model that found 81 unknown Firefox bugs. A new test shows the best models solve about 70 percent of hard computer science proofs and none of the open problems.",
   "articles": [
+    {
+      "title": "Opus 5.5 drift thread: users date a thinking-pattern change to 3 November",
+      "url": "https://news.ycombinator.com/item?id=50422069",
+      "category": "anthropic",
+      "published": "2026-11-09",
+      "summary": "HN thread at 122 points comparing traces before and after the change, with no official Anthropic comment in it."
+    },
     {
       "title": "LG opens K-EXAONE 2.5 free, and its own scores only tie DeepSeek",
       "url": "https://www.asiae.co.kr/en/article/2026110908593029581",
@@ -24,6 +31,34 @@
       "category": "moonshot_ai",
       "published": "2026-11-09",
       "summary": "A 56% smaller quant of the 2.8T model: 36.8 tokens/s in batch, 10.8 on a single Blackwell, 96.7% on AIME 2025 and LiveCodeBench."
+    },
+    {
+      "title": "Google open-sources Elephant-Goldfish, a spec-then-review layer for coding agents",
+      "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
+      "category": "agents_tooling",
+      "published": "2026-11-08",
+      "summary": "Apache 2.0 plugin: agent writes a spec, fresh history-free reviewers attack it. 9 personas, runs on Claude Code and Codex."
+    },
+    {
+      "title": "Ling 3.2 Flash: 560B MoE with 1M context and a Claude-compatible endpoint",
+      "url": "https://zhidaily.com/en/issues/2026-11-08/",
+      "category": "chinese_ai",
+      "published": "2026-11-08",
+      "summary": "Ant Group model, 25B active, text image and video input, served in both OpenAI and Anthropic API formats."
+    },
+    {
+      "title": "Anthropic IPO roadshow opens, with buyers talking 1.1 to 1.3 trillion",
+      "url": "https://seekingalpha.com/article/4964841-wall-street-brunch-anthropic-ipo-goes-on-the-road",
+      "category": "industry",
+      "published": "2026-11-08",
+      "summary": "Targets 80 to 100 billion raised; price could be set Friday 13 November, first trade 16 November on Nasdaq."
+    },
+    {
+      "title": "llama-modchip runs a 284B DeepSeek model on 64GB of RAM with no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "category": "deepseek",
+      "published": "2026-11-08",
+      "summary": "Offloads experts from disk so a full-size model runs on CPU memory alone. 422 points on Hacker News."
     },
     {
       "title": "Anthropic signs $3.4B gas generator deal for its AI data centres",
@@ -285,27 +320,6 @@
       "summary": "PR #30966 adds an expert cache and a tuning script, aimed at people running large mixture-of-experts models with little video memory."
     },
     {
-      "title": "Observer runs local models on a phone to watch a camera feed and ping you",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
-      "category": "agents_tooling",
-      "published": "2026-11-07",
-      "summary": "An open-source iOS and Android agent that watches for a condition, like someone near the car, and sends you a photo when it happens."
-    },
-    {
-      "title": "A Qoduck model surfaces on Qoder with image and video generation built in",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqafp1/testing_qoduck_maybe_qwen4_on_qoder/",
-      "category": "chinese_ai",
-      "published": "2026-11-07",
-      "summary": "Users testing it suspect an early Qwen 4 build. Alibaba has said nothing, so treat the name as an unconfirmed rumour for now."
-    },
-    {
-      "title": "How much KV cache quantization actually costs Qwen3.8-27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
-      "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "A measured test across quantization levels, replacing the usual anecdotes about whether 4-bit KV cache is fine or quietly damages the model."
-    },
-    {
       "title": "OpenAI raises $11B at a $1.25T value and turns to dentists for more",
       "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
       "category": "industry",
@@ -362,25 +376,11 @@
       "summary": "Speculative decoding drafters predict whole blocks in one pass but still wait on target hidden states. D3D decouples the two to keep the speedup."
     },
     {
-      "title": "AMD calls itself a data centre company, and cheap GPUs dry up",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
-      "category": "industry",
-      "published": "2026-11-07",
-      "summary": "AMD's CEO says supply goes to data centres first, so consumer cards stay scarce and pricey. Local-AI users read it as the end of the cheap GPU era."
-    },
-    {
       "title": "Every Mac carries an undocumented Apple Intelligence classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
       "category": "ai_models",
       "published": "2026-11-07",
       "summary": "A deep dive into the on-device personal knowledge graph behind Apple Intelligence, including a family-member classifier nobody documented."
-    },
-    {
-      "title": "A tour of Unitree's factory, and why the author backs the West",
-      "url": "https://josef.cn/blog/unitree",
-      "category": "industry",
-      "published": "2026-11-07",
-      "summary": "First-hand notes from inside the Chinese humanoid robot maker, arguing its cost edge hides weak process and thin software next to Western shops."
     },
     {
       "title": "YC's Garry Tan prunes agent skills as models improve, cutting /investigate",
@@ -390,64 +390,64 @@
       "summary": "Garry Tan says agent skills need test loops and pruning: he dropped /investigate because Opus 5.5 does it alone."
     },
     {
-      "title": "OpenAI and the Frontier Model Forum publish a cyber jailbreak severity scale",
-      "url": "https://x.com/OpenAI/status/2118795218099253606",
+      "title": "Claude Max class action survives: 5x and 20x only hold per 5-hour session",
+      "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/",
       "category": "policy",
-      "published": "2026-11-07",
-      "summary": "A shared method for rating how severe a cyber jailbreak is, and which protections to fund first."
+      "published": "2026-11-06",
+      "summary": "Judge rules the usage pitch plausibly misleading since weekly caps read about 3.5x and 6x of Pro. Amended complaint due 2 December."
     },
     {
-      "title": "New leaderboard ranks Kimi Code, Hermes, Pi, Claude Code and Codex",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
-      "category": "agents_tooling",
-      "published": "2026-11-07",
-      "summary": "Coding harnesses compared on Terminal Bench 2.1 and Deep SWE 1.1, same tasks, different wrappers."
-    },
-    {
-      "title": "Anthropic explains 'dreaming', how Claude tidies what it has learned",
-      "url": "https://x.com/AnthropicAI/status/2118814753154064501",
-      "category": "anthropic",
-      "published": "2026-11-07",
-      "summary": "A new engineering post covers how Claude organises past experience, corrects its mistakes and finds what it needs more easily next time."
-    },
-    {
-      "title": "Anthropic shows AI writing, running and revising scientific models as code",
-      "url": "https://x.com/AnthropicAI/status/2118792930211107115",
+      "title": "BioBasicsBench tests whether agents notice the evidence does not fit",
+      "url": "https://x.com/OpenAI/status/2118782708767965238",
       "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "A Science Blog guest post has an AI build many candidate models and test which explanation the data actually supports."
+      "published": "2026-11-06",
+      "summary": "100 tasks from real lab work with Ligo: read raw data, spot the error, refuse a conclusion it cannot support."
     },
     {
-      "title": "Nous retrains Qwen as Arete-27B, cutting state-line output from 22% to 1%",
-      "url": "https://x.com/NousResearch/status/2118822925445050435",
-      "category": "hermes_nous",
-      "published": "2026-11-07",
-      "summary": "About 53 million tokens of fine-tuning, measured on an 803-prompt eval across seven value categories. Weights and training data are published."
+      "title": "GPT-6 Cyber rates Critical, having found 81 unknown Firefox vulnerabilities",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "category": "ai_models",
+      "published": "2026-11-05",
+      "summary": "Restricted to approved customers; ExploitGym rose to 48.5 percent and 948 kernel bugs got working exploits."
+    },
+    {
+      "title": "TCSExam: hard proofs checked by Lean, and no model solves an open problem",
+      "url": "https://arxiv.org/abs/2611.07962",
+      "category": "ai_research",
+      "published": "2026-11-05",
+      "summary": "GPT-6 Astra leads at 71.9, Opus 5.5 tops the shorter set. Every submission runs through a verifier, not a judge."
+    },
+    {
+      "title": "Personal Finance in Claude connects banks through Plaid, read-only",
+      "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+      "category": "anthropic",
+      "published": "2026-11-05",
+      "summary": "US beta on Pro, Max and Ultra, up to 16 banks and 24 months of transactions. Blocked from Claude Code and scheduled tasks."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-08T21:20:00+08:00",
+      "at": "2026-11-09T21:15:00+08:00",
       "points": [
         {
-          "text": "Coding agents still needed a person to fix the work on three of every four real requests in a new test.",
-          "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/"
+          "text": "Google released a free plugin that makes coding agents write a plan, then has several fresh reviewers attack it.",
+          "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/"
         },
         {
-          "text": "Richard Sutton, whose essay on scaling people quote constantly, says more compute alone will not get there.",
-          "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/"
+          "text": "Ant Group put out a 560-billion-parameter model that speaks Claude's API format.",
+          "url": "https://zhidaily.com/en/issues/2026-11-08/"
         },
         {
-          "text": "Microsoft's small computer-use agent now runs inside llama.cpp, so it can be tried on a normal laptop.",
-          "url": "https://github.com/ggml-org/llama.cpp/pull/31819"
+          "text": "Anthropic starts its stock market listing this week, and buyers are pricing it below last month's talk.",
+          "url": "https://seekingalpha.com/article/4964841-wall-street-brunch-anthropic-ipo-goes-on-the-road"
         },
         {
-          "text": "The Hermes plugin marketplace has passed 1,200 community-built plugins with the hackathon closing on 12 November.",
-          "url": "https://x.com/Teknium/status/2119224332471894509"
+          "text": "OpenAI showed a security model that found 81 unknown Firefox bugs.",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/"
         },
         {
-          "text": "The newest Claude Code can deny a tool call instead of waiting on a permission prompt, which suits jobs nobody is watching.",
-          "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+          "text": "A new test shows the best models solve about 70 percent of hard computer science proofs and none of the open problems.",
+          "url": "https://arxiv.org/abs/2611.07962"
         }
       ]
     },
