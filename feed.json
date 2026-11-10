@@ -1,15 +1,120 @@
 {
-  "updated_at": "2026-11-10T13:20:00+08:00",
+  "updated_at": "2026-11-10T21:16:45+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Google is sending some personal Gmail and Drive files to human reviewers, and a post about it top scored on Hacker News. Fable 5.2 now comes with free extra usage that grows with how long you have been a subscriber. An Anthropic engineer says the new model works best as the planner sitting on top of cheaper models, and checks its own work better than before. Independent testers say its most expensive setting costs about three times more for only three extra points. Meituan released the full weights of its LongCat model for free, but the files are far too big to run at home.",
+  "tldr": "Anthropic opened its IPO roadshow, offering 825 million shares at $70 to $78 each on Nasdaq under the ticker ANT. Amazon says it replaced a Claude model with its own Strands Decider and saved millions of dollars. CoreWeave's bond yield passed 16 percent, a sign lenders are getting warier of AI datacentre debt. Claude Code 2.1.321 fixes a bug that could send login tokens to the wrong server. The Hermes plugin hackathon closes at 6am Singapore time on 12 November, with $10,000 for first place.",
   "articles": [
+    {
+      "title": "Anthropic opens IPO roadshow at $70 to $78 a share under ticker ANT",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "825m Class A shares on Nasdaq. Base raise $57.75bn to $64.35bn, up to $74bn if underwriters take the full option."
+    },
+    {
+      "title": "Amazon says replacing Sonnet 4.6 with Strands Decider saved millions",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "category": "agents_tooling",
+      "published": "2026-11-10",
+      "summary": "Strands blog on routing Amazon's agent traffic to its own smaller decider model instead of a frontier Claude call."
+    },
+    {
+      "title": "CoreWeave bond yield tops 16% as AI credit stress builds",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "CNBC reports lenders demanding far higher yields on CoreWeave debt, a warning sign for AI datacentre financing."
+    },
+    {
+      "title": "Claude Code 2.1.321 closes an MCP OAuth token leak",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "Fixes MCP redirects sending refresh tokens to another host, plus a sandbox escape on read-only bash. 2.1.322 adds Vertex fast mode."
+    },
+    {
+      "title": "Hermes Agent plugin hackathon closes 06:00 SGT on 12 November",
+      "url": "https://x.com/GodsBoy7777/status/2119429770802762073",
+      "category": "hermes_nous",
+      "published": "2026-11-10",
+      "summary": "$20,000 in prizes, $10,000 for first. Entry is a plugin catalog PR plus a demo under 90 seconds posted on X tagging Nous."
+    },
+    {
+      "title": "No official word yet, but reports say DeepSeek V4.1 Pro is in grey test",
+      "url": "https://frontiernow.dev/en/news/deepseek-v41-pro-graytest/",
+      "category": "deepseek",
+      "published": "2026-11-10",
+      "summary": "A LobeBench developer measured the app-served model rising from 48 to 64 percent. DeepSeek's changelog still stops at 17 October."
+    },
+    {
+      "title": "Multiverse Computing's compressed Comet 60B gets GGUF quants with an MTP head",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsbc2r/multiverse_computings_comet_60b_a12b_ggufs_with/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Comet 60B A12B, a compressed take on a larger model, now runs in local quants with multi-token prediction enabled."
+    },
+    {
+      "title": "CUDA plus ROCm dual-backend inference is up to 48% faster on mixed GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsaurn/cudarocm_dualbackends_llm_inference_for/",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "A Strix Halo iGPU paired with an RTX 5090 in one box, both backends running at once instead of one GPU sitting idle."
+    },
+    {
+      "title": "Latent prediction beats reconstruction for tactile pretraining on dexterous hands",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "Robbyant's LingBot-Touch finds predicting latent state trains touch models better than rebuilding sensor input. Checkpoints public."
+    },
+    {
+      "title": "A 400M model for NPC judgement calls answers in 0.1s on a 3060 Ti",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs9nux/i_made_a_400m_model_for_npc_judgement_calls_in/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Apache-2.0 encoder fine-tuned on small game questions, for cheap in-game agent decisions without a frontier model."
+    },
+    {
+      "title": "Fable 5.2 has guardrails against AI acceleration and capped capabilities in training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsjfwo/fable_52_not_only_has_guardrails_against_ai/",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "LocalLLaMA thread argues the model was limited while training, not only filtered at output, and what that means for open weights."
+    },
+    {
+      "title": "Decision model edits LLM weights directly, with no training run",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xski9d/decision_model_to_edit_llm_weight_directly_no/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "The author of Laya applies the MIT direct weight-editing method to a small decision model, skipping fine-tuning entirely."
+    },
+    {
+      "title": "JoVox-64 generates 3D voxels from a single image",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xskr0m/xiangjuntangjovox64_hugging_face_imageto3d/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Discrete flow matching over 64-cubed voxel grids, built to stay lightweight while producing every hierarchy level at once."
+    },
+    {
+      "title": "OpenAI publishes guidance on closing the AI gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "Lessons from its EMEA school partnerships plus new ThinkYoung research, aimed at teachers and districts adopting AI tools."
+    },
     {
       "title": "Fable 5.2 at Max effort: three extra points for nearly triple the cost",
       "url": "https://x.com/hqmank/status/2120008095849923067",
       "category": "anthropic",
       "published": "2026-11-10",
       "summary": "Artificial Analysis numbers: High 62 at $9.08 a task, Xhigh 62 at $14.83, Max 65 at $26.54 and 46 minutes."
+    },
+    {
+      "title": "Latent-agent swarms try to reproduce AlphaEvolve without Gemini",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xrunu7/using_latentagent_swarms_for_math_discovery_and/",
+      "category": "ai_research",
+      "published": "2026-11-09",
+      "summary": "An open attempt at LLM-written, scored and iteratively improved programs for maths discovery, run on non-Gemini models."
     },
     {
       "title": "Google routes personal Drive files and emails to human annotators",
@@ -318,136 +423,31 @@
       "category": "hermes_nous",
       "published": "2026-11-08",
       "summary": "Splits the repo across parallel subagents, writes a reproduction per finding, runs it in a temp copy, and exports a SARIF report."
-    },
-    {
-      "title": "Hermes Agent tops Garry Tan's public harness benchmark on both frontier models",
-      "url": "https://x.com/garrytan/status/2119492448200405110",
-      "category": "hermes_nous",
-      "published": "2026-11-08",
-      "summary": "Model held fixed, harness swapped over 20 tasks: highest pass rate on Opus 5.5 (78.8%) and GPT-6.1 Sol (75.0%), cheapest per solved task."
-    },
-    {
-      "title": "Andrej Karpathy built a curated video platform in a weekend with Claude and 20 years of Hacker News",
-      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
-      "category": "anthropic",
-      "published": "2026-11-08",
-      "summary": "Opus 5.5 filtered 43 million Hacker News comments into 6,454 curated videos; he says the picks beat YouTube's own recommendations."
-    },
-    {
-      "title": "'Does censorship exist in this country?' mapped across every LLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
-      "category": "ai_research",
-      "published": "2026-11-08",
-      "summary": "A small open-source tool asks one yes/no question per country and renders the answers as an SVG world map, showing where models diverge."
-    },
-    {
-      "title": "Next-Concept Modeling: parallel coarse-to-fine text generation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr6krp/nextconcept_modeling_fast_parallel_coarsetofine/",
-      "category": "ai_research",
-      "published": "2026-11-08",
-      "summary": "Drafting whole concepts in parallel cuts memory-bandwidth pressure, so the claim is near-flagship quality on a 32 GB consumer card."
-    },
-    {
-      "title": "The brain-as-computer metaphor may be steering the consciousness debate wrong",
-      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
-      "category": "ai_research",
-      "published": "2026-11-08",
-      "summary": "Anil Seth, Ned Block and Giulio Tononi argue in Nature that current AI is not conscious and silicon alone will not get there."
-    },
-    {
-      "title": "Coding agents fully solve only 26 percent of real user tasks on new Co-Design Bench",
-      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
-      "category": "ai_research",
-      "published": "2026-11-08",
-      "summary": "Alibaba's Co-Design Bench tests agents on real user requests that tripped them before. Even the top model fully solved only 26.4 percent."
-    },
-    {
-      "title": "Sutton says compute alone is not enough and researchers say the lesson was misread",
-      "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
-      "category": "ai_research",
-      "published": "2026-11-08",
-      "summary": "Turing winner Richard Sutton says raw compute will not produce intelligence on its own and new learning methods are needed."
-    },
-    {
-      "title": "Hermes marketplace passes 1,200 community plugins with hackathon closing 12 November",
-      "url": "https://x.com/Teknium/status/2119224332471894509",
-      "category": "hermes_nous",
-      "published": "2026-11-08",
-      "summary": "Teknium announced 1,000 community plugins; the marketplace page already listed 1,200 when checked hours later."
-    },
-    {
-      "title": "Goodbye Claude, Hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "category": "agents_tooling",
-      "published": "2026-11-08",
-      "summary": "A developer's writeup on moving his daily work off Claude Code to the Pi agent. 197 points and 114 comments on Hacker News."
-    },
-    {
-      "title": "Learning RL from scratch: the what, why and how of Double DQNs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqu5bz/learning_rl_from_scratch_the_what_why_and_how_of/",
-      "category": "ai_research",
-      "published": "2026-11-08",
-      "summary": "A from-scratch explainer on Double DQN: what it fixes over plain DQN, why it matters, and how to build one."
-    },
-    {
-      "title": "Garry Tan casts AI as the next decade's defining political fight",
-      "url": "https://x.com/garrytan/status/2119146939514278238",
-      "category": "policy",
-      "published": "2026-11-08",
-      "summary": "YC's president asks whether superintelligence brings progress in science and medicine or 'the darkness', calling it the decade's issue."
-    },
-    {
-      "title": "Claude Code Projects can adopt branches pushed from another machine",
-      "url": "https://x.com/lydiahallie/status/2118863157569737109",
-      "category": "agents_tooling",
-      "published": "2026-11-07",
-      "summary": "Covers most of Conductor's parallel branch workflow, minus multiplayer, using project repos instead of a new tool."
-    },
-    {
-      "title": "llama.cpp merges Microsoft's 4B computer-use agent and publishes GGUF builds",
-      "url": "https://github.com/ggml-org/llama.cpp/pull/31819",
-      "category": "agents_tooling",
-      "published": "2026-11-07",
-      "summary": "Mage-VL-Cowork picks between GUI clicks and a shell. 4, 8 and 16 bit GGUF builds are out; CPU output matches Microsoft's code."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next Gyro S on a Steam Machine: 18 t/s decode on an 8 GB AMD GPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8/",
-      "category": "chinese_ai",
-      "published": "2026-11-07",
-      "summary": "About 18 tokens a second decode and 235 a second prefill on stock SteamOS with 8 GB of VRAM and 32 GB of RAM."
-    },
-    {
-      "title": "Claude Code's 'Don't Ask Again' left real secrets in 1,122 public GitHub files",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "category": "anthropic",
-      "published": "2026-11-07",
-      "summary": "Apiiro found 104,185 public copies of .claude/settings.local.json; 1,122 hold a secret. Rotate first, deleting the file does not undo it."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-09T21:15:00+08:00",
+      "at": "2026-11-10T21:16:45+08:00",
       "points": [
         {
-          "text": "Google released a free plugin that makes coding agents write a plan, then has several fresh reviewers attack it.",
-          "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/"
+          "text": "Anthropic opened its IPO roadshow, offering 825 million shares at $70 to $78 each on Nasdaq under the ticker ANT.",
+          "url": "https://www.anthropic.com/news/roadshow-launch"
         },
         {
-          "text": "Ant Group put out a 560-billion-parameter model that speaks Claude's API format.",
-          "url": "https://zhidaily.com/en/issues/2026-11-08/"
+          "text": "Amazon says it replaced a Claude model with its own Strands Decider and saved millions of dollars.",
+          "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
         },
         {
-          "text": "Anthropic starts its stock market listing this week, and buyers are pricing it below last month's talk.",
-          "url": "https://seekingalpha.com/article/4964841-wall-street-brunch-anthropic-ipo-goes-on-the-road"
+          "text": "CoreWeave's bond yield passed 16 percent, a sign lenders are getting warier of AI datacentre debt.",
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
         },
         {
-          "text": "OpenAI showed a security model that found 81 unknown Firefox bugs.",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+          "text": "Claude Code 2.1.321 fixes a bug that could send login tokens to the wrong server.",
+          "url": "https://github.com/anthropics/claude-code/releases"
         },
         {
-          "text": "A new test shows the best models solve about 70 percent of hard computer science proofs and none of the open problems.",
-          "url": "https://arxiv.org/abs/2611.07962"
+          "text": "The Hermes plugin hackathon closes at 6am Singapore time on 12 November, with $10,000 for first place.",
+          "url": "https://x.com/GodsBoy7777/status/2119429770802762073"
         }
       ]
     },
