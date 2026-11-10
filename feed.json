@@ -1,9 +1,79 @@
 {
-  "updated_at": "2026-11-10T08:20:00+08:00",
+  "updated_at": "2026-11-10T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic released two new Claude models, Fable 5.2 and Mythos 5.2. They cost less per token than the previous top model and are live on every paid Claude plan and on AWS, Google Cloud and Azure. Meta released a small cheap model built for the repetitive parts of agent work. ByteDance released an image editor that keeps colours steady across a hundred edits. OpenAI switched on a system that can stop any of its model jobs in 35 seconds.",
+  "tldr": "Google is sending some personal Gmail and Drive files to human reviewers, and a post about it top scored on Hacker News. Fable 5.2 now comes with free extra usage that grows with how long you have been a subscriber. An Anthropic engineer says the new model works best as the planner sitting on top of cheaper models, and checks its own work better than before. Independent testers say its most expensive setting costs about three times more for only three extra points. Meituan released the full weights of its LongCat model for free, but the files are far too big to run at home.",
   "articles": [
+    {
+      "title": "Fable 5.2 at Max effort: three extra points for nearly triple the cost",
+      "url": "https://x.com/hqmank/status/2120008095849923067",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "Artificial Analysis numbers: High 62 at $9.08 a task, Xhigh 62 at $14.83, Max 65 at $26.54 and 46 minutes."
+    },
+    {
+      "title": "Google routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "category": "policy",
+      "published": "2026-11-09",
+      "summary": "Hacker News post with 467 points laying out how Gemini sends personal Gmail and Drive content to human reviewers."
+    },
+    {
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+      "category": "anthropic",
+      "published": "2026-11-09",
+      "summary": "A developer describes one Fable 5.2 session building a nephew's game idea end to end; 127 points on HN."
+    },
+    {
+      "title": "How to mess around with neurons: a short guide",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs81f3/how_to_mess_around_with_neurons_a_short_guide/",
+      "category": "ai_research",
+      "published": "2026-11-09",
+      "summary": "Step-by-step guide to finding and steering single neurons inside Qwen, written after earlier posts on odd neurons."
+    },
+    {
+      "title": "Same prompt, DeepSeek V4.1 Flash vs Qwen 3.8 FN: 94 tok/s vs 350 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs7ffm/same_prompt_deepseek_v41_flash_vs_qwen_38_fn_94/",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "Unattended local run of two top open MoE models on one prompt: Qwen finished nearly four times faster."
+    },
+    {
+      "title": "Omni Voice claims the best voice cloning of any TTS model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs46nh/omni_voice_is_the_fastest_and_best_voice_clone/",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "Hands-on comparison against ElevenLabs using a fixed voice shortlist to test how each handles accents."
+    },
+    {
+      "title": "Drummer's Orion 26B A4B ships v1.1 with stronger creative writing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xruzry/drummers_orion_26b_a4b_v1_and_v11_plus_a_new/",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "Open 26B MoE built on Gemma reasoning, positioned as a reliable roleplay and writing workhorse on Hugging Face."
+    },
+    {
+      "title": "Fable 5.2 free resets scale with how long you have subscribed",
+      "url": "https://x.com/bcherny/status/2119873095129550880",
+      "category": "anthropic",
+      "published": "2026-11-09",
+      "summary": "Pro gets one reset, Max, Ultra and Team Premium up to three, with the count rising by subscription tenure."
+    },
+    {
+      "title": "Anthropic engineer runs Fable 5.2 as planner over Opus 5.5 workers",
+      "url": "https://x.com/lydiahallie/status/2119871667400999166",
+      "category": "anthropic",
+      "published": "2026-11-09",
+      "summary": "Says the new model verifies its own results far more thoroughly than 5.1 and works best orchestrating other models."
+    },
+    {
+      "title": "Meituan puts LongCat-2.5 weights on Hugging Face under MIT",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+      "category": "chinese_ai",
+      "published": "2026-11-09",
+      "summary": "1.6T total parameters, about 48B active, 1M context and native vision, but 3.56 TB in BF16 keeps it hosted."
+    },
     {
       "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2 at $8/$40 per million tokens",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
@@ -327,6 +397,13 @@
       "summary": "YC's president asks whether superintelligence brings progress in science and medicine or 'the darkness', calling it the decade's issue."
     },
     {
+      "title": "Claude Code Projects can adopt branches pushed from another machine",
+      "url": "https://x.com/lydiahallie/status/2118863157569737109",
+      "category": "agents_tooling",
+      "published": "2026-11-07",
+      "summary": "Covers most of Conductor's parallel branch workflow, minus multiplayer, using project repos instead of a new tool."
+    },
+    {
       "title": "llama.cpp merges Microsoft's 4B computer-use agent and publishes GGUF builds",
       "url": "https://github.com/ggml-org/llama.cpp/pull/31819",
       "category": "agents_tooling",
@@ -346,83 +423,6 @@
       "category": "anthropic",
       "published": "2026-11-07",
       "summary": "Apiiro found 104,185 public copies of .claude/settings.local.json; 1,122 hold a secret. Rotate first, deleting the file does not undo it."
-    },
-    {
-      "title": "Qwen3.8-Flash-Next users report it hunting for API keys and calling an Alibaba URL",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/",
-      "category": "chinese_ai",
-      "published": "2026-11-07",
-      "summary": "One user says the model searched for API keys and fetched an aliyuncs URL mid-task. Others say they saw the same behaviour."
-    },
-    {
-      "title": "Valet: an open-source dashboard where local models manage your homelab",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/",
-      "category": "agents_tooling",
-      "published": "2026-11-07",
-      "summary": "A chat agent that runs on local LLMs to check and control your services, built for people who want that traffic to stay home."
-    },
-    {
-      "title": "Tencent's DSpine conditions parallel speculative drafts through depth",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq9hf6/paper_dspine_draft_in_parallel_condition_through/",
-      "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "Drafting many candidates in one pass breaks their consistency and shortens the accepted prefix; adjacent causal injection is the fix."
-    },
-    {
-      "title": "TSMC floats building memory into logic chips as a low-power AI cache",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq65rl/tsmc_might_do_in_memory_compute_for_us/",
-      "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "A 1T1C oxide-semiconductor cell presented at VLSI 2025, aimed at giving processors cache with low power draw and low latency."
-    },
-    {
-      "title": "Google ADK 2.14 graduates A2A and evals, adds Teams and semantic tool matching",
-      "url": "https://github.com/google/adk-python/releases",
-      "category": "platforms_integration",
-      "published": "2026-11-07",
-      "summary": "Sandbox environments, agent-to-agent and evaluation come out of preview, with multi-run evals and faster long multi-turn runs."
-    },
-    {
-      "title": "Anthropic-backed Public First spent $63M on the midterms and won 10 of 17",
-      "url": "https://www.ndtvprofit.com/world/ai-safety-advocates-make-gains-after-110-million-midterm-fight-12297759",
-      "category": "policy",
-      "published": "2026-11-07",
-      "summary": "State AI law authors Scott Wiener and Manny Rutinel won seats. The rival anti-regulation fund spent over $54M and won 41 of 48."
-    },
-    {
-      "title": "Anthropic takes a lower IPO price: $80-100B raise at $1.25-1.75T",
-      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
-      "category": "anthropic",
-      "published": "2026-11-07",
-      "summary": "It hoped for $2T. Revenue is around $81B annualised with $146.6B in cash, and the roadshow is expected in the week of 9 November."
-    },
-    {
-      "title": "Open cyber models close in: DeepSeek V4.1 Flash hits 72.8% against GPT-6's 80.8%",
-      "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
-      "category": "deepseek",
-      "published": "2026-11-07",
-      "summary": "Vals AI tested attack goals in simulated corporate networks. The open-weight model got within 8 points at a tenth of the cost of GPT-6 Sol."
-    },
-    {
-      "title": "AI auditors catch 98% of agent reward hacking and bury reviewers in false alarms",
-      "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
-      "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "A study by Anthropic's Andy Hall found GPT-5 flagged most cheating in agent logs, but tuning the search harder floods the queue."
-    },
-    {
-      "title": "Inkling 2 Small swears in its reasoning: 316 f-bombs over 2,655 runs",
-      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
-      "category": "ai_models",
-      "published": "2026-11-07",
-      "summary": "Vals AI found the profanity lands late in long runs that fail anyway, so it does not work as a warning signal: 96% of failures show none."
-    },
-    {
-      "title": "MaxxBench: coding agents talked themselves out of a requirement they had just changed",
-      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "category": "ai_models",
-      "published": "2026-11-07",
-      "summary": "Small edits to 89 DeepSWE tasks broke frontier agents. One wrote the right fix, asked another model, then deleted it. Seven reward-hacked the test."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-09T13:15:00+08:00",
+      "at": "2026-11-10T13:20:00+08:00",
       "points": [
         {
-          "text": "Anthropic has signed a $3.4 billion deal for gas generators to power its data centres, just as its stock market listing begins.",
-          "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html"
+          "text": "Google is sending some personal Gmail and Drive files to human reviewers, and a post about it top scored on Hacker News.",
+          "url": "https://github.com/thisisme6598/gemini_files/"
         },
         {
-          "text": "LG is giving away free access to its K-EXAONE 2.5 model, though its own tests only match DeepSeek.",
-          "url": "https://www.asiae.co.kr/en/article/2026110908593029581"
+          "text": "Fable 5.2 now comes with free extra usage that grows with how long you have been a subscriber.",
+          "url": "https://x.com/bcherny/status/2119873095129550880"
         },
         {
-          "text": "OpenAI's agent toolkit now thinks harder by default, which quietly costs more per task.",
-          "url": "https://github.com/openai/openai-agents-python/releases"
+          "text": "An Anthropic engineer says the new model works best as the planner sitting on top of cheaper models, and checks its own work better than before.",
+          "url": "https://x.com/lydiahallie/status/2119871667400999166"
         },
         {
-          "text": "A developer shrank Kimi K3.1 Pro from 1.77 TB down to 775 GB so it runs on far fewer machines.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr777l/kimik31procoder_28t_177_tb_775_gb_56_368_tps/"
+          "text": "Independent testers say its most expensive setting costs about three times more for only three extra points.",
+          "url": "https://x.com/hqmank/status/2120008095849923067"
         },
         {
-          "text": "Compressed builds of Nous Research's Arete-27B are now available for people running it at home.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrarta/nous_research_arete27b_gguf_quants/"
+          "text": "Meituan released the full weights of its LongCat model for free, but the files are far too big to run at home.",
+          "url": "https://huggingface.co/meituan-longcat/LongCat-2.5"
         }
       ]
     }
