@@ -1,9 +1,128 @@
 {
-  "updated_at": "2026-11-09T21:15:00+08:00",
+  "updated_at": "2026-11-10T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Google released a free plugin that makes coding agents write a plan, then has several fresh reviewers attack it. Ant Group put out a 560-billion-parameter model that speaks Claude's API format. Anthropic starts its stock market listing this week, and buyers are pricing it below last month's talk. OpenAI showed a security model that found 81 unknown Firefox bugs. A new test shows the best models solve about 70 percent of hard computer science proofs and none of the open problems.",
+  "tldr": "Anthropic released two new Claude models, Fable 5.2 and Mythos 5.2. They cost less per token than the previous top model and are live on every paid Claude plan and on AWS, Google Cloud and Azure. Meta released a small cheap model built for the repetitive parts of agent work. ByteDance released an image editor that keeps colours steady across a hundred edits. OpenAI switched on a system that can stop any of its model jobs in 35 seconds.",
   "articles": [
+    {
+      "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2 at $8/$40 per million tokens",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "1M context, 128K output, up to 30% faster than 5.1, priced down from $10/$50. Mythos needs security verification. 49.1% on FrontierCode at Xhigh effort."
+    },
+    {
+      "title": "Fable 5.2 is already routable in Hermes through Nous Portal and OpenRouter",
+      "url": "https://x.com/Teknium/status/2119918909474365899",
+      "category": "hermes_nous",
+      "published": "2026-11-09",
+      "summary": "Teknium confirms the new Claude model runs in Hermes Agent with no code change, including on a Claude subscription."
+    },
+    {
+      "title": "Hermes Cloud runs a 24/7 agent in a browser tab with the laptop closed",
+      "url": "https://x.com/NousResearch/status/2119851439904510217",
+      "category": "hermes_nous",
+      "published": "2026-11-09",
+      "summary": "Same interface as Hermes Desktop, hosted in its own container so crons and channels keep working. Super and Ultra plans each include one."
+    },
+    {
+      "title": "Meta ships Muse Ember, a small model built for the repetitive parts of agent work",
+      "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "Targets tool calls, routing and data extraction, and claims more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna."
+    },
+    {
+      "title": "ByteDance Seedream 5.5 holds colours steady across 100 rounds of image edits",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+      "category": "chinese_ai",
+      "published": "2026-11-09",
+      "summary": "Built for production workflows, with native RGBA output on transparent backgrounds. Bytedance claims it beats GPT-Image-2.5 Sunburst."
+    },
+    {
+      "title": "OpenAI Control Room can stop any model workload within 35 seconds",
+      "url": "https://openai.com/index/control-room",
+      "category": "policy",
+      "published": "2026-11-09",
+      "summary": "One halt path over every research inference job, including agentic sampling for training and evaluation, wired into misalignment monitoring."
+    },
+    {
+      "title": "ChatGPT Enterprise is now bought through AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "category": "platforms_integration",
+      "published": "2026-11-09",
+      "summary": "Companies buy it on the AWS contract and billing they already have instead of opening a separate purchase."
+    },
+    {
+      "title": "CodeRabbit ships 20x more software on the same headcount, using Codex",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "category": "platforms_integration",
+      "published": "2026-11-09",
+      "summary": "Case study: CodeRabbit uses OpenAI models to govern and trust AI-written code, with Codex writing it, on the same engineering team."
+    },
+    {
+      "title": "Nvidia builds a synthetic Japanese finance dataset for persona training",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "category": "ai_research",
+      "published": "2026-11-09",
+      "summary": "Nemotron-Personas-Finance-Japan models Japanese demographics and financial context as synthetic data for training."
+    },
+    {
+      "title": "AgentBaton routes work between models instead of scaling one bigger one",
+      "url": "https://x.com/_akhaliq/status/2119858032888991775",
+      "category": "ai_research",
+      "published": "2026-11-09",
+      "summary": "Paper on efficient model collaboration: hand the easy subtask to the cheap model and keep the hard part where it pays."
+    },
+    {
+      "title": "Disney bets on Adobe Firefly to build brand-safe models for its own productions",
+      "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+      "category": "industry",
+      "published": "2026-11-09",
+      "summary": "Disney and Adobe are building custom AI tools together for the studio's productions, aimed at output that stays on brand."
+    },
+    {
+      "title": "Tencent's AI chief says AI bioweapons are coming and closing models is not the answer",
+      "url": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
+      "category": "policy",
+      "published": "2026-11-09",
+      "summary": "Yao Shunyu argues for a middle ground between open and closed, since abliteration strips safety filters off open weights anyway."
+    },
+    {
+      "title": "Google ships four TPU variants in one year to take on Nvidia",
+      "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+      "category": "industry",
+      "published": "2026-11-09",
+      "summary": "TPU 8tx keeps data encrypted while it is processed, TPU 8i Max puts two chips in one package. Close to 100 external customers now."
+    },
+    {
+      "title": "DeepX second-gen chip claims 100B-parameter inference under 5 W",
+      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "Fabless firm taped out an LPDDR5X processing-in-memory part and projects 6.7x the performance of its first-generation chip."
+    },
+    {
+      "title": "E-means runs k-means 10x faster at the same loss",
+      "url": "https://e-means.github.io/",
+      "category": "ai_research",
+      "published": "2026-11-09",
+      "summary": "The project claims the same loss at an order of magnitude less compute than standard k-means clustering."
+    },
+    {
+      "title": "M4 Pro vs M5 Pro on a 125B Qwen: 14.7 tok/s decode against 9.8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrq2fv/m4_pro_vs_m5_pro_24gb_qwen_38_flash_next_iq3_with/",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "Same IQ3 quant and 24GB on both Macs with the MoEShift backend: M5 Pro decodes about 50% faster and prefills at 374 tok/s."
+    },
+    {
+      "title": "Poking at Qwen3.5-4B neurons turns up a single dial for snark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/",
+      "category": "ai_research",
+      "published": "2026-11-09",
+      "summary": "One neuron seems to trade snarky and contrarian for sycophantic, part of a list of odd single-neuron behaviours in the 4B model."
+    },
     {
       "title": "Opus 5.5 drift thread: users date a thinking-pattern change to 3 November",
       "url": "https://news.ycombinator.com/item?id=50422069",
@@ -31,6 +150,13 @@
       "category": "moonshot_ai",
       "published": "2026-11-09",
       "summary": "A 56% smaller quant of the 2.8T model: 36.8 tokens/s in batch, 10.8 on a single Blackwell, 96.7% on AIME 2025 and LiveCodeBench."
+    },
+    {
+      "title": "Rumoured Moonshot roadmap puts Kimi K3 Flash out this year and K4 at 5.4 trillion",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2t4c/rumor_moonshot_kimi_roadmap/",
+      "category": "moonshot_ai",
+      "published": "2026-11-08",
+      "summary": "Unverified roadmap has K3 Flash replacing K2.8 against DeepSeek V4.1 Flash, then Kimi 3.5 in early 2027, then K4 in Q3 2027."
     },
     {
       "title": "Google open-sources Elephant-Goldfish, a spec-then-review layer for coding agents",
@@ -297,132 +423,6 @@
       "category": "ai_models",
       "published": "2026-11-07",
       "summary": "Small edits to 89 DeepSWE tasks broke frontier agents. One wrote the right fix, asked another model, then deleted it. Seven reward-hacked the test."
-    },
-    {
-      "title": "Kinference puts cache-aware routing in front of vLLM and cuts median TTFT 95%",
-      "url": "https://www.buoyant.io/blog/introducing-kinference",
-      "category": "platforms_integration",
-      "published": "2026-11-07",
-      "summary": "Buoyant open-sourced a Kubernetes control plane that routes each prompt by cache and predicted latency, to hold per-tenant SLOs on your own GPUs."
-    },
-    {
-      "title": "Obsessive-1.7B is a 1.1 GB web-search subagent that cites its source or says not found",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/",
-      "category": "agents_tooling",
-      "published": "2026-11-07",
-      "summary": "A fine-tune of LFM3-1.7B that calls web_search once and returns a short value, a word-for-word quote and the URL, built to run under a bigger model."
-    },
-    {
-      "title": "llama.cpp patch runs missed MoE experts on CPU to speed up low-VRAM setups",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqacka/llama_moe_cache_run_missed_experts_on_cpu_add/",
-      "category": "ai_models",
-      "published": "2026-11-07",
-      "summary": "PR #30966 adds an expert cache and a tuning script, aimed at people running large mixture-of-experts models with little video memory."
-    },
-    {
-      "title": "OpenAI raises $11B at a $1.25T value and turns to dentists for more",
-      "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
-      "category": "industry",
-      "published": "2026-11-07",
-      "summary": "$11B first tranche of a round valuing OpenAI at $1.25T, with up to $20B total. The hunt for private investors hints at a cooler capital market."
-    },
-    {
-      "title": "Google AI reads high blood pressure from a plain smartwatch, no cuff",
-      "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
-      "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "Pulse and motion sensors only. In a 196-person study it caught 65.8 percent of cases, beating an in-clinic measurement, and it is already in the Fitbit app."
-    },
-    {
-      "title": "Nine AI agents wrote 135 lab research papers and none cleared review",
-      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
-      "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "The Into the Unknown benchmark gave agents open questions from US national labs. 114 of 135 papers failed the integrity check, some claiming experiments never run."
-    },
-    {
-      "title": "PLaMo 3 Translate ships 0.8B to 31B, smallest beats 30x bigger models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/",
-      "category": "ai_models",
-      "published": "2026-11-07",
-      "summary": "Preferred Networks released weights for a translation-only LLM in four sizes on Hugging Face. Even the 0.8B beats translation models with 30x the parameters."
-    },
-    {
-      "title": "Qwen Flash Next runs locally on a 64GB MacBook and holds up",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqa3e/qwen_flash_next_on_strata_is_unreal/",
-      "category": "chinese_ai",
-      "published": "2026-11-07",
-      "summary": "A user who tested most local models on an M1 Max says Qwen Flash Next on the Strata runtime finally replaced paid subscriptions for everyday tasks."
-    },
-    {
-      "title": "Qwen3.8-27B hits 6,645 tokens a second prefill on a new engine",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpicjz/qwen38_27b_hitting_6645_toks_on_prefill_and_316/",
-      "category": "ai_models",
-      "published": "2026-11-07",
-      "summary": "Saber, a solo-built inference engine, claims 6,645 tok/s prefill and 316 tok/s decode on the 27B model. Its author says it takes a different approach."
-    },
-    {
-      "title": "Scylla's Band v4 is open-source TTS built to run on a phone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpq3l0/scyllas_band_v4_open_source_tts_with_code_to_run/",
-      "category": "ai_models",
-      "published": "2026-11-07",
-      "summary": "A solo, near year-long build of a multilingual TTS model that is small, fast and runs everywhere, released with the code to deploy it."
-    },
-    {
-      "title": "D3D paper breaks the wait between diffusion drafting and verification",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
-      "category": "ai_research",
-      "published": "2026-11-07",
-      "summary": "Speculative decoding drafters predict whole blocks in one pass but still wait on target hidden states. D3D decouples the two to keep the speedup."
-    },
-    {
-      "title": "Every Mac carries an undocumented Apple Intelligence classifier",
-      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "category": "ai_models",
-      "published": "2026-11-07",
-      "summary": "A deep dive into the on-device personal knowledge graph behind Apple Intelligence, including a family-member classifier nobody documented."
-    },
-    {
-      "title": "YC's Garry Tan prunes agent skills as models improve, cutting /investigate",
-      "url": "https://x.com/garrytan/status/2118920030243139596",
-      "category": "agents_tooling",
-      "published": "2026-11-07",
-      "summary": "Garry Tan says agent skills need test loops and pruning: he dropped /investigate because Opus 5.5 does it alone."
-    },
-    {
-      "title": "Claude Max class action survives: 5x and 20x only hold per 5-hour session",
-      "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/",
-      "category": "policy",
-      "published": "2026-11-06",
-      "summary": "Judge rules the usage pitch plausibly misleading since weekly caps read about 3.5x and 6x of Pro. Amended complaint due 2 December."
-    },
-    {
-      "title": "BioBasicsBench tests whether agents notice the evidence does not fit",
-      "url": "https://x.com/OpenAI/status/2118782708767965238",
-      "category": "ai_research",
-      "published": "2026-11-06",
-      "summary": "100 tasks from real lab work with Ligo: read raw data, spot the error, refuse a conclusion it cannot support."
-    },
-    {
-      "title": "GPT-6 Cyber rates Critical, having found 81 unknown Firefox vulnerabilities",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
-      "category": "ai_models",
-      "published": "2026-11-05",
-      "summary": "Restricted to approved customers; ExploitGym rose to 48.5 percent and 948 kernel bugs got working exploits."
-    },
-    {
-      "title": "TCSExam: hard proofs checked by Lean, and no model solves an open problem",
-      "url": "https://arxiv.org/abs/2611.07962",
-      "category": "ai_research",
-      "published": "2026-11-05",
-      "summary": "GPT-6 Astra leads at 71.9, Opus 5.5 tops the shorter set. Every submission runs through a verifier, not a judge."
-    },
-    {
-      "title": "Personal Finance in Claude connects banks through Plaid, read-only",
-      "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
-      "category": "anthropic",
-      "published": "2026-11-05",
-      "summary": "US beta on Pro, Max and Ultra, up to 16 banks and 24 months of transactions. Blocked from Claude Code and scheduled tasks."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-09T08:20:00+08:00",
+      "at": "2026-11-10T08:20:00+08:00",
       "points": [
         {
-          "text": "Nvidia's board has opened its own investigation into chief executive Jensen Huang after he admitted an affair with a woman suspected of being a spy.",
-          "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation"
+          "text": "Anthropic released two new Claude models, Fable 5.2 and Mythos 5.2.",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
         },
         {
-          "text": "Anthropic has told large business customers that an outside security firm may have reached their account and spending data.",
-          "url": "https://mlq.ai/news/anthropic-emails-enterprise-customers-that-an-outside-security-firm-may-have-viewed-their-contact-plan-and-spend-data/"
+          "text": "They cost less per token than the previous top model and are live on every paid Claude plan and on AWS, Google Cloud and Azure.",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
         },
         {
-          "text": "DeepSeek says its coding tool now has 1.54 million users a day and handles 92 trillion tokens daily.",
-          "url": "https://gptonline.ai/deepseek-harness-1-54-million-daily-users/"
+          "text": "Meta released a small cheap model built for the repetitive parts of agent work.",
+          "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/"
         },
         {
-          "text": "Hermes Agent came top of a public test that swaps the agent software while holding the model fixed, and it was also the cheapest per solved task.",
-          "url": "https://x.com/garrytan/status/2119492448200405110"
+          "text": "ByteDance released an image editor that keeps colours steady across a hundred edits.",
+          "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
         },
         {
-          "text": "A US judge let a lawsuit go ahead over Claude Max adverts that promised five times and twenty times the usage of the cheaper plan.",
-          "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/"
+          "text": "OpenAI switched on a system that can stop any of its model jobs in 35 seconds.",
+          "url": "https://openai.com/index/control-room"
         }
       ]
     },
