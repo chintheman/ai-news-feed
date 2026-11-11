@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-11-11T21:17:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 15,
+  "tldr": "Baidu shipped a new model that reads very long documents and costs little to run, though it only handles text. Kimi's faster top model is now sold through Amazon's cloud. OpenAI lost more money than it earned last quarter, according to the Wall Street Journal. Britain's university regulator says AI makes coursework almost impossible to grade fairly. Apple is building an app that runs AI on a Mac instead of in the cloud.",
+  "articles": [
+    {
+      "title": "Baidu ships ERNIE 5.5 Flash Preview with a 1M-token context at $0.28 input",
+      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "category": "chinese_ai",
+      "published": "2026-11-11",
+      "summary": "280B total with 14B active, text-only, 1,048,576-token context, $0.28 per million input on OpenRouter. Apache 2.0 weights promised before 25 November."
+    },
+    {
+      "title": "Kimi K3.1 Pro Highspeed brings 2 to 3x faster output to Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
+      "category": "moonshot_ai",
+      "published": "2026-11-10",
+      "summary": "Same open-weight 1M-context architecture as K3.1 Pro, post-trained for long agent runs and served faster: $4 input and $20 output per million tokens."
+    },
+    {
+      "title": "OpenAI takes in $10B in a quarter while its operating loss reaches $10.9B",
+      "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "Wall Street Journal figures put quarterly revenue at $10B against an operating loss of $10.9B, so spending still outruns income."
+    },
+    {
+      "title": "UK regulator threatens sanctions unless universities adopt AI-proof exams",
+      "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+      "category": "policy",
+      "published": "2026-11-11",
+      "summary": "England's Office for Students says AI has made coursework nearly impossible to assess fairly, and wants checked exam formats instead."
+    },
+    {
+      "title": "U.S. imposes new rules on ordering synthetic DNA to deter bioterrorism",
+      "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+      "category": "policy",
+      "published": "2026-11-11",
+      "summary": "Orders for synthetic DNA now face screening and identity checks, aimed at stopping assembled pathogens from reaching the wrong hands."
+    },
+    {
+      "title": "Grok 4.8 finishes pre-training and moves into reinforcement learning",
+      "url": "https://x.com/elonmusk/status/2120088070443655190",
+      "category": "ai_models",
+      "published": "2026-11-11",
+      "summary": "Musk says the run finished after a full rewrite of the training stack in C, and the model has entered RL; no benchmark or release date was given."
+    },
+    {
+      "title": "Apple's Claris previews Harbor, a private AI server for Macs",
+      "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app/",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "Claris, Apple's software arm, previews Harbor: a private AI server app that runs on Apple silicon Macs rather than in a hosted cloud."
+    },
+    {
+      "title": "ElevenLabs Scribe v3 cuts word errors 27% and labels speakers live",
+      "url": "https://elevenlabs.io/blog/scribe-v3",
+      "category": "platforms_integration",
+      "published": "2026-11-11",
+      "summary": "The new speech-to-text model drops transcription errors by roughly a quarter against v2 and names who is speaking while the audio is still running."
+    },
+    {
+      "title": "MiniMax's 33B image model now edits in two sampling steps",
+      "url": "https://x.com/_akhaliq/status/2120265977657168218",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "A pDMD LoRA drops MiniMax-H3-Image from six steps to two, shipping as a one-file ComfyUI checkpoint with a live Space on Hugging Face ZeroGPU."
+    },
+    {
+      "title": "Nvidia says GR00T 2 weights land in December, not now",
+      "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Jim Fan says GR00T 2 and Turbo weights plus the cross-embodiment recipe arrive in December 2026; only the Human-1M-100K dataset is out, with no licence."
+    },
+    {
+      "title": "Editing under ten dormant neurons backdoors an AI agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt82mz/microsoft_research_backdoored_an_ai_agent_by/",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "Microsoft Research planted hidden behaviour by editing fewer than ten rarely-firing neurons, a far smaller surface than fine-tuning or poisoned training data."
+    },
+    {
+      "title": "WorkflowArena tests whether the strongest model should run the team",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "A benchmark puts the strongest model in the coordinator seat of multi-agent workflows and reports which layouts beat handing every step to one model."
+    },
+    {
+      "title": "llama.cpp adds an FP8 KV cache for local inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt9o3t/llamacpp_add_fp8_kvcache/",
+      "category": "agents_tooling",
+      "published": "2026-11-11",
+      "summary": "A patch brings FP8 KV-cache support to llama.cpp, shrinking cache memory at long context on consumer hardware."
+    },
+    {
+      "title": "BotPsy runs a sub-billion agent model on the device",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "category": "agents_tooling",
+      "published": "2026-11-11",
+      "summary": "A sub-billion-parameter agentic language model is packaged as an on-device personal assistant, with the build written up on the Hugging Face blog."
+    },
+    {
+      "title": "OpenAI and Cogent build cyber defence factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "The two firms are packaging frontier-model security operations for enterprise customers, days before OpenAI's 12 November cyber keynote."
+    }
+  ]
+}
