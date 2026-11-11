@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-11-11T13:17:28+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 6,
+  "tldr": "Alibaba opened a preview of its next model, Qwen4-Max, but published no weights, no scores and no price sheet. A seven-month count of Anthropic's bug-hunting project found 442 security flaws, 2 of them exploited in the wild, and only 217 fixes. OpenAI bought a small travel agent startup and hired its founder, then shut the product down. OpenAI will show security tools built from bugs its own models caught, in a keynote on 12 November. Two research posts ask why thinking longer sometimes helps an answer and sometimes makes it worse.",
+  "articles": [
+    {
+      "title": "Qwen4-Max opens in preview on Alibaba's Token Plan",
+      "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "category": "chinese_ai",
+      "published": "2026-11-11",
+      "summary": "Qwen4-Max previews on Alibaba's Token Plan with no weights, benchmarks or context length published; the plan bans scheduled automation."
+    },
+    {
+      "title": "Glasswing audit: 442 CVEs in seven months, 217 fixed",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "VulnCheck counts 37,966 Glasswing findings, 7,349 public and 217 fixed, and says 2 of 442 CVEs were exploited in the wild."
+    },
+    {
+      "title": "OpenAI acquires Odessia, a year-old AI travel agent",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "Sonder founder Francis Davidson joins OpenAI; the travel product is already shut down and no travel product was announced."
+    },
+    {
+      "title": "OpenAI to show security tools built from its own bug hunting",
+      "url": "https://x.com/OpenAI/status/2120202353907486826",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "A 12 November keynote promises tools and playbooks from flaws OpenAI's own models found and fixed in its code and infrastructure."
+    },
+    {
+      "title": "Flide speeds decision-time inference with exact state forking",
+      "url": "https://huggingface.co/papers/2610.42148",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "The paper lets parallel search branches share one exact prefix, cutting the cost of running many candidate paths."
+    },
+    {
+      "title": "What objective is reasoning solving?",
+      "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "Treats chains of thought as pathfinding in token space: training raises the odds of a good path, not that one path converges."
+    }
+  ]
+}
