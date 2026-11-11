@@ -1,9 +1,135 @@
 {
-  "updated_at": "2026-11-10T21:16:45+08:00",
+  "updated_at": "2026-11-11T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic opened its IPO roadshow, offering 825 million shares at $70 to $78 each on Nasdaq under the ticker ANT. Amazon says it replaced a Claude model with its own Strands Decider and saved millions of dollars. CoreWeave's bond yield passed 16 percent, a sign lenders are getting warier of AI datacentre debt. Claude Code 2.1.321 fixes a bug that could send login tokens to the wrong server. The Hermes plugin hackathon closes at 6am Singapore time on 12 November, with $10,000 for first place.",
+  "tldr": "Google shipped Gemini 4 Carbon and says it tops several benchmarks at less than half the cost per task. DeepMind used AI agents to prove the security code behind Signal correct in four weeks. Anthropic added spreadsheets, whiteboards and partner apps that open inside Claude. Every paid Claude plan also gets one free full usage reset, usable until 11 December. Eight countries and top labs signed a Paris pledge to build shutdown switches and audits.",
   "articles": [
+    {
+      "title": "DeepMind's AlphaProof Code proves Signal's protocol code secure in four weeks",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "Agents on Gemini 4 Carbon wrote 6.5 million lines of Lean proof over Signal's messaging code, a job that normally takes expert teams years."
+    },
+    {
+      "title": "Gemini 4 Carbon goes GA, ranking first on several benchmarks at under half the cost",
+      "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Google made Gemini 4 Carbon generally available after two weeks of testing, and is previewing coordinated agent teams through a /swarm feature."
+    },
+    {
+      "title": "Gemini Robotics 2.5 sorts metal parts at 96 percent on a Mercedes line",
+      "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Tested on live Mercedes-Benz lines in Hungary and Germany, where Apptronik's humanoid Apollo 2 sorted metal parts with a 96 percent success rate."
+    },
+    {
+      "title": "Nvidia's GR00T 2 learns robot tasks by watching human video",
+      "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Trained on about 400,000 hours of footage, it moves human hand motion onto robotic arms to skip teleoperation; success rates still vary widely."
+    },
+    {
+      "title": "MiniMax releases H3-Image, an open-weight image model built on H3",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xso1ie/minimax_h3image_released_an_openweight_image/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "MiniMax put H3-Image weights on Hugging Face, and local users are already downloading and testing the model."
+    },
+    {
+      "title": "Anthropic turns Claude into a workspace with Sheets, Whiteboards and Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "Claude now has spreadsheets, whiteboards and data views, plus partner apps that open inside Claude rather than in a browser tab."
+    },
+    {
+      "title": "Every Claude plan gets one free full limit reset until 11 December",
+      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "Pro, Max, Ultra and Team accounts can reset every model and every limit once, any time before 06:00 SGT on 11 December."
+    },
+    {
+      "title": "Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
+      "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "On the Remote Labor Index, Fable 5.2 finished 41.3 percent of professional jobs at quality, more than double the next-best model."
+    },
+    {
+      "title": "Claude MCP Apps can host a whole site inside Claude, with tools that act on screen",
+      "url": "https://claude.com/docs/connectors/building/mcp-apps/getting-started",
+      "category": "agents_tooling",
+      "published": "2026-11-10",
+      "summary": "An MCP server can serve its own site in a side panel or full screen and give Claude tools to act on it; it needs a remote connector, not stdio."
+    },
+    {
+      "title": "OpenAI opens Businesses in ChatGPT with agents that answer customers",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "Businesses can claim a verified profile, manage their listing and publish a labelled Business Agent; the agent itself is US-only for now."
+    },
+    {
+      "title": "OpenAI and Upwork find AI is reshaping freelance demand, not erasing it",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "Joint research reports shifting demand, new skill combinations, and larger budgets and more hours on AI-related freelance projects."
+    },
+    {
+      "title": "Eight countries and top labs agree to shutdown mechanisms in Paris declaration",
+      "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+      "category": "policy",
+      "published": "2026-11-10",
+      "summary": "OpenAI, Anthropic, Microsoft and Mistral joined a Paris call covering kill switches, independent audits and disclosing known risks."
+    },
+    {
+      "title": "Fireworks AI breach spills into Notion and its customers",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "Notion published an incident notice after a security breach at a third-party AI vendor affected customer data."
+    },
+    {
+      "title": "Qwen3.6, Qwen3.8 and GLM-5.3 Flash tested on 202 real tasks in 13 rare languages",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsorsx/we_tested_qwen36_27b_qwen38_27b_and_glm53_flash/",
+      "category": "chinese_ai",
+      "published": "2026-11-10",
+      "summary": "A team benchmarked the models on real GitHub work in Elixir, OCaml, Haskell, Clojure, Kotlin, Swift, Julia and other uncommon languages."
+    },
+    {
+      "title": "Apple is building a Mac app to make running local AI models easy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "A report shared on r/LocalLLaMA says Apple has a Mac app coming that simplifies running local models on Apple silicon."
+    },
+    {
+      "title": "Zeroing 0.05 percent of weights matches full fine-tuning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "A paper finds zeroing fewer than 0.05 percent of a pretrained model's weights, with no other change, matches full fine-tuning at scale."
+    },
+    {
+      "title": "TimesFM 3.0, Chronos-2 and Toto 2.0 all lose to a simple baseline on markets",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xsqztt/i_benchmarked_timesfm_30_chronos2_and_toto_20_on/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "A benchmark of three time-series foundation models on financial data found none beat a naive baseline."
+    },
+    {
+      "title": "Hugging Face Hub now bills through your Google Cloud account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "Teams can pay for Hugging Face Hub through the Google Cloud Marketplace instead of a separate card."
+    },
     {
       "title": "Anthropic opens IPO roadshow at $70 to $78 a share under ticker ANT",
       "url": "https://www.anthropic.com/news/roadshow-launch",
@@ -297,132 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-09",
       "summary": "One neuron seems to trade snarky and contrarian for sycophantic, part of a list of odd single-neuron behaviours in the 4B model."
-    },
-    {
-      "title": "Opus 5.5 drift thread: users date a thinking-pattern change to 3 November",
-      "url": "https://news.ycombinator.com/item?id=50422069",
-      "category": "anthropic",
-      "published": "2026-11-09",
-      "summary": "HN thread at 122 points comparing traces before and after the change, with no official Anthropic comment in it."
-    },
-    {
-      "title": "LG opens K-EXAONE 2.5 free, and its own scores only tie DeepSeek",
-      "url": "https://www.asiae.co.kr/en/article/2026110908593029581",
-      "category": "ai_models",
-      "published": "2026-11-09",
-      "summary": "Free API access to K-EXAONE 2.5, no weights. On LG's own benchmarks it matches DeepSeek V4.1 Flash rather than beating it."
-    },
-    {
-      "title": "Particle-1: same pass rates on fewer tokens, as a tuned DeepSeek V4.1 Flash",
-      "url": "https://x.com/garrytan/status/2119624260675350605",
-      "category": "deepseek",
-      "published": "2026-11-09",
-      "summary": "Garry Tan's evals replicated the claim and found particle-1, a rank-64 LoRA on DeepSeek V4.1 Flash, 28 to 52% lighter on output tokens."
-    },
-    {
-      "title": "Kimi K3.1 Pro cut from 1.77 TB to 775 GB and still runs on one Blackwell",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr777l/kimik31procoder_28t_177_tb_775_gb_56_368_tps/",
-      "category": "moonshot_ai",
-      "published": "2026-11-09",
-      "summary": "A 56% smaller quant of the 2.8T model: 36.8 tokens/s in batch, 10.8 on a single Blackwell, 96.7% on AIME 2025 and LiveCodeBench."
-    },
-    {
-      "title": "Rumoured Moonshot roadmap puts Kimi K3 Flash out this year and K4 at 5.4 trillion",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2t4c/rumor_moonshot_kimi_roadmap/",
-      "category": "moonshot_ai",
-      "published": "2026-11-08",
-      "summary": "Unverified roadmap has K3 Flash replacing K2.8 against DeepSeek V4.1 Flash, then Kimi 3.5 in early 2027, then K4 in Q3 2027."
-    },
-    {
-      "title": "Google open-sources Elephant-Goldfish, a spec-then-review layer for coding agents",
-      "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
-      "category": "agents_tooling",
-      "published": "2026-11-08",
-      "summary": "Apache 2.0 plugin: agent writes a spec, fresh history-free reviewers attack it. 9 personas, runs on Claude Code and Codex."
-    },
-    {
-      "title": "Ling 3.2 Flash: 560B MoE with 1M context and a Claude-compatible endpoint",
-      "url": "https://zhidaily.com/en/issues/2026-11-08/",
-      "category": "chinese_ai",
-      "published": "2026-11-08",
-      "summary": "Ant Group model, 25B active, text image and video input, served in both OpenAI and Anthropic API formats."
-    },
-    {
-      "title": "Anthropic IPO roadshow opens, with buyers talking 1.1 to 1.3 trillion",
-      "url": "https://seekingalpha.com/article/4964841-wall-street-brunch-anthropic-ipo-goes-on-the-road",
-      "category": "industry",
-      "published": "2026-11-08",
-      "summary": "Targets 80 to 100 billion raised; price could be set Friday 13 November, first trade 16 November on Nasdaq."
-    },
-    {
-      "title": "llama-modchip runs a 284B DeepSeek model on 64GB of RAM with no GPU",
-      "url": "https://github.com/synchopate/llama-modchip",
-      "category": "deepseek",
-      "published": "2026-11-08",
-      "summary": "Offloads experts from disk so a full-size model runs on CPU memory alone. 422 points on Hacker News."
-    },
-    {
-      "title": "Anthropic signs $3.4B gas generator deal for its AI data centres",
-      "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
-      "category": "anthropic",
-      "published": "2026-11-08",
-      "summary": "FT reports a $3.4B generator deal that bundles the engineering and construction work needed to install them, as the IPO roadshow opens."
-    },
-    {
-      "title": "OpenAI Agents SDK alpha.7 raises default reasoning effort and renames MCP modes",
-      "url": "https://github.com/openai/openai-agents-python/releases",
-      "category": "agents_tooling",
-      "published": "2026-11-08",
-      "summary": "Adds SQLite session storage and hosted tools, renames MCP approval modes, and moves default reasoning effort from low to medium."
-    },
-    {
-      "title": "Arete-27B GGUF quants put Nous's retrained Qwen on local hardware",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrarta/nous_research_arete27b_gguf_quants/",
-      "category": "hermes_nous",
-      "published": "2026-11-08",
-      "summary": "Community quantised builds of Nous Research's Arete-27B, the retrain that cut runaway state-line output from 22% to 1%."
-    },
-    {
-      "title": "Nvidia board opens independent probe after Huang admits affair with suspected spy",
-      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
-      "category": "industry",
-      "published": "2026-11-08",
-      "summary": "Huang told staff he was unfaithful and apologised; the board announced an independent investigation into the relationship with a suspected Chinese spy."
-    },
-    {
-      "title": "Anthropic tells enterprise Claude customers a firm reached their account and spend data",
-      "url": "https://mlq.ai/news/anthropic-emails-enterprise-customers-that-an-outside-security-firm-may-have-viewed-their-contact-plan-and-spend-data/",
-      "category": "anthropic",
-      "published": "2026-11-08",
-      "summary": "Contact, account, plan tier, usage and spend data were exposed. Conversations, passwords and payment details were not; the firm says it deleted the copy."
-    },
-    {
-      "title": "Intel Arc Pro B70 32GB at $1,299 vs RTX 5090: half the generation speed for a fifth of the price",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr78s5/intel_arc_pro_b70_32gb_1299_vs_nvidia_rtx_5090/",
-      "category": "ai_models",
-      "published": "2026-11-08",
-      "summary": "On Qwen3.8-27B after tuning: about half the tokens a second and a third the prefill of a $6,500 5090, at $1,299 for the same 32 GB of memory."
-    },
-    {
-      "title": "DeepSeek Harness hits 1.54 million daily users and 92 trillion tokens a day",
-      "url": "https://gptonline.ai/deepseek-harness-1-54-million-daily-users/",
-      "category": "deepseek",
-      "published": "2026-11-08",
-      "summary": "DeepSeek's coding agent reports 1.54 million daily active users and 92 trillion tokens processed per day."
-    },
-    {
-      "title": "Grok API now watermarks every text response by default, for EU rules",
-      "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
-      "category": "policy",
-      "published": "2026-11-08",
-      "summary": "xAI's docs say generated text is marked so it can be machine-detected, switched on by default for EU transparency rules."
-    },
-    {
-      "title": "Hermes ships an official Security plugin that scans your codebase for exploits",
-      "url": "https://x.com/NousResearch/status/2119501958981857543",
-      "category": "hermes_nous",
-      "published": "2026-11-08",
-      "summary": "Splits the repo across parallel subagents, writes a reproduction per finding, runs it in a temp copy, and exports a SARIF report."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-10T08:20:00+08:00",
+      "at": "2026-11-11T08:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic released two new Claude models, Fable 5.2 and Mythos 5.2.",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+          "text": "Google shipped Gemini 4 Carbon and says it tops several benchmarks at less than half the cost per task.",
+          "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/"
         },
         {
-          "text": "They cost less per token than the previous top model and are live on every paid Claude plan and on AWS, Google Cloud and Azure.",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+          "text": "DeepMind used AI agents to prove the security code behind Signal correct in four weeks.",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
         },
         {
-          "text": "Meta released a small cheap model built for the repetitive parts of agent work.",
-          "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/"
+          "text": "Anthropic added spreadsheets, whiteboards and partner apps that open inside Claude.",
+          "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
         },
         {
-          "text": "ByteDance released an image editor that keeps colours steady across a hundred edits.",
-          "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
+          "text": "Every paid Claude plan also gets one free full usage reset, usable until 11 December.",
+          "url": "https://x.com/ClaudeDevs/status/2120275296637321476"
         },
         {
-          "text": "OpenAI switched on a system that can stop any of its model jobs in 35 seconds.",
-          "url": "https://openai.com/index/control-room"
+          "text": "Eight countries and top labs signed a Paris pledge to build shutdown switches and audits.",
+          "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/"
         }
       ]
     },

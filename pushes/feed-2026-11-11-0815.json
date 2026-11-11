@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-11-11T08:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 18,
+  "tldr": "Google shipped Gemini 4 Carbon and says it tops several benchmarks at less than half the cost per task. DeepMind used AI agents to prove the security code behind Signal correct in four weeks. Anthropic added spreadsheets, whiteboards and partner apps that open inside Claude. Every paid Claude plan also gets one free full usage reset, usable until 11 December. Eight countries and top labs signed a Paris pledge to build shutdown switches and audits.",
+  "articles": [
+    {
+      "title": "DeepMind's AlphaProof Code proves Signal's protocol code secure in four weeks",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "Agents on Gemini 4 Carbon wrote 6.5 million lines of Lean proof over Signal's messaging code, a job that normally takes expert teams years."
+    },
+    {
+      "title": "Gemini 4 Carbon goes GA, ranking first on several benchmarks at under half the cost",
+      "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Google made Gemini 4 Carbon generally available after two weeks of testing, and is previewing coordinated agent teams through a /swarm feature."
+    },
+    {
+      "title": "Gemini Robotics 2.5 sorts metal parts at 96 percent on a Mercedes line",
+      "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Tested on live Mercedes-Benz lines in Hungary and Germany, where Apptronik's humanoid Apollo 2 sorted metal parts with a 96 percent success rate."
+    },
+    {
+      "title": "Nvidia's GR00T 2 learns robot tasks by watching human video",
+      "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "Trained on about 400,000 hours of footage, it moves human hand motion onto robotic arms to skip teleoperation; success rates still vary widely."
+    },
+    {
+      "title": "MiniMax releases H3-Image, an open-weight image model built on H3",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xso1ie/minimax_h3image_released_an_openweight_image/",
+      "category": "ai_models",
+      "published": "2026-11-10",
+      "summary": "MiniMax put H3-Image weights on Hugging Face, and local users are already downloading and testing the model."
+    },
+    {
+      "title": "Anthropic turns Claude into a workspace with Sheets, Whiteboards and Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "Claude now has spreadsheets, whiteboards and data views, plus partner apps that open inside Claude rather than in a browser tab."
+    },
+    {
+      "title": "Every Claude plan gets one free full limit reset until 11 December",
+      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "Pro, Max, Ultra and Team accounts can reset every model and every limit once, any time before 06:00 SGT on 11 December."
+    },
+    {
+      "title": "Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
+      "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "On the Remote Labor Index, Fable 5.2 finished 41.3 percent of professional jobs at quality, more than double the next-best model."
+    },
+    {
+      "title": "Claude MCP Apps can host a whole site inside Claude, with tools that act on screen",
+      "url": "https://claude.com/docs/connectors/building/mcp-apps/getting-started",
+      "category": "agents_tooling",
+      "published": "2026-11-10",
+      "summary": "An MCP server can serve its own site in a side panel or full screen and give Claude tools to act on it; it needs a remote connector, not stdio."
+    },
+    {
+      "title": "OpenAI opens Businesses in ChatGPT with agents that answer customers",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "Businesses can claim a verified profile, manage their listing and publish a labelled Business Agent; the agent itself is US-only for now."
+    },
+    {
+      "title": "OpenAI and Upwork find AI is reshaping freelance demand, not erasing it",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "Joint research reports shifting demand, new skill combinations, and larger budgets and more hours on AI-related freelance projects."
+    },
+    {
+      "title": "Eight countries and top labs agree to shutdown mechanisms in Paris declaration",
+      "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+      "category": "policy",
+      "published": "2026-11-10",
+      "summary": "OpenAI, Anthropic, Microsoft and Mistral joined a Paris call covering kill switches, independent audits and disclosing known risks."
+    },
+    {
+      "title": "Fireworks AI breach spills into Notion and its customers",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "Notion published an incident notice after a security breach at a third-party AI vendor affected customer data."
+    },
+    {
+      "title": "Qwen3.6, Qwen3.8 and GLM-5.3 Flash tested on 202 real tasks in 13 rare languages",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsorsx/we_tested_qwen36_27b_qwen38_27b_and_glm53_flash/",
+      "category": "chinese_ai",
+      "published": "2026-11-10",
+      "summary": "A team benchmarked the models on real GitHub work in Elixir, OCaml, Haskell, Clojure, Kotlin, Swift, Julia and other uncommon languages."
+    },
+    {
+      "title": "Apple is building a Mac app to make running local AI models easy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "A report shared on r/LocalLLaMA says Apple has a Mac app coming that simplifies running local models on Apple silicon."
+    },
+    {
+      "title": "Zeroing 0.05 percent of weights matches full fine-tuning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "A paper finds zeroing fewer than 0.05 percent of a pretrained model's weights, with no other change, matches full fine-tuning at scale."
+    },
+    {
+      "title": "TimesFM 3.0, Chronos-2 and Toto 2.0 all lose to a simple baseline on markets",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xsqztt/i_benchmarked_timesfm_30_chronos2_and_toto_20_on/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "A benchmark of three time-series foundation models on financial data found none beat a naive baseline."
+    },
+    {
+      "title": "Hugging Face Hub now bills through your Google Cloud account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "Teams can pay for Hugging Face Hub through the Google Cloud Marketplace instead of a separate card."
+    }
+  ]
+}
