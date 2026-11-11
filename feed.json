@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-11-11T08:15:00+08:00",
+  "updated_at": "2026-11-11T13:17:28+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Google shipped Gemini 4 Carbon and says it tops several benchmarks at less than half the cost per task. DeepMind used AI agents to prove the security code behind Signal correct in four weeks. Anthropic added spreadsheets, whiteboards and partner apps that open inside Claude. Every paid Claude plan also gets one free full usage reset, usable until 11 December. Eight countries and top labs signed a Paris pledge to build shutdown switches and audits.",
+  "tldr": "Alibaba opened a preview of its next model, Qwen4-Max, but published no weights, no scores and no price sheet. A seven-month count of Anthropic's bug-hunting project found 442 security flaws, 2 of them exploited in the wild, and only 217 fixes. OpenAI bought a small travel agent startup and hired its founder, then shut the product down. OpenAI will show security tools built from bugs its own models caught, in a keynote on 12 November. Two research posts ask why thinking longer sometimes helps an answer and sometimes makes it worse.",
   "articles": [
+    {
+      "title": "Qwen4-Max opens in preview on Alibaba's Token Plan",
+      "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "category": "chinese_ai",
+      "published": "2026-11-11",
+      "summary": "Qwen4-Max previews on Alibaba's Token Plan with no weights, benchmarks or context length published; the plan bans scheduled automation."
+    },
+    {
+      "title": "Glasswing audit: 442 CVEs in seven months, 217 fixed",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "category": "anthropic",
+      "published": "2026-11-10",
+      "summary": "VulnCheck counts 37,966 Glasswing findings, 7,349 public and 217 fixed, and says 2 of 442 CVEs were exploited in the wild."
+    },
+    {
+      "title": "OpenAI acquires Odessia, a year-old AI travel agent",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "category": "industry",
+      "published": "2026-11-10",
+      "summary": "Sonder founder Francis Davidson joins OpenAI; the travel product is already shut down and no travel product was announced."
+    },
+    {
+      "title": "OpenAI to show security tools built from its own bug hunting",
+      "url": "https://x.com/OpenAI/status/2120202353907486826",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "A 12 November keynote promises tools and playbooks from flaws OpenAI's own models found and fixed in its code and infrastructure."
+    },
+    {
+      "title": "Flide speeds decision-time inference with exact state forking",
+      "url": "https://huggingface.co/papers/2610.42148",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "The paper lets parallel search branches share one exact prefix, cutting the cost of running many candidate paths."
+    },
+    {
+      "title": "What objective is reasoning solving?",
+      "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "Treats chains of thought as pathfinding in token space: training raises the odds of a good path, not that one path converges."
+    },
     {
       "title": "DeepMind's AlphaProof Code proves Signal's protocol code secure in four weeks",
       "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
@@ -381,48 +423,6 @@
       "category": "industry",
       "published": "2026-11-09",
       "summary": "Disney and Adobe are building custom AI tools together for the studio's productions, aimed at output that stays on brand."
-    },
-    {
-      "title": "Tencent's AI chief says AI bioweapons are coming and closing models is not the answer",
-      "url": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
-      "category": "policy",
-      "published": "2026-11-09",
-      "summary": "Yao Shunyu argues for a middle ground between open and closed, since abliteration strips safety filters off open weights anyway."
-    },
-    {
-      "title": "Google ships four TPU variants in one year to take on Nvidia",
-      "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
-      "category": "industry",
-      "published": "2026-11-09",
-      "summary": "TPU 8tx keeps data encrypted while it is processed, TPU 8i Max puts two chips in one package. Close to 100 external customers now."
-    },
-    {
-      "title": "DeepX second-gen chip claims 100B-parameter inference under 5 W",
-      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-      "category": "ai_models",
-      "published": "2026-11-09",
-      "summary": "Fabless firm taped out an LPDDR5X processing-in-memory part and projects 6.7x the performance of its first-generation chip."
-    },
-    {
-      "title": "E-means runs k-means 10x faster at the same loss",
-      "url": "https://e-means.github.io/",
-      "category": "ai_research",
-      "published": "2026-11-09",
-      "summary": "The project claims the same loss at an order of magnitude less compute than standard k-means clustering."
-    },
-    {
-      "title": "M4 Pro vs M5 Pro on a 125B Qwen: 14.7 tok/s decode against 9.8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrq2fv/m4_pro_vs_m5_pro_24gb_qwen_38_flash_next_iq3_with/",
-      "category": "ai_models",
-      "published": "2026-11-09",
-      "summary": "Same IQ3 quant and 24GB on both Macs with the MoEShift backend: M5 Pro decodes about 50% faster and prefills at 374 tok/s."
-    },
-    {
-      "title": "Poking at Qwen3.5-4B neurons turns up a single dial for snark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/",
-      "category": "ai_research",
-      "published": "2026-11-09",
-      "summary": "One neuron seems to trade snarky and contrarian for sycophantic, part of a list of odd single-neuron behaviours in the 4B model."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-10T13:20:00+08:00",
+      "at": "2026-11-11T13:17:28+08:00",
       "points": [
         {
-          "text": "Google is sending some personal Gmail and Drive files to human reviewers, and a post about it top scored on Hacker News.",
-          "url": "https://github.com/thisisme6598/gemini_files/"
+          "text": "Alibaba opened a preview of its next model, Qwen4-Max, but published no weights, no scores and no price sheet.",
+          "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
         },
         {
-          "text": "Fable 5.2 now comes with free extra usage that grows with how long you have been a subscriber.",
-          "url": "https://x.com/bcherny/status/2119873095129550880"
+          "text": "A seven-month count of Anthropic's bug-hunting project found 442 security flaws, 2 of them exploited in the wild, and only 217 fixes.",
+          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
         },
         {
-          "text": "An Anthropic engineer says the new model works best as the planner sitting on top of cheaper models, and checks its own work better than before.",
-          "url": "https://x.com/lydiahallie/status/2119871667400999166"
+          "text": "OpenAI bought a small travel agent startup and hired its founder, then shut the product down.",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
         },
         {
-          "text": "Independent testers say its most expensive setting costs about three times more for only three extra points.",
-          "url": "https://x.com/hqmank/status/2120008095849923067"
+          "text": "OpenAI will show security tools built from bugs its own models caught, in a keynote on 12 November.",
+          "url": "https://x.com/OpenAI/status/2120202353907486826"
         },
         {
-          "text": "Meituan released the full weights of its LongCat model for free, but the files are far too big to run at home.",
-          "url": "https://huggingface.co/meituan-longcat/LongCat-2.5"
+          "text": "Two research posts ask why thinking longer sometimes helps an answer and sometimes makes it worse.",
+          "url": null
         }
       ]
     }
