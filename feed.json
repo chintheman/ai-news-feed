@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-11-12T08:17:00+08:00",
+  "updated_at": "2026-11-12T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic says it used its own AI to move Claude onto AMD chips in three days. A new report says Chinese labs bought about half a billion dollars of US AI training data. Google's new decision model answers a thousand yes-or-no questions in one go. United Airlines now bans AI agents from booking flights for people. DeepL's new voice model keeps the speaker's tone when it translates.",
+  "tldr": "Nvidia's board may remove Jensen Huang, and the stock fell about 9% after hours. A free method beats Unsloth and Bartowski at the same model file size. AWS published an emulator on GitHub that runs about 200 of its cloud services on your laptop. A hack turns an old Nvidia mining card into a faster A100. About 1,000 people entered the Hermes plugin hackathon, and winners come in about a week.",
   "articles": [
+    {
+      "title": "Nvidia board weighs ousting Jensen Huang, stock down about 9%",
+      "url": "https://x.com/Reuters/status/2120730075771633730",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "Reuters: no board decision yet as the meeting runs; nearly half a billion dollars of profit wiped out so far."
+    },
+    {
+      "title": "Hermes plugin hackathon closes with nearly 1,000 entries",
+      "url": "https://x.com/NousResearch/status/2120715518243987685",
+      "category": "hermes_nous",
+      "published": "2026-11-12",
+      "summary": "Judges are cutting to the top 10; winners get emailed and posted on X in about a week."
+    },
+    {
+      "title": "A mining card voltage-glitched into an A100-80G runs about 1.18x faster than retail",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "The CMP 170HX ships with about 80GB of HBM fused off; fault injection unlocks it and 85.9 TFLOP/s."
+    },
+    {
+      "title": "Inflect v3: a 34M-parameter local text-to-speech family under Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtzwxf/i_released_inflect_v3_lightweight_local_tts_in/",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "Mini, Micro and Atom models: six voices, 48 kHz enhancement, runs on CPU or CUDA with no cloud call."
+    },
+    {
+      "title": "DeepSeek V4.1 Flash holds close to full precision at 2.9bpw on a 6x3090 box",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtyxl9/deepseek_v41_flash_1017_exl3_29bpw_apex_2025/",
+      "category": "deepseek",
+      "published": "2026-11-12",
+      "summary": "Terminal Bench 2.1 and AIME 2026 scores land near unquantized V4.1 Flash in a single 128GB local build."
+    },
+    {
+      "title": "Nvidia is preparing to oust CEO Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "WSJ reports the board is moving against Huang over allegations about relationships with staff who report to him."
+    },
+    {
+      "title": "AWS publishes an emulator that runs 200 of its services locally",
+      "url": "https://github.com/aws/aws-emulator",
+      "category": "platforms_integration",
+      "published": "2026-11-11",
+      "summary": "The whole thing was written end to end by AI agents, which is why it covers so much surface so fast."
+    },
+    {
+      "title": "Why AI-generated language is so hard to understand",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtux72/261029162v1_why_is_aigenerated_language_so_hard/",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "A new paper on why model prose reads as fluent but empty, and what that says about how models are trained."
+    },
+    {
+      "title": "Open MACaQ method beats Unsloth and Bartowski at the same GGUF size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xto0fa/opensource_method_macaq_beats_unsloth_ggufs/",
+      "category": "ai_models",
+      "published": "2026-11-11",
+      "summary": "Mean KL 0.028 against 0.034 and 0.037 on Qwen3-4B, about 20% lower error for the same 2.26GB file."
+    },
+    {
+      "title": "Architecture trend: full attention is giving way to local attention",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvxtp/architecture_trends_from_full_to_local_attention/",
+      "category": "ai_models",
+      "published": "2026-11-11",
+      "summary": "A roundup of 2025-26 model configs shows hybrid and local attention now the default outside the largest models."
+    },
+    {
+      "title": "Garry Tan: ousting Huang without a wipeout is hard to believe",
+      "url": "https://x.com/garrytan/status/2120657462353330604",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "The investor read is that a Huang exit is a market-cap event, not a governance footnote."
+    },
     {
       "title": "US data brokers sell half a billion dollars in RL training environments to Chinese AI labs",
       "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
@@ -346,83 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-11-10",
       "summary": "A report shared on r/LocalLLaMA says Apple has a Mac app coming that simplifies running local models on Apple silicon."
-    },
-    {
-      "title": "Zeroing 0.05 percent of weights matches full fine-tuning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/",
-      "category": "ai_research",
-      "published": "2026-11-10",
-      "summary": "A paper finds zeroing fewer than 0.05 percent of a pretrained model's weights, with no other change, matches full fine-tuning at scale."
-    },
-    {
-      "title": "Hugging Face Hub now bills through your Google Cloud account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "Teams can pay for Hugging Face Hub through the Google Cloud Marketplace instead of a separate card."
-    },
-    {
-      "title": "Anthropic opens IPO roadshow at $70 to $78 a share under ticker ANT",
-      "url": "https://www.anthropic.com/news/roadshow-launch",
-      "category": "industry",
-      "published": "2026-11-10",
-      "summary": "825m Class A shares on Nasdaq. Base raise $57.75bn to $64.35bn, up to $74bn if underwriters take the full option."
-    },
-    {
-      "title": "CoreWeave bond yield tops 16% as AI credit stress builds",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "category": "industry",
-      "published": "2026-11-10",
-      "summary": "CNBC reports lenders demanding far higher yields on CoreWeave debt, a warning sign for AI datacentre financing."
-    },
-    {
-      "title": "Claude Code 2.1.321 closes an MCP OAuth token leak",
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "category": "anthropic",
-      "published": "2026-11-10",
-      "summary": "Fixes MCP redirects sending refresh tokens to another host, plus a sandbox escape on read-only bash. 2.1.322 adds Vertex fast mode."
-    },
-    {
-      "title": "Hermes Agent plugin hackathon closes 06:00 SGT on 12 November",
-      "url": "https://x.com/GodsBoy7777/status/2119429770802762073",
-      "category": "hermes_nous",
-      "published": "2026-11-10",
-      "summary": "$20,000 in prizes, $10,000 for first. Entry is a plugin catalog PR plus a demo under 90 seconds posted on X tagging Nous."
-    },
-    {
-      "title": "No official word yet, but reports say DeepSeek V4.1 Pro is in grey test",
-      "url": "https://frontiernow.dev/en/news/deepseek-v41-pro-graytest/",
-      "category": "deepseek",
-      "published": "2026-11-10",
-      "summary": "A LobeBench developer measured the app-served model rising from 48 to 64 percent. DeepSeek's changelog still stops at 17 October."
-    },
-    {
-      "title": "CUDA plus ROCm dual-backend inference is up to 48% faster on mixed GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsaurn/cudarocm_dualbackends_llm_inference_for/",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "A Strix Halo iGPU paired with an RTX 5090 in one box, both backends running at once instead of one GPU sitting idle."
-    },
-    {
-      "title": "OpenAI's Control Room halts model output within 35 seconds",
-      "url": "https://x.com/OpenAI/status/2119913172039868579",
-      "category": "policy",
-      "published": "2026-11-09",
-      "summary": "A central system tracks every research inference workload, including agentic sampling, and stops it fast when safety concerns arise."
-    },
-    {
-      "title": "Hermes Cloud agents run 24/7 in a browser tab on Plus and above",
-      "url": "https://x.com/NousResearch/status/2119851439904510217",
-      "category": "hermes_nous",
-      "published": "2026-11-09",
-      "summary": "Same interface as Hermes Desktop, hosted in its own container so cron jobs and channels keep working with the laptop closed."
-    },
-    {
-      "title": "Claude Fable 5.2 is routable in Hermes through Nous Portal or OpenRouter",
-      "url": "https://x.com/Teknium/status/2119918909474365899",
-      "category": "hermes_nous",
-      "published": "2026-11-09",
-      "summary": "Switching Hermes to Fable 5.2 is a config change rather than a rebuild, and Claude subscriptions also work."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-11T13:17:28+08:00",
+      "at": "2026-11-12T13:15:00+08:00",
       "points": [
         {
-          "text": "Alibaba opened a preview of its next model, Qwen4-Max, but published no weights, no scores and no price sheet.",
-          "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
+          "text": "Nvidia's board may remove Jensen Huang, and the stock fell about 9% after hours.",
+          "url": "https://x.com/Reuters/status/2120730075771633730"
         },
         {
-          "text": "A seven-month count of Anthropic's bug-hunting project found 442 security flaws, 2 of them exploited in the wild, and only 217 fixes.",
-          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+          "text": "A free method beats Unsloth and Bartowski at the same model file size.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xto0fa/opensource_method_macaq_beats_unsloth_ggufs/"
         },
         {
-          "text": "OpenAI bought a small travel agent startup and hired its founder, then shut the product down.",
-          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+          "text": "AWS published an emulator on GitHub that runs about 200 of its cloud services on your laptop.",
+          "url": "https://github.com/aws/aws-emulator"
         },
         {
-          "text": "OpenAI will show security tools built from bugs its own models caught, in a keynote on 12 November.",
-          "url": "https://x.com/OpenAI/status/2120202353907486826"
+          "text": "A hack turns an old Nvidia mining card into a faster A100.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/"
         },
         {
-          "text": "Two research posts ask why thinking longer sometimes helps an answer and sometimes makes it worse.",
-          "url": null
+          "text": "About 1,000 people entered the Hermes plugin hackathon, and winners come in about a week.",
+          "url": "https://x.com/NousResearch/status/2120715518243987685"
         }
       ]
     }
