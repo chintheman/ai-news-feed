@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-11-12T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 11,
+  "tldr": "Nvidia's board may remove Jensen Huang, and the stock fell about 9% after hours. A free method beats Unsloth and Bartowski at the same model file size. AWS published an emulator on GitHub that runs about 200 of its cloud services on your laptop. A hack turns an old Nvidia mining card into a faster A100. About 1,000 people entered the Hermes plugin hackathon, and winners come in about a week.",
+  "articles": [
+    {
+      "title": "Nvidia board weighs ousting Jensen Huang, stock down about 9%",
+      "url": "https://x.com/Reuters/status/2120730075771633730",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "Reuters: no board decision yet as the meeting runs; nearly half a billion dollars of profit wiped out so far."
+    },
+    {
+      "title": "Nvidia is preparing to oust CEO Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "WSJ reports the board is moving against Huang over allegations about relationships with staff who report to him."
+    },
+    {
+      "title": "Hermes plugin hackathon closes with nearly 1,000 entries",
+      "url": "https://x.com/NousResearch/status/2120715518243987685",
+      "category": "hermes_nous",
+      "published": "2026-11-12",
+      "summary": "Judges are cutting to the top 10; winners get emailed and posted on X in about a week."
+    },
+    {
+      "title": "AWS publishes an emulator that runs 200 of its services locally",
+      "url": "https://github.com/aws/aws-emulator",
+      "category": "platforms_integration",
+      "published": "2026-11-11",
+      "summary": "The whole thing was written end to end by AI agents, which is why it covers so much surface so fast."
+    },
+    {
+      "title": "A mining card voltage-glitched into an A100-80G runs about 1.18x faster than retail",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "The CMP 170HX ships with about 80GB of HBM fused off; fault injection unlocks it and 85.9 TFLOP/s."
+    },
+    {
+      "title": "Why AI-generated language is so hard to understand",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtux72/261029162v1_why_is_aigenerated_language_so_hard/",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "A new paper on why model prose reads as fluent but empty, and what that says about how models are trained."
+    },
+    {
+      "title": "Open MACaQ method beats Unsloth and Bartowski at the same GGUF size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xto0fa/opensource_method_macaq_beats_unsloth_ggufs/",
+      "category": "ai_models",
+      "published": "2026-11-11",
+      "summary": "Mean KL 0.028 against 0.034 and 0.037 on Qwen3-4B, about 20% lower error for the same 2.26GB file."
+    },
+    {
+      "title": "Architecture trend: full attention is giving way to local attention",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvxtp/architecture_trends_from_full_to_local_attention/",
+      "category": "ai_models",
+      "published": "2026-11-11",
+      "summary": "A roundup of 2025-26 model configs shows hybrid and local attention now the default outside the largest models."
+    },
+    {
+      "title": "Inflect v3: a 34M-parameter local text-to-speech family under Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtzwxf/i_released_inflect_v3_lightweight_local_tts_in/",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "Mini, Micro and Atom models: six voices, 48 kHz enhancement, runs on CPU or CUDA with no cloud call."
+    },
+    {
+      "title": "DeepSeek V4.1 Flash holds close to full precision at 2.9bpw on a 6x3090 box",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtyxl9/deepseek_v41_flash_1017_exl3_29bpw_apex_2025/",
+      "category": "deepseek",
+      "published": "2026-11-12",
+      "summary": "Terminal Bench 2.1 and AIME 2026 scores land near unquantized V4.1 Flash in a single 128GB local build."
+    },
+    {
+      "title": "Garry Tan: ousting Huang without a wipeout is hard to believe",
+      "url": "https://x.com/garrytan/status/2120657462353330604",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "The investor read is that a Huang exit is a market-cap event, not a governance footnote."
+    }
+  ]
+}
