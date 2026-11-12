@@ -1,0 +1,120 @@
+{
+  "updated_at": "2026-11-12T08:17:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 16,
+  "tldr": "Anthropic says it used its own AI to move Claude onto AMD chips in three days. A new report says Chinese labs bought about half a billion dollars of US AI training data. Google's new decision model answers a thousand yes-or-no questions in one go. United Airlines now bans AI agents from booking flights for people. DeepL's new voice model keeps the speaker's tone when it translates.",
+  "articles": [
+    {
+      "title": "US data brokers sell half a billion dollars in RL training environments to Chinese AI labs",
+      "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "A ChinaTalk probe says Mercor, Surge AI and others sold about $500M of RL training environments, including ones built for OpenAI and Anthropic."
+    },
+    {
+      "title": "DeepL Voice's new Aure model translates tone and speaking pace, not just words",
+      "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+      "category": "platforms_integration",
+      "published": "2026-11-11",
+      "summary": "Real-time translation now carries emotion, emphasis and speed from the original speaker into the target language."
+    },
+    {
+      "title": "35,000 Grok-built apps left open to anyone, exposing patient data and passwords",
+      "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "Claroc found the apps readable without login because public link sharing was the default; xAI took only its own 24 employee apps offline."
+    },
+    {
+      "title": "Unsloth ships Dynamic V3.1 GGUFs for Qwen3.8-27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtlyhe/new_qwen3827b_unsloth_dynamic_v31_ggufs/",
+      "category": "chinese_ai",
+      "published": "2026-11-11",
+      "summary": "The team claims 5-10% better accuracy than UD3 on DeepSWE and Terminal Bench, and says the same method is being applied to Qwen4."
+    },
+    {
+      "title": "NVIDIA's Alpamayo 2 Edge brings open-source self-driving to edge chips",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmeif/open_source_self_driving_is_here/",
+      "category": "ai_models",
+      "published": "2026-11-11",
+      "summary": "An RL-trained driving model takes six cameras plus recent motion; Embedl's optimised port runs over 10x faster than PyTorch on AGX Thor."
+    },
+    {
+      "title": "Google joins the decision-model wave with Gemini Decision 1",
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+      "category": "ai_models",
+      "published": "2026-11-11",
+      "summary": "Scores up to 1,000 closed-end questions per pass across text, images, audio and video in 150-250ms, about 5x cheaper than Gemini 3.5 Flash-Lite."
+    },
+    {
+      "title": "US corporate AI spending hits a new high but growth slows to 1.65 percent",
+      "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+      "category": "industry",
+      "published": "2026-11-11",
+      "summary": "Ramp's index shows October growth slowing while one percent of companies still drive 80% of OpenAI and Anthropic revenue."
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on travellers' behalf",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "category": "policy",
+      "published": "2026-11-11",
+      "summary": "The carrier now forbids third-party agents from completing bookings for a person, making it the first major airline to draw that line."
+    },
+    {
+      "title": "Microsoft patents training AI on idle consumer GPUs for credits",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtowe4/microsoft_files_a_patent_application_to_train_ai/",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "The filing splits training into small tasks sent to opted-in devices, rewarding owners in credits; no payout rate is stated."
+    },
+    {
+      "title": "A local world model turns any image into video you control in real time",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtpc2v/im_releasing_a_local_world_model_ive_been/",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "Weights run on an RTX 3060 or 4060 and are published on Hugging Face as lucidml/gta, with an instant demo in the works."
+    },
+    {
+      "title": "Helsing's Clarity picks targets for weapons systems, with a human name on every call",
+      "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+      "category": "policy",
+      "published": "2026-11-11",
+      "summary": "The platform uses agents to condense sensor data into target recommendations for weapons systems under European human oversight."
+    },
+    {
+      "title": "Anthropic says AI cut an AMD chip switch from months to three days",
+      "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+      "category": "anthropic",
+      "published": "2026-11-11",
+      "summary": "Anthropic says its in-house Mythos model ported Claude to AMD GPUs almost without human help; Claude now runs on four chip families."
+    },
+    {
+      "title": "OpenAI's Control Room halts model output within 35 seconds",
+      "url": "https://x.com/OpenAI/status/2119913172039868579",
+      "category": "policy",
+      "published": "2026-11-09",
+      "summary": "A central system tracks every research inference workload, including agentic sampling, and stops it fast when safety concerns arise."
+    },
+    {
+      "title": "Hermes Cloud agents run 24/7 in a browser tab on Plus and above",
+      "url": "https://x.com/NousResearch/status/2119851439904510217",
+      "category": "hermes_nous",
+      "published": "2026-11-09",
+      "summary": "Same interface as Hermes Desktop, hosted in its own container so cron jobs and channels keep working with the laptop closed."
+    },
+    {
+      "title": "Claude Fable 5.2 is routable in Hermes through Nous Portal or OpenRouter",
+      "url": "https://x.com/Teknium/status/2119918909474365899",
+      "category": "hermes_nous",
+      "published": "2026-11-09",
+      "summary": "Switching Hermes to Fable 5.2 is a config change rather than a rebuild, and Claude subscriptions also work."
+    },
+    {
+      "title": "World In-Context Learning lets robot agents adapt without fine-tuning",
+      "url": "https://huggingface.co/papers/2611.12885",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "New paper has manipulation agents learn a world model inside the context window, the cheap route to adaptable robotics."
+    }
+  ]
+}
