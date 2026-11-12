@@ -1,9 +1,107 @@
 {
-  "updated_at": "2026-11-12T13:15:00+08:00",
+  "updated_at": "2026-11-12T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nvidia's board may remove Jensen Huang, and the stock fell about 9% after hours. A free method beats Unsloth and Bartowski at the same model file size. AWS published an emulator on GitHub that runs about 200 of its cloud services on your laptop. A hack turns an old Nvidia mining card into a faster A100. About 1,000 people entered the Hermes plugin hackathon, and winners come in about a week.",
+  "tldr": "Anthropic opened its IPO roadshow site and showed its books for the first time: 17 billion dollars in a quarter, up more than 12 times on last year. The same page shows a 23.3 billion dollar net loss, almost all of it a paper charge, and the share price is set on Friday. Australia wants a law that makes frontier AI labs pass independent safety audits. A new benchmark says agent memory does not help agents learn, and the reply says it still makes them 2.6 times cheaper to run. ByteDance is putting 70 billion dollars behind an assistant that acts before you ask.",
   "articles": [
+    {
+      "title": "Anthropic opens IPO roadshow with 17 billion dollar quarter",
+      "url": "https://ipo.anthropic.com/",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "First public Q3 numbers: 17B revenue, 12x growth, 15 percent adjusted operating margin. Pricing Friday, first trade Monday under ANT."
+    },
+    {
+      "title": "Continual-ARC: agent memory learns nothing, but Hermes runs 2.6x cheaper",
+      "url": "https://www.unify.ai/blog/why-we-built-continual-arc",
+      "category": "hermes_nous",
+      "published": "2026-11-12",
+      "summary": "Unify's experience benchmark says agent harnesses memorize and generalize nothing. Teknium replies with the cost side: 32 vs 99 tool calls per task."
+    },
+    {
+      "title": "OpenAI puts 2 million dollars into research on AI and children's safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "category": "policy",
+      "published": "2026-11-12",
+      "summary": "The money funds shared tools to measure risks and benefits of AI for young people, alongside a wider declaration on child safety."
+    },
+    {
+      "title": "Australia moves to make frontier AI audits mandatory by law",
+      "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+      "category": "policy",
+      "published": "2026-11-12",
+      "summary": "A new regulator would force independent model testing and set steep penalties, the first time Australia writes frontier rules into law."
+    },
+    {
+      "title": "KQuant cuts quantization loss 3.7x on Qwen Flash Next and Qwen 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu9onk/kquant_new_quantization_technique_37_better/",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "A new MLX quantizer measured by KL-divergence reduction across the 180B, 35B, 27B and 9B Qwen models."
+    },
+    {
+      "title": "MOSS-Image team plans an anime model and keeps Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuad5c/meet_the_people_behind_mossimage_plus_a_few/",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "An AMA covers alpha channels, multi-character references and an editing model on the way, all still promised open weights."
+    },
+    {
+      "title": "MetaEncoder: one Facebook encoder for both retrieval and decisions",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu8eie/metaencoder_a_facebook_collection_one_encoder_for/",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "Give it a task in plain language plus a list of candidates and it scores them, replacing separate retrieval and ranking models."
+    },
+    {
+      "title": "e-means beats k-means in a tenth of the epochs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu92md/paper_emeans_outperforming_kmeans_in_onetenth_the/",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "An exponential moving average update for mini-batch k-means, aimed at clustering, retrieval and data curation at scale."
+    },
+    {
+      "title": "Apple's faster retrieval cuts the cost of RAG lookups",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "Apple Research shows a cheaper retrieval stage for RAG, the part of the pipeline that usually dominates latency."
+    },
+    {
+      "title": "Qwen4 commits already land in llama.cpp and RTP-LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu5p6p/qwen4_is_coming_pull_requests_spoted_on_github/",
+      "category": "chinese_ai",
+      "published": "2026-11-12",
+      "summary": "Pull requests tagged qwen4exp appear in llama.cpp, days after Qwen4-Max opened in preview on Alibaba's Token Plan."
+    },
+    {
+      "title": "llama.cpp fix repairs Gemma 4 tool calling",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu6td8/chat_refactor_gemma4_to_build_loose_schema_rules/",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "A refactor lets Gemma 4 emit loose schema for tool calls, which users report fixes agentic coding that kept failing."
+    },
+    {
+      "title": "Yogurt: a free, on-device meeting recorder that replaces Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "MIT-licensed desktop app that transcribes, summarizes and answers questions about meetings with local models, no cloud."
+    },
+    {
+      "title": "His AI agents found an unmapped Maya site, or he thinks they did",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "A developer points agents at lidar and survey data and argues the output is a site nobody has mapped. 998 points on Hacker News."
+    },
+    {
+      "title": "ByteDance prepares a proactive assistant and 70 billion dollars of AI spend",
+      "url": "https://dealroom.co/news/172034-bytedance-plans-muse-style-ai-agent-eyes-70b-ai-spend",
+      "category": "chinese_ai",
+      "published": "2026-11-12",
+      "summary": "A Muse-style agent that acts without being asked, backed by a spend figure larger than most national AI programmes."
+    },
     {
       "title": "Nvidia board weighs ousting Jensen Huang, stock down about 9%",
       "url": "https://x.com/Reuters/status/2120730075771633730",
@@ -38,6 +136,13 @@
       "category": "deepseek",
       "published": "2026-11-12",
       "summary": "Terminal Bench 2.1 and AIME 2026 scores land near unquantized V4.1 Flash in a single 128GB local build."
+    },
+    {
+      "title": "Pi routes each question to the best model by load, no manual switching",
+      "url": "https://x.com/julien_c/status/2120168716251898041",
+      "category": "platforms_integration",
+      "published": "2026-11-11",
+      "summary": "Virtual Models sends easy queries to a local 27B model in Llama.app and hard ones to Kimi K3 or GLM 5.3 in the cloud."
     },
     {
       "title": "Nvidia is preparing to oust CEO Jensen Huang",
@@ -318,136 +423,31 @@
       "category": "ai_research",
       "published": "2026-11-10",
       "summary": "Treats chains of thought as pathfinding in token space: training raises the odds of a good path, not that one path converges."
-    },
-    {
-      "title": "DeepMind's AlphaProof Code proves Signal's protocol code secure in four weeks",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "category": "ai_research",
-      "published": "2026-11-10",
-      "summary": "Agents on Gemini 4 Carbon wrote 6.5 million lines of Lean proof over Signal's messaging code, a job that normally takes expert teams years."
-    },
-    {
-      "title": "Gemini 4 Carbon goes GA, ranking first on several benchmarks at under half the cost",
-      "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
-      "category": "ai_models",
-      "published": "2026-11-10",
-      "summary": "Google made Gemini 4 Carbon generally available after two weeks of testing, and is previewing coordinated agent teams through a /swarm feature."
-    },
-    {
-      "title": "Gemini Robotics 2.5 sorts metal parts at 96 percent on a Mercedes line",
-      "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
-      "category": "ai_models",
-      "published": "2026-11-10",
-      "summary": "Tested on live Mercedes-Benz lines in Hungary and Germany, where Apptronik's humanoid Apollo 2 sorted metal parts with a 96 percent success rate."
-    },
-    {
-      "title": "Nvidia's GR00T 2 learns robot tasks by watching human video",
-      "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
-      "category": "ai_models",
-      "published": "2026-11-10",
-      "summary": "Trained on about 400,000 hours of footage, it moves human hand motion onto robotic arms to skip teleoperation; success rates still vary widely."
-    },
-    {
-      "title": "MiniMax releases H3-Image, an open-weight image model built on H3",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xso1ie/minimax_h3image_released_an_openweight_image/",
-      "category": "ai_models",
-      "published": "2026-11-10",
-      "summary": "MiniMax put H3-Image weights on Hugging Face, and local users are already downloading and testing the model."
-    },
-    {
-      "title": "Anthropic turns Claude into a workspace with Sheets, Whiteboards and Data",
-      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-      "category": "anthropic",
-      "published": "2026-11-10",
-      "summary": "Claude now has spreadsheets, whiteboards and data views, plus partner apps that open inside Claude rather than in a browser tab."
-    },
-    {
-      "title": "Every Claude plan gets one free full limit reset until 11 December",
-      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
-      "category": "anthropic",
-      "published": "2026-11-10",
-      "summary": "Pro, Max, Ultra and Team accounts can reset every model and every limit once, any time before 06:00 SGT on 11 December."
-    },
-    {
-      "title": "Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
-      "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
-      "category": "anthropic",
-      "published": "2026-11-10",
-      "summary": "On the Remote Labor Index, Fable 5.2 finished 41.3 percent of professional jobs at quality, more than double the next-best model."
-    },
-    {
-      "title": "Claude MCP Apps can host a whole site inside Claude, with tools that act on screen",
-      "url": "https://claude.com/docs/connectors/building/mcp-apps/getting-started",
-      "category": "agents_tooling",
-      "published": "2026-11-10",
-      "summary": "An MCP server can serve its own site in a side panel or full screen and give Claude tools to act on it; it needs a remote connector, not stdio."
-    },
-    {
-      "title": "OpenAI opens Businesses in ChatGPT with agents that answer customers",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "Businesses can claim a verified profile, manage their listing and publish a labelled Business Agent; the agent itself is US-only for now."
-    },
-    {
-      "title": "OpenAI and Upwork find AI is reshaping freelance demand, not erasing it",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "category": "industry",
-      "published": "2026-11-10",
-      "summary": "Joint research reports shifting demand, new skill combinations, and larger budgets and more hours on AI-related freelance projects."
-    },
-    {
-      "title": "Eight countries and top labs agree to shutdown mechanisms in Paris declaration",
-      "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
-      "category": "policy",
-      "published": "2026-11-10",
-      "summary": "OpenAI, Anthropic, Microsoft and Mistral joined a Paris call covering kill switches, independent audits and disclosing known risks."
-    },
-    {
-      "title": "Fireworks AI breach spills into Notion and its customers",
-      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "category": "industry",
-      "published": "2026-11-10",
-      "summary": "Notion published an incident notice after a security breach at a third-party AI vendor affected customer data."
-    },
-    {
-      "title": "Qwen3.6, Qwen3.8 and GLM-5.3 Flash tested on 202 real tasks in 13 rare languages",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsorsx/we_tested_qwen36_27b_qwen38_27b_and_glm53_flash/",
-      "category": "chinese_ai",
-      "published": "2026-11-10",
-      "summary": "A team benchmarked the models on real GitHub work in Elixir, OCaml, Haskell, Clojure, Kotlin, Swift, Julia and other uncommon languages."
-    },
-    {
-      "title": "Apple is building a Mac app to make running local AI models easy",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "A report shared on r/LocalLLaMA says Apple has a Mac app coming that simplifies running local models on Apple silicon."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-11T21:17:00+08:00",
+      "at": "2026-11-12T21:15:00+08:00",
       "points": [
         {
-          "text": "Baidu shipped a new model that reads very long documents and costs little to run, though it only handles text.",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/"
+          "text": "Anthropic opened its IPO roadshow site and showed its books for the first time: 17 billion dollars in a quarter, up more than 12 times on last year.",
+          "url": "https://ipo.anthropic.com/"
         },
         {
-          "text": "Kimi's faster top model is now sold through Amazon's cloud.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/"
+          "text": "The same page shows a 23.3 billion dollar net loss, almost all of it a paper charge, and the share price is set on Friday.",
+          "url": "https://ipo.anthropic.com/"
         },
         {
-          "text": "OpenAI lost more money than it earned last quarter, according to the Wall Street Journal.",
-          "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb"
+          "text": "Australia wants a law that makes frontier AI labs pass independent safety audits.",
+          "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/"
         },
         {
-          "text": "Britain's university regulator says AI makes coursework almost impossible to grade fairly.",
-          "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/"
+          "text": "A new benchmark says agent memory does not help agents learn, and the reply says it still makes them 2.6 times cheaper to run.",
+          "url": "https://www.unify.ai/blog/why-we-built-continual-arc"
         },
         {
-          "text": "Apple is building an app that runs AI on a Mac instead of in the cloud.",
-          "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app/"
+          "text": "ByteDance is putting 70 billion dollars behind an assistant that acts before you ask.",
+          "url": "https://dealroom.co/news/172034-bytedance-plans-muse-style-ai-agent-eyes-70b-ai-spend"
         }
       ]
     },
