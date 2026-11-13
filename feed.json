@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-11-13T13:15:00+08:00",
+  "updated_at": "2026-11-13T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic's IPO filing says AI now speeds up its own research enough to trip a safety limit the company set for itself. Nvidia staff signed a petition asking for their old boss back, days after he resigned over an espionage scandal. OpenAI launched two security products that find bugs and then write the fixes as pull requests. A 145B model called Edge0 claims to run on an ordinary computer instead of a data centre. Adobe will build private Disney-trained models for films, parks and ESPN.",
+  "tldr": "Nous Research retrained a Chinese model so it stops repeating state propaganda, with no loss in ability. llama.cpp, the free tool that runs AI models on your own machine, reached version 1.0. An Anthropic study finds team results get worse when every person brings their own agent. Nonprofits sued five AI companies in California to force a pause on the most advanced models. OpenAI released a free tool that scans code for security holes and writes the patches.",
   "articles": [
+    {
+      "title": "Nous retrains Qwen to strip state propaganda for 52M tokens",
+      "url": "https://nousresearch.com/arete",
+      "category": "hermes_nous",
+      "published": "2026-11-13",
+      "summary": "Arete-27B cuts propaganda answers from 22% to under 1% with SFT only, at no measurable cost to capability."
+    },
+    {
+      "title": "Brave Search API takes agent payments with no API key",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "Agents can pay per request over the x402 protocol, so a search call needs no account, key or invoice."
+    },
+    {
+      "title": "llama.cpp hits version 1.0.0",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/32190",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "First 1.0.0 removes the deprecated public API and adds Kimi-K3.1-Pro, FP8 KV caches, a speech endpoint and a new web UI."
+    },
+    {
+      "title": "Qwen 3.8 Flash Next scores 29 on Artificial Analysis",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next/",
+      "category": "chinese_ai",
+      "published": "2026-11-13",
+      "summary": "Lands between GPT-6 Luna Max at 28 and Claude Haiku 5.5 at 30, well ahead of the 27B tier at 20."
+    },
+    {
+      "title": "Boole-32B squeezes a 32B model into 9GB at 1.8 bits",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv3h93/boole32ba25bpreview_9gb_18bit_moe_565_tokens_on_1/",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Mixed-precision MoE runs 565 tokens/s on one RTX 5090 with expert pruning and custom kernels, 2x faster than INT4."
+    },
+    {
+      "title": "Five coding agents, one local model, same prompt",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv5dsb/i_ran_the_same_halloween_animation_prompt_through/",
+      "category": "agents_tooling",
+      "published": "2026-11-13",
+      "summary": "Claude Code, OpenCode, Copilot Desktop, Pi and Codex driven by the same local Qwen, with 30 seconds of each result."
+    },
     {
       "title": "Nvidia employees petition to bring back Jensen Huang",
       "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
@@ -24,6 +66,48 @@
       "category": "industry",
       "published": "2026-11-13",
       "summary": "Clem Delangue tries to reassure the community that Hugging Face's open-source mission survives the Nvidia takeover."
+    },
+    {
+      "title": "Codex Security 0.10.0 adds resumable scans and cost caps",
+      "url": "https://github.com/openai/codex-security/releases",
+      "category": "agents_tooling",
+      "published": "2026-11-12",
+      "summary": "Free CLI and SDK that scans a repo, validates findings, writes patches and exports SARIF. 0.10.0 adds resumable scans."
+    },
+    {
+      "title": "Measured: Hermes memory made runs 2.6x cheaper",
+      "url": "https://x.com/Teknium/status/2120835945926713616",
+      "category": "hermes_nous",
+      "published": "2026-11-12",
+      "summary": "Persistence cut cost per 200-instance stream from $13.89 to $5.24 by dropping tool calls from 15.4 to 2.7 per instance."
+    },
+    {
+      "title": "Run /doctor prompt-audit on the model you actually use",
+      "url": "https://x.com/lydiahallie/status/2121011733699633613",
+      "category": "anthropic",
+      "published": "2026-11-12",
+      "summary": "Claude Code team tip: the audit checks your repo's prompts against your current model, not a generic checklist."
+    },
+    {
+      "title": "Nonprofits sue five AI giants to freeze frontier development",
+      "url": "https://www.politico.com/news/2026/11/12/nonprofits-sue-ai-companies-over-existential-risk-01161965",
+      "category": "policy",
+      "published": "2026-11-12",
+      "summary": "Public Citizen, Heat Initiative and two others seek an injunction against Anthropic, Google, Meta, OpenAI and SpaceXSI."
+    },
+    {
+      "title": "ElevenLabs Scribe v3 stops voice agents talking over callers",
+      "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "New live speech model leads accuracy benches and uses conversation context to stop barging in mid-sentence."
+    },
+    {
+      "title": "UMAP 0.6 is far faster at millions of points",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "New initialization and optimizers map 3 million arXiv papers in under five minutes, before 0.5 finds its neighbours."
     },
     {
       "title": "Edge0-145B brings frontier AI to your own computer",
@@ -257,6 +341,13 @@
       "summary": "Terminal Bench 2.1 and AIME 2026 scores land near unquantized V4.1 Flash in a single 128GB local build."
     },
     {
+      "title": "Anthropic: per-user agents do worse than one shared agent",
+      "url": "https://alignment.anthropic.com/2026/worse-together/",
+      "category": "ai_research",
+      "published": "2026-11-11",
+      "summary": "Across four simulated group tasks, outcomes were worse when each user brought their own agent than one agent serving all."
+    },
+    {
       "title": "Anthropic says a key AI safety threshold has been crossed",
       "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
       "category": "policy",
@@ -332,122 +423,27 @@
       "category": "platforms_integration",
       "published": "2026-11-11",
       "summary": "Real-time translation now carries emotion, emphasis and speed from the original speaker into the target language."
-    },
-    {
-      "title": "35,000 Grok-built apps left open to anyone, exposing patient data and passwords",
-      "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-      "category": "industry",
-      "published": "2026-11-11",
-      "summary": "Claroc found the apps readable without login because public link sharing was the default; xAI took only its own 24 employee apps offline."
-    },
-    {
-      "title": "Unsloth ships Dynamic V3.1 GGUFs for Qwen3.8-27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtlyhe/new_qwen3827b_unsloth_dynamic_v31_ggufs/",
-      "category": "chinese_ai",
-      "published": "2026-11-11",
-      "summary": "The team claims 5-10% better accuracy than UD3 on DeepSWE and Terminal Bench, and says the same method is being applied to Qwen4."
-    },
-    {
-      "title": "NVIDIA's Alpamayo 2 Edge brings open-source self-driving to edge chips",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmeif/open_source_self_driving_is_here/",
-      "category": "ai_models",
-      "published": "2026-11-11",
-      "summary": "An RL-trained driving model takes six cameras plus recent motion; Embedl's optimised port runs over 10x faster than PyTorch on AGX Thor."
-    },
-    {
-      "title": "Google joins the decision-model wave with Gemini Decision 1",
-      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-      "category": "ai_models",
-      "published": "2026-11-11",
-      "summary": "Scores up to 1,000 closed-end questions per pass across text, images, audio and video in 150-250ms, about 5x cheaper than Gemini 3.5 Flash-Lite."
-    },
-    {
-      "title": "US corporate AI spending hits a new high but growth slows to 1.65 percent",
-      "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
-      "category": "industry",
-      "published": "2026-11-11",
-      "summary": "Ramp's index shows October growth slowing while one percent of companies still drive 80% of OpenAI and Anthropic revenue."
-    },
-    {
-      "title": "United Airlines bans AI agents from booking flights on travellers' behalf",
-      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-      "category": "policy",
-      "published": "2026-11-11",
-      "summary": "The carrier now forbids third-party agents from completing bookings for a person, making it the first major airline to draw that line."
-    },
-    {
-      "title": "Microsoft patents training AI on idle consumer GPUs for credits",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtowe4/microsoft_files_a_patent_application_to_train_ai/",
-      "category": "ai_research",
-      "published": "2026-11-11",
-      "summary": "The filing splits training into small tasks sent to opted-in devices, rewarding owners in credits; no payout rate is stated."
-    },
-    {
-      "title": "A local world model turns any image into video you control in real time",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtpc2v/im_releasing_a_local_world_model_ive_been/",
-      "category": "ai_research",
-      "published": "2026-11-11",
-      "summary": "Weights run on an RTX 3060 or 4060 and are published on Hugging Face as lucidml/gta, with an instant demo in the works."
-    },
-    {
-      "title": "Helsing's Clarity picks targets for weapons systems, with a human name on every call",
-      "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
-      "category": "policy",
-      "published": "2026-11-11",
-      "summary": "The platform uses agents to condense sensor data into target recommendations for weapons systems under European human oversight."
-    },
-    {
-      "title": "Anthropic says AI cut an AMD chip switch from months to three days",
-      "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-      "category": "anthropic",
-      "published": "2026-11-11",
-      "summary": "Anthropic says its in-house Mythos model ported Claude to AMD GPUs almost without human help; Claude now runs on four chip families."
-    },
-    {
-      "title": "World In-Context Learning lets robot agents adapt without fine-tuning",
-      "url": "https://huggingface.co/papers/2611.12885",
-      "category": "ai_research",
-      "published": "2026-11-11",
-      "summary": "New paper has manipulation agents learn a world model inside the context window, the cheap route to adaptable robotics."
-    },
-    {
-      "title": "Baidu ships ERNIE 5.5 Flash Preview with a 1M-token context at $0.28 input",
-      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
-      "category": "chinese_ai",
-      "published": "2026-11-11",
-      "summary": "280B total with 14B active, text-only, 1,048,576-token context, $0.28 per million input on OpenRouter. Apache 2.0 weights promised before 25 November."
-    },
-    {
-      "title": "OpenAI takes in $10B in a quarter while its operating loss reaches $10.9B",
-      "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb",
-      "category": "industry",
-      "published": "2026-11-11",
-      "summary": "Wall Street Journal figures put quarterly revenue at $10B against an operating loss of $10.9B, so spending still outruns income."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-12T21:15:00+08:00",
+      "at": "2026-11-13T21:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic opened its IPO roadshow site and showed its books for the first time: 17 billion dollars in a quarter, up more than 12 times on last year.",
-          "url": "https://ipo.anthropic.com/"
+          "text": "Nous Research retrained a Chinese model so it stops repeating state propaganda, with no loss in ability. llama.cpp, the free tool that runs AI models on your own machine, reached version 1.0.",
+          "url": "https://nousresearch.com/arete"
         },
         {
-          "text": "The same page shows a 23.3 billion dollar net loss, almost all of it a paper charge, and the share price is set on Friday.",
-          "url": "https://ipo.anthropic.com/"
+          "text": "An Anthropic study finds team results get worse when every person brings their own agent.",
+          "url": "https://alignment.anthropic.com/2026/worse-together/"
         },
         {
-          "text": "Australia wants a law that makes frontier AI labs pass independent safety audits.",
-          "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/"
+          "text": "Nonprofits sued five AI companies in California to force a pause on the most advanced models.",
+          "url": "https://www.politico.com/news/2026/11/12/nonprofits-sue-ai-companies-over-existential-risk-01161965"
         },
         {
-          "text": "A new benchmark says agent memory does not help agents learn, and the reply says it still makes them 2.6 times cheaper to run.",
-          "url": "https://www.unify.ai/blog/why-we-built-continual-arc"
-        },
-        {
-          "text": "ByteDance is putting 70 billion dollars behind an assistant that acts before you ask.",
-          "url": "https://dealroom.co/news/172034-bytedance-plans-muse-style-ai-agent-eyes-70b-ai-spend"
+          "text": "OpenAI released a free tool that scans code for security holes and writes the patches.",
+          "url": "https://github.com/openai/codex-security/releases"
         }
       ]
     },
