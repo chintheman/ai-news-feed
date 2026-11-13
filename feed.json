@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-12T21:15:00+08:00",
+  "updated_at": "2026-11-13T08:15:59+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic opened its IPO roadshow site and showed its books for the first time: 17 billion dollars in a quarter, up more than 12 times on last year. The same page shows a 23.3 billion dollar net loss, almost all of it a paper charge, and the share price is set on Friday. Australia wants a law that makes frontier AI labs pass independent safety audits. A new benchmark says agent memory does not help agents learn, and the reply says it still makes them 2.6 times cheaper to run. ByteDance is putting 70 billion dollars behind an assistant that acts before you ask.",
+  "tldr": "Anthropic shipped two new Claude models, Fable 5.2 and Mythos 5.2, at about half the cost per task of Opus 5.5. Claude can now sit in your video calls and build documents while you talk. Google's new Gemini 4 Hydrogen beats its own bigger model at a lower price. Meta released a small model that makes always-on agents about four times cheaper to run. Ten AI companies signed a safety pledge in Paris, but the US, Google and Meta did not.",
   "articles": [
+    {
+      "title": "Claude Meetings joins your video call and builds the documents live",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+      "category": "anthropic",
+      "published": "2026-11-12",
+      "summary": "Beta on Team and Enterprise plans: Claude joins Google Meet and writes notes, whiteboards and docs while the call runs."
+    },
+    {
+      "title": "Anthropic lets enterprises run Claude Managed Agents in their own cloud",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "category": "agents_tooling",
+      "published": "2026-11-12",
+      "summary": "Private beta keeps agents, credentials and session history inside the customer's perimeter, with audit records over OpenTelemetry."
+    },
+    {
+      "title": "SteerDistill quantizes agent models by steering a teacher in the loop",
+      "url": "https://x.com/_akhaliq/status/2120952429093245062",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "New work on quantizing LLM agents, plus AgentBaton for model collaboration and P2-MOPD for multi-teacher distillation."
+    },
+    {
+      "title": "OpenAI finds chain-of-thought monitoring weakens as models scale",
+      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "Four training steps erode reasoning transparency, so watching a model's notes is a weaker safety control than it looks."
+    },
+    {
+      "title": "Gemini 4 Hydrogen outscores Google's bigger Argon model",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "The Flash replacement nearly matches Claude Sonnet 5.5 on the Artificial Analysis index, but costs 2.5 times GPT-6.1 per task."
+    },
+    {
+      "title": "Amplitude ships product changes in 1 to 2 days with OpenAI agents",
+      "url": "https://openai.com/index/amplitude",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "Its Wave agent picks what to build, hands it to coding agents and measures the result, cutting a release cycle to days."
+    },
+    {
+      "title": "IBM's LLMON markup language lands in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "A markup format built for language models rather than humans, shipped inside two small Granite models."
+    },
+    {
+      "title": "Data centre power bills land on lower-income rural residents",
+      "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "Cornell research finds the grid upgrades behind AI data centres are paid for by households least able to absorb the cost."
+    },
+    {
+      "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal",
+      "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "Huang left the CEO role, the presidency and the board immediately on 12 November, after 1.4 trillion dollars of value was wiped out."
+    },
     {
       "title": "Anthropic opens IPO roadshow with 17 billion dollar quarter",
       "url": "https://ipo.anthropic.com/",
@@ -355,74 +418,11 @@
       "summary": "Qwen4-Max previews on Alibaba's Token Plan with no weights, benchmarks or context length published; the plan bans scheduled automation."
     },
     {
-      "title": "Kimi K3.1 Pro Highspeed brings 2 to 3x faster output to Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
-      "category": "moonshot_ai",
-      "published": "2026-11-10",
-      "summary": "Same open-weight 1M-context architecture as K3.1 Pro, post-trained for long agent runs and served faster: $4 input and $20 output per million tokens."
-    },
-    {
-      "title": "Apple's Claris previews Harbor, a private AI server for Macs",
-      "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app/",
+      "title": "OpenAI opens business profiles and customer agents inside ChatGPT",
+      "url": "https://x.com/OpenAI/status/2120216592395174382",
       "category": "platforms_integration",
       "published": "2026-11-10",
-      "summary": "Claris, Apple's software arm, previews Harbor: a private AI server app that runs on Apple silicon Macs rather than in a hosted cloud."
-    },
-    {
-      "title": "MiniMax's 33B image model now edits in two sampling steps",
-      "url": "https://x.com/_akhaliq/status/2120265977657168218",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "A pDMD LoRA drops MiniMax-H3-Image from six steps to two, shipping as a one-file ComfyUI checkpoint with a live Space on Hugging Face ZeroGPU."
-    },
-    {
-      "title": "Nvidia says GR00T 2 weights land in December, not now",
-      "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
-      "category": "ai_models",
-      "published": "2026-11-10",
-      "summary": "Jim Fan says GR00T 2 and Turbo weights plus the cross-embodiment recipe arrive in December 2026; only the Human-1M-100K dataset is out, with no licence."
-    },
-    {
-      "title": "OpenAI and Cogent build cyber defence factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "The two firms are packaging frontier-model security operations for enterprise customers, days before OpenAI's 12 November cyber keynote."
-    },
-    {
-      "title": "Glasswing audit: 442 CVEs in seven months, 217 fixed",
-      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
-      "category": "anthropic",
-      "published": "2026-11-10",
-      "summary": "VulnCheck counts 37,966 Glasswing findings, 7,349 public and 217 fixed, and says 2 of 442 CVEs were exploited in the wild."
-    },
-    {
-      "title": "OpenAI acquires Odessia, a year-old AI travel agent",
-      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-      "category": "industry",
-      "published": "2026-11-10",
-      "summary": "Sonder founder Francis Davidson joins OpenAI; the travel product is already shut down and no travel product was announced."
-    },
-    {
-      "title": "OpenAI to show security tools built from its own bug hunting",
-      "url": "https://x.com/OpenAI/status/2120202353907486826",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "A 12 November keynote promises tools and playbooks from flaws OpenAI's own models found and fixed in its code and infrastructure."
-    },
-    {
-      "title": "Flide speeds decision-time inference with exact state forking",
-      "url": "https://huggingface.co/papers/2610.42148",
-      "category": "ai_research",
-      "published": "2026-11-10",
-      "summary": "The paper lets parallel search branches share one exact prefix, cutting the cost of running many candidate paths."
-    },
-    {
-      "title": "What objective is reasoning solving?",
-      "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
-      "category": "ai_research",
-      "published": "2026-11-10",
-      "summary": "Treats chains of thought as pathfinding in token space: training raises the odds of a good path, not that one path converges."
+      "summary": "In beta: businesses claim a profile and build an agent that answers customer questions and shows what they offer."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-12T08:17:00+08:00",
+      "at": "2026-11-13T08:15:59+08:00",
       "points": [
         {
-          "text": "Anthropic says it used its own AI to move Claude onto AMD chips in three days.",
-          "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/"
+          "text": "Anthropic shipped two new Claude models, Fable 5.2 and Mythos 5.2, at about half the cost per task of Opus 5.5.",
+          "url": "https://x.com/AnthropicAI/status/2119867707546071125"
         },
         {
-          "text": "A new report says Chinese labs bought about half a billion dollars of US AI training data.",
-          "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/"
+          "text": "Claude can now sit in your video calls and build documents while you talk.",
+          "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/"
         },
         {
-          "text": "Google's new decision model answers a thousand yes-or-no questions in one go.",
-          "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
+          "text": "Google's new Gemini 4 Hydrogen beats its own bigger model at a lower price.",
+          "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/"
         },
         {
-          "text": "United Airlines now bans AI agents from booking flights for people.",
-          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+          "text": "Meta released a small model that makes always-on agents about four times cheaper to run.",
+          "url": "https://research.meta.ai/blog/muse-ember"
         },
         {
-          "text": "DeepL's new voice model keeps the speaker's tone when it translates.",
-          "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/"
+          "text": "Ten AI companies signed a safety pledge in Paris, but the US, Google and Meta did not.",
+          "url": "https://uk.diplomatie.gouv.fr/en/paris-call-ai-safety-and-security"
         }
       ]
     },
