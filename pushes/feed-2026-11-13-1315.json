@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-11-13T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 10,
+  "tldr": "Anthropic's IPO filing says AI now speeds up its own research enough to trip a safety limit the company set for itself. Nvidia staff signed a petition asking for their old boss back, days after he resigned over an espionage scandal. OpenAI launched two security products that find bugs and then write the fixes as pull requests. A 145B model called Edge0 claims to run on an ordinary computer instead of a data centre. Adobe will build private Disney-trained models for films, parks and ESPN.",
+  "articles": [
+    {
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "Staff petition to reinstate the ousted CEO as Nvidia reels from the espionage scandal that erased $1.4tn in market value."
+    },
+    {
+      "title": "Every Hermes hackathon plugin, indexed in one page",
+      "url": "https://x.com/Teknium/status/2121079007164973522",
+      "category": "hermes_nous",
+      "published": "2026-11-13",
+      "summary": "Community page indexes the ~1,000 entries and flags taint tracking, skill-write gates and a secret-safe screen overlay."
+    },
+    {
+      "title": "Hugging Face CEO vows to keep fighting for open source AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open/",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "Clem Delangue tries to reassure the community that Hugging Face's open-source mission survives the Nvidia takeover."
+    },
+    {
+      "title": "Edge0-145B brings frontier AI to your own computer",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "A 145B-parameter open model built to run on local hardware, pitched as frontier capability without the cloud."
+    },
+    {
+      "title": "OpenAI ships Daybreak Red Team and Defense Factory",
+      "url": "https://x.com/gdb/status/2121004237413142656",
+      "category": "agents_tooling",
+      "published": "2026-11-12",
+      "summary": "Two cyber products: a swarm of agents that hunts exploitable paths, and a Codex plugin that files merge-ready fixes."
+    },
+    {
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "OpenAI customer story: Codex raised the lead engineer's output by half while ChatGPT handled the daily work."
+    },
+    {
+      "title": "Chinese frontier models carry the fingerprint of export-controlled GPUs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "Checkpoint forensics claims to trace Chinese frontier models back to the restricted Nvidia hardware they trained on."
+    },
+    {
+      "title": "Apple opens its Foundation Models framework to developers",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "Apple's on-device model layer gets a developer framework, putting small local models inside iOS and macOS apps."
+    },
+    {
+      "title": "Anthropic says a key AI safety threshold has been crossed",
+      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
+      "category": "policy",
+      "published": "2026-11-11",
+      "summary": "Its IPO filing discloses that AI now accelerates Anthropic's own research enough to trip its safety threshold. METR agrees."
+    },
+    {
+      "title": "DeepSeek's V4 line lands on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+      "category": "deepseek",
+      "published": "2026-11-11",
+      "summary": "V4-Pro, V4-Flash and V4.1-Flash are open-weight and MIT-licensed, and V4.1's KV cache is a quarter the size."
+    }
+  ]
+}

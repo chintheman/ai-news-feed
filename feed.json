@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-11-13T08:15:59+08:00",
+  "updated_at": "2026-11-13T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic shipped two new Claude models, Fable 5.2 and Mythos 5.2, at about half the cost per task of Opus 5.5. Claude can now sit in your video calls and build documents while you talk. Google's new Gemini 4 Hydrogen beats its own bigger model at a lower price. Meta released a small model that makes always-on agents about four times cheaper to run. Ten AI companies signed a safety pledge in Paris, but the US, Google and Meta did not.",
+  "tldr": "Anthropic's IPO filing says AI now speeds up its own research enough to trip a safety limit the company set for itself. Nvidia staff signed a petition asking for their old boss back, days after he resigned over an espionage scandal. OpenAI launched two security products that find bugs and then write the fixes as pull requests. A 145B model called Edge0 claims to run on an ordinary computer instead of a data centre. Adobe will build private Disney-trained models for films, parks and ESPN.",
   "articles": [
+    {
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "Staff petition to reinstate the ousted CEO as Nvidia reels from the espionage scandal that erased $1.4tn in market value."
+    },
+    {
+      "title": "Every Hermes hackathon plugin, indexed in one page",
+      "url": "https://x.com/Teknium/status/2121079007164973522",
+      "category": "hermes_nous",
+      "published": "2026-11-13",
+      "summary": "Community page indexes the ~1,000 entries and flags taint tracking, skill-write gates and a secret-safe screen overlay."
+    },
+    {
+      "title": "Hugging Face CEO vows to keep fighting for open source AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open/",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "Clem Delangue tries to reassure the community that Hugging Face's open-source mission survives the Nvidia takeover."
+    },
+    {
+      "title": "Edge0-145B brings frontier AI to your own computer",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "A 145B-parameter open model built to run on local hardware, pitched as frontier capability without the cloud."
+    },
+    {
+      "title": "OpenAI ships Daybreak Red Team and Defense Factory",
+      "url": "https://x.com/gdb/status/2121004237413142656",
+      "category": "agents_tooling",
+      "published": "2026-11-12",
+      "summary": "Two cyber products: a swarm of agents that hunts exploitable paths, and a Codex plugin that files merge-ready fixes."
+    },
+    {
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "OpenAI customer story: Codex raised the lead engineer's output by half while ChatGPT handled the daily work."
+    },
+    {
+      "title": "Chinese frontier models carry the fingerprint of export-controlled GPUs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "Checkpoint forensics claims to trace Chinese frontier models back to the restricted Nvidia hardware they trained on."
+    },
+    {
+      "title": "Apple opens its Foundation Models framework to developers",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "Apple's on-device model layer gets a developer framework, putting small local models inside iOS and macOS apps."
+    },
     {
       "title": "Claude Meetings joins your video call and builds the documents live",
       "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
@@ -201,6 +257,20 @@
       "summary": "Terminal Bench 2.1 and AIME 2026 scores land near unquantized V4.1 Flash in a single 128GB local build."
     },
     {
+      "title": "Anthropic says a key AI safety threshold has been crossed",
+      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
+      "category": "policy",
+      "published": "2026-11-11",
+      "summary": "Its IPO filing discloses that AI now accelerates Anthropic's own research enough to trip its safety threshold. METR agrees."
+    },
+    {
+      "title": "DeepSeek's V4 line lands on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+      "category": "deepseek",
+      "published": "2026-11-11",
+      "summary": "V4-Pro, V4-Flash and V4.1-Flash are open-weight and MIT-licensed, and V4.1's KV cache is a quarter the size."
+    },
+    {
       "title": "Pi routes each question to the best model by load, no manual switching",
       "url": "https://x.com/julien_c/status/2120168716251898041",
       "category": "platforms_integration",
@@ -353,76 +423,6 @@
       "category": "industry",
       "published": "2026-11-11",
       "summary": "Wall Street Journal figures put quarterly revenue at $10B against an operating loss of $10.9B, so spending still outruns income."
-    },
-    {
-      "title": "UK regulator threatens sanctions unless universities adopt AI-proof exams",
-      "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
-      "category": "policy",
-      "published": "2026-11-11",
-      "summary": "England's Office for Students says AI has made coursework nearly impossible to assess fairly, and wants checked exam formats instead."
-    },
-    {
-      "title": "U.S. imposes new rules on ordering synthetic DNA to deter bioterrorism",
-      "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
-      "category": "policy",
-      "published": "2026-11-11",
-      "summary": "Orders for synthetic DNA now face screening and identity checks, aimed at stopping assembled pathogens from reaching the wrong hands."
-    },
-    {
-      "title": "Grok 4.8 finishes pre-training and moves into reinforcement learning",
-      "url": "https://x.com/elonmusk/status/2120088070443655190",
-      "category": "ai_models",
-      "published": "2026-11-11",
-      "summary": "Musk says the run finished after a full rewrite of the training stack in C, and the model has entered RL; no benchmark or release date was given."
-    },
-    {
-      "title": "ElevenLabs Scribe v3 cuts word errors 27% and labels speakers live",
-      "url": "https://elevenlabs.io/blog/scribe-v3",
-      "category": "platforms_integration",
-      "published": "2026-11-11",
-      "summary": "The new speech-to-text model drops transcription errors by roughly a quarter against v2 and names who is speaking while the audio is still running."
-    },
-    {
-      "title": "Editing under ten dormant neurons backdoors an AI agent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt82mz/microsoft_research_backdoored_an_ai_agent_by/",
-      "category": "ai_research",
-      "published": "2026-11-11",
-      "summary": "Microsoft Research planted hidden behaviour by editing fewer than ten rarely-firing neurons, a far smaller surface than fine-tuning or poisoned training data."
-    },
-    {
-      "title": "WorkflowArena tests whether the strongest model should run the team",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
-      "category": "ai_research",
-      "published": "2026-11-11",
-      "summary": "A benchmark puts the strongest model in the coordinator seat of multi-agent workflows and reports which layouts beat handing every step to one model."
-    },
-    {
-      "title": "llama.cpp adds an FP8 KV cache for local inference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt9o3t/llamacpp_add_fp8_kvcache/",
-      "category": "agents_tooling",
-      "published": "2026-11-11",
-      "summary": "A patch brings FP8 KV-cache support to llama.cpp, shrinking cache memory at long context on consumer hardware."
-    },
-    {
-      "title": "BotPsy runs a sub-billion agent model on the device",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
-      "category": "agents_tooling",
-      "published": "2026-11-11",
-      "summary": "A sub-billion-parameter agentic language model is packaged as an on-device personal assistant, with the build written up on the Hugging Face blog."
-    },
-    {
-      "title": "Qwen4-Max opens in preview on Alibaba's Token Plan",
-      "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
-      "category": "chinese_ai",
-      "published": "2026-11-11",
-      "summary": "Qwen4-Max previews on Alibaba's Token Plan with no weights, benchmarks or context length published; the plan bans scheduled automation."
-    },
-    {
-      "title": "OpenAI opens business profiles and customer agents inside ChatGPT",
-      "url": "https://x.com/OpenAI/status/2120216592395174382",
-      "category": "platforms_integration",
-      "published": "2026-11-10",
-      "summary": "In beta: businesses claim a profile and build an agent that answers customer questions and shows what they offer."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-12T13:15:00+08:00",
+      "at": "2026-11-13T13:15:00+08:00",
       "points": [
         {
-          "text": "Nvidia's board may remove Jensen Huang, and the stock fell about 9% after hours.",
-          "url": "https://x.com/Reuters/status/2120730075771633730"
+          "text": "Anthropic's IPO filing says AI now speeds up its own research enough to trip a safety limit the company set for itself.",
+          "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html"
         },
         {
-          "text": "A free method beats Unsloth and Bartowski at the same model file size.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xto0fa/opensource_method_macaq_beats_unsloth_ggufs/"
+          "text": "Nvidia staff signed a petition asking for their old boss back, days after he resigned over an espionage scandal.",
+          "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
         },
         {
-          "text": "AWS published an emulator on GitHub that runs about 200 of its cloud services on your laptop.",
-          "url": "https://github.com/aws/aws-emulator"
+          "text": "OpenAI launched two security products that find bugs and then write the fixes as pull requests.",
+          "url": "https://x.com/gdb/status/2121004237413142656"
         },
         {
-          "text": "A hack turns an old Nvidia mining card into a faster A100.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/"
+          "text": "A 145B model called Edge0 claims to run on an ordinary computer instead of a data centre.",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
         },
         {
-          "text": "About 1,000 people entered the Hermes plugin hackathon, and winners come in about a week.",
-          "url": "https://x.com/NousResearch/status/2120715518243987685"
+          "text": "Adobe will build private Disney-trained models for films, parks and ESPN.",
+          "url": "https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance"
         }
       ]
     }
