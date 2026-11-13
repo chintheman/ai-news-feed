@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-11-13T08:15:59+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 17,
+  "tldr": "Anthropic shipped two new Claude models, Fable 5.2 and Mythos 5.2, at about half the cost per task of Opus 5.5. Claude can now sit in your video calls and build documents while you talk. Google's new Gemini 4 Hydrogen beats its own bigger model at a lower price. Meta released a small model that makes always-on agents about four times cheaper to run. Ten AI companies signed a safety pledge in Paris, but the US, Google and Meta did not.",
+  "articles": [
+    {
+      "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2 at half the cost per task",
+      "url": "https://x.com/AnthropicAI/status/2119867707546071125",
+      "category": "anthropic",
+      "published": "2026-11-09",
+      "summary": "Fable 5.2 leads FrontierCode 2.0 at 49.1% and costs about half of Opus 5.5 per task; Mythos 5.2 finds 10.2% more bugs."
+    },
+    {
+      "title": "Meta's Muse Ember makes always-on agents about four times cheaper",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "category": "ai_models",
+      "published": "2026-11-09",
+      "summary": "A small agent model with a 1M-token context at about $0.02 per task, roughly four times cheaper than GPT-6 Luna and Haiku 5.5."
+    },
+    {
+      "title": "OpenAI opens business profiles and customer agents inside ChatGPT",
+      "url": "https://x.com/OpenAI/status/2120216592395174382",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "In beta: businesses claim a profile and build an agent that answers customer questions and shows what they offer."
+    },
+    {
+      "title": "Claude Meetings joins your video call and builds the documents live",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+      "category": "anthropic",
+      "published": "2026-11-12",
+      "summary": "Beta on Team and Enterprise plans: Claude joins Google Meet and writes notes, whiteboards and docs while the call runs."
+    },
+    {
+      "title": "Anthropic lets enterprises run Claude Managed Agents in their own cloud",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "category": "agents_tooling",
+      "published": "2026-11-12",
+      "summary": "Private beta keeps agents, credentials and session history inside the customer's perimeter, with audit records over OpenTelemetry."
+    },
+    {
+      "title": "Hermes Cloud runs an agent 24/7 in a browser tab, laptop closed",
+      "url": "https://x.com/NousResearch/status/2119851439904510217",
+      "category": "hermes_nous",
+      "published": "2026-11-09",
+      "summary": "Pick a name and a model in Nous Portal; the agent keeps its own container, runs scheduled jobs and answers on any channel."
+    },
+    {
+      "title": "Fable 5.2 is live in Hermes Agent the day it shipped",
+      "url": "https://x.com/NousResearch/status/2119927476784607697",
+      "category": "hermes_nous",
+      "published": "2026-11-09",
+      "summary": "Available through Nous Portal, OpenRouter or a Claude subscription, so there is no integration wait."
+    },
+    {
+      "title": "Google adds TPU 8tx and 8i Max for long-context agent work",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
+      "category": "platforms_integration",
+      "published": "2026-11-09",
+      "summary": "8tx adds a secure enclave for regulated inference; 8i Max doubles compute, SRAM and HBM for agents reading whole codebases."
+    },
+    {
+      "title": "Ten AI labs sign a Paris safety pledge with no deadlines or penalties",
+      "url": "https://uk.diplomatie.gouv.fr/en/paris-call-ai-safety-and-security",
+      "category": "policy",
+      "published": "2026-11-09",
+      "summary": "Anthropic, OpenAI, Microsoft and seven others promise shared testing and kill switches; the US, Google and Meta did not sign."
+    },
+    {
+      "title": "AI 2027 authors move their superhuman researcher forecast into 2027",
+      "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+      "category": "ai_research",
+      "published": "2026-11-10",
+      "summary": "All six authors now put a superhuman AI researcher in 2027, and 35 to 65 percent odds of top-expert-level AI before 2028."
+    },
+    {
+      "title": "SteerDistill quantizes agent models by steering a teacher in the loop",
+      "url": "https://x.com/_akhaliq/status/2120952429093245062",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "New work on quantizing LLM agents, plus AgentBaton for model collaboration and P2-MOPD for multi-teacher distillation."
+    },
+    {
+      "title": "OpenAI finds chain-of-thought monitoring weakens as models scale",
+      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+      "category": "ai_research",
+      "published": "2026-11-12",
+      "summary": "Four training steps erode reasoning transparency, so watching a model's notes is a weaker safety control than it looks."
+    },
+    {
+      "title": "Gemini 4 Hydrogen outscores Google's bigger Argon model",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "The Flash replacement nearly matches Claude Sonnet 5.5 on the Artificial Analysis index, but costs 2.5 times GPT-6.1 per task."
+    },
+    {
+      "title": "Amplitude ships product changes in 1 to 2 days with OpenAI agents",
+      "url": "https://openai.com/index/amplitude",
+      "category": "platforms_integration",
+      "published": "2026-11-12",
+      "summary": "Its Wave agent picks what to build, hands it to coding agents and measures the result, cutting a release cycle to days."
+    },
+    {
+      "title": "IBM's LLMON markup language lands in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "A markup format built for language models rather than humans, shipped inside two small Granite models."
+    },
+    {
+      "title": "Data centre power bills land on lower-income rural residents",
+      "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "Cornell research finds the grid upgrades behind AI data centres are paid for by households least able to absorb the cost."
+    },
+    {
+      "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal",
+      "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "Huang left the CEO role, the presidency and the board immediately on 12 November, after 1.4 trillion dollars of value was wiped out."
+    }
+  ]
+}
