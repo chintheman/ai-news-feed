@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-11-14T08:15:00+08:00",
+  "updated_at": "2026-11-14T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Open weights had a strong week: Thinking Machines released the full Inkling 2 Small model for anyone to download. Anthropic put Claude inside factory software, letting it draft quotes and chase suppliers once a person approves. OpenAI launched a wallet so agents can buy things with your card, after you confirm each purchase with your face or fingerprint. Most Grok-built apps were open to anyone with the link, and about one in ten exposed private data. MiniMax released an image model that makes 4K pictures in about ten seconds.",
+  "tldr": "DeepSeek now sells its whole app through the API, including web search, file reading and voice. LangChain raised 300 million dollars at a 3 billion dollar valuation. Anthropic's share sale is six times oversubscribed. OpenAI shut its robotics team and moved the people into general research. A new test found AI assistants speak up far more often than they stay quiet.",
   "articles": [
+    {
+      "title": "Claim: Nvidia financed AI startups to soak up excess GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsb5f/instead_of_lowering_gpu_prices_former_nvidia_ceo/",
+      "category": "industry",
+      "published": "2026-11-14",
+      "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
+    },
+    {
+      "title": "DeepSeek puts its whole app stack behind the API",
+      "url": "https://api-docs.deepseek.com/news/news261113/",
+      "category": "deepseek",
+      "published": "2026-11-13",
+      "summary": "Web search, URL reading, file parsing, OCR, ASR and TTS now run server-side on deepseek-flash, billed per call on top of tokens."
+    },
+    {
+      "title": "LangChain raises 300 million dollars at a 3 billion valuation",
+      "url": "https://www.langchain.com/blog/series-c",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "CapitalG led the round with Singapore's GIC joining. More than 7,000 organisations use LangSmith, and a release event lands 20 November."
+    },
+    {
+      "title": "Anthropic's IPO is six times oversubscribed",
+      "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+      "category": "anthropic",
+      "published": "2026-11-13",
+      "summary": "Orders exceed available shares sixfold, putting the listing on track to be the largest public offering in history."
+    },
+    {
+      "title": "OpenAI disbands its robotics team",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "Researchers move into the main research group under Mark Chen. OpenAI says general models like GPT-6 Astra can drive robots directly."
+    },
+    {
+      "title": "Deepnote tests whether agents know when to stay quiet",
+      "url": "https://deepnote.com/research/benchmark",
+      "category": "ai_research",
+      "published": "2026-11-13",
+      "summary": "Twelve models in a fake 71-person company spoke up 9 times in 10 when help was needed, but stayed silent only 6 times in 10 when it was not."
+    },
+    {
+      "title": "Bland previews Tofu-1, a speech model that listens while it talks",
+      "url": "https://www.bland.ai/speech-to-speech",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Full-duplex speech-to-speech built for phone calls. An enterprise preview only, with no price, latency or benchmark numbers published."
+    },
+    {
+      "title": "Meta's Muse will call businesses on your behalf",
+      "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "Paying US subscribers can have Meta's agent ring cable providers and restaurants. Meta's AI chief says Muse already has 10 million users."
+    },
+    {
+      "title": "Qwen3.5-9B runs on a PlayStation 4 at 31 to 39 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/",
+      "category": "chinese_ai",
+      "published": "2026-11-13",
+      "summary": "An open-source project runs the 9B model offline on stock console hardware, using its own MTP head for speculative decoding."
+    },
+    {
+      "title": "A Hessian trick improves GGUF quants by 13 percent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbqqa/i_noticed_the_2_hessian_refinement_of_macaq_can/",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Applying MACaQ's refinement to any GGUF file gave a quant 13 percent closer to full precision than the standard build, measured on one 5090."
+    },
+    {
+      "title": "Nvidia says it can track its chips, and Washington wants licences",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvcbbh/nvidia_privately_confirmed_it_could_track_chips/",
+      "category": "policy",
+      "published": "2026-11-13",
+      "summary": "Nvidia confirmed privately it could track smuggled GPUs. A proposed rule would require a verified licence before a chip is allowed to connect."
+    },
+    {
+      "title": "OpenAI's Shield story: agents that click through legacy portals",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "IT technicians hand tasks inside old portals to Forge agents, so their time goes to the problems that actually need their judgement."
+    },
     {
       "title": "OpenAI launches ChatGPT Wallet so agents can pay for things",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
@@ -339,90 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-12",
       "summary": "Apple Research shows a cheaper retrieval stage for RAG, the part of the pipeline that usually dominates latency."
-    },
-    {
-      "title": "Qwen4 commits already land in llama.cpp and RTP-LLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu5p6p/qwen4_is_coming_pull_requests_spoted_on_github/",
-      "category": "chinese_ai",
-      "published": "2026-11-12",
-      "summary": "Pull requests tagged qwen4exp appear in llama.cpp, days after Qwen4-Max opened in preview on Alibaba's Token Plan."
-    },
-    {
-      "title": "llama.cpp fix repairs Gemma 4 tool calling",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu6td8/chat_refactor_gemma4_to_build_loose_schema_rules/",
-      "category": "platforms_integration",
-      "published": "2026-11-12",
-      "summary": "A refactor lets Gemma 4 emit loose schema for tool calls, which users report fixes agentic coding that kept failing."
-    },
-    {
-      "title": "Yogurt: a free, on-device meeting recorder that replaces Granola",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "category": "platforms_integration",
-      "published": "2026-11-12",
-      "summary": "MIT-licensed desktop app that transcribes, summarizes and answers questions about meetings with local models, no cloud."
-    },
-    {
-      "title": "His AI agents found an unmapped Maya site, or he thinks they did",
-      "url": "https://pietromiotti.com/latest/maya-site",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "A developer points agents at lidar and survey data and argues the output is a site nobody has mapped. 998 points on Hacker News."
-    },
-    {
-      "title": "ByteDance prepares a proactive assistant and 70 billion dollars of AI spend",
-      "url": "https://dealroom.co/news/172034-bytedance-plans-muse-style-ai-agent-eyes-70b-ai-spend",
-      "category": "chinese_ai",
-      "published": "2026-11-12",
-      "summary": "A Muse-style agent that acts without being asked, backed by a spend figure larger than most national AI programmes."
-    },
-    {
-      "title": "Nvidia board weighs ousting Jensen Huang, stock down about 9%",
-      "url": "https://x.com/Reuters/status/2120730075771633730",
-      "category": "industry",
-      "published": "2026-11-12",
-      "summary": "Reuters: no board decision yet as the meeting runs; nearly half a billion dollars of profit wiped out so far."
-    },
-    {
-      "title": "Hermes plugin hackathon closes with nearly 1,000 entries",
-      "url": "https://x.com/NousResearch/status/2120715518243987685",
-      "category": "hermes_nous",
-      "published": "2026-11-12",
-      "summary": "Judges are cutting to the top 10; winners get emailed and posted on X in about a week."
-    },
-    {
-      "title": "A mining card voltage-glitched into an A100-80G runs about 1.18x faster than retail",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "The CMP 170HX ships with about 80GB of HBM fused off; fault injection unlocks it and 85.9 TFLOP/s."
-    },
-    {
-      "title": "Inflect v3: a 34M-parameter local text-to-speech family under Apache 2.0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtzwxf/i_released_inflect_v3_lightweight_local_tts_in/",
-      "category": "ai_models",
-      "published": "2026-11-12",
-      "summary": "Mini, Micro and Atom models: six voices, 48 kHz enhancement, runs on CPU or CUDA with no cloud call."
-    },
-    {
-      "title": "DeepSeek V4.1 Flash holds close to full precision at 2.9bpw on a 6x3090 box",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtyxl9/deepseek_v41_flash_1017_exl3_29bpw_apex_2025/",
-      "category": "deepseek",
-      "published": "2026-11-12",
-      "summary": "Terminal Bench 2.1 and AIME 2026 scores land near unquantized V4.1 Flash in a single 128GB local build."
-    },
-    {
-      "title": "MiniMax H3-Image makes native 4K pictures in under ten seconds",
-      "url": "https://www.minimax.io/blog/minimax-h3-image",
-      "category": "chinese_ai",
-      "published": "2026-11-11",
-      "summary": "A 33B open-weight image model generates and edits at 16 megapixels, though its licence excludes the US, EU, UK and South Korea."
-    },
-    {
-      "title": "Runway releases Praxis-1 weights for video and action prediction",
-      "url": "https://join.dev/news/ai/2026-11-13/",
-      "category": "ai_models",
-      "published": "2026-11-11",
-      "summary": "Weights, inference and fine-tuning code are out under Apache 2.0 for a model that predicts video and robot actions together."
     }
   ],
   "tldrs": {
@@ -473,27 +473,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-13T13:15:00+08:00",
+      "at": "2026-11-14T13:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic's IPO filing says AI now speeds up its own research enough to trip a safety limit the company set for itself.",
-          "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html"
+          "text": "DeepSeek now sells its whole app through the API, including web search, file reading and voice.",
+          "url": "https://api-docs.deepseek.com/news/news261113/"
         },
         {
-          "text": "Nvidia staff signed a petition asking for their old boss back, days after he resigned over an espionage scandal.",
-          "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+          "text": "LangChain raised 300 million dollars at a 3 billion dollar valuation.",
+          "url": "https://www.langchain.com/blog/series-c"
         },
         {
-          "text": "OpenAI launched two security products that find bugs and then write the fixes as pull requests.",
-          "url": "https://x.com/gdb/status/2121004237413142656"
+          "text": "Anthropic's share sale is six times oversubscribed.",
+          "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/"
         },
         {
-          "text": "A 145B model called Edge0 claims to run on an ordinary computer instead of a data centre.",
-          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+          "text": "OpenAI shut its robotics team and moved the people into general research.",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
         },
         {
-          "text": "Adobe will build private Disney-trained models for films, parks and ESPN.",
-          "url": "https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance"
+          "text": "A new test found AI assistants speak up far more often than they stay quiet.",
+          "url": "https://deepnote.com/research/benchmark"
         }
       ]
     }

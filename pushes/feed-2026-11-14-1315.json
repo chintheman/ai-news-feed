@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-11-14T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 12,
+  "tldr": "DeepSeek now sells its whole app through the API, including web search, file reading and voice. LangChain raised 300 million dollars at a 3 billion dollar valuation. Anthropic's share sale is six times oversubscribed. OpenAI shut its robotics team and moved the people into general research. A new test found AI assistants speak up far more often than they stay quiet.",
+  "articles": [
+    {
+      "title": "DeepSeek puts its whole app stack behind the API",
+      "url": "https://api-docs.deepseek.com/news/news261113/",
+      "category": "deepseek",
+      "published": "2026-11-13",
+      "summary": "Web search, URL reading, file parsing, OCR, ASR and TTS now run server-side on deepseek-flash, billed per call on top of tokens."
+    },
+    {
+      "title": "LangChain raises 300 million dollars at a 3 billion valuation",
+      "url": "https://www.langchain.com/blog/series-c",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "CapitalG led the round with Singapore's GIC joining. More than 7,000 organisations use LangSmith, and a release event lands 20 November."
+    },
+    {
+      "title": "Anthropic's IPO is six times oversubscribed",
+      "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+      "category": "anthropic",
+      "published": "2026-11-13",
+      "summary": "Orders exceed available shares sixfold, putting the listing on track to be the largest public offering in history."
+    },
+    {
+      "title": "OpenAI disbands its robotics team",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "Researchers move into the main research group under Mark Chen. OpenAI says general models like GPT-6 Astra can drive robots directly."
+    },
+    {
+      "title": "Deepnote tests whether agents know when to stay quiet",
+      "url": "https://deepnote.com/research/benchmark",
+      "category": "ai_research",
+      "published": "2026-11-13",
+      "summary": "Twelve models in a fake 71-person company spoke up 9 times in 10 when help was needed, but stayed silent only 6 times in 10 when it was not."
+    },
+    {
+      "title": "Bland previews Tofu-1, a speech model that listens while it talks",
+      "url": "https://www.bland.ai/speech-to-speech",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Full-duplex speech-to-speech built for phone calls. An enterprise preview only, with no price, latency or benchmark numbers published."
+    },
+    {
+      "title": "Meta's Muse will call businesses on your behalf",
+      "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "Paying US subscribers can have Meta's agent ring cable providers and restaurants. Meta's AI chief says Muse already has 10 million users."
+    },
+    {
+      "title": "Qwen3.5-9B runs on a PlayStation 4 at 31 to 39 tokens a second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/",
+      "category": "chinese_ai",
+      "published": "2026-11-13",
+      "summary": "An open-source project runs the 9B model offline on stock console hardware, using its own MTP head for speculative decoding."
+    },
+    {
+      "title": "A Hessian trick improves GGUF quants by 13 percent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbqqa/i_noticed_the_2_hessian_refinement_of_macaq_can/",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Applying MACaQ's refinement to any GGUF file gave a quant 13 percent closer to full precision than the standard build, measured on one 5090."
+    },
+    {
+      "title": "Nvidia says it can track its chips, and Washington wants licences",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvcbbh/nvidia_privately_confirmed_it_could_track_chips/",
+      "category": "policy",
+      "published": "2026-11-13",
+      "summary": "Nvidia confirmed privately it could track smuggled GPUs. A proposed rule would require a verified licence before a chip is allowed to connect."
+    },
+    {
+      "title": "OpenAI's Shield story: agents that click through legacy portals",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "IT technicians hand tasks inside old portals to Forge agents, so their time goes to the problems that actually need their judgement."
+    },
+    {
+      "title": "Claim: Nvidia financed AI startups to soak up excess GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsb5f/instead_of_lowering_gpu_prices_former_nvidia_ceo/",
+      "category": "industry",
+      "published": "2026-11-14",
+      "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
+    }
+  ]
+}
