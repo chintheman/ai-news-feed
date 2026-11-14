@@ -1,15 +1,92 @@
 {
-  "updated_at": "2026-11-14T13:15:00+08:00",
+  "updated_at": "2026-11-14T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepSeek now sells its whole app through the API, including web search, file reading and voice. LangChain raised 300 million dollars at a 3 billion dollar valuation. Anthropic's share sale is six times oversubscribed. OpenAI shut its robotics team and moved the people into general research. A new test found AI assistants speak up far more often than they stay quiet.",
+  "tldr": "A former researcher says DeepSeek, Moonshot, MiniMax and Ant Group are running Nvidia's banned Blackwell chips. Garry Tan's open test shows the wrapper around a model decides most of its coding score. Runway released a free robot control model and Nex-AGI shipped a 321B agent model under a free licence. Shopify switched on a new standard so personal AI agents can shop on any store. Anthropic's ex-researcher says an IPO slide shows Mythos can be rebuilt for a fraction of the compute.",
   "articles": [
+    {
+      "title": "Anthropic can retrain Mythos for a fraction of the compute, says Coxon",
+      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "category": "anthropic",
+      "published": "2026-11-14",
+      "summary": "Ex-researcher Jacob Coxon cites an IPO roadshow slide showing Anthropic's training algorithms speeding up."
+    },
+    {
+      "title": "Garry Tan opens harness evals: rules in hooks run, unnamed skills do not",
+      "url": "https://github.com/garrytan/g-harness-evals",
+      "category": "agents_tooling",
+      "published": "2026-11-14",
+      "summary": "MIT evals fix the model and tasks and swap only the harness: five of six rivals landed within 15 points of Claude Code."
+    },
+    {
+      "title": "Opus 5.5 stays the coding default as Fable 5.2 costs 2.8x per task",
+      "url": "https://x.com/garrytan/status/2121464508225053153",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "Fable 5.2 solved 82.7% of 52 coding tasks against Opus 5.5's 84.6%, at 2.8 times the cost for each solved task."
+    },
+    {
+      "title": "Runway open-sources Praxis-1 as a robot control model",
+      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "Praxis-1 turns camera frames plus a text instruction into robot movement, shipped with weights and code under Apache 2.0."
+    },
+    {
+      "title": "Nex-AGI ships Nex-N2.6, a 321B agentic model under Apache 2.0",
+      "url": "https://huggingface.co/nex-agi/Nex-N2.6",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "Built on GLM-5.3-Flash, it scores 83.0 on OSWorld against the base model's 78.0 and runs in FP8."
+    },
+    {
+      "title": "MiniMax releases H3-Image, a 33B open model for 16MP output",
+      "url": "https://www.thenextgentechinsider.com/pulse/minimax-launches-h3-image-model-for-native-16mp-high-resolution-generation",
+      "category": "chinese_ai",
+      "published": "2026-11-14",
+      "summary": "A 33.1B diffusion transformer that generates roughly 16MP natively and edits from multiple references, no upscale pass."
+    },
+    {
+      "title": "Claude Code adds an experimental Code Mode",
+      "url": "https://code.claude.com/docs/en/code-mode",
+      "category": "anthropic",
+      "published": "2026-11-14",
+      "summary": "Off by default: Claude writes JavaScript that fires several tool calls in one step instead of one call at a time."
+    },
+    {
+      "title": "SenseNova Loop-9B preview reported to match Qwen 3.5 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-11-14",
+      "summary": "Early testers say the 9B preview is level with a model three times its size, with roughly 15B parameters active."
+    },
+    {
+      "title": "Unsloth ships dynamic v3.1 quantizations for Qwen3.8-27B",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "category": "chinese_ai",
+      "published": "2026-11-14",
+      "summary": "The update cuts memory use so Qwen3.8-27B fits smaller cards, and topped Hacker News on Saturday."
+    },
     {
       "title": "Claim: Nvidia financed AI startups to soak up excess GPUs",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsb5f/instead_of_lowering_gpu_prices_former_nvidia_ceo/",
       "category": "industry",
       "published": "2026-11-14",
       "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
+    },
+    {
+      "title": "Researcher says Chinese labs run Nvidia Blackwell despite export ban",
+      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Will DePue says forensic analysis ties DeepSeek, Moonshot, MiniMax and Ant Group to export-controlled Blackwell chips."
+    },
+    {
+      "title": "Poppy 1.0 goes live, and Shopify turns it on for every store",
+      "url": "https://sierra.ai/blog/releasing-poppy",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "The Personal Agent Protocol links personal agents to company sites; Meta's Muse now looks for Poppy first."
     },
     {
       "title": "DeepSeek puts its whole app stack behind the API",
@@ -346,104 +423,31 @@
       "category": "ai_models",
       "published": "2026-11-12",
       "summary": "A markup format built for language models rather than humans, shipped inside two small Granite models."
-    },
-    {
-      "title": "Data centre power bills land on lower-income rural residents",
-      "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
-      "category": "industry",
-      "published": "2026-11-12",
-      "summary": "Cornell research finds the grid upgrades behind AI data centres are paid for by households least able to absorb the cost."
-    },
-    {
-      "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal",
-      "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
-      "category": "industry",
-      "published": "2026-11-12",
-      "summary": "Huang left the CEO role, the presidency and the board immediately on 12 November, after 1.4 trillion dollars of value was wiped out."
-    },
-    {
-      "title": "Anthropic opens IPO roadshow with 17 billion dollar quarter",
-      "url": "https://ipo.anthropic.com/",
-      "category": "industry",
-      "published": "2026-11-12",
-      "summary": "First public Q3 numbers: 17B revenue, 12x growth, 15 percent adjusted operating margin. Pricing Friday, first trade Monday under ANT."
-    },
-    {
-      "title": "Continual-ARC: agent memory learns nothing, but Hermes runs 2.6x cheaper",
-      "url": "https://www.unify.ai/blog/why-we-built-continual-arc",
-      "category": "hermes_nous",
-      "published": "2026-11-12",
-      "summary": "Unify's experience benchmark says agent harnesses memorize and generalize nothing. Teknium replies with the cost side: 32 vs 99 tool calls per task."
-    },
-    {
-      "title": "OpenAI puts 2 million dollars into research on AI and children's safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "category": "policy",
-      "published": "2026-11-12",
-      "summary": "The money funds shared tools to measure risks and benefits of AI for young people, alongside a wider declaration on child safety."
-    },
-    {
-      "title": "Australia moves to make frontier AI audits mandatory by law",
-      "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-      "category": "policy",
-      "published": "2026-11-12",
-      "summary": "A new regulator would force independent model testing and set steep penalties, the first time Australia writes frontier rules into law."
-    },
-    {
-      "title": "KQuant cuts quantization loss 3.7x on Qwen Flash Next and Qwen 27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu9onk/kquant_new_quantization_technique_37_better/",
-      "category": "ai_models",
-      "published": "2026-11-12",
-      "summary": "A new MLX quantizer measured by KL-divergence reduction across the 180B, 35B, 27B and 9B Qwen models."
-    },
-    {
-      "title": "MOSS-Image team plans an anime model and keeps Apache 2.0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuad5c/meet_the_people_behind_mossimage_plus_a_few/",
-      "category": "ai_models",
-      "published": "2026-11-12",
-      "summary": "An AMA covers alpha channels, multi-character references and an editing model on the way, all still promised open weights."
-    },
-    {
-      "title": "MetaEncoder: one Facebook encoder for both retrieval and decisions",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu8eie/metaencoder_a_facebook_collection_one_encoder_for/",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "Give it a task in plain language plus a list of candidates and it scores them, replacing separate retrieval and ranking models."
-    },
-    {
-      "title": "e-means beats k-means in a tenth of the epochs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu92md/paper_emeans_outperforming_kmeans_in_onetenth_the/",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "An exponential moving average update for mini-batch k-means, aimed at clustering, retrieval and data curation at scale."
-    },
-    {
-      "title": "Apple's faster retrieval cuts the cost of RAG lookups",
-      "url": "https://machinelearning.apple.com/research/faster-retrieval",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "Apple Research shows a cheaper retrieval stage for RAG, the part of the pipeline that usually dominates latency."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-13T21:15:00+08:00",
+      "at": "2026-11-14T21:15:00+08:00",
       "points": [
         {
-          "text": "Nous Research retrained a Chinese model so it stops repeating state propaganda, with no loss in ability. llama.cpp, the free tool that runs AI models on your own machine, reached version 1.0.",
-          "url": "https://nousresearch.com/arete"
+          "text": "A former researcher says DeepSeek, Moonshot, MiniMax and Ant Group are running Nvidia's banned Blackwell chips.",
+          "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/"
         },
         {
-          "text": "An Anthropic study finds team results get worse when every person brings their own agent.",
-          "url": "https://alignment.anthropic.com/2026/worse-together/"
+          "text": "Garry Tan's open test shows the wrapper around a model decides most of its coding score.",
+          "url": "https://github.com/garrytan/g-harness-evals"
         },
         {
-          "text": "Nonprofits sued five AI companies in California to force a pause on the most advanced models.",
-          "url": "https://www.politico.com/news/2026/11/12/nonprofits-sue-ai-companies-over-existential-risk-01161965"
+          "text": "Runway released a free robot control model and Nex-AGI shipped a 321B agent model under a free licence.",
+          "url": "https://huggingface.co/nex-agi/Nex-N2.6"
         },
         {
-          "text": "OpenAI released a free tool that scans code for security holes and writes the patches.",
-          "url": "https://github.com/openai/codex-security/releases"
+          "text": "Shopify switched on a new standard so personal AI agents can shop on any store.",
+          "url": "https://sierra.ai/blog/releasing-poppy"
+        },
+        {
+          "text": "Anthropic's ex-researcher says an IPO slide shows Mythos can be rebuilt for a fraction of the compute.",
+          "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/"
         }
       ]
     },

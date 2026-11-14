@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-11-14T21:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 12,
+  "tldr": "A former researcher says DeepSeek, Moonshot, MiniMax and Ant Group are running Nvidia's banned Blackwell chips. Garry Tan's open test shows the wrapper around a model decides most of its coding score. Runway released a free robot control model and Nex-AGI shipped a 321B agent model under a free licence. Shopify switched on a new standard so personal AI agents can shop on any store. Anthropic's ex-researcher says an IPO slide shows Mythos can be rebuilt for a fraction of the compute.",
+  "articles": [
+    {
+      "title": "Researcher says Chinese labs run Nvidia Blackwell despite export ban",
+      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Will DePue says forensic analysis ties DeepSeek, Moonshot, MiniMax and Ant Group to export-controlled Blackwell chips."
+    },
+    {
+      "title": "35,578 Grok-built apps were open to anyone with the link",
+      "url": "https://blog.claroc.io/ghostshares-grok-build-apps/",
+      "category": "platforms_integration",
+      "published": "2026-11-10",
+      "summary": "Claroc found 94.7% of 37,571 live Grok apps opened with no sign-in, exposing client data and staff passwords."
+    },
+    {
+      "title": "Anthropic can retrain Mythos for a fraction of the compute, says Coxon",
+      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "category": "anthropic",
+      "published": "2026-11-14",
+      "summary": "Ex-researcher Jacob Coxon cites an IPO roadshow slide showing Anthropic's training algorithms speeding up."
+    },
+    {
+      "title": "Garry Tan opens harness evals: rules in hooks run, unnamed skills do not",
+      "url": "https://github.com/garrytan/g-harness-evals",
+      "category": "agents_tooling",
+      "published": "2026-11-14",
+      "summary": "MIT evals fix the model and tasks and swap only the harness: five of six rivals landed within 15 points of Claude Code."
+    },
+    {
+      "title": "Opus 5.5 stays the coding default as Fable 5.2 costs 2.8x per task",
+      "url": "https://x.com/garrytan/status/2121464508225053153",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "Fable 5.2 solved 82.7% of 52 coding tasks against Opus 5.5's 84.6%, at 2.8 times the cost for each solved task."
+    },
+    {
+      "title": "Runway open-sources Praxis-1 as a robot control model",
+      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "Praxis-1 turns camera frames plus a text instruction into robot movement, shipped with weights and code under Apache 2.0."
+    },
+    {
+      "title": "Nex-AGI ships Nex-N2.6, a 321B agentic model under Apache 2.0",
+      "url": "https://huggingface.co/nex-agi/Nex-N2.6",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "Built on GLM-5.3-Flash, it scores 83.0 on OSWorld against the base model's 78.0 and runs in FP8."
+    },
+    {
+      "title": "MiniMax releases H3-Image, a 33B open model for 16MP output",
+      "url": "https://www.thenextgentechinsider.com/pulse/minimax-launches-h3-image-model-for-native-16mp-high-resolution-generation",
+      "category": "chinese_ai",
+      "published": "2026-11-14",
+      "summary": "A 33.1B diffusion transformer that generates roughly 16MP natively and edits from multiple references, no upscale pass."
+    },
+    {
+      "title": "Poppy 1.0 goes live, and Shopify turns it on for every store",
+      "url": "https://sierra.ai/blog/releasing-poppy",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "The Personal Agent Protocol links personal agents to company sites; Meta's Muse now looks for Poppy first."
+    },
+    {
+      "title": "Claude Code adds an experimental Code Mode",
+      "url": "https://code.claude.com/docs/en/code-mode",
+      "category": "anthropic",
+      "published": "2026-11-14",
+      "summary": "Off by default: Claude writes JavaScript that fires several tool calls in one step instead of one call at a time."
+    },
+    {
+      "title": "SenseNova Loop-9B preview reported to match Qwen 3.5 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-11-14",
+      "summary": "Early testers say the 9B preview is level with a model three times its size, with roughly 15B parameters active."
+    },
+    {
+      "title": "Unsloth ships dynamic v3.1 quantizations for Qwen3.8-27B",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "category": "chinese_ai",
+      "published": "2026-11-14",
+      "summary": "The update cuts memory use so Qwen3.8-27B fits smaller cards, and topped Hacker News on Saturday."
+    }
+  ]
+}
