@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-13T21:15:00+08:00",
+  "updated_at": "2026-11-14T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nous Research retrained a Chinese model so it stops repeating state propaganda, with no loss in ability. llama.cpp, the free tool that runs AI models on your own machine, reached version 1.0. An Anthropic study finds team results get worse when every person brings their own agent. Nonprofits sued five AI companies in California to force a pause on the most advanced models. OpenAI released a free tool that scans code for security holes and writes the patches.",
+  "tldr": "Open weights had a strong week: Thinking Machines released the full Inkling 2 Small model for anyone to download. Anthropic put Claude inside factory software, letting it draft quotes and chase suppliers once a person approves. OpenAI launched a wallet so agents can buy things with your card, after you confirm each purchase with your face or fingerprint. Most Grok-built apps were open to anyone with the link, and about one in ten exposed private data. MiniMax released an image model that makes 4K pictures in about ten seconds.",
   "articles": [
+    {
+      "title": "OpenAI launches ChatGPT Wallet so agents can pay for things",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "Agents in ChatGPT Work, Codex and dots can now complete purchases, with the user approving each one and card details kept behind tokens."
+    },
+    {
+      "title": "Modal inference arrives in Hermes as a verified plugin",
+      "url": "https://x.com/Teknium/status/2121296099755565332",
+      "category": "hermes_nous",
+      "published": "2026-11-13",
+      "summary": "Serverless GPU inference is now a verified plugin inside Hermes Agent, giving open-weight models somewhere to run without owning hardware."
+    },
+    {
+      "title": "Anthropic publishes ten rules for running safety evaluations",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "category": "anthropic",
+      "published": "2026-11-13",
+      "summary": "Ten recommendations for designing, running and reporting safety evaluations, published as frontier labs ask public investors to trust their claims."
+    },
+    {
+      "title": "Claude for Manufacturing plugs into Autodesk, NetSuite and Infor",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "category": "anthropic",
+      "published": "2026-11-13",
+      "summary": "The plugin connects Claude to factory software, with 17 skills that draft quotes and compare suppliers after human approval."
+    },
+    {
+      "title": "Banks block Chinese and Hong Kong buyers from Anthropic's IPO",
+      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "category": "anthropic",
+      "published": "2026-11-13",
+      "summary": "Banks are rejecting buy orders for the IPO from mainland China and Hong Kong, citing US export control rules, Bloomberg reports."
+    },
+    {
+      "title": "Nearly 70% of US agencies use generative AI, and unions are setting rules",
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "category": "policy",
+      "published": "2026-11-13",
+      "summary": "Public sector unions are winning AI guardrails: retraining instead of layoffs in Oakland and veto power over autonomous vehicles in Ohio."
+    },
+    {
+      "title": "DeepSeek V4.1 Flash Max first open model to pass 1% on SWE-sweep",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvcgxq/deepseek_flash_max_is_the_first_model_to_reach_1/",
+      "category": "deepseek",
+      "published": "2026-11-13",
+      "summary": "DeepSeek's model is the first open-weight entry to clear 1% on a benchmark where models hunt bugs across whole repositories."
+    },
+    {
+      "title": "CXMT plans to nearly triple memory output by 2028",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvam8o/cxmt_almost_tripling_ram_production_from_2025_to/",
+      "category": "industry",
+      "published": "2026-11-13",
+      "summary": "CXMT's output is projected to grow from 405k wafers a month in 2025 to 1,125k by 2028, which would ease DRAM prices if it lands."
+    },
+    {
+      "title": "Perplexity ships open Decider models that answer in probabilities",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider/",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "Apache 2.0 classifier models at 26B and 5B return a probability over answer options instead of writing text, built for decision tasks."
+    },
     {
       "title": "Nous retrains Qwen to strip state propaganda for 52M tokens",
       "url": "https://nousresearch.com/arete",
@@ -66,6 +129,13 @@
       "category": "industry",
       "published": "2026-11-13",
       "summary": "Clem Delangue tries to reassure the community that Hugging Face's open-source mission survives the Nvidia takeover."
+    },
+    {
+      "title": "Thinking Machines releases Inkling 2 Small weights under Apache 2.0",
+      "url": "https://x.com/thinkymachines/status/2120982625582195011",
+      "category": "ai_models",
+      "published": "2026-11-12",
+      "summary": "Apache 2.0 weights for a 594B total, 17B active model with a 1M context land on Hugging Face, though it wants about 500 GB of GPU memory."
     },
     {
       "title": "Codex Security 0.10.0 adds resumable scans and cost caps",
@@ -341,88 +411,18 @@
       "summary": "Terminal Bench 2.1 and AIME 2026 scores land near unquantized V4.1 Flash in a single 128GB local build."
     },
     {
-      "title": "Anthropic: per-user agents do worse than one shared agent",
-      "url": "https://alignment.anthropic.com/2026/worse-together/",
-      "category": "ai_research",
+      "title": "MiniMax H3-Image makes native 4K pictures in under ten seconds",
+      "url": "https://www.minimax.io/blog/minimax-h3-image",
+      "category": "chinese_ai",
       "published": "2026-11-11",
-      "summary": "Across four simulated group tasks, outcomes were worse when each user brought their own agent than one agent serving all."
+      "summary": "A 33B open-weight image model generates and edits at 16 megapixels, though its licence excludes the US, EU, UK and South Korea."
     },
     {
-      "title": "Anthropic says a key AI safety threshold has been crossed",
-      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
-      "category": "policy",
-      "published": "2026-11-11",
-      "summary": "Its IPO filing discloses that AI now accelerates Anthropic's own research enough to trip its safety threshold. METR agrees."
-    },
-    {
-      "title": "DeepSeek's V4 line lands on Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
-      "category": "deepseek",
-      "published": "2026-11-11",
-      "summary": "V4-Pro, V4-Flash and V4.1-Flash are open-weight and MIT-licensed, and V4.1's KV cache is a quarter the size."
-    },
-    {
-      "title": "Pi routes each question to the best model by load, no manual switching",
-      "url": "https://x.com/julien_c/status/2120168716251898041",
-      "category": "platforms_integration",
-      "published": "2026-11-11",
-      "summary": "Virtual Models sends easy queries to a local 27B model in Llama.app and hard ones to Kimi K3 or GLM 5.3 in the cloud."
-    },
-    {
-      "title": "Nvidia is preparing to oust CEO Jensen Huang",
-      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-      "category": "industry",
-      "published": "2026-11-11",
-      "summary": "WSJ reports the board is moving against Huang over allegations about relationships with staff who report to him."
-    },
-    {
-      "title": "AWS publishes an emulator that runs 200 of its services locally",
-      "url": "https://github.com/aws/aws-emulator",
-      "category": "platforms_integration",
-      "published": "2026-11-11",
-      "summary": "The whole thing was written end to end by AI agents, which is why it covers so much surface so fast."
-    },
-    {
-      "title": "Why AI-generated language is so hard to understand",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtux72/261029162v1_why_is_aigenerated_language_so_hard/",
-      "category": "ai_research",
-      "published": "2026-11-11",
-      "summary": "A new paper on why model prose reads as fluent but empty, and what that says about how models are trained."
-    },
-    {
-      "title": "Open MACaQ method beats Unsloth and Bartowski at the same GGUF size",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xto0fa/opensource_method_macaq_beats_unsloth_ggufs/",
+      "title": "Runway releases Praxis-1 weights for video and action prediction",
+      "url": "https://join.dev/news/ai/2026-11-13/",
       "category": "ai_models",
       "published": "2026-11-11",
-      "summary": "Mean KL 0.028 against 0.034 and 0.037 on Qwen3-4B, about 20% lower error for the same 2.26GB file."
-    },
-    {
-      "title": "Architecture trend: full attention is giving way to local attention",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvxtp/architecture_trends_from_full_to_local_attention/",
-      "category": "ai_models",
-      "published": "2026-11-11",
-      "summary": "A roundup of 2025-26 model configs shows hybrid and local attention now the default outside the largest models."
-    },
-    {
-      "title": "Garry Tan: ousting Huang without a wipeout is hard to believe",
-      "url": "https://x.com/garrytan/status/2120657462353330604",
-      "category": "industry",
-      "published": "2026-11-11",
-      "summary": "The investor read is that a Huang exit is a market-cap event, not a governance footnote."
-    },
-    {
-      "title": "US data brokers sell half a billion dollars in RL training environments to Chinese AI labs",
-      "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
-      "category": "industry",
-      "published": "2026-11-11",
-      "summary": "A ChinaTalk probe says Mercor, Surge AI and others sold about $500M of RL training environments, including ones built for OpenAI and Anthropic."
-    },
-    {
-      "title": "DeepL Voice's new Aure model translates tone and speaking pace, not just words",
-      "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
-      "category": "platforms_integration",
-      "published": "2026-11-11",
-      "summary": "Real-time translation now carries emotion, emphasis and speed from the original speaker into the target language."
+      "summary": "Weights, inference and fine-tuning code are out under Apache 2.0 for a model that predicts video and robot actions together."
     }
   ],
   "tldrs": {
@@ -448,27 +448,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-13T08:15:59+08:00",
+      "at": "2026-11-14T08:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic shipped two new Claude models, Fable 5.2 and Mythos 5.2, at about half the cost per task of Opus 5.5.",
-          "url": "https://x.com/AnthropicAI/status/2119867707546071125"
+          "text": "Open weights had a strong week: Thinking Machines released the full Inkling 2 Small model for anyone to download.",
+          "url": "https://x.com/thinkymachines/status/2120982625582195011"
         },
         {
-          "text": "Claude can now sit in your video calls and build documents while you talk.",
-          "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/"
+          "text": "Anthropic put Claude inside factory software, letting it draft quotes and chase suppliers once a person approves.",
+          "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/"
         },
         {
-          "text": "Google's new Gemini 4 Hydrogen beats its own bigger model at a lower price.",
-          "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/"
+          "text": "OpenAI launched a wallet so agents can buy things with your card, after you confirm each purchase with your face or fingerprint.",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
         },
         {
-          "text": "Meta released a small model that makes always-on agents about four times cheaper to run.",
-          "url": "https://research.meta.ai/blog/muse-ember"
+          "text": "Most Grok-built apps were open to anyone with the link, and about one in ten exposed private data.",
+          "url": "https://blog.claroc.io/ghostshares-grok-build-apps/"
         },
         {
-          "text": "Ten AI companies signed a safety pledge in Paris, but the US, Google and Meta did not.",
-          "url": "https://uk.diplomatie.gouv.fr/en/paris-call-ai-safety-and-security"
+          "text": "MiniMax released an image model that makes 4K pictures in about ten seconds.",
+          "url": "https://www.minimax.io/blog/minimax-h3-image"
         }
       ]
     },
