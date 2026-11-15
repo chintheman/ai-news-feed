@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-11-15T13:16:06+08:00",
+  "updated_at": "2026-11-15T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic prices its shares on 18 November and starts trading the next day as ANT. OpenAI shipped GPT-5.1 and changed the default thinking level to none. DeepSeek moved its whole app into the V4.1-Flash API, and llama.cpp reached 1.0.0 with a stable promise to developers. On the agent side, ChatGPT Wallet can now pay for things, and Google's agents machine-checked a huge Lean proof.",
+  "tldr": "Meituan released LongCat-2.5, a 1.6 trillion parameter agent model trained entirely on Chinese chips. Nous Research published a public leaderboard that ranks agents by the cost of finishing a task. Australia's central bank says AI is cutting entry level jobs for young workers first, especially in software and support. Reports say a firm linked to Jensen Huang's former partner booked nearly $12 billion in Nvidia chip orders for China. The EU's open model is being scoped at close to a trillion parameters, and a new paper asks whether AI can improve its own training.",
   "articles": [
+    {
+      "title": "Meituan releases a 1.6 trillion parameter agent model trained without Nvidia",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "category": "chinese_ai",
+      "published": "2026-11-15",
+      "summary": "LongCat-2.5 scores 88.4 on Terminal Bench, just behind Claude Opus 5, and a sample deployment runs on 194 Huawei Ascend chips."
+    },
+    {
+      "title": "Nous publishes the Hermes Index, ranking agents by dollars per task",
+      "url": "https://portal.nousresearch.com/bench",
+      "category": "hermes_nous",
+      "published": "2026-11-15",
+      "summary": "A public board scores task completion and cost per task across Hermes Bench, TerminalBench 4 and SkillsBench."
+    },
+    {
+      "title": "Firm tied to Jensen Huang's ex-partner brokered $12B in Nvidia orders for China",
+      "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+      "category": "industry",
+      "published": "2026-11-15",
+      "summary": "Megaspeed arranged the orders between 2024 and 2025, per the WSJ; short seller Culper puts Nvidia's real China revenue above 20 percent."
+    },
+    {
+      "title": "Australia's central bank says AI is hitting young workers in software and support",
+      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "category": "industry",
+      "published": "2026-11-15",
+      "summary": "Postings and employment for 15 to 24 year olds in exposed fields have fallen faster than for older workers since ChatGPT launched."
+    },
+    {
+      "title": "Paper asks whether self-improvement can start before pre-training ends",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier/",
+      "category": "ai_research",
+      "published": "2026-11-15",
+      "summary": "Public recursive self-improvement work so far only touches post-training; the authors ask whether it stops at the frontier."
+    },
+    {
+      "title": "The 32K needle drop survived a prompt rewrite, so the prompt was not the cause",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwtpqx/llms_kept_saying_the_text_doesnt_mention_it_at/",
+      "category": "ai_research",
+      "published": "2026-11-15",
+      "summary": "A series re-runs published prompting studies on 2026 models and reports where the old findings still hold."
+    },
+    {
+      "title": "EuroPA, the EU's open model, targets close to 1 trillion parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/",
+      "category": "ai_models",
+      "published": "2026-11-15",
+      "summary": "The EU-backed open model is being scoped at just under a trillion parameters, far larger than any open release so far."
+    },
+    {
+      "title": "Anatomy of a trojan implant planted inside a model's brain",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwsrp1/placing_an_implant_into_ai_brain_with_lazarus/",
+      "category": "ai_research",
+      "published": "2026-11-15",
+      "summary": "A write-up walks through how a Lazarus-style backdoor is embedded into model weights, with the research notes attached."
+    },
     {
       "title": "Google's teamwork agents machine-checked the Weil conjectures in Lean",
       "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
@@ -367,87 +423,31 @@
       "category": "anthropic",
       "published": "2026-11-13",
       "summary": "Banks are rejecting buy orders for the IPO from mainland China and Hong Kong, citing US export control rules, Bloomberg reports."
-    },
-    {
-      "title": "Nearly 70% of US agencies use generative AI, and unions are setting rules",
-      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-      "category": "policy",
-      "published": "2026-11-13",
-      "summary": "Public sector unions are winning AI guardrails: retraining instead of layoffs in Oakland and veto power over autonomous vehicles in Ohio."
-    },
-    {
-      "title": "DeepSeek V4.1 Flash Max first open model to pass 1% on SWE-sweep",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvcgxq/deepseek_flash_max_is_the_first_model_to_reach_1/",
-      "category": "deepseek",
-      "published": "2026-11-13",
-      "summary": "DeepSeek's model is the first open-weight entry to clear 1% on a benchmark where models hunt bugs across whole repositories."
-    },
-    {
-      "title": "CXMT plans to nearly triple memory output by 2028",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvam8o/cxmt_almost_tripling_ram_production_from_2025_to/",
-      "category": "industry",
-      "published": "2026-11-13",
-      "summary": "CXMT's output is projected to grow from 405k wafers a month in 2025 to 1,125k by 2028, which would ease DRAM prices if it lands."
-    },
-    {
-      "title": "Perplexity ships open Decider models that answer in probabilities",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider/",
-      "category": "ai_models",
-      "published": "2026-11-13",
-      "summary": "Apache 2.0 classifier models at 26B and 5B return a probability over answer options instead of writing text, built for decision tasks."
-    },
-    {
-      "title": "Nous retrains Qwen to strip state propaganda for 52M tokens",
-      "url": "https://nousresearch.com/arete",
-      "category": "hermes_nous",
-      "published": "2026-11-13",
-      "summary": "Arete-27B cuts propaganda answers from 22% to under 1% with SFT only, at no measurable cost to capability."
-    },
-    {
-      "title": "Brave Search API takes agent payments with no API key",
-      "url": "https://brave.com/blog/search-api-agentic-payments/",
-      "category": "platforms_integration",
-      "published": "2026-11-13",
-      "summary": "Agents can pay per request over the x402 protocol, so a search call needs no account, key or invoice."
-    },
-    {
-      "title": "llama.cpp hits version 1.0.0",
-      "url": "https://github.com/ggml-org/llama.cpp/pull/32190",
-      "category": "ai_models",
-      "published": "2026-11-13",
-      "summary": "First 1.0.0 removes the deprecated public API and adds Kimi-K3.1-Pro, FP8 KV caches, a speech endpoint and a new web UI."
-    },
-    {
-      "title": "Qwen 3.8 Flash Next scores 29 on Artificial Analysis",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next/",
-      "category": "chinese_ai",
-      "published": "2026-11-13",
-      "summary": "Lands between GPT-6 Luna Max at 28 and Claude Haiku 5.5 at 30, well ahead of the 27B tier at 20."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-14T21:15:00+08:00",
+      "at": "2026-11-15T21:15:00+08:00",
       "points": [
         {
-          "text": "A former researcher says DeepSeek, Moonshot, MiniMax and Ant Group are running Nvidia's banned Blackwell chips.",
-          "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/"
+          "text": "Meituan released LongCat-2.5, a 1.6 trillion parameter agent model trained entirely on Chinese chips.",
+          "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
         },
         {
-          "text": "Garry Tan's open test shows the wrapper around a model decides most of its coding score.",
-          "url": "https://github.com/garrytan/g-harness-evals"
+          "text": "Nous Research published a public leaderboard that ranks agents by the cost of finishing a task.",
+          "url": "https://portal.nousresearch.com/bench"
         },
         {
-          "text": "Runway released a free robot control model and Nex-AGI shipped a 321B agent model under a free licence.",
-          "url": "https://huggingface.co/nex-agi/Nex-N2.6"
+          "text": "Australia's central bank says AI is cutting entry level jobs for young workers first, especially in software and support.",
+          "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/"
         },
         {
-          "text": "Shopify switched on a new standard so personal AI agents can shop on any store.",
-          "url": "https://sierra.ai/blog/releasing-poppy"
+          "text": "Reports say a firm linked to Jensen Huang's former partner booked nearly $12 billion in Nvidia chip orders for China.",
+          "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/"
         },
         {
-          "text": "Anthropic's ex-researcher says an IPO slide shows Mythos can be rebuilt for a fraction of the compute.",
-          "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/"
+          "text": "The EU's open model is being scoped at close to a trillion parameters, and a new paper asks whether AI can improve its own training.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
         }
       ]
     },
