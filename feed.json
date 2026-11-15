@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-11-15T08:15:00+08:00",
+  "updated_at": "2026-11-15T13:16:06+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic set the terms of its listing: 825 million shares at 70 to 78 dollars, pricing on 18 November and trading the next day under ticker ANT. Dario Amodei told investors buying compute is the hardest call the company has, with 901 billion dollars already committed. Google's Gemini 4 Carbon took the top spot on the MathArena maths test, at about 15 times the price of the model it passed. Alibaba put Qwen4-Max into preview, so the next open Qwen release is close. On the tooling side, Claude Code on desktop now takes custom themes built by telling Claude what you want.",
+  "tldr": "Anthropic prices its shares on 18 November and starts trading the next day as ANT. OpenAI shipped GPT-5.1 and changed the default thinking level to none. DeepSeek moved its whole app into the V4.1-Flash API, and llama.cpp reached 1.0.0 with a stable promise to developers. On the agent side, ChatGPT Wallet can now pay for things, and Google's agents machine-checked a huge Lean proof.",
   "articles": [
+    {
+      "title": "Google's teamwork agents machine-checked the Weil conjectures in Lean",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "category": "ai_research",
+      "published": "2026-11-15",
+      "summary": "Antigravity agents wrote and verified 1.8 million lines of Lean proof, with a machine checker confirming each step."
+    },
+    {
+      "title": "Applied Digital asks Oracle and Meta to backstop its power bills",
+      "url": "https://aiweekly.co/alerts/applied-digital-asks-oracle-meta-for-billions-to-lock-in-power",
+      "category": "industry",
+      "published": "2026-11-15",
+      "summary": "Data centre landlord wants customers to guarantee billions in power costs before it signs more capacity."
+    },
+    {
+      "title": "Garry Tan open-sources his agent harness eval repo",
+      "url": "https://x.com/garrytan/status/2121463161069228382",
+      "category": "agents_tooling",
+      "published": "2026-11-14",
+      "summary": "YC partner publishes g-harness-evals with the results he got comparing agent harnesses."
+    },
+    {
+      "title": "LFM2.5-24B-A2B called the best speed-per-quality fit on consumer hardware",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome/",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "LocalLLaMA users rate Liquid AI's sparse 24B model as the sweet spot for speed and capability, pairing it with Hermes."
+    },
+    {
+      "title": "Nex-N2.6: a 321B agentic model built on GLM-5.3-Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw9mpa/nexaginexn26_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-11-14",
+      "summary": "Nex-AGI releases FP8 weights for a multimodal model aimed at computer use, coding and long tool-using tasks."
+    },
+    {
+      "title": "Qwen3 shrunk to 2.7 bits per weight with Leech lattice quantization",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwerbo/qwen3_4b_8b_14b_at_27_bits_per_weight_with_leech/",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "A Rust and CUDA build of Qualcomm's LLVQ paper beats IQ2_S on quality at the same size but runs slower."
+    },
+    {
+      "title": "Report: Nvidia kept GPU prices high through circular financing",
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "category": "industry",
+      "published": "2026-11-14",
+      "summary": "Analysis argues Nvidia funded its own customers to buy its chips, holding prices up. Top of Hacker News at 297 points."
+    },
+    {
+      "title": "DeepSeek V3 reimplemented in about 200 lines of pure JAX",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "category": "deepseek",
+      "published": "2026-11-14",
+      "summary": "Show HN project rebuilds the V3 architecture in minimal JAX as a readable reference implementation."
+    },
+    {
+      "title": "Microsoft patents renting out idle gaming GPUs for AI training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwe9i5/microsoft_patent_describes_turning_idle_gaming/",
+      "category": "industry",
+      "published": "2026-11-14",
+      "summary": "Filing describes pooling consumer GPUs into paid AI training capacity when they would otherwise sit idle."
+    },
+    {
+      "title": "AT&T runs nearly 500 agentic workflows in production",
+      "url": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up/",
+      "category": "agents_tooling",
+      "published": "2026-11-14",
+      "summary": "Telecom rebuilt internal processes around agents rather than bolting AI onto old workflows, now live at scale."
+    },
+    {
+      "title": "Cloudflare open-sources Kitesurf, a browser built for agents",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "category": "platforms_integration",
+      "published": "2026-11-14",
+      "summary": "Cloudflare releases an open browser aimed at agent workloads instead of human clicking."
+    },
     {
       "title": "Amodei: buying compute is the deepest dilemma before the IPO",
       "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
@@ -115,6 +192,48 @@
       "category": "industry",
       "published": "2026-11-14",
       "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
+    },
+    {
+      "title": "OpenAI ships GPT-5.1 with a new 'none' reasoning default",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "category": "ai_models",
+      "published": "2026-11-13",
+      "summary": "GPT-5.1 plus codex variants land on the Responses API, and thinking now defaults to none instead of medium."
+    },
+    {
+      "title": "DeepSeek moves the whole app into the V4.1-Flash API",
+      "url": "https://x.com/deepseek_ai/status/2121247896918253875",
+      "category": "deepseek",
+      "published": "2026-11-13",
+      "summary": "Web search, file reading, links, voice and safety are now API features on deepseek-flash across all three endpoints."
+    },
+    {
+      "title": "llama.cpp hits 1.0.0 and promises a stable API",
+      "url": "https://x.com/julien_c/status/2121249804147732803",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "Hugging Face CTO marks the llama.cpp libraries at 1.0.0, freezing the foundation thousands of local apps build on."
+    },
+    {
+      "title": "Modal inference arrives in Hermes Agent as a verified plugin",
+      "url": "https://x.com/Teknium/status/2121296099755565332",
+      "category": "hermes_nous",
+      "published": "2026-11-13",
+      "summary": "Teknium adds Modal as a model provider inside Hermes Agent through their verified plugin."
+    },
+    {
+      "title": "Anthropic publishes 10 rules for safety evaluations",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "category": "anthropic",
+      "published": "2026-11-13",
+      "summary": "Engineering blog sets out how to design, run and report evals that decide whether a model is ready to ship."
+    },
+    {
+      "title": "ChatGPT Wallet lets agents pay with a card",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "category": "platforms_integration",
+      "published": "2026-11-13",
+      "summary": "OpenAI launches a wallet built with Amex, Mastercard and Visa so an agent can complete a purchase for you."
     },
     {
       "title": "Claude Code on desktop now takes custom themes as mods",
@@ -236,27 +355,6 @@
       "summary": "IT technicians hand tasks inside old portals to Forge agents, so their time goes to the problems that actually need their judgement."
     },
     {
-      "title": "OpenAI launches ChatGPT Wallet so agents can pay for things",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "category": "platforms_integration",
-      "published": "2026-11-13",
-      "summary": "Agents in ChatGPT Work, Codex and dots can now complete purchases, with the user approving each one and card details kept behind tokens."
-    },
-    {
-      "title": "Modal inference arrives in Hermes as a verified plugin",
-      "url": "https://x.com/Teknium/status/2121296099755565332",
-      "category": "hermes_nous",
-      "published": "2026-11-13",
-      "summary": "Serverless GPU inference is now a verified plugin inside Hermes Agent, giving open-weight models somewhere to run without owning hardware."
-    },
-    {
-      "title": "Anthropic publishes ten rules for running safety evaluations",
-      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
-      "category": "anthropic",
-      "published": "2026-11-13",
-      "summary": "Ten recommendations for designing, running and reporting safety evaluations, published as frontier labs ask public investors to trust their claims."
-    },
-    {
       "title": "Claude for Manufacturing plugs into Autodesk, NetSuite and Infor",
       "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
       "category": "anthropic",
@@ -325,104 +423,6 @@
       "category": "chinese_ai",
       "published": "2026-11-13",
       "summary": "Lands between GPT-6 Luna Max at 28 and Claude Haiku 5.5 at 30, well ahead of the 27B tier at 20."
-    },
-    {
-      "title": "Boole-32B squeezes a 32B model into 9GB at 1.8 bits",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv3h93/boole32ba25bpreview_9gb_18bit_moe_565_tokens_on_1/",
-      "category": "ai_models",
-      "published": "2026-11-13",
-      "summary": "Mixed-precision MoE runs 565 tokens/s on one RTX 5090 with expert pruning and custom kernels, 2x faster than INT4."
-    },
-    {
-      "title": "Five coding agents, one local model, same prompt",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv5dsb/i_ran_the_same_halloween_animation_prompt_through/",
-      "category": "agents_tooling",
-      "published": "2026-11-13",
-      "summary": "Claude Code, OpenCode, Copilot Desktop, Pi and Codex driven by the same local Qwen, with 30 seconds of each result."
-    },
-    {
-      "title": "Nvidia employees petition to bring back Jensen Huang",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "category": "industry",
-      "published": "2026-11-13",
-      "summary": "Staff petition to reinstate the ousted CEO as Nvidia reels from the espionage scandal that erased $1.4tn in market value."
-    },
-    {
-      "title": "Every Hermes hackathon plugin, indexed in one page",
-      "url": "https://x.com/Teknium/status/2121079007164973522",
-      "category": "hermes_nous",
-      "published": "2026-11-13",
-      "summary": "Community page indexes the ~1,000 entries and flags taint tracking, skill-write gates and a secret-safe screen overlay."
-    },
-    {
-      "title": "Hugging Face CEO vows to keep fighting for open source AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open/",
-      "category": "industry",
-      "published": "2026-11-13",
-      "summary": "Clem Delangue tries to reassure the community that Hugging Face's open-source mission survives the Nvidia takeover."
-    },
-    {
-      "title": "Anthropic prices 18 Nov: 825M shares at $70 to $78, ticker ANT",
-      "url": "https://x.com/AnthropicAI/status/2120841731302154708",
-      "category": "industry",
-      "published": "2026-11-12",
-      "summary": "Amended S-1: up to $1.4T fully diluted, pricing 18 Nov, trading 19 Nov. A $26B private placement goes to AMD, Broadcom, Google, Nvidia and TSMC."
-    },
-    {
-      "title": "Nous closes its plugin hackathon with nearly 1,000 entries",
-      "url": "https://x.com/NousResearch/status/2120715518243987685",
-      "category": "hermes_nous",
-      "published": "2026-11-12",
-      "summary": "Submissions are closed, judges are picking a top 10, and winners are due in about a week, emailed directly and announced on X."
-    },
-    {
-      "title": "Thinking Machines releases Inkling 2 Small weights under Apache 2.0",
-      "url": "https://x.com/thinkymachines/status/2120982625582195011",
-      "category": "ai_models",
-      "published": "2026-11-12",
-      "summary": "Apache 2.0 weights for a 594B total, 17B active model with a 1M context land on Hugging Face, though it wants about 500 GB of GPU memory."
-    },
-    {
-      "title": "Codex Security 0.10.0 adds resumable scans and cost caps",
-      "url": "https://github.com/openai/codex-security/releases",
-      "category": "agents_tooling",
-      "published": "2026-11-12",
-      "summary": "Free CLI and SDK that scans a repo, validates findings, writes patches and exports SARIF. 0.10.0 adds resumable scans."
-    },
-    {
-      "title": "Measured: Hermes memory made runs 2.6x cheaper",
-      "url": "https://x.com/Teknium/status/2120835945926713616",
-      "category": "hermes_nous",
-      "published": "2026-11-12",
-      "summary": "Persistence cut cost per 200-instance stream from $13.89 to $5.24 by dropping tool calls from 15.4 to 2.7 per instance."
-    },
-    {
-      "title": "Run /doctor prompt-audit on the model you actually use",
-      "url": "https://x.com/lydiahallie/status/2121011733699633613",
-      "category": "anthropic",
-      "published": "2026-11-12",
-      "summary": "Claude Code team tip: the audit checks your repo's prompts against your current model, not a generic checklist."
-    },
-    {
-      "title": "Nonprofits sue five AI giants to freeze frontier development",
-      "url": "https://www.politico.com/news/2026/11/12/nonprofits-sue-ai-companies-over-existential-risk-01161965",
-      "category": "policy",
-      "published": "2026-11-12",
-      "summary": "Public Citizen, Heat Initiative and two others seek an injunction against Anthropic, Google, Meta, OpenAI and SpaceXSI."
-    },
-    {
-      "title": "ElevenLabs Scribe v3 stops voice agents talking over callers",
-      "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
-      "category": "platforms_integration",
-      "published": "2026-11-12",
-      "summary": "New live speech model leads accuracy benches and uses conversation context to stop barging in mid-sentence."
-    },
-    {
-      "title": "UMAP 0.6 is far faster at millions of points",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "New initialization and optimizers map 3 million arXiv papers in under five minutes, before 0.5 finds its neighbours."
     }
   ],
   "tldrs": {
@@ -477,27 +477,23 @@
       ]
     },
     "midday": {
-      "at": "2026-11-14T13:15:00+08:00",
+      "at": "2026-11-15T13:16:06+08:00",
       "points": [
         {
-          "text": "DeepSeek now sells its whole app through the API, including web search, file reading and voice.",
-          "url": "https://api-docs.deepseek.com/news/news261113/"
+          "text": "Anthropic prices its shares on 18 November and starts trading the next day as ANT.",
+          "url": null
         },
         {
-          "text": "LangChain raised 300 million dollars at a 3 billion dollar valuation.",
-          "url": "https://www.langchain.com/blog/series-c"
+          "text": "OpenAI shipped GPT-5.1 and changed the default thinking level to none.",
+          "url": "https://developers.openai.com/api/docs/changelog"
         },
         {
-          "text": "Anthropic's share sale is six times oversubscribed.",
-          "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/"
+          "text": "DeepSeek moved its whole app into the V4.1-Flash API, and llama.cpp reached 1.0.0 with a stable promise to developers.",
+          "url": "https://x.com/julien_c/status/2121249804147732803"
         },
         {
-          "text": "OpenAI shut its robotics team and moved the people into general research.",
-          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
-        },
-        {
-          "text": "A new test found AI assistants speak up far more often than they stay quiet.",
-          "url": "https://deepnote.com/research/benchmark"
+          "text": "On the agent side, ChatGPT Wallet can now pay for things, and Google's agents machine-checked a huge Lean proof.",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
         }
       ]
     }
