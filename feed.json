@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-11-14T21:15:00+08:00",
+  "updated_at": "2026-11-15T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A former researcher says DeepSeek, Moonshot, MiniMax and Ant Group are running Nvidia's banned Blackwell chips. Garry Tan's open test shows the wrapper around a model decides most of its coding score. Runway released a free robot control model and Nex-AGI shipped a 321B agent model under a free licence. Shopify switched on a new standard so personal AI agents can shop on any store. Anthropic's ex-researcher says an IPO slide shows Mythos can be rebuilt for a fraction of the compute.",
+  "tldr": "Anthropic set the terms of its listing: 825 million shares at 70 to 78 dollars, pricing on 18 November and trading the next day under ticker ANT. Dario Amodei told investors buying compute is the hardest call the company has, with 901 billion dollars already committed. Google's Gemini 4 Carbon took the top spot on the MathArena maths test, at about 15 times the price of the model it passed. Alibaba put Qwen4-Max into preview, so the next open Qwen release is close. On the tooling side, Claude Code on desktop now takes custom themes built by telling Claude what you want.",
   "articles": [
+    {
+      "title": "Amodei: buying compute is the deepest dilemma before the IPO",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "category": "anthropic",
+      "published": "2026-11-14",
+      "summary": "Anthropic has nearly $901B in compute commitments and no clear read on whether future revenue covers it, days before what could be the largest IPO in history."
+    },
+    {
+      "title": "Anthropic: drop think hard prompts, start Opus 5.5 at Medium effort",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "category": "anthropic",
+      "published": "2026-11-14",
+      "summary": "Opus 5.5 is now the default on every paid plan, and Anthropic's new guide says old prompting habits make it slower rather than smarter."
+    },
+    {
+      "title": "Gemini 4 Carbon tops MathArena at 15 times GPT-6.1 Sol's price",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "First time in a while no OpenAI model leads MathArena. Gemini 4 Carbon and Fable 5.2 take the top two, both far more expensive per task."
+    },
+    {
+      "title": "Lovable apps leaked passport scans and 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "category": "platforms_integration",
+      "published": "2026-11-14",
+      "summary": "A scan of Lovable-built apps found many with open database access, exposing identity documents and user messages from AI-generated apps."
+    },
+    {
+      "title": "tiny-voca: an 18 MB text to speech model that runs in a browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code/",
+      "category": "ai_research",
+      "published": "2026-11-14",
+      "summary": "4.5M parameters, two voices, code and weights open, and roughly 70 times real time on a CPU with nothing sent to a server."
+    },
+    {
+      "title": "tandem.cpp runs a 139 GiB DeepSeek expert model on a 64 GB PC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/",
+      "category": "ai_models",
+      "published": "2026-11-14",
+      "summary": "A llama.cpp patch keeps hot experts on a 16 GB GPU and lets the CPU take the rest, and now also builds against AMD ROCm."
+    },
     {
       "title": "Anthropic can retrain Mythos for a fraction of the compute, says Coxon",
       "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
@@ -73,6 +115,34 @@
       "category": "industry",
       "published": "2026-11-14",
       "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
+    },
+    {
+      "title": "Claude Code on desktop now takes custom themes as mods",
+      "url": "https://x.com/ClaudeDevs/status/2121392666244186327",
+      "category": "agents_tooling",
+      "published": "2026-11-13",
+      "summary": "You describe the look to Claude and it builds the mod. A theme-examples plugin ships as the template for writing one."
+    },
+    {
+      "title": "A Claude Code Stop hook that exits 1 silently passes a failed check",
+      "url": "https://x.com/lydiahallie/status/2121313048820617645",
+      "category": "anthropic",
+      "published": "2026-11-13",
+      "summary": "Exit 2 sends Claude back to retry with the hook's stderr; exit 1 is non-blocking, so the loop finishes even when the check failed."
+    },
+    {
+      "title": "G-STAR paper pushes quality up at heavy model compression",
+      "url": "https://x.com/_akhaliq/status/2121293765889663321",
+      "category": "ai_research",
+      "published": "2026-11-13",
+      "summary": "Group-scaled token capacity for deeply compressed autoregressive generation, aimed at keeping output usable at very low bit rates."
+    },
+    {
+      "title": "Garry Tan's idea-miner skill rewrites its own queue as you work",
+      "url": "https://x.com/garrytan/status/2121352628915593422",
+      "category": "agents_tooling",
+      "published": "2026-11-13",
+      "summary": "A personal agent skill that mines each session for new build ideas and appends them, so the idea list grows from real use instead of a form."
     },
     {
       "title": "Researcher says Chinese labs run Nvidia Blackwell despite export ban",
@@ -292,6 +362,20 @@
       "summary": "Clem Delangue tries to reassure the community that Hugging Face's open-source mission survives the Nvidia takeover."
     },
     {
+      "title": "Anthropic prices 18 Nov: 825M shares at $70 to $78, ticker ANT",
+      "url": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "category": "industry",
+      "published": "2026-11-12",
+      "summary": "Amended S-1: up to $1.4T fully diluted, pricing 18 Nov, trading 19 Nov. A $26B private placement goes to AMD, Broadcom, Google, Nvidia and TSMC."
+    },
+    {
+      "title": "Nous closes its plugin hackathon with nearly 1,000 entries",
+      "url": "https://x.com/NousResearch/status/2120715518243987685",
+      "category": "hermes_nous",
+      "published": "2026-11-12",
+      "summary": "Submissions are closed, judges are picking a top 10, and winners are due in about a week, emailed directly and announced on X."
+    },
+    {
       "title": "Thinking Machines releases Inkling 2 Small weights under Apache 2.0",
       "url": "https://x.com/thinkymachines/status/2120982625582195011",
       "category": "ai_models",
@@ -339,90 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-12",
       "summary": "New initialization and optimizers map 3 million arXiv papers in under five minutes, before 0.5 finds its neighbours."
-    },
-    {
-      "title": "Edge0-145B brings frontier AI to your own computer",
-      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-      "category": "ai_models",
-      "published": "2026-11-12",
-      "summary": "A 145B-parameter open model built to run on local hardware, pitched as frontier capability without the cloud."
-    },
-    {
-      "title": "OpenAI ships Daybreak Red Team and Defense Factory",
-      "url": "https://x.com/gdb/status/2121004237413142656",
-      "category": "agents_tooling",
-      "published": "2026-11-12",
-      "summary": "Two cyber products: a swarm of agents that hunts exploitable paths, and a Codex plugin that files merge-ready fixes."
-    },
-    {
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "category": "platforms_integration",
-      "published": "2026-11-12",
-      "summary": "OpenAI customer story: Codex raised the lead engineer's output by half while ChatGPT handled the daily work."
-    },
-    {
-      "title": "Chinese frontier models carry the fingerprint of export-controlled GPUs",
-      "url": "https://unemploymentlabs.com/checkpoint-forensics",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "Checkpoint forensics claims to trace Chinese frontier models back to the restricted Nvidia hardware they trained on."
-    },
-    {
-      "title": "Apple opens its Foundation Models framework to developers",
-      "url": "https://developer.apple.com/foundation-models-framework/",
-      "category": "platforms_integration",
-      "published": "2026-11-12",
-      "summary": "Apple's on-device model layer gets a developer framework, putting small local models inside iOS and macOS apps."
-    },
-    {
-      "title": "Claude Meetings joins your video call and builds the documents live",
-      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
-      "category": "anthropic",
-      "published": "2026-11-12",
-      "summary": "Beta on Team and Enterprise plans: Claude joins Google Meet and writes notes, whiteboards and docs while the call runs."
-    },
-    {
-      "title": "Anthropic lets enterprises run Claude Managed Agents in their own cloud",
-      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
-      "category": "agents_tooling",
-      "published": "2026-11-12",
-      "summary": "Private beta keeps agents, credentials and session history inside the customer's perimeter, with audit records over OpenTelemetry."
-    },
-    {
-      "title": "SteerDistill quantizes agent models by steering a teacher in the loop",
-      "url": "https://x.com/_akhaliq/status/2120952429093245062",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "New work on quantizing LLM agents, plus AgentBaton for model collaboration and P2-MOPD for multi-teacher distillation."
-    },
-    {
-      "title": "OpenAI finds chain-of-thought monitoring weakens as models scale",
-      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
-      "category": "ai_research",
-      "published": "2026-11-12",
-      "summary": "Four training steps erode reasoning transparency, so watching a model's notes is a weaker safety control than it looks."
-    },
-    {
-      "title": "Gemini 4 Hydrogen outscores Google's bigger Argon model",
-      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
-      "category": "ai_models",
-      "published": "2026-11-12",
-      "summary": "The Flash replacement nearly matches Claude Sonnet 5.5 on the Artificial Analysis index, but costs 2.5 times GPT-6.1 per task."
-    },
-    {
-      "title": "Amplitude ships product changes in 1 to 2 days with OpenAI agents",
-      "url": "https://openai.com/index/amplitude",
-      "category": "platforms_integration",
-      "published": "2026-11-12",
-      "summary": "Its Wave agent picks what to build, hands it to coding agents and measures the result, cutting a release cycle to days."
-    },
-    {
-      "title": "IBM's LLMON markup language lands in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "category": "ai_models",
-      "published": "2026-11-12",
-      "summary": "A markup format built for language models rather than humans, shipped inside two small Granite models."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-14T08:15:00+08:00",
+      "at": "2026-11-15T08:15:00+08:00",
       "points": [
         {
-          "text": "Open weights had a strong week: Thinking Machines released the full Inkling 2 Small model for anyone to download.",
-          "url": "https://x.com/thinkymachines/status/2120982625582195011"
+          "text": "Anthropic set the terms of its listing: 825 million shares at 70 to 78 dollars, pricing on 18 November and trading the next day under ticker ANT.",
+          "url": "https://x.com/AnthropicAI/status/2120841731302154708"
         },
         {
-          "text": "Anthropic put Claude inside factory software, letting it draft quotes and chase suppliers once a person approves.",
-          "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/"
+          "text": "Dario Amodei told investors buying compute is the hardest call the company has, with 901 billion dollars already committed.",
+          "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/"
         },
         {
-          "text": "OpenAI launched a wallet so agents can buy things with your card, after you confirm each purchase with your face or fingerprint.",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+          "text": "Google's Gemini 4 Carbon took the top spot on the MathArena maths test, at about 15 times the price of the model it passed.",
+          "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/"
         },
         {
-          "text": "Most Grok-built apps were open to anyone with the link, and about one in ten exposed private data.",
-          "url": "https://blog.claroc.io/ghostshares-grok-build-apps/"
+          "text": "Alibaba put Qwen4-Max into preview, so the next open Qwen release is close.",
+          "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
         },
         {
-          "text": "MiniMax released an image model that makes 4K pictures in about ten seconds.",
-          "url": "https://www.minimax.io/blog/minimax-h3-image"
+          "text": "On the tooling side, Claude Code on desktop now takes custom themes built by telling Claude what you want.",
+          "url": "https://x.com/ClaudeDevs/status/2121392666244186327"
         }
       ]
     },
