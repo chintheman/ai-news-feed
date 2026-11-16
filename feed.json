@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-11-16T13:16:31+08:00",
+  "updated_at": "2026-11-16T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Alibaba released Qwen4-Max, a model that reads a million tokens at once and can see images, at $1.50 per million input tokens. Alibaba says it beats its older model using about half the tokens, and that smaller open versions come later. A new speech model called Haru-4B listens and talks at the same time, so it can hold a phone-style conversation. BigMoeOnEdge lets large mixture-of-experts models run on small cards and Macs without repacking them. A community post points out that most uncensored model downloads can be replaced by one tiny add-on file.",
+  "tldr": "Anthropic prices shares for its stock market listing on Wednesday, aiming at a value near 1.4 trillion dollars. OpenAI signed two deals today, with LVMH's media arm and with a UK youth charity. DeepSeek capped its free chat because it ran short of computing power. Tencent released a much cheaper version of its Hy4 model. Two research items landed: a science model from InternLM and a faster way to draft output for vision models.",
   "articles": [
+    {
+      "title": "DeepSeek caps free chat as compute runs short",
+      "url": "https://technode.com/2026/11/16/deepseek-users-report-chat-limits-as-the-service-cites-capacity-constraints/",
+      "category": "deepseek",
+      "published": "2026-11-16",
+      "summary": "Users report daily chat limits as DeepSeek cites capacity constraints. The paid API is unchanged."
+    },
+    {
+      "title": "OpenAI signs LVMH's media arm and puts ChatGPT in 17 newsrooms",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "category": "industry",
+      "published": "2026-11-16",
+      "summary": "A partnership with LVMH's media division brings ChatGPT Enterprise into 17 newsrooms."
+    },
+    {
+      "title": "The King's Trust and OpenAI put 1 million pounds into UK AI skills",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "category": "industry",
+      "published": "2026-11-16",
+      "summary": "The partnership aims to give up to 25,000 young people across the UK practical AI skills for work."
+    },
+    {
+      "title": "Tencent ships Hy4 flash at a tenth of Hy4's input price",
+      "url": "https://hy.tencent.ai/research/hy4-flash",
+      "category": "chinese_ai",
+      "published": "2026-11-16",
+      "summary": "Hy4 flash lists input at about 0.07 dollars per million tokens, a tenth of the full Hy4 model."
+    },
+    {
+      "title": "MMFlash: faster speculative decoding for vision-language models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd3w/paper_models_mmflash_faster_speculative_decoding/",
+      "category": "ai_research",
+      "published": "2026-11-16",
+      "summary": "A diffusion drafter that proposes whole token blocks at once, now extended from text-only to multimodal drafting."
+    },
+    {
+      "title": "InternLM's Sage-S2.1-Flash is built for multi-round scientific work",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-11-16",
+      "summary": "A scientific multimodal model from Shanghai AI Lab that pairs data understanding with retrieval, code and tool use."
+    },
+    {
+      "title": "GLM-5.3-Flash runs at 140 tokens per second across two Mac Studios",
+      "url": "https://github.com/icryo/GLM-Tandem/",
+      "category": "platforms_integration",
+      "published": "2026-11-16",
+      "summary": "An open setup that splits a large Chinese model across two Mac Studios and keeps generation fast."
+    },
     {
       "title": "Alibaba releases Qwen4-Max with a 1M-token window and native vision",
       "url": "https://qwen.ai/blog?id=qwen4-max",
@@ -369,85 +418,36 @@
       "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
     },
     {
-      "title": "OpenAI ships GPT-5.1 with a new 'none' reasoning default",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "category": "ai_models",
-      "published": "2026-11-13",
-      "summary": "GPT-5.1 plus codex variants land on the Responses API, and thinking now defaults to none instead of medium."
-    },
-    {
-      "title": "DeepSeek moves the whole app into the V4.1-Flash API",
-      "url": "https://x.com/deepseek_ai/status/2121247896918253875",
-      "category": "deepseek",
-      "published": "2026-11-13",
-      "summary": "Web search, file reading, links, voice and safety are now API features on deepseek-flash across all three endpoints."
-    },
-    {
-      "title": "llama.cpp hits 1.0.0 and promises a stable API",
-      "url": "https://x.com/julien_c/status/2121249804147732803",
-      "category": "platforms_integration",
-      "published": "2026-11-13",
-      "summary": "Hugging Face CTO marks the llama.cpp libraries at 1.0.0, freezing the foundation thousands of local apps build on."
-    },
-    {
-      "title": "Modal inference arrives in Hermes Agent as a verified plugin",
-      "url": "https://x.com/Teknium/status/2121296099755565332",
+      "title": "Every Hermes plugin hackathon entry is now browsable in one index",
+      "url": "https://x.com/Teknium/status/2121079007164973522",
       "category": "hermes_nous",
       "published": "2026-11-13",
-      "summary": "Teknium adds Modal as a model provider inside Hermes Agent through their verified plugin."
-    },
-    {
-      "title": "Anthropic publishes 10 rules for safety evaluations",
-      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
-      "category": "anthropic",
-      "published": "2026-11-13",
-      "summary": "Engineering blog sets out how to design, run and report evals that decide whether a model is ready to ship."
-    },
-    {
-      "title": "ChatGPT Wallet lets agents pay with a card",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "category": "platforms_integration",
-      "published": "2026-11-13",
-      "summary": "OpenAI launches a wallet built with Amex, Mastercard and Visa so an agent can complete a purchase for you."
-    },
-    {
-      "title": "Claude Code on desktop now takes custom themes as mods",
-      "url": "https://x.com/ClaudeDevs/status/2121392666244186327",
-      "category": "agents_tooling",
-      "published": "2026-11-13",
-      "summary": "You describe the look to Claude and it builds the mod. A theme-examples plugin ships as the template for writing one."
-    },
-    {
-      "title": "A Claude Code Stop hook that exits 1 silently passes a failed check",
-      "url": "https://x.com/lydiahallie/status/2121313048820617645",
-      "category": "anthropic",
-      "published": "2026-11-13",
-      "summary": "Exit 2 sends Claude back to retry with the hook's stderr; exit 1 is non-blocking, so the loop finishes even when the check failed."
+      "summary": "A community page lists all roughly 1,000 hackathon plugins with usage stats, ahead of the top-10 pick."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-15T21:15:00+08:00",
+      "at": "2026-11-16T21:15:00+08:00",
       "points": [
         {
-          "text": "Meituan released LongCat-2.5, a 1.6 trillion parameter agent model trained entirely on Chinese chips.",
-          "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+          "text": "Anthropic prices shares for its stock market listing on Wednesday, aiming at a value near 1.4 trillion dollars.",
+          "url": "https://x.com/AnthropicAI/status/2120841731302154708"
         },
         {
-          "text": "Nous Research published a public leaderboard that ranks agents by the cost of finishing a task.",
-          "url": "https://portal.nousresearch.com/bench"
+          "text": "OpenAI signed two deals today, with LVMH's media arm and with a UK youth charity.",
+          "url": "https://openai.com/index/lvmh-media-division-partnership"
         },
         {
-          "text": "Australia's central bank says AI is cutting entry level jobs for young workers first, especially in software and support.",
-          "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/"
+          "text": "DeepSeek capped its free chat because it ran short of computing power.",
+          "url": "https://technode.com/2026/11/16/deepseek-users-report-chat-limits-as-the-service-cites-capacity-constraints/"
         },
         {
-          "text": "Reports say a firm linked to Jensen Huang's former partner booked nearly $12 billion in Nvidia chip orders for China.",
-          "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/"
+          "text": "Tencent released a much cheaper version of its Hy4 model.",
+          "url": "https://hy.tencent.ai/research/hy4-flash"
         },
         {
-          "text": "The EU's open model is being scoped at close to a trillion parameters, and a new paper asks whether AI can improve its own training.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
+          "text": "Two research items landed: a science model from InternLM and a faster way to draft output for vision models.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd3w/paper_models_mmflash_faster_speculative_decoding/"
         }
       ]
     },
