@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-11-16T08:16:09+08:00",
+  "updated_at": "2026-11-16T13:16:31+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI started a science blog, with a paper that used GPT-6 Astra to help pin down the Standard Model on a lattice. Anthropic's new Claude Fable 5.2 draws by writing Python code for every brushstroke instead of generating pixels. DeepSeek charges 75 cents per thousand web searches, about 13 times less than OpenAI and Anthropic charge for the same job. Nous engineer Teknium told users to drop Luna for DeepSeek Flash or GPT-6 Terra at the same price, with better accuracy. Y Combinator's Garry Tan called Aside Browser a big unlock for AI agents.",
+  "tldr": "Alibaba released Qwen4-Max, a model that reads a million tokens at once and can see images, at $1.50 per million input tokens. Alibaba says it beats its older model using about half the tokens, and that smaller open versions come later. A new speech model called Haru-4B listens and talks at the same time, so it can hold a phone-style conversation. BigMoeOnEdge lets large mixture-of-experts models run on small cards and Macs without repacking them. A community post points out that most uncensored model downloads can be replaced by one tiny add-on file.",
   "articles": [
+    {
+      "title": "Alibaba releases Qwen4-Max with a 1M-token window and native vision",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "category": "chinese_ai",
+      "published": "2026-11-16",
+      "summary": "New MoE model priced at $1.50/$4.50 per million tokens with caching down 70%, claiming 60% lower cost per task."
+    },
+    {
+      "title": "Most abliterated model downloads are one tiny LoRA at runtime",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
+      "category": "ai_research",
+      "published": "2026-11-16",
+      "summary": "Nearly all abliteration is a rank-1 change, so a small LoRA does the same job without downloading hundreds of GB."
+    },
+    {
+      "title": "Haru-4B listens and speaks at once for full-duplex conversation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-11-15",
+      "summary": "A low-latency multilingual speech model that hears and talks at the same time, released as a research base model."
+    },
+    {
+      "title": "BigMoeOnEdge runs large MoE models on 8-16 GB cards and Macs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx5fng/bigmoeonedge_outperforms_strata_and_colibri_on/",
+      "category": "platforms_integration",
+      "published": "2026-11-15",
+      "summary": "Loads any MoE GGUF that llama.cpp can handle, with no repacking, on Nvidia, AMD, Intel, Mac, phone or CPU."
+    },
     {
       "title": "OpenAI opens a science blog with a GPT-6 Astra result on the Standard Model",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
@@ -395,34 +423,6 @@
       "category": "anthropic",
       "published": "2026-11-13",
       "summary": "Exit 2 sends Claude back to retry with the hook's stderr; exit 1 is non-blocking, so the loop finishes even when the check failed."
-    },
-    {
-      "title": "G-STAR paper pushes quality up at heavy model compression",
-      "url": "https://x.com/_akhaliq/status/2121293765889663321",
-      "category": "ai_research",
-      "published": "2026-11-13",
-      "summary": "Group-scaled token capacity for deeply compressed autoregressive generation, aimed at keeping output usable at very low bit rates."
-    },
-    {
-      "title": "Garry Tan's idea-miner skill rewrites its own queue as you work",
-      "url": "https://x.com/garrytan/status/2121352628915593422",
-      "category": "agents_tooling",
-      "published": "2026-11-13",
-      "summary": "A personal agent skill that mines each session for new build ideas and appends them, so the idea list grows from real use instead of a form."
-    },
-    {
-      "title": "Researcher says Chinese labs run Nvidia Blackwell despite export ban",
-      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
-      "category": "ai_models",
-      "published": "2026-11-13",
-      "summary": "Will DePue says forensic analysis ties DeepSeek, Moonshot, MiniMax and Ant Group to export-controlled Blackwell chips."
-    },
-    {
-      "title": "Poppy 1.0 goes live, and Shopify turns it on for every store",
-      "url": "https://sierra.ai/blog/releasing-poppy",
-      "category": "platforms_integration",
-      "published": "2026-11-13",
-      "summary": "The Personal Agent Protocol links personal agents to company sites; Meta's Muse now looks for Poppy first."
     }
   ],
   "tldrs": {
@@ -477,23 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-15T13:16:06+08:00",
+      "at": "2026-11-16T13:16:31+08:00",
       "points": [
         {
-          "text": "Anthropic prices its shares on 18 November and starts trading the next day as ANT.",
-          "url": null
+          "text": "Alibaba released Qwen4-Max, a model that reads a million tokens at once and can see images, at $1.50 per million input tokens.",
+          "url": "https://qwen.ai/blog?id=qwen4-max"
         },
         {
-          "text": "OpenAI shipped GPT-5.1 and changed the default thinking level to none.",
-          "url": "https://developers.openai.com/api/docs/changelog"
+          "text": "Alibaba says it beats its older model using about half the tokens, and that smaller open versions come later.",
+          "url": "https://qwen.ai/blog?id=qwen4-max"
         },
         {
-          "text": "DeepSeek moved its whole app into the V4.1-Flash API, and llama.cpp reached 1.0.0 with a stable promise to developers.",
-          "url": "https://x.com/julien_c/status/2121249804147732803"
+          "text": "A new speech model called Haru-4B listens and talks at the same time, so it can hold a phone-style conversation.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/"
         },
         {
-          "text": "On the agent side, ChatGPT Wallet can now pay for things, and Google's agents machine-checked a huge Lean proof.",
-          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+          "text": "BigMoeOnEdge lets large mixture-of-experts models run on small cards and Macs without repacking them.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx5fng/bigmoeonedge_outperforms_strata_and_colibri_on/"
+        },
+        {
+          "text": "A community post points out that most uncensored model downloads can be replaced by one tiny add-on file.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/"
         }
       ]
     }
