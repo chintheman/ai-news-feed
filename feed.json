@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-11-15T21:15:00+08:00",
+  "updated_at": "2026-11-16T08:16:09+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Meituan released LongCat-2.5, a 1.6 trillion parameter agent model trained entirely on Chinese chips. Nous Research published a public leaderboard that ranks agents by the cost of finishing a task. Australia's central bank says AI is cutting entry level jobs for young workers first, especially in software and support. Reports say a firm linked to Jensen Huang's former partner booked nearly $12 billion in Nvidia chip orders for China. The EU's open model is being scoped at close to a trillion parameters, and a new paper asks whether AI can improve its own training.",
+  "tldr": "OpenAI started a science blog, with a paper that used GPT-6 Astra to help pin down the Standard Model on a lattice. Anthropic's new Claude Fable 5.2 draws by writing Python code for every brushstroke instead of generating pixels. DeepSeek charges 75 cents per thousand web searches, about 13 times less than OpenAI and Anthropic charge for the same job. Nous engineer Teknium told users to drop Luna for DeepSeek Flash or GPT-6 Terra at the same price, with better accuracy. Y Combinator's Garry Tan called Aside Browser a big unlock for AI agents.",
   "articles": [
+    {
+      "title": "OpenAI opens a science blog with a GPT-6 Astra result on the Standard Model",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "category": "ai_research",
+      "published": "2026-11-15",
+      "summary": "A candidate lattice definition of the Standard Model, with GPT-6 Astra helping turn the idea into a detailed proof."
+    },
+    {
+      "title": "OpenAI starts a blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "category": "ai_research",
+      "published": "2026-11-15",
+      "summary": "The new blog carries findings, practical methods and first-hand accounts from researchers using AI in science."
+    },
+    {
+      "title": "Claude Fable 5.2 paints with code, not pixels",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "category": "anthropic",
+      "published": "2026-11-15",
+      "summary": "Instead of computing pixels, the model writes Python that lays down hundreds of thousands of simulated brushstrokes."
+    },
+    {
+      "title": "Teknium: drop Luna for DeepSeek Flash or GPT-6 Terra",
+      "url": "https://x.com/Teknium/status/2121881702247387455",
+      "category": "ai_models",
+      "published": "2026-11-15",
+      "summary": "Nous's lead engineer says Luna costs the same and fails more, and that Kimi now costs near Opus 5.5 for less accuracy."
+    },
+    {
+      "title": "Garry Tan calls Aside Browser a big unlock for AI agents",
+      "url": "https://x.com/garrytan/status/2121824006819258485",
+      "category": "agents_tooling",
+      "published": "2026-11-15",
+      "summary": "YC's president boosts an agent-first browser, quoting a user who called it unmatched for search and research work."
+    },
+    {
+      "title": "A voltage glitch turns a mining card into an 80GB AI GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwxzgj/i_finally_succeed_the_cmp_170hx_voltage_glitch/",
+      "category": "platforms_integration",
+      "published": "2026-11-15",
+      "summary": "A 15-hour mod unlocks 80GB of VRAM and 126 streaming multiprocessors on the CMP 170HX compute card."
+    },
+    {
+      "title": "Basalt 0.4.0 adds model routing and hits 770 tok/s on a 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up/",
+      "category": "platforms_integration",
+      "published": "2026-11-15",
+      "summary": "The local runner now handles several models, video and files, with DeepSeek V4.1 Flash at 246 tok/s structured."
+    },
+    {
+      "title": "inside-llm shows where two quantizations of a model diverge",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
+      "category": "agents_tooling",
+      "published": "2026-11-15",
+      "summary": "An open tool loads one or two GGUF models and shows, token by token, where their outputs split apart."
+    },
+    {
+      "title": "audio.cpp stacks three models into a real-time local avatar chat",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx2vi0/audiocpp_soulxflashhead_lfm3audio_owsm_v4/",
+      "category": "ai_models",
+      "published": "2026-11-15",
+      "summary": "SoulX-FlashHead draws the talking head, OWSM v4 transcribes, LFM3-Audio answers and speaks, all offline in the WebUI."
+    },
+    {
+      "title": "Meituan's LongCat-Video-Avatar 1.6 tightens lip and audio sync",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwvrri/meituanlongcatlongcatvideoavatar16_hugging_face/",
+      "category": "chinese_ai",
+      "published": "2026-11-15",
+      "summary": "The open framework for audio-driven human video adds more natural delivery and better mouth-to-audio alignment."
+    },
+    {
+      "title": "DRAM price fixing case against Samsung, SK Hynix and Micron survives",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "category": "industry",
+      "published": "2026-11-15",
+      "summary": "A court denied the motion to dismiss, keeping alive the memory price case behind GPU and AI hardware costs."
+    },
+    {
+      "title": "llama.cpp's speed gains charted across a Gemma 4 lineup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx607x/llamacpp_performance_improvement_over_time_gemma4/",
+      "category": "ai_models",
+      "published": "2026-11-15",
+      "summary": "An engine built for one laptop measured against llama.cpp over months, with per-model charts of the gap closing."
+    },
     {
       "title": "Meituan releases a 1.6 trillion parameter agent model trained without Nvidia",
       "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
@@ -73,6 +157,13 @@
       "category": "industry",
       "published": "2026-11-15",
       "summary": "Data centre landlord wants customers to guarantee billions in power costs before it signs more capacity."
+    },
+    {
+      "title": "DeepSeek prices web search at $0.75 per 1,000 calls",
+      "url": "https://www.webpronews.com/deepseek-api-web-search-ocr-speech-tools-pricing/",
+      "category": "deepseek",
+      "published": "2026-11-14",
+      "summary": "About 13 times cheaper than OpenAI and Anthropic search, and billed only when a request returns real results."
     },
     {
       "title": "Garry Tan open-sources his agent harness eval repo",
@@ -332,97 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-11-13",
       "summary": "The Personal Agent Protocol links personal agents to company sites; Meta's Muse now looks for Poppy first."
-    },
-    {
-      "title": "DeepSeek puts its whole app stack behind the API",
-      "url": "https://api-docs.deepseek.com/news/news261113/",
-      "category": "deepseek",
-      "published": "2026-11-13",
-      "summary": "Web search, URL reading, file parsing, OCR, ASR and TTS now run server-side on deepseek-flash, billed per call on top of tokens."
-    },
-    {
-      "title": "LangChain raises 300 million dollars at a 3 billion valuation",
-      "url": "https://www.langchain.com/blog/series-c",
-      "category": "industry",
-      "published": "2026-11-13",
-      "summary": "CapitalG led the round with Singapore's GIC joining. More than 7,000 organisations use LangSmith, and a release event lands 20 November."
-    },
-    {
-      "title": "Anthropic's IPO is six times oversubscribed",
-      "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
-      "category": "anthropic",
-      "published": "2026-11-13",
-      "summary": "Orders exceed available shares sixfold, putting the listing on track to be the largest public offering in history."
-    },
-    {
-      "title": "OpenAI disbands its robotics team",
-      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
-      "category": "industry",
-      "published": "2026-11-13",
-      "summary": "Researchers move into the main research group under Mark Chen. OpenAI says general models like GPT-6 Astra can drive robots directly."
-    },
-    {
-      "title": "Deepnote tests whether agents know when to stay quiet",
-      "url": "https://deepnote.com/research/benchmark",
-      "category": "ai_research",
-      "published": "2026-11-13",
-      "summary": "Twelve models in a fake 71-person company spoke up 9 times in 10 when help was needed, but stayed silent only 6 times in 10 when it was not."
-    },
-    {
-      "title": "Bland previews Tofu-1, a speech model that listens while it talks",
-      "url": "https://www.bland.ai/speech-to-speech",
-      "category": "ai_models",
-      "published": "2026-11-13",
-      "summary": "Full-duplex speech-to-speech built for phone calls. An enterprise preview only, with no price, latency or benchmark numbers published."
-    },
-    {
-      "title": "Meta's Muse will call businesses on your behalf",
-      "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
-      "category": "platforms_integration",
-      "published": "2026-11-13",
-      "summary": "Paying US subscribers can have Meta's agent ring cable providers and restaurants. Meta's AI chief says Muse already has 10 million users."
-    },
-    {
-      "title": "Qwen3.5-9B runs on a PlayStation 4 at 31 to 39 tokens a second",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/",
-      "category": "chinese_ai",
-      "published": "2026-11-13",
-      "summary": "An open-source project runs the 9B model offline on stock console hardware, using its own MTP head for speculative decoding."
-    },
-    {
-      "title": "A Hessian trick improves GGUF quants by 13 percent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbqqa/i_noticed_the_2_hessian_refinement_of_macaq_can/",
-      "category": "ai_models",
-      "published": "2026-11-13",
-      "summary": "Applying MACaQ's refinement to any GGUF file gave a quant 13 percent closer to full precision than the standard build, measured on one 5090."
-    },
-    {
-      "title": "Nvidia says it can track its chips, and Washington wants licences",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvcbbh/nvidia_privately_confirmed_it_could_track_chips/",
-      "category": "policy",
-      "published": "2026-11-13",
-      "summary": "Nvidia confirmed privately it could track smuggled GPUs. A proposed rule would require a verified licence before a chip is allowed to connect."
-    },
-    {
-      "title": "OpenAI's Shield story: agents that click through legacy portals",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "category": "platforms_integration",
-      "published": "2026-11-13",
-      "summary": "IT technicians hand tasks inside old portals to Forge agents, so their time goes to the problems that actually need their judgement."
-    },
-    {
-      "title": "Claude for Manufacturing plugs into Autodesk, NetSuite and Infor",
-      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
-      "category": "anthropic",
-      "published": "2026-11-13",
-      "summary": "The plugin connects Claude to factory software, with 17 skills that draft quotes and compare suppliers after human approval."
-    },
-    {
-      "title": "Banks block Chinese and Hong Kong buyers from Anthropic's IPO",
-      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
-      "category": "anthropic",
-      "published": "2026-11-13",
-      "summary": "Banks are rejecting buy orders for the IPO from mainland China and Hong Kong, citing US export control rules, Bloomberg reports."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-15T08:15:00+08:00",
+      "at": "2026-11-16T08:16:09+08:00",
       "points": [
         {
-          "text": "Anthropic set the terms of its listing: 825 million shares at 70 to 78 dollars, pricing on 18 November and trading the next day under ticker ANT.",
-          "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+          "text": "OpenAI started a science blog, with a paper that used GPT-6 Astra to help pin down the Standard Model on a lattice.",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model"
         },
         {
-          "text": "Dario Amodei told investors buying compute is the hardest call the company has, with 901 billion dollars already committed.",
-          "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/"
+          "text": "Anthropic's new Claude Fable 5.2 draws by writing Python code for every brushstroke instead of generating pixels.",
+          "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/"
         },
         {
-          "text": "Google's Gemini 4 Carbon took the top spot on the MathArena maths test, at about 15 times the price of the model it passed.",
-          "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/"
+          "text": "DeepSeek charges 75 cents per thousand web searches, about 13 times less than OpenAI and Anthropic charge for the same job.",
+          "url": "https://www.webpronews.com/deepseek-api-web-search-ocr-speech-tools-pricing/"
         },
         {
-          "text": "Alibaba put Qwen4-Max into preview, so the next open Qwen release is close.",
-          "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
+          "text": "Nous engineer Teknium told users to drop Luna for DeepSeek Flash or GPT-6 Terra at the same price, with better accuracy.",
+          "url": "https://x.com/Teknium/status/2121881702247387455"
         },
         {
-          "text": "On the tooling side, Claude Code on desktop now takes custom themes built by telling Claude what you want.",
-          "url": "https://x.com/ClaudeDevs/status/2121392666244186327"
+          "text": "Y Combinator's Garry Tan called Aside Browser a big unlock for AI agents.",
+          "url": "https://x.com/garrytan/status/2121824006819258485"
         }
       ]
     },
