@@ -2,7 +2,7 @@
   "updated_at": "2026-11-16T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic prices shares for its stock market listing on Wednesday, aiming at a value near 1.4 trillion dollars. OpenAI signed two deals today, with LVMH's media arm and with a UK youth charity. DeepSeek capped its free chat because it ran short of computing power. Tencent released a much cheaper version of its Hy4 model. Two research items landed: a science model from InternLM and a faster way to draft output for vision models.",
+  "tldr": "Anthropic's share sale drew nearly seven times the orders available, and it prices on Wednesday. OpenAI signed two deals today, with LVMH's media arm and with a UK youth charity. DeepSeek capped its free chat because it ran short of computing power. Tencent released a much cheaper version of its Hy4 model. Two research items landed: a science model from InternLM and a faster way to draft output for vision models.",
   "articles": [
     {
       "title": "DeepSeek caps free chat as compute runs short",
@@ -52,6 +52,13 @@
       "category": "platforms_integration",
       "published": "2026-11-16",
       "summary": "An open setup that splits a large Chinese model across two Mac Studios and keeps generation fast."
+    },
+    {
+      "title": "Anthropic IPO orders hit nearly 7 times the shares on offer",
+      "url": "https://gulfnews.com/business/anthropic-ipo-orders-hit-nearly-7-times-shares-on-offer-1.500748696",
+      "category": "anthropic",
+      "published": "2026-11-16",
+      "summary": "Demand is hotter than SpaceX saw at the same stage. Bankers may price above the $70 to $78 range, lifting the value past 1.5 trillion."
     },
     {
       "title": "Alibaba releases Qwen4-Max with a 1M-token window and native vision",
@@ -416,13 +423,6 @@
       "category": "industry",
       "published": "2026-11-14",
       "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
-    },
-    {
-      "title": "Every Hermes plugin hackathon entry is now browsable in one index",
-      "url": "https://x.com/Teknium/status/2121079007164973522",
-      "category": "hermes_nous",
-      "published": "2026-11-13",
-      "summary": "A community page lists all roughly 1,000 hackathon plugins with usage stats, ahead of the top-10 pick."
     }
   ],
   "tldrs": {
@@ -430,8 +430,8 @@
       "at": "2026-11-16T21:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic prices shares for its stock market listing on Wednesday, aiming at a value near 1.4 trillion dollars.",
-          "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+          "text": "Anthropic's share sale drew nearly seven times the orders available, and it prices on Wednesday.",
+          "url": "https://gulfnews.com/business/anthropic-ipo-orders-hit-nearly-7-times-shares-on-offer-1.500748696"
         },
         {
           "text": "OpenAI signed two deals today, with LVMH's media arm and with a UK youth charity.",
