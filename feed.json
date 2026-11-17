@@ -1,9 +1,107 @@
 {
-  "updated_at": "2026-11-16T21:15:00+08:00",
+  "updated_at": "2026-11-17T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic's share sale drew nearly seven times the orders available, and it prices on Wednesday. OpenAI signed two deals today, with LVMH's media arm and with a UK youth charity. DeepSeek capped its free chat because it ran short of computing power. Tencent released a much cheaper version of its Hy4 model. Two research items landed: a science model from InternLM and a faster way to draft output for vision models.",
+  "tldr": "OpenAI is giving 200,000 scientists free access to its best models, with applications opening on 23 November. Hugging Face now runs open-weight models through OpenRouter inside its own site, so one account covers both. Anthropic found that agents remember better when they keep a few written notes instead of everything. Moonshot says it is moving Kimi away from coding scores and towards science research. Anthropic will give security researchers 30 days to report serious bugs from January 2027, down from 90.",
   "articles": [
+    {
+      "title": "OpenAI opens frontier models to 200,000 researchers for free",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "category": "ai_research",
+      "published": "2026-11-16",
+      "summary": "Free access plus training for 200,000 scientists worldwide, applications open 23 Nov. Shared data is not used for training."
+    },
+    {
+      "title": "Science at the Frontier: how 1,800 scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "category": "ai_research",
+      "published": "2026-11-16",
+      "summary": "Survey of 1,800 researchers on daily workflow, reported productivity and what they expect from AI in discovery."
+    },
+    {
+      "title": "OpenAI starts embedded assessments with outside evaluators",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "category": "ai_research",
+      "published": "2026-11-16",
+      "summary": "Apollo Research, METR, Transluce and Goodfire independently test model alignment, safeguards and monitoring."
+    },
+    {
+      "title": "ChatGPT for Healthcare adds computer-use agents and 20+ plugins",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "category": "agents_tooling",
+      "published": "2026-11-16",
+      "summary": "Computer-use agents, stronger clinical answers and plugins for prior auth, referrals and discharge planning."
+    },
+    {
+      "title": "OpenAI ships child safety tools and detection partnerships",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "category": "policy",
+      "published": "2026-11-16",
+      "summary": "New tools, guidance and partnerships aimed at preventing, detecting and responding to online child exploitation."
+    },
+    {
+      "title": "Hugging Face puts OpenRouter inside the Hub",
+      "url": "https://huggingface.co/blog/openrouter",
+      "category": "platforms_integration",
+      "published": "2026-11-16",
+      "summary": "Same token and endpoint for open-weight models, plus live model stats on the Hub and a rebuilt inference widget."
+    },
+    {
+      "title": "Open-weight models reach 30% of enterprise usage to cut costs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
+      "category": "industry",
+      "published": "2026-11-16",
+      "summary": "Up from near zero since July, mostly in high-volume batch and coding work where price beats a small quality gap."
+    },
+    {
+      "title": "Google fixes Gemma 4 tokenizers that gave nonsense output",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
+      "category": "ai_models",
+      "published": "2026-11-16",
+      "summary": "Fixed in E2B, E4B and 12B; still unclear whether the corrected tokenizers reach community GGUF builds."
+    },
+    {
+      "title": "Google catches first fully automated AI exploitation of live sites",
+      "url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+      "category": "ai_research",
+      "published": "2026-11-16",
+      "summary": "An exploit_agent found on an exposed server compared code either side of a patch and built exploits with no human in the loop."
+    },
+    {
+      "title": "Moonshot pivots Kimi from coding scores to science research",
+      "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+      "category": "moonshot_ai",
+      "published": "2026-11-16",
+      "summary": "The lab says coding benchmark gains have flattened and is pushing Kimi into biology, chemistry and pharma work."
+    },
+    {
+      "title": "Claude builds interactive web pages inside canvas graphics",
+      "url": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+      "category": "anthropic",
+      "published": "2026-11-16",
+      "summary": "Text, buttons and other web elements now embed in complex graphics and 3D effects using real HTML."
+    },
+    {
+      "title": "Anthropic: agent memory should forget, not hoard",
+      "url": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+      "category": "anthropic",
+      "published": "2026-11-16",
+      "summary": "Selective notes beat exhaustive archives: in Pokemon Red, Fable 5 got four times further with a few files, not 400."
+    },
+    {
+      "title": "Anthropic cuts bug disclosure window to 30 days from 2027",
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "category": "policy",
+      "published": "2026-11-16",
+      "summary": "High and critical flaws get 30 days, others 45, for reports from 1 Jan 2027. The 7-day exploited-flaw window stays."
+    },
+    {
+      "title": "miHoYo Gamer: a generalist agent that plays games",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxy7eb/mihoyo_gamer_a_generalist_game_agent/",
+      "category": "ai_research",
+      "published": "2026-11-16",
+      "summary": "A generalist game-playing agent posted to r/LocalLLaMA, built to carry across miHoYo titles rather than one game."
+    },
     {
       "title": "DeepSeek caps free chat as compute runs short",
       "url": "https://technode.com/2026/11/16/deepseek-users-report-chat-limits-as-the-service-cites-capacity-constraints/",
@@ -73,6 +171,13 @@
       "category": "ai_research",
       "published": "2026-11-16",
       "summary": "Nearly all abliteration is a rank-1 change, so a small LoRA does the same job without downloading hundreds of GB."
+    },
+    {
+      "title": "Claude Code themes are mods that hook live session events",
+      "url": "https://x.com/lydiahallie/status/2122028598639136810",
+      "category": "agents_tooling",
+      "published": "2026-11-15",
+      "summary": "Mods can hook turn.step, so a theme reacts to session state instead of only restyling the interface."
     },
     {
       "title": "Haru-4B listens and speaks at once for full-duplex conversation",
@@ -318,111 +423,6 @@
       "category": "anthropic",
       "published": "2026-11-14",
       "summary": "Anthropic has nearly $901B in compute commitments and no clear read on whether future revenue covers it, days before what could be the largest IPO in history."
-    },
-    {
-      "title": "Anthropic: drop think hard prompts, start Opus 5.5 at Medium effort",
-      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-      "category": "anthropic",
-      "published": "2026-11-14",
-      "summary": "Opus 5.5 is now the default on every paid plan, and Anthropic's new guide says old prompting habits make it slower rather than smarter."
-    },
-    {
-      "title": "Gemini 4 Carbon tops MathArena at 15 times GPT-6.1 Sol's price",
-      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
-      "category": "ai_models",
-      "published": "2026-11-14",
-      "summary": "First time in a while no OpenAI model leads MathArena. Gemini 4 Carbon and Fable 5.2 take the top two, both far more expensive per task."
-    },
-    {
-      "title": "Lovable apps leaked passport scans and 200K private messages",
-      "url": "https://www.crissyfield.de/research/lovable-en/",
-      "category": "platforms_integration",
-      "published": "2026-11-14",
-      "summary": "A scan of Lovable-built apps found many with open database access, exposing identity documents and user messages from AI-generated apps."
-    },
-    {
-      "title": "tiny-voca: an 18 MB text to speech model that runs in a browser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code/",
-      "category": "ai_research",
-      "published": "2026-11-14",
-      "summary": "4.5M parameters, two voices, code and weights open, and roughly 70 times real time on a CPU with nothing sent to a server."
-    },
-    {
-      "title": "tandem.cpp runs a 139 GiB DeepSeek expert model on a 64 GB PC",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/",
-      "category": "ai_models",
-      "published": "2026-11-14",
-      "summary": "A llama.cpp patch keeps hot experts on a 16 GB GPU and lets the CPU take the rest, and now also builds against AMD ROCm."
-    },
-    {
-      "title": "Anthropic can retrain Mythos for a fraction of the compute, says Coxon",
-      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-      "category": "anthropic",
-      "published": "2026-11-14",
-      "summary": "Ex-researcher Jacob Coxon cites an IPO roadshow slide showing Anthropic's training algorithms speeding up."
-    },
-    {
-      "title": "Garry Tan opens harness evals: rules in hooks run, unnamed skills do not",
-      "url": "https://github.com/garrytan/g-harness-evals",
-      "category": "agents_tooling",
-      "published": "2026-11-14",
-      "summary": "MIT evals fix the model and tasks and swap only the harness: five of six rivals landed within 15 points of Claude Code."
-    },
-    {
-      "title": "Opus 5.5 stays the coding default as Fable 5.2 costs 2.8x per task",
-      "url": "https://x.com/garrytan/status/2121464508225053153",
-      "category": "ai_models",
-      "published": "2026-11-14",
-      "summary": "Fable 5.2 solved 82.7% of 52 coding tasks against Opus 5.5's 84.6%, at 2.8 times the cost for each solved task."
-    },
-    {
-      "title": "Runway open-sources Praxis-1 as a robot control model",
-      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
-      "category": "ai_models",
-      "published": "2026-11-14",
-      "summary": "Praxis-1 turns camera frames plus a text instruction into robot movement, shipped with weights and code under Apache 2.0."
-    },
-    {
-      "title": "Nex-AGI ships Nex-N2.6, a 321B agentic model under Apache 2.0",
-      "url": "https://huggingface.co/nex-agi/Nex-N2.6",
-      "category": "ai_models",
-      "published": "2026-11-14",
-      "summary": "Built on GLM-5.3-Flash, it scores 83.0 on OSWorld against the base model's 78.0 and runs in FP8."
-    },
-    {
-      "title": "MiniMax releases H3-Image, a 33B open model for 16MP output",
-      "url": "https://www.thenextgentechinsider.com/pulse/minimax-launches-h3-image-model-for-native-16mp-high-resolution-generation",
-      "category": "chinese_ai",
-      "published": "2026-11-14",
-      "summary": "A 33.1B diffusion transformer that generates roughly 16MP natively and edits from multiple references, no upscale pass."
-    },
-    {
-      "title": "Claude Code adds an experimental Code Mode",
-      "url": "https://code.claude.com/docs/en/code-mode",
-      "category": "anthropic",
-      "published": "2026-11-14",
-      "summary": "Off by default: Claude writes JavaScript that fires several tool calls in one step instead of one call at a time."
-    },
-    {
-      "title": "SenseNova Loop-9B preview reported to match Qwen 3.5 27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/",
-      "category": "chinese_ai",
-      "published": "2026-11-14",
-      "summary": "Early testers say the 9B preview is level with a model three times its size, with roughly 15B parameters active."
-    },
-    {
-      "title": "Unsloth ships dynamic v3.1 quantizations for Qwen3.8-27B",
-      "url": "https://unsloth.ai/docs/models/qwen3.8",
-      "category": "chinese_ai",
-      "published": "2026-11-14",
-      "summary": "The update cuts memory use so Qwen3.8-27B fits smaller cards, and topped Hacker News on Saturday."
-    },
-    {
-      "title": "Claim: Nvidia financed AI startups to soak up excess GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsb5f/instead_of_lowering_gpu_prices_former_nvidia_ceo/",
-      "category": "industry",
-      "published": "2026-11-14",
-      "summary": "A widely shared post argues Huang funded buyers instead of cutting GPU prices. Reported and unconfirmed: Nvidia has said nothing on it."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-16T08:16:09+08:00",
+      "at": "2026-11-17T08:15:00+08:00",
       "points": [
         {
-          "text": "OpenAI started a science blog, with a paper that used GPT-6 Astra to help pin down the Standard Model on a lattice.",
-          "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+          "text": "OpenAI is giving 200,000 scientists free access to its best models, with applications opening on 23 November.",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
         },
         {
-          "text": "Anthropic's new Claude Fable 5.2 draws by writing Python code for every brushstroke instead of generating pixels.",
-          "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/"
+          "text": "Hugging Face now runs open-weight models through OpenRouter inside its own site, so one account covers both.",
+          "url": "https://huggingface.co/blog/openrouter"
         },
         {
-          "text": "DeepSeek charges 75 cents per thousand web searches, about 13 times less than OpenAI and Anthropic charge for the same job.",
-          "url": "https://www.webpronews.com/deepseek-api-web-search-ocr-speech-tools-pricing/"
+          "text": "Anthropic found that agents remember better when they keep a few written notes instead of everything.",
+          "url": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/"
         },
         {
-          "text": "Nous engineer Teknium told users to drop Luna for DeepSeek Flash or GPT-6 Terra at the same price, with better accuracy.",
-          "url": "https://x.com/Teknium/status/2121881702247387455"
+          "text": "Moonshot says it is moving Kimi away from coding scores and towards science research.",
+          "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/"
         },
         {
-          "text": "Y Combinator's Garry Tan called Aside Browser a big unlock for AI agents.",
-          "url": "https://x.com/garrytan/status/2121824006819258485"
+          "text": "Anthropic will give security researchers 30 days to report serious bugs from January 2027, down from 90.",
+          "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
         }
       ]
     },
