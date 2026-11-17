@@ -1,15 +1,113 @@
 {
-  "updated_at": "2026-11-17T13:15:00+08:00",
+  "updated_at": "2026-11-17T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Tencent's new Hy4 flash model is free in Nous Portal for two weeks, and costs about seven cents per million input tokens after that. Nvidia's new Vera Rubin chip swept every training benchmark in its first public test. AMD finished its 8.2 billion dollar purchase of World Labs, and Fei-Fei Li is now its chief scientist. TensorWave will hand OpenAI more than 450 megawatts of AMD computing over six years. One company reports saving nine million dollars a year by buying shared subscriptions instead of paying per API call.",
+  "tldr": "Anthropic locked in its share price range and starts trading on Nasdaq on 19 November, valued at up to 1.4 trillion dollars. Tencent's new decoding method and a wave of small open models arrived with faster ways to run them on ordinary hardware. AMD's own software now runs its graphics cards about 40 percent faster than the common open source option. One developer write-up argues an AI agent should never hold your real passwords, and another releases a template that makes every report carry the steps to rebuild its numbers. Anthropic also published its checklist for testing a model before release, and now watermarks text written by older Claude models.",
   "articles": [
+    {
+      "title": "Maxwell V1 Flash packs 35B parameters into 3B active per token",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyamk6/maxwellmodelmaxwellv1flash_hugging_face/",
+      "category": "ai_models",
+      "published": "2026-11-17",
+      "summary": "A 35B mixture-of-experts model with 3B active parameters and a 256K context window, now on Hugging Face."
+    },
+    {
+      "title": "Clover 2 routes seven LoRA experts over a 27.8B dense base",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyb7jw/clover_2_dense_278b_base_7_lora_experts_routed/",
+      "category": "ai_models",
+      "published": "2026-11-17",
+      "summary": "Roleplay, math, security and other adapters stay separate at inference and are routed per token; weights are public."
+    },
+    {
+      "title": "One B200 trains a GPT end to end with a 4-bit forward pass",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyawzz/thinking_machines_4bit_replication_i_trained_a/",
+      "category": "ai_research",
+      "published": "2026-11-17",
+      "summary": "An independent rebuild of Thinking Machines' claim that Inkling 2 Small trained natively in NVFP4 on a single GPU."
+    },
+    {
+      "title": "OpenAI helps NATO and allied agencies hunt cyber flaws with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "category": "policy",
+      "published": "2026-11-17",
+      "summary": "OpenAI says it is working with NATO and allied cyber agencies to find vulnerabilities and test fixes."
+    },
+    {
+      "title": "Tencent's DSpine speculative decoding ships GGUFs and a public PR",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xycsm1/dspine_updates_on_pr_ggufs/",
+      "category": "ai_research",
+      "published": "2026-11-17",
+      "summary": "Draft-in-parallel decoding for Qwen3.8-27B lands as quantised GGUFs, with side-by-side numbers against DFlash2."
+    },
+    {
+      "title": "Running coding agents without handing over your credentials",
+      "url": "https://blog.antonio.cx/running-agents-with-lend",
+      "category": "agents_tooling",
+      "published": "2026-11-17",
+      "summary": "A developer write-up on scoping agent access so the agent never holds the real keys; 113 points on Hacker News."
+    },
+    {
+      "title": "OVH releases Olala mini, a 7B model with 1B active parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xygtj4/ovh_announces_olala_mini_7a1b/",
+      "category": "ai_models",
+      "published": "2026-11-17",
+      "summary": "256 experts per layer with Mamba-3 hybrid attention, shipped in BF16; only a fraction of the weights run per request."
+    },
+    {
+      "title": "A llama.cpp pull request lifts long-context prompt speed 1.4x",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyi6hj/rotate_kv_read_order_for_better_l2_cache_hit/",
+      "category": "platforms_integration",
+      "published": "2026-11-17",
+      "summary": "Reordering KV reads to raise L2 cache hits gave 1.41x prompt processing at 128K context on an RTX 5090."
+    },
+    {
+      "title": "Nvidia publishes a Qwen3.8 Flash NVFP4 build with distillation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyi3aa/nvidiaqwen38flashnextnvfp4qad/",
+      "category": "ai_models",
+      "published": "2026-11-17",
+      "summary": "An official Nvidia NVFP4 conversion of Qwen3.8-Flash-Next using quantisation-aware distillation, posted to the Hub."
+    },
+    {
+      "title": "GBrain rebuilds its memory store in Rust to drop pgvector",
+      "url": "https://x.com/garrytan/status/2122576951080792543",
+      "category": "agents_tooling",
+      "published": "2026-11-17",
+      "summary": "Vector, graph and keyword search move into one Rust engine, replacing postgres plus pgvector or pglite."
+    },
+    {
+      "title": "A skill that makes every report carry its own rebuild steps",
+      "url": "https://x.com/garrytan/status/2122586989082059129",
+      "category": "agents_tooling",
+      "published": "2026-11-17",
+      "summary": "A replication-appendix template with signal definitions, verbatim queries, derivation pseudocode and rebuild commands."
+    },
     {
       "title": "GBrain sells hosted memory nesting personal, team and company context",
       "url": "https://x.com/garrytan/status/2122517681740124271",
       "category": "agents_tooling",
       "published": "2026-11-17",
       "summary": "Agent memory as a bought service with defined topologies, rather than a self-built file tree."
+    },
+    {
+      "title": "Anthropic files final IPO terms: prices Nov 18, trades as ANT",
+      "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+      "category": "industry",
+      "published": "2026-11-16",
+      "summary": "825M Class A shares at $70 to $78, up to $64.4B raised, against a $1.404T fully diluted valuation."
+    },
+    {
+      "title": "AMD Loom adds Radeon 9700 support and beats llama.cpp by 42%",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxuzgg/amd_loom_fun_added_radeon_9700_support_over_the/",
+      "category": "platforms_integration",
+      "published": "2026-11-16",
+      "summary": "The experimental AMD inference stack benchmarked 48 models and reports a 42% average speedup over llama.cpp."
+    },
+    {
+      "title": "Claude Opus and Sonnet outputs now carry a text watermark",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "anthropic",
+      "published": "2026-11-16",
+      "summary": "From 16 Nov, Opus 4.6, Opus 4.5, Sonnet 4.5 and Haiku 4.5 output is watermarked where supported."
     },
     {
       "title": "Tencent's Hy4 flash is free in Nous Portal for two weeks",
@@ -325,129 +423,31 @@
       "category": "ai_models",
       "published": "2026-11-15",
       "summary": "SoulX-FlashHead draws the talking head, OWSM v4 transcribes, LFM3-Audio answers and speaks, all offline in the WebUI."
-    },
-    {
-      "title": "Meituan's LongCat-Video-Avatar 1.6 tightens lip and audio sync",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwvrri/meituanlongcatlongcatvideoavatar16_hugging_face/",
-      "category": "chinese_ai",
-      "published": "2026-11-15",
-      "summary": "The open framework for audio-driven human video adds more natural delivery and better mouth-to-audio alignment."
-    },
-    {
-      "title": "DRAM price fixing case against Samsung, SK Hynix and Micron survives",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "category": "industry",
-      "published": "2026-11-15",
-      "summary": "A court denied the motion to dismiss, keeping alive the memory price case behind GPU and AI hardware costs."
-    },
-    {
-      "title": "llama.cpp's speed gains charted across a Gemma 4 lineup",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx607x/llamacpp_performance_improvement_over_time_gemma4/",
-      "category": "ai_models",
-      "published": "2026-11-15",
-      "summary": "An engine built for one laptop measured against llama.cpp over months, with per-model charts of the gap closing."
-    },
-    {
-      "title": "Meituan releases a 1.6 trillion parameter agent model trained without Nvidia",
-      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-      "category": "chinese_ai",
-      "published": "2026-11-15",
-      "summary": "LongCat-2.5 scores 88.4 on Terminal Bench, just behind Claude Opus 5, and a sample deployment runs on 194 Huawei Ascend chips."
-    },
-    {
-      "title": "Nous publishes the Hermes Index, ranking agents by dollars per task",
-      "url": "https://portal.nousresearch.com/bench",
-      "category": "hermes_nous",
-      "published": "2026-11-15",
-      "summary": "A public board scores task completion and cost per task across Hermes Bench, TerminalBench 4 and SkillsBench."
-    },
-    {
-      "title": "Firm tied to Jensen Huang's ex-partner brokered $12B in Nvidia orders for China",
-      "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
-      "category": "industry",
-      "published": "2026-11-15",
-      "summary": "Megaspeed arranged the orders between 2024 and 2025, per the WSJ; short seller Culper puts Nvidia's real China revenue above 20 percent."
-    },
-    {
-      "title": "Australia's central bank says AI is hitting young workers in software and support",
-      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-      "category": "industry",
-      "published": "2026-11-15",
-      "summary": "Postings and employment for 15 to 24 year olds in exposed fields have fallen faster than for older workers since ChatGPT launched."
-    },
-    {
-      "title": "Paper asks whether self-improvement can start before pre-training ends",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier/",
-      "category": "ai_research",
-      "published": "2026-11-15",
-      "summary": "Public recursive self-improvement work so far only touches post-training; the authors ask whether it stops at the frontier."
-    },
-    {
-      "title": "The 32K needle drop survived a prompt rewrite, so the prompt was not the cause",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwtpqx/llms_kept_saying_the_text_doesnt_mention_it_at/",
-      "category": "ai_research",
-      "published": "2026-11-15",
-      "summary": "A series re-runs published prompting studies on 2026 models and reports where the old findings still hold."
-    },
-    {
-      "title": "EuroPA, the EU's open model, targets close to 1 trillion parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/",
-      "category": "ai_models",
-      "published": "2026-11-15",
-      "summary": "The EU-backed open model is being scoped at just under a trillion parameters, far larger than any open release so far."
-    },
-    {
-      "title": "Anatomy of a trojan implant planted inside a model's brain",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwsrp1/placing_an_implant_into_ai_brain_with_lazarus/",
-      "category": "ai_research",
-      "published": "2026-11-15",
-      "summary": "A write-up walks through how a Lazarus-style backdoor is embedded into model weights, with the research notes attached."
-    },
-    {
-      "title": "Google's teamwork agents machine-checked the Weil conjectures in Lean",
-      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-      "category": "ai_research",
-      "published": "2026-11-15",
-      "summary": "Antigravity agents wrote and verified 1.8 million lines of Lean proof, with a machine checker confirming each step."
-    },
-    {
-      "title": "Applied Digital asks Oracle and Meta to backstop its power bills",
-      "url": "https://aiweekly.co/alerts/applied-digital-asks-oracle-meta-for-billions-to-lock-in-power",
-      "category": "industry",
-      "published": "2026-11-15",
-      "summary": "Data centre landlord wants customers to guarantee billions in power costs before it signs more capacity."
-    },
-    {
-      "title": "DeepSeek prices web search at $0.75 per 1,000 calls",
-      "url": "https://www.webpronews.com/deepseek-api-web-search-ocr-speech-tools-pricing/",
-      "category": "deepseek",
-      "published": "2026-11-14",
-      "summary": "About 13 times cheaper than OpenAI and Anthropic search, and billed only when a request returns real results."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-16T21:15:00+08:00",
+      "at": "2026-11-17T21:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic's share sale drew nearly seven times the orders available, and it prices on Wednesday.",
-          "url": "https://gulfnews.com/business/anthropic-ipo-orders-hit-nearly-7-times-shares-on-offer-1.500748696"
+          "text": "Anthropic locked in its share price range and starts trading on Nasdaq on 19 November, valued at up to 1.4 trillion dollars.",
+          "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
         },
         {
-          "text": "OpenAI signed two deals today, with LVMH's media arm and with a UK youth charity.",
-          "url": "https://openai.com/index/lvmh-media-division-partnership"
+          "text": "Tencent's new decoding method and a wave of small open models arrived with faster ways to run them on ordinary hardware.",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xycsm1/dspine_updates_on_pr_ggufs/"
         },
         {
-          "text": "DeepSeek capped its free chat because it ran short of computing power.",
-          "url": "https://technode.com/2026/11/16/deepseek-users-report-chat-limits-as-the-service-cites-capacity-constraints/"
+          "text": "AMD's own software now runs its graphics cards about 40 percent faster than the common open source option.",
+          "url": null
         },
         {
-          "text": "Tencent released a much cheaper version of its Hy4 model.",
-          "url": "https://hy.tencent.ai/research/hy4-flash"
+          "text": "One developer write-up argues an AI agent should never hold your real passwords, and another releases a template that makes every report carry the steps to rebuild its numbers.",
+          "url": "https://x.com/garrytan/status/2122586989082059129"
         },
         {
-          "text": "Two research items landed: a science model from InternLM and a faster way to draft output for vision models.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd3w/paper_models_mmflash_faster_speculative_decoding/"
+          "text": "Anthropic also published its checklist for testing a model before release, and now watermarks text written by older Claude models.",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview"
         }
       ]
     },
