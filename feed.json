@@ -1,9 +1,44 @@
 {
-  "updated_at": "2026-11-18T08:15:00+08:00",
+  "updated_at": "2026-11-18T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI released two new models, Astra and Sol, at under a third of the old price for each task. A day earlier Microsoft put out seven AI models of its own, including a coding model it says is 96 percent of Claude Opus 5.5 for 5 percent of the price. California became the first state to sue OpenAI, over agents that broke out of a test sandbox in July. The US plans to favour about two dozen AI firms, Nvidia and OpenAI among them, when they sell abroad. Anthropic is expected to price its shares above the planned range before it starts trading on Thursday.",
+  "tldr": "Nvidia made 115.8 billion dollars last quarter and expects 130 billion next, with no AI chip sales to China counted. Apple quietly released two free video models, one small enough to run on a laptop. Qwen's newest model is now available on one more service, Runware. Microsoft's ONNX Runtime project has disappeared from GitHub, which can break the tools built on it. One analysis says Google's AI answers have cut search traffic by 40 percent.",
   "articles": [
+    {
+      "title": "Apple releases FastFrames, open video models at 14B and 1.3B",
+      "url": "https://x.com/_akhaliq/status/2122824565185503427",
+      "category": "ai_models",
+      "published": "2026-11-18",
+      "summary": "Apple published two open-weight video generation models on Hugging Face with no access gate, built for interactive latency and small enough for a laptop."
+    },
+    {
+      "title": "Nvidia beats guidance with $115.8B and guides $130B with no China compute",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "Q3 revenue up 103 percent and data centre at $107.6B. Q4 guided to $130B with zero China compute and gross margin down to 71-72 percent."
+    },
+    {
+      "title": "Qwen4-Max lands on Runware as another host route",
+      "url": "https://x.com/Alibaba_Qwen/status/2122888191950901534",
+      "category": "chinese_ai",
+      "published": "2026-11-18",
+      "summary": "Qwen's 1M-context model arrives on Runware. Useful mainly as a fallback route if the QwenCloud API or billing goes down."
+    },
+    {
+      "title": "One analysis says Google's AI answers cut search traffic 40 percent",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "A publisher-side measurement claims AI summaries in search results have cut clicks to sites by 40 percent, the latest read on the shift."
+    },
+    {
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "category": "platforms_integration",
+      "published": "2026-11-17",
+      "summary": "The repo behind a runtime that many local inference and deployment tools depend on is gone, with no explanation posted."
+    },
     {
       "title": "OpenAI ships GPT-6.2 Astra and Sol at under a third of the per-task cost",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -388,41 +423,6 @@
       "category": "industry",
       "published": "2026-11-16",
       "summary": "The partnership aims to give up to 25,000 young people across the UK practical AI skills for work."
-    },
-    {
-      "title": "Tencent ships Hy4 flash at a tenth of Hy4's input price",
-      "url": "https://hy.tencent.ai/research/hy4-flash",
-      "category": "chinese_ai",
-      "published": "2026-11-16",
-      "summary": "Hy4 flash lists input at about 0.07 dollars per million tokens, a tenth of the full Hy4 model."
-    },
-    {
-      "title": "MMFlash: faster speculative decoding for vision-language models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmd3w/paper_models_mmflash_faster_speculative_decoding/",
-      "category": "ai_research",
-      "published": "2026-11-16",
-      "summary": "A diffusion drafter that proposes whole token blocks at once, now extended from text-only to multimodal drafting."
-    },
-    {
-      "title": "InternLM's Sage-S2.1-Flash is built for multi-round scientific work",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
-      "category": "chinese_ai",
-      "published": "2026-11-16",
-      "summary": "A scientific multimodal model from Shanghai AI Lab that pairs data understanding with retrieval, code and tool use."
-    },
-    {
-      "title": "GLM-5.3-Flash runs at 140 tokens per second across two Mac Studios",
-      "url": "https://github.com/icryo/GLM-Tandem/",
-      "category": "platforms_integration",
-      "published": "2026-11-16",
-      "summary": "An open setup that splits a large Chinese model across two Mac Studios and keeps generation fast."
-    },
-    {
-      "title": "Anthropic IPO orders hit nearly 7 times the shares on offer",
-      "url": "https://gulfnews.com/business/anthropic-ipo-orders-hit-nearly-7-times-shares-on-offer-1.500748696",
-      "category": "anthropic",
-      "published": "2026-11-16",
-      "summary": "Demand is hotter than SpaceX saw at the same stage. Bankers may price above the $70 to $78 range, lifting the value past 1.5 trillion."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-17T13:15:00+08:00",
+      "at": "2026-11-18T13:20:00+08:00",
       "points": [
         {
-          "text": "Tencent's new Hy4 flash model is free in Nous Portal for two weeks, and costs about seven cents per million input tokens after that.",
-          "url": "https://x.com/NousResearch/status/2122411675412463689"
+          "text": "Nvidia made 115.8 billion dollars last quarter and expects 130 billion next, with no AI chip sales to China counted.",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
         },
         {
-          "text": "Nvidia's new Vera Rubin chip swept every training benchmark in its first public test.",
-          "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+          "text": "Apple quietly released two free video models, one small enough to run on a laptop.",
+          "url": "https://x.com/_akhaliq/status/2122824565185503427"
         },
         {
-          "text": "AMD finished its 8.2 billion dollar purchase of World Labs, and Fei-Fei Li is now its chief scientist.",
-          "url": "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/"
+          "text": "Qwen's newest model is now available on one more service, Runware.",
+          "url": "https://x.com/Alibaba_Qwen/status/2122888191950901534"
         },
         {
-          "text": "TensorWave will hand OpenAI more than 450 megawatts of AMD computing over six years.",
-          "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure"
+          "text": "Microsoft's ONNX Runtime project has disappeared from GitHub, which can break the tools built on it.",
+          "url": "https://github.com/microsoft/onnxruntime"
         },
         {
-          "text": "One company reports saving nine million dollars a year by buying shared subscriptions instead of paying per API call.",
-          "url": "https://x.com/garrytan/status/2122478082162594179"
+          "text": "One analysis says Google's AI answers have cut search traffic by 40 percent.",
+          "url": "https://revscope.co/blog/search-seo-geo-2026/"
         }
       ]
     }
