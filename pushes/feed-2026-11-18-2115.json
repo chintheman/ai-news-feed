@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-11-18T21:20:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 9,
+  "tldr": "Tencent put the Hy4 flash weights out for anyone to download, a very large model that only runs a small part of itself per word. Coding agents now write code faster than teams can review it, according to a Harvard study. Malicious releases of Microsoft's agent framework on PyPI carried a credential stealer. Workday agreed to buy Honeydew, and OpenAI signed a deal with Le Figaro. Anthropic prices its IPO in New York tonight.",
+  "articles": [
+    {
+      "title": "Tencent releases Hy4 flash as open weights with a 1M context",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "category": "chinese_ai",
+      "published": "2026-11-18",
+      "summary": "224B MoE with 12B active per token, 1M context, native text and image. Hosted at $0.070 per million input tokens."
+    },
+    {
+      "title": "Harvard: coding agents moved the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "Agents add code faster than teams can review it, so review time now grows faster than shipping output."
+    },
+    {
+      "title": "Microsoft's agent framework on PyPI shipped a credential stealer",
+      "url": "https://github.com/microsoft/agent-framework/issues/10411",
+      "category": "agents_tooling",
+      "published": "2026-11-18",
+      "summary": "Releases of the Python package loaded a stealer through .pth import hooks, so the code ran on import without a call."
+    },
+    {
+      "title": "OpenAI brings Le Figaro journalism into ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "category": "platforms_integration",
+      "published": "2026-11-18",
+      "summary": "Summaries and excerpts from Le Figaro inside ChatGPT, with links back to the original stories."
+    },
+    {
+      "title": "Cognition launches Devin Bots that lead teams of Devins",
+      "url": "https://devin.ai/blog/introducing-devin-bots",
+      "category": "agents_tooling",
+      "published": "2026-11-18",
+      "summary": "Goal-owning agents that plan the work and coordinate a team of Devin workers instead of one agent doing every step."
+    },
+    {
+      "title": "Workday to buy Honeydew for its semantic layer",
+      "url": "https://newsroom.workday.com/2026-11-18-Workday-Announces-Intent-to-Acquire-Honeydew,-a-Semantic-Layer-for-AI-and-Business-Intelligence",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "The semantic layer compiles business logic into queries before the model sees them, aimed at tighter HR and finance answers."
+    },
+    {
+      "title": "Suno adds visuals so its songs come with matching video",
+      "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+      "category": "platforms_integration",
+      "published": "2026-11-18",
+      "summary": "A new Visuals feature generates images and video clips to go with generated tracks, inside the same product."
+    },
+    {
+      "title": "Why Gemini 4 Carbon has taken so long",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "category": "ai_models",
+      "published": "2026-11-18",
+      "summary": "A technical post on the delay to Google's next flagship model and the size of the training runs behind it."
+    },
+    {
+      "title": "Ropedia Xperience 2 aims to standardise physical AI testing",
+      "url": "https://huggingface.co/papers/2611.17060",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "A paper plus environment suite for scaling physical AI training and behaviour, aimed at reproducible robot benchmarks."
+    }
+  ]
+}

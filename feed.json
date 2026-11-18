@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-18T13:20:00+08:00",
+  "updated_at": "2026-11-18T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nvidia made 115.8 billion dollars last quarter and expects 130 billion next, with no AI chip sales to China counted. Apple quietly released two free video models, one small enough to run on a laptop. Qwen's newest model is now available on one more service, Runware. Microsoft's ONNX Runtime project has disappeared from GitHub, which can break the tools built on it. One analysis says Google's AI answers have cut search traffic by 40 percent.",
+  "tldr": "Tencent put the Hy4 flash weights out for anyone to download, a very large model that only runs a small part of itself per word. Coding agents now write code faster than teams can review it, according to a Harvard study. Malicious releases of Microsoft's agent framework on PyPI carried a credential stealer. Workday agreed to buy Honeydew, and OpenAI signed a deal with Le Figaro. Anthropic prices its IPO in New York tonight.",
   "articles": [
+    {
+      "title": "Tencent releases Hy4 flash as open weights with a 1M context",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "category": "chinese_ai",
+      "published": "2026-11-18",
+      "summary": "224B MoE with 12B active per token, 1M context, native text and image. Hosted at $0.070 per million input tokens."
+    },
+    {
+      "title": "Harvard: coding agents moved the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "Agents add code faster than teams can review it, so review time now grows faster than shipping output."
+    },
+    {
+      "title": "Microsoft's agent framework on PyPI shipped a credential stealer",
+      "url": "https://github.com/microsoft/agent-framework/issues/10411",
+      "category": "agents_tooling",
+      "published": "2026-11-18",
+      "summary": "Releases of the Python package loaded a stealer through .pth import hooks, so the code ran on import without a call."
+    },
+    {
+      "title": "OpenAI brings Le Figaro journalism into ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "category": "platforms_integration",
+      "published": "2026-11-18",
+      "summary": "Summaries and excerpts from Le Figaro inside ChatGPT, with links back to the original stories."
+    },
+    {
+      "title": "Cognition launches Devin Bots that lead teams of Devins",
+      "url": "https://devin.ai/blog/introducing-devin-bots",
+      "category": "agents_tooling",
+      "published": "2026-11-18",
+      "summary": "Goal-owning agents that plan the work and coordinate a team of Devin workers instead of one agent doing every step."
+    },
+    {
+      "title": "Workday to buy Honeydew for its semantic layer",
+      "url": "https://newsroom.workday.com/2026-11-18-Workday-Announces-Intent-to-Acquire-Honeydew,-a-Semantic-Layer-for-AI-and-Business-Intelligence",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "The semantic layer compiles business logic into queries before the model sees them, aimed at tighter HR and finance answers."
+    },
+    {
+      "title": "Suno adds visuals so its songs come with matching video",
+      "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+      "category": "platforms_integration",
+      "published": "2026-11-18",
+      "summary": "A new Visuals feature generates images and video clips to go with generated tracks, inside the same product."
+    },
+    {
+      "title": "Why Gemini 4 Carbon has taken so long",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "category": "ai_models",
+      "published": "2026-11-18",
+      "summary": "A technical post on the delay to Google's next flagship model and the size of the training runs behind it."
+    },
+    {
+      "title": "Ropedia Xperience 2 aims to standardise physical AI testing",
+      "url": "https://huggingface.co/papers/2611.17060",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "A paper plus environment suite for scaling physical AI training and behaviour, aimed at reproducible robot benchmarks."
+    },
     {
       "title": "Apple releases FastFrames, open video models at 14B and 1.3B",
       "url": "https://x.com/_akhaliq/status/2122824565185503427",
@@ -360,94 +423,31 @@
       "category": "ai_models",
       "published": "2026-11-16",
       "summary": "Fixed in E2B, E4B and 12B; still unclear whether the corrected tokenizers reach community GGUF builds."
-    },
-    {
-      "title": "Google catches first fully automated AI exploitation of live sites",
-      "url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
-      "category": "ai_research",
-      "published": "2026-11-16",
-      "summary": "An exploit_agent found on an exposed server compared code either side of a patch and built exploits with no human in the loop."
-    },
-    {
-      "title": "Moonshot pivots Kimi from coding scores to science research",
-      "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
-      "category": "moonshot_ai",
-      "published": "2026-11-16",
-      "summary": "The lab says coding benchmark gains have flattened and is pushing Kimi into biology, chemistry and pharma work."
-    },
-    {
-      "title": "Claude builds interactive web pages inside canvas graphics",
-      "url": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
-      "category": "anthropic",
-      "published": "2026-11-16",
-      "summary": "Text, buttons and other web elements now embed in complex graphics and 3D effects using real HTML."
-    },
-    {
-      "title": "Anthropic: agent memory should forget, not hoard",
-      "url": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
-      "category": "anthropic",
-      "published": "2026-11-16",
-      "summary": "Selective notes beat exhaustive archives: in Pokemon Red, Fable 5 got four times further with a few files, not 400."
-    },
-    {
-      "title": "Anthropic cuts bug disclosure window to 30 days from 2027",
-      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
-      "category": "policy",
-      "published": "2026-11-16",
-      "summary": "High and critical flaws get 30 days, others 45, for reports from 1 Jan 2027. The 7-day exploited-flaw window stays."
-    },
-    {
-      "title": "miHoYo Gamer: a generalist agent that plays games",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxy7eb/mihoyo_gamer_a_generalist_game_agent/",
-      "category": "ai_research",
-      "published": "2026-11-16",
-      "summary": "A generalist game-playing agent posted to r/LocalLLaMA, built to carry across miHoYo titles rather than one game."
-    },
-    {
-      "title": "DeepSeek caps free chat as compute runs short",
-      "url": "https://technode.com/2026/11/16/deepseek-users-report-chat-limits-as-the-service-cites-capacity-constraints/",
-      "category": "deepseek",
-      "published": "2026-11-16",
-      "summary": "Users report daily chat limits as DeepSeek cites capacity constraints. The paid API is unchanged."
-    },
-    {
-      "title": "OpenAI signs LVMH's media arm and puts ChatGPT in 17 newsrooms",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "category": "industry",
-      "published": "2026-11-16",
-      "summary": "A partnership with LVMH's media division brings ChatGPT Enterprise into 17 newsrooms."
-    },
-    {
-      "title": "The King's Trust and OpenAI put 1 million pounds into UK AI skills",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "category": "industry",
-      "published": "2026-11-16",
-      "summary": "The partnership aims to give up to 25,000 young people across the UK practical AI skills for work."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-17T21:15:00+08:00",
+      "at": "2026-11-18T21:20:00+08:00",
       "points": [
         {
-          "text": "Anthropic locked in its share price range and starts trading on Nasdaq on 19 November, valued at up to 1.4 trillion dollars.",
-          "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+          "text": "Tencent put the Hy4 flash weights out for anyone to download, a very large model that only runs a small part of itself per word.",
+          "url": "https://huggingface.co/tencent/Hy4-flash"
         },
         {
-          "text": "Tencent's new decoding method and a wave of small open models arrived with faster ways to run them on ordinary hardware.",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xycsm1/dspine_updates_on_pr_ggufs/"
+          "text": "Coding agents now write code faster than teams can review it, according to a Harvard study.",
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/"
         },
         {
-          "text": "AMD's own software now runs its graphics cards about 40 percent faster than the common open source option.",
+          "text": "Malicious releases of Microsoft's agent framework on PyPI carried a credential stealer.",
+          "url": "https://github.com/microsoft/agent-framework/issues/10411"
+        },
+        {
+          "text": "Workday agreed to buy Honeydew, and OpenAI signed a deal with Le Figaro.",
+          "url": "https://newsroom.workday.com/2026-11-18-Workday-Announces-Intent-to-Acquire-Honeydew,-a-Semantic-Layer-for-AI-and-Business-Intelligence"
+        },
+        {
+          "text": "Anthropic prices its IPO in New York tonight.",
           "url": null
-        },
-        {
-          "text": "One developer write-up argues an AI agent should never hold your real passwords, and another releases a template that makes every report carry the steps to rebuild its numbers.",
-          "url": "https://x.com/garrytan/status/2122586989082059129"
-        },
-        {
-          "text": "Anthropic also published its checklist for testing a model before release, and now watermarks text written by older Claude models.",
-          "url": "https://platform.claude.com/docs/en/release-notes/overview"
         }
       ]
     },
