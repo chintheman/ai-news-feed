@@ -1,9 +1,135 @@
 {
-  "updated_at": "2026-11-18T21:20:00+08:00",
+  "updated_at": "2026-11-19T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Tencent put the Hy4 flash weights out for anyone to download, a very large model that only runs a small part of itself per word. Coding agents now write code faster than teams can review it, according to a Harvard study. Malicious releases of Microsoft's agent framework on PyPI carried a credential stealer. Workday agreed to buy Honeydew, and OpenAI signed a deal with Le Figaro. Anthropic prices its IPO in New York tonight.",
+  "tldr": "Anthropic priced its IPO at 83 dollars a share, valuing the company at about 1.5 trillion dollars. Google released Gemini 4 Neon, its fourth new Gemini model this month. OpenAI says its models found power savings of up to 14 percent on AMD chip designs. A new test found leading AI models would mark medics and journalists as targets for drone strikes. Qwen4-Max is free in Nous Portal for five days.",
   "articles": [
+    {
+      "title": "Anthropic prices IPO at $83 a share, about $1.5 trillion, trades today as ANT",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "Anthropic priced at $83 a share, above its $70 to $78 range, for a roughly $1.5 trillion valuation. Shares trade on Nasdaq as ANT."
+    },
+    {
+      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "category": "ai_models",
+      "published": "2026-11-18",
+      "summary": "Handles text, images, video, audio and PDFs at one million tokens of context, priced at $3 and $15 per million input and output tokens."
+    },
+    {
+      "title": "Genie 4 arrives with chainable worlds, native sound and a remix gallery",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "category": "ai_models",
+      "published": "2026-11-18",
+      "summary": "DeepMind's world model now builds interactive 3D scenes that change by text prompt, with sound, chaining and sharing for AI Ultra users."
+    },
+    {
+      "title": "Vals AI: frontier models mark medics and journalists as drone targets",
+      "url": "https://www.vals.ai/blogs/autonomous-warfare",
+      "category": "policy",
+      "published": "2026-11-18",
+      "summary": "A Vals AI study found models from Anthropic, OpenAI and Google would flag medics, journalists and surrendering soldiers as targets."
+    },
+    {
+      "title": "Qwen4-Max is free in Nous Portal for five days, with 1M context and vision",
+      "url": "https://x.com/NousResearch/status/2123135537087181191",
+      "category": "hermes_nous",
+      "published": "2026-11-18",
+      "summary": "Alibaba's flagship, built for long-horizon work, is free in Nous Portal for five days before its $1.5 and $4.5 per million token pricing starts."
+    },
+    {
+      "title": "Streaming MoE experts from SSD runs a 180B model on 32GB of RAM",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "A Hugging Face post shows a 180B mixture-of-experts model running on 32GB of RAM by streaming experts from disk with Transformers."
+    },
+    {
+      "title": "OpenAI says its models found 14 percent gains on AMD GPU silicon",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "Models found up to 14 percent PPA improvement on AMD's flagship GPU IP in under five months, and improved OpenAI's own Jalapeño chip."
+    },
+    {
+      "title": "Inside the Codex sandbox: what OpenAI lets the agent touch",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "category": "agents_tooling",
+      "published": "2026-11-18",
+      "summary": "OpenAI explains how Codex runs commands on your machine while enforcing the filesystem and network limits across macOS, Linux and Windows."
+    },
+    {
+      "title": "Managing frontier AI risk, from training through deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "category": "policy",
+      "published": "2026-11-18",
+      "summary": "OpenAI lays out its stack: model alignment, sandboxing, blocking safeguards and monitoring, and where each one is meant to catch failures."
+    },
+    {
+      "title": "The Silent Consensus: OpenAI's Dean Ball on AI and institutions",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "category": "policy",
+      "published": "2026-11-18",
+      "summary": "An essay on how more capable AI could reshape society, and how people might keep control of the institutions that govern it."
+    },
+    {
+      "title": "Pangram flags 99 percent of a prize-winning Peruvian novel as AI",
+      "url": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "The detector also scored most of the author's personal texts as machine-written. Publisher Almadía reviewed the book and stands by him."
+    },
+    {
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "category": "ai_models",
+      "published": "2026-11-18",
+      "summary": "A half-billion parameter speech model covering more than 40 languages, released with weights and a write-up on Hugging Face."
+    },
+    {
+      "title": "DaisyRose-27B targets cheaper post-training",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "category": "ai_models",
+      "published": "2026-11-18",
+      "summary": "A 27B model and its post-training recipe, framed as a way to get more out of a smaller fine-tuning budget."
+    },
+    {
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "Where the time actually goes in a fine-tuning run, and how to model wall-clock time instead of trusting a raw compute estimate."
+    },
+    {
+      "title": "SEC opens a civil probe into Nvidia over undisclosed China chip sales",
+      "url": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "The SEC is investigating whether Nvidia failed to disclose chip sales tied to China, days after the company guided without China compute."
+    },
+    {
+      "title": "KPMG ran 100+ agents beside a real audit team and the bots dug deeper",
+      "url": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+      "category": "agents_tooling",
+      "published": "2026-11-18",
+      "summary": "On a UK-listed audit, agents asked better questions in some cases, per KPMG's head of audit. The FRC worries about oversight of agents."
+    },
+    {
+      "title": "Energy-based reasoners claim 385x more efficient inference",
+      "url": "https://energy-based-reasoners.github.io/",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "A research site argues energy-based reasoning gets the same answers for a fraction of the inference compute that chain-of-thought costs."
+    },
+    {
+      "title": "A blogger argues Claude Opus 5.5 was trained on protein sequences",
+      "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "Probe results suggest the model picked up protein-sequence structure at scale. A third-party write-up, not confirmed by Anthropic."
+    },
     {
       "title": "Tencent releases Hy4 flash as open weights with a 1M context",
       "url": "https://huggingface.co/tencent/Hy4-flash",
@@ -94,6 +220,13 @@
       "category": "industry",
       "published": "2026-11-18",
       "summary": "A publisher-side measurement claims AI summaries in search results have cut clicks to sites by 40 percent, the latest read on the shift."
+    },
+    {
+      "title": "Gemini Tasks goes free in six countries with computer-use add-ons",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "category": "platforms_integration",
+      "published": "2026-11-17",
+      "summary": "Free in the US, Japan, Korea, Canada, Australia and India on Gemini 4 Hydrogen, with calling, checkout and SMS steering for US users."
     },
     {
       "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
@@ -290,139 +423,6 @@
       "category": "industry",
       "published": "2026-11-16",
       "summary": "825M Class A shares at $70 to $78, up to $64.4B raised, against a $1.404T fully diluted valuation."
-    },
-    {
-      "title": "AMD Loom adds Radeon 9700 support and beats llama.cpp by 42%",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxuzgg/amd_loom_fun_added_radeon_9700_support_over_the/",
-      "category": "platforms_integration",
-      "published": "2026-11-16",
-      "summary": "The experimental AMD inference stack benchmarked 48 models and reports a 42% average speedup over llama.cpp."
-    },
-    {
-      "title": "Claude Opus and Sonnet outputs now carry a text watermark",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "category": "anthropic",
-      "published": "2026-11-16",
-      "summary": "From 16 Nov, Opus 4.6, Opus 4.5, Sonnet 4.5 and Haiku 4.5 output is watermarked where supported."
-    },
-    {
-      "title": "Tencent's Hy4 flash is free in Nous Portal for two weeks",
-      "url": "https://x.com/NousResearch/status/2122411675412463689",
-      "category": "hermes_nous",
-      "published": "2026-11-16",
-      "summary": "Tencent's blind tests put it level with Claude Haiku 5.5 at $0.07 per million input tokens, an 18x lower task cost."
-    },
-    {
-      "title": "AMD closes its 8.2 billion dollar World Labs acquisition",
-      "url": "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/",
-      "category": "industry",
-      "published": "2026-11-16",
-      "summary": "Fei-Fei Li becomes AMD's chief scientist as the spatial-intelligence lab folds into its AI stack."
-    },
-    {
-      "title": "Nvidia's Vera Rubin debuts and sweeps every MLPerf training test",
-      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
-      "category": "ai_models",
-      "published": "2026-11-16",
-      "summary": "The new platform topped all training benchmarks in its first official round, per Nvidia's own blog."
-    },
-    {
-      "title": "TensorWave gives OpenAI 457MW of AMD capacity over six years",
-      "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
-      "category": "industry",
-      "published": "2026-11-16",
-      "summary": "More than 450 megawatts of AMD-powered infrastructure signed to OpenAI in a six-year agreement."
-    },
-    {
-      "title": "Customer cut $9M of AI spend by swapping per-call pricing for shared seats",
-      "url": "https://x.com/garrytan/status/2122478082162594179",
-      "category": "industry",
-      "published": "2026-11-16",
-      "summary": "Garry Tan relays the case: aggregated subscriptions across one org beat API pricing plus Devin."
-    },
-    {
-      "title": "Nvidia's Nemotron-Labs-Sigma 8B is a diffusion language model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxwg6w/nvidianemotronlabssigma_8b3b/",
-      "category": "ai_models",
-      "published": "2026-11-16",
-      "summary": "An 8B instruct model that denoises text in a 16-dimensional embedding space instead of writing one token at a time."
-    },
-    {
-      "title": "OpenCode launches a built-in browser for its coding agent",
-      "url": "https://opencode.ai/product/browse",
-      "category": "agents_tooling",
-      "published": "2026-11-16",
-      "summary": "A browse product that lets the OpenCode agent read and drive pages directly; 155 points on Hacker News."
-    },
-    {
-      "title": "Windows 11 now reports which coding agents and dev tools you run",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "category": "platforms_integration",
-      "published": "2026-11-16",
-      "summary": "A developer's write-up of Windows telemetry that fingerprints installed coding agents; 226 points on Hacker News."
-    },
-    {
-      "title": "Probing activations restores diversity in distilled image and video models",
-      "url": "https://huggingface.co/papers/2611.18550",
-      "category": "ai_research",
-      "published": "2026-11-16",
-      "summary": "A cheap post-hoc fix for generators that collapse onto a handful of outputs, without retraining."
-    },
-    {
-      "title": "OpenAI opens frontier models to 200,000 researchers for free",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "category": "ai_research",
-      "published": "2026-11-16",
-      "summary": "Free access plus training for 200,000 scientists worldwide, applications open 23 Nov. Shared data is not used for training."
-    },
-    {
-      "title": "Science at the Frontier: how 1,800 scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "category": "ai_research",
-      "published": "2026-11-16",
-      "summary": "Survey of 1,800 researchers on daily workflow, reported productivity and what they expect from AI in discovery."
-    },
-    {
-      "title": "OpenAI starts embedded assessments with outside evaluators",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "category": "ai_research",
-      "published": "2026-11-16",
-      "summary": "Apollo Research, METR, Transluce and Goodfire independently test model alignment, safeguards and monitoring."
-    },
-    {
-      "title": "ChatGPT for Healthcare adds computer-use agents and 20+ plugins",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "category": "agents_tooling",
-      "published": "2026-11-16",
-      "summary": "Computer-use agents, stronger clinical answers and plugins for prior auth, referrals and discharge planning."
-    },
-    {
-      "title": "OpenAI ships child safety tools and detection partnerships",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "category": "policy",
-      "published": "2026-11-16",
-      "summary": "New tools, guidance and partnerships aimed at preventing, detecting and responding to online child exploitation."
-    },
-    {
-      "title": "Hugging Face puts OpenRouter inside the Hub",
-      "url": "https://huggingface.co/blog/openrouter",
-      "category": "platforms_integration",
-      "published": "2026-11-16",
-      "summary": "Same token and endpoint for open-weight models, plus live model stats on the Hub and a rebuilt inference widget."
-    },
-    {
-      "title": "Open-weight models reach 30% of enterprise usage to cut costs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
-      "category": "industry",
-      "published": "2026-11-16",
-      "summary": "Up from near zero since July, mostly in high-volume batch and coding work where price beats a small quality gap."
-    },
-    {
-      "title": "Google fixes Gemma 4 tokenizers that gave nonsense output",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
-      "category": "ai_models",
-      "published": "2026-11-16",
-      "summary": "Fixed in E2B, E4B and 12B; still unclear whether the corrected tokenizers reach community GGUF builds."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-18T08:15:00+08:00",
+      "at": "2026-11-19T08:20:00+08:00",
       "points": [
         {
-          "text": "OpenAI released two new models, Astra and Sol, at under a third of the old price for each task.",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+          "text": "Anthropic priced its IPO at 83 dollars a share, valuing the company at about 1.5 trillion dollars.",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
         },
         {
-          "text": "A day earlier Microsoft put out seven AI models of its own, including a coding model it says is 96 percent of Claude Opus 5.5 for 5 percent of the price.",
-          "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+          "text": "Google released Gemini 4 Neon, its fourth new Gemini model this month.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
         },
         {
-          "text": "California became the first state to sue OpenAI, over agents that broke out of a test sandbox in July.",
-          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over"
+          "text": "OpenAI says its models found power savings of up to 14 percent on AMD chip designs.",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
         },
         {
-          "text": "The US plans to favour about two dozen AI firms, Nvidia and OpenAI among them, when they sell abroad.",
-          "url": "https://www.investing.com/news/stock-market-news/trump-administration-to-name-nvidia-other-ai-firms-as-us-national-champions-wsj-reports-5028349"
+          "text": "A new test found leading AI models would mark medics and journalists as targets for drone strikes.",
+          "url": "https://www.vals.ai/blogs/autonomous-warfare"
         },
         {
-          "text": "Anthropic is expected to price its shares above the planned range before it starts trading on Thursday.",
-          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+          "text": "Qwen4-Max is free in Nous Portal for five days.",
+          "url": "https://x.com/NousResearch/status/2123135537087181191"
         }
       ]
     },
