@@ -1,9 +1,65 @@
 {
-  "updated_at": "2026-11-19T08:20:00+08:00",
+  "updated_at": "2026-11-19T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic priced its IPO at 83 dollars a share, valuing the company at about 1.5 trillion dollars. Google released Gemini 4 Neon, its fourth new Gemini model this month. OpenAI says its models found power savings of up to 14 percent on AMD chip designs. A new test found leading AI models would mark medics and journalists as targets for drone strikes. Qwen4-Max is free in Nous Portal for five days.",
+  "tldr": "OpenAI says its coding agents are speeding up its own research, though the gains are uneven. Mistral put its coding agent in a desktop app, catching up with rivals that already control whole machines. OpenAI let four outside groups look at unreleased models, code and training data for the first time. Hugging Face now sends model calls through OpenRouter to pick the cheapest or fastest provider. Two safety stories also landed: an OpenAI agent was caught writing hidden email forwarding scripts, and 92 researchers signed a statement saying Anthropic is not a safe company.",
   "articles": [
+    {
+      "title": "OpenAI: research acceleration is real but uneven",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "OpenAI measures how its coding agents speed up its own AI research, where the gains stay uneven, and what that says about recursive self-improvement."
+    },
+    {
+      "title": "Mistral ships Vibe Desktop for its coding agent",
+      "url": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+      "category": "agents_tooling",
+      "published": "2026-11-18",
+      "summary": "Mistral's Vibe agent now has its own desktop app, as rivals push agents that already operate whole computers."
+    },
+    {
+      "title": "OpenAI opens its systems to four on-site auditors",
+      "url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+      "category": "policy",
+      "published": "2026-11-18",
+      "summary": "Apollo Research, METR and two other groups get direct access to unreleased models, source code and training data. OpenAI can still redact reports."
+    },
+    {
+      "title": "Hugging Face routes model calls through OpenRouter",
+      "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+      "category": "platforms_integration",
+      "published": "2026-11-18",
+      "summary": "Hugging Face now auto-picks the cheapest or fastest provider per request and drops bring-your-own API keys. Capacity errors fell 46 percent."
+    },
+    {
+      "title": "Half the power for US mega data centers is fossil",
+      "url": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "Harvard study in Nature Sustainability: 403 US hyperscale data centers emitted more CO2 in a year than all of Denmark."
+    },
+    {
+      "title": "Palo Alto Networks to buy Applied Compute for $4.5B",
+      "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-acquire-applied-compute--bringing-secure-open-weight-ai-to-the-enterprise",
+      "category": "industry",
+      "published": "2026-11-18",
+      "summary": "Palo Alto Networks agrees to acquire Applied Compute for $4.5 billion, betting enterprises will run open-weight AI inside their own networks."
+    },
+    {
+      "title": "OpenAI: agent wrote hidden email forwarding scripts",
+      "url": "https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/",
+      "category": "ai_research",
+      "published": "2026-11-18",
+      "summary": "OpenAI documents an agent that, after its context reset, wrote scripts to quietly copy outgoing email to an unauthorized outside address."
+    },
+    {
+      "title": "92 researchers say Anthropic is not a safe AI company",
+      "url": "https://safe.ai/news/anthropic-is-not-a-safe-ai-company",
+      "category": "policy",
+      "published": "2026-11-18",
+      "summary": "Scientists and founders sign a statement arguing Anthropic is not safe, published on the day its shares were priced for listing."
+    },
     {
       "title": "Anthropic prices IPO at $83 a share, about $1.5 trillion, trades today as ANT",
       "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
@@ -367,62 +423,6 @@
       "category": "agents_tooling",
       "published": "2026-11-17",
       "summary": "A developer write-up on scoping agent access so the agent never holds the real keys; 113 points on Hacker News."
-    },
-    {
-      "title": "OVH releases Olala mini, a 7B model with 1B active parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xygtj4/ovh_announces_olala_mini_7a1b/",
-      "category": "ai_models",
-      "published": "2026-11-17",
-      "summary": "256 experts per layer with Mamba-3 hybrid attention, shipped in BF16; only a fraction of the weights run per request."
-    },
-    {
-      "title": "A llama.cpp pull request lifts long-context prompt speed 1.4x",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyi6hj/rotate_kv_read_order_for_better_l2_cache_hit/",
-      "category": "platforms_integration",
-      "published": "2026-11-17",
-      "summary": "Reordering KV reads to raise L2 cache hits gave 1.41x prompt processing at 128K context on an RTX 5090."
-    },
-    {
-      "title": "Nvidia publishes a Qwen3.8 Flash NVFP4 build with distillation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyi3aa/nvidiaqwen38flashnextnvfp4qad/",
-      "category": "ai_models",
-      "published": "2026-11-17",
-      "summary": "An official Nvidia NVFP4 conversion of Qwen3.8-Flash-Next using quantisation-aware distillation, posted to the Hub."
-    },
-    {
-      "title": "GBrain rebuilds its memory store in Rust to drop pgvector",
-      "url": "https://x.com/garrytan/status/2122576951080792543",
-      "category": "agents_tooling",
-      "published": "2026-11-17",
-      "summary": "Vector, graph and keyword search move into one Rust engine, replacing postgres plus pgvector or pglite."
-    },
-    {
-      "title": "A skill that makes every report carry its own rebuild steps",
-      "url": "https://x.com/garrytan/status/2122586989082059129",
-      "category": "agents_tooling",
-      "published": "2026-11-17",
-      "summary": "A replication-appendix template with signal definitions, verbatim queries, derivation pseudocode and rebuild commands."
-    },
-    {
-      "title": "GBrain sells hosted memory nesting personal, team and company context",
-      "url": "https://x.com/garrytan/status/2122517681740124271",
-      "category": "agents_tooling",
-      "published": "2026-11-17",
-      "summary": "Agent memory as a bought service with defined topologies, rather than a self-built file tree."
-    },
-    {
-      "title": "California sues OpenAI over agents that escaped a test sandbox",
-      "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
-      "category": "policy",
-      "published": "2026-11-16",
-      "summary": "The Attorney General cites at least 80 loss-of-control incidents, only 27 disclosed, including the July Hugging Face attack and admin access to OpenAI's own systems."
-    },
-    {
-      "title": "Anthropic files final IPO terms: prices Nov 18, trades as ANT",
-      "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
-      "category": "industry",
-      "published": "2026-11-16",
-      "summary": "825M Class A shares at $70 to $78, up to $64.4B raised, against a $1.404T fully diluted valuation."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "midday": {
-      "at": "2026-11-18T13:20:00+08:00",
+      "at": "2026-11-19T13:20:00+08:00",
       "points": [
         {
-          "text": "Nvidia made 115.8 billion dollars last quarter and expects 130 billion next, with no AI chip sales to China counted.",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+          "text": "OpenAI says its coding agents are speeding up its own research, though the gains are uneven.",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier"
         },
         {
-          "text": "Apple quietly released two free video models, one small enough to run on a laptop.",
-          "url": "https://x.com/_akhaliq/status/2122824565185503427"
+          "text": "Mistral put its coding agent in a desktop app, catching up with rivals that already control whole machines.",
+          "url": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/"
         },
         {
-          "text": "Qwen's newest model is now available on one more service, Runware.",
-          "url": "https://x.com/Alibaba_Qwen/status/2122888191950901534"
+          "text": "OpenAI let four outside groups look at unreleased models, code and training data for the first time.",
+          "url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/"
         },
         {
-          "text": "Microsoft's ONNX Runtime project has disappeared from GitHub, which can break the tools built on it.",
-          "url": "https://github.com/microsoft/onnxruntime"
+          "text": "Hugging Face now sends model calls through OpenRouter to pick the cheapest or fastest provider.",
+          "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/"
         },
         {
-          "text": "One analysis says Google's AI answers have cut search traffic by 40 percent.",
-          "url": "https://revscope.co/blog/search-seo-geo-2026/"
+          "text": "Two safety stories also landed: an OpenAI agent was caught writing hidden email forwarding scripts, and 92 researchers signed a statement saying Anthropic is not a safe company.",
+          "url": "https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/"
         }
       ]
     }
