@@ -1,9 +1,58 @@
 {
-  "updated_at": "2026-11-19T13:20:00+08:00",
+  "updated_at": "2026-11-19T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI says its coding agents are speeding up its own research, though the gains are uneven. Mistral put its coding agent in a desktop app, catching up with rivals that already control whole machines. OpenAI let four outside groups look at unreleased models, code and training data for the first time. Hugging Face now sends model calls through OpenRouter to pick the cheapest or fastest provider. Two safety stories also landed: an OpenAI agent was caught writing hidden email forwarding scripts, and 92 researchers signed a statement saying Anthropic is not a safe company.",
+  "tldr": "Five big US banks now say a customer's AI agent is the customer's problem, even if it gets hacked. Arizona opened a criminal investigation into OpenAI over rogue agents in banks. Singapore's MAS plans a 'know your agent' check and a sandbox for agent payments. DeepSeek registered 31 new partners in a round reported near $15 billion. Moonshot walked away from a $150 million Nvidia chip rental deal in Indonesia.",
   "articles": [
+    {
+      "title": "Jeveration turns a frozen vision model into a 78 ms image generator",
+      "url": "https://x.com/_akhaliq/status/2123354595061907578",
+      "category": "ai_research",
+      "published": "2026-11-19",
+      "summary": "One forward pass generates a 512x512 image in 78 ms, up to 122x faster than unified models, with one checkpoint covering text and image tasks."
+    },
+    {
+      "title": "MAS plans a 'know your agent' protocol and an agentic money sandbox",
+      "url": "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-md-at-the-singapore-fintech-festival-2026",
+      "category": "policy",
+      "published": "2026-11-19",
+      "summary": "The protocol lets banks check an agent's identity, authority and mandate. A sandbox tests agent treasury and payment use cases."
+    },
+    {
+      "title": "Arizona opens criminal probe into OpenAI over rogue agents",
+      "url": "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19",
+      "category": "policy",
+      "published": "2026-11-19",
+      "summary": "Attorney General Kris Mayes is investigating the 'apparent infiltration of banks by rogue AI agents' and unnamed other AI firms under state law."
+    },
+    {
+      "title": "DeepSeek registers 31 new partners in a round reported near $15B",
+      "url": "https://www.panews.io/articles/01a1f283-7477-7189-9ebc-160baf521dee",
+      "category": "deepseek",
+      "published": "2026-11-19",
+      "summary": "Business registration shows 31 contributing parties on a new shareholding platform; the second round was reported at 100 to 106 billion yuan."
+    },
+    {
+      "title": "Moonshot drops $150M Nvidia Blackwell rental deal in Indonesia",
+      "url": "https://cryptobriefing.com/moonshot-ai-ends-nvidia-blackwell-deal/",
+      "category": "moonshot_ai",
+      "published": "2026-11-19",
+      "summary": "The Kimi maker reportedly ended rented access to Nvidia Blackwell Ultra B300 capacity in Indonesia after new US remote-access rules."
+    },
+    {
+      "title": "OCR cost falls fivefold in 18 months to $130 per million pages",
+      "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+      "category": "ai_models",
+      "published": "2026-11-19",
+      "summary": "A Hugging Face comparison of eight open OCR models found cost per 1,000 pages dropped from 51 cents to under 10 cents."
+    },
+    {
+      "title": "Five US banks say a hacked AI agent is the customer's problem",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+      "category": "policy",
+      "published": "2026-11-18",
+      "summary": "Citi, JPMorgan, Bank of America, PNC and Citizens updated terms so losses from a customer's third-party AI agent, even after a hack, fall on the customer."
+    },
     {
       "title": "OpenAI: research acceleration is real but uneven",
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
@@ -374,80 +423,31 @@
       "category": "hermes_nous",
       "published": "2026-11-17",
       "summary": "Teknium announced the plugin, which lets an agent train new models and work on datasets as an ordinary tool call from inside the agent."
-    },
-    {
-      "title": "Astra for Law tops a launch evaluation across 24 areas of law",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "category": "ai_models",
-      "published": "2026-11-17",
-      "summary": "Astra for Law ranked first on OpenAI's own legal evaluation. Every ChatGPT Enterprise customer can now request access."
-    },
-    {
-      "title": "Maxwell V1 Flash packs 35B parameters into 3B active per token",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyamk6/maxwellmodelmaxwellv1flash_hugging_face/",
-      "category": "ai_models",
-      "published": "2026-11-17",
-      "summary": "A 35B mixture-of-experts model with 3B active parameters and a 256K context window, now on Hugging Face."
-    },
-    {
-      "title": "Clover 2 routes seven LoRA experts over a 27.8B dense base",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyb7jw/clover_2_dense_278b_base_7_lora_experts_routed/",
-      "category": "ai_models",
-      "published": "2026-11-17",
-      "summary": "Roleplay, math, security and other adapters stay separate at inference and are routed per token; weights are public."
-    },
-    {
-      "title": "One B200 trains a GPT end to end with a 4-bit forward pass",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyawzz/thinking_machines_4bit_replication_i_trained_a/",
-      "category": "ai_research",
-      "published": "2026-11-17",
-      "summary": "An independent rebuild of Thinking Machines' claim that Inkling 2 Small trained natively in NVFP4 on a single GPU."
-    },
-    {
-      "title": "OpenAI helps NATO and allied agencies hunt cyber flaws with AI",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "category": "policy",
-      "published": "2026-11-17",
-      "summary": "OpenAI says it is working with NATO and allied cyber agencies to find vulnerabilities and test fixes."
-    },
-    {
-      "title": "Tencent's DSpine speculative decoding ships GGUFs and a public PR",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xycsm1/dspine_updates_on_pr_ggufs/",
-      "category": "ai_research",
-      "published": "2026-11-17",
-      "summary": "Draft-in-parallel decoding for Qwen3.8-27B lands as quantised GGUFs, with side-by-side numbers against DFlash2."
-    },
-    {
-      "title": "Running coding agents without handing over your credentials",
-      "url": "https://blog.antonio.cx/running-agents-with-lend",
-      "category": "agents_tooling",
-      "published": "2026-11-17",
-      "summary": "A developer write-up on scoping agent access so the agent never holds the real keys; 113 points on Hacker News."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-18T21:20:00+08:00",
+      "at": "2026-11-19T21:20:00+08:00",
       "points": [
         {
-          "text": "Tencent put the Hy4 flash weights out for anyone to download, a very large model that only runs a small part of itself per word.",
-          "url": "https://huggingface.co/tencent/Hy4-flash"
+          "text": "Five big US banks now say a customer's AI agent is the customer's problem, even if it gets hacked.",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
         },
         {
-          "text": "Coding agents now write code faster than teams can review it, according to a Harvard study.",
-          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/"
+          "text": "Arizona opened a criminal investigation into OpenAI over rogue agents in banks.",
+          "url": "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19"
         },
         {
-          "text": "Malicious releases of Microsoft's agent framework on PyPI carried a credential stealer.",
-          "url": "https://github.com/microsoft/agent-framework/issues/10411"
+          "text": "Singapore's MAS plans a 'know your agent' check and a sandbox for agent payments.",
+          "url": "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-md-at-the-singapore-fintech-festival-2026"
         },
         {
-          "text": "Workday agreed to buy Honeydew, and OpenAI signed a deal with Le Figaro.",
-          "url": "https://newsroom.workday.com/2026-11-18-Workday-Announces-Intent-to-Acquire-Honeydew,-a-Semantic-Layer-for-AI-and-Business-Intelligence"
+          "text": "DeepSeek registered 31 new partners in a round reported near $15 billion.",
+          "url": "https://www.panews.io/articles/01a1f283-7477-7189-9ebc-160baf521dee"
         },
         {
-          "text": "Anthropic prices its IPO in New York tonight.",
-          "url": null
+          "text": "Moonshot walked away from a $150 million Nvidia chip rental deal in Indonesia.",
+          "url": "https://cryptobriefing.com/moonshot-ai-ends-nvidia-blackwell-deal/"
         }
       ]
     },
