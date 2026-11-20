@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-11-20T13:15:00+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 4,
+  "tldr": "Apple released a model that reads depth in metres from a single photo or a live camera feed. OpenAI opened its live voice model to app developers, and a quiet call now costs $0.02 a minute instead of $0.05. Google changed how Gemini handles long tool lists, so it only loads a tool's details when the model asks for it. On a new engineering benchmark, Gemini 4 Neon ranks first, ahead of Claude Fable 5.2.",
+  "articles": [
+    {
+      "title": "Apple's Depth Pro 2 reads metric depth from a photo or live video",
+      "url": "https://x.com/_akhaliq/status/2123586174405296481",
+      "category": "ai_models",
+      "published": "2026-11-20",
+      "summary": "Four sizes from 24M to 872M parameters give per-pixel depth in metres that stays steady between frames. Research-only licence."
+    },
+    {
+      "title": "OpenAI opens GPT-Live-1.1 to developers with cheap voice standby",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "category": "platforms_integration",
+      "published": "2026-11-19",
+      "summary": "A silent live session now pauses inference at $0.02 a minute instead of $0.05, keeps the connection and resumes with history."
+    },
+    {
+      "title": "Gemini holds tool schemas back until the model asks for them",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "category": "agents_tooling",
+      "published": "2026-11-19",
+      "summary": "Tool Retrieval takes 200 tools from 164,000 input tokens to about 23,650, but costs more when schemas repeat against a big context."
+    },
+    {
+      "title": "Gemini 4 Neon tops a new engineering benchmark index at 68.1",
+      "url": "https://git-aarvin.github.io/mei/",
+      "category": "ai_models",
+      "published": "2026-11-20",
+      "summary": "The Models Engineering Index ranks 20 models on engineering tasks: Claude Fable 5.2 second at 66.3, GPT-6.2 Astra third at 62.0."
+    }
+  ]
+}
