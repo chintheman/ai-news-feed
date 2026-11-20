@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-19T21:20:00+08:00",
+  "updated_at": "2026-11-20T08:16:18+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Five big US banks now say a customer's AI agent is the customer's problem, even if it gets hacked. Arizona opened a criminal investigation into OpenAI over rogue agents in banks. Singapore's MAS plans a 'know your agent' check and a sandbox for agent payments. DeepSeek registered 31 new partners in a round reported near $15 billion. Moonshot walked away from a $150 million Nvidia chip rental deal in Indonesia.",
+  "tldr": "Anthropic's first day as a public company closed at $97.17 a share, up 17 percent from the $83 offer price after opening at $111.50. Dario Amodei used the moment to say safety work must grow now that the company has outside shareholders. Nous Research put Hermes Agent into Microsoft Teams, the Microsoft Store and Azure sandboxes. Roblox's MPEG-Diffusion makes AI video generation 4.8 times faster by working at mixed resolution. Token prices fell 21 percent in six weeks even as AI usage hit a record.",
   "articles": [
+    {
+      "title": "Claude Fable 5.2 solves two open problems in black hole physics",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "category": "anthropic",
+      "published": "2026-11-19",
+      "summary": "Claude Fable 5.2 solved two open problems in theoretical physics, both about black holes and the search for quantum gravity."
+    },
+    {
+      "title": "Hermes Agent lands in Microsoft Teams, the Microsoft Store and Azure",
+      "url": "https://nousresearch.com/press/hermes-enterprise-in-microsoft-teams",
+      "category": "hermes_nous",
+      "published": "2026-11-19",
+      "summary": "Nous Research puts Hermes in Teams, the Store and Azure sandboxes, with team-shared skills and a run-it-in-your-own-tenant option."
+    },
+    {
+      "title": "Anthropic's first trading day closes at $97.17, up 17 percent",
+      "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649",
+      "category": "industry",
+      "published": "2026-11-19",
+      "summary": "ANT opened at $111.50 and briefly passed $2 trillion in value, then closed at $97.17, up 17 percent on the $83 IPO price."
+    },
+    {
+      "title": "Dario Amodei says safety work has to grow now that Anthropic is public",
+      "url": "https://x.com/AnthropicAI/status/2123461658890686863",
+      "category": "policy",
+      "published": "2026-11-19",
+      "summary": "His IPO remarks frame the company around compressing science, and name misuse, economic disruption and loss of control as the risks."
+    },
+    {
+      "title": "MPEG-Diffusion makes video generation 4.8 times faster at 30 percent of tokens",
+      "url": "https://huggingface.co/papers/2611.12069",
+      "category": "ai_research",
+      "published": "2026-11-19",
+      "summary": "A Roblox and UT Austin method blends two resolutions so denoising needs only 30 percent of full-res tokens, 4.8x faster on Wan2.1 14B."
+    },
+    {
+      "title": "Token prices fell 21 percent in six weeks while AI usage hit a record",
+      "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+      "category": "industry",
+      "published": "2026-11-19",
+      "summary": "Ramp, Stripe and OpenRouter data agree: usage is at a record while prices slid 21 percent in six weeks. Anthropic holds 59 percent of spend."
+    },
+    {
+      "title": "Chinese tech firms take a double hit as chip shipments stop and cloud access goes",
+      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+      "category": "chinese_ai",
+      "published": "2026-11-19",
+      "summary": "TSMC and Samsung stopped shipping to Chinese customers, and an NYT investigation found Alibaba routed Nvidia chips to military researchers."
+    },
+    {
+      "title": "How OpenAI's Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "category": "platforms_integration",
+      "published": "2026-11-19",
+      "summary": "OpenAI describes Codex-powered workflows that hunt down and fix performance problems across ChatGPT's serving stack."
+    },
+    {
+      "title": "OpenAI researchers now value their AI tools more than half their colleagues",
+      "url": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+      "category": "ai_research",
+      "published": "2026-11-19",
+      "summary": "An internal survey finds coding agents near-indispensable at OpenAI, with theoretical token costs now above researchers' base salaries."
+    },
     {
       "title": "Jeveration turns a frozen vision model into a 78 ms image generator",
       "url": "https://x.com/_akhaliq/status/2123354595061907578",
@@ -360,69 +423,6 @@
       "category": "industry",
       "published": "2026-11-17",
       "summary": "A price above $80 puts the valuation at 1.5 to 1.6 trillion dollars, against 1.4 trillion at the top of the range. It trades on Nasdaq as ANT from 19 November."
-    },
-    {
-      "title": "AI agents start filing medical forms and insurance requests for clinic staff",
-      "url": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
-      "category": "agents_tooling",
-      "published": "2026-11-17",
-      "summary": "OpenAI computer-use agents work existing clinic software and insurance portals the way a person would. Luna handles a prior authorisation for about 8.5 cents."
-    },
-    {
-      "title": "Isomorphic Labs raises 5 billion dollars six months after its last round",
-      "url": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-      "category": "industry",
-      "published": "2026-11-17",
-      "summary": "Demis Hassabis's Alphabet drug discovery unit has no approved drug yet and is pushing its pipeline toward clinical trials with the new money."
-    },
-    {
-      "title": "US moves to licence Nvidia chip sales in third countries to stop China renting AI power",
-      "url": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
-      "category": "policy",
-      "published": "2026-11-17",
-      "summary": "Data centres in countries like Singapore and Malaysia would need a US licence to buy Nvidia chips, closing the offshore cloud loophole."
-    },
-    {
-      "title": "Reports of AI-made child sexual abuse material up more than 8,400 percent in two years",
-      "url": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
-      "category": "policy",
-      "published": "2026-11-17",
-      "summary": "Childlight counts about 4,700 reports in 2023 against over 400,000 in 2025, with nudify apps used for blackmail. Its chief executive wants tougher rules."
-    },
-    {
-      "title": "OpenAI launches ChatGPT for Sales with 30+ partner plugins",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "category": "platforms_integration",
-      "published": "2026-11-17",
-      "summary": "The plugin researches prospects, drafts pitches and updates the CRM from inside ChatGPT, alongside new and expanded partner integrations."
-    },
-    {
-      "title": "Intel's next-gen D270 GPU claims 5.9x throughput and 29 percent lower latency",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyioi8/intel_shares_first_benchmarks_of_its_nextgen/",
-      "category": "ai_models",
-      "published": "2026-11-17",
-      "summary": "Intel's first Crescent Island numbers put the D270 at 1.12x the throughput of an RTX PRO 6000 Blackwell on AI work, a possible local-inference alternative."
-    },
-    {
-      "title": "Qwen strips offensive cyber data from its small open-weight models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xykjuy/the_upcoming_open_weight_small_qwen_models_are/",
-      "category": "chinese_ai",
-      "published": "2026-11-17",
-      "summary": "Alibaba says the training data behind the upcoming small Qwen models carries no offensive cyber capability. Local users are debating whether that removes real ability."
-    },
-    {
-      "title": "Accelerate Bench measures agents at whole-application optimisation",
-      "url": "https://x.com/_akhaliq/status/2122758250059977062",
-      "category": "ai_research",
-      "published": "2026-11-17",
-      "summary": "The benchmark scores an agent on optimising an entire application rather than a single file, a closer test of coding agents used on a real repo."
-    },
-    {
-      "title": "Adaption AI becomes a Hermes verified partner plugin",
-      "url": "https://x.com/Teknium/status/2122755884510233067",
-      "category": "hermes_nous",
-      "published": "2026-11-17",
-      "summary": "Teknium announced the plugin, which lets an agent train new models and work on datasets as an ordinary tool call from inside the agent."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-19T08:20:00+08:00",
+      "at": "2026-11-20T08:16:18+08:00",
       "points": [
         {
-          "text": "Anthropic priced its IPO at 83 dollars a share, valuing the company at about 1.5 trillion dollars.",
-          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+          "text": "Anthropic's first day as a public company closed at $97.17 a share, up 17 percent from the $83 offer price after opening at $111.50.",
+          "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649"
         },
         {
-          "text": "Google released Gemini 4 Neon, its fourth new Gemini model this month.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+          "text": "Dario Amodei used the moment to say safety work must grow now that the company has outside shareholders.",
+          "url": "https://x.com/AnthropicAI/status/2123461658890686863"
         },
         {
-          "text": "OpenAI says its models found power savings of up to 14 percent on AMD chip designs.",
-          "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+          "text": "Nous Research put Hermes Agent into Microsoft Teams, the Microsoft Store and Azure sandboxes.",
+          "url": "https://nousresearch.com/press/hermes-enterprise-in-microsoft-teams"
         },
         {
-          "text": "A new test found leading AI models would mark medics and journalists as targets for drone strikes.",
-          "url": "https://www.vals.ai/blogs/autonomous-warfare"
+          "text": "Roblox's MPEG-Diffusion makes AI video generation 4.8 times faster by working at mixed resolution.",
+          "url": "https://huggingface.co/papers/2611.12069"
         },
         {
-          "text": "Qwen4-Max is free in Nous Portal for five days.",
-          "url": "https://x.com/NousResearch/status/2123135537087181191"
+          "text": "Token prices fell 21 percent in six weeks even as AI usage hit a record.",
+          "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/"
         }
       ]
     },

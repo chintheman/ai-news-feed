@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-11-20T08:16:18+08:00",
+  "source": "hermes-ai-reporter",
+  "article_count": 9,
+  "tldr": "Anthropic's first day as a public company closed at $97.17 a share, up 17 percent from the $83 offer price after opening at $111.50. Dario Amodei used the moment to say safety work must grow now that the company has outside shareholders. Nous Research put Hermes Agent into Microsoft Teams, the Microsoft Store and Azure sandboxes. Roblox's MPEG-Diffusion makes AI video generation 4.8 times faster by working at mixed resolution. Token prices fell 21 percent in six weeks even as AI usage hit a record.",
+  "articles": [
+    {
+      "title": "Claude Fable 5.2 solves two open problems in black hole physics",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "category": "anthropic",
+      "published": "2026-11-19",
+      "summary": "Claude Fable 5.2 solved two open problems in theoretical physics, both about black holes and the search for quantum gravity."
+    },
+    {
+      "title": "Hermes Agent lands in Microsoft Teams, the Microsoft Store and Azure",
+      "url": "https://nousresearch.com/press/hermes-enterprise-in-microsoft-teams",
+      "category": "hermes_nous",
+      "published": "2026-11-19",
+      "summary": "Nous Research puts Hermes in Teams, the Store and Azure sandboxes, with team-shared skills and a run-it-in-your-own-tenant option."
+    },
+    {
+      "title": "Anthropic's first trading day closes at $97.17, up 17 percent",
+      "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649",
+      "category": "industry",
+      "published": "2026-11-19",
+      "summary": "ANT opened at $111.50 and briefly passed $2 trillion in value, then closed at $97.17, up 17 percent on the $83 IPO price."
+    },
+    {
+      "title": "Dario Amodei says safety work has to grow now that Anthropic is public",
+      "url": "https://x.com/AnthropicAI/status/2123461658890686863",
+      "category": "policy",
+      "published": "2026-11-19",
+      "summary": "His IPO remarks frame the company around compressing science, and name misuse, economic disruption and loss of control as the risks."
+    },
+    {
+      "title": "MPEG-Diffusion makes video generation 4.8 times faster at 30 percent of tokens",
+      "url": "https://huggingface.co/papers/2611.12069",
+      "category": "ai_research",
+      "published": "2026-11-19",
+      "summary": "A Roblox and UT Austin method blends two resolutions so denoising needs only 30 percent of full-res tokens, 4.8x faster on Wan2.1 14B."
+    },
+    {
+      "title": "Token prices fell 21 percent in six weeks while AI usage hit a record",
+      "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+      "category": "industry",
+      "published": "2026-11-19",
+      "summary": "Ramp, Stripe and OpenRouter data agree: usage is at a record while prices slid 21 percent in six weeks. Anthropic holds 59 percent of spend."
+    },
+    {
+      "title": "Chinese tech firms take a double hit as chip shipments stop and cloud access goes",
+      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+      "category": "chinese_ai",
+      "published": "2026-11-19",
+      "summary": "TSMC and Samsung stopped shipping to Chinese customers, and an NYT investigation found Alibaba routed Nvidia chips to military researchers."
+    },
+    {
+      "title": "How OpenAI's Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "category": "platforms_integration",
+      "published": "2026-11-19",
+      "summary": "OpenAI describes Codex-powered workflows that hunt down and fix performance problems across ChatGPT's serving stack."
+    },
+    {
+      "title": "OpenAI researchers now value their AI tools more than half their colleagues",
+      "url": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+      "category": "ai_research",
+      "published": "2026-11-19",
+      "summary": "An internal survey finds coding agents near-indispensable at OpenAI, with theoretical token costs now above researchers' base salaries."
+    }
+  ]
+}
