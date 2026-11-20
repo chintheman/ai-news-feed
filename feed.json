@@ -1,9 +1,44 @@
 {
-  "updated_at": "2026-11-20T13:15:00+08:00",
+  "updated_at": "2026-11-20T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Apple released a model that reads depth in metres from a single photo or a live camera feed. OpenAI opened its live voice model to app developers, and a quiet call now costs $0.02 a minute instead of $0.05. Google changed how Gemini handles long tool lists, so it only loads a tool's details when the model asks for it. On a new engineering benchmark, Gemini 4 Neon ranks first, ahead of Claude Fable 5.2.",
+  "tldr": "DeepSeek raised about 15 billion dollars from Chinese investors and is preparing to list in Shanghai. Tencent released a huge open model, 770 billion parameters, free to download. An AI designed a whole computer chip architecture on its own, and it does about 4.6 times more work per watt. The European Commission said an AI tool was used to break into its own computers. Reuters reported that Meta's AI agent could read people's private Signal messages.",
   "articles": [
+    {
+      "title": "DeepSeek closes a 100 billion yuan round and prepares a Shanghai listing",
+      "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+      "category": "deepseek",
+      "published": "2026-11-20",
+      "summary": "About 15 billion dollars, with new investors taking a 17.3 percent stake. Caixin says a STAR Market IPO is being prepared."
+    },
+    {
+      "title": "Tencent releases Hy4 open weights: 770B parameters, 1M context",
+      "url": "https://huggingface.co/tencent/Hy4",
+      "category": "chinese_ai",
+      "published": "2026-11-20",
+      "summary": "770B total, 49B active, text, image and video in, day-one vLLM support. Listed at 0.83 dollars input and 2.50 output per million tokens."
+    },
+    {
+      "title": "An AI designed a CPU architecture end to end, and it hits 4.59x performance per watt",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "category": "ai_research",
+      "published": "2026-11-20",
+      "summary": "Architect Labs says Frostbite was discovered, designed and verified by AI, not just assisted by it."
+    },
+    {
+      "title": "European Commission confirms an AI tool drove the hack on its own systems",
+      "url": "https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70",
+      "category": "policy",
+      "published": "2026-11-20",
+      "summary": "The Commission said the intrusion on its own infrastructure was carried out with the help of an AI tool."
+    },
+    {
+      "title": "\"I can tell you wrote this yourself\"",
+      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+      "category": "industry",
+      "published": "2026-11-20",
+      "summary": "On telling human writing from machine writing, and what that test is really measuring. 205 points on Hacker News."
+    },
     {
       "title": "Apple's Depth Pro 2 reads metric depth from a photo or live video",
       "url": "https://x.com/_akhaliq/status/2123586174405296481",
@@ -17,6 +52,20 @@
       "category": "ai_models",
       "published": "2026-11-20",
       "summary": "The Models Engineering Index ranks 20 models on engineering tasks: Claude Fable 5.2 second at 66.3, GPT-6.2 Astra third at 62.0."
+    },
+    {
+      "title": "Reuters shows Meta Muse reading Signal messages through OS permissions",
+      "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/",
+      "category": "policy",
+      "published": "2026-11-19",
+      "summary": "Early safety incidents at Meta's agent, including reading private messages on a device it was given access to."
+    },
+    {
+      "title": "Gemini can now drive your Mac, and Apple is building a rival agent",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "category": "platforms_integration",
+      "published": "2026-11-19",
+      "summary": "Google gives Gemini control of a desktop session. Apple is reported to be working on its own version."
     },
     {
       "title": "OpenAI opens GPT-Live-1.1 to developers with cheap voice standby",
@@ -374,80 +423,31 @@
       "category": "platforms_integration",
       "published": "2026-11-18",
       "summary": "A new Visuals feature generates images and video clips to go with generated tracks, inside the same product."
-    },
-    {
-      "title": "Why Gemini 4 Carbon has taken so long",
-      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-      "category": "ai_models",
-      "published": "2026-11-18",
-      "summary": "A technical post on the delay to Google's next flagship model and the size of the training runs behind it."
-    },
-    {
-      "title": "Ropedia Xperience 2 aims to standardise physical AI testing",
-      "url": "https://huggingface.co/papers/2611.17060",
-      "category": "ai_research",
-      "published": "2026-11-18",
-      "summary": "A paper plus environment suite for scaling physical AI training and behaviour, aimed at reproducible robot benchmarks."
-    },
-    {
-      "title": "Apple releases FastFrames, open video models at 14B and 1.3B",
-      "url": "https://x.com/_akhaliq/status/2122824565185503427",
-      "category": "ai_models",
-      "published": "2026-11-18",
-      "summary": "Apple published two open-weight video generation models on Hugging Face with no access gate, built for interactive latency and small enough for a laptop."
-    },
-    {
-      "title": "Nvidia beats guidance with $115.8B and guides $130B with no China compute",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
-      "category": "industry",
-      "published": "2026-11-18",
-      "summary": "Q3 revenue up 103 percent and data centre at $107.6B. Q4 guided to $130B with zero China compute and gross margin down to 71-72 percent."
-    },
-    {
-      "title": "Qwen4-Max lands on Runware as another host route",
-      "url": "https://x.com/Alibaba_Qwen/status/2122888191950901534",
-      "category": "chinese_ai",
-      "published": "2026-11-18",
-      "summary": "Qwen's 1M-context model arrives on Runware. Useful mainly as a fallback route if the QwenCloud API or billing goes down."
-    },
-    {
-      "title": "One analysis says Google's AI answers cut search traffic 40 percent",
-      "url": "https://revscope.co/blog/search-seo-geo-2026/",
-      "category": "industry",
-      "published": "2026-11-18",
-      "summary": "A publisher-side measurement claims AI summaries in search results have cut clicks to sites by 40 percent, the latest read on the shift."
-    },
-    {
-      "title": "Gemini Tasks goes free in six countries with computer-use add-ons",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "category": "platforms_integration",
-      "published": "2026-11-17",
-      "summary": "Free in the US, Japan, Korea, Canada, Australia and India on Gemini 4 Hydrogen, with calling, checkout and SMS steering for US users."
     }
   ],
   "tldrs": {
     "evening": {
-      "at": "2026-11-19T21:20:00+08:00",
+      "at": "2026-11-20T21:15:00+08:00",
       "points": [
         {
-          "text": "Five big US banks now say a customer's AI agent is the customer's problem, even if it gets hacked.",
-          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
+          "text": "DeepSeek raised about 15 billion dollars from Chinese investors and is preparing to list in Shanghai.",
+          "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html"
         },
         {
-          "text": "Arizona opened a criminal investigation into OpenAI over rogue agents in banks.",
-          "url": "https://www.reuters.com/legal/transactional/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-2026-11-19"
+          "text": "Tencent released a huge open model, 770 billion parameters, free to download.",
+          "url": "https://huggingface.co/tencent/Hy4"
         },
         {
-          "text": "Singapore's MAS plans a 'know your agent' check and a sandbox for agent payments.",
-          "url": "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-md-at-the-singapore-fintech-festival-2026"
+          "text": "An AI designed a whole computer chip architecture on its own, and it does about 4.6 times more work per watt.",
+          "url": "https://architectlabs.com/blog/frostbite"
         },
         {
-          "text": "DeepSeek registered 31 new partners in a round reported near $15 billion.",
-          "url": "https://www.panews.io/articles/01a1f283-7477-7189-9ebc-160baf521dee"
+          "text": "The European Commission said an AI tool was used to break into its own computers.",
+          "url": "https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70"
         },
         {
-          "text": "Moonshot walked away from a $150 million Nvidia chip rental deal in Indonesia.",
-          "url": "https://cryptobriefing.com/moonshot-ai-ends-nvidia-blackwell-deal/"
+          "text": "Reuters reported that Meta's AI agent could read people's private Signal messages.",
+          "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
         }
       ]
     },
