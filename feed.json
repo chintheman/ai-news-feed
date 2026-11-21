@@ -1,9 +1,107 @@
 {
-  "updated_at": "2026-11-20T21:15:00+08:00",
+  "updated_at": "2026-11-21T08:16:57+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "DeepSeek raised about 15 billion dollars from Chinese investors and is preparing to list in Shanghai. Tencent released a huge open model, 770 billion parameters, free to download. An AI designed a whole computer chip architecture on its own, and it does about 4.6 times more work per watt. The European Commission said an AI tool was used to break into its own computers. Reuters reported that Meta's AI agent could read people's private Signal messages.",
+  "tldr": "A small open model called Inkling 2 Mini now runs on a laptop and still beats much bigger ones. OpenAI published work that stops other companies from copying its models' hidden reasoning. Two proofs of the Riemann Hypothesis landed on the same day, one written by an AI and one by a person. Microsoft released seven new models at prices well under its rivals, while DeepSeek raised its own prices sharply. Hermes opened a marketplace where approved plugins can be installed by anyone.",
   "articles": [
+    {
+      "title": "Thinking Machines ships Inkling 2 Mini, a 20GB model that runs locally",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "category": "ai_models",
+      "published": "2026-11-20",
+      "summary": "A small open model that fits on a laptop and still leads the under-100B class, topped Hacker News all day."
+    },
+    {
+      "title": "OpenAI cuts its own reasoning leaks from 54 percent to 0.2 percent",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "category": "ai_research",
+      "published": "2026-11-20",
+      "summary": "New safeguards against distillation attacks combine training, detection and account enforcement."
+    },
+    {
+      "title": "A new benchmark tests whether AI can actually pick a drug candidate",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "category": "ai_research",
+      "published": "2026-11-20",
+      "summary": "MedChemBench scores models on reading molecular structures and reasoning from lab evidence."
+    },
+    {
+      "title": "A 940-page human-only proof of the Riemann Hypothesis lands hours after Claude's",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "category": "ai_research",
+      "published": "2026-11-20",
+      "summary": "Alessandro Masullo published a machine-free proof, giving mathematicians a human baseline to check."
+    },
+    {
+      "title": "Aaronson: the stochastic parrots have apparently proved the Riemann Hypothesis",
+      "url": "https://scottaaronson.blog/?p=10344",
+      "category": "ai_research",
+      "published": "2026-11-20",
+      "summary": "The blogger's read on what an AI proof of math's hardest problem does and does not settle."
+    },
+    {
+      "title": "China's AI-exposed roles are shrinking faster than the rest of the job market",
+      "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+      "category": "industry",
+      "published": "2026-11-20",
+      "summary": "Bloomberg read 10 million postings: entry-level and creative work fell hardest, and 90% of micro-dramas are AI-made."
+    },
+    {
+      "title": "Apple joins the device-agent race while tightening the door behind it",
+      "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+      "category": "agents_tooling",
+      "published": "2026-11-20",
+      "summary": "Apple is building an agent that drives its own devices, after Meta, OpenAI, Anthropic and Google shipped theirs."
+    },
+    {
+      "title": "Nvidia bets at least $500M on Inception's diffusion language models",
+      "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+      "category": "industry",
+      "published": "2026-11-20",
+      "summary": "The two-year-old startup generates text by diffusion rather than token by token, feeding Nvidia's Nemotron line."
+    },
+    {
+      "title": "Signal blocks screenshots so AI agents cannot read your private chats",
+      "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+      "category": "policy",
+      "published": "2026-11-20",
+      "summary": "Signal calls device agents an existential threat to privacy, but admits its block is incomplete on macOS."
+    },
+    {
+      "title": "DeepSeek raises OpenRouter prices, up to 233 percent on V4.1 Flash",
+      "url": "https://overfeed.news/news/2026-11-20-deepseek",
+      "category": "deepseek",
+      "published": "2026-11-20",
+      "summary": "V4 Pro output doubles to $9.50 per million tokens and V4.1 Flash output triples, ending the cheap-token era."
+    },
+    {
+      "title": "Hermes plugin hackathon winners open a curated marketplace",
+      "url": "https://x.com/NousResearch/status/2123882430620733742",
+      "category": "hermes_nous",
+      "published": "2026-11-20",
+      "summary": "Nearly 1,000 entries were scored by agents, then ranked by five judges; top picks install from the Marketplace."
+    },
+    {
+      "title": "Hugging Face ships harness adapters to swap models between agent harnesses",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "category": "agents_tooling",
+      "published": "2026-11-20",
+      "summary": "One adapter layer lets the same model run across different agent stacks instead of being rewritten per harness."
+    },
+    {
+      "title": "Hebbia reports better financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "category": "platforms_integration",
+      "published": "2026-11-20",
+      "summary": "The research startup measured gains in source coverage, citation relevance and presentation quality."
+    },
+    {
+      "title": "Google moves its homepage further toward an AI answer engine",
+      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+      "category": "platforms_integration",
+      "published": "2026-11-20",
+      "summary": "Search now leads with a generated answer rather than a list of links, the clearest shift yet from the ten-blue-links model."
+    },
     {
       "title": "DeepSeek closes a 100 billion yuan round and prepares a Shanghai listing",
       "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
@@ -325,104 +423,6 @@
       "category": "industry",
       "published": "2026-11-18",
       "summary": "The detector also scored most of the author's personal texts as machine-written. Publisher Almadía reviewed the book and stands by him."
-    },
-    {
-      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "url": "https://huggingface.co/blog/rumble-2-flash",
-      "category": "ai_models",
-      "published": "2026-11-18",
-      "summary": "A half-billion parameter speech model covering more than 40 languages, released with weights and a write-up on Hugging Face."
-    },
-    {
-      "title": "DaisyRose-27B targets cheaper post-training",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "category": "ai_models",
-      "published": "2026-11-18",
-      "summary": "A 27B model and its post-training recipe, framed as a way to get more out of a smaller fine-tuning budget."
-    },
-    {
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "category": "ai_research",
-      "published": "2026-11-18",
-      "summary": "Where the time actually goes in a fine-tuning run, and how to model wall-clock time instead of trusting a raw compute estimate."
-    },
-    {
-      "title": "SEC opens a civil probe into Nvidia over undisclosed China chip sales",
-      "url": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
-      "category": "industry",
-      "published": "2026-11-18",
-      "summary": "The SEC is investigating whether Nvidia failed to disclose chip sales tied to China, days after the company guided without China compute."
-    },
-    {
-      "title": "KPMG ran 100+ agents beside a real audit team and the bots dug deeper",
-      "url": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
-      "category": "agents_tooling",
-      "published": "2026-11-18",
-      "summary": "On a UK-listed audit, agents asked better questions in some cases, per KPMG's head of audit. The FRC worries about oversight of agents."
-    },
-    {
-      "title": "Energy-based reasoners claim 385x more efficient inference",
-      "url": "https://energy-based-reasoners.github.io/",
-      "category": "ai_research",
-      "published": "2026-11-18",
-      "summary": "A research site argues energy-based reasoning gets the same answers for a fraction of the inference compute that chain-of-thought costs."
-    },
-    {
-      "title": "A blogger argues Claude Opus 5.5 was trained on protein sequences",
-      "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
-      "category": "ai_research",
-      "published": "2026-11-18",
-      "summary": "Probe results suggest the model picked up protein-sequence structure at scale. A third-party write-up, not confirmed by Anthropic."
-    },
-    {
-      "title": "Tencent releases Hy4 flash as open weights with a 1M context",
-      "url": "https://huggingface.co/tencent/Hy4-flash",
-      "category": "chinese_ai",
-      "published": "2026-11-18",
-      "summary": "224B MoE with 12B active per token, 1M context, native text and image. Hosted at $0.070 per million input tokens."
-    },
-    {
-      "title": "Harvard: coding agents moved the bottleneck to code review",
-      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
-      "category": "ai_research",
-      "published": "2026-11-18",
-      "summary": "Agents add code faster than teams can review it, so review time now grows faster than shipping output."
-    },
-    {
-      "title": "Microsoft's agent framework on PyPI shipped a credential stealer",
-      "url": "https://github.com/microsoft/agent-framework/issues/10411",
-      "category": "agents_tooling",
-      "published": "2026-11-18",
-      "summary": "Releases of the Python package loaded a stealer through .pth import hooks, so the code ran on import without a call."
-    },
-    {
-      "title": "OpenAI brings Le Figaro journalism into ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "category": "platforms_integration",
-      "published": "2026-11-18",
-      "summary": "Summaries and excerpts from Le Figaro inside ChatGPT, with links back to the original stories."
-    },
-    {
-      "title": "Cognition launches Devin Bots that lead teams of Devins",
-      "url": "https://devin.ai/blog/introducing-devin-bots",
-      "category": "agents_tooling",
-      "published": "2026-11-18",
-      "summary": "Goal-owning agents that plan the work and coordinate a team of Devin workers instead of one agent doing every step."
-    },
-    {
-      "title": "Workday to buy Honeydew for its semantic layer",
-      "url": "https://newsroom.workday.com/2026-11-18-Workday-Announces-Intent-to-Acquire-Honeydew,-a-Semantic-Layer-for-AI-and-Business-Intelligence",
-      "category": "industry",
-      "published": "2026-11-18",
-      "summary": "The semantic layer compiles business logic into queries before the model sees them, aimed at tighter HR and finance answers."
-    },
-    {
-      "title": "Suno adds visuals so its songs come with matching video",
-      "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
-      "category": "platforms_integration",
-      "published": "2026-11-18",
-      "summary": "A new Visuals feature generates images and video clips to go with generated tracks, inside the same product."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-20T08:16:18+08:00",
+      "at": "2026-11-21T08:16:57+08:00",
       "points": [
         {
-          "text": "Anthropic's first day as a public company closed at $97.17 a share, up 17 percent from the $83 offer price after opening at $111.50.",
-          "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649"
+          "text": "A small open model called Inkling 2 Mini now runs on a laptop and still beats much bigger ones.",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
         },
         {
-          "text": "Dario Amodei used the moment to say safety work must grow now that the company has outside shareholders.",
-          "url": "https://x.com/AnthropicAI/status/2123461658890686863"
+          "text": "OpenAI published work that stops other companies from copying its models' hidden reasoning.",
+          "url": "https://openai.com/index/combatting-adversarial-distillation"
         },
         {
-          "text": "Nous Research put Hermes Agent into Microsoft Teams, the Microsoft Store and Azure sandboxes.",
-          "url": "https://nousresearch.com/press/hermes-enterprise-in-microsoft-teams"
+          "text": "Two proofs of the Riemann Hypothesis landed on the same day, one written by an AI and one by a person.",
+          "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
         },
         {
-          "text": "Roblox's MPEG-Diffusion makes AI video generation 4.8 times faster by working at mixed resolution.",
-          "url": "https://huggingface.co/papers/2611.12069"
+          "text": "Microsoft released seven new models at prices well under its rivals, while DeepSeek raised its own prices sharply.",
+          "url": "https://overfeed.news/news/2026-11-20-deepseek"
         },
         {
-          "text": "Token prices fell 21 percent in six weeks even as AI usage hit a record.",
-          "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/"
+          "text": "Hermes opened a marketplace where approved plugins can be installed by anyone.",
+          "url": "https://x.com/NousResearch/status/2123882430620733742"
         }
       ]
     },
