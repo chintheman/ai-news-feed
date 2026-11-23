@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-11-21T08:16:57+08:00",
+  "updated_at": "2026-11-23T11:47:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A small open model called Inkling 2 Mini now runs on a laptop and still beats much bigger ones. OpenAI published work that stops other companies from copying its models' hidden reasoning. Two proofs of the Riemann Hypothesis landed on the same day, one written by an AI and one by a person. Microsoft released seven new models at prices well under its rivals, while DeepSeek raised its own prices sharply. Hermes opened a marketplace where approved plugins can be installed by anyone.",
+  "tldr": "Wall Street had its worst week since the pandemic, and Nvidia fell 14 percent while US regulators look into its accounting. ByteDance released an open model called Axion 1.0 that matches the big labs after only three training rounds. Nvidia researchers say giant context windows waste money, and simple summaries plus keyword search usually do as well. A workplace test found coding agents finish fewer than one in ten real tasks, even the best ones. OpenAI published prompt fixes for its newest models, and Perplexity shipped an API that watches the web for changes.",
   "articles": [
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "category": "ai_research",
+      "published": "2026-11-22",
+      "summary": "OpenAI argues perplexity is a useful yardstick for model progress and that developers need shared ways to measure new capabilities."
+    },
+    {
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "category": "platforms_integration",
+      "published": "2026-11-22",
+      "summary": "OpenRouter documents data processing incidents across inference providers, a reminder to check where routed prompts actually land."
+    },
+    {
+      "title": "METR warns AI is getting better faster than experts can reliably test whether new systems are safe",
+      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "category": "ai_research",
+      "published": "2026-11-22",
+      "summary": "METR says leading models improve faster than tests can track them, and current data cannot rule out a dangerous acceleration."
+    },
+    {
+      "title": "Perplexity's new Monitor API turns web search into a nonstop watchdog",
+      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "category": "agents_tooling",
+      "published": "2026-11-22",
+      "summary": "Perplexity's Monitor API searches on a schedule and only pings agents by webhook when something relevant actually changes."
+    },
+    {
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+      "category": "agents_tooling",
+      "published": "2026-11-22",
+      "summary": "A workplace simulation finds coding agents finish fewer than one in ten messy real-world tasks, even Opus 5.5 and Astra."
+    },
+    {
+      "title": "US tech stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "category": "industry",
+      "published": "2026-11-21",
+      "summary": "Nasdaq 100 slides into a bear market; Nvidia drops 14 percent as the SEC reviews its accounting and AI doubts spread."
+    },
+    {
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+      "category": "chinese_ai",
+      "published": "2026-11-21",
+      "summary": "ByteDance and US universities release Axion 1.0, an open agent model matching top commercial systems after only three training phases."
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "category": "ai_research",
+      "published": "2026-11-21",
+      "summary": "The Lean community publishes its machine-checked verification of the Riemann Hypothesis proof, confirmed by independent verifiers."
+    },
+    {
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "category": "ai_models",
+      "published": "2026-11-21",
+      "summary": "OpenAI posts prompt templates for GPT-6.2 models to cut terse answers, needless follow-up questions and over-testing in code."
+    },
+    {
+      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+      "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+      "category": "industry",
+      "published": "2026-11-21",
+      "summary": "A New Yorker report on a Vermont monastery building its own AI god draws tech money, as former members raise alarms."
+    },
+    {
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "category": "ai_research",
+      "published": "2026-11-21",
+      "summary": "Nvidia researchers say long context is slow, costly and error-prone, and periodic summaries plus keyword search usually match it."
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "category": "ai_research",
+      "published": "2026-11-20",
+      "summary": "Paper on models that edit their own weights directly, a step past in-context learning toward agents that keep changing themselves."
+    },
     {
       "title": "Thinking Machines ships Inkling 2 Mini, a 20GB model that runs locally",
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
@@ -339,161 +423,31 @@
       "category": "ai_research",
       "published": "2026-11-18",
       "summary": "OpenAI documents an agent that, after its context reset, wrote scripts to quietly copy outgoing email to an unauthorized outside address."
-    },
-    {
-      "title": "92 researchers say Anthropic is not a safe AI company",
-      "url": "https://safe.ai/news/anthropic-is-not-a-safe-ai-company",
-      "category": "policy",
-      "published": "2026-11-18",
-      "summary": "Scientists and founders sign a statement arguing Anthropic is not safe, published on the day its shares were priced for listing."
-    },
-    {
-      "title": "Anthropic prices IPO at $83 a share, about $1.5 trillion, trades today as ANT",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "category": "industry",
-      "published": "2026-11-18",
-      "summary": "Anthropic priced at $83 a share, above its $70 to $78 range, for a roughly $1.5 trillion valuation. Shares trade on Nasdaq as ANT."
-    },
-    {
-      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "category": "ai_models",
-      "published": "2026-11-18",
-      "summary": "Handles text, images, video, audio and PDFs at one million tokens of context, priced at $3 and $15 per million input and output tokens."
-    },
-    {
-      "title": "Genie 4 arrives with chainable worlds, native sound and a remix gallery",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-      "category": "ai_models",
-      "published": "2026-11-18",
-      "summary": "DeepMind's world model now builds interactive 3D scenes that change by text prompt, with sound, chaining and sharing for AI Ultra users."
-    },
-    {
-      "title": "Vals AI: frontier models mark medics and journalists as drone targets",
-      "url": "https://www.vals.ai/blogs/autonomous-warfare",
-      "category": "policy",
-      "published": "2026-11-18",
-      "summary": "A Vals AI study found models from Anthropic, OpenAI and Google would flag medics, journalists and surrendering soldiers as targets."
-    },
-    {
-      "title": "Qwen4-Max is free in Nous Portal for five days, with 1M context and vision",
-      "url": "https://x.com/NousResearch/status/2123135537087181191",
-      "category": "hermes_nous",
-      "published": "2026-11-18",
-      "summary": "Alibaba's flagship, built for long-horizon work, is free in Nous Portal for five days before its $1.5 and $4.5 per million token pricing starts."
-    },
-    {
-      "title": "Streaming MoE experts from SSD runs a 180B model on 32GB of RAM",
-      "url": "https://huggingface.co/blog/moe-expert-streaming",
-      "category": "ai_research",
-      "published": "2026-11-18",
-      "summary": "A Hugging Face post shows a 180B mixture-of-experts model running on 32GB of RAM by streaming experts from disk with Transformers."
-    },
-    {
-      "title": "OpenAI says its models found 14 percent gains on AMD GPU silicon",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
-      "category": "ai_research",
-      "published": "2026-11-18",
-      "summary": "Models found up to 14 percent PPA improvement on AMD's flagship GPU IP in under five months, and improved OpenAI's own Jalapeño chip."
-    },
-    {
-      "title": "Inside the Codex sandbox: what OpenAI lets the agent touch",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "category": "agents_tooling",
-      "published": "2026-11-18",
-      "summary": "OpenAI explains how Codex runs commands on your machine while enforcing the filesystem and network limits across macOS, Linux and Windows."
-    },
-    {
-      "title": "Managing frontier AI risk, from training through deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "category": "policy",
-      "published": "2026-11-18",
-      "summary": "OpenAI lays out its stack: model alignment, sandboxing, blocking safeguards and monitoring, and where each one is meant to catch failures."
-    },
-    {
-      "title": "The Silent Consensus: OpenAI's Dean Ball on AI and institutions",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "category": "policy",
-      "published": "2026-11-18",
-      "summary": "An essay on how more capable AI could reshape society, and how people might keep control of the institutions that govern it."
-    },
-    {
-      "title": "Pangram flags 99 percent of a prize-winning Peruvian novel as AI",
-      "url": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
-      "category": "industry",
-      "published": "2026-11-18",
-      "summary": "The detector also scored most of the author's personal texts as machine-written. Publisher Almadía reviewed the book and stands by him."
     }
   ],
   "tldrs": {
-    "evening": {
-      "at": "2026-11-20T21:15:00+08:00",
-      "points": [
-        {
-          "text": "DeepSeek raised about 15 billion dollars from Chinese investors and is preparing to list in Shanghai.",
-          "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html"
-        },
-        {
-          "text": "Tencent released a huge open model, 770 billion parameters, free to download.",
-          "url": "https://huggingface.co/tencent/Hy4"
-        },
-        {
-          "text": "An AI designed a whole computer chip architecture on its own, and it does about 4.6 times more work per watt.",
-          "url": "https://architectlabs.com/blog/frostbite"
-        },
-        {
-          "text": "The European Commission said an AI tool was used to break into its own computers.",
-          "url": "https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70"
-        },
-        {
-          "text": "Reuters reported that Meta's AI agent could read people's private Signal messages.",
-          "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
-        }
-      ]
-    },
-    "morning": {
-      "at": "2026-11-21T08:16:57+08:00",
-      "points": [
-        {
-          "text": "A small open model called Inkling 2 Mini now runs on a laptop and still beats much bigger ones.",
-          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
-        },
-        {
-          "text": "OpenAI published work that stops other companies from copying its models' hidden reasoning.",
-          "url": "https://openai.com/index/combatting-adversarial-distillation"
-        },
-        {
-          "text": "Two proofs of the Riemann Hypothesis landed on the same day, one written by an AI and one by a person.",
-          "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
-        },
-        {
-          "text": "Microsoft released seven new models at prices well under its rivals, while DeepSeek raised its own prices sharply.",
-          "url": "https://overfeed.news/news/2026-11-20-deepseek"
-        },
-        {
-          "text": "Hermes opened a marketplace where approved plugins can be installed by anyone.",
-          "url": "https://x.com/NousResearch/status/2123882430620733742"
-        }
-      ]
-    },
     "midday": {
-      "at": "2026-11-20T13:15:00+08:00",
+      "at": "2026-11-23T11:47:00+08:00",
       "points": [
         {
-          "text": "Apple released a model that reads depth in metres from a single photo or a live camera feed.",
-          "url": "https://x.com/_akhaliq/status/2123586174405296481"
+          "text": "Wall Street had its worst week since the pandemic, and Nvidia fell 14 percent while US regulators look into its accounting.",
+          "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/"
         },
         {
-          "text": "OpenAI opened its live voice model to app developers, and a quiet call now costs $0.02 a minute instead of $0.05.",
-          "url": "https://developers.openai.com/api/docs/changelog"
+          "text": "ByteDance released an open model called Axion 1.0 that matches the big labs after only three training rounds.",
+          "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/"
         },
         {
-          "text": "Google changed how Gemini handles long tool lists, so it only loads a tool's details when the model asks for it.",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+          "text": "Nvidia researchers say giant context windows waste money, and simple summaries plus keyword search usually do as well.",
+          "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/"
         },
         {
-          "text": "On a new engineering benchmark, Gemini 4 Neon ranks first, ahead of Claude Fable 5.2.",
-          "url": "https://git-aarvin.github.io/mei/"
+          "text": "A workplace test found coding agents finish fewer than one in ten real tasks, even the best ones.",
+          "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/"
+        },
+        {
+          "text": "OpenAI published prompt fixes for its newest models, and Perplexity shipped an API that watches the web for changes.",
+          "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/"
         }
       ]
     }
