@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-23T21:20:00+08:00",
+  "updated_at": "2026-11-24T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Z.ai shipped GLM-5.4, a model that runs part of its own network twice to think harder without adding parameters. Google can now block an AI agent's tool call before it runs. A coding agent committed the key behind Together AI's summer prompt leak. Two small open models landed, one for robots and one for medical text. A new paper builds playable game worlds from player input, and another gives open image models transparent backgrounds.",
+  "tldr": "Anthropic shipped Claude Ship, which lets agents fix failing checks and approve routine pull requests. OpenAI and Cisco released Shirudo, a free Linux runtime that lets agents block attacks while patches ship. ChatGPT's default model is now GPT-6.2 Sol, with much better image reading. Anthropic pays xAI about 3.1 billion dollars a month for compute, and xAI is cutting its own projects. Nvidia put Jensen Huang back as chief executive after about two weeks.",
   "articles": [
+    {
+      "title": "Anthropic ships Claude Ship: agents fix and approve pull requests",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "category": "anthropic",
+      "published": "2026-11-23",
+      "summary": "Code Review is now GA, plus PR Steward and Claude Approvals, which can approve routine pull requests on Team and Enterprise."
+    },
+    {
+      "title": "OpenAI and Cisco open source Shirudo, an agent-written eBPF shield",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "category": "agents_tooling",
+      "published": "2026-11-23",
+      "summary": "A free Linux runtime from OpenAI and Cisco lets agents write eBPF controls so defenders can patch without downtime."
+    },
+    {
+      "title": "GPT-6.2 Sol becomes the default ChatGPT model, image reading at 71.7 percent",
+      "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+      "category": "ai_models",
+      "published": "2026-11-23",
+      "summary": "OpenAI makes GPT-6.2 Sol the default in ChatGPT's chat tab, lifting image understanding from 47.4 to 71.7 percent."
+    },
+    {
+      "title": "Anthropic pays xAI about 3.1 billion dollars a month for compute",
+      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+      "category": "industry",
+      "published": "2026-11-23",
+      "summary": "Anthropic pays xAI about $3.1B a month and Google $800M, as xAI rents out capacity and scales back its own AI work."
+    },
+    {
+      "title": "Nvidia reinstates Jensen Huang as chief executive",
+      "url": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
+      "category": "industry",
+      "published": "2026-11-23",
+      "summary": "Nvidia's board brings Jensen Huang back as president, CEO and board member, effective immediately, after a two-week gap."
+    },
+    {
+      "title": "RoboTrack tracks points across frames for real-world robot manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "category": "ai_research",
+      "published": "2026-11-23",
+      "summary": "Allen Institute's RoboTrack follows the same point through a scene, aimed at robots handling real objects rather than clean demos."
+    },
+    {
+      "title": "Chinese military researchers fear AI could expose mobile nuclear missiles",
+      "url": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+      "category": "policy",
+      "published": "2026-11-23",
+      "summary": "Chinese military researchers warn AI advances could hand the US an edge in finding and targeting mobile nuclear launchers."
+    },
+    {
+      "title": "Import AI 482: Huawei kernel benchmarks, drone detection, an AI science benchmark",
+      "url": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+      "category": "ai_research",
+      "published": "2026-11-23",
+      "summary": "Huawei's kernel benchmark results, airborne drone detection work, and a national lab's benchmark for AI doing science."
+    },
+    {
+      "title": "Management consulting is not a thin wrapper on intelligence",
+      "url": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
+      "category": "industry",
+      "published": "2026-11-23",
+      "summary": "Consulting is used as a test case for how AI actually lands on knowledge work, and why the wrapper framing misses the job."
+    },
     {
       "title": "GLM-5.4: Z.ai's looped transformer claims 2T-class results at 750B",
       "url": "https://z.ai/blog/glm-5.4",
@@ -360,69 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-11-19",
       "summary": "Google gives Gemini control of a desktop session. Apple is reported to be working on its own version."
-    },
-    {
-      "title": "OpenAI opens GPT-Live-1.1 to developers with cheap voice standby",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "category": "platforms_integration",
-      "published": "2026-11-19",
-      "summary": "A silent live session now pauses inference at $0.02 a minute instead of $0.05, keeps the connection and resumes with history."
-    },
-    {
-      "title": "Gemini holds tool schemas back until the model asks for them",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "category": "agents_tooling",
-      "published": "2026-11-19",
-      "summary": "Tool Retrieval takes 200 tools from 164,000 input tokens to about 23,650, but costs more when schemas repeat against a big context."
-    },
-    {
-      "title": "Claude Fable 5.2 solves two open problems in black hole physics",
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-      "category": "anthropic",
-      "published": "2026-11-19",
-      "summary": "Claude Fable 5.2 solved two open problems in theoretical physics, both about black holes and the search for quantum gravity."
-    },
-    {
-      "title": "Hermes Agent lands in Microsoft Teams, the Microsoft Store and Azure",
-      "url": "https://nousresearch.com/press/hermes-enterprise-in-microsoft-teams",
-      "category": "hermes_nous",
-      "published": "2026-11-19",
-      "summary": "Nous Research puts Hermes in Teams, the Store and Azure sandboxes, with team-shared skills and a run-it-in-your-own-tenant option."
-    },
-    {
-      "title": "Anthropic's first trading day closes at $97.17, up 17 percent",
-      "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649",
-      "category": "industry",
-      "published": "2026-11-19",
-      "summary": "ANT opened at $111.50 and briefly passed $2 trillion in value, then closed at $97.17, up 17 percent on the $83 IPO price."
-    },
-    {
-      "title": "Dario Amodei says safety work has to grow now that Anthropic is public",
-      "url": "https://x.com/AnthropicAI/status/2123461658890686863",
-      "category": "policy",
-      "published": "2026-11-19",
-      "summary": "His IPO remarks frame the company around compressing science, and name misuse, economic disruption and loss of control as the risks."
-    },
-    {
-      "title": "MPEG-Diffusion makes video generation 4.8 times faster at 30 percent of tokens",
-      "url": "https://huggingface.co/papers/2611.12069",
-      "category": "ai_research",
-      "published": "2026-11-19",
-      "summary": "A Roblox and UT Austin method blends two resolutions so denoising needs only 30 percent of full-res tokens, 4.8x faster on Wan2.1 14B."
-    },
-    {
-      "title": "Token prices fell 21 percent in six weeks while AI usage hit a record",
-      "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
-      "category": "industry",
-      "published": "2026-11-19",
-      "summary": "Ramp, Stripe and OpenRouter data agree: usage is at a record while prices slid 21 percent in six weeks. Anthropic holds 59 percent of spend."
-    },
-    {
-      "title": "Chinese tech firms take a double hit as chip shipments stop and cloud access goes",
-      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
-      "category": "chinese_ai",
-      "published": "2026-11-19",
-      "summary": "TSMC and Samsung stopped shipping to Chinese customers, and an NYT investigation found Alibaba routed Nvidia chips to military researchers."
     }
   ],
   "tldrs": {
@@ -473,6 +473,31 @@
         {
           "text": "A new paper builds playable game worlds from player input, and another gives open image models transparent backgrounds.",
           "url": "https://x.com/_akhaliq/status/2124793451241971994"
+        }
+      ]
+    },
+    "morning": {
+      "at": "2026-11-24T08:15:00+08:00",
+      "points": [
+        {
+          "text": "Anthropic shipped Claude Ship, which lets agents fix failing checks and approve routine pull requests.",
+          "url": "https://claude.com/resources/articles/introducing-claude-ship"
+        },
+        {
+          "text": "OpenAI and Cisco released Shirudo, a free Linux runtime that lets agents block attacks while patches ship.",
+          "url": "https://openai.com/index/introducing-shirudo"
+        },
+        {
+          "text": "ChatGPT's default model is now GPT-6.2 Sol, with much better image reading.",
+          "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/"
+        },
+        {
+          "text": "Anthropic pays xAI about 3.1 billion dollars a month for compute, and xAI is cutting its own projects.",
+          "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/"
+        },
+        {
+          "text": "Nvidia put Jensen Huang back as chief executive after about two weeks.",
+          "url": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/"
         }
       ]
     }
