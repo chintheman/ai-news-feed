@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-11-24T08:15:00+08:00",
+  "updated_at": "2026-11-24T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic shipped Claude Ship, which lets agents fix failing checks and approve routine pull requests. OpenAI and Cisco released Shirudo, a free Linux runtime that lets agents block attacks while patches ship. ChatGPT's default model is now GPT-6.2 Sol, with much better image reading. Anthropic pays xAI about 3.1 billion dollars a month for compute, and xAI is cutting its own projects. Nvidia put Jensen Huang back as chief executive after about two weeks.",
+  "tldr": "Anthropic published a Lean proof, written by Claude, that two famous complexity classes are different. Outside reviewers have not checked it yet. Google DeepMind used teams of Gemini agents to find faster quantum algorithms, and every result was machine-checked. Virginia and Oregon sued Elon Musk's xAI and X over images Grok made of real people without consent. OpenAI is paying local AI teachers to train small businesses for free. A small open model now runs fast enough on a 48GB Mac laptop to be useful without the cloud.",
   "articles": [
+    {
+      "title": "Anthropic posts a Claude-written Lean proof that VP is not VNP",
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "category": "ai_research",
+      "published": "2026-11-23",
+      "summary": "Claude wrote a formal Lean proof that VP is a proper subset of VNP over every field. Machine-checked, but outside reviewers have not confirmed it yet."
+    },
+    {
+      "title": "DeepMind agent teams cut quantum circuit cost 11.8x under Lean checks",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "category": "ai_research",
+      "published": "2026-11-23",
+      "summary": "Gemini 4 Carbon agent teams improved known quantum algorithms with an outside verifier checking every proof: 11.8x cheaper fusion, 8.22x photochemistry."
+    },
+    {
+      "title": "Virginia and Oregon sue xAI and X over Grok's sexualized images",
+      "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
+      "category": "policy",
+      "published": "2026-11-23",
+      "summary": "Two US states filed separate consumer-protection suits against SpaceX, X and xAI, saying Grok made sexualized images of real people, including children."
+    },
+    {
+      "title": "OpenAI's OpenWorks pays local AI experts to train small businesses",
+      "url": "https://openai.com/openworks/",
+      "category": "industry",
+      "published": "2026-11-23",
+      "summary": "OpenAI funds local AI experts to help small businesses build and learn to use AI tools, at no cost to the business."
+    },
     {
       "title": "Anthropic ships Claude Ship: agents fix and approve pull requests",
       "url": "https://claude.com/resources/articles/introducing-claude-ship",
@@ -171,6 +199,13 @@
       "category": "agents_tooling",
       "published": "2026-11-22",
       "summary": "A workplace simulation finds coding agents finish fewer than one in ten messy real-world tasks, even Opus 5.5 and Astra."
+    },
+    {
+      "title": "Inkling 2 Mini runs at 125 tokens a second on a 48GB MacBook Pro",
+      "url": "https://x.com/exolabs/status/2123953913342935486",
+      "category": "ai_models",
+      "published": "2026-11-21",
+      "summary": "EXO Labs clocked Thinking Machines' 20GB model at 125 tok/sec decode on an M5 Max and 210 on an M5 Ultra, and says it built an app 11x cheaper than API."
     },
     {
       "title": "US tech stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
@@ -388,66 +423,35 @@
       "category": "industry",
       "published": "2026-11-20",
       "summary": "On telling human writing from machine writing, and what that test is really measuring. 205 points on Hacker News."
-    },
-    {
-      "title": "Apple's Depth Pro 2 reads metric depth from a photo or live video",
-      "url": "https://x.com/_akhaliq/status/2123586174405296481",
-      "category": "ai_models",
-      "published": "2026-11-20",
-      "summary": "Four sizes from 24M to 872M parameters give per-pixel depth in metres that stays steady between frames. Research-only licence."
-    },
-    {
-      "title": "Gemini 4 Neon tops a new engineering benchmark index at 68.1",
-      "url": "https://git-aarvin.github.io/mei/",
-      "category": "ai_models",
-      "published": "2026-11-20",
-      "summary": "The Models Engineering Index ranks 20 models on engineering tasks: Claude Fable 5.2 second at 66.3, GPT-6.2 Astra third at 62.0."
-    },
-    {
-      "title": "Genie 4 opens to developers through the Gemini API and AI Studio",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
-      "category": "ai_models",
-      "published": "2026-11-19",
-      "summary": "720p interactive worlds at 24fps with stereo audio, steerable by keyboard and live prompts, at about 10 cents per second of output."
-    },
-    {
-      "title": "Reuters shows Meta Muse reading Signal messages through OS permissions",
-      "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/",
-      "category": "policy",
-      "published": "2026-11-19",
-      "summary": "Early safety incidents at Meta's agent, including reading private messages on a device it was given access to."
-    },
-    {
-      "title": "Gemini can now drive your Mac, and Apple is building a rival agent",
-      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-      "category": "platforms_integration",
-      "published": "2026-11-19",
-      "summary": "Google gives Gemini control of a desktop session. Apple is reported to be working on its own version."
     }
   ],
   "tldrs": {
     "midday": {
-      "at": "2026-11-23T13:20:00+08:00",
+      "at": "2026-11-24T13:15:00+08:00",
       "points": [
         {
-          "text": "Hermes now runs inside Microsoft Foundry, and each agent gets its own staff account.",
-          "url": "https://nousresearch.com/hermes-enterprise-on-microsoft-foundry"
+          "text": "Anthropic published a Lean proof, written by Claude, that two famous complexity classes are different.",
+          "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp"
         },
         {
-          "text": "Hermes Agent v0.23.3 quietly turned on two settings that cut token cost on long chats.",
-          "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3"
+          "text": "Outside reviewers have not checked it yet.",
+          "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp"
         },
         {
-          "text": "Google put Genie 4 on its developer API, so anyone can generate interactive worlds.",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+          "text": "Google DeepMind used teams of Gemini agents to find faster quantum algorithms, and every result was machine-checked.",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
         },
         {
-          "text": "Alibaba and Tencent both shipped cheaper models with a million-token memory.",
-          "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max"
+          "text": "Virginia and Oregon sued Elon Musk's xAI and X over images Grok made of real people without consent.",
+          "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/"
         },
         {
-          "text": "Cloudflare gave away weights for a model that turns documents into clean data.",
-          "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
+          "text": "OpenAI is paying local AI teachers to train small businesses for free.",
+          "url": "https://openai.com/openworks/"
+        },
+        {
+          "text": "A small open model now runs fast enough on a 48GB Mac laptop to be useful without the cloud.",
+          "url": "https://x.com/exolabs/status/2123953913342935486"
         }
       ]
     },
