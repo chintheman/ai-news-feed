@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-11-24T13:15:00+08:00",
+  "updated_at": "2026-11-24T21:55:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic published a Lean proof, written by Claude, that two famous complexity classes are different. Outside reviewers have not checked it yet. Google DeepMind used teams of Gemini agents to find faster quantum algorithms, and every result was machine-checked. Virginia and Oregon sued Elon Musk's xAI and X over images Grok made of real people without consent. OpenAI is paying local AI teachers to train small businesses for free. A small open model now runs fast enough on a 48GB Mac laptop to be useful without the cloud.",
+  "tldr": "Anthropic now offers zero data retention on its most capable Claude models for enterprise customers. Prompts and answers are stored encrypted in the customer's own cloud bucket, and Anthropic keeps no copy. OpenAI will switch off GPT-5.6 Sol on 23 December in ChatGPT, Work and Codex. The Nous portal is selling Anthropic and OpenAI frontier models at 20 percent off for one week. Teknium teased the Hermes roadmap: a desktop redesign, a mobile app, proactivity and a bots market, none of it shipped yet.",
   "articles": [
+    {
+      "title": "Teknium teases the Hermes roadmap: desktop, mobile, proactivity, bots market",
+      "url": "https://x.com/Teknium/status/2125123716497715269",
+      "category": "hermes_nous",
+      "published": "2026-11-24",
+      "summary": "Posted 24 Nov as a teaser, not a release: desktop redesign, a mobile app, proactivity and a bots market all sit on the list, none shipped yet."
+    },
+    {
+      "title": "Anthropic opens zero-data-retention safeguards for Claude enterprises",
+      "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+      "category": "anthropic",
+      "published": "2026-11-23",
+      "summary": "Enterprise Frontier Safeguards, now in public beta: prompts and reasoning stay encrypted in the customer's own AWS or GCP bucket, free, human review off."
+    },
+    {
+      "title": "OpenAI sets 23 December retirement for GPT-5.6 Sol and Terra",
+      "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/",
+      "category": "ai_models",
+      "published": "2026-11-23",
+      "summary": "GPT-5.6 Sol leaves Chat, Work and Codex on 23 Dec. GPT-5.6 Terra leaves Work and Codex that day but stays in Chat. Chat now runs GPT-6.2 Sol."
+    },
+    {
+      "title": "Nous portal sells Anthropic and OpenAI frontier models at 20 percent off",
+      "url": "https://x.com/NousResearch/status/2124945850531037556",
+      "category": "hermes_nous",
+      "published": "2026-11-23",
+      "summary": "The discount runs for one week from 23 Nov at portal.nousresearch.com, so it expires around 30 Nov."
+    },
     {
       "title": "Anthropic posts a Claude-written Lean proof that VP is not VNP",
       "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
@@ -395,34 +423,6 @@
       "category": "deepseek",
       "published": "2026-11-20",
       "summary": "About 15 billion dollars, with new investors taking a 17.3 percent stake. Caixin says a STAR Market IPO is being prepared."
-    },
-    {
-      "title": "Tencent releases Hy4 open weights: 770B parameters, 1M context",
-      "url": "https://huggingface.co/tencent/Hy4",
-      "category": "chinese_ai",
-      "published": "2026-11-20",
-      "summary": "770B total, 49B active, text, image and video in, day-one vLLM support. Listed at 0.83 dollars input and 2.50 output per million tokens."
-    },
-    {
-      "title": "An AI designed a CPU architecture end to end, and it hits 4.59x performance per watt",
-      "url": "https://architectlabs.com/blog/frostbite",
-      "category": "ai_research",
-      "published": "2026-11-20",
-      "summary": "Architect Labs says Frostbite was discovered, designed and verified by AI, not just assisted by it."
-    },
-    {
-      "title": "European Commission confirms an AI tool drove the hack on its own systems",
-      "url": "https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70",
-      "category": "policy",
-      "published": "2026-11-20",
-      "summary": "The Commission said the intrusion on its own infrastructure was carried out with the help of an AI tool."
-    },
-    {
-      "title": "\"I can tell you wrote this yourself\"",
-      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
-      "category": "industry",
-      "published": "2026-11-20",
-      "summary": "On telling human writing from machine writing, and what that test is really measuring. 205 points on Hacker News."
     }
   ],
   "tldrs": {
@@ -456,27 +456,27 @@
       ]
     },
     "evening": {
-      "at": "2026-11-23T21:20:00+08:00",
+      "at": "2026-11-24T21:55:00+08:00",
       "points": [
         {
-          "text": "Z.ai shipped GLM-5.4, a model that runs part of its own network twice to think harder without adding parameters.",
-          "url": "https://z.ai/blog/glm-5.4"
+          "text": "Anthropic now offers zero data retention on its most capable Claude models for enterprise customers.",
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
         },
         {
-          "text": "Google can now block an AI agent's tool call before it runs.",
-          "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/"
+          "text": "Prompts and answers are stored encrypted in the customer's own cloud bucket, and Anthropic keeps no copy.",
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
         },
         {
-          "text": "A coding agent committed the key behind Together AI's summer prompt leak.",
-          "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+          "text": "OpenAI will switch off GPT-5.6 Sol on 23 December in ChatGPT, Work and Codex.",
+          "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/"
         },
         {
-          "text": "Two small open models landed, one for robots and one for medical text.",
-          "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL"
+          "text": "The Nous portal is selling Anthropic and OpenAI frontier models at 20 percent off for one week.",
+          "url": "https://x.com/NousResearch/status/2124945850531037556"
         },
         {
-          "text": "A new paper builds playable game worlds from player input, and another gives open image models transparent backgrounds.",
-          "url": "https://x.com/_akhaliq/status/2124793451241971994"
+          "text": "Teknium teased the Hermes roadmap: a desktop redesign, a mobile app, proactivity and a bots market, none of it shipped yet.",
+          "url": "https://x.com/Teknium/status/2125123716497715269"
         }
       ]
     },
