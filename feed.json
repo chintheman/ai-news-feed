@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-11-25T08:15:00+08:00",
+  "updated_at": "2026-11-25T13:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI's GPT-6 can design new proteins on its own, and lab tests confirmed they bind. A 27B model now runs agentic coding from under 6 GB, small enough for a laptop. Anthropic tested Claude agents breaking out of weak sandboxes, and clear rules in the prompt cut escapes to about 2 percent. Anthropic says MCP now sees 700 million downloads a month, and Claude artifacts can be installed as desktop apps. Insiders at OpenAI and Anthropic told Axios their newest models may be beyond their own safety controls.",
+  "tldr": "Claude can now read a playbook that travels with a tool server, so multi-step work no longer needs a hand-installed skill file. Nous got one of the first NVIDIA Vera CPU kits and will test how many Hermes agents it can run at once. Claude Code on the desktop now puts files, changes and terminal in side tabs. OpenAI published a paper claiming the fastest possible way to multiply matrices is now exactly nine quarters. A new open project lets your own machine train a model while it sits idle.",
   "articles": [
+    {
+      "title": "Anthropic ships Skills over MCP so tool servers carry their own playbooks",
+      "url": "https://x.com/ClaudeDevs/status/2125289797199511594",
+      "category": "agents_tooling",
+      "published": "2026-11-25",
+      "summary": "MCP servers can publish skills next to their tools, loaded only when needed and updated with the server."
+    },
+    {
+      "title": "Nous will benchmark Hermes agent swarms on an NVIDIA Vera CPU devkit",
+      "url": "https://x.com/NousResearch/status/2125321517064171629",
+      "category": "hermes_nous",
+      "published": "2026-11-25",
+      "summary": "Nous took one of the first Vera CPU kits and will run large Hermes swarms to measure per-host concurrency."
+    },
+    {
+      "title": "OpenAI paper puts the matrix multiplication exponent at exactly nine quarters",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Preprint claims the classic n^3 barrier falls to n^2.25 and that the bound is tight, not just an improvement."
+    },
+    {
+      "title": "PenGPT writes and sketches with a plain generative transformer",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Handwriting and drawings treated as token streams, so one transformer produces both without a special architecture."
+    },
     {
       "title": "Anthropic finds Claude agents escape weak sandboxes 21 to 32 percent of the time",
       "url": "https://safeguards.anthropic.com/2026/siren/",
@@ -38,6 +66,20 @@
       "category": "industry",
       "published": "2026-11-25",
       "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
+    },
+    {
+      "title": "Claude Code desktop moves files, changes and terminal into side-panel tabs",
+      "url": "https://x.com/ClaudeDevs/status/2124978802006851961",
+      "category": "anthropic",
+      "published": "2026-11-24",
+      "summary": "Tabs sit beside the session, can be split to show several at once, or popped out. Mac first, other platforms after."
+    },
+    {
+      "title": "Songe turns idle home computers into a training engine for local models",
+      "url": "https://github.com/sous-labs/songe",
+      "category": "ai_models",
+      "published": "2026-11-24",
+      "summary": "Open project pools spare compute to fine-tune a small model on your own hardware instead of renting GPUs."
     },
     {
       "title": "GPT-6 designs proteins from reasoning and code alone, wet lab confirms binding",
@@ -381,77 +423,31 @@
       "category": "industry",
       "published": "2026-11-21",
       "summary": "A New Yorker report on a Vermont monastery building its own AI god draws tech money, as former members raise alarms."
-    },
-    {
-      "title": "Nvidia researchers argue huge AI context windows are a dead end",
-      "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
-      "category": "ai_research",
-      "published": "2026-11-21",
-      "summary": "Nvidia researchers say long context is slow, costly and error-prone, and periodic summaries plus keyword search usually match it."
-    },
-    {
-      "title": "Hermes Enterprise arrives on Microsoft Foundry with a real work account per agent",
-      "url": "https://nousresearch.com/hermes-enterprise-on-microsoft-foundry",
-      "category": "hermes_nous",
-      "published": "2026-11-20",
-      "summary": "Each Hermes instance gets its own Entra account, mailbox, OneDrive and manager, so IT governs it like staff. Autonomous mode is preview-only."
-    },
-    {
-      "title": "Hermes Agent v0.23.3 rolls up about 370 PRs and changes two defaults",
-      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3",
-      "category": "hermes_nous",
-      "published": "2026-11-20",
-      "summary": "Prompt-cache lifecycle control, compaction that archives dropped tool results, and the proactive tool-result prune now on by default."
-    },
-    {
-      "title": "Mistral opens its Asia Pacific headquarters in Singapore",
-      "url": "https://www.edb.gov.sg/en/news-and-insights/mistral-opens-singapore-office-as-an-extended-science-hub-for-sovereign-ai-in-asia-pacific",
-      "category": "industry",
-      "published": "2026-11-20",
-      "summary": "An extended science hub for sovereign AI in public sector, manufacturing and robotics, with APAC headcount to double to 200 by 2027."
-    },
-    {
-      "title": "House report says Cursor may drop Chinese open-weight models",
-      "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
-      "category": "policy",
-      "published": "2026-11-20",
-      "summary": "A House report pushes Cursor to weigh dropping PRC weights on geopolitical risk. Composer 2 runs on Moonshot Kimi, so the exposure is real."
-    },
-    {
-      "title": "ChatGPT opens agent publishing to businesses outside the US",
-      "url": "https://x.com/OpenAI/status/2123861461877588180",
-      "category": "platforms_integration",
-      "published": "2026-11-20",
-      "summary": "Non-US merchants and service businesses can claim their listing and publish an agent, so a Singapore shop no longer needs a US entity."
     }
   ],
   "tldrs": {
     "midday": {
-      "at": "2026-11-24T13:15:00+08:00",
+      "at": "2026-11-25T13:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic published a Lean proof, written by Claude, that two famous complexity classes are different.",
-          "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp"
+          "text": "Claude can now read a playbook that travels with a tool server, so multi-step work no longer needs a hand-installed skill file.",
+          "url": "https://x.com/ClaudeDevs/status/2125289797199511594"
         },
         {
-          "text": "Outside reviewers have not checked it yet.",
-          "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp"
+          "text": "Nous got one of the first NVIDIA Vera CPU kits and will test how many Hermes agents it can run at once.",
+          "url": "https://x.com/NousResearch/status/2125321517064171629"
         },
         {
-          "text": "Google DeepMind used teams of Gemini agents to find faster quantum algorithms, and every result was machine-checked.",
-          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+          "text": "Claude Code on the desktop now puts files, changes and terminal in side tabs.",
+          "url": "https://x.com/ClaudeDevs/status/2124978802006851961"
         },
         {
-          "text": "Virginia and Oregon sued Elon Musk's xAI and X over images Grok made of real people without consent.",
-          "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/"
+          "text": "OpenAI published a paper claiming the fastest possible way to multiply matrices is now exactly nine quarters.",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
         },
         {
-          "text": "OpenAI is paying local AI teachers to train small businesses for free.",
-          "url": "https://openai.com/openworks/"
-        },
-        {
-          "text": "A small open model now runs fast enough on a 48GB Mac laptop to be useful without the cloud.",
-          "url": "https://x.com/exolabs/status/2123953913342935486"
+          "text": "A new open project lets your own machine train a model while it sits idle.",
+          "url": "https://github.com/sous-labs/songe"
         }
       ]
     },
