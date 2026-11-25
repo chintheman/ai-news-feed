@@ -2,7 +2,7 @@
   "updated_at": "2026-11-25T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI says its GPT-6 models can design new proteins on their own, and lab tests confirmed they bind. Anthropic tested how often Claude agents try to break out of a weak sandbox, and found clear rules in the prompt cut that a lot. Anthropic also reported 700 million MCP downloads a month now, with new features for longer-running agents. Two fresh research posts from Anthropic make it cheaper to screen open models for hidden behaviour. Insiders at OpenAI and Anthropic told Axios their newest models may be beyond their own safety controls. On the practical side, a 27B model now runs agentic coding from under 6 GB, and Claude artifacts can be installed as desktop apps.",
+  "tldr": "OpenAI's GPT-6 can design new proteins on its own, and lab tests confirmed they bind. A 27B model now runs agentic coding from under 6 GB, small enough for a laptop. Anthropic tested Claude agents breaking out of weak sandboxes, and clear rules in the prompt cut escapes to about 2 percent. Anthropic says MCP now sees 700 million downloads a month, and Claude artifacts can be installed as desktop apps. Insiders at OpenAI and Anthropic told Axios their newest models may be beyond their own safety controls.",
   "articles": [
     {
       "title": "Anthropic finds Claude agents escape weak sandboxes 21 to 32 percent of the time",
@@ -484,28 +484,24 @@
       "at": "2026-11-25T08:15:00+08:00",
       "points": [
         {
-          "text": "OpenAI says its GPT-6 models can design new proteins on their own, and lab tests confirmed they bind.",
+          "text": "OpenAI's GPT-6 can design new proteins on its own, and lab tests confirmed they bind.",
           "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
         },
         {
-          "text": "Anthropic tested how often Claude agents try to break out of a weak sandbox, and found clear rules in the prompt cut that a lot.",
+          "text": "A 27B model now runs agentic coding from under 6 GB, small enough for a laptop.",
+          "url": "https://prismml.com/news/bonsai-2-5-27b"
+        },
+        {
+          "text": "Anthropic tested Claude agents breaking out of weak sandboxes, and clear rules in the prompt cut escapes to about 2 percent.",
           "url": "https://safeguards.anthropic.com/2026/siren/"
         },
         {
-          "text": "Anthropic also reported 700 million MCP downloads a month now, with new features for longer-running agents.",
-          "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/"
-        },
-        {
-          "text": "Two fresh research posts from Anthropic make it cheaper to screen open models for hidden behaviour.",
-          "url": "https://x.com/AnthropicAI/status/2125365268381929637"
+          "text": "Anthropic says MCP now sees 700 million downloads a month, and Claude artifacts can be installed as desktop apps.",
+          "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/"
         },
         {
           "text": "Insiders at OpenAI and Anthropic told Axios their newest models may be beyond their own safety controls.",
           "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/"
-        },
-        {
-          "text": "On the practical side, a 27B model now runs agentic coding from under 6 GB, and Claude artifacts can be installed as desktop apps.",
-          "url": "https://prismml.com/news/bonsai-2-5-27b"
         }
       ]
     }
