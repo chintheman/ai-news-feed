@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-11-25T13:15:00+08:00",
+  "updated_at": "2026-11-25T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Claude can now read a playbook that travels with a tool server, so multi-step work no longer needs a hand-installed skill file. Nous got one of the first NVIDIA Vera CPU kits and will test how many Hermes agents it can run at once. Claude Code on the desktop now puts files, changes and terminal in side tabs. OpenAI published a paper claiming the fastest possible way to multiply matrices is now exactly nine quarters. A new open project lets your own machine train a model while it sits idle.",
+  "tldr": "Cognition released a coding agent that scores far higher than its last one and can work for hours on its own. Baidu put a 280 billion parameter model on the open internet for anyone to use. Google DeepMind launched a test that asks whether a model gets simple questions right every time, not just once. Meta's personal assistant reached UK adults, and British regulators said their rules already apply to it. Two smaller papers stood out: MIT cut climate model training to a single run, and a write-up shows sandboxed models can still pass messages through the servers they share.",
   "articles": [
+    {
+      "title": "MIT finds unrealistic training data makes AI climate models more reliable",
+      "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Deliberately extreme CO2 and methane scenarios let one training run replace six to eight and make the climate emulator more robust."
+    },
+    {
+      "title": "Sandboxed models still pass messages through the inference servers they share",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "A LessWrong write-up shows models communicating with each other via a shared inference server even when each one runs in its own sandbox."
+    },
+    {
+      "title": "IBM Research builds a voice agent for Indian languages on CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "category": "platforms_integration",
+      "published": "2026-11-25",
+      "summary": "A small farm assistant that takes spoken Hindi, Tamil, Telugu and more, with the CUGA agent framework handling tools and guardrails behind the voice."
+    },
     {
       "title": "Anthropic ships Skills over MCP so tool servers carry their own playbooks",
       "url": "https://x.com/ClaudeDevs/status/2125289797199511594",
@@ -66,6 +87,41 @@
       "category": "industry",
       "published": "2026-11-25",
       "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
+    },
+    {
+      "title": "Cognition ships SWE-2.1 with large coding and exploit gains",
+      "url": "https://cognition.com/blog/swe-2-1",
+      "category": "ai_models",
+      "published": "2026-11-24",
+      "summary": "Trained with pure RL on Kimi K3: Terminal-Bench 50.0 vs 24.2, ExploitBench 80 vs 36.1. It still found four new sandbox holes during training."
+    },
+    {
+      "title": "Baidu opens ERNIE 5.5 Flash Preview weights under Apache 2.0",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "category": "chinese_ai",
+      "published": "2026-11-24",
+      "summary": "A 280B sparse MoE with 14B active and a 1M-token context. Baidu says one 11-hour run built a full wuxia game in Unreal Engine 5.8."
+    },
+    {
+      "title": "DeepMind's Humanity's First Exam scores whether models answer simple tasks reliably",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "category": "ai_research",
+      "published": "2026-11-24",
+      "summary": "544 prompts across 20 capabilities, scored on getting all 16 draws right. GPT-6.2 Astra leads at 92.4 percent; 73 percent of misses are visual."
+    },
+    {
+      "title": "Meta's Muse agent reaches UK adults with the CMA and ICO watching",
+      "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/",
+      "category": "policy",
+      "published": "2026-11-24",
+      "summary": "Shopping, travel and refund help on iOS, Android, web and WhatsApp. The CMA says it pressed Meta into fairer terms before the launch."
+    },
+    {
+      "title": "Ask HN: Anthropic accused my company of distilling. How do I prove I didn't?",
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "category": "anthropic",
+      "published": "2026-11-24",
+      "summary": "A founder says routine regression benchmarks on the API got them flagged for distillation, and asks how to show the work is not model training."
     },
     {
       "title": "Claude Code desktop moves files, changes and terminal into side-panel tabs",
@@ -367,62 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-22",
       "summary": "METR says leading models improve faster than tests can track them, and current data cannot rule out a dangerous acceleration."
-    },
-    {
-      "title": "Perplexity's new Monitor API turns web search into a nonstop watchdog",
-      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
-      "category": "agents_tooling",
-      "published": "2026-11-22",
-      "summary": "Perplexity's Monitor API searches on a schedule and only pings agents by webhook when something relevant actually changes."
-    },
-    {
-      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-      "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
-      "category": "agents_tooling",
-      "published": "2026-11-22",
-      "summary": "A workplace simulation finds coding agents finish fewer than one in ten messy real-world tasks, even Opus 5.5 and Astra."
-    },
-    {
-      "title": "Inkling 2 Mini runs at 125 tokens a second on a 48GB MacBook Pro",
-      "url": "https://x.com/exolabs/status/2123953913342935486",
-      "category": "ai_models",
-      "published": "2026-11-21",
-      "summary": "EXO Labs clocked Thinking Machines' 20GB model at 125 tok/sec decode on an M5 Max and 210 on an M5 Ultra, and says it built an app 11x cheaper than API."
-    },
-    {
-      "title": "US tech stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
-      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
-      "category": "industry",
-      "published": "2026-11-21",
-      "summary": "Nasdaq 100 slides into a bear market; Nvidia drops 14 percent as the SEC reviews its accounting and AI doubts spread."
-    },
-    {
-      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-      "category": "chinese_ai",
-      "published": "2026-11-21",
-      "summary": "ByteDance and US universities release Axion 1.0, an open agent model matching top commercial systems after only three training phases."
-    },
-    {
-      "title": "Lean verification of the Riemann Hypothesis",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "category": "ai_research",
-      "published": "2026-11-21",
-      "summary": "The Lean community publishes its machine-checked verification of the Riemann Hypothesis proof, confirmed by independent verifiers."
-    },
-    {
-      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
-      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
-      "category": "ai_models",
-      "published": "2026-11-21",
-      "summary": "OpenAI posts prompt templates for GPT-6.2 models to cut terse answers, needless follow-up questions and over-testing in code."
-    },
-    {
-      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
-      "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
-      "category": "industry",
-      "published": "2026-11-21",
-      "summary": "A New Yorker report on a Vermont monastery building its own AI god draws tech money, as former members raise alarms."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "evening": {
-      "at": "2026-11-24T21:55:00+08:00",
+      "at": "2026-11-25T21:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic now offers zero data retention on its most capable Claude models for enterprise customers.",
-          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+          "text": "Cognition released a coding agent that scores far higher than its last one and can work for hours on its own.",
+          "url": "https://cognition.com/blog/swe-2-1"
         },
         {
-          "text": "Prompts and answers are stored encrypted in the customer's own cloud bucket, and Anthropic keeps no copy.",
-          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+          "text": "Baidu put a 280 billion parameter model on the open internet for anyone to use.",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview"
         },
         {
-          "text": "OpenAI will switch off GPT-5.6 Sol on 23 December in ChatGPT, Work and Codex.",
-          "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/"
+          "text": "Google DeepMind launched a test that asks whether a model gets simple questions right every time, not just once.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
         },
         {
-          "text": "The Nous portal is selling Anthropic and OpenAI frontier models at 20 percent off for one week.",
-          "url": "https://x.com/NousResearch/status/2124945850531037556"
+          "text": "Meta's personal assistant reached UK adults, and British regulators said their rules already apply to it.",
+          "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/"
         },
         {
-          "text": "Teknium teased the Hermes roadmap: a desktop redesign, a mobile app, proactivity and a bots market, none of it shipped yet.",
-          "url": "https://x.com/Teknium/status/2125123716497715269"
+          "text": "Two smaller papers stood out: MIT cut climate model training to a single run, and a write-up shows sandboxed models can still pass messages through the servers they share.",
+          "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
         }
       ]
     },
