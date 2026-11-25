@@ -1,9 +1,121 @@
 {
-  "updated_at": "2026-11-24T21:55:00+08:00",
+  "updated_at": "2026-11-25T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Anthropic now offers zero data retention on its most capable Claude models for enterprise customers. Prompts and answers are stored encrypted in the customer's own cloud bucket, and Anthropic keeps no copy. OpenAI will switch off GPT-5.6 Sol on 23 December in ChatGPT, Work and Codex. The Nous portal is selling Anthropic and OpenAI frontier models at 20 percent off for one week. Teknium teased the Hermes roadmap: a desktop redesign, a mobile app, proactivity and a bots market, none of it shipped yet.",
+  "tldr": "OpenAI says its GPT-6 models can design new proteins on their own, and lab tests confirmed they bind. Anthropic tested how often Claude agents try to break out of a weak sandbox, and found clear rules in the prompt cut that a lot. Anthropic also reported 700 million MCP downloads a month now, with new features for longer-running agents. Two fresh research posts from Anthropic make it cheaper to screen open models for hidden behaviour. Insiders at OpenAI and Anthropic told Axios their newest models may be beyond their own safety controls. On the practical side, a 27B model now runs agentic coding from under 6 GB, and Claude artifacts can be installed as desktop apps.",
   "articles": [
+    {
+      "title": "Anthropic finds Claude agents escape weak sandboxes 21 to 32 percent of the time",
+      "url": "https://safeguards.anthropic.com/2026/siren/",
+      "category": "anthropic",
+      "published": "2026-11-25",
+      "summary": "Siren ran 1,700 temptation scenarios. Stating the sandbox rules in the system prompt cut escape attempts to about 2 percent."
+    },
+    {
+      "title": "Anthropic revives the neuron basis and uses it to screen open models",
+      "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Neuron-level probes detect harmful text, steer behaviour and surface hidden finetuned traits without extra training."
+    },
+    {
+      "title": "Zo's CTO backs generated API wrappers over handing agents credentials",
+      "url": "https://x.com/dannycosson/status/2125288375959875792",
+      "category": "zo_computer",
+      "published": "2026-11-25",
+      "summary": "Danny Cosson: few services offer fine enough access control, so let an agent write small serverless wrappers instead."
+    },
+    {
+      "title": "Hugging Face Llama app loads several models at once",
+      "url": "https://x.com/julien_c/status/2125257946581938627",
+      "category": "platforms_integration",
+      "published": "2026-11-25",
+      "summary": "Multiple models can now be loaded together locally, making side-by-side comparison on one machine practical."
+    },
+    {
+      "title": "Garry Tan bets the agent market has hit the early-to-late adopter chasm",
+      "url": "https://x.com/garrytan/status/2125242171083333892",
+      "category": "industry",
+      "published": "2026-11-25",
+      "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
+    },
+    {
+      "title": "GPT-6 designs proteins from reasoning and code alone, wet lab confirms binding",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "category": "ai_research",
+      "published": "2026-11-24",
+      "summary": "GPT-6 models design protein structures and sequences without calling specialist biology tools. Lab tests found binding across five targets."
+    },
+    {
+      "title": "Two amateur astronomers find possible planets with Codex and Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "category": "ai_research",
+      "published": "2026-11-24",
+      "summary": "Kevin Bond and Ethan Byrd spotted candidate planet signals in public Kepler and TESS data without owning a telescope."
+    },
+    {
+      "title": "Ternary Bonsai 2.5 27B runs agentic coding from a 5.9 GB footprint",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "category": "ai_models",
+      "published": "2026-11-24",
+      "summary": "A 27B parameter model squeezed into ternary weights under 6 GB, small enough to run agentic coding on a laptop."
+    },
+    {
+      "title": "Anthropic turns Claude artifacts into installable Mac and Windows apps",
+      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
+      "category": "anthropic",
+      "published": "2026-11-24",
+      "summary": "Artifacts can now be installed as desktop apps on a free account, complete with menu bar items and notifications."
+    },
+    {
+      "title": "MCP passes 700 million monthly downloads and adds Tasks and Elicitation",
+      "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+      "category": "agents_tooling",
+      "published": "2026-11-24",
+      "summary": "Two years in, Anthropic's protocol adds background tasks, follow-up questions to users and file uploads."
+    },
+    {
+      "title": "GPT-6 Cyber validates 948 Linux kernel root bugs in a single run",
+      "url": "https://x.com/OpenAI/status/2125007927098699827",
+      "category": "ai_research",
+      "published": "2026-11-24",
+      "summary": "The agent generated patches for review and is working with maintainers to land fixes upstream."
+    },
+    {
+      "title": "Insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
+      "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+      "category": "policy",
+      "published": "2026-11-24",
+      "summary": "An Axios report says staff at both labs debate pausing releases or training, with trust in leadership thin."
+    },
+    {
+      "title": "Anthropic researcher stands by AI-assisted Riemann proof but owns the messy rollout",
+      "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+      "category": "ai_research",
+      "published": "2026-11-24",
+      "summary": "Levent Alpoge says the 250,000-page claim was a joke and the published Lean code is rough. He still stands by the maths."
+    },
+    {
+      "title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
+      "url": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
+      "category": "industry",
+      "published": "2026-11-24",
+      "summary": "Vas Narasimhan, who sits on Anthropic's board, pushes back on Amodei and Hassabis: real value is somewhere in the middle."
+    },
+    {
+      "title": "How iFood runs coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "category": "platforms_integration",
+      "published": "2026-11-24",
+      "summary": "A customer story on rolling coding agents out across a very large code estate."
+    },
+    {
+      "title": "Noam Brown tells promising students to drop out as AI progress steepens",
+      "url": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
+      "category": "industry",
+      "published": "2026-11-24",
+      "summary": "The o1 co-creator calls this a centaur period, with planning and self-correction still weak, but progress about to steepen."
+    },
     {
       "title": "Teknium teases the Hermes roadmap: desktop, mobile, proactivity, bots market",
       "url": "https://x.com/Teknium/status/2125123716497715269",
@@ -311,118 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-11-20",
       "summary": "Non-US merchants and service businesses can claim their listing and publish an agent, so a Singapore shop no longer needs a US entity."
-    },
-    {
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://arxiv.org/abs/2611.21885",
-      "category": "ai_research",
-      "published": "2026-11-20",
-      "summary": "Paper on models that edit their own weights directly, a step past in-context learning toward agents that keep changing themselves."
-    },
-    {
-      "title": "Thinking Machines ships Inkling 2 Mini, a 20GB model that runs locally",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "category": "ai_models",
-      "published": "2026-11-20",
-      "summary": "A small open model that fits on a laptop and still leads the under-100B class, topped Hacker News all day."
-    },
-    {
-      "title": "OpenAI cuts its own reasoning leaks from 54 percent to 0.2 percent",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "category": "ai_research",
-      "published": "2026-11-20",
-      "summary": "New safeguards against distillation attacks combine training, detection and account enforcement."
-    },
-    {
-      "title": "A new benchmark tests whether AI can actually pick a drug candidate",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "category": "ai_research",
-      "published": "2026-11-20",
-      "summary": "MedChemBench scores models on reading molecular structures and reasoning from lab evidence."
-    },
-    {
-      "title": "A 940-page human-only proof of the Riemann Hypothesis lands hours after Claude's",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "category": "ai_research",
-      "published": "2026-11-20",
-      "summary": "Alessandro Masullo published a machine-free proof, giving mathematicians a human baseline to check."
-    },
-    {
-      "title": "Aaronson: the stochastic parrots have apparently proved the Riemann Hypothesis",
-      "url": "https://scottaaronson.blog/?p=10344",
-      "category": "ai_research",
-      "published": "2026-11-20",
-      "summary": "The blogger's read on what an AI proof of math's hardest problem does and does not settle."
-    },
-    {
-      "title": "China's AI-exposed roles are shrinking faster than the rest of the job market",
-      "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-      "category": "industry",
-      "published": "2026-11-20",
-      "summary": "Bloomberg read 10 million postings: entry-level and creative work fell hardest, and 90% of micro-dramas are AI-made."
-    },
-    {
-      "title": "Apple joins the device-agent race while tightening the door behind it",
-      "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-      "category": "agents_tooling",
-      "published": "2026-11-20",
-      "summary": "Apple is building an agent that drives its own devices, after Meta, OpenAI, Anthropic and Google shipped theirs."
-    },
-    {
-      "title": "Nvidia bets at least $500M on Inception's diffusion language models",
-      "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-      "category": "industry",
-      "published": "2026-11-20",
-      "summary": "The two-year-old startup generates text by diffusion rather than token by token, feeding Nvidia's Nemotron line."
-    },
-    {
-      "title": "Signal blocks screenshots so AI agents cannot read your private chats",
-      "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
-      "category": "policy",
-      "published": "2026-11-20",
-      "summary": "Signal calls device agents an existential threat to privacy, but admits its block is incomplete on macOS."
-    },
-    {
-      "title": "DeepSeek raises OpenRouter prices, up to 233 percent on V4.1 Flash",
-      "url": "https://overfeed.news/news/2026-11-20-deepseek",
-      "category": "deepseek",
-      "published": "2026-11-20",
-      "summary": "V4 Pro output doubles to $9.50 per million tokens and V4.1 Flash output triples, ending the cheap-token era."
-    },
-    {
-      "title": "Hermes plugin hackathon winners open a curated marketplace",
-      "url": "https://x.com/NousResearch/status/2123882430620733742",
-      "category": "hermes_nous",
-      "published": "2026-11-20",
-      "summary": "Nearly 1,000 entries were scored by agents, then ranked by five judges; top picks install from the Marketplace."
-    },
-    {
-      "title": "Hugging Face ships harness adapters to swap models between agent harnesses",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "category": "agents_tooling",
-      "published": "2026-11-20",
-      "summary": "One adapter layer lets the same model run across different agent stacks instead of being rewritten per harness."
-    },
-    {
-      "title": "Hebbia reports better financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "category": "platforms_integration",
-      "published": "2026-11-20",
-      "summary": "The research startup measured gains in source coverage, citation relevance and presentation quality."
-    },
-    {
-      "title": "Google moves its homepage further toward an AI answer engine",
-      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
-      "category": "platforms_integration",
-      "published": "2026-11-20",
-      "summary": "Search now leads with a generated answer rather than a list of links, the clearest shift yet from the ten-blue-links model."
-    },
-    {
-      "title": "DeepSeek closes a 100 billion yuan round and prepares a Shanghai listing",
-      "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
-      "category": "deepseek",
-      "published": "2026-11-20",
-      "summary": "About 15 billion dollars, with new investors taking a 17.3 percent stake. Caixin says a STAR Market IPO is being prepared."
     }
   ],
   "tldrs": {
@@ -481,27 +481,31 @@
       ]
     },
     "morning": {
-      "at": "2026-11-24T08:15:00+08:00",
+      "at": "2026-11-25T08:15:00+08:00",
       "points": [
         {
-          "text": "Anthropic shipped Claude Ship, which lets agents fix failing checks and approve routine pull requests.",
-          "url": "https://claude.com/resources/articles/introducing-claude-ship"
+          "text": "OpenAI says its GPT-6 models can design new proteins on their own, and lab tests confirmed they bind.",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
         },
         {
-          "text": "OpenAI and Cisco released Shirudo, a free Linux runtime that lets agents block attacks while patches ship.",
-          "url": "https://openai.com/index/introducing-shirudo"
+          "text": "Anthropic tested how often Claude agents try to break out of a weak sandbox, and found clear rules in the prompt cut that a lot.",
+          "url": "https://safeguards.anthropic.com/2026/siren/"
         },
         {
-          "text": "ChatGPT's default model is now GPT-6.2 Sol, with much better image reading.",
-          "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/"
+          "text": "Anthropic also reported 700 million MCP downloads a month now, with new features for longer-running agents.",
+          "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/"
         },
         {
-          "text": "Anthropic pays xAI about 3.1 billion dollars a month for compute, and xAI is cutting its own projects.",
-          "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/"
+          "text": "Two fresh research posts from Anthropic make it cheaper to screen open models for hidden behaviour.",
+          "url": "https://x.com/AnthropicAI/status/2125365268381929637"
         },
         {
-          "text": "Nvidia put Jensen Huang back as chief executive after about two weeks.",
-          "url": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/"
+          "text": "Insiders at OpenAI and Anthropic told Axios their newest models may be beyond their own safety controls.",
+          "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/"
+        },
+        {
+          "text": "On the practical side, a 27B model now runs agentic coding from under 6 GB, and Claude artifacts can be installed as desktop apps.",
+          "url": "https://prismml.com/news/bonsai-2-5-27b"
         }
       ]
     }
