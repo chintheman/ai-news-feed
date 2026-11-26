@@ -1,9 +1,37 @@
 {
-  "updated_at": "2026-11-26T08:15:00+08:00",
+  "updated_at": "2026-11-26T13:16:30+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Google Deepmind now lets AI agents run some of its own Gemini experiments, but says machines improving themselves is still far off. A study of nearly 300 company AI rollouts found about one in five delivered no business value. Chip export curbs and rules against copying model outputs are reportedly slowing China's labs, with DeepSeek up to nine months behind. OpenAI is testing a way for companies to use its strongest models without OpenAI being able to read the data. Anthropic rewrote its main developer service in Rust and used its own AI agents to catch the differences.",
+  "tldr": "Qwen added more languages and Chinese dialects to its speech tools. One blog argues the new model Jev is really a modified open model from Alibaba, judged by how fast it answers. A much shorter computer-checked proof of the Riemann Hypothesis is now public on GitHub. Scott Aaronson says the recent run of math results is even bigger than his earlier posts suggested. The New York Times told freelance photographers not to update Photoshop, because its new AI tools can mark photos as AI-made.",
   "articles": [
+    {
+      "title": "Qwen-Audio-3.1 adds 59 ASR languages and 8 Chinese dialects",
+      "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
+      "category": "chinese_ai",
+      "published": "2026-11-26",
+      "summary": "Qwen-Audio-3.1 ASR, TTS and Realtime now cover 59, 65 and 53 languages plus six to eight Chinese dialects."
+    },
+    {
+      "title": "Latency fingerprint says TypeSafe's Jev is a fine-tuned Qwen3.5-35B-A3B",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "category": "ai_models",
+      "published": "2026-11-25",
+      "summary": "A latency analysis argues the mystery model Jev is a tuned Qwen3.5-35B-A3B, not a new build."
+    },
+    {
+      "title": "A short Lean 4 proof of the Generalized Riemann Hypothesis is public",
+      "url": "https://github.com/lsernau/grh-lean",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "A community repo condenses Anthropic's Claude-written GRH proof into a far shorter Lean 4 check, past 450 stars."
+    },
+    {
+      "title": "Scott Aaronson: the AI math breakthroughs are bigger than his posts conveyed",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Aaronson writes that the VP vs VNP and 9/4 matrix multiplication results mark a jump he had undersold."
+    },
     {
       "title": "AI agents now run part of Google Deepmind's compute for Gemini experiments",
       "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
@@ -164,6 +192,13 @@
       "category": "industry",
       "published": "2026-11-25",
       "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
+    },
+    {
+      "title": "NYT tells freelancers not to update Photoshop over AI metadata",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "category": "policy",
+      "published": "2026-11-24",
+      "summary": "Times photo editors say the 2027 update's AI tools can tag photos as AI-generated, in a warning to freelancers."
     },
     {
       "title": "Cognition ships SWE-2.1 with large coding and exploit gains",
@@ -388,66 +423,31 @@
       "category": "industry",
       "published": "2026-11-23",
       "summary": "Nvidia's board brings Jensen Huang back as president, CEO and board member, effective immediately, after a two-week gap."
-    },
-    {
-      "title": "RoboTrack tracks points across frames for real-world robot manipulation",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "category": "ai_research",
-      "published": "2026-11-23",
-      "summary": "Allen Institute's RoboTrack follows the same point through a scene, aimed at robots handling real objects rather than clean demos."
-    },
-    {
-      "title": "Chinese military researchers fear AI could expose mobile nuclear missiles",
-      "url": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
-      "category": "policy",
-      "published": "2026-11-23",
-      "summary": "Chinese military researchers warn AI advances could hand the US an edge in finding and targeting mobile nuclear launchers."
-    },
-    {
-      "title": "Import AI 482: Huawei kernel benchmarks, drone detection, an AI science benchmark",
-      "url": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-      "category": "ai_research",
-      "published": "2026-11-23",
-      "summary": "Huawei's kernel benchmark results, airborne drone detection work, and a national lab's benchmark for AI doing science."
-    },
-    {
-      "title": "Management consulting is not a thin wrapper on intelligence",
-      "url": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
-      "category": "industry",
-      "published": "2026-11-23",
-      "summary": "Consulting is used as a test case for how AI actually lands on knowledge work, and why the wrapper framing misses the job."
-    },
-    {
-      "title": "GLM-5.4: Z.ai's looped transformer claims 2T-class results at 750B",
-      "url": "https://z.ai/blog/glm-5.4",
-      "category": "chinese_ai",
-      "published": "2026-11-23",
-      "summary": "28 of the model's layers run twice per token, 1M context, live on the GLM Coding Plan. No benchmarks yet, API held back, open weights promised later."
     }
   ],
   "tldrs": {
     "midday": {
-      "at": "2026-11-25T13:15:00+08:00",
+      "at": "2026-11-26T13:16:30+08:00",
       "points": [
         {
-          "text": "Claude can now read a playbook that travels with a tool server, so multi-step work no longer needs a hand-installed skill file.",
-          "url": "https://x.com/ClaudeDevs/status/2125289797199511594"
+          "text": "Qwen added more languages and Chinese dialects to its speech tools.",
+          "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411"
         },
         {
-          "text": "Nous got one of the first NVIDIA Vera CPU kits and will test how many Hermes agents it can run at once.",
-          "url": "https://x.com/NousResearch/status/2125321517064171629"
+          "text": "One blog argues the new model Jev is really a modified open model from Alibaba, judged by how fast it answers.",
+          "url": "https://modaic.dev/blog/latency-doesnt-lie"
         },
         {
-          "text": "Claude Code on the desktop now puts files, changes and terminal in side tabs.",
-          "url": "https://x.com/ClaudeDevs/status/2124978802006851961"
+          "text": "A much shorter computer-checked proof of the Riemann Hypothesis is now public on GitHub.",
+          "url": "https://github.com/lsernau/grh-lean"
         },
         {
-          "text": "OpenAI published a paper claiming the fastest possible way to multiply matrices is now exactly nine quarters.",
-          "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
+          "text": "Scott Aaronson says the recent run of math results is even bigger than his earlier posts suggested.",
+          "url": "https://scottaaronson.blog/?p=10379"
         },
         {
-          "text": "A new open project lets your own machine train a model while it sits idle.",
-          "url": "https://github.com/sous-labs/songe"
+          "text": "The New York Times told freelance photographers not to update Photoshop, because its new AI tools can mark photos as AI-made.",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
         }
       ]
     },
