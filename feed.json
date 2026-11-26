@@ -1,15 +1,71 @@
 {
-  "updated_at": "2026-11-26T13:16:30+08:00",
+  "updated_at": "2026-11-26T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Qwen added more languages and Chinese dialects to its speech tools. One blog argues the new model Jev is really a modified open model from Alibaba, judged by how fast it answers. A much shorter computer-checked proof of the Riemann Hypothesis is now public on GitHub. Scott Aaronson says the recent run of math results is even bigger than his earlier posts suggested. The New York Times told freelance photographers not to update Photoshop, because its new AI tools can mark photos as AI-made.",
+  "tldr": "Nvidia stopped shipping servers to Singapore, Malaysia, Thailand and Indonesia after the US tightened export rules. Microsoft showed how state hackers now run attacks with teams of AI agents. Tencent found a cheap trick that makes long-context models serve much faster. Sand.ai released a 480-billion-parameter video model that makes 30 seconds of 1080p video with sound, but only through its paid service. OpenAI cut GPT-6.2 usage allowances, so heavy users hit their limits sooner.",
   "articles": [
+    {
+      "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand and Indonesia after tighter US export controls",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+      "category": "policy",
+      "published": "2026-11-26",
+      "summary": "Nvidia told Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia as new US export rules bite."
+    },
+    {
+      "title": "Microsoft shows how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+      "category": "policy",
+      "published": "2026-11-26",
+      "summary": "Microsoft published the architecture of ARTEX, which runs cyberattacks with specialised agents and almost no human involvement."
+    },
+    {
+      "title": "Tencent's DFly2 drafter adds up to 81% serving throughput on long-context models",
+      "url": "https://github.com/Tencent/AngelSpec",
+      "category": "chinese_ai",
+      "published": "2026-11-26",
+      "summary": "A block-parallel drafter reuses the target model's KV cache, lifting throughput 62-81% at 64K context. Ships inside Hy4 flash."
+    },
+    {
+      "title": "Building on Nemotron 3.5 Parse: open data, fine-tuning and faster inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "category": "ai_models",
+      "published": "2026-11-26",
+      "summary": "Nvidia walks through the open dataset, the fine-tuning recipe and the inference speedups for its 3.5 Parse model."
+    },
+    {
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://x.com/thsottiaux/status/2125784147889393806",
+      "category": "ai_models",
+      "published": "2026-11-26",
+      "summary": "OpenAI trimmed GPT-6.2 allowances, so heavy users now reach their caps 40% and 25% sooner on the two models."
+    },
+    {
+      "title": "llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "category": "ai_models",
+      "published": "2026-11-26",
+      "summary": "ggml published local-inference benchmarks across AMD CPUs and GPUs, so you can check speed before buying hardware."
+    },
     {
       "title": "Qwen-Audio-3.1 adds 59 ASR languages and 8 Chinese dialects",
       "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
       "category": "chinese_ai",
       "published": "2026-11-26",
       "summary": "Qwen-Audio-3.1 ASR, TTS and Realtime now cover 59, 65 and 53 languages plus six to eight Chinese dialects."
+    },
+    {
+      "title": "Bare Metal Qwen: running a model with no operating system underneath",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "A hobby project boots straight into a Qwen model from assembly, showing how little software inference actually needs."
+    },
+    {
+      "title": "The polynomial Hirsch conjecture is false",
+      "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "An OpenAI math preprint claims a superpolynomial diameter bound for simple polytopes, sinking a long-standing conjecture."
     },
     {
       "title": "Latency fingerprint says TypeSafe's Jev is a fine-tuned Qwen3.5-35B-A3B",
@@ -194,6 +250,13 @@
       "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
     },
     {
+      "title": "Sand.ai launches MAGI-2, a 480B audio-video model with 30-second 1080p output",
+      "url": "https://sand.ai/blog/magi-2/",
+      "category": "ai_models",
+      "published": "2026-11-24",
+      "summary": "About 28B active of 480B parameters, generating native dialogue, foley and music. Hosted only, at $0.08 per second of video."
+    },
+    {
       "title": "NYT tells freelancers not to update Photoshop over AI metadata",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
       "category": "policy",
@@ -360,69 +423,6 @@
       "category": "hermes_nous",
       "published": "2026-11-23",
       "summary": "The discount runs for one week from 23 Nov at portal.nousresearch.com, so it expires around 30 Nov."
-    },
-    {
-      "title": "Anthropic posts a Claude-written Lean proof that VP is not VNP",
-      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-      "category": "ai_research",
-      "published": "2026-11-23",
-      "summary": "Claude wrote a formal Lean proof that VP is a proper subset of VNP over every field. Machine-checked, but outside reviewers have not confirmed it yet."
-    },
-    {
-      "title": "DeepMind agent teams cut quantum circuit cost 11.8x under Lean checks",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "category": "ai_research",
-      "published": "2026-11-23",
-      "summary": "Gemini 4 Carbon agent teams improved known quantum algorithms with an outside verifier checking every proof: 11.8x cheaper fusion, 8.22x photochemistry."
-    },
-    {
-      "title": "Virginia and Oregon sue xAI and X over Grok's sexualized images",
-      "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
-      "category": "policy",
-      "published": "2026-11-23",
-      "summary": "Two US states filed separate consumer-protection suits against SpaceX, X and xAI, saying Grok made sexualized images of real people, including children."
-    },
-    {
-      "title": "OpenAI's OpenWorks pays local AI experts to train small businesses",
-      "url": "https://openai.com/openworks/",
-      "category": "industry",
-      "published": "2026-11-23",
-      "summary": "OpenAI funds local AI experts to help small businesses build and learn to use AI tools, at no cost to the business."
-    },
-    {
-      "title": "Anthropic ships Claude Ship: agents fix and approve pull requests",
-      "url": "https://claude.com/resources/articles/introducing-claude-ship",
-      "category": "anthropic",
-      "published": "2026-11-23",
-      "summary": "Code Review is now GA, plus PR Steward and Claude Approvals, which can approve routine pull requests on Team and Enterprise."
-    },
-    {
-      "title": "OpenAI and Cisco open source Shirudo, an agent-written eBPF shield",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "category": "agents_tooling",
-      "published": "2026-11-23",
-      "summary": "A free Linux runtime from OpenAI and Cisco lets agents write eBPF controls so defenders can patch without downtime."
-    },
-    {
-      "title": "GPT-6.2 Sol becomes the default ChatGPT model, image reading at 71.7 percent",
-      "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
-      "category": "ai_models",
-      "published": "2026-11-23",
-      "summary": "OpenAI makes GPT-6.2 Sol the default in ChatGPT's chat tab, lifting image understanding from 47.4 to 71.7 percent."
-    },
-    {
-      "title": "Anthropic pays xAI about 3.1 billion dollars a month for compute",
-      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
-      "category": "industry",
-      "published": "2026-11-23",
-      "summary": "Anthropic pays xAI about $3.1B a month and Google $800M, as xAI rents out capacity and scales back its own AI work."
-    },
-    {
-      "title": "Nvidia reinstates Jensen Huang as chief executive",
-      "url": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
-      "category": "industry",
-      "published": "2026-11-23",
-      "summary": "Nvidia's board brings Jensen Huang back as president, CEO and board member, effective immediately, after a two-week gap."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "evening": {
-      "at": "2026-11-25T21:15:00+08:00",
+      "at": "2026-11-26T21:20:00+08:00",
       "points": [
         {
-          "text": "Cognition released a coding agent that scores far higher than its last one and can work for hours on its own.",
-          "url": "https://cognition.com/blog/swe-2-1"
+          "text": "Nvidia stopped shipping servers to Singapore, Malaysia, Thailand and Indonesia after the US tightened export rules.",
+          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
         },
         {
-          "text": "Baidu put a 280 billion parameter model on the open internet for anyone to use.",
-          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview"
+          "text": "Microsoft showed how state hackers now run attacks with teams of AI agents.",
+          "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
         },
         {
-          "text": "Google DeepMind launched a test that asks whether a model gets simple questions right every time, not just once.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+          "text": "Tencent found a cheap trick that makes long-context models serve much faster.",
+          "url": "https://github.com/Tencent/AngelSpec"
         },
         {
-          "text": "Meta's personal assistant reached UK adults, and British regulators said their rules already apply to it.",
-          "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/"
+          "text": "Sand.ai released a 480-billion-parameter video model that makes 30 seconds of 1080p video with sound, but only through its paid service.",
+          "url": "https://sand.ai/blog/magi-2/"
         },
         {
-          "text": "Two smaller papers stood out: MIT cut climate model training to a single run, and a write-up shows sandboxed models can still pass messages through the servers they share.",
-          "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+          "text": "OpenAI cut GPT-6.2 usage allowances, so heavy users hit their limits sooner.",
+          "url": "https://x.com/thsottiaux/status/2125784147889393806"
         }
       ]
     },
