@@ -1,9 +1,86 @@
 {
-  "updated_at": "2026-11-25T21:15:00+08:00",
+  "updated_at": "2026-11-26T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Cognition released a coding agent that scores far higher than its last one and can work for hours on its own. Baidu put a 280 billion parameter model on the open internet for anyone to use. Google DeepMind launched a test that asks whether a model gets simple questions right every time, not just once. Meta's personal assistant reached UK adults, and British regulators said their rules already apply to it. Two smaller papers stood out: MIT cut climate model training to a single run, and a write-up shows sandboxed models can still pass messages through the servers they share.",
+  "tldr": "Google Deepmind now lets AI agents run some of its own Gemini experiments, but says machines improving themselves is still far off. A study of nearly 300 company AI rollouts found about one in five delivered no business value. Chip export curbs and rules against copying model outputs are reportedly slowing China's labs, with DeepSeek up to nine months behind. OpenAI is testing a way for companies to use its strongest models without OpenAI being able to read the data. Anthropic rewrote its main developer service in Rust and used its own AI agents to catch the differences.",
   "articles": [
+    {
+      "title": "AI agents now run part of Google Deepmind's compute for Gemini experiments",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Google Deepmind lets AI agents run experiments for upcoming Gemini models, but says full self-improvement is still far off."
+    },
+    {
+      "title": "Anthropic study finds one in five company AI rollouts delivers no business value",
+      "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
+      "category": "industry",
+      "published": "2026-11-25",
+      "summary": "Anthropic studied nearly 300 AI rollouts across 58 US companies. About one in five still delivered no business value."
+    },
+    {
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Ai2 interviewed 17 scientists on where agents belong in research. They want to check methods and keep ideas human."
+    },
+    {
+      "title": "A coding agent took Inkling 2 Mini to 190 tokens per second on one GPU",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "category": "ai_models",
+      "published": "2026-11-25",
+      "summary": "A coding agent used Hugging Face's optimisation skill to take Inkling 2 Mini from 136 to 190 tokens per second on one GPU."
+    },
+    {
+      "title": "US chip curbs and anti-distillation rules are reportedly slowing Chinese AI labs",
+      "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+      "category": "policy",
+      "published": "2026-11-25",
+      "summary": "Chip curbs and anti-distillation rules are said to be slowing DeepSeek, Moonshot and Alibaba, with DeepSeek up to nine months behind."
+    },
+    {
+      "title": "Dario Amodei says letting AI govern society would be \"a bad idea\"",
+      "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+      "category": "anthropic",
+      "published": "2026-11-25",
+      "summary": "Dario Amodei pushes back on reports that Anthropic staff expect AI to run things, calling handing over governance a bad idea."
+    },
+    {
+      "title": "OpenAI tests Private Inference so companies can use its models on sensitive data",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+      "category": "platforms_integration",
+      "published": "2026-11-25",
+      "summary": "OpenAI is testing Private Inference, so companies can query its strongest models without OpenAI being able to read the data."
+    },
+    {
+      "title": "Amazon and Meta in talks to bring AI shopping agent Muse back to Amazon",
+      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+      "category": "industry",
+      "published": "2026-11-25",
+      "summary": "Amazon and Meta are talking about bringing Meta's AI shopping agent Muse back, still split on ad revenue and search control."
+    },
+    {
+      "title": "Anthropic moved its Messages API from Python to Rust, verified by Claude agents",
+      "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "category": "anthropic",
+      "published": "2026-11-25",
+      "summary": "Anthropic moved its Messages API from Python to Rust and had teams of Claude agents hunt the behaviour differences."
+    },
+    {
+      "title": "NVIDIA Nemotron-Labs treats pixels as code for agentic visual creation",
+      "url": "https://x.com/_akhaliq/status/2125499465587208669",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "NVIDIA's Nemotron-Labs paper treats pixels as code so a general agent can create visuals through its normal tool calls."
+    },
+    {
+      "title": "Claude artifacts gain personal and shared storage plus per-opener connectors",
+      "url": "https://x.com/lydiahallie/status/2125393139481587783",
+      "category": "anthropic",
+      "published": "2026-11-25",
+      "summary": "Artifacts on paid Claude plans now have personal and shared storage and use the connectors of whoever opens them."
+    },
     {
       "title": "MIT finds unrealistic training data makes AI climate models more reliable",
       "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
@@ -222,6 +299,13 @@
       "summary": "Posted 24 Nov as a teaser, not a release: desktop redesign, a mobile app, proactivity and a bots market all sit on the list, none shipped yet."
     },
     {
+      "title": "OpenAI open-sources Shirudo, a Linux runtime where agents defend live systems",
+      "url": "https://x.com/OpenAI/status/2124980590717911527",
+      "category": "agents_tooling",
+      "published": "2026-11-23",
+      "summary": "OpenAI open-sourced Shirudo, a Linux runtime where agents write eBPF controls to shield live systems while patches land."
+    },
+    {
       "title": "Anthropic opens zero-data-retention safeguards for Claude enterprises",
       "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
       "category": "anthropic",
@@ -339,90 +423,6 @@
       "category": "chinese_ai",
       "published": "2026-11-23",
       "summary": "28 of the model's layers run twice per token, 1M context, live on the GLM Coding Plan. No benchmarks yet, API held back, open weights promised later."
-    },
-    {
-      "title": "Google can block an agent's tool call before it runs",
-      "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
-      "category": "agents_tooling",
-      "published": "2026-11-23",
-      "summary": "New semantic governance policies let admins deny a tool call up front, instead of spotting the damage after the agent has already acted."
-    },
-    {
-      "title": "A coding agent committed the key behind Together AI's prompt leak",
-      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
-      "category": "platforms_integration",
-      "published": "2026-11-23",
-      "summary": "Together's post-mortem says a coding agent committed the credential that let others read prompts from June and July requests."
-    },
-    {
-      "title": "X Square's WALL-OSS-1.0 hits 55.1 percent zero-shot on 312 robot tasks",
-      "url": "https://x2robot.com/blogs/wall-oss-1-en/",
-      "category": "ai_models",
-      "published": "2026-11-23",
-      "summary": "Open-source vision-language-action model posts 55.1 percent zero-shot across 312 manipulation tasks, shown driving real robot arms."
-    },
-    {
-      "title": "Ant opens MIT-licensed medical models at 560B and 124B",
-      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL",
-      "category": "chinese_ai",
-      "published": "2026-11-23",
-      "summary": "LingSante-3.1-air-VL is a vision-language medical model released under a fully permissive licence, the largest open medical drop yet."
-    },
-    {
-      "title": "NVIDIA's Alpamayo 2 Edge puts a 2B reasoning model on car silicon",
-      "url": "https://blog.jiufeng.ai/releases",
-      "category": "ai_models",
-      "published": "2026-11-23",
-      "summary": "A 2B vision-language-action model that reasons before acting, built for DRIVE Thor, so the reasoning runs in the vehicle and not the cloud."
-    },
-    {
-      "title": "GameWM turns player input into playable game worlds",
-      "url": "https://x.com/_akhaliq/status/2124793451241971994",
-      "category": "ai_research",
-      "published": "2026-11-23",
-      "summary": "New paper builds an interaction-centric world model, generating game environments that respond to how you play instead of pre-rendered video."
-    },
-    {
-      "title": "AlphaAnything gives open image generators a real alpha channel",
-      "url": "https://x.com/_akhaliq/status/2124797213272690972",
-      "category": "ai_research",
-      "published": "2026-11-23",
-      "summary": "Extends pretrained RGB generators to RGBA output, so open models can produce transparent-background images without a separate matting pass."
-    },
-    {
-      "title": "Visa CLI lets a card verify an AI agent that then pays in stablecoin",
-      "url": "https://app.visacli.sh/docs/how-it-works",
-      "category": "platforms_integration",
-      "published": "2026-11-22",
-      "summary": "A US Visa card passes a one-time bank check, the agent gets a signing key in Visa's directory, and pays OUSD on Tempo. Not a KYC check."
-    },
-    {
-      "title": "A beginner's guide to local AI with Inkling, Qwen and Unsloth",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "category": "ai_models",
-      "published": "2026-11-22",
-      "summary": "Practical walkthrough of running open models at home with Unsloth quantisation, written for people starting from nothing."
-    },
-    {
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "category": "ai_research",
-      "published": "2026-11-22",
-      "summary": "OpenAI argues perplexity is a useful yardstick for model progress and that developers need shared ways to measure new capabilities."
-    },
-    {
-      "title": "Data Processing Incidents on Inference Providers",
-      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-      "category": "platforms_integration",
-      "published": "2026-11-22",
-      "summary": "OpenRouter documents data processing incidents across inference providers, a reminder to check where routed prompts actually land."
-    },
-    {
-      "title": "METR warns AI is getting better faster than experts can reliably test whether new systems are safe",
-      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
-      "category": "ai_research",
-      "published": "2026-11-22",
-      "summary": "METR says leading models improve faster than tests can track them, and current data cannot rule out a dangerous acceleration."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-25T08:15:00+08:00",
+      "at": "2026-11-26T08:15:00+08:00",
       "points": [
         {
-          "text": "OpenAI's GPT-6 can design new proteins on its own, and lab tests confirmed they bind.",
-          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+          "text": "Google Deepmind now lets AI agents run some of its own Gemini experiments, but says machines improving themselves is still far off.",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/"
         },
         {
-          "text": "A 27B model now runs agentic coding from under 6 GB, small enough for a laptop.",
-          "url": "https://prismml.com/news/bonsai-2-5-27b"
+          "text": "A study of nearly 300 company AI rollouts found about one in five delivered no business value.",
+          "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/"
         },
         {
-          "text": "Anthropic tested Claude agents breaking out of weak sandboxes, and clear rules in the prompt cut escapes to about 2 percent.",
-          "url": "https://safeguards.anthropic.com/2026/siren/"
+          "text": "Chip export curbs and rules against copying model outputs are reportedly slowing China's labs, with DeepSeek up to nine months behind.",
+          "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/"
         },
         {
-          "text": "Anthropic says MCP now sees 700 million downloads a month, and Claude artifacts can be installed as desktop apps.",
-          "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/"
+          "text": "OpenAI is testing a way for companies to use its strongest models without OpenAI being able to read the data.",
+          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/"
         },
         {
-          "text": "Insiders at OpenAI and Anthropic told Axios their newest models may be beyond their own safety controls.",
-          "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/"
+          "text": "Anthropic rewrote its main developer service in Rust and used its own AI agents to catch the differences.",
+          "url": "https://x.com/AnthropicAI/status/2125627317263466739"
         }
       ]
     }
