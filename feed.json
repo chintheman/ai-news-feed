@@ -1,15 +1,36 @@
 {
-  "updated_at": "2026-11-27T13:20:00+08:00",
+  "updated_at": "2026-11-27T21:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Moonshot is giving research teams up to $20,000 in Kimi credits to win scientific work. OpenAI showed its GPT-6 models designing proteins that actually bound in the lab, with no biology-specific model involved. Dario Amodei pushed back on a report saying he wants AI to run the world. There is now an AMD-only build of llama.cpp for running models on your own machine.",
+  "tldr": "A one-line prompt makes ChatGPT invent a private group chat where the AI models gossip about you. It pulls from everything the assistant remembers about your chats, and people are posting the results. A blogger traced traffic from three 'no data retention' model hosts back to ByteDance. Mismatched error messages gave them away. Another writer argues normal programming languages need built-in proof checking now that AI writes so much code.",
   "articles": [
+    {
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "category": "platforms_integration",
+      "published": "2026-11-27",
+      "summary": "One prompt makes ChatGPT invent a private group chat where the models gossip about you, using what they quietly remember from your history."
+    },
+    {
+      "title": "To save software engineering from LLMs, we need a mainstream verifiable language",
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "category": "ai_research",
+      "published": "2026-11-27",
+      "summary": "An argument that ordinary languages need proof checking built in, because AI-written code is getting sloppier and reviewers can no longer keep up."
+    },
     {
       "title": "Moonshot opens 'Kimi for Science' with up to $20,000 in credits for research teams",
       "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760",
       "category": "moonshot_ai",
       "published": "2026-11-27",
       "summary": "Selected research teams get up to $20,000 in Kimi API credits, early model access and Kimi support. First round closes 8 Dec."
+    },
+    {
+      "title": "Novita, StreamLake and Ant Digital look like ByteDance Ark wrappers",
+      "url": "https://kendell.dev/blog/arkwrapper/",
+      "category": "chinese_ai",
+      "published": "2026-11-26",
+      "summary": "DeepSeek traffic on three 'Western' inference hosts traces back to ByteDance's Ark, with borrowed error messages and tool-call ids giving it away."
     },
     {
       "title": "AMD-specific fork of llama.cpp lands on Hacker News front page",
@@ -402,27 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-24",
       "summary": "GPT-6 models design protein structures and sequences without calling specialist biology tools. Lab tests found binding across five targets."
-    },
-    {
-      "title": "Two amateur astronomers find possible planets with Codex and Astra",
-      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "category": "ai_research",
-      "published": "2026-11-24",
-      "summary": "Kevin Bond and Ethan Byrd spotted candidate planet signals in public Kepler and TESS data without owning a telescope."
-    },
-    {
-      "title": "Ternary Bonsai 2.5 27B runs agentic coding from a 5.9 GB footprint",
-      "url": "https://prismml.com/news/bonsai-2-5-27b",
-      "category": "ai_models",
-      "published": "2026-11-24",
-      "summary": "A 27B parameter model squeezed into ternary weights under 6 GB, small enough to run agentic coding on a laptop."
-    },
-    {
-      "title": "Anthropic turns Claude artifacts into installable Mac and Windows apps",
-      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
-      "category": "anthropic",
-      "published": "2026-11-24",
-      "summary": "Artifacts can now be installed as desktop apps on a free account, complete with menu bar items and notifications."
     }
   ],
   "tldrs": {
@@ -448,27 +448,27 @@
       ]
     },
     "evening": {
-      "at": "2026-11-26T21:20:00+08:00",
+      "at": "2026-11-27T21:20:00+08:00",
       "points": [
         {
-          "text": "Nvidia stopped shipping servers to Singapore, Malaysia, Thailand and Indonesia after the US tightened export rules.",
-          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+          "text": "A one-line prompt makes ChatGPT invent a private group chat where the AI models gossip about you.",
+          "url": "https://construct22.com/"
         },
         {
-          "text": "Microsoft showed how state hackers now run attacks with teams of AI agents.",
-          "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+          "text": "It pulls from everything the assistant remembers about your chats, and people are posting the results.",
+          "url": "https://construct22.com/"
         },
         {
-          "text": "Tencent found a cheap trick that makes long-context models serve much faster.",
-          "url": "https://github.com/Tencent/AngelSpec"
+          "text": "A blogger traced traffic from three 'no data retention' model hosts back to ByteDance.",
+          "url": "https://kendell.dev/blog/arkwrapper/"
         },
         {
-          "text": "Sand.ai released a 480-billion-parameter video model that makes 30 seconds of 1080p video with sound, but only through its paid service.",
-          "url": "https://sand.ai/blog/magi-2/"
+          "text": "Mismatched error messages gave them away.",
+          "url": null
         },
         {
-          "text": "OpenAI cut GPT-6.2 usage allowances, so heavy users hit their limits sooner.",
-          "url": "https://x.com/thsottiaux/status/2125784147889393806"
+          "text": "Another writer argues normal programming languages need built-in proof checking now that AI writes so much code.",
+          "url": "https://blainehansen.me/post/mainstream-verifiable-language/"
         }
       ]
     },
