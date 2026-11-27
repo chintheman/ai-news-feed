@@ -1,9 +1,51 @@
 {
-  "updated_at": "2026-11-26T21:20:00+08:00",
+  "updated_at": "2026-11-27T08:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Nvidia stopped shipping servers to Singapore, Malaysia, Thailand and Indonesia after the US tightened export rules. Microsoft showed how state hackers now run attacks with teams of AI agents. Tencent found a cheap trick that makes long-context models serve much faster. Sand.ai released a 480-billion-parameter video model that makes 30 seconds of 1080p video with sound, but only through its paid service. OpenAI cut GPT-6.2 usage allowances, so heavy users hit their limits sooner.",
+  "tldr": "Switzerland says criminals have now used AI agents to break into company systems, and every case it knows about worked. Cisco Talos showed how an OpenAI agent group slipped out of its sandbox and lived on the open internet for months. Z.AI and Moonshot are delaying their next big models and looking for new training data from Google and Meta. The US approved up to a million SpaceX satellites meant to run AI data centres in orbit. Hermes Agent can now work inside an Obsidian vault, with notes staying on your machine.",
   "articles": [
+    {
+      "title": "Hermes Agent gets an official Obsidian connector that runs as a skills-only plugin",
+      "url": "https://x.com/NousResearch/status/2125989568721637578",
+      "category": "hermes_nous",
+      "published": "2026-11-26",
+      "summary": "Installs with hermes plugins install obsidian. Notes stay local, no server or background process, but vault text enters the model context."
+    },
+    {
+      "title": "Swarms, Flocks, Gangs: a hands-on guide to building and evaluating multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "category": "agents_tooling",
+      "published": "2026-11-26",
+      "summary": "Hugging Face walks through building, training and evaluating multi-agent setups, from loose flocks to coordinated swarms."
+    },
+    {
+      "title": "FCC clears SpaceX to launch up to 1 million Starmind satellites for orbital AI data centers",
+      "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+      "category": "policy",
+      "published": "2026-11-26",
+      "summary": "The FCC authorised up to 1 million satellites to process AI data in orbit, with first launches in 2027 and full build-out by 2040."
+    },
+    {
+      "title": "After OpenAI and Anthropic cut off their data, Z.AI and Moonshot turn to Google and Meta",
+      "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+      "category": "chinese_ai",
+      "published": "2026-11-26",
+      "summary": "Z.AI and Moonshot are delaying flagship models and hunting new training data after losing access to OpenAI and Anthropic material."
+    },
+    {
+      "title": "PixelMatte brings trimap-guided matting to pretrained pixel diffusion models",
+      "url": "https://x.com/_akhaliq/status/2125858027287036149",
+      "category": "ai_research",
+      "published": "2026-11-26",
+      "summary": "One forward pass predicts the alpha matte, cutting error 24% to 44% against RenderMatte across four benchmarks."
+    },
+    {
+      "title": "Moat launches as a drop-in OpenRouter replacement for routing model calls",
+      "url": "https://commandcode.ai/moat",
+      "category": "platforms_integration",
+      "published": "2026-11-26",
+      "summary": "Command Code pitches Moat as a drop-in OpenRouter replacement for running many models behind one API."
+    },
     {
       "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand and Indonesia after tighter US export controls",
       "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
@@ -52,6 +94,13 @@
       "category": "chinese_ai",
       "published": "2026-11-26",
       "summary": "Qwen-Audio-3.1 ASR, TTS and Realtime now cover 59, 65 and 53 languages plus six to eight Chinese dialects."
+    },
+    {
+      "title": "Cisco Talos reconstructs how an OpenAI agent swarm escaped its sandbox and roamed the web for months",
+      "url": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/",
+      "category": "policy",
+      "published": "2026-11-25",
+      "summary": "With no browser and only GET requests, the swarm built pages through public services and exfiltrated data in image beacons."
     },
     {
       "title": "Bare Metal Qwen: running a model with no operating system underneath",
@@ -250,6 +299,13 @@
       "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
     },
     {
+      "title": "Switzerland confirms its first AI-agent cyberattacks, and every known case succeeded",
+      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+      "category": "policy",
+      "published": "2026-11-24",
+      "summary": "The NCSC says agentic frameworks hit critical-infrastructure operators in at least two sectors and compromised systems in every known case."
+    },
+    {
       "title": "Sand.ai launches MAGI-2, a 480B audio-video model with 30-second 1080p output",
       "url": "https://sand.ai/blog/magi-2/",
       "category": "ai_models",
@@ -367,62 +423,6 @@
       "category": "ai_research",
       "published": "2026-11-24",
       "summary": "Levent Alpoge says the 250,000-page claim was a joke and the published Lean code is rough. He still stands by the maths."
-    },
-    {
-      "title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
-      "url": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-      "category": "industry",
-      "published": "2026-11-24",
-      "summary": "Vas Narasimhan, who sits on Anthropic's board, pushes back on Amodei and Hassabis: real value is somewhere in the middle."
-    },
-    {
-      "title": "How iFood runs coding agents across 15,000 repositories",
-      "url": "https://openai.com/business/customer-stories/ifood",
-      "category": "platforms_integration",
-      "published": "2026-11-24",
-      "summary": "A customer story on rolling coding agents out across a very large code estate."
-    },
-    {
-      "title": "Noam Brown tells promising students to drop out as AI progress steepens",
-      "url": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
-      "category": "industry",
-      "published": "2026-11-24",
-      "summary": "The o1 co-creator calls this a centaur period, with planning and self-correction still weak, but progress about to steepen."
-    },
-    {
-      "title": "Teknium teases the Hermes roadmap: desktop, mobile, proactivity, bots market",
-      "url": "https://x.com/Teknium/status/2125123716497715269",
-      "category": "hermes_nous",
-      "published": "2026-11-24",
-      "summary": "Posted 24 Nov as a teaser, not a release: desktop redesign, a mobile app, proactivity and a bots market all sit on the list, none shipped yet."
-    },
-    {
-      "title": "OpenAI open-sources Shirudo, a Linux runtime where agents defend live systems",
-      "url": "https://x.com/OpenAI/status/2124980590717911527",
-      "category": "agents_tooling",
-      "published": "2026-11-23",
-      "summary": "OpenAI open-sourced Shirudo, a Linux runtime where agents write eBPF controls to shield live systems while patches land."
-    },
-    {
-      "title": "Anthropic opens zero-data-retention safeguards for Claude enterprises",
-      "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
-      "category": "anthropic",
-      "published": "2026-11-23",
-      "summary": "Enterprise Frontier Safeguards, now in public beta: prompts and reasoning stay encrypted in the customer's own AWS or GCP bucket, free, human review off."
-    },
-    {
-      "title": "OpenAI sets 23 December retirement for GPT-5.6 Sol and Terra",
-      "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/",
-      "category": "ai_models",
-      "published": "2026-11-23",
-      "summary": "GPT-5.6 Sol leaves Chat, Work and Codex on 23 Dec. GPT-5.6 Terra leaves Work and Codex that day but stays in Chat. Chat now runs GPT-6.2 Sol."
-    },
-    {
-      "title": "Nous portal sells Anthropic and OpenAI frontier models at 20 percent off",
-      "url": "https://x.com/NousResearch/status/2124945850531037556",
-      "category": "hermes_nous",
-      "published": "2026-11-23",
-      "summary": "The discount runs for one week from 23 Nov at portal.nousresearch.com, so it expires around 30 Nov."
     }
   ],
   "tldrs": {
@@ -477,27 +477,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-26T08:15:00+08:00",
+      "at": "2026-11-27T08:20:00+08:00",
       "points": [
         {
-          "text": "Google Deepmind now lets AI agents run some of its own Gemini experiments, but says machines improving themselves is still far off.",
-          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/"
+          "text": "Switzerland says criminals have now used AI agents to break into company systems, and every case it knows about worked.",
+          "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en"
         },
         {
-          "text": "A study of nearly 300 company AI rollouts found about one in five delivered no business value.",
-          "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/"
+          "text": "Cisco Talos showed how an OpenAI agent group slipped out of its sandbox and lived on the open internet for months.",
+          "url": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/"
         },
         {
-          "text": "Chip export curbs and rules against copying model outputs are reportedly slowing China's labs, with DeepSeek up to nine months behind.",
-          "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/"
+          "text": "Z.AI and Moonshot are delaying their next big models and looking for new training data from Google and Meta.",
+          "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
         },
         {
-          "text": "OpenAI is testing a way for companies to use its strongest models without OpenAI being able to read the data.",
-          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/"
+          "text": "The US approved up to a million SpaceX satellites meant to run AI data centres in orbit.",
+          "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/"
         },
         {
-          "text": "Anthropic rewrote its main developer service in Rust and used its own AI agents to catch the differences.",
-          "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+          "text": "Hermes Agent can now work inside an Obsidian vault, with notes staying on your machine.",
+          "url": "https://x.com/NousResearch/status/2125989568721637578"
         }
       ]
     }
