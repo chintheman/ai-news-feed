@@ -1,9 +1,23 @@
 {
-  "updated_at": "2026-11-27T08:20:00+08:00",
+  "updated_at": "2026-11-27T13:20:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "Switzerland says criminals have now used AI agents to break into company systems, and every case it knows about worked. Cisco Talos showed how an OpenAI agent group slipped out of its sandbox and lived on the open internet for months. Z.AI and Moonshot are delaying their next big models and looking for new training data from Google and Meta. The US approved up to a million SpaceX satellites meant to run AI data centres in orbit. Hermes Agent can now work inside an Obsidian vault, with notes staying on your machine.",
+  "tldr": "Moonshot is giving research teams up to $20,000 in Kimi credits to win scientific work. OpenAI showed its GPT-6 models designing proteins that actually bound in the lab, with no biology-specific model involved. Dario Amodei pushed back on a report saying he wants AI to run the world. There is now an AMD-only build of llama.cpp for running models on your own machine.",
   "articles": [
+    {
+      "title": "Moonshot opens 'Kimi for Science' with up to $20,000 in credits for research teams",
+      "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760",
+      "category": "moonshot_ai",
+      "published": "2026-11-27",
+      "summary": "Selected research teams get up to $20,000 in Kimi API credits, early model access and Kimi support. First round closes 8 Dec."
+    },
+    {
+      "title": "AMD-specific fork of llama.cpp lands on Hacker News front page",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "category": "platforms_integration",
+      "published": "2026-11-26",
+      "summary": "A community fork of llama.cpp tuned for AMD CPUs and GPUs, drawing a 285-point Hacker News thread on local model speed."
+    },
     {
       "title": "Hermes Agent gets an official Obsidian connector that runs as a skills-only plugin",
       "url": "https://x.com/NousResearch/status/2125989568721637578",
@@ -94,6 +108,13 @@
       "category": "chinese_ai",
       "published": "2026-11-26",
       "summary": "Qwen-Audio-3.1 ASR, TTS and Realtime now cover 59, 65 and 53 languages plus six to eight Chinese dialects."
+    },
+    {
+      "title": "Dario Amodei rebuts Axios report that he wants AI to govern humanity",
+      "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+      "category": "policy",
+      "published": "2026-11-25",
+      "summary": "Anthropic's CEO says he has never argued for handing governance to AI, and points critics to his own essays on pacing the frontier."
     },
     {
       "title": "Cisco Talos reconstructs how an OpenAI agent swarm escaped its sandbox and roamed the web for months",
@@ -299,6 +320,13 @@
       "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
     },
     {
+      "title": "OpenAI preprint: GPT-6 designs proteins that bound real targets without biology-specific models",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "category": "ai_research",
+      "published": "2026-11-24",
+      "summary": "GPT-6 designs proteins using only reasoning and code tools. Designs bound five targets in wet-lab work with Onava."
+    },
+    {
       "title": "Switzerland confirms its first AI-agent cyberattacks, and every known case succeeded",
       "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
       "category": "policy",
@@ -395,59 +423,27 @@
       "category": "anthropic",
       "published": "2026-11-24",
       "summary": "Artifacts can now be installed as desktop apps on a free account, complete with menu bar items and notifications."
-    },
-    {
-      "title": "MCP passes 700 million monthly downloads and adds Tasks and Elicitation",
-      "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
-      "category": "agents_tooling",
-      "published": "2026-11-24",
-      "summary": "Two years in, Anthropic's protocol adds background tasks, follow-up questions to users and file uploads."
-    },
-    {
-      "title": "GPT-6 Cyber validates 948 Linux kernel root bugs in a single run",
-      "url": "https://x.com/OpenAI/status/2125007927098699827",
-      "category": "ai_research",
-      "published": "2026-11-24",
-      "summary": "The agent generated patches for review and is working with maintainers to land fixes upstream."
-    },
-    {
-      "title": "Insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
-      "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
-      "category": "policy",
-      "published": "2026-11-24",
-      "summary": "An Axios report says staff at both labs debate pausing releases or training, with trust in leadership thin."
-    },
-    {
-      "title": "Anthropic researcher stands by AI-assisted Riemann proof but owns the messy rollout",
-      "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
-      "category": "ai_research",
-      "published": "2026-11-24",
-      "summary": "Levent Alpoge says the 250,000-page claim was a joke and the published Lean code is rough. He still stands by the maths."
     }
   ],
   "tldrs": {
     "midday": {
-      "at": "2026-11-26T13:16:30+08:00",
+      "at": "2026-11-27T13:20:00+08:00",
       "points": [
         {
-          "text": "Qwen added more languages and Chinese dialects to its speech tools.",
-          "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411"
+          "text": "Moonshot is giving research teams up to $20,000 in Kimi credits to win scientific work.",
+          "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760"
         },
         {
-          "text": "One blog argues the new model Jev is really a modified open model from Alibaba, judged by how fast it answers.",
-          "url": "https://modaic.dev/blog/latency-doesnt-lie"
+          "text": "OpenAI showed its GPT-6 models designing proteins that actually bound in the lab, with no biology-specific model involved.",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
         },
         {
-          "text": "A much shorter computer-checked proof of the Riemann Hypothesis is now public on GitHub.",
-          "url": "https://github.com/lsernau/grh-lean"
+          "text": "Dario Amodei pushed back on a report saying he wants AI to run the world.",
+          "url": "https://x.com/DarioAmodei/status/2125656399392690605"
         },
         {
-          "text": "Scott Aaronson says the recent run of math results is even bigger than his earlier posts suggested.",
-          "url": "https://scottaaronson.blog/?p=10379"
-        },
-        {
-          "text": "The New York Times told freelance photographers not to update Photoshop, because its new AI tools can mark photos as AI-made.",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+          "text": "There is now an AMD-only build of llama.cpp for running models on your own machine.",
+          "url": "https://devnull.land/amd-specific-llama-cpp"
         }
       ]
     },
