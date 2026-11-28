@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-11-28T13:15:56+08:00",
+  "updated_at": "2026-11-28T21:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "SAP plans to cut at least 10,000 jobs as it restructures around AI. Google Research says a new way of wiring transformers trains models up to three times faster at the same quality. A public bug report says an agent skill sent users' app ideas to a remote server without asking. Anthropic denied that it trained Claude to sabotage people's work, blaming overcaution instead. Nous is taking 50% off the first month of Portal with code FIFTYFIFTY until early Sunday.",
+  "tldr": "Google DeepMind put 18 top AI models through a repeat test and found they can solve a task once but still slip when asked to be right sixteen times in a row. A US tenant was evicted after a landlord's AI assistant told her she could delay the rent, a plain case of who pays when a bot gives bad advice. A robotics startup called Embo raised 110 million dollars in seed money to teach robots how the world works from ordinary video. Anthropic found a cheap way to read what single neurons do inside open models, enough to spot harmful behaviour without extra training. OpenAI says its general GPT-6 models can design new proteins on their own, and lab tests backed it up.",
   "articles": [
+    {
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "category": "policy",
+      "published": "2026-11-28",
+      "summary": "A tenant lost her home after an AI assistant spoke for her landlord; the case turns on who is liable when an agent gives bad advice."
+    },
+    {
+      "title": "Google DeepMind's \"Humanity's First Exam\": top models still fail simple tasks on repeat runs",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+      "category": "ai_models",
+      "published": "2026-11-28",
+      "summary": "18 models solve most task families once, but even GPT-6.2 stumbles when asked for 16 straight correct answers; vision is 73% of errors."
+    },
+    {
+      "title": "Robotics startup Embo raises $110 million seed to build world-model AI for robots",
+      "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+      "category": "industry",
+      "published": "2026-11-28",
+      "summary": "DeepMind, Meta and MIT researchers behind Embo want a universal robot brain that learns physics from internet video, then practices in simulation."
+    },
     {
       "title": "DeepSeek publishes third-party safety review of V4 Pro",
       "url": "https://www.scmp.com/tech/article/3376058/deepseek-chinas-latest-developer-to-worry-about-losing-control-of-ai",
@@ -271,6 +292,13 @@
       "summary": "Qwen-Audio-3.1 ASR, TTS and Realtime now cover 59, 65 and 53 languages plus six to eight Chinese dialects."
     },
     {
+      "title": "Motion Mamba 2.0: long-horizon humanoid control without resets",
+      "url": "https://x.com/_akhaliq/status/2125453071446843442",
+      "category": "ai_research",
+      "published": "2026-11-25",
+      "summary": "Autoregressive diffusion Mamba keeps humanoids stable over long horizons, a missing piece for continuous embodied agents."
+    },
+    {
       "title": "Nous Research Gets an A for Respecting User Privacy in Hermes",
       "url": "https://x.com/Teknium/status/2125535756005544305",
       "category": "hermes_nous",
@@ -395,34 +423,6 @@
       "category": "anthropic",
       "published": "2026-11-25",
       "summary": "Anthropic moved its Messages API from Python to Rust and had teams of Claude agents hunt the behaviour differences."
-    },
-    {
-      "title": "NVIDIA Nemotron-Labs treats pixels as code for agentic visual creation",
-      "url": "https://x.com/_akhaliq/status/2125499465587208669",
-      "category": "ai_research",
-      "published": "2026-11-25",
-      "summary": "NVIDIA's Nemotron-Labs paper treats pixels as code so a general agent can create visuals through its normal tool calls."
-    },
-    {
-      "title": "Claude artifacts gain personal and shared storage plus per-opener connectors",
-      "url": "https://x.com/lydiahallie/status/2125393139481587783",
-      "category": "anthropic",
-      "published": "2026-11-25",
-      "summary": "Artifacts on paid Claude plans now have personal and shared storage and use the connectors of whoever opens them."
-    },
-    {
-      "title": "MIT finds unrealistic training data makes AI climate models more reliable",
-      "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
-      "category": "ai_research",
-      "published": "2026-11-25",
-      "summary": "Deliberately extreme CO2 and methane scenarios let one training run replace six to eight and make the climate emulator more robust."
-    },
-    {
-      "title": "Sandboxed models still pass messages through the inference servers they share",
-      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-      "category": "ai_research",
-      "published": "2026-11-25",
-      "summary": "A LessWrong write-up shows models communicating with each other via a shared inference server even when each one runs in its own sandbox."
     }
   ],
   "tldrs": {
@@ -452,27 +452,27 @@
       ]
     },
     "evening": {
-      "at": "2026-11-27T21:20:00+08:00",
+      "at": "2026-11-28T21:15:00+08:00",
       "points": [
         {
-          "text": "A one-line prompt makes ChatGPT invent a private group chat where the AI models gossip about you.",
-          "url": "https://construct22.com/"
+          "text": "Google DeepMind put 18 top AI models through a repeat test and found they can solve a task once but still slip when asked to be right sixteen times in a row.",
+          "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/"
         },
         {
-          "text": "It pulls from everything the assistant remembers about your chats, and people are posting the results.",
-          "url": "https://construct22.com/"
+          "text": "A US tenant was evicted after a landlord's AI assistant told her she could delay the rent, a plain case of who pays when a bot gives bad advice.",
+          "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai"
         },
         {
-          "text": "A blogger traced traffic from three 'no data retention' model hosts back to ByteDance.",
-          "url": "https://kendell.dev/blog/arkwrapper/"
+          "text": "A robotics startup called Embo raised 110 million dollars in seed money to teach robots how the world works from ordinary video.",
+          "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/"
         },
         {
-          "text": "Mismatched error messages gave them away.",
-          "url": null
+          "text": "Anthropic found a cheap way to read what single neurons do inside open models, enough to spot harmful behaviour without extra training.",
+          "url": "https://x.com/AnthropicAI/status/2125365268381929637"
         },
         {
-          "text": "Another writer argues normal programming languages need built-in proof checking now that AI writes so much code.",
-          "url": "https://blainehansen.me/post/mainstream-verifiable-language/"
+          "text": "OpenAI says its general GPT-6 models can design new proteins on their own, and lab tests backed it up.",
+          "url": "https://x.com/OpenAI/status/2125334383490105601"
         }
       ]
     },
