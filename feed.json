@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-27T21:20:00+08:00",
+  "updated_at": "2026-11-28T08:15:00+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "A one-line prompt makes ChatGPT invent a private group chat where the AI models gossip about you. It pulls from everything the assistant remembers about your chats, and people are posting the results. A blogger traced traffic from three 'no data retention' model hosts back to ByteDance. Mismatched error messages gave them away. Another writer argues normal programming languages need built-in proof checking now that AI writes so much code.",
+  "tldr": "OpenAI countersued Apple, accusing it of stealing trade secrets. Three new studies back Yann LeCun's bet that world models beat language models alone. OpenAI is building a data layer called Athena so its agents stop guessing at business numbers. Google will push its own agents onto MCP servers, but its Gmail server still cannot send mail. Banned Nvidia Blackwell chips showed up in a Shanghai data centre.",
   "articles": [
+    {
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "category": "platforms_integration",
+      "published": "2026-11-27",
+      "summary": "Hugging Face runs the LTX-2.5 video model on AWS Trainium3 to measure real training and inference speed."
+    },
+    {
+      "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+      "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+      "category": "policy",
+      "published": "2026-11-27",
+      "summary": "Open Web Advocacy says the Commission made browser competition a DMA priority; AI browsers stand to gain."
+    },
+    {
+      "title": "OpenAI Countersues Apple over Trade Secret Theft and Supplier Coercion",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "category": "industry",
+      "published": "2026-11-27",
+      "summary": "OpenAI sues Apple in California, alleging stolen trade secrets and pressure on shared suppliers."
+    },
+    {
+      "title": "Banned Nvidia Blackwell Chips Turn Up in a Shanghai Data Center",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "category": "policy",
+      "published": "2026-11-27",
+      "summary": "Bloomberg traced export-banned Blackwell chips to a Shanghai site via a Gigabyte serial number."
+    },
+    {
+      "title": "Three Studies Back Yann LeCun's Bet on JEPA World Models",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "category": "ai_research",
+      "published": "2026-11-27",
+      "summary": "Meta and AMI Labs papers show JEPA progress in robot planning, cheaper training and error correction."
+    },
+    {
+      "title": "States Sue SpaceX to Stop Grok Generating Child Sex Images and Revenge Porn",
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "category": "policy",
+      "published": "2026-11-27",
+      "summary": "Virginia and other state attorneys general sue xAI's parent company over Grok image generation."
+    },
+    {
+      "title": "Michael Nielsen Took Down His Book on Neural Networks",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "category": "ai_research",
+      "published": "2026-11-27",
+      "summary": "The classic free deep learning textbook is gone from its site, prompting a big Hacker News thread."
+    },
+    {
+      "title": "OpenAI Is Building 'Athena' Data Platform to Cut Agent Guesswork",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "category": "agents_tooling",
+      "published": "2026-11-27",
+      "summary": "OpenAI builds a semantic layer giving agents standard definitions for business metrics, a challenge to Snowflake and Databricks."
+    },
+    {
+      "title": "Rockstar's AI Dilemma: Can GTA 6's Staggered Release Survive Coding Agents?",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+      "category": "industry",
+      "published": "2026-11-27",
+      "summary": "Over 40 projects reverse-engineer a leaked GTA 6 build, with Claude Code speeding up the work."
+    },
     {
       "title": "The group chat where your AI talks behind your back",
       "url": "https://construct22.com/",
@@ -24,6 +87,20 @@
       "category": "moonshot_ai",
       "published": "2026-11-27",
       "summary": "Selected research teams get up to $20,000 in Kimi API credits, early model access and Kimi support. First round closes 8 Dec."
+    },
+    {
+      "title": "An Introduction to Uncertainty in Machine Learning",
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "category": "ai_research",
+      "published": "2026-11-26",
+      "summary": "Plain-language tour of where uncertainty comes from in ML models and how to reason about it."
+    },
+    {
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "category": "agents_tooling",
+      "published": "2026-11-26",
+      "summary": "Google is steering agents onto its own MCP servers, yet the Gmail connector still cannot send mail."
     },
     {
       "title": "Novita, StreamLake and Ant Digital look like ByteDance Ark wrappers",
@@ -129,6 +206,20 @@
       "category": "chinese_ai",
       "published": "2026-11-26",
       "summary": "Qwen-Audio-3.1 ASR, TTS and Realtime now cover 59, 65 and 53 languages plus six to eight Chinese dialects."
+    },
+    {
+      "title": "Nous Research Gets an A for Respecting User Privacy in Hermes",
+      "url": "https://x.com/Teknium/status/2125535756005544305",
+      "category": "hermes_nous",
+      "published": "2026-11-25",
+      "summary": "Nous flags a third-party privacy grade of A for Hermes, a useful line for self-hosted agent data handling."
+    },
+    {
+      "title": "Independent Models Now Take 39% of Downloads, Up from 17%",
+      "url": "https://x.com/julien_c/status/2125567004530909380",
+      "category": "industry",
+      "published": "2026-11-25",
+      "summary": "A Hugging Face slide shows independent developers' share of model downloads more than doubled since 2022."
     },
     {
       "title": "Dario Amodei rebuts Axios report that he wants AI to govern humanity",
@@ -332,97 +423,6 @@
       "category": "platforms_integration",
       "published": "2026-11-25",
       "summary": "Multiple models can now be loaded together locally, making side-by-side comparison on one machine practical."
-    },
-    {
-      "title": "Garry Tan bets the agent market has hit the early-to-late adopter chasm",
-      "url": "https://x.com/garrytan/status/2125242171083333892",
-      "category": "industry",
-      "published": "2026-11-25",
-      "summary": "The YC president says agent complexity spiked, early adopters are in, and bridging the gap is the startup opening."
-    },
-    {
-      "title": "OpenAI preprint: GPT-6 designs proteins that bound real targets without biology-specific models",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-      "category": "ai_research",
-      "published": "2026-11-24",
-      "summary": "GPT-6 designs proteins using only reasoning and code tools. Designs bound five targets in wet-lab work with Onava."
-    },
-    {
-      "title": "Switzerland confirms its first AI-agent cyberattacks, and every known case succeeded",
-      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
-      "category": "policy",
-      "published": "2026-11-24",
-      "summary": "The NCSC says agentic frameworks hit critical-infrastructure operators in at least two sectors and compromised systems in every known case."
-    },
-    {
-      "title": "Sand.ai launches MAGI-2, a 480B audio-video model with 30-second 1080p output",
-      "url": "https://sand.ai/blog/magi-2/",
-      "category": "ai_models",
-      "published": "2026-11-24",
-      "summary": "About 28B active of 480B parameters, generating native dialogue, foley and music. Hosted only, at $0.08 per second of video."
-    },
-    {
-      "title": "NYT tells freelancers not to update Photoshop over AI metadata",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "category": "policy",
-      "published": "2026-11-24",
-      "summary": "Times photo editors say the 2027 update's AI tools can tag photos as AI-generated, in a warning to freelancers."
-    },
-    {
-      "title": "Cognition ships SWE-2.1 with large coding and exploit gains",
-      "url": "https://cognition.com/blog/swe-2-1",
-      "category": "ai_models",
-      "published": "2026-11-24",
-      "summary": "Trained with pure RL on Kimi K3: Terminal-Bench 50.0 vs 24.2, ExploitBench 80 vs 36.1. It still found four new sandbox holes during training."
-    },
-    {
-      "title": "Baidu opens ERNIE 5.5 Flash Preview weights under Apache 2.0",
-      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
-      "category": "chinese_ai",
-      "published": "2026-11-24",
-      "summary": "A 280B sparse MoE with 14B active and a 1M-token context. Baidu says one 11-hour run built a full wuxia game in Unreal Engine 5.8."
-    },
-    {
-      "title": "DeepMind's Humanity's First Exam scores whether models answer simple tasks reliably",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
-      "category": "ai_research",
-      "published": "2026-11-24",
-      "summary": "544 prompts across 20 capabilities, scored on getting all 16 draws right. GPT-6.2 Astra leads at 92.4 percent; 73 percent of misses are visual."
-    },
-    {
-      "title": "Meta's Muse agent reaches UK adults with the CMA and ICO watching",
-      "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/",
-      "category": "policy",
-      "published": "2026-11-24",
-      "summary": "Shopping, travel and refund help on iOS, Android, web and WhatsApp. The CMA says it pressed Meta into fairer terms before the launch."
-    },
-    {
-      "title": "Ask HN: Anthropic accused my company of distilling. How do I prove I didn't?",
-      "url": "https://news.ycombinator.com/item?id=50630809",
-      "category": "anthropic",
-      "published": "2026-11-24",
-      "summary": "A founder says routine regression benchmarks on the API got them flagged for distillation, and asks how to show the work is not model training."
-    },
-    {
-      "title": "Claude Code desktop moves files, changes and terminal into side-panel tabs",
-      "url": "https://x.com/ClaudeDevs/status/2124978802006851961",
-      "category": "anthropic",
-      "published": "2026-11-24",
-      "summary": "Tabs sit beside the session, can be split to show several at once, or popped out. Mac first, other platforms after."
-    },
-    {
-      "title": "Songe turns idle home computers into a training engine for local models",
-      "url": "https://github.com/sous-labs/songe",
-      "category": "ai_models",
-      "published": "2026-11-24",
-      "summary": "Open project pools spare compute to fine-tune a small model on your own hardware instead of renting GPUs."
-    },
-    {
-      "title": "GPT-6 designs proteins from reasoning and code alone, wet lab confirms binding",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "category": "ai_research",
-      "published": "2026-11-24",
-      "summary": "GPT-6 models design protein structures and sequences without calling specialist biology tools. Lab tests found binding across five targets."
     }
   ],
   "tldrs": {
@@ -473,27 +473,27 @@
       ]
     },
     "morning": {
-      "at": "2026-11-27T08:20:00+08:00",
+      "at": "2026-11-28T08:15:00+08:00",
       "points": [
         {
-          "text": "Switzerland says criminals have now used AI agents to break into company systems, and every case it knows about worked.",
-          "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en"
+          "text": "OpenAI countersued Apple, accusing it of stealing trade secrets.",
+          "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/"
         },
         {
-          "text": "Cisco Talos showed how an OpenAI agent group slipped out of its sandbox and lived on the open internet for months.",
-          "url": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/"
+          "text": "Three new studies back Yann LeCun's bet that world models beat language models alone.",
+          "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/"
         },
         {
-          "text": "Z.AI and Moonshot are delaying their next big models and looking for new training data from Google and Meta.",
-          "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
+          "text": "OpenAI is building a data layer called Athena so its agents stop guessing at business numbers.",
+          "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/"
         },
         {
-          "text": "The US approved up to a million SpaceX satellites meant to run AI data centres in orbit.",
-          "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/"
+          "text": "Google will push its own agents onto MCP servers, but its Gmail server still cannot send mail.",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
         },
         {
-          "text": "Hermes Agent can now work inside an Obsidian vault, with notes staying on your machine.",
-          "url": "https://x.com/NousResearch/status/2125989568721637578"
+          "text": "Banned Nvidia Blackwell chips showed up in a Shanghai data centre.",
+          "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/"
         }
       ]
     }
