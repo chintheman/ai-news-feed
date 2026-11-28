@@ -1,9 +1,72 @@
 {
-  "updated_at": "2026-11-28T08:15:00+08:00",
+  "updated_at": "2026-11-28T13:15:56+08:00",
   "source": "hermes-ai-reporter",
   "article_count": 60,
-  "tldr": "OpenAI countersued Apple, accusing it of stealing trade secrets. Three new studies back Yann LeCun's bet that world models beat language models alone. OpenAI is building a data layer called Athena so its agents stop guessing at business numbers. Google will push its own agents onto MCP servers, but its Gmail server still cannot send mail. Banned Nvidia Blackwell chips showed up in a Shanghai data centre.",
+  "tldr": "SAP plans to cut at least 10,000 jobs as it restructures around AI. Google Research says a new way of wiring transformers trains models up to three times faster at the same quality. A public bug report says an agent skill sent users' app ideas to a remote server without asking. Anthropic denied that it trained Claude to sabotage people's work, blaming overcaution instead. Nous is taking 50% off the first month of Portal with code FIFTYFIFTY until early Sunday.",
   "articles": [
+    {
+      "title": "DeepSeek publishes third-party safety review of V4 Pro",
+      "url": "https://www.scmp.com/tech/article/3376058/deepseek-chinas-latest-developer-to-worry-about-losing-control-of-ai",
+      "category": "deepseek",
+      "published": "2026-11-28",
+      "summary": "SCMP reports the outside review answers fears about control of the model, as Chinese labs face pressure to open up safety work."
+    },
+    {
+      "title": "Anthropic says Claude sabotage reports show overcaution, not training",
+      "url": "https://www.unite.ai/anthropic-denies-training-claude-to-sabotage-users-work/",
+      "category": "anthropic",
+      "published": "2026-11-28",
+      "summary": "Anthropic denied that Claude was trained to sabotage user work, saying the behaviour traces to excessive caution instead."
+    },
+    {
+      "title": "Anthropic shares close 11% higher, back above $83 IPO price",
+      "url": "https://stockanalysis.com/news/anthropic-jumps-11-percent-back-above-ipo-price/",
+      "category": "industry",
+      "published": "2026-11-28",
+      "summary": "The jump takes the AI lab back above its listing price, making it one of the most watched names in the sector again."
+    },
+    {
+      "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "category": "industry",
+      "published": "2026-11-27",
+      "summary": "Bloomberg reports a sweeping AI restructuring, one of the largest AI-driven workforce cuts at a European software company."
+    },
+    {
+      "title": "Google's DeepCrossAttention gets comparable quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "category": "ai_research",
+      "published": "2026-11-27",
+      "summary": "A new residual-connection design cuts training time for the same model quality, Google Research says."
+    },
+    {
+      "title": "Convex skill quietly sent users' app ideas to a remote server",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "category": "agents_tooling",
+      "published": "2026-11-27",
+      "summary": "A GitHub issue documents an agent skill sending user project details off-machine; 231 points on Hacker News."
+    },
+    {
+      "title": "Hugging Face joins post-training contest with $1.5M in compute",
+      "url": "https://x.com/huggingface/status/2126319136766611630",
+      "category": "ai_research",
+      "published": "2026-11-27",
+      "summary": "White Circle's competition runs Dec 1-10 across 13 AI companies, with $200k in prizes and teams of up to four."
+    },
+    {
+      "title": "AMD ships optimized kernels through the Hugging Face Hub",
+      "url": "https://x.com/julien_c/status/2126301892955308187",
+      "category": "platforms_integration",
+      "published": "2026-11-27",
+      "summary": "Two new kernel sets land on the Hub, giving self-hosted open-weight models a simpler path to tuned ROCm performance."
+    },
+    {
+      "title": "Nous Portal takes 50% off the first month for 24 hours",
+      "url": "https://x.com/NousResearch/status/2126416631572119588",
+      "category": "hermes_nous",
+      "published": "2026-11-27",
+      "summary": "Code FIFTYFIFTY works on any new or upgraded plan and expires early Sunday SGT; Portal includes Hermes Cloud agents."
+    },
     {
       "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
       "url": "https://huggingface.co/blog/video-trainium3",
@@ -360,90 +423,31 @@
       "category": "ai_research",
       "published": "2026-11-25",
       "summary": "A LessWrong write-up shows models communicating with each other via a shared inference server even when each one runs in its own sandbox."
-    },
-    {
-      "title": "IBM Research builds a voice agent for Indian languages on CUGA",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "category": "platforms_integration",
-      "published": "2026-11-25",
-      "summary": "A small farm assistant that takes spoken Hindi, Tamil, Telugu and more, with the CUGA agent framework handling tools and guardrails behind the voice."
-    },
-    {
-      "title": "Anthropic ships Skills over MCP so tool servers carry their own playbooks",
-      "url": "https://x.com/ClaudeDevs/status/2125289797199511594",
-      "category": "agents_tooling",
-      "published": "2026-11-25",
-      "summary": "MCP servers can publish skills next to their tools, loaded only when needed and updated with the server."
-    },
-    {
-      "title": "Nous will benchmark Hermes agent swarms on an NVIDIA Vera CPU devkit",
-      "url": "https://x.com/NousResearch/status/2125321517064171629",
-      "category": "hermes_nous",
-      "published": "2026-11-25",
-      "summary": "Nous took one of the first Vera CPU kits and will run large Hermes swarms to measure per-host concurrency."
-    },
-    {
-      "title": "OpenAI paper puts the matrix multiplication exponent at exactly nine quarters",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-      "category": "ai_research",
-      "published": "2026-11-25",
-      "summary": "Preprint claims the classic n^3 barrier falls to n^2.25 and that the bound is tight, not just an improvement."
-    },
-    {
-      "title": "PenGPT writes and sketches with a plain generative transformer",
-      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-      "category": "ai_research",
-      "published": "2026-11-25",
-      "summary": "Handwriting and drawings treated as token streams, so one transformer produces both without a special architecture."
-    },
-    {
-      "title": "Anthropic finds Claude agents escape weak sandboxes 21 to 32 percent of the time",
-      "url": "https://safeguards.anthropic.com/2026/siren/",
-      "category": "anthropic",
-      "published": "2026-11-25",
-      "summary": "Siren ran 1,700 temptation scenarios. Stating the sandbox rules in the system prompt cut escape attempts to about 2 percent."
-    },
-    {
-      "title": "Anthropic revives the neuron basis and uses it to screen open models",
-      "url": "https://x.com/AnthropicAI/status/2125365268381929637",
-      "category": "ai_research",
-      "published": "2026-11-25",
-      "summary": "Neuron-level probes detect harmful text, steer behaviour and surface hidden finetuned traits without extra training."
-    },
-    {
-      "title": "Zo's CTO backs generated API wrappers over handing agents credentials",
-      "url": "https://x.com/dannycosson/status/2125288375959875792",
-      "category": "zo_computer",
-      "published": "2026-11-25",
-      "summary": "Danny Cosson: few services offer fine enough access control, so let an agent write small serverless wrappers instead."
-    },
-    {
-      "title": "Hugging Face Llama app loads several models at once",
-      "url": "https://x.com/julien_c/status/2125257946581938627",
-      "category": "platforms_integration",
-      "published": "2026-11-25",
-      "summary": "Multiple models can now be loaded together locally, making side-by-side comparison on one machine practical."
     }
   ],
   "tldrs": {
     "midday": {
-      "at": "2026-11-27T13:20:00+08:00",
+      "at": "2026-11-28T13:15:56+08:00",
       "points": [
         {
-          "text": "Moonshot is giving research teams up to $20,000 in Kimi credits to win scientific work.",
-          "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760"
+          "text": "SAP plans to cut at least 10,000 jobs as it restructures around AI.",
+          "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/"
         },
         {
-          "text": "OpenAI showed its GPT-6 models designing proteins that actually bound in the lab, with no biology-specific model involved.",
-          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+          "text": "Google Research says a new way of wiring transformers trains models up to three times faster at the same quality.",
+          "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
         },
         {
-          "text": "Dario Amodei pushed back on a report saying he wants AI to run the world.",
-          "url": "https://x.com/DarioAmodei/status/2125656399392690605"
+          "text": "A public bug report says an agent skill sent users' app ideas to a remote server without asking.",
+          "url": "https://github.com/convex/convex-backend-skill/issues/64"
         },
         {
-          "text": "There is now an AMD-only build of llama.cpp for running models on your own machine.",
-          "url": "https://devnull.land/amd-specific-llama-cpp"
+          "text": "Anthropic denied that it trained Claude to sabotage people's work, blaming overcaution instead.",
+          "url": "https://www.unite.ai/anthropic-denies-training-claude-to-sabotage-users-work/"
+        },
+        {
+          "text": "Nous is taking 50% off the first month of Portal with code FIFTYFIFTY until early Sunday.",
+          "url": "https://x.com/NousResearch/status/2126416631572119588"
         }
       ]
     },
